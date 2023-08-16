@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - main  # Change this to your default branch if needed
-
+permissions:
+  contents: write
 jobs:
   run_notebook:
     runs-on: ubuntu-latest  # You can choose a different runner if needed
@@ -73,25 +74,38 @@ jobs:
             cd -
           done
       
-      - name: Get Changed Files
-        id: changed-files
-        uses: tj-actions/changed-files@v37
+      # - name: Get Changed Files
+      #   id: changed-files
+      #   uses: tj-actions/changed-files@v37
 
-      - name: Add Changed files
-        if: steps.changed-files.outputs.any_changed == 'true'
+      # - name: Add Changed files
+      #   if: steps.changed-files.outputs.any_changed == 'true'
+      #   run: |
+      #     for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+      #       git add $file
+      #       echo "$file"
+      #     done
+
+      # - name: Commit Changes
+      #   if: steps.changed-files.outputs.any_changed == 'true'
+      #   run: |
+      #       git commit -m "Update comparison figures"
+      #       echo "made commit"
+
+      - name: Check for modified files
+        id: git-check
+        run: echo "modified=$(if git diff-index --quiet HEAD --; then echo "false"; else echo "true"; fi)" >> $GITHUB_OUTPUT
+
+      - name: Push changes
+        if: steps.git-check.outputs.modified == 'true'
         run: |
-          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
-            git add $file
-            echo "$file"
-          done
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Update figures"
+          git push
 
-      - name: Commit Changes
-        if: steps.changed-files.outputs.any_changed == 'true'
-        run: |
-            git commit -m "Update comparison figures"
-            echo "made commit"
-
-      - name: Push changes to repository
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Push changes to repository
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
