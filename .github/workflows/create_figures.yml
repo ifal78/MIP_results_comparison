@@ -11,17 +11,22 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
 
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
-          python-version: "3.10"  # Choose the desired Python version
+          python-version: '3.10'  # Choose the desired Python version
+          cache: 'pip'
+          cache-dependency-path: |
+            **/requirements*.txt
+      - run: pip install -r requirements.txt
 
-      - name: Install dependencies
+      - name: Install ipykernel
         run: |
-          python -m pip install --upgrade pip
-          pip install jupyter altair altair_saver pandas selenium
+          ipython kernel install --name "python3" --user
 
       - name: Configure Git
         run: |
@@ -37,33 +42,30 @@ jobs:
       - name: Run Notebooks
         run: |
           for notebook in ${{ steps.discover_notebooks.outputs.notebooks }}; do
+            echo "$notebook"
             notebook_dir=$(dirname "$notebook")
             cd "$notebook_dir"
             jupyter nbconvert --to notebook --execute "$(basename "$notebook")"
             cd -
           done
-
-      - name: Commit figures
-        run: |
-          if git diff-index --quiet HEAD^ HEAD -- './*.png'; then
-            echo "No changes in the figures."
-            exit 0
-          else
-            echo "Committing all changes detected in the figures."
-            git add ./*.png
-            git commit -m "Update saved figures"
-          fi
       
-      - name: Commit changes to notebooks
+      - name: Get Changed Files
+        id: changed-files
+        uses: tj-actions/changed-files@v37
+
+      - name: Add Changed files
+        if: steps.changed-files.outputs.any_changed == 'true'
         run: |
-          if git diff-index --quiet HEAD^ HEAD -- './*.ipynb'; then
-            echo "No changes in the notebooks."
-            exit 0
-          else
-            echo "Committing all changes detected in the notebooks."
-            git add ./*.ipynb
-            git commit -m "Update figures in notebooks"
-          fi
+          for file in ${{ steps.changed-files.outputs.all_changed_files }}; do
+            git add $file
+            echo "$file"
+          done
+
+      - name: Commit Changes
+        if: steps.changed-files.outputs.any_changed == 'true'
+        run: |
+            git commit -m "Update comparison figures"
+            echo "made commit"
 
       - name: Push changes to repository
         uses: ad-m/github-push-action@v0.5.0
