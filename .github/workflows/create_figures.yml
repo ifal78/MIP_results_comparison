@@ -43,15 +43,27 @@ jobs:
             cd -
           done
 
-      - name: Commit changes to notebooks
-        run: |
-          git add ./*.ipynb
-          git commit -m "Update figures in notebooks"
-
       - name: Commit figures
         run: |
-          git add ./*.png
-          git commit -m "Update saved figures"
+          if git diff-index --quiet HEAD^ HEAD -- './*.png'; then
+            echo "No changes in the figures."
+            exit 0
+          else
+            echo "Committing all changes detected in the figures."
+            git add ./*.png
+            git commit -m "Update saved figures"
+          fi
+      
+      - name: Commit changes to notebooks
+        run: |
+          if git diff-index --quiet HEAD^ HEAD -- './*.ipynb'; then
+            echo "No changes in the notebooks."
+            exit 0
+          else
+            echo "Committing all changes detected in the notebooks."
+            git add ./*.ipynb
+            git commit -m "Update figures in notebooks"
+          fi
 
       - name: Push changes to repository
         uses: ad-m/github-push-action@v0.5.0
