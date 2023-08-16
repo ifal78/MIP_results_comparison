@@ -47,13 +47,29 @@ jobs:
           echo "$notebooks"
         id: discover_notebooks
 
-      - name: Run Notebooks
+      - name: Discover Scripts
         run: |
-          for notebook in ${{ steps.discover_notebooks.outputs.notebooks }}; do
-            echo "$notebook"
-            notebook_dir=$(dirname "$notebook")
-            cd "$notebook_dir"
-            jupyter nbconvert --to notebook --execute "$(basename "$notebook")"
+          scripts=$(find . -name "*.py")
+          echo "$scripts"
+        id: discover_scripts
+
+      # - name: Run Notebooks
+      #   run: |
+      #     for notebook in ${{ steps.discover_notebooks.outputs.notebooks }}; do
+      #       echo "$notebook"
+      #       notebook_dir=$(dirname "$notebook")
+      #       cd "$notebook_dir"
+      #       jupyter nbconvert --to notebook --execute "$(basename "$notebook")"
+      #       cd -
+      #     done
+      
+      - name: Run Scripts
+        run: |
+          for script in ${{ steps.discover_scripts.outputs.scripts }}; do
+            echo "$script"
+            script_dir=$(dirname "$script")
+            cd "$script_dir"
+            python "$(basename "$script")"
             cd -
           done
       
