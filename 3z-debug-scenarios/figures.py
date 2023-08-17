@@ -1,7 +1,3 @@
-# %% [markdown]
-# # Explore model results
-
-# %%
 import pandas as pd
 import altair as alt
 import altair_saver
@@ -10,6 +6,9 @@ from pathlib import Path
 alt.renderers.enable("png")
 
 data_path = Path.cwd()
+
+
+print("\n\nstarting figure script\n\n")
 
 
 # %%
@@ -388,4 +387,7 @@ from pathlib import Path
 
 fig_files = list(Path.cwd().rglob("*.png"))
 for f in fig_files:
-    print(f)
+    print(f, "\n")
+
+print("\n\nFinshed with figure script\n\n")
+# %%
