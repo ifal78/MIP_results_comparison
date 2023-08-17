@@ -6,8 +6,10 @@ dependencies:
   - python=3.10 # Remove for tox.ini & setup.py
   - pip
   - altair
-  - altair_saver
+  # - altair_saver
   - pandas
-  - selenium
-  - ipykernel
-  - jupyterlab
+  # - selenium
+  # - ipykernel
+  # - jupyter
+  # - python-chromedriver-binary
+  - vl-convert-python

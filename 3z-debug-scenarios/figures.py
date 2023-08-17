@@ -1,6 +1,5 @@
 import pandas as pd
 import altair as alt
-import altair_saver
 from pathlib import Path
 
 alt.renderers.enable("png")
