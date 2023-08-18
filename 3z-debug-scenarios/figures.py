@@ -232,7 +232,7 @@ chart_cf = base.mark_point(color="black").encode(
 
 chart_cap = base.mark_bar().encode(
     alt.Y("capacity").title("Capacity (MW)"),
-    # color="case",
+    color="model",
     # tooltip=["case", "zone", "model", "tech_type", "planning_year", "capacity"],
 )
 
@@ -275,7 +275,7 @@ chart_cf = base.mark_point(color="black").encode(
 
 chart_cap = base.mark_bar().encode(
     alt.Y("capacity").title("Capacity (MW)"),
-    # color="case",
+    color="model",
     # tooltip=["case", "zone", "model", "tech_type", "planning_year", "capacity"],
 )
 
