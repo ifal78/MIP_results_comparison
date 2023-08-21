@@ -1,0 +1,1267 @@
+model,zone,resource_name,tech_type,planning_year,case,timestep,unit,value
+TEMOA,ERCOT,batteries_1,Battery,2040,cap_only,all,MWh,1.25357e+07
+TEMOA,Eastern,batteries_1,Battery,2040,cap_only,all,MWh,4.22879e+06
+TEMOA,Western,batteries_1,Battery,2040,cap_only,all,MWh,2.60299e+07
+TEMOA,ERCOT,battery_moderate_0_10hour,Battery,2040,cap_only,all,MWh,855.831
+TEMOA,Eastern,battery_moderate_0_10hour,Battery,2040,cap_only,all,MWh,661.833
+TEMOA,Western,battery_moderate_0_10hour,Battery,2040,cap_only,all,MWh,658.491
+TEMOA,ERCOT,battery_moderate_0_2hour,Battery,2040,cap_only,all,MWh,2.94365e+07
+TEMOA,Eastern,battery_moderate_0_2hour,Battery,2040,cap_only,all,MWh,2846.03
+TEMOA,Western,battery_moderate_0_2hour,Battery,2040,cap_only,all,MWh,2937.61
+TEMOA,ERCOT,battery_moderate_0_4hour,Battery,2040,cap_only,all,MWh,3115.48
+TEMOA,Eastern,battery_moderate_0_4hour,Battery,2040,cap_only,all,MWh,1515.52
+TEMOA,Western,battery_moderate_0_4hour,Battery,2040,cap_only,all,MWh,1524.96
+TEMOA,ERCOT,battery_moderate_0_6hour,Battery,2040,cap_only,all,MWh,1627.58
+TEMOA,Eastern,battery_moderate_0_6hour,Battery,2040,cap_only,all,MWh,1052.01
+TEMOA,Western,battery_moderate_0_6hour,Battery,2040,cap_only,all,MWh,1049.19
+TEMOA,ERCOT,battery_moderate_0_8hour,Battery,2040,cap_only,all,MWh,1118.44
+TEMOA,Eastern,battery_moderate_0_8hour,Battery,2040,cap_only,all,MWh,810.91
+TEMOA,Western,battery_moderate_0_8hour,Battery,2040,cap_only,all,MWh,806.965
+TEMOA,ERCOT,conventional_hydroelectric_1,Hydro,2040,cap_only,all,MWh,445159
+TEMOA,Eastern,conventional_hydroelectric_1,Hydro,2040,cap_only,all,MWh,8.61464e+07
+TEMOA,Western,conventional_hydroelectric_1,Hydro,2040,cap_only,all,MWh,1.88399e+08
+TEMOA,ERCOT,conventional_steam_coal_1,Coal,2040,cap_only,all,MWh,862320
+TEMOA,Eastern,conventional_steam_coal_1,Coal,2040,cap_only,all,MWh,7.43973e+07
+TEMOA,Western,conventional_steam_coal_1,Coal,2040,cap_only,all,MWh,8.09139e+07
+TEMOA,Western,geothermal_1,Geothermal,2040,cap_only,all,MWh,2.73838e+07
+TEMOA,Eastern,hydroelectric_pumped_storage_1,Hydro,2040,cap_only,all,MWh,2.81546e+07
+TEMOA,Western,hydroelectric_pumped_storage_1,Hydro,2040,cap_only,all,MWh,7.94678e+06
+TEMOA,ERCOT,landbasedwind_class3_moderate_1,Wind,2040,cap_only,all,MWh,1.60865e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_1,Wind,2040,cap_only,all,MWh,5.48589e+08
+TEMOA,Western,landbasedwind_class3_moderate_1,Wind,2040,cap_only,all,MWh,914.9
+TEMOA,ERCOT,landbasedwind_class3_moderate_2,Wind,2040,cap_only,all,MWh,1.77287e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_2,Wind,2040,cap_only,all,MWh,5.95368e+08
+TEMOA,Western,landbasedwind_class3_moderate_2,Wind,2040,cap_only,all,MWh,2.07203e+08
+TEMOA,ERCOT,landbasedwind_class3_moderate_3,Wind,2040,cap_only,all,MWh,7286.34
+TEMOA,Eastern,landbasedwind_class3_moderate_3,Wind,2040,cap_only,all,MWh,5578.6
+TEMOA,Western,landbasedwind_class3_moderate_3,Wind,2040,cap_only,all,MWh,301.365
+TEMOA,ERCOT,landbasedwind_class3_moderate_4,Wind,2040,cap_only,all,MWh,3894.05
+TEMOA,Eastern,landbasedwind_class3_moderate_4,Wind,2040,cap_only,all,MWh,7.13062e+07
+TEMOA,Western,landbasedwind_class3_moderate_4,Wind,2040,cap_only,all,MWh,486.28
+TEMOA,ERCOT,landbasedwind_class3_moderate_5,Wind,2040,cap_only,all,MWh,1087.82
+TEMOA,Eastern,landbasedwind_class3_moderate_5,Wind,2040,cap_only,all,MWh,614.106
+TEMOA,Western,landbasedwind_class3_moderate_5,Wind,2040,cap_only,all,MWh,169.433
+TEMOA,ERCOT,landbasedwind_class3_moderate_6,Wind,2040,cap_only,all,MWh,1664.24
+TEMOA,Eastern,landbasedwind_class3_moderate_6,Wind,2040,cap_only,all,MWh,1785.97
+TEMOA,Western,landbasedwind_class3_moderate_6,Wind,2040,cap_only,all,MWh,520.483
+TEMOA,ERCOT,natural_gas_fired_combined_cycle_1,Natural Gas,2040,cap_only,all,MWh,7.07393e+07
+TEMOA,Eastern,natural_gas_fired_combined_cycle_1,Natural Gas,2040,cap_only,all,MWh,1.18164e+09
+TEMOA,Western,natural_gas_fired_combined_cycle_1,Natural Gas,2040,cap_only,all,MWh,8.15864e+07
+TEMOA,ERCOT,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,cap_only,all,MWh,1771.57
+TEMOA,Eastern,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,cap_only,all,MWh,1.17226e+06
+TEMOA,Western,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,cap_only,all,MWh,1.28147e+06
+TEMOA,ERCOT,natural_gas_steam_turbine_1,Natural Gas,2040,cap_only,all,MWh,258.452
+TEMOA,Eastern,natural_gas_steam_turbine_1,Natural Gas,2040,cap_only,all,MWh,4.20207e+06
+TEMOA,Western,natural_gas_steam_turbine_1,Natural Gas,2040,cap_only,all,MWh,761662
+TEMOA,ERCOT,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,cap_only,all,MWh,1525.1
+TEMOA,Eastern,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,cap_only,all,MWh,2410.16
+TEMOA,Western,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,cap_only,all,MWh,1177.44
+TEMOA,ERCOT,naturalgas_ccccsavgcf_conservative_0,CCS,2040,cap_only,all,MWh,325.531
+TEMOA,Eastern,naturalgas_ccccsavgcf_conservative_0,CCS,2040,cap_only,all,MWh,412.913
+TEMOA,Western,naturalgas_ccccsavgcf_conservative_0,CCS,2040,cap_only,all,MWh,325.599
+TEMOA,ERCOT,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,cap_only,all,MWh,314.669
+TEMOA,Eastern,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,cap_only,all,MWh,422.378
+TEMOA,Western,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,cap_only,all,MWh,297.791
+TEMOA,ERCOT,nuclear_1,Nuclear,2040,cap_only,all,MWh,3.85354e+07
+TEMOA,Eastern,nuclear_1,Nuclear,2040,cap_only,all,MWh,6.98737e+08
+TEMOA,Western,nuclear_1,Nuclear,2040,cap_only,all,MWh,4.34397e+07
+TEMOA,ERCOT,nuclear_nuclear_moderate_0,Nuclear,2040,cap_only,all,MWh,188.82
+TEMOA,Eastern,nuclear_nuclear_moderate_0,Nuclear,2040,cap_only,all,MWh,161.816
+TEMOA,Western,nuclear_nuclear_moderate_0,Nuclear,2040,cap_only,all,MWh,155.53
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_1,Wind,2040,cap_only,all,MWh,96.3359
+TEMOA,Western,offshorewind_class12_moderate_floating_1_1,Wind,2040,cap_only,all,MWh,46.4803
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_2,Wind,2040,cap_only,all,MWh,90.6224
+TEMOA,Western,offshorewind_class12_moderate_floating_1_2,Wind,2040,cap_only,all,MWh,65.4872
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_1,Wind,2040,cap_only,all,MWh,162.878
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_2,Wind,2040,cap_only,all,MWh,132.668
+TEMOA,ERCOT,onshore_wind_turbine_1,Wind,2040,cap_only,all,MWh,1.04821e+08
+TEMOA,Eastern,onshore_wind_turbine_1,Wind,2040,cap_only,all,MWh,1.94672e+08
+TEMOA,Western,onshore_wind_turbine_1,Wind,2040,cap_only,all,MWh,8.55195e+07
+TEMOA,ERCOT,solar_photovoltaic_1,Solar,2040,cap_only,all,MWh,4.12245e+07
+TEMOA,Eastern,solar_photovoltaic_1,Solar,2040,cap_only,all,MWh,8.4457e+07
+TEMOA,Western,solar_photovoltaic_1,Solar,2040,cap_only,all,MWh,8.3869e+07
+TEMOA,ERCOT,utilitypv_class1_moderate_1,Solar,2040,cap_only,all,MWh,2.58176e+07
+TEMOA,Eastern,utilitypv_class1_moderate_1,Solar,2040,cap_only,all,MWh,124837
+TEMOA,Western,utilitypv_class1_moderate_1,Solar,2040,cap_only,all,MWh,3.10442e+08
+TEMOA,ERCOT,utilitypv_class1_moderate_2,Solar,2040,cap_only,all,MWh,23166
+TEMOA,Eastern,utilitypv_class1_moderate_2,Solar,2040,cap_only,all,MWh,3.94886e+08
+TEMOA,Western,utilitypv_class1_moderate_2,Solar,2040,cap_only,all,MWh,10643.5
+TEMOA,ERCOT,utilitypv_class1_moderate_3,Solar,2040,cap_only,all,MWh,935.552
+TEMOA,Eastern,utilitypv_class1_moderate_3,Solar,2040,cap_only,all,MWh,775.362
+TEMOA,Western,utilitypv_class1_moderate_3,Solar,2040,cap_only,all,MWh,634.419
+TEMOA,ERCOT,utilitypv_class1_moderate_4,Solar,2040,cap_only,all,MWh,812.216
+TEMOA,Eastern,utilitypv_class1_moderate_4,Solar,2040,cap_only,all,MWh,741.713
+TEMOA,Western,utilitypv_class1_moderate_4,Solar,2040,cap_only,all,MWh,604.194
+TEMOA,ERCOT,utilitypv_class1_moderate_5,Solar,2040,cap_only,all,MWh,350.6
+TEMOA,Eastern,utilitypv_class1_moderate_5,Solar,2040,cap_only,all,MWh,337.578
+TEMOA,Western,utilitypv_class1_moderate_5,Solar,2040,cap_only,all,MWh,305.319
+TEMOA,ERCOT,utilitypv_class1_moderate_6,Solar,2040,cap_only,all,MWh,445.428
+TEMOA,Eastern,utilitypv_class1_moderate_6,Solar,2040,cap_only,all,MWh,412.82
+TEMOA,Western,utilitypv_class1_moderate_6,Solar,2040,cap_only,all,MWh,331.045
+TEMOA,ERCOT,batteries_1,Battery,2050,cap_only,all,MWh,1.03365e+07
+TEMOA,Eastern,batteries_1,Battery,2050,cap_only,all,MWh,4.02714e+06
+TEMOA,Western,batteries_1,Battery,2050,cap_only,all,MWh,3.35378e+07
+TEMOA,ERCOT,battery_moderate_0_10hour,Battery,2050,cap_only,all,MWh,1513.59
+TEMOA,Eastern,battery_moderate_0_10hour,Battery,2050,cap_only,all,MWh,1417.38
+TEMOA,Western,battery_moderate_0_10hour,Battery,2050,cap_only,all,MWh,1412.76
+TEMOA,ERCOT,battery_moderate_0_2hour,Battery,2050,cap_only,all,MWh,9.93257e+07
+TEMOA,Eastern,battery_moderate_0_2hour,Battery,2050,cap_only,all,MWh,1.72018e+08
+TEMOA,Western,battery_moderate_0_2hour,Battery,2050,cap_only,all,MWh,9.11528e+07
+TEMOA,ERCOT,battery_moderate_0_4hour,Battery,2050,cap_only,all,MWh,6454.99
+TEMOA,Eastern,battery_moderate_0_4hour,Battery,2050,cap_only,all,MWh,4938.84
+TEMOA,Western,battery_moderate_0_4hour,Battery,2050,cap_only,all,MWh,5647.41
+TEMOA,ERCOT,battery_moderate_0_6hour,Battery,2050,cap_only,all,MWh,3065.89
+TEMOA,Eastern,battery_moderate_0_6hour,Battery,2050,cap_only,all,MWh,2643.93
+TEMOA,Western,battery_moderate_0_6hour,Battery,2050,cap_only,all,MWh,2766.26
+TEMOA,ERCOT,battery_moderate_0_8hour,Battery,2050,cap_only,all,MWh,2017.96
+TEMOA,Eastern,battery_moderate_0_8hour,Battery,2050,cap_only,all,MWh,1837.77
+TEMOA,Western,battery_moderate_0_8hour,Battery,2050,cap_only,all,MWh,1860.67
+TEMOA,ERCOT,conventional_hydroelectric_1,Hydro,2050,cap_only,all,MWh,445067
+TEMOA,Eastern,conventional_hydroelectric_1,Hydro,2050,cap_only,all,MWh,8.61463e+07
+TEMOA,Western,conventional_hydroelectric_1,Hydro,2050,cap_only,all,MWh,1.87412e+08
+TEMOA,ERCOT,conventional_steam_coal_1,Coal,2050,cap_only,all,MWh,92286.7
+TEMOA,Eastern,conventional_steam_coal_1,Coal,2050,cap_only,all,MWh,1.18887e+06
+TEMOA,Western,conventional_steam_coal_1,Coal,2050,cap_only,all,MWh,2.83256e+06
+TEMOA,Western,geothermal_1,Geothermal,2050,cap_only,all,MWh,2.71911e+07
+TEMOA,Eastern,hydroelectric_pumped_storage_1,Hydro,2050,cap_only,all,MWh,2.47416e+07
+TEMOA,Western,hydroelectric_pumped_storage_1,Hydro,2050,cap_only,all,MWh,7.64919e+06
+TEMOA,ERCOT,landbasedwind_class3_moderate_1,Wind,2050,cap_only,all,MWh,1.60941e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_1,Wind,2050,cap_only,all,MWh,5.45842e+08
+TEMOA,Western,landbasedwind_class3_moderate_1,Wind,2050,cap_only,all,MWh,2317.99
+TEMOA,ERCOT,landbasedwind_class3_moderate_2,Wind,2050,cap_only,all,MWh,1.77379e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_2,Wind,2050,cap_only,all,MWh,5.92629e+08
+TEMOA,Western,landbasedwind_class3_moderate_2,Wind,2050,cap_only,all,MWh,3.66575e+08
+TEMOA,ERCOT,landbasedwind_class3_moderate_3,Wind,2050,cap_only,all,MWh,1.39448e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_3,Wind,2050,cap_only,all,MWh,4.06921e+08
+TEMOA,Western,landbasedwind_class3_moderate_3,Wind,2050,cap_only,all,MWh,567.333
+TEMOA,ERCOT,landbasedwind_class3_moderate_4,Wind,2050,cap_only,all,MWh,20989.2
+TEMOA,Eastern,landbasedwind_class3_moderate_4,Wind,2050,cap_only,all,MWh,5.37695e+08
+TEMOA,Western,landbasedwind_class3_moderate_4,Wind,2050,cap_only,all,MWh,973.604
+TEMOA,ERCOT,landbasedwind_class3_moderate_5,Wind,2050,cap_only,all,MWh,2087.04
+TEMOA,Eastern,landbasedwind_class3_moderate_5,Wind,2050,cap_only,all,MWh,1162.5
+TEMOA,Western,landbasedwind_class3_moderate_5,Wind,2050,cap_only,all,MWh,310.721
+TEMOA,ERCOT,landbasedwind_class3_moderate_6,Wind,2050,cap_only,all,MWh,3534.57
+TEMOA,Eastern,landbasedwind_class3_moderate_6,Wind,2050,cap_only,all,MWh,4172.93
+TEMOA,Western,landbasedwind_class3_moderate_6,Wind,2050,cap_only,all,MWh,1027.72
+TEMOA,ERCOT,natural_gas_fired_combined_cycle_1,Natural Gas,2050,cap_only,all,MWh,1.09125e+07
+TEMOA,Eastern,natural_gas_fired_combined_cycle_1,Natural Gas,2050,cap_only,all,MWh,6.57796e+08
+TEMOA,Western,natural_gas_fired_combined_cycle_1,Natural Gas,2050,cap_only,all,MWh,3.22885e+07
+TEMOA,ERCOT,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,cap_only,all,MWh,322.876
+TEMOA,Eastern,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,cap_only,all,MWh,1.21191e+07
+TEMOA,Western,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,cap_only,all,MWh,828250
+TEMOA,ERCOT,natural_gas_steam_turbine_1,Natural Gas,2050,cap_only,all,MWh,276.114
+TEMOA,Eastern,natural_gas_steam_turbine_1,Natural Gas,2050,cap_only,all,MWh,1.33305e+07
+TEMOA,Western,natural_gas_steam_turbine_1,Natural Gas,2050,cap_only,all,MWh,388407
+TEMOA,ERCOT,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,cap_only,all,MWh,1045.98
+TEMOA,Eastern,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,cap_only,all,MWh,1847.92
+TEMOA,Western,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,cap_only,all,MWh,1104.22
+TEMOA,ERCOT,naturalgas_ccccsavgcf_conservative_0,CCS,2050,cap_only,all,MWh,488.078
+TEMOA,Eastern,naturalgas_ccccsavgcf_conservative_0,CCS,2050,cap_only,all,MWh,746.892
+TEMOA,Western,naturalgas_ccccsavgcf_conservative_0,CCS,2050,cap_only,all,MWh,527.952
+TEMOA,ERCOT,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,cap_only,all,MWh,345.206
+TEMOA,Eastern,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,cap_only,all,MWh,470.972
+TEMOA,Western,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,cap_only,all,MWh,348.749
+TEMOA,ERCOT,nuclear_1,Nuclear,2050,cap_only,all,MWh,3.8977e+07
+TEMOA,Eastern,nuclear_1,Nuclear,2050,cap_only,all,MWh,6.57638e+08
+TEMOA,Western,nuclear_1,Nuclear,2050,cap_only,all,MWh,4.17584e+07
+TEMOA,ERCOT,nuclear_nuclear_moderate_0,Nuclear,2050,cap_only,all,MWh,294.108
+TEMOA,Eastern,nuclear_nuclear_moderate_0,Nuclear,2050,cap_only,all,MWh,264.845
+TEMOA,Western,nuclear_nuclear_moderate_0,Nuclear,2050,cap_only,all,MWh,255.434
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_1,Wind,2050,cap_only,all,MWh,167.084
+TEMOA,Western,offshorewind_class12_moderate_floating_1_1,Wind,2050,cap_only,all,MWh,91.0534
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_2,Wind,2050,cap_only,all,MWh,157.092
+TEMOA,Western,offshorewind_class12_moderate_floating_1_2,Wind,2050,cap_only,all,MWh,124.09
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_1,Wind,2050,cap_only,all,MWh,285.908
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_2,Wind,2050,cap_only,all,MWh,234.453
+TEMOA,ERCOT,onshore_wind_turbine_1,Wind,2050,cap_only,all,MWh,1.05161e+08
+TEMOA,Eastern,onshore_wind_turbine_1,Wind,2050,cap_only,all,MWh,1.93966e+08
+TEMOA,Western,onshore_wind_turbine_1,Wind,2050,cap_only,all,MWh,8.49773e+07
+TEMOA,ERCOT,solar_photovoltaic_1,Solar,2050,cap_only,all,MWh,4.08989e+07
+TEMOA,Eastern,solar_photovoltaic_1,Solar,2050,cap_only,all,MWh,8.2632e+07
+TEMOA,Western,solar_photovoltaic_1,Solar,2050,cap_only,all,MWh,8.28422e+07
+TEMOA,ERCOT,utilitypv_class1_moderate_1,Solar,2050,cap_only,all,MWh,7.45047e+07
+TEMOA,Eastern,utilitypv_class1_moderate_1,Solar,2050,cap_only,all,MWh,1.72423e+08
+TEMOA,Western,utilitypv_class1_moderate_1,Solar,2050,cap_only,all,MWh,5.66612e+08
+TEMOA,ERCOT,utilitypv_class1_moderate_2,Solar,2050,cap_only,all,MWh,21635.4
+TEMOA,Eastern,utilitypv_class1_moderate_2,Solar,2050,cap_only,all,MWh,6.19388e+08
+TEMOA,Western,utilitypv_class1_moderate_2,Solar,2050,cap_only,all,MWh,14793.4
+TEMOA,ERCOT,utilitypv_class1_moderate_3,Solar,2050,cap_only,all,MWh,1380.02
+TEMOA,Eastern,utilitypv_class1_moderate_3,Solar,2050,cap_only,all,MWh,1163.2
+TEMOA,Western,utilitypv_class1_moderate_3,Solar,2050,cap_only,all,MWh,930.686
+TEMOA,ERCOT,utilitypv_class1_moderate_4,Solar,2050,cap_only,all,MWh,1167.32
+TEMOA,Eastern,utilitypv_class1_moderate_4,Solar,2050,cap_only,all,MWh,1110.57
+TEMOA,Western,utilitypv_class1_moderate_4,Solar,2050,cap_only,all,MWh,886.786
+TEMOA,ERCOT,utilitypv_class1_moderate_5,Solar,2050,cap_only,all,MWh,516.912
+TEMOA,Eastern,utilitypv_class1_moderate_5,Solar,2050,cap_only,all,MWh,499.565
+TEMOA,Western,utilitypv_class1_moderate_5,Solar,2050,cap_only,all,MWh,466.826
+TEMOA,ERCOT,utilitypv_class1_moderate_6,Solar,2050,cap_only,all,MWh,644.436
+TEMOA,Eastern,utilitypv_class1_moderate_6,Solar,2050,cap_only,all,MWh,621.823
+TEMOA,Western,utilitypv_class1_moderate_6,Solar,2050,cap_only,all,MWh,492.954
+TEMOA,ERCOT,batteries_1,Battery,2040,single_zone,all,MWh,1.25357e+07
+TEMOA,Eastern,batteries_1,Battery,2040,single_zone,all,MWh,4.22879e+06
+TEMOA,Western,batteries_1,Battery,2040,single_zone,all,MWh,2.60299e+07
+TEMOA,ERCOT,battery_moderate_0_10hour,Battery,2040,single_zone,all,MWh,855.83
+TEMOA,Eastern,battery_moderate_0_10hour,Battery,2040,single_zone,all,MWh,661.832
+TEMOA,Western,battery_moderate_0_10hour,Battery,2040,single_zone,all,MWh,658.491
+TEMOA,ERCOT,battery_moderate_0_2hour,Battery,2040,single_zone,all,MWh,2.94365e+07
+TEMOA,Eastern,battery_moderate_0_2hour,Battery,2040,single_zone,all,MWh,2846.03
+TEMOA,Western,battery_moderate_0_2hour,Battery,2040,single_zone,all,MWh,2937.61
+TEMOA,ERCOT,battery_moderate_0_4hour,Battery,2040,single_zone,all,MWh,3115.48
+TEMOA,Eastern,battery_moderate_0_4hour,Battery,2040,single_zone,all,MWh,1515.52
+TEMOA,Western,battery_moderate_0_4hour,Battery,2040,single_zone,all,MWh,1524.96
+TEMOA,ERCOT,battery_moderate_0_6hour,Battery,2040,single_zone,all,MWh,1627.58
+TEMOA,Eastern,battery_moderate_0_6hour,Battery,2040,single_zone,all,MWh,1052.01
+TEMOA,Western,battery_moderate_0_6hour,Battery,2040,single_zone,all,MWh,1049.19
+TEMOA,ERCOT,battery_moderate_0_8hour,Battery,2040,single_zone,all,MWh,1118.44
+TEMOA,Eastern,battery_moderate_0_8hour,Battery,2040,single_zone,all,MWh,810.909
+TEMOA,Western,battery_moderate_0_8hour,Battery,2040,single_zone,all,MWh,806.964
+TEMOA,ERCOT,conventional_hydroelectric_1,Hydro,2040,single_zone,all,MWh,445159
+TEMOA,Eastern,conventional_hydroelectric_1,Hydro,2040,single_zone,all,MWh,8.61464e+07
+TEMOA,Western,conventional_hydroelectric_1,Hydro,2040,single_zone,all,MWh,1.88399e+08
+TEMOA,ERCOT,conventional_steam_coal_1,Coal,2040,single_zone,all,MWh,862320
+TEMOA,Eastern,conventional_steam_coal_1,Coal,2040,single_zone,all,MWh,7.43973e+07
+TEMOA,Western,conventional_steam_coal_1,Coal,2040,single_zone,all,MWh,8.09139e+07
+TEMOA,Western,geothermal_1,Geothermal,2040,single_zone,all,MWh,2.7393e+07
+TEMOA,Eastern,hydroelectric_pumped_storage_1,Hydro,2040,single_zone,all,MWh,2.81546e+07
+TEMOA,Western,hydroelectric_pumped_storage_1,Hydro,2040,single_zone,all,MWh,7.94678e+06
+TEMOA,ERCOT,landbasedwind_class3_moderate_1,Wind,2040,single_zone,all,MWh,1.60865e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_1,Wind,2040,single_zone,all,MWh,5.48589e+08
+TEMOA,Western,landbasedwind_class3_moderate_1,Wind,2040,single_zone,all,MWh,914.899
+TEMOA,ERCOT,landbasedwind_class3_moderate_2,Wind,2040,single_zone,all,MWh,1.77287e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_2,Wind,2040,single_zone,all,MWh,5.95368e+08
+TEMOA,Western,landbasedwind_class3_moderate_2,Wind,2040,single_zone,all,MWh,2.07203e+08
+TEMOA,ERCOT,landbasedwind_class3_moderate_3,Wind,2040,single_zone,all,MWh,7286.33
+TEMOA,Eastern,landbasedwind_class3_moderate_3,Wind,2040,single_zone,all,MWh,5578.59
+TEMOA,Western,landbasedwind_class3_moderate_3,Wind,2040,single_zone,all,MWh,301.364
+TEMOA,ERCOT,landbasedwind_class3_moderate_4,Wind,2040,single_zone,all,MWh,3894.05
+TEMOA,Eastern,landbasedwind_class3_moderate_4,Wind,2040,single_zone,all,MWh,7.13062e+07
+TEMOA,Western,landbasedwind_class3_moderate_4,Wind,2040,single_zone,all,MWh,486.279
+TEMOA,ERCOT,landbasedwind_class3_moderate_5,Wind,2040,single_zone,all,MWh,1087.82
+TEMOA,Eastern,landbasedwind_class3_moderate_5,Wind,2040,single_zone,all,MWh,614.106
+TEMOA,Western,landbasedwind_class3_moderate_5,Wind,2040,single_zone,all,MWh,169.433
+TEMOA,ERCOT,landbasedwind_class3_moderate_6,Wind,2040,single_zone,all,MWh,1664.24
+TEMOA,Eastern,landbasedwind_class3_moderate_6,Wind,2040,single_zone,all,MWh,1785.97
+TEMOA,Western,landbasedwind_class3_moderate_6,Wind,2040,single_zone,all,MWh,520.483
+TEMOA,ERCOT,natural_gas_fired_combined_cycle_1,Natural Gas,2040,single_zone,all,MWh,7.07393e+07
+TEMOA,Eastern,natural_gas_fired_combined_cycle_1,Natural Gas,2040,single_zone,all,MWh,1.18164e+09
+TEMOA,Western,natural_gas_fired_combined_cycle_1,Natural Gas,2040,single_zone,all,MWh,8.15864e+07
+TEMOA,ERCOT,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,single_zone,all,MWh,1771.57
+TEMOA,Eastern,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,single_zone,all,MWh,1.17226e+06
+TEMOA,Western,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,single_zone,all,MWh,1.28147e+06
+TEMOA,ERCOT,natural_gas_steam_turbine_1,Natural Gas,2040,single_zone,all,MWh,258.452
+TEMOA,Eastern,natural_gas_steam_turbine_1,Natural Gas,2040,single_zone,all,MWh,4.20207e+06
+TEMOA,Western,natural_gas_steam_turbine_1,Natural Gas,2040,single_zone,all,MWh,761662
+TEMOA,ERCOT,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,single_zone,all,MWh,1525.1
+TEMOA,Eastern,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,single_zone,all,MWh,2410.16
+TEMOA,Western,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,single_zone,all,MWh,1177.43
+TEMOA,ERCOT,naturalgas_ccccsavgcf_conservative_0,CCS,2040,single_zone,all,MWh,325.531
+TEMOA,Eastern,naturalgas_ccccsavgcf_conservative_0,CCS,2040,single_zone,all,MWh,412.912
+TEMOA,Western,naturalgas_ccccsavgcf_conservative_0,CCS,2040,single_zone,all,MWh,325.599
+TEMOA,ERCOT,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,single_zone,all,MWh,314.669
+TEMOA,Eastern,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,single_zone,all,MWh,422.378
+TEMOA,Western,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,single_zone,all,MWh,297.791
+TEMOA,ERCOT,nuclear_1,Nuclear,2040,single_zone,all,MWh,3.85354e+07
+TEMOA,Eastern,nuclear_1,Nuclear,2040,single_zone,all,MWh,6.98737e+08
+TEMOA,Western,nuclear_1,Nuclear,2040,single_zone,all,MWh,4.34397e+07
+TEMOA,ERCOT,nuclear_nuclear_moderate_0,Nuclear,2040,single_zone,all,MWh,188.82
+TEMOA,Eastern,nuclear_nuclear_moderate_0,Nuclear,2040,single_zone,all,MWh,161.816
+TEMOA,Western,nuclear_nuclear_moderate_0,Nuclear,2040,single_zone,all,MWh,155.53
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_1,Wind,2040,single_zone,all,MWh,96.3358
+TEMOA,Western,offshorewind_class12_moderate_floating_1_1,Wind,2040,single_zone,all,MWh,46.4803
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_2,Wind,2040,single_zone,all,MWh,90.6223
+TEMOA,Western,offshorewind_class12_moderate_floating_1_2,Wind,2040,single_zone,all,MWh,65.4871
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_1,Wind,2040,single_zone,all,MWh,162.877
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_2,Wind,2040,single_zone,all,MWh,132.667
+TEMOA,ERCOT,onshore_wind_turbine_1,Wind,2040,single_zone,all,MWh,1.04878e+08
+TEMOA,Eastern,onshore_wind_turbine_1,Wind,2040,single_zone,all,MWh,1.9466e+08
+TEMOA,Western,onshore_wind_turbine_1,Wind,2040,single_zone,all,MWh,8.5567e+07
+TEMOA,ERCOT,solar_photovoltaic_1,Solar,2040,single_zone,all,MWh,4.11675e+07
+TEMOA,Eastern,solar_photovoltaic_1,Solar,2040,single_zone,all,MWh,8.44688e+07
+TEMOA,Western,solar_photovoltaic_1,Solar,2040,single_zone,all,MWh,8.38124e+07
+TEMOA,ERCOT,utilitypv_class1_moderate_1,Solar,2040,single_zone,all,MWh,2.58176e+07
+TEMOA,Eastern,utilitypv_class1_moderate_1,Solar,2040,single_zone,all,MWh,124837
+TEMOA,Western,utilitypv_class1_moderate_1,Solar,2040,single_zone,all,MWh,3.10442e+08
+TEMOA,ERCOT,utilitypv_class1_moderate_2,Solar,2040,single_zone,all,MWh,23165.9
+TEMOA,Eastern,utilitypv_class1_moderate_2,Solar,2040,single_zone,all,MWh,3.94886e+08
+TEMOA,Western,utilitypv_class1_moderate_2,Solar,2040,single_zone,all,MWh,10643.5
+TEMOA,ERCOT,utilitypv_class1_moderate_3,Solar,2040,single_zone,all,MWh,935.551
+TEMOA,Eastern,utilitypv_class1_moderate_3,Solar,2040,single_zone,all,MWh,775.361
+TEMOA,Western,utilitypv_class1_moderate_3,Solar,2040,single_zone,all,MWh,634.419
+TEMOA,ERCOT,utilitypv_class1_moderate_4,Solar,2040,single_zone,all,MWh,812.215
+TEMOA,Eastern,utilitypv_class1_moderate_4,Solar,2040,single_zone,all,MWh,741.712
+TEMOA,Western,utilitypv_class1_moderate_4,Solar,2040,single_zone,all,MWh,604.193
+TEMOA,ERCOT,utilitypv_class1_moderate_5,Solar,2040,single_zone,all,MWh,350.6
+TEMOA,Eastern,utilitypv_class1_moderate_5,Solar,2040,single_zone,all,MWh,337.578
+TEMOA,Western,utilitypv_class1_moderate_5,Solar,2040,single_zone,all,MWh,305.318
+TEMOA,ERCOT,utilitypv_class1_moderate_6,Solar,2040,single_zone,all,MWh,445.428
+TEMOA,Eastern,utilitypv_class1_moderate_6,Solar,2040,single_zone,all,MWh,412.82
+TEMOA,Western,utilitypv_class1_moderate_6,Solar,2040,single_zone,all,MWh,331.045
+TEMOA,ERCOT,batteries_1,Battery,2050,single_zone,all,MWh,1.03365e+07
+TEMOA,Eastern,batteries_1,Battery,2050,single_zone,all,MWh,4.02714e+06
+TEMOA,Western,batteries_1,Battery,2050,single_zone,all,MWh,3.35378e+07
+TEMOA,ERCOT,battery_moderate_0_10hour,Battery,2050,single_zone,all,MWh,1513.59
+TEMOA,Eastern,battery_moderate_0_10hour,Battery,2050,single_zone,all,MWh,1417.38
+TEMOA,Western,battery_moderate_0_10hour,Battery,2050,single_zone,all,MWh,1412.76
+TEMOA,ERCOT,battery_moderate_0_2hour,Battery,2050,single_zone,all,MWh,9.93257e+07
+TEMOA,Eastern,battery_moderate_0_2hour,Battery,2050,single_zone,all,MWh,1.72018e+08
+TEMOA,Western,battery_moderate_0_2hour,Battery,2050,single_zone,all,MWh,9.11528e+07
+TEMOA,ERCOT,battery_moderate_0_4hour,Battery,2050,single_zone,all,MWh,6454.99
+TEMOA,Eastern,battery_moderate_0_4hour,Battery,2050,single_zone,all,MWh,4938.84
+TEMOA,Western,battery_moderate_0_4hour,Battery,2050,single_zone,all,MWh,5647.41
+TEMOA,ERCOT,battery_moderate_0_6hour,Battery,2050,single_zone,all,MWh,3065.89
+TEMOA,Eastern,battery_moderate_0_6hour,Battery,2050,single_zone,all,MWh,2643.93
+TEMOA,Western,battery_moderate_0_6hour,Battery,2050,single_zone,all,MWh,2766.26
+TEMOA,ERCOT,battery_moderate_0_8hour,Battery,2050,single_zone,all,MWh,2017.96
+TEMOA,Eastern,battery_moderate_0_8hour,Battery,2050,single_zone,all,MWh,1837.77
+TEMOA,Western,battery_moderate_0_8hour,Battery,2050,single_zone,all,MWh,1860.67
+TEMOA,ERCOT,conventional_hydroelectric_1,Hydro,2050,single_zone,all,MWh,445067
+TEMOA,Eastern,conventional_hydroelectric_1,Hydro,2050,single_zone,all,MWh,8.61463e+07
+TEMOA,Western,conventional_hydroelectric_1,Hydro,2050,single_zone,all,MWh,1.87412e+08
+TEMOA,ERCOT,conventional_steam_coal_1,Coal,2050,single_zone,all,MWh,92286.7
+TEMOA,Eastern,conventional_steam_coal_1,Coal,2050,single_zone,all,MWh,1.18887e+06
+TEMOA,Western,conventional_steam_coal_1,Coal,2050,single_zone,all,MWh,2.83256e+06
+TEMOA,Western,geothermal_1,Geothermal,2050,single_zone,all,MWh,2.72252e+07
+TEMOA,Eastern,hydroelectric_pumped_storage_1,Hydro,2050,single_zone,all,MWh,2.47416e+07
+TEMOA,Western,hydroelectric_pumped_storage_1,Hydro,2050,single_zone,all,MWh,7.64919e+06
+TEMOA,ERCOT,landbasedwind_class3_moderate_1,Wind,2050,single_zone,all,MWh,1.60941e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_1,Wind,2050,single_zone,all,MWh,5.45842e+08
+TEMOA,Western,landbasedwind_class3_moderate_1,Wind,2050,single_zone,all,MWh,2317.99
+TEMOA,ERCOT,landbasedwind_class3_moderate_2,Wind,2050,single_zone,all,MWh,1.77379e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_2,Wind,2050,single_zone,all,MWh,5.92629e+08
+TEMOA,Western,landbasedwind_class3_moderate_2,Wind,2050,single_zone,all,MWh,3.66575e+08
+TEMOA,ERCOT,landbasedwind_class3_moderate_3,Wind,2050,single_zone,all,MWh,1.39448e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_3,Wind,2050,single_zone,all,MWh,4.06921e+08
+TEMOA,Western,landbasedwind_class3_moderate_3,Wind,2050,single_zone,all,MWh,567.333
+TEMOA,ERCOT,landbasedwind_class3_moderate_4,Wind,2050,single_zone,all,MWh,20989.2
+TEMOA,Eastern,landbasedwind_class3_moderate_4,Wind,2050,single_zone,all,MWh,5.37695e+08
+TEMOA,Western,landbasedwind_class3_moderate_4,Wind,2050,single_zone,all,MWh,973.604
+TEMOA,ERCOT,landbasedwind_class3_moderate_5,Wind,2050,single_zone,all,MWh,2087.04
+TEMOA,Eastern,landbasedwind_class3_moderate_5,Wind,2050,single_zone,all,MWh,1162.5
+TEMOA,Western,landbasedwind_class3_moderate_5,Wind,2050,single_zone,all,MWh,310.721
+TEMOA,ERCOT,landbasedwind_class3_moderate_6,Wind,2050,single_zone,all,MWh,3534.57
+TEMOA,Eastern,landbasedwind_class3_moderate_6,Wind,2050,single_zone,all,MWh,4172.93
+TEMOA,Western,landbasedwind_class3_moderate_6,Wind,2050,single_zone,all,MWh,1027.72
+TEMOA,ERCOT,natural_gas_fired_combined_cycle_1,Natural Gas,2050,single_zone,all,MWh,1.09125e+07
+TEMOA,Eastern,natural_gas_fired_combined_cycle_1,Natural Gas,2050,single_zone,all,MWh,6.57796e+08
+TEMOA,Western,natural_gas_fired_combined_cycle_1,Natural Gas,2050,single_zone,all,MWh,3.22885e+07
+TEMOA,ERCOT,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,single_zone,all,MWh,322.876
+TEMOA,Eastern,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,single_zone,all,MWh,1.21191e+07
+TEMOA,Western,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,single_zone,all,MWh,828250
+TEMOA,ERCOT,natural_gas_steam_turbine_1,Natural Gas,2050,single_zone,all,MWh,276.115
+TEMOA,Eastern,natural_gas_steam_turbine_1,Natural Gas,2050,single_zone,all,MWh,1.33305e+07
+TEMOA,Western,natural_gas_steam_turbine_1,Natural Gas,2050,single_zone,all,MWh,388407
+TEMOA,ERCOT,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,single_zone,all,MWh,1045.98
+TEMOA,Eastern,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,single_zone,all,MWh,1847.92
+TEMOA,Western,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,single_zone,all,MWh,1104.22
+TEMOA,ERCOT,naturalgas_ccccsavgcf_conservative_0,CCS,2050,single_zone,all,MWh,488.078
+TEMOA,Eastern,naturalgas_ccccsavgcf_conservative_0,CCS,2050,single_zone,all,MWh,746.892
+TEMOA,Western,naturalgas_ccccsavgcf_conservative_0,CCS,2050,single_zone,all,MWh,527.952
+TEMOA,ERCOT,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,single_zone,all,MWh,345.206
+TEMOA,Eastern,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,single_zone,all,MWh,470.972
+TEMOA,Western,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,single_zone,all,MWh,348.749
+TEMOA,ERCOT,nuclear_1,Nuclear,2050,single_zone,all,MWh,3.8977e+07
+TEMOA,Eastern,nuclear_1,Nuclear,2050,single_zone,all,MWh,6.57638e+08
+TEMOA,Western,nuclear_1,Nuclear,2050,single_zone,all,MWh,4.17584e+07
+TEMOA,ERCOT,nuclear_nuclear_moderate_0,Nuclear,2050,single_zone,all,MWh,294.108
+TEMOA,Eastern,nuclear_nuclear_moderate_0,Nuclear,2050,single_zone,all,MWh,264.845
+TEMOA,Western,nuclear_nuclear_moderate_0,Nuclear,2050,single_zone,all,MWh,255.434
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_1,Wind,2050,single_zone,all,MWh,167.084
+TEMOA,Western,offshorewind_class12_moderate_floating_1_1,Wind,2050,single_zone,all,MWh,91.0534
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_2,Wind,2050,single_zone,all,MWh,157.092
+TEMOA,Western,offshorewind_class12_moderate_floating_1_2,Wind,2050,single_zone,all,MWh,124.09
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_1,Wind,2050,single_zone,all,MWh,285.908
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_2,Wind,2050,single_zone,all,MWh,234.453
+TEMOA,ERCOT,onshore_wind_turbine_1,Wind,2050,single_zone,all,MWh,1.05236e+08
+TEMOA,Eastern,onshore_wind_turbine_1,Wind,2050,single_zone,all,MWh,1.9385e+08
+TEMOA,Western,onshore_wind_turbine_1,Wind,2050,single_zone,all,MWh,8.51161e+07
+TEMOA,ERCOT,solar_photovoltaic_1,Solar,2050,single_zone,all,MWh,4.08231e+07
+TEMOA,Eastern,solar_photovoltaic_1,Solar,2050,single_zone,all,MWh,8.27482e+07
+TEMOA,Western,solar_photovoltaic_1,Solar,2050,single_zone,all,MWh,8.26693e+07
+TEMOA,ERCOT,utilitypv_class1_moderate_1,Solar,2050,single_zone,all,MWh,7.45047e+07
+TEMOA,Eastern,utilitypv_class1_moderate_1,Solar,2050,single_zone,all,MWh,1.72423e+08
+TEMOA,Western,utilitypv_class1_moderate_1,Solar,2050,single_zone,all,MWh,5.66612e+08
+TEMOA,ERCOT,utilitypv_class1_moderate_2,Solar,2050,single_zone,all,MWh,21635.4
+TEMOA,Eastern,utilitypv_class1_moderate_2,Solar,2050,single_zone,all,MWh,6.19388e+08
+TEMOA,Western,utilitypv_class1_moderate_2,Solar,2050,single_zone,all,MWh,14793.4
+TEMOA,ERCOT,utilitypv_class1_moderate_3,Solar,2050,single_zone,all,MWh,1380.02
+TEMOA,Eastern,utilitypv_class1_moderate_3,Solar,2050,single_zone,all,MWh,1163.2
+TEMOA,Western,utilitypv_class1_moderate_3,Solar,2050,single_zone,all,MWh,930.686
+TEMOA,ERCOT,utilitypv_class1_moderate_4,Solar,2050,single_zone,all,MWh,1167.32
+TEMOA,Eastern,utilitypv_class1_moderate_4,Solar,2050,single_zone,all,MWh,1110.57
+TEMOA,Western,utilitypv_class1_moderate_4,Solar,2050,single_zone,all,MWh,886.787
+TEMOA,ERCOT,utilitypv_class1_moderate_5,Solar,2050,single_zone,all,MWh,516.912
+TEMOA,Eastern,utilitypv_class1_moderate_5,Solar,2050,single_zone,all,MWh,499.565
+TEMOA,Western,utilitypv_class1_moderate_5,Solar,2050,single_zone,all,MWh,466.826
+TEMOA,ERCOT,utilitypv_class1_moderate_6,Solar,2050,single_zone,all,MWh,644.436
+TEMOA,Eastern,utilitypv_class1_moderate_6,Solar,2050,single_zone,all,MWh,621.823
+TEMOA,Western,utilitypv_class1_moderate_6,Solar,2050,single_zone,all,MWh,492.954
+TEMOA,ERCOT,battery_moderate_0_10hour,Battery,2040,greenfield,all,MWh,5435.11
+TEMOA,Eastern,battery_moderate_0_10hour,Battery,2040,greenfield,all,MWh,5081.78
+TEMOA,Western,battery_moderate_0_10hour,Battery,2040,greenfield,all,MWh,5050.48
+TEMOA,ERCOT,battery_moderate_0_2hour,Battery,2040,greenfield,all,MWh,1.305e+08
+TEMOA,Eastern,battery_moderate_0_2hour,Battery,2040,greenfield,all,MWh,3.87054e+08
+TEMOA,Western,battery_moderate_0_2hour,Battery,2040,greenfield,all,MWh,1.90176e+08
+TEMOA,ERCOT,battery_moderate_0_4hour,Battery,2040,greenfield,all,MWh,21402.2
+TEMOA,Eastern,battery_moderate_0_4hour,Battery,2040,greenfield,all,MWh,15974
+TEMOA,Western,battery_moderate_0_4hour,Battery,2040,greenfield,all,MWh,15899.1
+TEMOA,ERCOT,battery_moderate_0_6hour,Battery,2040,greenfield,all,MWh,10500.9
+TEMOA,Eastern,battery_moderate_0_6hour,Battery,2040,greenfield,all,MWh,9000.61
+TEMOA,Western,battery_moderate_0_6hour,Battery,2040,greenfield,all,MWh,8931.05
+TEMOA,ERCOT,battery_moderate_0_8hour,Battery,2040,greenfield,all,MWh,7107
+TEMOA,Eastern,battery_moderate_0_8hour,Battery,2040,greenfield,all,MWh,6452.25
+TEMOA,Western,battery_moderate_0_8hour,Battery,2040,greenfield,all,MWh,6406.04
+TEMOA,ERCOT,landbasedwind_class3_moderate_1,Wind,2040,greenfield,all,MWh,1.63296e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_1,Wind,2040,greenfield,all,MWh,5.487e+08
+TEMOA,Western,landbasedwind_class3_moderate_1,Wind,2040,greenfield,all,MWh,5059.3
+TEMOA,ERCOT,landbasedwind_class3_moderate_2,Wind,2040,greenfield,all,MWh,1.79736e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_2,Wind,2040,greenfield,all,MWh,5.95478e+08
+TEMOA,Western,landbasedwind_class3_moderate_2,Wind,2040,greenfield,all,MWh,3.67466e+08
+TEMOA,ERCOT,landbasedwind_class3_moderate_3,Wind,2040,greenfield,all,MWh,1.41753e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_3,Wind,2040,greenfield,all,MWh,138088
+TEMOA,Western,landbasedwind_class3_moderate_3,Wind,2040,greenfield,all,MWh,1786.69
+TEMOA,ERCOT,landbasedwind_class3_moderate_4,Wind,2040,greenfield,all,MWh,1.29331e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_4,Wind,2040,greenfield,all,MWh,5.40522e+08
+TEMOA,Western,landbasedwind_class3_moderate_4,Wind,2040,greenfield,all,MWh,2984.6
+TEMOA,ERCOT,landbasedwind_class3_moderate_5,Wind,2040,greenfield,all,MWh,8135.93
+TEMOA,Eastern,landbasedwind_class3_moderate_5,Wind,2040,greenfield,all,MWh,3702.27
+TEMOA,Western,landbasedwind_class3_moderate_5,Wind,2040,greenfield,all,MWh,1054.94
+TEMOA,ERCOT,landbasedwind_class3_moderate_6,Wind,2040,greenfield,all,MWh,16664.3
+TEMOA,Eastern,landbasedwind_class3_moderate_6,Wind,2040,greenfield,all,MWh,14233.4
+TEMOA,Western,landbasedwind_class3_moderate_6,Wind,2040,greenfield,all,MWh,3136.09
+TEMOA,ERCOT,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,greenfield,all,MWh,16571.2
+TEMOA,Eastern,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,greenfield,all,MWh,2.07418e+09
+TEMOA,Western,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,greenfield,all,MWh,10704.3
+TEMOA,ERCOT,naturalgas_ccccsavgcf_conservative_0,CCS,2040,greenfield,all,MWh,2375.13
+TEMOA,Eastern,naturalgas_ccccsavgcf_conservative_0,CCS,2040,greenfield,all,MWh,3836.17
+TEMOA,Western,naturalgas_ccccsavgcf_conservative_0,CCS,2040,greenfield,all,MWh,2226.59
+TEMOA,ERCOT,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,greenfield,all,MWh,2259.89
+TEMOA,Eastern,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,greenfield,all,MWh,3175.75
+TEMOA,Western,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,greenfield,all,MWh,2147.44
+TEMOA,ERCOT,nuclear_nuclear_moderate_0,Nuclear,2040,greenfield,all,MWh,1360.67
+TEMOA,Eastern,nuclear_nuclear_moderate_0,Nuclear,2040,greenfield,all,MWh,1226.87
+TEMOA,Western,nuclear_nuclear_moderate_0,Nuclear,2040,greenfield,all,MWh,1063.44
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_1,Wind,2040,greenfield,all,MWh,615.605
+TEMOA,Western,offshorewind_class12_moderate_floating_1_1,Wind,2040,greenfield,all,MWh,393.584
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_2,Wind,2040,greenfield,all,MWh,597.408
+TEMOA,Western,offshorewind_class12_moderate_floating_1_2,Wind,2040,greenfield,all,MWh,498.567
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_1,Wind,2040,greenfield,all,MWh,1013.49
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_2,Wind,2040,greenfield,all,MWh,934.89
+TEMOA,ERCOT,utilitypv_class1_moderate_1,Solar,2040,greenfield,all,MWh,5.87254e+07
+TEMOA,Eastern,utilitypv_class1_moderate_1,Solar,2040,greenfield,all,MWh,2.0378e+08
+TEMOA,Western,utilitypv_class1_moderate_1,Solar,2040,greenfield,all,MWh,6.84586e+08
+TEMOA,ERCOT,utilitypv_class1_moderate_2,Solar,2040,greenfield,all,MWh,86469.2
+TEMOA,Eastern,utilitypv_class1_moderate_2,Solar,2040,greenfield,all,MWh,8.21981e+07
+TEMOA,Western,utilitypv_class1_moderate_2,Solar,2040,greenfield,all,MWh,358558
+TEMOA,ERCOT,utilitypv_class1_moderate_3,Solar,2040,greenfield,all,MWh,5768.35
+TEMOA,Eastern,utilitypv_class1_moderate_3,Solar,2040,greenfield,all,MWh,4681.67
+TEMOA,Western,utilitypv_class1_moderate_3,Solar,2040,greenfield,all,MWh,3660.32
+TEMOA,ERCOT,utilitypv_class1_moderate_4,Solar,2040,greenfield,all,MWh,5063.49
+TEMOA,Eastern,utilitypv_class1_moderate_4,Solar,2040,greenfield,all,MWh,4571.51
+TEMOA,Western,utilitypv_class1_moderate_4,Solar,2040,greenfield,all,MWh,3659.64
+TEMOA,ERCOT,utilitypv_class1_moderate_5,Solar,2040,greenfield,all,MWh,2151.76
+TEMOA,Eastern,utilitypv_class1_moderate_5,Solar,2040,greenfield,all,MWh,1989.28
+TEMOA,Western,utilitypv_class1_moderate_5,Solar,2040,greenfield,all,MWh,1721.9
+TEMOA,ERCOT,utilitypv_class1_moderate_6,Solar,2040,greenfield,all,MWh,2749.54
+TEMOA,Eastern,utilitypv_class1_moderate_6,Solar,2040,greenfield,all,MWh,2348.32
+TEMOA,Western,utilitypv_class1_moderate_6,Solar,2040,greenfield,all,MWh,2025.76
+TEMOA,ERCOT,battery_moderate_0_10hour,Battery,2050,greenfield,all,MWh,10472.5
+TEMOA,Eastern,battery_moderate_0_10hour,Battery,2050,greenfield,all,MWh,10249.5
+TEMOA,Western,battery_moderate_0_10hour,Battery,2050,greenfield,all,MWh,10298.9
+TEMOA,ERCOT,battery_moderate_0_2hour,Battery,2050,greenfield,all,MWh,1.36354e+08
+TEMOA,Eastern,battery_moderate_0_2hour,Battery,2050,greenfield,all,MWh,6.10981e+08
+TEMOA,Western,battery_moderate_0_2hour,Battery,2050,greenfield,all,MWh,3.83668e+08
+TEMOA,ERCOT,battery_moderate_0_4hour,Battery,2050,greenfield,all,MWh,33480.5
+TEMOA,Eastern,battery_moderate_0_4hour,Battery,2050,greenfield,all,MWh,33082.4
+TEMOA,Western,battery_moderate_0_4hour,Battery,2050,greenfield,all,MWh,33541.5
+TEMOA,ERCOT,battery_moderate_0_6hour,Battery,2050,greenfield,all,MWh,18713.5
+TEMOA,Eastern,battery_moderate_0_6hour,Battery,2050,greenfield,all,MWh,18314.5
+TEMOA,Western,battery_moderate_0_6hour,Battery,2050,greenfield,all,MWh,18478.3
+TEMOA,ERCOT,battery_moderate_0_8hour,Battery,2050,greenfield,all,MWh,13341
+TEMOA,Eastern,battery_moderate_0_8hour,Battery,2050,greenfield,all,MWh,13043.3
+TEMOA,Western,battery_moderate_0_8hour,Battery,2050,greenfield,all,MWh,13126.8
+TEMOA,ERCOT,landbasedwind_class3_moderate_1,Wind,2050,greenfield,all,MWh,1.63388e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_1,Wind,2050,greenfield,all,MWh,5.48699e+08
+TEMOA,Western,landbasedwind_class3_moderate_1,Wind,2050,greenfield,all,MWh,13258
+TEMOA,ERCOT,landbasedwind_class3_moderate_2,Wind,2050,greenfield,all,MWh,1.79827e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_2,Wind,2050,greenfield,all,MWh,5.95477e+08
+TEMOA,Western,landbasedwind_class3_moderate_2,Wind,2050,greenfield,all,MWh,3.6856e+08
+TEMOA,ERCOT,landbasedwind_class3_moderate_3,Wind,2050,greenfield,all,MWh,1.41846e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_3,Wind,2050,greenfield,all,MWh,4.73589e+08
+TEMOA,Western,landbasedwind_class3_moderate_3,Wind,2050,greenfield,all,MWh,4287.99
+TEMOA,ERCOT,landbasedwind_class3_moderate_4,Wind,2050,greenfield,all,MWh,1.57735e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_4,Wind,2050,greenfield,all,MWh,5.40521e+08
+TEMOA,Western,landbasedwind_class3_moderate_4,Wind,2050,greenfield,all,MWh,7343.78
+TEMOA,ERCOT,landbasedwind_class3_moderate_5,Wind,2050,greenfield,all,MWh,19293.3
+TEMOA,Eastern,landbasedwind_class3_moderate_5,Wind,2050,greenfield,all,MWh,9593.6
+TEMOA,Western,landbasedwind_class3_moderate_5,Wind,2050,greenfield,all,MWh,2395.88
+TEMOA,ERCOT,landbasedwind_class3_moderate_6,Wind,2050,greenfield,all,MWh,40911.5
+TEMOA,Eastern,landbasedwind_class3_moderate_6,Wind,2050,greenfield,all,MWh,115171
+TEMOA,Western,landbasedwind_class3_moderate_6,Wind,2050,greenfield,all,MWh,6880.57
+TEMOA,ERCOT,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,greenfield,all,MWh,18045.6
+TEMOA,Eastern,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,greenfield,all,MWh,8.88896e+08
+TEMOA,Western,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,greenfield,all,MWh,14263.4
+TEMOA,ERCOT,naturalgas_ccccsavgcf_conservative_0,CCS,2050,greenfield,all,MWh,4159.15
+TEMOA,Eastern,naturalgas_ccccsavgcf_conservative_0,CCS,2050,greenfield,all,MWh,8018.86
+TEMOA,Western,naturalgas_ccccsavgcf_conservative_0,CCS,2050,greenfield,all,MWh,3861.23
+TEMOA,ERCOT,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,greenfield,all,MWh,3829.94
+TEMOA,Eastern,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,greenfield,all,MWh,5696.98
+TEMOA,Western,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,greenfield,all,MWh,3594.05
+TEMOA,ERCOT,nuclear_nuclear_moderate_0,Nuclear,2050,greenfield,all,MWh,2455.3
+TEMOA,Eastern,nuclear_nuclear_moderate_0,Nuclear,2050,greenfield,all,MWh,2327.61
+TEMOA,Western,nuclear_nuclear_moderate_0,Nuclear,2050,greenfield,all,MWh,1954.6
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_1,Wind,2050,greenfield,all,MWh,1296.67
+TEMOA,Western,offshorewind_class12_moderate_floating_1_1,Wind,2050,greenfield,all,MWh,792.699
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_2,Wind,2050,greenfield,all,MWh,1250.59
+TEMOA,Western,offshorewind_class12_moderate_floating_1_2,Wind,2050,greenfield,all,MWh,999.779
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_1,Wind,2050,greenfield,all,MWh,2262.28
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_2,Wind,2050,greenfield,all,MWh,1957.69
+TEMOA,ERCOT,utilitypv_class1_moderate_1,Solar,2050,greenfield,all,MWh,1.23586e+08
+TEMOA,Eastern,utilitypv_class1_moderate_1,Solar,2050,greenfield,all,MWh,1.46994e+09
+TEMOA,Western,utilitypv_class1_moderate_1,Solar,2050,greenfield,all,MWh,1.18937e+09
+TEMOA,ERCOT,utilitypv_class1_moderate_2,Solar,2050,greenfield,all,MWh,62923.4
+TEMOA,Eastern,utilitypv_class1_moderate_2,Solar,2050,greenfield,all,MWh,237828
+TEMOA,Western,utilitypv_class1_moderate_2,Solar,2050,greenfield,all,MWh,176061
+TEMOA,ERCOT,utilitypv_class1_moderate_3,Solar,2050,greenfield,all,MWh,10306.9
+TEMOA,Eastern,utilitypv_class1_moderate_3,Solar,2050,greenfield,all,MWh,8692.55
+TEMOA,Western,utilitypv_class1_moderate_3,Solar,2050,greenfield,all,MWh,6981.94
+TEMOA,ERCOT,utilitypv_class1_moderate_4,Solar,2050,greenfield,all,MWh,8855.75
+TEMOA,Eastern,utilitypv_class1_moderate_4,Solar,2050,greenfield,all,MWh,8147.68
+TEMOA,Western,utilitypv_class1_moderate_4,Solar,2050,greenfield,all,MWh,6739.52
+TEMOA,ERCOT,utilitypv_class1_moderate_5,Solar,2050,greenfield,all,MWh,3859.01
+TEMOA,Eastern,utilitypv_class1_moderate_5,Solar,2050,greenfield,all,MWh,3776.78
+TEMOA,Western,utilitypv_class1_moderate_5,Solar,2050,greenfield,all,MWh,3292.88
+TEMOA,ERCOT,utilitypv_class1_moderate_6,Solar,2050,greenfield,all,MWh,4943.32
+TEMOA,Eastern,utilitypv_class1_moderate_6,Solar,2050,greenfield,all,MWh,4333.15
+TEMOA,Western,utilitypv_class1_moderate_6,Solar,2050,greenfield,all,MWh,3729
+TEMOA,ERCOT,batteries_1,Battery,2040,existing_only,all,MWh,7.5806e+06
+TEMOA,Eastern,batteries_1,Battery,2040,existing_only,all,MWh,1.72843e+06
+TEMOA,Western,batteries_1,Battery,2040,existing_only,all,MWh,1.06625e+07
+TEMOA,ERCOT,conventional_hydroelectric_1,Hydro,2040,existing_only,all,MWh,444966
+TEMOA,Eastern,conventional_hydroelectric_1,Hydro,2040,existing_only,all,MWh,8.61462e+07
+TEMOA,Western,conventional_hydroelectric_1,Hydro,2040,existing_only,all,MWh,1.92683e+08
+TEMOA,ERCOT,conventional_steam_coal_1,Coal,2040,existing_only,all,MWh,214.681
+TEMOA,Eastern,conventional_steam_coal_1,Coal,2040,existing_only,all,MWh,221.416
+TEMOA,Western,conventional_steam_coal_1,Coal,2040,existing_only,all,MWh,232.593
+TEMOA,Western,geothermal_1,Geothermal,2040,existing_only,all,MWh,2.74632e+07
+TEMOA,Eastern,hydroelectric_pumped_storage_1,Hydro,2040,existing_only,all,MWh,3.30066e+06
+TEMOA,Western,hydroelectric_pumped_storage_1,Hydro,2040,existing_only,all,MWh,935406
+TEMOA,ERCOT,natural_gas_fired_combined_cycle_1,Natural Gas,2040,existing_only,all,MWh,1.0316e+07
+TEMOA,Eastern,natural_gas_fired_combined_cycle_1,Natural Gas,2040,existing_only,all,MWh,8.51681e+08
+TEMOA,Western,natural_gas_fired_combined_cycle_1,Natural Gas,2040,existing_only,all,MWh,5.52364e+07
+TEMOA,ERCOT,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,existing_only,all,MWh,265715
+TEMOA,Eastern,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,existing_only,all,MWh,900782
+TEMOA,Western,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,existing_only,all,MWh,2.16888e+06
+TEMOA,ERCOT,natural_gas_steam_turbine_1,Natural Gas,2040,existing_only,all,MWh,478.401
+TEMOA,Eastern,natural_gas_steam_turbine_1,Natural Gas,2040,existing_only,all,MWh,596.382
+TEMOA,Western,natural_gas_steam_turbine_1,Natural Gas,2040,existing_only,all,MWh,712824
+TEMOA,ERCOT,nuclear_1,Nuclear,2040,existing_only,all,MWh,4.48508e+07
+TEMOA,Eastern,nuclear_1,Nuclear,2040,existing_only,all,MWh,7.21881e+08
+TEMOA,Western,nuclear_1,Nuclear,2040,existing_only,all,MWh,4.53326e+07
+TEMOA,ERCOT,onshore_wind_turbine_1,Wind,2040,existing_only,all,MWh,1.06605e+08
+TEMOA,Eastern,onshore_wind_turbine_1,Wind,2040,existing_only,all,MWh,1.94693e+08
+TEMOA,Western,onshore_wind_turbine_1,Wind,2040,existing_only,all,MWh,8.57035e+07
+TEMOA,ERCOT,solar_photovoltaic_1,Solar,2040,existing_only,all,MWh,4.19421e+07
+TEMOA,Eastern,solar_photovoltaic_1,Solar,2040,existing_only,all,MWh,8.45433e+07
+TEMOA,Western,solar_photovoltaic_1,Solar,2040,existing_only,all,MWh,8.41473e+07
+TEMOA,ERCOT,batteries_1,Battery,2050,existing_only,all,MWh,1.15979e+07
+TEMOA,Eastern,batteries_1,Battery,2050,existing_only,all,MWh,5.00848e+06
+TEMOA,Western,batteries_1,Battery,2050,existing_only,all,MWh,3.48913e+07
+TEMOA,ERCOT,conventional_hydroelectric_1,Hydro,2050,existing_only,all,MWh,437487
+TEMOA,Eastern,conventional_hydroelectric_1,Hydro,2050,existing_only,all,MWh,7.62553e+07
+TEMOA,Western,conventional_hydroelectric_1,Hydro,2050,existing_only,all,MWh,1.65341e+08
+TEMOA,ERCOT,conventional_steam_coal_1,Coal,2050,existing_only,all,MWh,7.67381e+07
+TEMOA,Eastern,conventional_steam_coal_1,Coal,2050,existing_only,all,MWh,1.07648e+09
+TEMOA,Western,conventional_steam_coal_1,Coal,2050,existing_only,all,MWh,1.18741e+08
+TEMOA,Western,geothermal_1,Geothermal,2050,existing_only,all,MWh,2.7448e+07
+TEMOA,Eastern,hydroelectric_pumped_storage_1,Hydro,2050,existing_only,all,MWh,3.3445e+07
+TEMOA,Western,hydroelectric_pumped_storage_1,Hydro,2050,existing_only,all,MWh,9.42117e+06
+TEMOA,ERCOT,natural_gas_fired_combined_cycle_1,Natural Gas,2050,existing_only,all,MWh,3.4919e+08
+TEMOA,Eastern,natural_gas_fired_combined_cycle_1,Natural Gas,2050,existing_only,all,MWh,1.91953e+09
+TEMOA,Western,natural_gas_fired_combined_cycle_1,Natural Gas,2050,existing_only,all,MWh,4.14872e+08
+TEMOA,ERCOT,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,existing_only,all,MWh,2.14156e+07
+TEMOA,Eastern,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,existing_only,all,MWh,5.21561e+08
+TEMOA,Western,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,existing_only,all,MWh,3.66709e+07
+TEMOA,ERCOT,natural_gas_steam_turbine_1,Natural Gas,2050,existing_only,all,MWh,1.77311e+07
+TEMOA,Eastern,natural_gas_steam_turbine_1,Natural Gas,2050,existing_only,all,MWh,3.40141e+08
+TEMOA,Western,natural_gas_steam_turbine_1,Natural Gas,2050,existing_only,all,MWh,1.27349e+07
+TEMOA,ERCOT,nuclear_1,Nuclear,2050,existing_only,all,MWh,4.47597e+07
+TEMOA,Eastern,nuclear_1,Nuclear,2050,existing_only,all,MWh,7.21775e+08
+TEMOA,Western,nuclear_1,Nuclear,2050,existing_only,all,MWh,4.52472e+07
+TEMOA,ERCOT,onshore_wind_turbine_1,Wind,2050,existing_only,all,MWh,1.06552e+08
+TEMOA,Eastern,onshore_wind_turbine_1,Wind,2050,existing_only,all,MWh,1.94644e+08
+TEMOA,Western,onshore_wind_turbine_1,Wind,2050,existing_only,all,MWh,8.56691e+07
+TEMOA,ERCOT,solar_photovoltaic_1,Solar,2050,existing_only,all,MWh,4.19196e+07
+TEMOA,Eastern,solar_photovoltaic_1,Solar,2050,existing_only,all,MWh,8.45148e+07
+TEMOA,Western,solar_photovoltaic_1,Solar,2050,existing_only,all,MWh,8.41182e+07
+TEMOA,ERCOT,conventional_hydroelectric_1,Hydro,2040,no_tx_battery,all,MWh,445225
+TEMOA,Eastern,conventional_hydroelectric_1,Hydro,2040,no_tx_battery,all,MWh,8.61465e+07
+TEMOA,Western,conventional_hydroelectric_1,Hydro,2040,no_tx_battery,all,MWh,1.87207e+08
+TEMOA,ERCOT,conventional_steam_coal_1,Coal,2040,no_tx_battery,all,MWh,2.02737e+06
+TEMOA,Eastern,conventional_steam_coal_1,Coal,2040,no_tx_battery,all,MWh,7.87946e+07
+TEMOA,Western,conventional_steam_coal_1,Coal,2040,no_tx_battery,all,MWh,6.95861e+07
+TEMOA,Western,geothermal_1,Geothermal,2040,no_tx_battery,all,MWh,2.73403e+07
+TEMOA,Eastern,hydroelectric_pumped_storage_1,Hydro,2040,no_tx_battery,all,MWh,3.02382e+07
+TEMOA,Western,hydroelectric_pumped_storage_1,Hydro,2040,no_tx_battery,all,MWh,1.25888e+07
+TEMOA,ERCOT,landbasedwind_class3_moderate_1,Wind,2040,no_tx_battery,all,MWh,1.42552e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_1,Wind,2040,no_tx_battery,all,MWh,5.48407e+08
+TEMOA,Western,landbasedwind_class3_moderate_1,Wind,2040,no_tx_battery,all,MWh,406.55
+TEMOA,ERCOT,landbasedwind_class3_moderate_2,Wind,2040,no_tx_battery,all,MWh,1.75541e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_2,Wind,2040,no_tx_battery,all,MWh,5.95187e+08
+TEMOA,Western,landbasedwind_class3_moderate_2,Wind,2040,no_tx_battery,all,MWh,2.37579e+08
+TEMOA,ERCOT,landbasedwind_class3_moderate_3,Wind,2040,no_tx_battery,all,MWh,1511.65
+TEMOA,Eastern,landbasedwind_class3_moderate_3,Wind,2040,no_tx_battery,all,MWh,2736.46
+TEMOA,Western,landbasedwind_class3_moderate_3,Wind,2040,no_tx_battery,all,MWh,129.545
+TEMOA,ERCOT,landbasedwind_class3_moderate_4,Wind,2040,no_tx_battery,all,MWh,1037.23
+TEMOA,Eastern,landbasedwind_class3_moderate_4,Wind,2040,no_tx_battery,all,MWh,9.42162e+07
+TEMOA,Western,landbasedwind_class3_moderate_4,Wind,2040,no_tx_battery,all,MWh,224.916
+TEMOA,ERCOT,landbasedwind_class3_moderate_5,Wind,2040,no_tx_battery,all,MWh,413.03
+TEMOA,Eastern,landbasedwind_class3_moderate_5,Wind,2040,no_tx_battery,all,MWh,284.185
+TEMOA,Western,landbasedwind_class3_moderate_5,Wind,2040,no_tx_battery,all,MWh,55.8257
+TEMOA,ERCOT,landbasedwind_class3_moderate_6,Wind,2040,no_tx_battery,all,MWh,596.727
+TEMOA,Eastern,landbasedwind_class3_moderate_6,Wind,2040,no_tx_battery,all,MWh,856.185
+TEMOA,Western,landbasedwind_class3_moderate_6,Wind,2040,no_tx_battery,all,MWh,229.057
+TEMOA,ERCOT,natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_tx_battery,all,MWh,9.19695e+07
+TEMOA,Eastern,natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_tx_battery,all,MWh,1.16903e+09
+TEMOA,Western,natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_tx_battery,all,MWh,8.30834e+07
+TEMOA,ERCOT,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_tx_battery,all,MWh,13247
+TEMOA,Eastern,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_tx_battery,all,MWh,1.8615e+06
+TEMOA,Western,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_tx_battery,all,MWh,1.75632e+06
+TEMOA,ERCOT,natural_gas_steam_turbine_1,Natural Gas,2040,no_tx_battery,all,MWh,104.86
+TEMOA,Eastern,natural_gas_steam_turbine_1,Natural Gas,2040,no_tx_battery,all,MWh,4.78085e+06
+TEMOA,Western,natural_gas_steam_turbine_1,Natural Gas,2040,no_tx_battery,all,MWh,1.01133e+06
+TEMOA,ERCOT,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_tx_battery,all,MWh,741.335
+TEMOA,Eastern,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_tx_battery,all,MWh,1276.96
+TEMOA,Western,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_tx_battery,all,MWh,649.216
+TEMOA,ERCOT,naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_tx_battery,all,MWh,137.472
+TEMOA,Eastern,naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_tx_battery,all,MWh,198.777
+TEMOA,Western,naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_tx_battery,all,MWh,155.239
+TEMOA,ERCOT,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_tx_battery,all,MWh,131.951
+TEMOA,Eastern,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_tx_battery,all,MWh,188.972
+TEMOA,Western,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_tx_battery,all,MWh,132.951
+TEMOA,ERCOT,nuclear_1,Nuclear,2040,no_tx_battery,all,MWh,3.66321e+07
+TEMOA,Eastern,nuclear_1,Nuclear,2040,no_tx_battery,all,MWh,6.88775e+08
+TEMOA,Western,nuclear_1,Nuclear,2040,no_tx_battery,all,MWh,4.26848e+07
+TEMOA,ERCOT,nuclear_nuclear_moderate_0,Nuclear,2040,no_tx_battery,all,MWh,72.32
+TEMOA,Western,nuclear_nuclear_moderate_0,Nuclear,2040,no_tx_battery,all,MWh,0.265334
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_1,Wind,2040,no_tx_battery,all,MWh,28.905
+TEMOA,Western,offshorewind_class12_moderate_floating_1_1,Wind,2040,no_tx_battery,all,MWh,0.0819735
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_2,Wind,2040,no_tx_battery,all,MWh,26.3744
+TEMOA,Western,offshorewind_class12_moderate_floating_1_2,Wind,2040,no_tx_battery,all,MWh,0.175301
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_1,Wind,2040,no_tx_battery,all,MWh,64.5511
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_2,Wind,2040,no_tx_battery,all,MWh,42.6822
+TEMOA,ERCOT,onshore_wind_turbine_1,Wind,2040,no_tx_battery,all,MWh,1.03588e+08
+TEMOA,Eastern,onshore_wind_turbine_1,Wind,2040,no_tx_battery,all,MWh,1.9462e+08
+TEMOA,Western,onshore_wind_turbine_1,Wind,2040,no_tx_battery,all,MWh,8.54724e+07
+TEMOA,ERCOT,solar_photovoltaic_1,Solar,2040,no_tx_battery,all,MWh,4.08614e+07
+TEMOA,Eastern,solar_photovoltaic_1,Solar,2040,no_tx_battery,all,MWh,8.43321e+07
+TEMOA,Western,solar_photovoltaic_1,Solar,2040,no_tx_battery,all,MWh,8.36563e+07
+TEMOA,ERCOT,utilitypv_class1_moderate_1,Solar,2040,no_tx_battery,all,MWh,1.20799e+07
+TEMOA,Eastern,utilitypv_class1_moderate_1,Solar,2040,no_tx_battery,all,MWh,31634.1
+TEMOA,Western,utilitypv_class1_moderate_1,Solar,2040,no_tx_battery,all,MWh,2.74139e+08
+TEMOA,ERCOT,utilitypv_class1_moderate_2,Solar,2040,no_tx_battery,all,MWh,10692.9
+TEMOA,Eastern,utilitypv_class1_moderate_2,Solar,2040,no_tx_battery,all,MWh,4.10861e+08
+TEMOA,Western,utilitypv_class1_moderate_2,Solar,2040,no_tx_battery,all,MWh,4579.32
+TEMOA,ERCOT,utilitypv_class1_moderate_3,Solar,2040,no_tx_battery,all,MWh,432.457
+TEMOA,Eastern,utilitypv_class1_moderate_3,Solar,2040,no_tx_battery,all,MWh,356.251
+TEMOA,Western,utilitypv_class1_moderate_3,Solar,2040,no_tx_battery,all,MWh,291.402
+TEMOA,ERCOT,utilitypv_class1_moderate_4,Solar,2040,no_tx_battery,all,MWh,378.523
+TEMOA,Eastern,utilitypv_class1_moderate_4,Solar,2040,no_tx_battery,all,MWh,342.773
+TEMOA,Western,utilitypv_class1_moderate_4,Solar,2040,no_tx_battery,all,MWh,277.719
+TEMOA,ERCOT,utilitypv_class1_moderate_5,Solar,2040,no_tx_battery,all,MWh,160.577
+TEMOA,Eastern,utilitypv_class1_moderate_5,Solar,2040,no_tx_battery,all,MWh,153.118
+TEMOA,Western,utilitypv_class1_moderate_5,Solar,2040,no_tx_battery,all,MWh,141.593
+TEMOA,ERCOT,utilitypv_class1_moderate_6,Solar,2040,no_tx_battery,all,MWh,205.865
+TEMOA,Eastern,utilitypv_class1_moderate_6,Solar,2040,no_tx_battery,all,MWh,190.35
+TEMOA,Western,utilitypv_class1_moderate_6,Solar,2040,no_tx_battery,all,MWh,152.249
+TEMOA,ERCOT,conventional_hydroelectric_1,Hydro,2050,no_tx_battery,all,MWh,445099
+TEMOA,Eastern,conventional_hydroelectric_1,Hydro,2050,no_tx_battery,all,MWh,8.21171e+07
+TEMOA,Western,conventional_hydroelectric_1,Hydro,2050,no_tx_battery,all,MWh,1.68965e+08
+TEMOA,ERCOT,conventional_steam_coal_1,Coal,2050,no_tx_battery,all,MWh,320070
+TEMOA,Eastern,conventional_steam_coal_1,Coal,2050,no_tx_battery,all,MWh,1.61834e+06
+TEMOA,Western,conventional_steam_coal_1,Coal,2050,no_tx_battery,all,MWh,602822
+TEMOA,Western,geothermal_1,Geothermal,2050,no_tx_battery,all,MWh,2.61401e+07
+TEMOA,Eastern,hydroelectric_pumped_storage_1,Hydro,2050,no_tx_battery,all,MWh,6.83506e+07
+TEMOA,Western,hydroelectric_pumped_storage_1,Hydro,2050,no_tx_battery,all,MWh,1.85706e+07
+TEMOA,ERCOT,landbasedwind_class3_moderate_1,Wind,2050,no_tx_battery,all,MWh,1.43957e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_1,Wind,2050,no_tx_battery,all,MWh,5.30917e+08
+TEMOA,Western,landbasedwind_class3_moderate_1,Wind,2050,no_tx_battery,all,MWh,5912.84
+TEMOA,ERCOT,landbasedwind_class3_moderate_2,Wind,2050,no_tx_battery,all,MWh,1.59792e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_2,Wind,2050,no_tx_battery,all,MWh,5.77712e+08
+TEMOA,Western,landbasedwind_class3_moderate_2,Wind,2050,no_tx_battery,all,MWh,3.54366e+08
+TEMOA,ERCOT,landbasedwind_class3_moderate_3,Wind,2050,no_tx_battery,all,MWh,1.17241e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_3,Wind,2050,no_tx_battery,all,MWh,4.57102e+08
+TEMOA,Western,landbasedwind_class3_moderate_3,Wind,2050,no_tx_battery,all,MWh,870.286
+TEMOA,ERCOT,landbasedwind_class3_moderate_4,Wind,2050,no_tx_battery,all,MWh,14229.3
+TEMOA,Eastern,landbasedwind_class3_moderate_4,Wind,2050,no_tx_battery,all,MWh,5.23024e+08
+TEMOA,Western,landbasedwind_class3_moderate_4,Wind,2050,no_tx_battery,all,MWh,1915.13
+TEMOA,ERCOT,landbasedwind_class3_moderate_5,Wind,2050,no_tx_battery,all,MWh,2559.81
+TEMOA,Eastern,landbasedwind_class3_moderate_5,Wind,2050,no_tx_battery,all,MWh,2183.84
+TEMOA,Western,landbasedwind_class3_moderate_5,Wind,2050,no_tx_battery,all,MWh,446.987
+TEMOA,ERCOT,landbasedwind_class3_moderate_6,Wind,2050,no_tx_battery,all,MWh,5298.75
+TEMOA,Eastern,landbasedwind_class3_moderate_6,Wind,2050,no_tx_battery,all,MWh,14621.9
+TEMOA,Western,landbasedwind_class3_moderate_6,Wind,2050,no_tx_battery,all,MWh,1956.43
+TEMOA,ERCOT,natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_tx_battery,all,MWh,3.94762e+07
+TEMOA,Eastern,natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_tx_battery,all,MWh,4.71806e+08
+TEMOA,Western,natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_tx_battery,all,MWh,4.81268e+07
+TEMOA,ERCOT,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_tx_battery,all,MWh,719809
+TEMOA,Eastern,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_tx_battery,all,MWh,2.12732e+07
+TEMOA,Western,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_tx_battery,all,MWh,1.6912e+06
+TEMOA,ERCOT,natural_gas_steam_turbine_1,Natural Gas,2050,no_tx_battery,all,MWh,417712
+TEMOA,Eastern,natural_gas_steam_turbine_1,Natural Gas,2050,no_tx_battery,all,MWh,1.83112e+07
+TEMOA,Western,natural_gas_steam_turbine_1,Natural Gas,2050,no_tx_battery,all,MWh,590260
+TEMOA,ERCOT,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_tx_battery,all,MWh,109086
+TEMOA,Eastern,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_tx_battery,all,MWh,1.04991e+08
+TEMOA,Western,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_tx_battery,all,MWh,6376.06
+TEMOA,ERCOT,naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_tx_battery,all,MWh,3334.45
+TEMOA,Eastern,naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_tx_battery,all,MWh,2.76008e+08
+TEMOA,Western,naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_tx_battery,all,MWh,3593.38
+TEMOA,ERCOT,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_tx_battery,all,MWh,527.656
+TEMOA,Eastern,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_tx_battery,all,MWh,590.664
+TEMOA,Western,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_tx_battery,all,MWh,581.055
+TEMOA,ERCOT,nuclear_1,Nuclear,2050,no_tx_battery,all,MWh,2.76841e+07
+TEMOA,Eastern,nuclear_1,Nuclear,2050,no_tx_battery,all,MWh,5.53236e+08
+TEMOA,Western,nuclear_1,Nuclear,2050,no_tx_battery,all,MWh,3.29434e+07
+TEMOA,ERCOT,nuclear_nuclear_moderate_0,Nuclear,2050,no_tx_battery,all,MWh,564.838
+TEMOA,Eastern,nuclear_nuclear_moderate_0,Nuclear,2050,no_tx_battery,all,MWh,483.5
+TEMOA,Western,nuclear_nuclear_moderate_0,Nuclear,2050,no_tx_battery,all,MWh,456.682
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_1,Wind,2050,no_tx_battery,all,MWh,271.672
+TEMOA,Western,offshorewind_class12_moderate_floating_1_1,Wind,2050,no_tx_battery,all,MWh,145.149
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_2,Wind,2050,no_tx_battery,all,MWh,258.093
+TEMOA,Western,offshorewind_class12_moderate_floating_1_2,Wind,2050,no_tx_battery,all,MWh,197.903
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_1,Wind,2050,no_tx_battery,all,MWh,472.004
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_2,Wind,2050,no_tx_battery,all,MWh,392.134
+TEMOA,ERCOT,onshore_wind_turbine_1,Wind,2050,no_tx_battery,all,MWh,9.5201e+07
+TEMOA,Eastern,onshore_wind_turbine_1,Wind,2050,no_tx_battery,all,MWh,1.88366e+08
+TEMOA,Western,onshore_wind_turbine_1,Wind,2050,no_tx_battery,all,MWh,8.19216e+07
+TEMOA,ERCOT,solar_photovoltaic_1,Solar,2050,no_tx_battery,all,MWh,3.52848e+07
+TEMOA,Eastern,solar_photovoltaic_1,Solar,2050,no_tx_battery,all,MWh,7.59244e+07
+TEMOA,Western,solar_photovoltaic_1,Solar,2050,no_tx_battery,all,MWh,7.66904e+07
+TEMOA,ERCOT,utilitypv_class1_moderate_1,Solar,2050,no_tx_battery,all,MWh,7.89355e+07
+TEMOA,Eastern,utilitypv_class1_moderate_1,Solar,2050,no_tx_battery,all,MWh,26661.4
+TEMOA,Western,utilitypv_class1_moderate_1,Solar,2050,no_tx_battery,all,MWh,5.76874e+08
+TEMOA,ERCOT,utilitypv_class1_moderate_2,Solar,2050,no_tx_battery,all,MWh,226142
+TEMOA,Eastern,utilitypv_class1_moderate_2,Solar,2050,no_tx_battery,all,MWh,7.13558e+08
+TEMOA,Western,utilitypv_class1_moderate_2,Solar,2050,no_tx_battery,all,MWh,1.1748e+06
+TEMOA,ERCOT,utilitypv_class1_moderate_3,Solar,2050,no_tx_battery,all,MWh,1782.94
+TEMOA,Eastern,utilitypv_class1_moderate_3,Solar,2050,no_tx_battery,all,MWh,1469.61
+TEMOA,Western,utilitypv_class1_moderate_3,Solar,2050,no_tx_battery,all,MWh,1141.2
+TEMOA,ERCOT,utilitypv_class1_moderate_4,Solar,2050,no_tx_battery,all,MWh,1709.47
+TEMOA,Eastern,utilitypv_class1_moderate_4,Solar,2050,no_tx_battery,all,MWh,1462.18
+TEMOA,Western,utilitypv_class1_moderate_4,Solar,2050,no_tx_battery,all,MWh,1172.68
+TEMOA,ERCOT,utilitypv_class1_moderate_5,Solar,2050,no_tx_battery,all,MWh,666.333
+TEMOA,Eastern,utilitypv_class1_moderate_5,Solar,2050,no_tx_battery,all,MWh,630.596
+TEMOA,Western,utilitypv_class1_moderate_5,Solar,2050,no_tx_battery,all,MWh,690.975
+TEMOA,ERCOT,utilitypv_class1_moderate_6,Solar,2050,no_tx_battery,all,MWh,895.102
+TEMOA,Eastern,utilitypv_class1_moderate_6,Solar,2050,no_tx_battery,all,MWh,824.543
+TEMOA,Western,utilitypv_class1_moderate_6,Solar,2050,no_tx_battery,all,MWh,708.961
+TEMOA,ERCOT,conventional_hydroelectric_1,Hydro,2040,no_battery,all,MWh,445225
+TEMOA,Eastern,conventional_hydroelectric_1,Hydro,2040,no_battery,all,MWh,8.61465e+07
+TEMOA,Western,conventional_hydroelectric_1,Hydro,2040,no_battery,all,MWh,1.87207e+08
+TEMOA,ERCOT,conventional_steam_coal_1,Coal,2040,no_battery,all,MWh,2.02737e+06
+TEMOA,Eastern,conventional_steam_coal_1,Coal,2040,no_battery,all,MWh,7.87946e+07
+TEMOA,Western,conventional_steam_coal_1,Coal,2040,no_battery,all,MWh,6.95861e+07
+TEMOA,Western,geothermal_1,Geothermal,2040,no_battery,all,MWh,2.73403e+07
+TEMOA,Eastern,hydroelectric_pumped_storage_1,Hydro,2040,no_battery,all,MWh,3.02382e+07
+TEMOA,Western,hydroelectric_pumped_storage_1,Hydro,2040,no_battery,all,MWh,1.25888e+07
+TEMOA,ERCOT,landbasedwind_class3_moderate_1,Wind,2040,no_battery,all,MWh,1.42552e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_1,Wind,2040,no_battery,all,MWh,5.48407e+08
+TEMOA,Western,landbasedwind_class3_moderate_1,Wind,2040,no_battery,all,MWh,406.55
+TEMOA,ERCOT,landbasedwind_class3_moderate_2,Wind,2040,no_battery,all,MWh,1.75541e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_2,Wind,2040,no_battery,all,MWh,5.95187e+08
+TEMOA,Western,landbasedwind_class3_moderate_2,Wind,2040,no_battery,all,MWh,2.37579e+08
+TEMOA,ERCOT,landbasedwind_class3_moderate_3,Wind,2040,no_battery,all,MWh,1511.65
+TEMOA,Eastern,landbasedwind_class3_moderate_3,Wind,2040,no_battery,all,MWh,2736.46
+TEMOA,Western,landbasedwind_class3_moderate_3,Wind,2040,no_battery,all,MWh,129.545
+TEMOA,ERCOT,landbasedwind_class3_moderate_4,Wind,2040,no_battery,all,MWh,1037.23
+TEMOA,Eastern,landbasedwind_class3_moderate_4,Wind,2040,no_battery,all,MWh,9.42162e+07
+TEMOA,Western,landbasedwind_class3_moderate_4,Wind,2040,no_battery,all,MWh,224.916
+TEMOA,ERCOT,landbasedwind_class3_moderate_5,Wind,2040,no_battery,all,MWh,413.03
+TEMOA,Eastern,landbasedwind_class3_moderate_5,Wind,2040,no_battery,all,MWh,284.185
+TEMOA,Western,landbasedwind_class3_moderate_5,Wind,2040,no_battery,all,MWh,55.8257
+TEMOA,ERCOT,landbasedwind_class3_moderate_6,Wind,2040,no_battery,all,MWh,596.727
+TEMOA,Eastern,landbasedwind_class3_moderate_6,Wind,2040,no_battery,all,MWh,856.185
+TEMOA,Western,landbasedwind_class3_moderate_6,Wind,2040,no_battery,all,MWh,229.057
+TEMOA,ERCOT,natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_battery,all,MWh,9.19695e+07
+TEMOA,Eastern,natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_battery,all,MWh,1.16903e+09
+TEMOA,Western,natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_battery,all,MWh,8.30834e+07
+TEMOA,ERCOT,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_battery,all,MWh,13247
+TEMOA,Eastern,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_battery,all,MWh,1.8615e+06
+TEMOA,Western,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_battery,all,MWh,1.75632e+06
+TEMOA,ERCOT,natural_gas_steam_turbine_1,Natural Gas,2040,no_battery,all,MWh,104.86
+TEMOA,Eastern,natural_gas_steam_turbine_1,Natural Gas,2040,no_battery,all,MWh,4.78085e+06
+TEMOA,Western,natural_gas_steam_turbine_1,Natural Gas,2040,no_battery,all,MWh,1.01133e+06
+TEMOA,ERCOT,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_battery,all,MWh,741.335
+TEMOA,Eastern,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_battery,all,MWh,1276.96
+TEMOA,Western,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_battery,all,MWh,649.216
+TEMOA,ERCOT,naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_battery,all,MWh,137.472
+TEMOA,Eastern,naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_battery,all,MWh,198.777
+TEMOA,Western,naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_battery,all,MWh,155.239
+TEMOA,ERCOT,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_battery,all,MWh,131.951
+TEMOA,Eastern,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_battery,all,MWh,188.972
+TEMOA,Western,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_battery,all,MWh,132.951
+TEMOA,ERCOT,nuclear_1,Nuclear,2040,no_battery,all,MWh,3.66321e+07
+TEMOA,Eastern,nuclear_1,Nuclear,2040,no_battery,all,MWh,6.88775e+08
+TEMOA,Western,nuclear_1,Nuclear,2040,no_battery,all,MWh,4.26848e+07
+TEMOA,ERCOT,nuclear_nuclear_moderate_0,Nuclear,2040,no_battery,all,MWh,72.32
+TEMOA,Western,nuclear_nuclear_moderate_0,Nuclear,2040,no_battery,all,MWh,0.265334
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_1,Wind,2040,no_battery,all,MWh,28.905
+TEMOA,Western,offshorewind_class12_moderate_floating_1_1,Wind,2040,no_battery,all,MWh,0.0819735
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_2,Wind,2040,no_battery,all,MWh,26.3744
+TEMOA,Western,offshorewind_class12_moderate_floating_1_2,Wind,2040,no_battery,all,MWh,0.175301
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_1,Wind,2040,no_battery,all,MWh,64.5511
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_2,Wind,2040,no_battery,all,MWh,42.6822
+TEMOA,ERCOT,onshore_wind_turbine_1,Wind,2040,no_battery,all,MWh,1.03588e+08
+TEMOA,Eastern,onshore_wind_turbine_1,Wind,2040,no_battery,all,MWh,1.9462e+08
+TEMOA,Western,onshore_wind_turbine_1,Wind,2040,no_battery,all,MWh,8.54724e+07
+TEMOA,ERCOT,solar_photovoltaic_1,Solar,2040,no_battery,all,MWh,4.08614e+07
+TEMOA,Eastern,solar_photovoltaic_1,Solar,2040,no_battery,all,MWh,8.43321e+07
+TEMOA,Western,solar_photovoltaic_1,Solar,2040,no_battery,all,MWh,8.36563e+07
+TEMOA,ERCOT,utilitypv_class1_moderate_1,Solar,2040,no_battery,all,MWh,1.20799e+07
+TEMOA,Eastern,utilitypv_class1_moderate_1,Solar,2040,no_battery,all,MWh,31634.1
+TEMOA,Western,utilitypv_class1_moderate_1,Solar,2040,no_battery,all,MWh,2.74139e+08
+TEMOA,ERCOT,utilitypv_class1_moderate_2,Solar,2040,no_battery,all,MWh,10692.9
+TEMOA,Eastern,utilitypv_class1_moderate_2,Solar,2040,no_battery,all,MWh,4.10861e+08
+TEMOA,Western,utilitypv_class1_moderate_2,Solar,2040,no_battery,all,MWh,4579.32
+TEMOA,ERCOT,utilitypv_class1_moderate_3,Solar,2040,no_battery,all,MWh,432.457
+TEMOA,Eastern,utilitypv_class1_moderate_3,Solar,2040,no_battery,all,MWh,356.251
+TEMOA,Western,utilitypv_class1_moderate_3,Solar,2040,no_battery,all,MWh,291.402
+TEMOA,ERCOT,utilitypv_class1_moderate_4,Solar,2040,no_battery,all,MWh,378.523
+TEMOA,Eastern,utilitypv_class1_moderate_4,Solar,2040,no_battery,all,MWh,342.773
+TEMOA,Western,utilitypv_class1_moderate_4,Solar,2040,no_battery,all,MWh,277.719
+TEMOA,ERCOT,utilitypv_class1_moderate_5,Solar,2040,no_battery,all,MWh,160.577
+TEMOA,Eastern,utilitypv_class1_moderate_5,Solar,2040,no_battery,all,MWh,153.118
+TEMOA,Western,utilitypv_class1_moderate_5,Solar,2040,no_battery,all,MWh,141.593
+TEMOA,ERCOT,utilitypv_class1_moderate_6,Solar,2040,no_battery,all,MWh,205.865
+TEMOA,Eastern,utilitypv_class1_moderate_6,Solar,2040,no_battery,all,MWh,190.35
+TEMOA,Western,utilitypv_class1_moderate_6,Solar,2040,no_battery,all,MWh,152.249
+TEMOA,ERCOT,conventional_hydroelectric_1,Hydro,2050,no_battery,all,MWh,445099
+TEMOA,Eastern,conventional_hydroelectric_1,Hydro,2050,no_battery,all,MWh,8.21171e+07
+TEMOA,Western,conventional_hydroelectric_1,Hydro,2050,no_battery,all,MWh,1.68965e+08
+TEMOA,ERCOT,conventional_steam_coal_1,Coal,2050,no_battery,all,MWh,320070
+TEMOA,Eastern,conventional_steam_coal_1,Coal,2050,no_battery,all,MWh,1.61834e+06
+TEMOA,Western,conventional_steam_coal_1,Coal,2050,no_battery,all,MWh,602822
+TEMOA,Western,geothermal_1,Geothermal,2050,no_battery,all,MWh,2.61401e+07
+TEMOA,Eastern,hydroelectric_pumped_storage_1,Hydro,2050,no_battery,all,MWh,6.83506e+07
+TEMOA,Western,hydroelectric_pumped_storage_1,Hydro,2050,no_battery,all,MWh,1.85706e+07
+TEMOA,ERCOT,landbasedwind_class3_moderate_1,Wind,2050,no_battery,all,MWh,1.43957e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_1,Wind,2050,no_battery,all,MWh,5.30917e+08
+TEMOA,Western,landbasedwind_class3_moderate_1,Wind,2050,no_battery,all,MWh,5912.84
+TEMOA,ERCOT,landbasedwind_class3_moderate_2,Wind,2050,no_battery,all,MWh,1.59792e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_2,Wind,2050,no_battery,all,MWh,5.77712e+08
+TEMOA,Western,landbasedwind_class3_moderate_2,Wind,2050,no_battery,all,MWh,3.54366e+08
+TEMOA,ERCOT,landbasedwind_class3_moderate_3,Wind,2050,no_battery,all,MWh,1.17241e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_3,Wind,2050,no_battery,all,MWh,4.57102e+08
+TEMOA,Western,landbasedwind_class3_moderate_3,Wind,2050,no_battery,all,MWh,870.286
+TEMOA,ERCOT,landbasedwind_class3_moderate_4,Wind,2050,no_battery,all,MWh,14229.3
+TEMOA,Eastern,landbasedwind_class3_moderate_4,Wind,2050,no_battery,all,MWh,5.23024e+08
+TEMOA,Western,landbasedwind_class3_moderate_4,Wind,2050,no_battery,all,MWh,1915.13
+TEMOA,ERCOT,landbasedwind_class3_moderate_5,Wind,2050,no_battery,all,MWh,2559.81
+TEMOA,Eastern,landbasedwind_class3_moderate_5,Wind,2050,no_battery,all,MWh,2183.84
+TEMOA,Western,landbasedwind_class3_moderate_5,Wind,2050,no_battery,all,MWh,446.987
+TEMOA,ERCOT,landbasedwind_class3_moderate_6,Wind,2050,no_battery,all,MWh,5298.75
+TEMOA,Eastern,landbasedwind_class3_moderate_6,Wind,2050,no_battery,all,MWh,14621.9
+TEMOA,Western,landbasedwind_class3_moderate_6,Wind,2050,no_battery,all,MWh,1956.43
+TEMOA,ERCOT,natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_battery,all,MWh,3.94762e+07
+TEMOA,Eastern,natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_battery,all,MWh,4.71806e+08
+TEMOA,Western,natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_battery,all,MWh,4.81268e+07
+TEMOA,ERCOT,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_battery,all,MWh,719809
+TEMOA,Eastern,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_battery,all,MWh,2.12732e+07
+TEMOA,Western,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_battery,all,MWh,1.6912e+06
+TEMOA,ERCOT,natural_gas_steam_turbine_1,Natural Gas,2050,no_battery,all,MWh,417712
+TEMOA,Eastern,natural_gas_steam_turbine_1,Natural Gas,2050,no_battery,all,MWh,1.83112e+07
+TEMOA,Western,natural_gas_steam_turbine_1,Natural Gas,2050,no_battery,all,MWh,590260
+TEMOA,ERCOT,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_battery,all,MWh,109086
+TEMOA,Eastern,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_battery,all,MWh,1.04991e+08
+TEMOA,Western,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_battery,all,MWh,6376.06
+TEMOA,ERCOT,naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_battery,all,MWh,3334.45
+TEMOA,Eastern,naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_battery,all,MWh,2.76008e+08
+TEMOA,Western,naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_battery,all,MWh,3593.38
+TEMOA,ERCOT,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_battery,all,MWh,527.656
+TEMOA,Eastern,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_battery,all,MWh,590.664
+TEMOA,Western,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_battery,all,MWh,581.055
+TEMOA,ERCOT,nuclear_1,Nuclear,2050,no_battery,all,MWh,2.76841e+07
+TEMOA,Eastern,nuclear_1,Nuclear,2050,no_battery,all,MWh,5.53236e+08
+TEMOA,Western,nuclear_1,Nuclear,2050,no_battery,all,MWh,3.29434e+07
+TEMOA,ERCOT,nuclear_nuclear_moderate_0,Nuclear,2050,no_battery,all,MWh,564.838
+TEMOA,Eastern,nuclear_nuclear_moderate_0,Nuclear,2050,no_battery,all,MWh,483.5
+TEMOA,Western,nuclear_nuclear_moderate_0,Nuclear,2050,no_battery,all,MWh,456.682
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_1,Wind,2050,no_battery,all,MWh,271.672
+TEMOA,Western,offshorewind_class12_moderate_floating_1_1,Wind,2050,no_battery,all,MWh,145.149
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_2,Wind,2050,no_battery,all,MWh,258.093
+TEMOA,Western,offshorewind_class12_moderate_floating_1_2,Wind,2050,no_battery,all,MWh,197.903
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_1,Wind,2050,no_battery,all,MWh,472.004
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_2,Wind,2050,no_battery,all,MWh,392.134
+TEMOA,ERCOT,onshore_wind_turbine_1,Wind,2050,no_battery,all,MWh,9.5201e+07
+TEMOA,Eastern,onshore_wind_turbine_1,Wind,2050,no_battery,all,MWh,1.88366e+08
+TEMOA,Western,onshore_wind_turbine_1,Wind,2050,no_battery,all,MWh,8.19216e+07
+TEMOA,ERCOT,solar_photovoltaic_1,Solar,2050,no_battery,all,MWh,3.52848e+07
+TEMOA,Eastern,solar_photovoltaic_1,Solar,2050,no_battery,all,MWh,7.59244e+07
+TEMOA,Western,solar_photovoltaic_1,Solar,2050,no_battery,all,MWh,7.66904e+07
+TEMOA,ERCOT,utilitypv_class1_moderate_1,Solar,2050,no_battery,all,MWh,7.89355e+07
+TEMOA,Eastern,utilitypv_class1_moderate_1,Solar,2050,no_battery,all,MWh,26661.4
+TEMOA,Western,utilitypv_class1_moderate_1,Solar,2050,no_battery,all,MWh,5.76874e+08
+TEMOA,ERCOT,utilitypv_class1_moderate_2,Solar,2050,no_battery,all,MWh,226142
+TEMOA,Eastern,utilitypv_class1_moderate_2,Solar,2050,no_battery,all,MWh,7.13558e+08
+TEMOA,Western,utilitypv_class1_moderate_2,Solar,2050,no_battery,all,MWh,1.1748e+06
+TEMOA,ERCOT,utilitypv_class1_moderate_3,Solar,2050,no_battery,all,MWh,1782.94
+TEMOA,Eastern,utilitypv_class1_moderate_3,Solar,2050,no_battery,all,MWh,1469.61
+TEMOA,Western,utilitypv_class1_moderate_3,Solar,2050,no_battery,all,MWh,1141.2
+TEMOA,ERCOT,utilitypv_class1_moderate_4,Solar,2050,no_battery,all,MWh,1709.47
+TEMOA,Eastern,utilitypv_class1_moderate_4,Solar,2050,no_battery,all,MWh,1462.18
+TEMOA,Western,utilitypv_class1_moderate_4,Solar,2050,no_battery,all,MWh,1172.68
+TEMOA,ERCOT,utilitypv_class1_moderate_5,Solar,2050,no_battery,all,MWh,666.333
+TEMOA,Eastern,utilitypv_class1_moderate_5,Solar,2050,no_battery,all,MWh,630.596
+TEMOA,Western,utilitypv_class1_moderate_5,Solar,2050,no_battery,all,MWh,690.975
+TEMOA,ERCOT,utilitypv_class1_moderate_6,Solar,2050,no_battery,all,MWh,895.102
+TEMOA,Eastern,utilitypv_class1_moderate_6,Solar,2050,no_battery,all,MWh,824.543
+TEMOA,Western,utilitypv_class1_moderate_6,Solar,2050,no_battery,all,MWh,708.961
+TEMOA,ERCOT,batteries_1,Battery,2040,no_tx,all,MWh,1.25357e+07
+TEMOA,Eastern,batteries_1,Battery,2040,no_tx,all,MWh,4.22879e+06
+TEMOA,Western,batteries_1,Battery,2040,no_tx,all,MWh,2.60299e+07
+TEMOA,ERCOT,battery_moderate_0_10hour,Battery,2040,no_tx,all,MWh,855.83
+TEMOA,Eastern,battery_moderate_0_10hour,Battery,2040,no_tx,all,MWh,661.832
+TEMOA,Western,battery_moderate_0_10hour,Battery,2040,no_tx,all,MWh,658.491
+TEMOA,ERCOT,battery_moderate_0_2hour,Battery,2040,no_tx,all,MWh,2.94365e+07
+TEMOA,Eastern,battery_moderate_0_2hour,Battery,2040,no_tx,all,MWh,2846.03
+TEMOA,Western,battery_moderate_0_2hour,Battery,2040,no_tx,all,MWh,2937.61
+TEMOA,ERCOT,battery_moderate_0_4hour,Battery,2040,no_tx,all,MWh,3115.48
+TEMOA,Eastern,battery_moderate_0_4hour,Battery,2040,no_tx,all,MWh,1515.52
+TEMOA,Western,battery_moderate_0_4hour,Battery,2040,no_tx,all,MWh,1524.96
+TEMOA,ERCOT,battery_moderate_0_6hour,Battery,2040,no_tx,all,MWh,1627.58
+TEMOA,Eastern,battery_moderate_0_6hour,Battery,2040,no_tx,all,MWh,1052.01
+TEMOA,Western,battery_moderate_0_6hour,Battery,2040,no_tx,all,MWh,1049.19
+TEMOA,ERCOT,battery_moderate_0_8hour,Battery,2040,no_tx,all,MWh,1118.44
+TEMOA,Eastern,battery_moderate_0_8hour,Battery,2040,no_tx,all,MWh,810.909
+TEMOA,Western,battery_moderate_0_8hour,Battery,2040,no_tx,all,MWh,806.964
+TEMOA,ERCOT,conventional_hydroelectric_1,Hydro,2040,no_tx,all,MWh,445159
+TEMOA,Eastern,conventional_hydroelectric_1,Hydro,2040,no_tx,all,MWh,8.61464e+07
+TEMOA,Western,conventional_hydroelectric_1,Hydro,2040,no_tx,all,MWh,1.88399e+08
+TEMOA,ERCOT,conventional_steam_coal_1,Coal,2040,no_tx,all,MWh,862320
+TEMOA,Eastern,conventional_steam_coal_1,Coal,2040,no_tx,all,MWh,7.43973e+07
+TEMOA,Western,conventional_steam_coal_1,Coal,2040,no_tx,all,MWh,8.09139e+07
+TEMOA,Western,geothermal_1,Geothermal,2040,no_tx,all,MWh,2.7393e+07
+TEMOA,Eastern,hydroelectric_pumped_storage_1,Hydro,2040,no_tx,all,MWh,2.81546e+07
+TEMOA,Western,hydroelectric_pumped_storage_1,Hydro,2040,no_tx,all,MWh,7.94678e+06
+TEMOA,ERCOT,landbasedwind_class3_moderate_1,Wind,2040,no_tx,all,MWh,1.60865e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_1,Wind,2040,no_tx,all,MWh,5.48589e+08
+TEMOA,Western,landbasedwind_class3_moderate_1,Wind,2040,no_tx,all,MWh,914.899
+TEMOA,ERCOT,landbasedwind_class3_moderate_2,Wind,2040,no_tx,all,MWh,1.77287e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_2,Wind,2040,no_tx,all,MWh,5.95368e+08
+TEMOA,Western,landbasedwind_class3_moderate_2,Wind,2040,no_tx,all,MWh,2.07203e+08
+TEMOA,ERCOT,landbasedwind_class3_moderate_3,Wind,2040,no_tx,all,MWh,7286.33
+TEMOA,Eastern,landbasedwind_class3_moderate_3,Wind,2040,no_tx,all,MWh,5578.59
+TEMOA,Western,landbasedwind_class3_moderate_3,Wind,2040,no_tx,all,MWh,301.364
+TEMOA,ERCOT,landbasedwind_class3_moderate_4,Wind,2040,no_tx,all,MWh,3894.05
+TEMOA,Eastern,landbasedwind_class3_moderate_4,Wind,2040,no_tx,all,MWh,7.13062e+07
+TEMOA,Western,landbasedwind_class3_moderate_4,Wind,2040,no_tx,all,MWh,486.279
+TEMOA,ERCOT,landbasedwind_class3_moderate_5,Wind,2040,no_tx,all,MWh,1087.82
+TEMOA,Eastern,landbasedwind_class3_moderate_5,Wind,2040,no_tx,all,MWh,614.106
+TEMOA,Western,landbasedwind_class3_moderate_5,Wind,2040,no_tx,all,MWh,169.433
+TEMOA,ERCOT,landbasedwind_class3_moderate_6,Wind,2040,no_tx,all,MWh,1664.24
+TEMOA,Eastern,landbasedwind_class3_moderate_6,Wind,2040,no_tx,all,MWh,1785.97
+TEMOA,Western,landbasedwind_class3_moderate_6,Wind,2040,no_tx,all,MWh,520.483
+TEMOA,ERCOT,natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_tx,all,MWh,7.07393e+07
+TEMOA,Eastern,natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_tx,all,MWh,1.18164e+09
+TEMOA,Western,natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_tx,all,MWh,8.15864e+07
+TEMOA,ERCOT,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_tx,all,MWh,1771.57
+TEMOA,Eastern,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_tx,all,MWh,1.17226e+06
+TEMOA,Western,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_tx,all,MWh,1.28147e+06
+TEMOA,ERCOT,natural_gas_steam_turbine_1,Natural Gas,2040,no_tx,all,MWh,258.452
+TEMOA,Eastern,natural_gas_steam_turbine_1,Natural Gas,2040,no_tx,all,MWh,4.20207e+06
+TEMOA,Western,natural_gas_steam_turbine_1,Natural Gas,2040,no_tx,all,MWh,761662
+TEMOA,ERCOT,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_tx,all,MWh,1525.1
+TEMOA,Eastern,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_tx,all,MWh,2410.16
+TEMOA,Western,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_tx,all,MWh,1177.43
+TEMOA,ERCOT,naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_tx,all,MWh,325.531
+TEMOA,Eastern,naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_tx,all,MWh,412.912
+TEMOA,Western,naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_tx,all,MWh,325.599
+TEMOA,ERCOT,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_tx,all,MWh,314.669
+TEMOA,Eastern,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_tx,all,MWh,422.378
+TEMOA,Western,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_tx,all,MWh,297.791
+TEMOA,ERCOT,nuclear_1,Nuclear,2040,no_tx,all,MWh,3.85354e+07
+TEMOA,Eastern,nuclear_1,Nuclear,2040,no_tx,all,MWh,6.98737e+08
+TEMOA,Western,nuclear_1,Nuclear,2040,no_tx,all,MWh,4.34397e+07
+TEMOA,ERCOT,nuclear_nuclear_moderate_0,Nuclear,2040,no_tx,all,MWh,188.82
+TEMOA,Eastern,nuclear_nuclear_moderate_0,Nuclear,2040,no_tx,all,MWh,161.816
+TEMOA,Western,nuclear_nuclear_moderate_0,Nuclear,2040,no_tx,all,MWh,155.53
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_1,Wind,2040,no_tx,all,MWh,96.3358
+TEMOA,Western,offshorewind_class12_moderate_floating_1_1,Wind,2040,no_tx,all,MWh,46.4803
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_2,Wind,2040,no_tx,all,MWh,90.6223
+TEMOA,Western,offshorewind_class12_moderate_floating_1_2,Wind,2040,no_tx,all,MWh,65.4871
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_1,Wind,2040,no_tx,all,MWh,162.877
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_2,Wind,2040,no_tx,all,MWh,132.667
+TEMOA,ERCOT,onshore_wind_turbine_1,Wind,2040,no_tx,all,MWh,1.04878e+08
+TEMOA,Eastern,onshore_wind_turbine_1,Wind,2040,no_tx,all,MWh,1.9466e+08
+TEMOA,Western,onshore_wind_turbine_1,Wind,2040,no_tx,all,MWh,8.5567e+07
+TEMOA,ERCOT,solar_photovoltaic_1,Solar,2040,no_tx,all,MWh,4.11675e+07
+TEMOA,Eastern,solar_photovoltaic_1,Solar,2040,no_tx,all,MWh,8.44688e+07
+TEMOA,Western,solar_photovoltaic_1,Solar,2040,no_tx,all,MWh,8.38124e+07
+TEMOA,ERCOT,utilitypv_class1_moderate_1,Solar,2040,no_tx,all,MWh,2.58176e+07
+TEMOA,Eastern,utilitypv_class1_moderate_1,Solar,2040,no_tx,all,MWh,124837
+TEMOA,Western,utilitypv_class1_moderate_1,Solar,2040,no_tx,all,MWh,3.10442e+08
+TEMOA,ERCOT,utilitypv_class1_moderate_2,Solar,2040,no_tx,all,MWh,23165.9
+TEMOA,Eastern,utilitypv_class1_moderate_2,Solar,2040,no_tx,all,MWh,3.94886e+08
+TEMOA,Western,utilitypv_class1_moderate_2,Solar,2040,no_tx,all,MWh,10643.5
+TEMOA,ERCOT,utilitypv_class1_moderate_3,Solar,2040,no_tx,all,MWh,935.551
+TEMOA,Eastern,utilitypv_class1_moderate_3,Solar,2040,no_tx,all,MWh,775.361
+TEMOA,Western,utilitypv_class1_moderate_3,Solar,2040,no_tx,all,MWh,634.419
+TEMOA,ERCOT,utilitypv_class1_moderate_4,Solar,2040,no_tx,all,MWh,812.215
+TEMOA,Eastern,utilitypv_class1_moderate_4,Solar,2040,no_tx,all,MWh,741.712
+TEMOA,Western,utilitypv_class1_moderate_4,Solar,2040,no_tx,all,MWh,604.193
+TEMOA,ERCOT,utilitypv_class1_moderate_5,Solar,2040,no_tx,all,MWh,350.6
+TEMOA,Eastern,utilitypv_class1_moderate_5,Solar,2040,no_tx,all,MWh,337.578
+TEMOA,Western,utilitypv_class1_moderate_5,Solar,2040,no_tx,all,MWh,305.318
+TEMOA,ERCOT,utilitypv_class1_moderate_6,Solar,2040,no_tx,all,MWh,445.428
+TEMOA,Eastern,utilitypv_class1_moderate_6,Solar,2040,no_tx,all,MWh,412.82
+TEMOA,Western,utilitypv_class1_moderate_6,Solar,2040,no_tx,all,MWh,331.045
+TEMOA,ERCOT,batteries_1,Battery,2050,no_tx,all,MWh,1.03365e+07
+TEMOA,Eastern,batteries_1,Battery,2050,no_tx,all,MWh,4.02714e+06
+TEMOA,Western,batteries_1,Battery,2050,no_tx,all,MWh,3.35378e+07
+TEMOA,ERCOT,battery_moderate_0_10hour,Battery,2050,no_tx,all,MWh,1513.59
+TEMOA,Eastern,battery_moderate_0_10hour,Battery,2050,no_tx,all,MWh,1417.38
+TEMOA,Western,battery_moderate_0_10hour,Battery,2050,no_tx,all,MWh,1412.76
+TEMOA,ERCOT,battery_moderate_0_2hour,Battery,2050,no_tx,all,MWh,9.93257e+07
+TEMOA,Eastern,battery_moderate_0_2hour,Battery,2050,no_tx,all,MWh,1.72018e+08
+TEMOA,Western,battery_moderate_0_2hour,Battery,2050,no_tx,all,MWh,9.11528e+07
+TEMOA,ERCOT,battery_moderate_0_4hour,Battery,2050,no_tx,all,MWh,6454.99
+TEMOA,Eastern,battery_moderate_0_4hour,Battery,2050,no_tx,all,MWh,4938.84
+TEMOA,Western,battery_moderate_0_4hour,Battery,2050,no_tx,all,MWh,5647.41
+TEMOA,ERCOT,battery_moderate_0_6hour,Battery,2050,no_tx,all,MWh,3065.89
+TEMOA,Eastern,battery_moderate_0_6hour,Battery,2050,no_tx,all,MWh,2643.93
+TEMOA,Western,battery_moderate_0_6hour,Battery,2050,no_tx,all,MWh,2766.26
+TEMOA,ERCOT,battery_moderate_0_8hour,Battery,2050,no_tx,all,MWh,2017.96
+TEMOA,Eastern,battery_moderate_0_8hour,Battery,2050,no_tx,all,MWh,1837.77
+TEMOA,Western,battery_moderate_0_8hour,Battery,2050,no_tx,all,MWh,1860.67
+TEMOA,ERCOT,conventional_hydroelectric_1,Hydro,2050,no_tx,all,MWh,445067
+TEMOA,Eastern,conventional_hydroelectric_1,Hydro,2050,no_tx,all,MWh,8.61463e+07
+TEMOA,Western,conventional_hydroelectric_1,Hydro,2050,no_tx,all,MWh,1.87412e+08
+TEMOA,ERCOT,conventional_steam_coal_1,Coal,2050,no_tx,all,MWh,92286.7
+TEMOA,Eastern,conventional_steam_coal_1,Coal,2050,no_tx,all,MWh,1.18887e+06
+TEMOA,Western,conventional_steam_coal_1,Coal,2050,no_tx,all,MWh,2.83256e+06
+TEMOA,Western,geothermal_1,Geothermal,2050,no_tx,all,MWh,2.72252e+07
+TEMOA,Eastern,hydroelectric_pumped_storage_1,Hydro,2050,no_tx,all,MWh,2.47416e+07
+TEMOA,Western,hydroelectric_pumped_storage_1,Hydro,2050,no_tx,all,MWh,7.64919e+06
+TEMOA,ERCOT,landbasedwind_class3_moderate_1,Wind,2050,no_tx,all,MWh,1.60941e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_1,Wind,2050,no_tx,all,MWh,5.45842e+08
+TEMOA,Western,landbasedwind_class3_moderate_1,Wind,2050,no_tx,all,MWh,2317.99
+TEMOA,ERCOT,landbasedwind_class3_moderate_2,Wind,2050,no_tx,all,MWh,1.77379e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_2,Wind,2050,no_tx,all,MWh,5.92629e+08
+TEMOA,Western,landbasedwind_class3_moderate_2,Wind,2050,no_tx,all,MWh,3.66575e+08
+TEMOA,ERCOT,landbasedwind_class3_moderate_3,Wind,2050,no_tx,all,MWh,1.39448e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_3,Wind,2050,no_tx,all,MWh,4.06921e+08
+TEMOA,Western,landbasedwind_class3_moderate_3,Wind,2050,no_tx,all,MWh,567.333
+TEMOA,ERCOT,landbasedwind_class3_moderate_4,Wind,2050,no_tx,all,MWh,20989.2
+TEMOA,Eastern,landbasedwind_class3_moderate_4,Wind,2050,no_tx,all,MWh,5.37695e+08
+TEMOA,Western,landbasedwind_class3_moderate_4,Wind,2050,no_tx,all,MWh,973.604
+TEMOA,ERCOT,landbasedwind_class3_moderate_5,Wind,2050,no_tx,all,MWh,2087.04
+TEMOA,Eastern,landbasedwind_class3_moderate_5,Wind,2050,no_tx,all,MWh,1162.5
+TEMOA,Western,landbasedwind_class3_moderate_5,Wind,2050,no_tx,all,MWh,310.721
+TEMOA,ERCOT,landbasedwind_class3_moderate_6,Wind,2050,no_tx,all,MWh,3534.57
+TEMOA,Eastern,landbasedwind_class3_moderate_6,Wind,2050,no_tx,all,MWh,4172.93
+TEMOA,Western,landbasedwind_class3_moderate_6,Wind,2050,no_tx,all,MWh,1027.72
+TEMOA,ERCOT,natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_tx,all,MWh,1.09125e+07
+TEMOA,Eastern,natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_tx,all,MWh,6.57796e+08
+TEMOA,Western,natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_tx,all,MWh,3.22885e+07
+TEMOA,ERCOT,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_tx,all,MWh,322.876
+TEMOA,Eastern,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_tx,all,MWh,1.21191e+07
+TEMOA,Western,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_tx,all,MWh,828250
+TEMOA,ERCOT,natural_gas_steam_turbine_1,Natural Gas,2050,no_tx,all,MWh,276.115
+TEMOA,Eastern,natural_gas_steam_turbine_1,Natural Gas,2050,no_tx,all,MWh,1.33305e+07
+TEMOA,Western,natural_gas_steam_turbine_1,Natural Gas,2050,no_tx,all,MWh,388407
+TEMOA,ERCOT,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_tx,all,MWh,1045.98
+TEMOA,Eastern,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_tx,all,MWh,1847.92
+TEMOA,Western,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_tx,all,MWh,1104.22
+TEMOA,ERCOT,naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_tx,all,MWh,488.078
+TEMOA,Eastern,naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_tx,all,MWh,746.892
+TEMOA,Western,naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_tx,all,MWh,527.952
+TEMOA,ERCOT,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_tx,all,MWh,345.206
+TEMOA,Eastern,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_tx,all,MWh,470.972
+TEMOA,Western,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_tx,all,MWh,348.749
+TEMOA,ERCOT,nuclear_1,Nuclear,2050,no_tx,all,MWh,3.8977e+07
+TEMOA,Eastern,nuclear_1,Nuclear,2050,no_tx,all,MWh,6.57638e+08
+TEMOA,Western,nuclear_1,Nuclear,2050,no_tx,all,MWh,4.17584e+07
+TEMOA,ERCOT,nuclear_nuclear_moderate_0,Nuclear,2050,no_tx,all,MWh,294.108
+TEMOA,Eastern,nuclear_nuclear_moderate_0,Nuclear,2050,no_tx,all,MWh,264.845
+TEMOA,Western,nuclear_nuclear_moderate_0,Nuclear,2050,no_tx,all,MWh,255.434
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_1,Wind,2050,no_tx,all,MWh,167.084
+TEMOA,Western,offshorewind_class12_moderate_floating_1_1,Wind,2050,no_tx,all,MWh,91.0534
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_2,Wind,2050,no_tx,all,MWh,157.092
+TEMOA,Western,offshorewind_class12_moderate_floating_1_2,Wind,2050,no_tx,all,MWh,124.09
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_1,Wind,2050,no_tx,all,MWh,285.908
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_2,Wind,2050,no_tx,all,MWh,234.453
+TEMOA,ERCOT,onshore_wind_turbine_1,Wind,2050,no_tx,all,MWh,1.05236e+08
+TEMOA,Eastern,onshore_wind_turbine_1,Wind,2050,no_tx,all,MWh,1.9385e+08
+TEMOA,Western,onshore_wind_turbine_1,Wind,2050,no_tx,all,MWh,8.51161e+07
+TEMOA,ERCOT,solar_photovoltaic_1,Solar,2050,no_tx,all,MWh,4.08231e+07
+TEMOA,Eastern,solar_photovoltaic_1,Solar,2050,no_tx,all,MWh,8.27482e+07
+TEMOA,Western,solar_photovoltaic_1,Solar,2050,no_tx,all,MWh,8.26693e+07
+TEMOA,ERCOT,utilitypv_class1_moderate_1,Solar,2050,no_tx,all,MWh,7.45047e+07
+TEMOA,Eastern,utilitypv_class1_moderate_1,Solar,2050,no_tx,all,MWh,1.72423e+08
+TEMOA,Western,utilitypv_class1_moderate_1,Solar,2050,no_tx,all,MWh,5.66612e+08
+TEMOA,ERCOT,utilitypv_class1_moderate_2,Solar,2050,no_tx,all,MWh,21635.4
+TEMOA,Eastern,utilitypv_class1_moderate_2,Solar,2050,no_tx,all,MWh,6.19388e+08
+TEMOA,Western,utilitypv_class1_moderate_2,Solar,2050,no_tx,all,MWh,14793.4
+TEMOA,ERCOT,utilitypv_class1_moderate_3,Solar,2050,no_tx,all,MWh,1380.02
+TEMOA,Eastern,utilitypv_class1_moderate_3,Solar,2050,no_tx,all,MWh,1163.2
+TEMOA,Western,utilitypv_class1_moderate_3,Solar,2050,no_tx,all,MWh,930.686
+TEMOA,ERCOT,utilitypv_class1_moderate_4,Solar,2050,no_tx,all,MWh,1167.32
+TEMOA,Eastern,utilitypv_class1_moderate_4,Solar,2050,no_tx,all,MWh,1110.57
+TEMOA,Western,utilitypv_class1_moderate_4,Solar,2050,no_tx,all,MWh,886.787
+TEMOA,ERCOT,utilitypv_class1_moderate_5,Solar,2050,no_tx,all,MWh,516.912
+TEMOA,Eastern,utilitypv_class1_moderate_5,Solar,2050,no_tx,all,MWh,499.565
+TEMOA,Western,utilitypv_class1_moderate_5,Solar,2050,no_tx,all,MWh,466.826
+TEMOA,ERCOT,utilitypv_class1_moderate_6,Solar,2050,no_tx,all,MWh,644.436
+TEMOA,Eastern,utilitypv_class1_moderate_6,Solar,2050,no_tx,all,MWh,621.823
+TEMOA,Western,utilitypv_class1_moderate_6,Solar,2050,no_tx,all,MWh,492.954
+TEMOA,ERCOT,conventional_steam_coal_1,Coal,2040,no_tx_battery_hydro,all,MWh,3.44797e+06
+TEMOA,Eastern,conventional_steam_coal_1,Coal,2040,no_tx_battery_hydro,all,MWh,1.01618e+08
+TEMOA,Western,conventional_steam_coal_1,Coal,2040,no_tx_battery_hydro,all,MWh,1.87943e+07
+TEMOA,Western,geothermal_1,Geothermal,2040,no_tx_battery_hydro,all,MWh,2.6926e+07
+TEMOA,ERCOT,landbasedwind_class3_moderate_1,Wind,2040,no_tx_battery_hydro,all,MWh,1.31931e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_1,Wind,2040,no_tx_battery_hydro,all,MWh,5.46266e+08
+TEMOA,Western,landbasedwind_class3_moderate_1,Wind,2040,no_tx_battery_hydro,all,MWh,2702.95
+TEMOA,ERCOT,landbasedwind_class3_moderate_2,Wind,2040,no_tx_battery_hydro,all,MWh,1.7219e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_2,Wind,2040,no_tx_battery_hydro,all,MWh,5.93027e+08
+TEMOA,Western,landbasedwind_class3_moderate_2,Wind,2040,no_tx_battery_hydro,all,MWh,2.91676e+08
+TEMOA,ERCOT,landbasedwind_class3_moderate_3,Wind,2040,no_tx_battery_hydro,all,MWh,13353.2
+TEMOA,Eastern,landbasedwind_class3_moderate_3,Wind,2040,no_tx_battery_hydro,all,MWh,31643.3
+TEMOA,Western,landbasedwind_class3_moderate_3,Wind,2040,no_tx_battery_hydro,all,MWh,1128.51
+TEMOA,ERCOT,landbasedwind_class3_moderate_4,Wind,2040,no_tx_battery_hydro,all,MWh,8023.18
+TEMOA,Eastern,landbasedwind_class3_moderate_4,Wind,2040,no_tx_battery_hydro,all,MWh,2.72295e+08
+TEMOA,Western,landbasedwind_class3_moderate_4,Wind,2040,no_tx_battery_hydro,all,MWh,1857.53
+TEMOA,ERCOT,landbasedwind_class3_moderate_5,Wind,2040,no_tx_battery_hydro,all,MWh,3205.95
+TEMOA,Eastern,landbasedwind_class3_moderate_5,Wind,2040,no_tx_battery_hydro,all,MWh,2418.5
+TEMOA,Western,landbasedwind_class3_moderate_5,Wind,2040,no_tx_battery_hydro,all,MWh,636.876
+TEMOA,ERCOT,landbasedwind_class3_moderate_6,Wind,2040,no_tx_battery_hydro,all,MWh,4788.24
+TEMOA,Eastern,landbasedwind_class3_moderate_6,Wind,2040,no_tx_battery_hydro,all,MWh,7373.81
+TEMOA,Western,landbasedwind_class3_moderate_6,Wind,2040,no_tx_battery_hydro,all,MWh,1619.86
+TEMOA,ERCOT,natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_tx_battery_hydro,all,MWh,1.03973e+08
+TEMOA,Eastern,natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_tx_battery_hydro,all,MWh,1.10448e+09
+TEMOA,Western,natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_tx_battery_hydro,all,MWh,1.12306e+08
+TEMOA,ERCOT,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_tx_battery_hydro,all,MWh,77468.4
+TEMOA,Eastern,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_tx_battery_hydro,all,MWh,6.59702e+06
+TEMOA,Western,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_tx_battery_hydro,all,MWh,390315
+TEMOA,ERCOT,natural_gas_steam_turbine_1,Natural Gas,2040,no_tx_battery_hydro,all,MWh,12707.3
+TEMOA,Eastern,natural_gas_steam_turbine_1,Natural Gas,2040,no_tx_battery_hydro,all,MWh,8.98859e+06
+TEMOA,Western,natural_gas_steam_turbine_1,Natural Gas,2040,no_tx_battery_hydro,all,MWh,232879
+TEMOA,ERCOT,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_tx_battery_hydro,all,MWh,10961.5
+TEMOA,Eastern,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_tx_battery_hydro,all,MWh,9.0315e+07
+TEMOA,Western,naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_tx_battery_hydro,all,MWh,68526.4
+TEMOA,ERCOT,naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_tx_battery_hydro,all,MWh,1359.34
+TEMOA,Eastern,naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_tx_battery_hydro,all,MWh,1957.01
+TEMOA,Western,naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_tx_battery_hydro,all,MWh,1670.45
+TEMOA,ERCOT,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_tx_battery_hydro,all,MWh,1135.38
+TEMOA,Eastern,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_tx_battery_hydro,all,MWh,1626.82
+TEMOA,Western,naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_tx_battery_hydro,all,MWh,1340.46
+TEMOA,ERCOT,nuclear_1,Nuclear,2040,no_tx_battery_hydro,all,MWh,3.36305e+07
+TEMOA,Eastern,nuclear_1,Nuclear,2040,no_tx_battery_hydro,all,MWh,6.44336e+08
+TEMOA,Western,nuclear_1,Nuclear,2040,no_tx_battery_hydro,all,MWh,3.72061e+07
+TEMOA,ERCOT,nuclear_nuclear_moderate_0,Nuclear,2040,no_tx_battery_hydro,all,MWh,691.513
+TEMOA,Eastern,nuclear_nuclear_moderate_0,Nuclear,2040,no_tx_battery_hydro,all,MWh,606.925
+TEMOA,Western,nuclear_nuclear_moderate_0,Nuclear,2040,no_tx_battery_hydro,all,MWh,600.473
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_1,Wind,2040,no_tx_battery_hydro,all,MWh,363.319
+TEMOA,Western,offshorewind_class12_moderate_floating_1_1,Wind,2040,no_tx_battery_hydro,all,MWh,217.32
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_2,Wind,2040,no_tx_battery_hydro,all,MWh,344.212
+TEMOA,Western,offshorewind_class12_moderate_floating_1_2,Wind,2040,no_tx_battery_hydro,all,MWh,284.52
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_1,Wind,2040,no_tx_battery_hydro,all,MWh,625.929
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_2,Wind,2040,no_tx_battery_hydro,all,MWh,525.696
+TEMOA,ERCOT,onshore_wind_turbine_1,Wind,2040,no_tx_battery_hydro,all,MWh,1.02044e+08
+TEMOA,Eastern,onshore_wind_turbine_1,Wind,2040,no_tx_battery_hydro,all,MWh,1.93746e+08
+TEMOA,Western,onshore_wind_turbine_1,Wind,2040,no_tx_battery_hydro,all,MWh,8.44782e+07
+TEMOA,ERCOT,solar_photovoltaic_1,Solar,2040,no_tx_battery_hydro,all,MWh,3.93654e+07
+TEMOA,Eastern,solar_photovoltaic_1,Solar,2040,no_tx_battery_hydro,all,MWh,8.31769e+07
+TEMOA,Western,solar_photovoltaic_1,Solar,2040,no_tx_battery_hydro,all,MWh,8.23136e+07
+TEMOA,ERCOT,utilitypv_class1_moderate_1,Solar,2040,no_tx_battery_hydro,all,MWh,2.0625e+07
+TEMOA,Eastern,utilitypv_class1_moderate_1,Solar,2040,no_tx_battery_hydro,all,MWh,97286.3
+TEMOA,Western,utilitypv_class1_moderate_1,Solar,2040,no_tx_battery_hydro,all,MWh,4.17764e+08
+TEMOA,ERCOT,utilitypv_class1_moderate_2,Solar,2040,no_tx_battery_hydro,all,MWh,95091.7
+TEMOA,Eastern,utilitypv_class1_moderate_2,Solar,2040,no_tx_battery_hydro,all,MWh,3.17361e+08
+TEMOA,Western,utilitypv_class1_moderate_2,Solar,2040,no_tx_battery_hydro,all,MWh,37750
+TEMOA,ERCOT,utilitypv_class1_moderate_3,Solar,2040,no_tx_battery_hydro,all,MWh,3147.54
+TEMOA,Eastern,utilitypv_class1_moderate_3,Solar,2040,no_tx_battery_hydro,all,MWh,2587.74
+TEMOA,Western,utilitypv_class1_moderate_3,Solar,2040,no_tx_battery_hydro,all,MWh,2105.73
+TEMOA,ERCOT,utilitypv_class1_moderate_4,Solar,2040,no_tx_battery_hydro,all,MWh,2815.32
+TEMOA,Eastern,utilitypv_class1_moderate_4,Solar,2040,no_tx_battery_hydro,all,MWh,2535.03
+TEMOA,Western,utilitypv_class1_moderate_4,Solar,2040,no_tx_battery_hydro,all,MWh,2028.31
+TEMOA,ERCOT,utilitypv_class1_moderate_5,Solar,2040,no_tx_battery_hydro,all,MWh,1175.58
+TEMOA,Eastern,utilitypv_class1_moderate_5,Solar,2040,no_tx_battery_hydro,all,MWh,1109.15
+TEMOA,Western,utilitypv_class1_moderate_5,Solar,2040,no_tx_battery_hydro,all,MWh,1071.14
+TEMOA,ERCOT,utilitypv_class1_moderate_6,Solar,2040,no_tx_battery_hydro,all,MWh,1517.02
+TEMOA,Eastern,utilitypv_class1_moderate_6,Solar,2040,no_tx_battery_hydro,all,MWh,1392.41
+TEMOA,Western,utilitypv_class1_moderate_6,Solar,2040,no_tx_battery_hydro,all,MWh,1142.69
+TEMOA,ERCOT,conventional_steam_coal_1,Coal,2050,no_tx_battery_hydro,all,MWh,318212
+TEMOA,Eastern,conventional_steam_coal_1,Coal,2050,no_tx_battery_hydro,all,MWh,1.63131e+06
+TEMOA,Western,conventional_steam_coal_1,Coal,2050,no_tx_battery_hydro,all,MWh,570817
+TEMOA,Western,geothermal_1,Geothermal,2050,no_tx_battery_hydro,all,MWh,2.59328e+07
+TEMOA,ERCOT,landbasedwind_class3_moderate_1,Wind,2050,no_tx_battery_hydro,all,MWh,1.42618e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_1,Wind,2050,no_tx_battery_hydro,all,MWh,5.30559e+08
+TEMOA,Western,landbasedwind_class3_moderate_1,Wind,2050,no_tx_battery_hydro,all,MWh,10361.5
+TEMOA,ERCOT,landbasedwind_class3_moderate_2,Wind,2050,no_tx_battery_hydro,all,MWh,1.58358e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_2,Wind,2050,no_tx_battery_hydro,all,MWh,5.77343e+08
+TEMOA,Western,landbasedwind_class3_moderate_2,Wind,2050,no_tx_battery_hydro,all,MWh,3.52116e+08
+TEMOA,ERCOT,landbasedwind_class3_moderate_3,Wind,2050,no_tx_battery_hydro,all,MWh,1.06583e+08
+TEMOA,Eastern,landbasedwind_class3_moderate_3,Wind,2050,no_tx_battery_hydro,all,MWh,4.03312e+08
+TEMOA,Western,landbasedwind_class3_moderate_3,Wind,2050,no_tx_battery_hydro,all,MWh,2289.86
+TEMOA,ERCOT,landbasedwind_class3_moderate_4,Wind,2050,no_tx_battery_hydro,all,MWh,32203.5
+TEMOA,Eastern,landbasedwind_class3_moderate_4,Wind,2050,no_tx_battery_hydro,all,MWh,5.22662e+08
+TEMOA,Western,landbasedwind_class3_moderate_4,Wind,2050,no_tx_battery_hydro,all,MWh,4676.07
+TEMOA,ERCOT,landbasedwind_class3_moderate_5,Wind,2050,no_tx_battery_hydro,all,MWh,7109.14
+TEMOA,Eastern,landbasedwind_class3_moderate_5,Wind,2050,no_tx_battery_hydro,all,MWh,6020.12
+TEMOA,Western,landbasedwind_class3_moderate_5,Wind,2050,no_tx_battery_hydro,all,MWh,1225.04
+TEMOA,ERCOT,landbasedwind_class3_moderate_6,Wind,2050,no_tx_battery_hydro,all,MWh,14905.5
+TEMOA,Eastern,landbasedwind_class3_moderate_6,Wind,2050,no_tx_battery_hydro,all,MWh,24716.3
+TEMOA,Western,landbasedwind_class3_moderate_6,Wind,2050,no_tx_battery_hydro,all,MWh,4696.15
+TEMOA,ERCOT,natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_tx_battery_hydro,all,MWh,3.49797e+07
+TEMOA,Eastern,natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_tx_battery_hydro,all,MWh,4.39842e+08
+TEMOA,Western,natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_tx_battery_hydro,all,MWh,3.6373e+07
+TEMOA,ERCOT,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_tx_battery_hydro,all,MWh,676355
+TEMOA,Eastern,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_tx_battery_hydro,all,MWh,1.76301e+07
+TEMOA,Western,natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_tx_battery_hydro,all,MWh,1.55911e+06
+TEMOA,ERCOT,natural_gas_steam_turbine_1,Natural Gas,2050,no_tx_battery_hydro,all,MWh,366134
+TEMOA,Eastern,natural_gas_steam_turbine_1,Natural Gas,2050,no_tx_battery_hydro,all,MWh,1.58951e+07
+TEMOA,Western,natural_gas_steam_turbine_1,Natural Gas,2050,no_tx_battery_hydro,all,MWh,1.51277e+06
+TEMOA,ERCOT,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_tx_battery_hydro,all,MWh,1.48783e+07
+TEMOA,Eastern,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_tx_battery_hydro,all,MWh,2.48776e+07
+TEMOA,Western,naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_tx_battery_hydro,all,MWh,8.80738e+07
+TEMOA,ERCOT,naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_tx_battery_hydro,all,MWh,14169.9
+TEMOA,Eastern,naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_tx_battery_hydro,all,MWh,6.07619e+08
+TEMOA,Western,naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_tx_battery_hydro,all,MWh,7.27284e+07
+TEMOA,ERCOT,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_tx_battery_hydro,all,MWh,1286.1
+TEMOA,Eastern,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_tx_battery_hydro,all,MWh,1408
+TEMOA,Western,naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_tx_battery_hydro,all,MWh,2344.58
+TEMOA,ERCOT,nuclear_1,Nuclear,2050,no_tx_battery_hydro,all,MWh,2.70476e+07
+TEMOA,Eastern,nuclear_1,Nuclear,2050,no_tx_battery_hydro,all,MWh,5.46557e+08
+TEMOA,Western,nuclear_1,Nuclear,2050,no_tx_battery_hydro,all,MWh,3.09811e+07
+TEMOA,ERCOT,nuclear_nuclear_moderate_0,Nuclear,2050,no_tx_battery_hydro,all,MWh,1651.5
+TEMOA,Eastern,nuclear_nuclear_moderate_0,Nuclear,2050,no_tx_battery_hydro,all,MWh,1397.88
+TEMOA,Western,nuclear_nuclear_moderate_0,Nuclear,2050,no_tx_battery_hydro,all,MWh,1351.6
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_1,Wind,2050,no_tx_battery_hydro,all,MWh,782.122
+TEMOA,Western,offshorewind_class12_moderate_floating_1_1,Wind,2050,no_tx_battery_hydro,all,MWh,450.689
+TEMOA,Eastern,offshorewind_class12_moderate_floating_1_2,Wind,2050,no_tx_battery_hydro,all,MWh,743.686
+TEMOA,Western,offshorewind_class12_moderate_floating_1_2,Wind,2050,no_tx_battery_hydro,all,MWh,578.283
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_1,Wind,2050,no_tx_battery_hydro,all,MWh,1374.16
+TEMOA,Eastern,offshorewind_class3_moderate_fixed_1_2,Wind,2050,no_tx_battery_hydro,all,MWh,1138.76
+TEMOA,ERCOT,onshore_wind_turbine_1,Wind,2050,no_tx_battery_hydro,all,MWh,9.4688e+07
+TEMOA,Eastern,onshore_wind_turbine_1,Wind,2050,no_tx_battery_hydro,all,MWh,1.8767e+08
+TEMOA,Western,onshore_wind_turbine_1,Wind,2050,no_tx_battery_hydro,all,MWh,8.13878e+07
+TEMOA,ERCOT,solar_photovoltaic_1,Solar,2050,no_tx_battery_hydro,all,MWh,3.4928e+07
+TEMOA,Eastern,solar_photovoltaic_1,Solar,2050,no_tx_battery_hydro,all,MWh,7.64889e+07
+TEMOA,Western,solar_photovoltaic_1,Solar,2050,no_tx_battery_hydro,all,MWh,7.57604e+07
+TEMOA,ERCOT,utilitypv_class1_moderate_1,Solar,2050,no_tx_battery_hydro,all,MWh,1.6068e+07
+TEMOA,Eastern,utilitypv_class1_moderate_1,Solar,2050,no_tx_battery_hydro,all,MWh,39714.4
+TEMOA,Western,utilitypv_class1_moderate_1,Solar,2050,no_tx_battery_hydro,all,MWh,5.94877e+08
+TEMOA,ERCOT,utilitypv_class1_moderate_2,Solar,2050,no_tx_battery_hydro,all,MWh,6.7309e+07
+TEMOA,Eastern,utilitypv_class1_moderate_2,Solar,2050,no_tx_battery_hydro,all,MWh,6.0298e+08
+TEMOA,Western,utilitypv_class1_moderate_2,Solar,2050,no_tx_battery_hydro,all,MWh,2.10159e+07
+TEMOA,ERCOT,utilitypv_class1_moderate_3,Solar,2050,no_tx_battery_hydro,all,MWh,5060.42
+TEMOA,Eastern,utilitypv_class1_moderate_3,Solar,2050,no_tx_battery_hydro,all,MWh,3994.54
+TEMOA,Western,utilitypv_class1_moderate_3,Solar,2050,no_tx_battery_hydro,all,MWh,3228.69
+TEMOA,ERCOT,utilitypv_class1_moderate_4,Solar,2050,no_tx_battery_hydro,all,MWh,4934.83
+TEMOA,Eastern,utilitypv_class1_moderate_4,Solar,2050,no_tx_battery_hydro,all,MWh,4148.74
+TEMOA,Western,utilitypv_class1_moderate_4,Solar,2050,no_tx_battery_hydro,all,MWh,3336.18
+TEMOA,ERCOT,utilitypv_class1_moderate_5,Solar,2050,no_tx_battery_hydro,all,MWh,1894.34
+TEMOA,Eastern,utilitypv_class1_moderate_5,Solar,2050,no_tx_battery_hydro,all,MWh,1741.11
+TEMOA,Western,utilitypv_class1_moderate_5,Solar,2050,no_tx_battery_hydro,all,MWh,2018.93
+TEMOA,ERCOT,utilitypv_class1_moderate_6,Solar,2050,no_tx_battery_hydro,all,MWh,2566.27
+TEMOA,Eastern,utilitypv_class1_moderate_6,Solar,2050,no_tx_battery_hydro,all,MWh,2317.52
+TEMOA,Western,utilitypv_class1_moderate_6,Solar,2050,no_tx_battery_hydro,all,MWh,2040.71
