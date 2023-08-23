@@ -1,9 +1,6 @@
 name: Run Jupyter Notebook
 
-on:
-  push:
-    branches:
-      - main  # Change this to your default branch if needed
+on: push
 permissions:
   contents: write
 jobs:
@@ -108,3 +105,4 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
