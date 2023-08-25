@@ -58,13 +58,11 @@ jobs:
       - name: Discover Notebooks
         run: |
           notebooks=$(find . -name "*.ipynb")
-          echo "$notebooks"
         id: discover_notebooks
 
       - name: Discover Scripts
         run: |
           echo "scripts=$(find . -name "*.py")" >> $GITHUB_OUTPUT
-          echo "$scripts"
         id: discover_scripts
 
       # - name: Run Notebooks
