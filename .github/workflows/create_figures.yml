@@ -55,17 +55,10 @@ jobs:
           git config --global user.name "${{ github.actor }}"
           git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
-      - name: Discover Notebooks
-        run: |
-          notebooks=$(find . -name "*.ipynb")
-          echo "$notebooks"
-        id: discover_notebooks
-
-      - name: Discover Scripts
-        run: |
-          echo "scripts=$(find . -name "*.py")" >> $GITHUB_OUTPUT
-          echo "$scripts"
-        id: discover_scripts
+      # - name: Discover Scripts
+      #   run: |
+      #     echo "scripts=$(find . -name "*.py")" >> $GITHUB_OUTPUT
+      #   id: discover_scripts
 
       # - name: Run Notebooks
       #   run: |
@@ -79,14 +72,7 @@ jobs:
       
       - name: Run Scripts
         run: |
-          echo "${{ steps.discover_scripts.outputs.scripts }}"
-          for script in ${{ steps.discover_scripts.outputs.scripts }}; do
-            echo "$script"
-            script_dir=$(dirname "$script")
-            cd "$script_dir"
-            python "$(basename "$script")"
-            cd -
-          done
+          python run_py_scripts.py
 
       - name: Check for modified files
         id: git-check
