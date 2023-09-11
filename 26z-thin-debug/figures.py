@@ -284,9 +284,6 @@ chart.save(f"{str(fig_num).zfill(2)} - transmission map across models.png")
 emiss = load_data("emissions.csv")
 emiss.head()
 
-emiss.loc[emiss["unit"] == "kg", "value"] /= 1000
-emiss.loc[emiss["unit"] == "kg", "unit"] = "tons"
-
 # %%
 fig_num += 1
 chart = (
