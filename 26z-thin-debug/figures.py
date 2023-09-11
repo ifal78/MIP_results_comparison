@@ -1,5 +1,6 @@
 import os
-os.environ['USE_PYGEOS'] = '0'
+
+os.environ["USE_PYGEOS"] = "0"
 
 import pandas as pd
 import geopandas as gpd
@@ -49,45 +50,54 @@ fig_num = 0
 # A faceted choropleth with capacity of each tech_type for each year
 for year, _df in cap.groupby("planning_year"):
     fig_num += 1
-    cap_group = _df.groupby(["model", "zone", "tech_type", "case"], as_index=False)["end_value"].sum()
+    cap_group = _df.groupby(["model", "zone", "tech_type", "case"], as_index=False)[
+        "end_value"
+    ].sum()
 
-    chart = alt.hconcat(*
-(alt.vconcat(*(
-    alt.Chart(gdf, title=f"{m}_{tech}").mark_geoshape(
-    stroke='white'
-).encode(
-    color="end_value:Q",
-    # column="model:N",
-    # row="tech_type:N",
-).transform_lookup(
-    lookup='zone',
-    from_=alt.LookupData(cap_group.query("tech_type==@tech and model==@m"), 'zone', list(cap_group.columns))
-).project(
-    'albersUsa'
-).properties(
-    width=300,
-    height=150
-)
-    for tech in cap_group["tech_type"].unique()
-)
-          )
+    chart = alt.hconcat(
+        *(
+            alt.vconcat(
+                *(
+                    alt.Chart(gdf, title=f"{m}_{tech}")
+                    .mark_geoshape(stroke="white")
+                    .encode(
+                        color="end_value:Q",
+                        # column="model:N",
+                        # row="tech_type:N",
+                    )
+                    .transform_lookup(
+                        lookup="zone",
+                        from_=alt.LookupData(
+                            cap_group.query("tech_type==@tech and model==@m"),
+                            "zone",
+                            list(cap_group.columns),
+                        ),
+                    )
+                    .project("albersUsa")
+                    .properties(width=300, height=150)
+                    for tech in cap_group["tech_type"].unique()
+                )
+            )
             for m in cap_group["model"].unique()
-)
-           )
+        )
+    )
     chart.save(f"{str(fig_num).zfill(2)} - {year} regional capacity map.png")
 
 
 # %%
 # stacked bar of capacity by model and planning year
 fig_num += 1
-chart = alt.Chart(cap).mark_bar().encode(
-    x="model",
-    y=alt.Y("sum(end_value)").title("Capacity (MW)"),
-    color="tech_type",
-    # column="zone",
-    row="planning_year:O",
-).properties(
-    width=350, height=250
+chart = (
+    alt.Chart(cap)
+    .mark_bar()
+    .encode(
+        x="model",
+        y=alt.Y("sum(end_value)").title("Capacity (MW)"),
+        color="tech_type",
+        # column="zone",
+        row="planning_year:O",
+    )
+    .properties(width=350, height=250)
 )
 
 chart.save(f"{str(fig_num).zfill(2)} - stacked capacity across models by year.png")
@@ -103,45 +113,54 @@ gen = load_data("generation.csv")
 # A faceted choropleth with generation of each tech_type for each year
 for year, _df in cap.groupby("planning_year"):
     fig_num += 1
-    cap_group = _df.groupby(["model", "zone", "tech_type", "case"], as_index=False)["end_value"].sum()
+    cap_group = _df.groupby(["model", "zone", "tech_type", "case"], as_index=False)[
+        "end_value"
+    ].sum()
 
-    chart = alt.hconcat(*
-(alt.vconcat(*(
-    alt.Chart(gdf, title=f"{m}_{tech}").mark_geoshape(
-    stroke='white'
-).encode(
-    color="end_value:Q",
-    # column="model:N",
-    # row="tech_type:N",
-).transform_lookup(
-    lookup='zone',
-    from_=alt.LookupData(cap_group.query("tech_type==@tech and model==@m"), 'zone', list(cap_group.columns))
-).project(
-    'albersUsa'
-).properties(
-    width=300,
-    height=150
-)
-    for tech in cap_group["tech_type"].unique()
-)
-          )
+    chart = alt.hconcat(
+        *(
+            alt.vconcat(
+                *(
+                    alt.Chart(gdf, title=f"{m}_{tech}")
+                    .mark_geoshape(stroke="white")
+                    .encode(
+                        color="end_value:Q",
+                        # column="model:N",
+                        # row="tech_type:N",
+                    )
+                    .transform_lookup(
+                        lookup="zone",
+                        from_=alt.LookupData(
+                            cap_group.query("tech_type==@tech and model==@m"),
+                            "zone",
+                            list(cap_group.columns),
+                        ),
+                    )
+                    .project("albersUsa")
+                    .properties(width=300, height=150)
+                    for tech in cap_group["tech_type"].unique()
+                )
+            )
             for m in cap_group["model"].unique()
-)
-           )
+        )
+    )
     chart.save(f"{str(fig_num).zfill(2)} - {year} regional generation map.png")
 
 
 # %%
 # stacked bar of generation by model and planning year
 fig_num += 1
-chart = alt.Chart(cap).mark_bar().encode(
-    x="model",
-    y=alt.Y("sum(end_value)").title("Capacity (MW)"),
-    color="tech_type",
-    # column="zone",
-    row="planning_year:O",
-).properties(
-    width=350, height=250
+chart = (
+    alt.Chart(cap)
+    .mark_bar()
+    .encode(
+        x="model",
+        y=alt.Y("sum(end_value)").title("Capacity (MW)"),
+        color="tech_type",
+        # column="zone",
+        row="planning_year:O",
+    )
+    .properties(width=350, height=250)
 )
 
 chart.save(f"{str(fig_num).zfill(2)} - stacked generation across models by year.png")
@@ -174,23 +193,28 @@ all_figs = []
 for year in tx_exp.planning_year.unique():
     year_figs = []
     for model in tx_exp.model.unique():
-        background = alt.Chart(gdf, title=f"{str(year)}_{model}").mark_geoshape(
-        stroke='white',
-        fill="lightgray",
-    ).project(
-        type='albersUsa'
-    )
-        lines = alt.Chart(tx_exp.query("planning_year==@year and model==@model")).mark_rule().encode(
-            latitude="lat1",
-            longitude="lon1",
-            latitude2="lat2",
-            longitude2="lon2",
-            # strokeWidth="value",
-            color=alt.Color("value:Q").scale(scheme="plasma"),
-        ).project(
-            type='albersUsa'
+        background = (
+            alt.Chart(gdf, title=f"{str(year)}_{model}")
+            .mark_geoshape(
+                stroke="white",
+                fill="lightgray",
+            )
+            .project(type="albersUsa")
         )
-    
+        lines = (
+            alt.Chart(tx_exp.query("planning_year==@year and model==@model"))
+            .mark_rule()
+            .encode(
+                latitude="lat1",
+                longitude="lon1",
+                latitude2="lat2",
+                longitude2="lon2",
+                # strokeWidth="value",
+                color=alt.Color("value:Q").scale(scheme="plasma"),
+            )
+            .project(type="albersUsa")
+        )
+
         year_figs.append(background + lines)
     all_figs.append(alt.hconcat(*year_figs))
 
@@ -223,23 +247,28 @@ all_figs = []
 for year in tx.planning_year.unique():
     year_figs = []
     for model in tx.model.unique():
-        background = alt.Chart(gdf, title=f"{str(year)}_{model}").mark_geoshape(
-        stroke='white',
-        fill="lightgray",
-    ).project(
-        type='albersUsa'
-    )
-        lines = alt.Chart(tx.query("planning_year==@year and model==@model")).mark_rule().encode(
-            latitude="lat1",
-            longitude="lon1",
-            latitude2="lat2",
-            longitude2="lon2",
-            # strokeWidth=alt.StrokeWidth("end_value:Q", bin=alt.Bin(step=5000)),
-            color=alt.Color("end_value:Q").scale(scheme="plasma"),
-        ).project(
-            type='albersUsa'
+        background = (
+            alt.Chart(gdf, title=f"{str(year)}_{model}")
+            .mark_geoshape(
+                stroke="white",
+                fill="lightgray",
+            )
+            .project(type="albersUsa")
         )
-    
+        lines = (
+            alt.Chart(tx.query("planning_year==@year and model==@model"))
+            .mark_rule()
+            .encode(
+                latitude="lat1",
+                longitude="lon1",
+                latitude2="lat2",
+                longitude2="lon2",
+                # strokeWidth=alt.StrokeWidth("end_value:Q", bin=alt.Bin(step=5000)),
+                color=alt.Color("end_value:Q").scale(scheme="plasma"),
+            )
+            .project(type="albersUsa")
+        )
+
         year_figs.append(background + lines)
     all_figs.append(alt.hconcat(*year_figs))
 
@@ -260,13 +289,17 @@ emiss.loc[emiss["unit"] == "kg", "unit"] = "tons"
 
 # %%
 fig_num += 1
-chart = alt.Chart(emiss).mark_bar().encode(
-    xOffset="model:N",
-    x="zone",
-    y=alt.Y("value").title("CO2 emissions (tonnes)"),
-    color="model:N",
-    # column="zone",
-    row="planning_year:O",
+chart = (
+    alt.Chart(emiss)
+    .mark_bar()
+    .encode(
+        xOffset="model:N",
+        x="zone",
+        y=alt.Y("value").title("CO2 emissions (tonnes)"),
+        color="model:N",
+        # column="zone",
+        row="planning_year:O",
+    )
 )
 
 chart.save(f"{str(fig_num).zfill(2)} - regional emissions across cases.png")
