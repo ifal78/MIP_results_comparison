@@ -1,0 +1,34 @@
+GENERATION_PROJECT,gen_tech,gen_energy_source,gen_load_zone,gen_max_age,gen_is_variable,gen_is_baseload,gen_full_load_heat_rate,gen_variable_om,gen_connect_cost_per_mw,gen_dbid,gen_scheduled_outage_rate,gen_forced_outage_rate,gen_min_build_capacity,gen_is_cogen,gen_storage_efficiency,gen_store_to_release_ratio,gen_can_provide_cap_reserves,gen_self_discharge_rate,gen_discharge_efficiency,gen_land_use_rate,gen_storage_energy_to_power_ratio,gen_type,gen_capacity_limit_mw,gen_ccs_capture_efficiency,gen_ccs_energy_load
+ERCOT_batteries_1,Batteries,Electricity,ERCOT,200,FALSE,FALSE,.,0.15,0,ERCOT_batteries_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,4343.5,.,.
+ERCOT_conventional_hydroelectric_1,Conventional Hydroelectric,Water,ERCOT,200,FALSE,FALSE,.,0,0,ERCOT_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,539.1,.,.
+ERCOT_conventional_steam_coal_1,Conventional Steam Coal,Coal,ERCOT,200,FALSE,FALSE,11.233,1.879,0,ERCOT_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,11290.6,.,.
+ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,ERCOT,200,FALSE,FALSE,7.917,3.726,0,ERCOT_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,39930.4,.,.
+ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,ERCOT,200,FALSE,FALSE,11.585,5.279,0,ERCOT_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,9270.4,.,.
+ERCOT_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,ERCOT,200,FALSE,FALSE,13.186,1.056,0,ERCOT_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,8363.2,.,.
+ERCOT_nuclear_1,Nuclear,Uranium,ERCOT,200,FALSE,FALSE,10.446,2.841,0,ERCOT_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,5120,.,.
+ERCOT_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,ERCOT,200,TRUE,FALSE,.,0,0,ERCOT_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,35923.3,.,.
+ERCOT_solar_photovoltaic_1,Solar Photovoltaic,Solar,ERCOT,200,TRUE,FALSE,.,0,0,ERCOT_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,18911.2,.,.
+Eastern_batteries_1,Batteries,Electricity,Eastern,200,FALSE,FALSE,.,0.15,0,Eastern_batteries_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,1831.2,.,.
+Eastern_conventional_hydroelectric_1,Conventional Hydroelectric,Water,Eastern,200,FALSE,FALSE,.,0,0,Eastern_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,28528.6,.,.
+Eastern_conventional_steam_coal_1,Conventional Steam Coal,Coal,Eastern,200,FALSE,FALSE,11.127,1.879,0,Eastern_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,122956.4,.,.
+Eastern_hydroelectric_pumped_storage_1,Hydroelectric Pumped Storage,Electricity,Eastern,200,FALSE,FALSE,.,0,0,Eastern_hydroelectric_pumped_storage_1,0.05,0.05,0,FALSE,0.749956,1,1,.,.,.,.,Hydro,17783.1,.,.
+Eastern_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,Eastern,200,FALSE,FALSE,7.454,3.704,0,Eastern_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,214981.2,.,.
+Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,Eastern,200,FALSE,FALSE,12.121,5.279,0,Eastern_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,112712.8,.,.
+Eastern_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,Eastern,200,FALSE,FALSE,12.549,1.056,0,Eastern_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,42501.9,.,.
+Eastern_nuclear_1,Nuclear,Uranium,Eastern,200,FALSE,FALSE,10.414,2.832,0,Eastern_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,82406.6,.,.
+Eastern_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,Eastern,200,TRUE,FALSE,.,0,0,Eastern_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,68384.6,.,.
+Eastern_solar_photovoltaic_1,Solar Photovoltaic,Solar,Eastern,200,TRUE,FALSE,.,0,0,Eastern_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,44415.4,.,.
+Western_batteries_1,Batteries,Electricity,Western,200,FALSE,FALSE,.,0.15,0,Western_batteries_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,12879,.,.
+Western_conventional_hydroelectric_1,Conventional Hydroelectric,Water,Western,200,FALSE,FALSE,.,0,0,Western_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,50115.6,.,.
+Western_conventional_steam_coal_1,Conventional Steam Coal,Coal,Western,200,FALSE,FALSE,10.858,1.879,0,Western_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,13567.2,.,.
+Western_geothermal_1,Geothermal,Heat,Western,200,FALSE,FALSE,.,0,0,Western_geothermal_1,0.05,0.04,0,FALSE,.,.,1,.,.,.,.,Geothermal,3087.4,.,.
+Western_hydroelectric_pumped_storage_1,Hydroelectric Pumped Storage,Electricity,Western,200,FALSE,FALSE,.,0,0,Western_hydroelectric_pumped_storage_1,0.05,0.05,0,FALSE,0.749956,1,1,.,.,.,.,Hydro,5053,.,.
+Western_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,Western,200,FALSE,FALSE,7.904,3.835,0,Western_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,50477.4,.,.
+Western_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,Western,200,FALSE,FALSE,11.386,5.279,0,Western_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,23034.7,.,.
+Western_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,Western,200,FALSE,FALSE,10.885,1.056,0,Western_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,5088.1,.,.
+Western_nuclear_1,Nuclear,Uranium,Western,200,FALSE,FALSE,10.446,2.841,0,Western_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,5175,.,.
+Western_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,Western,200,TRUE,FALSE,.,0,0,Western_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,29233.6,.,.
+Western_solar_photovoltaic_1,Solar Photovoltaic,Solar,Western,200,TRUE,FALSE,.,0,0,Western_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,35388.2,.,.
+Eastern_coal_ccs90avgcf_moderate_1,Coal_CCS90AvgCF_Moderate,Coal,Eastern,30,FALSE,FALSE,9.682,10013.7,0,Eastern_coal_ccs90avgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,.,0.9,0
+Western_coal_ccs90avgcf_moderate_1,Coal_CCS90AvgCF_Moderate,Coal,Western,30,FALSE,FALSE,9.682,10013.7,0,Western_coal_ccs90avgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,.,0.9,0
+ERCOT_coal_ccs90avgcf_moderate_1,Coal_CCS90AvgCF_Moderate,Coal,ERCOT,30,FALSE,FALSE,9.682,10013.7,0,ERCOT_coal_ccs90avgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,.,0.9,0

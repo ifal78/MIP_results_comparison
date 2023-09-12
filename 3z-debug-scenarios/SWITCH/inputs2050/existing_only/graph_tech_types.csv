@@ -1,0 +1,13 @@
+map_name,gen_type,gen_tech,energy_source
+default,Storage,Batteries,Electricity
+default,Hydro,Conventional Hydroelectric,Water
+default,Coal,Conventional Steam Coal,Coal
+default,Naturalgas,Natural Gas Fired Combined Cycle,Naturalgas
+default,Naturalgas,Natural Gas Fired Combustion Turbine,Naturalgas
+default,Naturalgas,Natural Gas Steam Turbine,Naturalgas
+default,Nuclear,Nuclear,Uranium
+default,Wind,Onshore Wind Turbine,Wind
+default,Solar,Solar Photovoltaic,Solar
+default,Hydro,Hydroelectric Pumped Storage,Electricity
+default,Geothermal,Geothermal,Heat
+default,Coal,Coal_CCS90AvgCF_Moderate,Coal
