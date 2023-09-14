@@ -1,0 +1,1532 @@
+model,zone,resource_name,tech_type,planning_year,case,timestep,unit,value
+TEMOA_test,TRE_WEST,batteries_1,Battery,2030,base_thin,all,MWh,2.38956e+06
+TEMOA_test,TRE_WEST,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,134.984
+TEMOA_test,TRE_WEST,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,450.82
+TEMOA_test,TRE_WEST,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,305.759
+TEMOA_test,TRE_WEST,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,218.532
+TEMOA_test,TRE_WEST,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,167.356
+TEMOA_test,TRE_WEST,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,643909
+TEMOA_test,TRE_WEST,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,57.1261
+TEMOA_test,TRE_WEST,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,11.5765
+TEMOA_test,TRE_WEST,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,7.01581e+06
+TEMOA_test,TRE_WEST,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,7.40781
+TEMOA_test,TRE_WEST,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,125.839
+TEMOA_test,TRE_WEST,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,209.77
+TEMOA_test,TRE_WEST,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,7293.51
+TEMOA_test,TRE_WEST,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,27.4207
+TEMOA_test,TRE_WEST,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,132.642
+TEMOA_test,TRE_WEST,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,7.25507e+07
+TEMOA_test,TRE_WEST,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,2.15037e+07
+TEMOA_test,BASN,batteries_1,Battery,2030,base_thin,all,MWh,525430
+TEMOA_test,CANO,batteries_1,Battery,2030,base_thin,all,MWh,802960
+TEMOA_test,CASO,batteries_1,Battery,2030,base_thin,all,MWh,4.22578e+06
+TEMOA_test,FRCC,batteries_1,Battery,2030,base_thin,all,MWh,1.33247e+06
+TEMOA_test,ISNE,batteries_1,Battery,2030,base_thin,all,MWh,601032
+TEMOA_test,MISC,batteries_1,Battery,2030,base_thin,all,MWh,63171
+TEMOA_test,MISE,batteries_1,Battery,2030,base_thin,all,MWh,2279.45
+TEMOA_test,MISS,batteries_1,Battery,2030,base_thin,all,MWh,21107
+TEMOA_test,MISW,batteries_1,Battery,2030,base_thin,all,MWh,52552.7
+TEMOA_test,NWPP,batteries_1,Battery,2030,base_thin,all,MWh,39708.9
+TEMOA_test,NYCW,batteries_1,Battery,2030,base_thin,all,MWh,36899.6
+TEMOA_test,NYUP,batteries_1,Battery,2030,base_thin,all,MWh,232397
+TEMOA_test,PJMC,batteries_1,Battery,2030,base_thin,all,MWh,68335.3
+TEMOA_test,PJMD,batteries_1,Battery,2030,base_thin,all,MWh,70076.8
+TEMOA_test,PJME,batteries_1,Battery,2030,base_thin,all,MWh,133735
+TEMOA_test,PJMW,batteries_1,Battery,2030,base_thin,all,MWh,72983.1
+TEMOA_test,RMRG,batteries_1,Battery,2030,base_thin,all,MWh,348064
+TEMOA_test,SPPC,batteries_1,Battery,2030,base_thin,all,MWh,1861.24
+TEMOA_test,SPPN,batteries_1,Battery,2030,base_thin,all,MWh,8144.37
+TEMOA_test,SPPS,batteries_1,Battery,2030,base_thin,all,MWh,320572
+TEMOA_test,SRCA,batteries_1,Battery,2030,base_thin,all,MWh,283849
+TEMOA_test,SRCE,batteries_1,Battery,2030,base_thin,all,MWh,232793
+TEMOA_test,SRSE,batteries_1,Battery,2030,base_thin,all,MWh,296702
+TEMOA_test,SRSG,batteries_1,Battery,2030,base_thin,all,MWh,1.91022e+06
+TEMOA_test,TRE,batteries_1,Battery,2030,base_thin,all,MWh,3.58431e+06
+TEMOA_test,BASN,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,85.1554
+TEMOA_test,CANO,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,83.5167
+TEMOA_test,CASO,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,84.2642
+TEMOA_test,FRCC,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,144.713
+TEMOA_test,ISNE,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,95.9226
+TEMOA_test,MISC,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,122.485
+TEMOA_test,MISE,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,117.216
+TEMOA_test,MISS,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,130.487
+TEMOA_test,MISW,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,135.196
+TEMOA_test,NWPP,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,84.2512
+TEMOA_test,NYCW,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,90.4961
+TEMOA_test,NYUP,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,88.8969
+TEMOA_test,PJMC,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,129.288
+TEMOA_test,PJMD,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,100.406
+TEMOA_test,PJME,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,101.757
+TEMOA_test,PJMW,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,118.813
+TEMOA_test,RMRG,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,117.963
+TEMOA_test,SPPC,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,126.56
+TEMOA_test,SPPN,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,129.967
+TEMOA_test,SPPS,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,126.247
+TEMOA_test,SRCA,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,114.139
+TEMOA_test,SRCE,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,121.516
+TEMOA_test,SRSE,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,121.209
+TEMOA_test,SRSG,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,99.3764
+TEMOA_test,TRE,battery_moderate_1_10hour,Battery,2030,base_thin,all,MWh,134.053
+TEMOA_test,BASN,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,182.307
+TEMOA_test,CANO,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,170.197
+TEMOA_test,CASO,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,175.764
+TEMOA_test,FRCC,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,1.1092e+06
+TEMOA_test,ISNE,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,314.427
+TEMOA_test,MISC,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,634.718
+TEMOA_test,MISE,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,542.238
+TEMOA_test,MISS,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,816.14
+TEMOA_test,MISW,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,1001.81
+TEMOA_test,NWPP,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,170.682
+TEMOA_test,NYCW,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,249.452
+TEMOA_test,NYUP,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,235.676
+TEMOA_test,PJMC,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,998.793
+TEMOA_test,PJMD,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,349.645
+TEMOA_test,PJME,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,360.941
+TEMOA_test,PJMW,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,569.619
+TEMOA_test,RMRG,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,474.948
+TEMOA_test,SPPC,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,591.51
+TEMOA_test,SPPN,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,687.919
+TEMOA_test,SPPS,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,491.774
+TEMOA_test,SRCA,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,495.373
+TEMOA_test,SRCE,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,636.452
+TEMOA_test,SRSE,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,665.553
+TEMOA_test,SRSG,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,251.223
+TEMOA_test,TRE,battery_moderate_1_2hour,Battery,2030,base_thin,all,MWh,434.034
+TEMOA_test,BASN,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,140.941
+TEMOA_test,CANO,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,134.503
+TEMOA_test,CASO,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,137.475
+TEMOA_test,FRCC,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,525.683
+TEMOA_test,ISNE,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,194.672
+TEMOA_test,MISC,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,303.472
+TEMOA_test,MISE,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,278.273
+TEMOA_test,MISS,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,342.557
+TEMOA_test,MISW,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,370.658
+TEMOA_test,NWPP,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,135.212
+TEMOA_test,NYCW,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,168.151
+TEMOA_test,NYUP,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,161.745
+TEMOA_test,PJMC,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,351.1
+TEMOA_test,PJMD,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,212.214
+TEMOA_test,PJME,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,214.213
+TEMOA_test,PJMW,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,285.044
+TEMOA_test,RMRG,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,272.508
+TEMOA_test,SPPC,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,303.453
+TEMOA_test,SPPN,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,326.434
+TEMOA_test,SPPS,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,281.025
+TEMOA_test,SRCA,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,265.557
+TEMOA_test,SRCE,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,300.938
+TEMOA_test,SRSE,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,306.602
+TEMOA_test,SRSG,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,180.848
+TEMOA_test,TRE,battery_moderate_1_4hour,Battery,2030,base_thin,all,MWh,299.124
+TEMOA_test,BASN,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,115.554
+TEMOA_test,CANO,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,111.734
+TEMOA_test,CASO,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,113.52
+TEMOA_test,FRCC,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,279.576
+TEMOA_test,ISNE,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,143.381
+TEMOA_test,MISC,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,202.918
+TEMOA_test,MISE,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,190.241
+TEMOA_test,MISS,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,221.796
+TEMOA_test,MISW,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,233.303
+TEMOA_test,NWPP,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,112.682
+TEMOA_test,NYCW,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,129.601
+TEMOA_test,NYUP,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,125.94
+TEMOA_test,PJMC,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,221.741
+TEMOA_test,PJMD,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,153.778
+TEMOA_test,PJME,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,155.203
+TEMOA_test,PJMW,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,193.765
+TEMOA_test,RMRG,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,190.07
+TEMOA_test,SPPC,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,206.363
+TEMOA_test,SPPN,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,216.401
+TEMOA_test,SPPS,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,198.843
+TEMOA_test,SRCA,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,183.876
+TEMOA_test,SRCE,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,201.411
+TEMOA_test,SRSE,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,203.588
+TEMOA_test,SRSG,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,142.434
+TEMOA_test,TRE,battery_moderate_1_6hour,Battery,2030,base_thin,all,MWh,215.728
+TEMOA_test,BASN,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,97.5782
+TEMOA_test,CANO,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,95.1705
+TEMOA_test,CASO,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,96.2917
+TEMOA_test,FRCC,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,190.873
+TEMOA_test,ISNE,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,114.006
+TEMOA_test,MISC,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,152.105
+TEMOA_test,MISE,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,144.35
+TEMOA_test,MISS,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,164.167
+TEMOA_test,MISW,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,170.907
+TEMOA_test,NWPP,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,96.1114
+TEMOA_test,NYCW,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,105.696
+TEMOA_test,NYUP,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,103.395
+TEMOA_test,PJMC,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,162.555
+TEMOA_test,PJMD,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,120.539
+TEMOA_test,PJME,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,121.934
+TEMOA_test,PJMW,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,146.648
+TEMOA_test,RMRG,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,145.282
+TEMOA_test,SPPC,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,156.71
+TEMOA_test,SPPN,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,162.191
+TEMOA_test,SPPS,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,154.292
+TEMOA_test,SRCA,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,140.173
+TEMOA_test,SRCE,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,150.993
+TEMOA_test,SRSE,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,151.578
+TEMOA_test,SRSG,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,116.962
+TEMOA_test,TRE,battery_moderate_1_8hour,Battery,2030,base_thin,all,MWh,165.882
+TEMOA_test,BASN,biomass_1,Other,2030,base_thin,all,MWh,234207
+TEMOA_test,CANO,biomass_1,Other,2030,base_thin,all,MWh,1.87225e+06
+TEMOA_test,CASO,biomass_1,Other,2030,base_thin,all,MWh,986142
+TEMOA_test,FRCC,biomass_1,Other,2030,base_thin,all,MWh,1.67272e+06
+TEMOA_test,ISNE,biomass_1,Other,2030,base_thin,all,MWh,2.30764e+06
+TEMOA_test,MISC,biomass_1,Other,2030,base_thin,all,MWh,577365
+TEMOA_test,MISE,biomass_1,Other,2030,base_thin,all,MWh,873827
+TEMOA_test,MISS,biomass_1,Other,2030,base_thin,all,MWh,690441
+TEMOA_test,MISW,biomass_1,Other,2030,base_thin,all,MWh,798523
+TEMOA_test,NWPP,biomass_1,Other,2030,base_thin,all,MWh,1.11003e+06
+TEMOA_test,NYCW,biomass_1,Other,2030,base_thin,all,MWh,101427
+TEMOA_test,NYUP,biomass_1,Other,2030,base_thin,all,MWh,727894
+TEMOA_test,PJMC,biomass_1,Other,2030,base_thin,all,MWh,236700
+TEMOA_test,PJMD,biomass_1,Other,2030,base_thin,all,MWh,556008
+TEMOA_test,PJME,biomass_1,Other,2030,base_thin,all,MWh,1.7544e+06
+TEMOA_test,PJMW,biomass_1,Other,2030,base_thin,all,MWh,264720
+TEMOA_test,RMRG,biomass_1,Other,2030,base_thin,all,MWh,131801
+TEMOA_test,SPPC,biomass_1,Other,2030,base_thin,all,MWh,82269.7
+TEMOA_test,SPPN,biomass_1,Other,2030,base_thin,all,MWh,90514.3
+TEMOA_test,SPPS,biomass_1,Other,2030,base_thin,all,MWh,129978
+TEMOA_test,SRCA,biomass_1,Other,2030,base_thin,all,MWh,996329
+TEMOA_test,SRCE,biomass_1,Other,2030,base_thin,all,MWh,337764
+TEMOA_test,SRSE,biomass_1,Other,2030,base_thin,all,MWh,2.3816e+06
+TEMOA_test,SRSG,biomass_1,Other,2030,base_thin,all,MWh,278718
+TEMOA_test,TRE,biomass_1,Other,2030,base_thin,all,MWh,335082
+TEMOA_test,BASN,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,8.63071e+06
+TEMOA_test,CANO,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,1.86702e+07
+TEMOA_test,CASO,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,2.38344e+06
+TEMOA_test,FRCC,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,111020
+TEMOA_test,ISNE,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,2.18071e+06
+TEMOA_test,MISC,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,1.45573e+06
+TEMOA_test,MISE,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,85548.8
+TEMOA_test,MISS,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,1.27662e+06
+TEMOA_test,MISW,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,291891
+TEMOA_test,NWPP,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,1.24742e+08
+TEMOA_test,NYUP,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,1.49859e+07
+TEMOA_test,PJMC,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,29997.5
+TEMOA_test,PJMD,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,600663
+TEMOA_test,PJME,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,2.32975e+06
+TEMOA_test,PJMW,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,2.25153e+06
+TEMOA_test,RMRG,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,1.78578e+06
+TEMOA_test,SPPC,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,65906.3
+TEMOA_test,SPPN,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,9.36859e+06
+TEMOA_test,SPPS,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,2.96342e+06
+TEMOA_test,SRCA,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,1.71788e+06
+TEMOA_test,SRCE,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,1.32107e+07
+TEMOA_test,SRSE,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,4.79956e+06
+TEMOA_test,SRSG,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,7.0804e+06
+TEMOA_test,TRE,conventional_hydroelectric_1,Hydro,2030,base_thin,all,MWh,383649
+TEMOA_test,BASN,conventional_steam_coal_1,Coal,2030,base_thin,all,MWh,5.06166
+TEMOA_test,ISNE,conventional_steam_coal_1,Coal,2030,base_thin,all,MWh,3186.94
+TEMOA_test,MISC,conventional_steam_coal_1,Coal,2030,base_thin,all,MWh,2.65378
+TEMOA_test,MISE,conventional_steam_coal_1,Coal,2030,base_thin,all,MWh,1.61945
+TEMOA_test,MISW,conventional_steam_coal_1,Coal,2030,base_thin,all,MWh,0.595781
+TEMOA_test,NWPP,conventional_steam_coal_1,Coal,2030,base_thin,all,MWh,0.452931
+TEMOA_test,PJMC,conventional_steam_coal_1,Coal,2030,base_thin,all,MWh,0.409885
+TEMOA_test,PJMD,conventional_steam_coal_1,Coal,2030,base_thin,all,MWh,6.02279
+TEMOA_test,PJMW,conventional_steam_coal_1,Coal,2030,base_thin,all,MWh,0.0503683
+TEMOA_test,RMRG,conventional_steam_coal_1,Coal,2030,base_thin,all,MWh,1.73015
+TEMOA_test,SPPC,conventional_steam_coal_1,Coal,2030,base_thin,all,MWh,0.42496
+TEMOA_test,SPPN,conventional_steam_coal_1,Coal,2030,base_thin,all,MWh,0.862038
+TEMOA_test,SRCE,conventional_steam_coal_1,Coal,2030,base_thin,all,MWh,0.844085
+TEMOA_test,SRSG,conventional_steam_coal_1,Coal,2030,base_thin,all,MWh,1.13906
+TEMOA_test,BASN,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,3.84199e+06
+TEMOA_test,CANO,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,1.26402e+07
+TEMOA_test,CASO,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,1.96683e+07
+TEMOA_test,FRCC,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,1.14171e+07
+TEMOA_test,ISNE,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,8.7658e+06
+TEMOA_test,MISC,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,2.66566e+06
+TEMOA_test,MISE,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,2.05316e+06
+TEMOA_test,MISS,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,6.04964e+06
+TEMOA_test,MISW,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,4.56276e+06
+TEMOA_test,NWPP,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,4.14796e+06
+TEMOA_test,NYCW,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,2.63556e+06
+TEMOA_test,NYUP,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,1.956e+06
+TEMOA_test,PJMC,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,3.02568e+06
+TEMOA_test,PJMD,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,3.60749e+06
+TEMOA_test,PJME,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,1.67286e+07
+TEMOA_test,PJMW,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,4.94386e+06
+TEMOA_test,RMRG,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,2.80518e+06
+TEMOA_test,SPPC,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,763418
+TEMOA_test,SPPN,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,569357
+TEMOA_test,SPPS,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,3.29918e+06
+TEMOA_test,SRCA,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,6.33901e+06
+TEMOA_test,SRCE,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,1.44996e+06
+TEMOA_test,SRSE,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,1.83842e+06
+TEMOA_test,SRSG,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,6.18083e+06
+TEMOA_test,TRE,distributed_generation_1,Distributed Solar,2030,base_thin,all,MWh,1.19e+07
+TEMOA_test,BASN,geothermal_1,Geothermal,2030,base_thin,all,MWh,4.54974e+06
+TEMOA_test,CASO,geothermal_1,Geothermal,2030,base_thin,all,MWh,207864
+TEMOA_test,NWPP,geothermal_1,Geothermal,2030,base_thin,all,MWh,179825
+TEMOA_test,SRSG,geothermal_1,Geothermal,2030,base_thin,all,MWh,1.66604e+06
+TEMOA_test,CANO,hydroelectric_pumped_storage_1,Hydro,2030,base_thin,all,MWh,1.23871e+06
+TEMOA_test,CASO,hydroelectric_pumped_storage_1,Hydro,2030,base_thin,all,MWh,914892
+TEMOA_test,ISNE,hydroelectric_pumped_storage_1,Hydro,2030,base_thin,all,MWh,2.46596e+06
+TEMOA_test,MISC,hydroelectric_pumped_storage_1,Hydro,2030,base_thin,all,MWh,841418
+TEMOA_test,MISE,hydroelectric_pumped_storage_1,Hydro,2030,base_thin,all,MWh,3.58469e+06
+TEMOA_test,NWPP,hydroelectric_pumped_storage_1,Hydro,2030,base_thin,all,MWh,191758
+TEMOA_test,NYUP,hydroelectric_pumped_storage_1,Hydro,2030,base_thin,all,MWh,1.36966e+06
+TEMOA_test,PJMD,hydroelectric_pumped_storage_1,Hydro,2030,base_thin,all,MWh,4.39463e+06
+TEMOA_test,PJME,hydroelectric_pumped_storage_1,Hydro,2030,base_thin,all,MWh,2.24528e+06
+TEMOA_test,PJMW,hydroelectric_pumped_storage_1,Hydro,2030,base_thin,all,MWh,405959
+TEMOA_test,RMRG,hydroelectric_pumped_storage_1,Hydro,2030,base_thin,all,MWh,1.07117e+06
+TEMOA_test,SPPS,hydroelectric_pumped_storage_1,Hydro,2030,base_thin,all,MWh,936338
+TEMOA_test,SRCA,hydroelectric_pumped_storage_1,Hydro,2030,base_thin,all,MWh,5.30811e+06
+TEMOA_test,SRCE,hydroelectric_pumped_storage_1,Hydro,2030,base_thin,all,MWh,3.17852e+06
+TEMOA_test,SRSE,hydroelectric_pumped_storage_1,Hydro,2030,base_thin,all,MWh,3.97916e+06
+TEMOA_test,SRSG,hydroelectric_pumped_storage_1,Hydro,2030,base_thin,all,MWh,302600
+TEMOA_test,BASN,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,62.0829
+TEMOA_test,CANO,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,57.3844
+TEMOA_test,CASO,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,56.971
+TEMOA_test,FRCC,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,59.5279
+TEMOA_test,ISNE,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,80.3602
+TEMOA_test,MISC,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,53.1172
+TEMOA_test,MISE,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,52.531
+TEMOA_test,MISS,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,54.2586
+TEMOA_test,MISW,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,55.7908
+TEMOA_test,NWPP,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,58.089
+TEMOA_test,NYCW,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,63.7451
+TEMOA_test,NYUP,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,65.6655
+TEMOA_test,PJMC,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,55.2219
+TEMOA_test,PJMD,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,57.6717
+TEMOA_test,PJME,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,57.1566
+TEMOA_test,PJMW,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,51.4602
+TEMOA_test,RMRG,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,57.3452
+TEMOA_test,SPPC,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,58.1371
+TEMOA_test,SPPN,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,57.7081
+TEMOA_test,SPPS,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,55.2106
+TEMOA_test,SRCA,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,58.7139
+TEMOA_test,SRCE,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,55.4843
+TEMOA_test,SRSE,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,57.6513
+TEMOA_test,SRSG,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,56.3682
+TEMOA_test,TRE,hydrogen_ccavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,58.3289
+TEMOA_test,BASN,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,19.4345
+TEMOA_test,CANO,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,19.3254
+TEMOA_test,CASO,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,19.3182
+TEMOA_test,FRCC,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,19.3433
+TEMOA_test,ISNE,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,18.5919
+TEMOA_test,MISC,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,12.1196
+TEMOA_test,MISE,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,12.1083
+TEMOA_test,MISS,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,12.5547
+TEMOA_test,MISW,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,11.7804
+TEMOA_test,NWPP,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,19.1909
+TEMOA_test,NYCW,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,14.384
+TEMOA_test,NYUP,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,14.7606
+TEMOA_test,PJMC,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,12.193
+TEMOA_test,PJMD,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,13.4759
+TEMOA_test,PJME,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,13.2879
+TEMOA_test,PJMW,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,12.4709
+TEMOA_test,RMRG,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,18.8911
+TEMOA_test,SPPC,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,12.2043
+TEMOA_test,SPPN,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,12.0886
+TEMOA_test,SPPS,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,11.7428
+TEMOA_test,SRCA,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,19.2149
+TEMOA_test,SRCE,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,12.8783
+TEMOA_test,SRSE,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,19.2459
+TEMOA_test,SRSG,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,18.9393
+TEMOA_test,TRE,hydrogen_ctavgcf_moderate_1,Hydrogen,2030,base_thin,all,MWh,11.9141
+TEMOA_test,BASN,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,1.40579e+06
+TEMOA_test,CANO,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,218.702
+TEMOA_test,CASO,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,75.6511
+TEMOA_test,FRCC,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,1.0053e+07
+TEMOA_test,ISNE,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,1.99844e+07
+TEMOA_test,MISC,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,5.97118e+06
+TEMOA_test,MISE,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,1.31462e+06
+TEMOA_test,MISS,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,974475
+TEMOA_test,MISW,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,1.51637e+07
+TEMOA_test,NWPP,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,93.5496
+TEMOA_test,NYCW,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,987675
+TEMOA_test,NYUP,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,1.14371e+07
+TEMOA_test,PJMC,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,1.20953e+07
+TEMOA_test,PJMD,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,1.20642e+06
+TEMOA_test,PJME,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,3.02717e+07
+TEMOA_test,PJMW,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,4.91021e+07
+TEMOA_test,RMRG,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,181661
+TEMOA_test,SPPC,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,1.04758e+06
+TEMOA_test,SPPN,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,103994
+TEMOA_test,SPPS,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,8.2933e+06
+TEMOA_test,SRCA,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,1.83055e+06
+TEMOA_test,SRCE,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,1.65328e+07
+TEMOA_test,SRSE,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,2.23766e+07
+TEMOA_test,SRSG,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,91.1328
+TEMOA_test,TRE,natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin,all,MWh,1.00334e+07
+TEMOA_test,BASN,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,21.8012
+TEMOA_test,CANO,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,23.5891
+TEMOA_test,CASO,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,28.7814
+TEMOA_test,FRCC,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,20.6846
+TEMOA_test,ISNE,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,36579.4
+TEMOA_test,MISC,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,13.8655
+TEMOA_test,MISE,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,22.1925
+TEMOA_test,MISS,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,22.8181
+TEMOA_test,MISW,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,14.9021
+TEMOA_test,NWPP,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,7.27178
+TEMOA_test,NYCW,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,41.7358
+TEMOA_test,NYUP,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,67.2266
+TEMOA_test,PJMC,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,545425
+TEMOA_test,PJMD,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,23.2861
+TEMOA_test,PJME,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,14.165
+TEMOA_test,PJMW,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,10.8241
+TEMOA_test,RMRG,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,20.2705
+TEMOA_test,SPPC,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,9.27033
+TEMOA_test,SPPN,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,9562.5
+TEMOA_test,SPPS,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,21.1936
+TEMOA_test,SRCA,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,22.4712
+TEMOA_test,SRCE,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,21.2517
+TEMOA_test,SRSE,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,20.5285
+TEMOA_test,SRSG,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,25.8688
+TEMOA_test,TRE,natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin,all,MWh,23.8183
+TEMOA_test,BASN,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,38.0607
+TEMOA_test,CANO,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,35.6719
+TEMOA_test,CASO,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,44.889
+TEMOA_test,FRCC,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,53.7881
+TEMOA_test,ISNE,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,2720.74
+TEMOA_test,MISC,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,1422.62
+TEMOA_test,MISE,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,14.3679
+TEMOA_test,MISS,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,44.2897
+TEMOA_test,MISW,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,124873
+TEMOA_test,NWPP,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,44.8439
+TEMOA_test,NYCW,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,127.054
+TEMOA_test,NYUP,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,132.656
+TEMOA_test,PJMC,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,26578.4
+TEMOA_test,PJMD,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,56.9112
+TEMOA_test,PJME,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,46.7072
+TEMOA_test,PJMW,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,31.0187
+TEMOA_test,RMRG,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,47.3149
+TEMOA_test,SPPC,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,6609.07
+TEMOA_test,SPPN,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,45901
+TEMOA_test,SPPS,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,37.4772
+TEMOA_test,SRCE,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,35.9055
+TEMOA_test,SRSE,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,50.1262
+TEMOA_test,SRSG,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,25.7418
+TEMOA_test,TRE,natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin,all,MWh,62.5503
+TEMOA_test,BASN,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,41.5081
+TEMOA_test,CANO,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,40.3551
+TEMOA_test,CASO,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,38.945
+TEMOA_test,FRCC,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,23.9374
+TEMOA_test,ISNE,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,1155.73
+TEMOA_test,MISC,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,2704.68
+TEMOA_test,MISS,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,28.4523
+TEMOA_test,MISW,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,0.599628
+TEMOA_test,NWPP,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,38.9816
+TEMOA_test,NYCW,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,26.3866
+TEMOA_test,NYUP,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,68.9512
+TEMOA_test,PJMC,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,432.893
+TEMOA_test,PJMD,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,41.4145
+TEMOA_test,PJME,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,28.8282
+TEMOA_test,PJMW,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,41.8868
+TEMOA_test,SPPC,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,1153.55
+TEMOA_test,SPPN,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,962.437
+TEMOA_test,SPPS,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,29.3866
+TEMOA_test,SRCA,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,35.156
+TEMOA_test,SRCE,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,43.5138
+TEMOA_test,SRSE,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,40.775
+TEMOA_test,TRE,natural_gas_steam_turbine_1,Natural Gas,2030,base_thin,all,MWh,25.9862
+TEMOA_test,BASN,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,176.963
+TEMOA_test,CANO,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,120.196
+TEMOA_test,CASO,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,121.918
+TEMOA_test,FRCC,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,161.87
+TEMOA_test,ISNE,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,7.51304e+06
+TEMOA_test,MISC,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,159.143
+TEMOA_test,MISE,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,161.808
+TEMOA_test,MISS,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,182.8
+TEMOA_test,MISW,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,179.264
+TEMOA_test,NWPP,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,135.792
+TEMOA_test,NYCW,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,365.572
+TEMOA_test,NYUP,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,705.865
+TEMOA_test,PJMC,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,152.69
+TEMOA_test,PJMD,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,140.345
+TEMOA_test,PJME,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,238.961
+TEMOA_test,PJMW,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,143.409
+TEMOA_test,RMRG,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,157.732
+TEMOA_test,SPPC,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,188.106
+TEMOA_test,SPPN,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,188.669
+TEMOA_test,SPPS,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,185.55
+TEMOA_test,SRCA,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,165.924
+TEMOA_test,SRCE,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,158.317
+TEMOA_test,SRSE,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,147.381
+TEMOA_test,SRSG,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,145.855
+TEMOA_test,TRE,naturalgas_ccavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,230.923
+TEMOA_test,CANO,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,1.80192e+07
+TEMOA_test,CASO,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,1.03184e+08
+TEMOA_test,FRCC,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,1.82854e+08
+TEMOA_test,MISC,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,1.90331e+08
+TEMOA_test,MISE,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,7.94233e+07
+TEMOA_test,MISS,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,1.4209e+08
+TEMOA_test,MISW,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,1.67097e+08
+TEMOA_test,NWPP,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,7.70243e+07
+TEMOA_test,PJMC,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,1.33299e+07
+TEMOA_test,PJMW,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,6.42424e+08
+TEMOA_test,RMRG,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,6.0346e+07
+TEMOA_test,SPPC,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,2.91006e+07
+TEMOA_test,SPPN,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,2.19985e+07
+TEMOA_test,SPPS,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,7.84897e+07
+TEMOA_test,SRCA,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,9.12961e+07
+TEMOA_test,SRCE,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,7.33436e+07
+TEMOA_test,SRSE,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,1.33615e+08
+TEMOA_test,SRSG,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,1.23673e+08
+TEMOA_test,TRE,naturalgas_ccccsavgcf_conservative_1,CCS,2030,base_thin,all,MWh,2.3704e+08
+TEMOA_test,BASN,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,26.2316
+TEMOA_test,CANO,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,25.0933
+TEMOA_test,CASO,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,25.2396
+TEMOA_test,FRCC,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,25.6436
+TEMOA_test,ISNE,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,34.0301
+TEMOA_test,MISC,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,27.0261
+TEMOA_test,MISE,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,27.6101
+TEMOA_test,MISS,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,27.0841
+TEMOA_test,MISW,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,29.0928
+TEMOA_test,NWPP,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,25.1138
+TEMOA_test,NYCW,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,33.1723
+TEMOA_test,NYUP,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,32.8434
+TEMOA_test,PJMC,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,29.0779
+TEMOA_test,PJMD,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,25.3822
+TEMOA_test,PJME,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,29.8897
+TEMOA_test,PJMW,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,26.0662
+TEMOA_test,RMRG,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,26.0929
+TEMOA_test,SPPC,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,28.1277
+TEMOA_test,SPPN,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,27.6369
+TEMOA_test,SPPS,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,26.9241
+TEMOA_test,SRCA,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,26.0685
+TEMOA_test,SRCE,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,25.959
+TEMOA_test,SRSE,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,25.136
+TEMOA_test,SRSG,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,25.6401
+TEMOA_test,TRE,naturalgas_ctavgcf_moderate_1,Natural Gas,2030,base_thin,all,MWh,27.8432
+TEMOA_test,FRCC,nuclear_1,Nuclear,2030,base_thin,all,MWh,3.27361e+07
+TEMOA_test,ISNE,nuclear_1,Nuclear,2030,base_thin,all,MWh,2.93293e+07
+TEMOA_test,MISC,nuclear_1,Nuclear,2030,base_thin,all,MWh,2.07875e+07
+TEMOA_test,MISE,nuclear_1,Nuclear,2030,base_thin,all,MWh,1.01703e+07
+TEMOA_test,MISS,nuclear_1,Nuclear,2030,base_thin,all,MWh,4.75317e+07
+TEMOA_test,MISW,nuclear_1,Nuclear,2030,base_thin,all,MWh,2.57824e+07
+TEMOA_test,NWPP,nuclear_1,Nuclear,2030,base_thin,all,MWh,1.02667e+07
+TEMOA_test,NYUP,nuclear_1,Nuclear,2030,base_thin,all,MWh,2.95676e+07
+TEMOA_test,PJMC,nuclear_1,Nuclear,2030,base_thin,all,MWh,5.70801e+07
+TEMOA_test,PJMD,nuclear_1,Nuclear,2030,base_thin,all,MWh,3.24821e+07
+TEMOA_test,PJME,nuclear_1,Nuclear,2030,base_thin,all,MWh,1.11801e+08
+TEMOA_test,PJMW,nuclear_1,Nuclear,2030,base_thin,all,MWh,5.54157e+07
+TEMOA_test,SPPC,nuclear_1,Nuclear,2030,base_thin,all,MWh,1.09938e+07
+TEMOA_test,SPPN,nuclear_1,Nuclear,2030,base_thin,all,MWh,6.74518e+06
+TEMOA_test,SRCA,nuclear_1,Nuclear,2030,base_thin,all,MWh,1.06036e+08
+TEMOA_test,SRCE,nuclear_1,Nuclear,2030,base_thin,all,MWh,7.48253e+07
+TEMOA_test,SRSE,nuclear_1,Nuclear,2030,base_thin,all,MWh,7.05968e+07
+TEMOA_test,SRSG,nuclear_1,Nuclear,2030,base_thin,all,MWh,3.50663e+07
+TEMOA_test,TRE,nuclear_1,Nuclear,2030,base_thin,all,MWh,4.48512e+07
+TEMOA_test,BASN,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,150.595
+TEMOA_test,CANO,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,88.0168
+TEMOA_test,CASO,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,100.461
+TEMOA_test,FRCC,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,190.134
+TEMOA_test,ISNE,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,465.937
+TEMOA_test,MISC,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,84.7957
+TEMOA_test,MISE,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,96.0577
+TEMOA_test,MISS,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,116.722
+TEMOA_test,MISW,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,108.113
+TEMOA_test,NWPP,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,135.972
+TEMOA_test,NYCW,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,78.7253
+TEMOA_test,NYUP,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,249.46
+TEMOA_test,PJMC,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,69.9786
+TEMOA_test,PJMD,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,167.213
+TEMOA_test,PJME,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,115.779
+TEMOA_test,PJMW,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,120.807
+TEMOA_test,RMRG,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,149.885
+TEMOA_test,SPPC,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,120.917
+TEMOA_test,SPPN,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,140.346
+TEMOA_test,SPPS,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,127.052
+TEMOA_test,SRCA,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,148.24
+TEMOA_test,SRCE,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,121.105
+TEMOA_test,SRSE,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,147.896
+TEMOA_test,SRSG,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,142.755
+TEMOA_test,TRE,nuclear_nuclear_moderate_1,Nuclear,2030,base_thin,all,MWh,139.372
+TEMOA_test,ISNE,offshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,256668
+TEMOA_test,BASN,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,4.68082e+06
+TEMOA_test,CANO,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,2.66719e+06
+TEMOA_test,CASO,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,1.46344e+07
+TEMOA_test,ISNE,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,2.35178e+06
+TEMOA_test,MISC,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,1.27957e+07
+TEMOA_test,MISE,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,8.09942e+06
+TEMOA_test,MISS,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,1.61621e+06
+TEMOA_test,MISW,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,5.63335e+07
+TEMOA_test,NWPP,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,1.95395e+07
+TEMOA_test,NYUP,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,6.33436e+06
+TEMOA_test,PJMC,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,8.76862e+06
+TEMOA_test,PJMD,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,186843
+TEMOA_test,PJME,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,2.04223e+06
+TEMOA_test,PJMW,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,8.10469e+06
+TEMOA_test,RMRG,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,3.14183e+07
+TEMOA_test,SPPC,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,1.91749e+07
+TEMOA_test,SPPN,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,2.19484e+07
+TEMOA_test,SPPS,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,5.19948e+07
+TEMOA_test,SRCE,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,15067.8
+TEMOA_test,SRSG,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,1.06059e+07
+TEMOA_test,TRE,onshore_wind_turbine_1,Wind,2030,base_thin,all,MWh,2.57791e+07
+TEMOA_test,ISNE,petroleum_liquids_1,Other,2030,base_thin,all,MWh,866.939
+TEMOA_test,BASN,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,1.66878e+06
+TEMOA_test,CANO,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,1.97399e+06
+TEMOA_test,CASO,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,586144
+TEMOA_test,ISNE,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,2.28734e+06
+TEMOA_test,MISC,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,112891
+TEMOA_test,MISE,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,111840
+TEMOA_test,MISS,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,23173.5
+TEMOA_test,MISW,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,2.09482e+06
+TEMOA_test,NWPP,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,3.31303e+06
+TEMOA_test,NYUP,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,2.22975e+06
+TEMOA_test,PJMC,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,77659.2
+TEMOA_test,PJMD,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,31820.7
+TEMOA_test,PJME,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,506672
+TEMOA_test,PJMW,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,1.13226e+06
+TEMOA_test,RMRG,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,833857
+TEMOA_test,SPPN,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,524575
+TEMOA_test,SPPS,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,349007
+TEMOA_test,SRCA,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,314934
+TEMOA_test,SRCE,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,406378
+TEMOA_test,SRSE,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,30349.4
+TEMOA_test,SRSG,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,542115
+TEMOA_test,TRE,small_hydroelectric_1,Hydro,2030,base_thin,all,MWh,139696
+TEMOA_test,BASN,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,1.6752e+07
+TEMOA_test,CANO,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,1.40899e+07
+TEMOA_test,CASO,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,3.16649e+07
+TEMOA_test,FRCC,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,1.6318e+07
+TEMOA_test,ISNE,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,4.30743e+06
+TEMOA_test,MISC,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,6.53396e+06
+TEMOA_test,MISE,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,2.0195e+06
+TEMOA_test,MISS,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,3.75045e+06
+TEMOA_test,MISW,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,5.42139e+06
+TEMOA_test,NWPP,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,3.14238e+06
+TEMOA_test,NYCW,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,262751
+TEMOA_test,NYUP,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,2.79442e+06
+TEMOA_test,PJMC,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,584725
+TEMOA_test,PJMD,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,8.76137e+06
+TEMOA_test,PJME,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,3.60123e+06
+TEMOA_test,PJMW,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,7.13766e+06
+TEMOA_test,RMRG,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,5.02354e+06
+TEMOA_test,SPPC,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,166938
+TEMOA_test,SPPN,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,215522
+TEMOA_test,SPPS,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,736163
+TEMOA_test,SRCA,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,1.32164e+07
+TEMOA_test,SRCE,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,3.53732e+06
+TEMOA_test,SRSE,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,1.2814e+07
+TEMOA_test,SRSG,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,1.6517e+07
+TEMOA_test,TRE,solar_photovoltaic_1,Solar,2030,base_thin,all,MWh,2.38615e+07
+TEMOA_test,TRE_WEST,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,334.9
+TEMOA_test,TRE_WEST,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,54912.7
+TEMOA_test,TRE_WEST,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,876.908
+TEMOA_test,TRE_WEST,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,548.921
+TEMOA_test,TRE_WEST,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,417.158
+TEMOA_test,TRE_WEST,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,945621
+TEMOA_test,TRE_WEST,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,10315.3
+TEMOA_test,TRE_WEST,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,89.2049
+TEMOA_test,TRE_WEST,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,697677
+TEMOA_test,TRE_WEST,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,51.8515
+TEMOA_test,TRE_WEST,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,466.518
+TEMOA_test,TRE_WEST,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,20.7299
+TEMOA_test,TRE_WEST,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,112328
+TEMOA_test,TRE_WEST,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,5.28522e+07
+TEMOA_test,TRE_WEST,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,2.14286e+07
+TEMOA_test,CASO,batteries_1,Battery,2040,base_thin,all,MWh,87929.8
+TEMOA_test,BASN,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,313.641
+TEMOA_test,CANO,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,331.624
+TEMOA_test,CASO,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,315.34
+TEMOA_test,FRCC,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,327.761
+TEMOA_test,ISNE,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,437.721
+TEMOA_test,MISC,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,395.437
+TEMOA_test,MISE,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,402.344
+TEMOA_test,MISS,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,352.62
+TEMOA_test,MISW,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,379.291
+TEMOA_test,NWPP,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,292.493
+TEMOA_test,NYCW,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,656.052
+TEMOA_test,NYUP,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,337.017
+TEMOA_test,PJMC,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,415.037
+TEMOA_test,PJMD,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,377.074
+TEMOA_test,PJME,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,396.319
+TEMOA_test,PJMW,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,362.196
+TEMOA_test,RMRG,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,316.904
+TEMOA_test,SPPC,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,350.144
+TEMOA_test,SPPN,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,332.08
+TEMOA_test,SPPS,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,336.449
+TEMOA_test,SRCA,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,336.568
+TEMOA_test,SRCE,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,361.147
+TEMOA_test,SRSE,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,333.392
+TEMOA_test,SRSG,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,314.507
+TEMOA_test,TRE,battery_moderate_1_10hour,Battery,2040,base_thin,all,MWh,335.843
+TEMOA_test,BASN,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,1.6452e+06
+TEMOA_test,CANO,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,15212
+TEMOA_test,CASO,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,4.61985e+06
+TEMOA_test,FRCC,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,7.21943e+06
+TEMOA_test,ISNE,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,1.29767e+07
+TEMOA_test,MISC,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,9.64192e+06
+TEMOA_test,MISE,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,5.77129e+06
+TEMOA_test,MISS,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,5.12594e+06
+TEMOA_test,MISW,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,1.22766e+07
+TEMOA_test,NWPP,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,1778.75
+TEMOA_test,NYCW,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,6.61311e+06
+TEMOA_test,NYUP,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,2264.37
+TEMOA_test,PJMC,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,1.34051e+07
+TEMOA_test,PJMD,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,3.39714e+06
+TEMOA_test,PJME,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,1.92771e+07
+TEMOA_test,PJMW,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,18748.3
+TEMOA_test,RMRG,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,15089.5
+TEMOA_test,SPPC,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,3.48602e+06
+TEMOA_test,SPPN,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,5444.54
+TEMOA_test,SPPS,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,1.92785e+06
+TEMOA_test,SRCA,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,6.49701e+06
+TEMOA_test,SRCE,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,7.80675e+06
+TEMOA_test,SRSE,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,8.03384e+06
+TEMOA_test,SRSG,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,1.67811e+06
+TEMOA_test,TRE,battery_moderate_1_2hour,Battery,2040,base_thin,all,MWh,1.05431e+07
+TEMOA_test,BASN,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,872.707
+TEMOA_test,CANO,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,951.188
+TEMOA_test,CASO,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,876.855
+TEMOA_test,FRCC,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,1033.46
+TEMOA_test,ISNE,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,1847.64
+TEMOA_test,MISC,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,1471.75
+TEMOA_test,MISE,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,1658.68
+TEMOA_test,MISS,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,1198.98
+TEMOA_test,MISW,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,1320.01
+TEMOA_test,NWPP,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,684.725
+TEMOA_test,NYCW,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,3325.65
+TEMOA_test,NYUP,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,940.747
+TEMOA_test,PJMC,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,1489.66
+TEMOA_test,PJMD,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,1617.66
+TEMOA_test,PJME,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,1784.08
+TEMOA_test,PJMW,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,1406.64
+TEMOA_test,RMRG,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,875.574
+TEMOA_test,SPPC,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,1037.18
+TEMOA_test,SPPN,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,863.408
+TEMOA_test,SPPS,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,900.372
+TEMOA_test,SRCA,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,1215.3
+TEMOA_test,SRCE,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,1351.32
+TEMOA_test,SRSE,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,1154.44
+TEMOA_test,SRSG,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,840.179
+TEMOA_test,TRE,battery_moderate_1_4hour,Battery,2040,base_thin,all,MWh,885.838
+TEMOA_test,BASN,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,530.747
+TEMOA_test,CANO,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,570.062
+TEMOA_test,CASO,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,529.238
+TEMOA_test,FRCC,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,604.305
+TEMOA_test,ISNE,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,984.055
+TEMOA_test,MISC,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,772.966
+TEMOA_test,MISE,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,845.787
+TEMOA_test,MISS,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,659.776
+TEMOA_test,MISW,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,714.658
+TEMOA_test,NWPP,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,464.974
+TEMOA_test,NYCW,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,1760.13
+TEMOA_test,NYUP,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,598.792
+TEMOA_test,PJMC,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,799.027
+TEMOA_test,PJMD,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,794.685
+TEMOA_test,PJME,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,859.318
+TEMOA_test,PJMW,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,726.906
+TEMOA_test,RMRG,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,538.772
+TEMOA_test,SPPC,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,610.348
+TEMOA_test,SPPN,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,554.374
+TEMOA_test,SPPS,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,566.732
+TEMOA_test,SRCA,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,652.013
+TEMOA_test,SRCE,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,716.954
+TEMOA_test,SRSE,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,634.379
+TEMOA_test,SRSG,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,524.89
+TEMOA_test,TRE,battery_moderate_1_6hour,Battery,2040,base_thin,all,MWh,551.747
+TEMOA_test,BASN,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,391.364
+TEMOA_test,CANO,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,417.786
+TEMOA_test,CASO,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,392.908
+TEMOA_test,FRCC,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,424.927
+TEMOA_test,ISNE,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,626.247
+TEMOA_test,MISC,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,525.366
+TEMOA_test,MISE,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,543.026
+TEMOA_test,MISS,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,454.469
+TEMOA_test,MISW,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,495.893
+TEMOA_test,NWPP,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,356.642
+TEMOA_test,NYCW,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,1058.4
+TEMOA_test,NYUP,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,433.959
+TEMOA_test,PJMC,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,553.474
+TEMOA_test,PJMD,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,511.942
+TEMOA_test,PJME,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,542.197
+TEMOA_test,PJMW,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,484.302
+TEMOA_test,RMRG,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,396.231
+TEMOA_test,SPPC,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,445.828
+TEMOA_test,SPPN,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,415.944
+TEMOA_test,SPPS,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,422.57
+TEMOA_test,SRCA,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,441.006
+TEMOA_test,SRCE,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,477.549
+TEMOA_test,SRSE,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,433.291
+TEMOA_test,SRSG,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,390.561
+TEMOA_test,TRE,battery_moderate_1_8hour,Battery,2040,base_thin,all,MWh,418.662
+TEMOA_test,BASN,biomass_1,Other,2040,base_thin,all,MWh,201603
+TEMOA_test,CANO,biomass_1,Other,2040,base_thin,all,MWh,578137
+TEMOA_test,CASO,biomass_1,Other,2040,base_thin,all,MWh,715713
+TEMOA_test,FRCC,biomass_1,Other,2040,base_thin,all,MWh,1.19025e+06
+TEMOA_test,ISNE,biomass_1,Other,2040,base_thin,all,MWh,835968
+TEMOA_test,MISC,biomass_1,Other,2040,base_thin,all,MWh,560696
+TEMOA_test,MISE,biomass_1,Other,2040,base_thin,all,MWh,588161
+TEMOA_test,MISS,biomass_1,Other,2040,base_thin,all,MWh,365174
+TEMOA_test,MISW,biomass_1,Other,2040,base_thin,all,MWh,619860
+TEMOA_test,NWPP,biomass_1,Other,2040,base_thin,all,MWh,710437
+TEMOA_test,NYCW,biomass_1,Other,2040,base_thin,all,MWh,11066.5
+TEMOA_test,NYUP,biomass_1,Other,2040,base_thin,all,MWh,335665
+TEMOA_test,PJMC,biomass_1,Other,2040,base_thin,all,MWh,93069.5
+TEMOA_test,PJMD,biomass_1,Other,2040,base_thin,all,MWh,458832
+TEMOA_test,PJME,biomass_1,Other,2040,base_thin,all,MWh,844038
+TEMOA_test,PJMW,biomass_1,Other,2040,base_thin,all,MWh,257477
+TEMOA_test,RMRG,biomass_1,Other,2040,base_thin,all,MWh,110641
+TEMOA_test,SPPN,biomass_1,Other,2040,base_thin,all,MWh,81184.1
+TEMOA_test,SPPS,biomass_1,Other,2040,base_thin,all,MWh,122110
+TEMOA_test,SRCA,biomass_1,Other,2040,base_thin,all,MWh,582762
+TEMOA_test,SRCE,biomass_1,Other,2040,base_thin,all,MWh,76489.4
+TEMOA_test,SRSE,biomass_1,Other,2040,base_thin,all,MWh,1.70208e+06
+TEMOA_test,SRSG,biomass_1,Other,2040,base_thin,all,MWh,227169
+TEMOA_test,TRE,biomass_1,Other,2040,base_thin,all,MWh,335092
+TEMOA_test,BASN,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,6.95808e+06
+TEMOA_test,CANO,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,1.72429e+07
+TEMOA_test,CASO,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,2.14291e+06
+TEMOA_test,FRCC,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,117954
+TEMOA_test,ISNE,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,2.10082e+06
+TEMOA_test,MISC,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,1.18594e+06
+TEMOA_test,MISS,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,1.5417e+06
+TEMOA_test,MISW,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,291737
+TEMOA_test,NWPP,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,1.19134e+08
+TEMOA_test,NYUP,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,1.50161e+07
+TEMOA_test,PJMC,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,30703.1
+TEMOA_test,PJMD,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,650016
+TEMOA_test,PJME,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,2.1257e+06
+TEMOA_test,PJMW,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,2.29484e+06
+TEMOA_test,RMRG,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,1.60817e+06
+TEMOA_test,SPPC,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,79962.1
+TEMOA_test,SPPN,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,9.34286e+06
+TEMOA_test,SPPS,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,3.74923e+06
+TEMOA_test,SRCA,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,1.74001e+06
+TEMOA_test,SRCE,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,1.25841e+07
+TEMOA_test,SRSE,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,4.86421e+06
+TEMOA_test,SRSG,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,7.01313e+06
+TEMOA_test,TRE,conventional_hydroelectric_1,Hydro,2040,base_thin,all,MWh,437595
+TEMOA_test,BASN,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,4.57594e+06
+TEMOA_test,CANO,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,1.49323e+07
+TEMOA_test,CASO,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,2.3235e+07
+TEMOA_test,FRCC,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,1.50278e+07
+TEMOA_test,ISNE,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,9.76376e+06
+TEMOA_test,MISC,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,5.54457e+06
+TEMOA_test,MISE,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,4.74416e+06
+TEMOA_test,MISS,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,8.02993e+06
+TEMOA_test,MISW,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,7.34383e+06
+TEMOA_test,NWPP,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,5.31394e+06
+TEMOA_test,NYCW,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,3.24968e+06
+TEMOA_test,NYUP,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,2.41101e+06
+TEMOA_test,PJMC,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,3.36733e+06
+TEMOA_test,PJMD,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,5.63559e+06
+TEMOA_test,PJME,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,1.72611e+07
+TEMOA_test,PJMW,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,1.00827e+07
+TEMOA_test,RMRG,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,4.04402e+06
+TEMOA_test,SPPC,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,2.07736e+06
+TEMOA_test,SPPN,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,1.0371e+06
+TEMOA_test,SPPS,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,5.30997e+06
+TEMOA_test,SRCA,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,1.06198e+07
+TEMOA_test,SRCE,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,4.25772e+06
+TEMOA_test,SRSE,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,4.16143e+06
+TEMOA_test,SRSG,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,7.49205e+06
+TEMOA_test,TRE,distributed_generation_1,Distributed Solar,2040,base_thin,all,MWh,1.74331e+07
+TEMOA_test,BASN,geothermal_1,Geothermal,2040,base_thin,all,MWh,3.02022e+06
+TEMOA_test,CASO,geothermal_1,Geothermal,2040,base_thin,all,MWh,207865
+TEMOA_test,NWPP,geothermal_1,Geothermal,2040,base_thin,all,MWh,179825
+TEMOA_test,SRSG,geothermal_1,Geothermal,2040,base_thin,all,MWh,764482
+TEMOA_test,CANO,hydroelectric_pumped_storage_1,Hydro,2040,base_thin,all,MWh,2.59324e+06
+TEMOA_test,CASO,hydroelectric_pumped_storage_1,Hydro,2040,base_thin,all,MWh,1.49986e+06
+TEMOA_test,ISNE,hydroelectric_pumped_storage_1,Hydro,2040,base_thin,all,MWh,2.52373e+06
+TEMOA_test,MISC,hydroelectric_pumped_storage_1,Hydro,2040,base_thin,all,MWh,557932
+TEMOA_test,MISE,hydroelectric_pumped_storage_1,Hydro,2040,base_thin,all,MWh,2.40617e+06
+TEMOA_test,NWPP,hydroelectric_pumped_storage_1,Hydro,2040,base_thin,all,MWh,295006
+TEMOA_test,NYUP,hydroelectric_pumped_storage_1,Hydro,2040,base_thin,all,MWh,1.97236e+06
+TEMOA_test,PJMD,hydroelectric_pumped_storage_1,Hydro,2040,base_thin,all,MWh,3.56509e+06
+TEMOA_test,PJME,hydroelectric_pumped_storage_1,Hydro,2040,base_thin,all,MWh,2.82586e+06
+TEMOA_test,PJMW,hydroelectric_pumped_storage_1,Hydro,2040,base_thin,all,MWh,256416
+TEMOA_test,RMRG,hydroelectric_pumped_storage_1,Hydro,2040,base_thin,all,MWh,516163
+TEMOA_test,SPPS,hydroelectric_pumped_storage_1,Hydro,2040,base_thin,all,MWh,433216
+TEMOA_test,SRCA,hydroelectric_pumped_storage_1,Hydro,2040,base_thin,all,MWh,2.5981e+06
+TEMOA_test,SRCE,hydroelectric_pumped_storage_1,Hydro,2040,base_thin,all,MWh,1.86636e+06
+TEMOA_test,SRSE,hydroelectric_pumped_storage_1,Hydro,2040,base_thin,all,MWh,1.57813e+06
+TEMOA_test,SRSG,hydroelectric_pumped_storage_1,Hydro,2040,base_thin,all,MWh,188209
+TEMOA_test,BASN,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,1529.42
+TEMOA_test,CANO,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,3.00717e+06
+TEMOA_test,CASO,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,358.31
+TEMOA_test,FRCC,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,384.437
+TEMOA_test,ISNE,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,415.824
+TEMOA_test,MISC,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,393260
+TEMOA_test,MISE,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,549177
+TEMOA_test,MISS,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,221016
+TEMOA_test,MISW,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,967318
+TEMOA_test,NWPP,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,336.94
+TEMOA_test,NYCW,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,124244
+TEMOA_test,NYUP,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,191.031
+TEMOA_test,PJMC,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,725.454
+TEMOA_test,PJMD,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,228.404
+TEMOA_test,PJME,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,251.557
+TEMOA_test,PJMW,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,279.824
+TEMOA_test,RMRG,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,810.487
+TEMOA_test,SPPC,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,1.44198e+06
+TEMOA_test,SPPN,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,882.398
+TEMOA_test,SPPS,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,2344.85
+TEMOA_test,SRCA,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,394.151
+TEMOA_test,SRCE,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,673.958
+TEMOA_test,SRSE,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,520.993
+TEMOA_test,SRSG,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,868.217
+TEMOA_test,TRE,hydrogen_ccavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,97942.5
+TEMOA_test,BASN,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,84.8882
+TEMOA_test,CANO,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,77.7833
+TEMOA_test,CASO,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,80.1762
+TEMOA_test,FRCC,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,93.1591
+TEMOA_test,ISNE,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,81.5206
+TEMOA_test,MISC,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,94.6071
+TEMOA_test,MISE,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,104.803
+TEMOA_test,MISS,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,97.4541
+TEMOA_test,MISW,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,93.4965
+TEMOA_test,NWPP,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,70.9844
+TEMOA_test,NYCW,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,119.069
+TEMOA_test,NYUP,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,62.3525
+TEMOA_test,PJMC,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,88.2962
+TEMOA_test,PJMD,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,82.8515
+TEMOA_test,PJME,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,79.7694
+TEMOA_test,PJMW,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,85.3223
+TEMOA_test,RMRG,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,84.4295
+TEMOA_test,SPPC,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,95.0917
+TEMOA_test,SPPN,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,84.8428
+TEMOA_test,SPPS,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,89.8818
+TEMOA_test,SRCA,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,93.4499
+TEMOA_test,SRCE,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,93.4667
+TEMOA_test,SRSE,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,95.9419
+TEMOA_test,SRSG,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,86.4076
+TEMOA_test,TRE,hydrogen_ctavgcf_moderate_1,Hydrogen,2040,base_thin,all,MWh,90.3799
+TEMOA_test,BASN,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,572512
+TEMOA_test,CANO,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,1.367e+06
+TEMOA_test,CASO,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,20396.2
+TEMOA_test,FRCC,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,310613
+TEMOA_test,ISNE,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,582986
+TEMOA_test,MISC,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,311840
+TEMOA_test,MISE,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,410177
+TEMOA_test,MISS,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,130626
+TEMOA_test,MISW,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,1.23527e+06
+TEMOA_test,NWPP,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,282.31
+TEMOA_test,NYCW,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,52.9247
+TEMOA_test,NYUP,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,22603.4
+TEMOA_test,PJMC,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,970199
+TEMOA_test,PJMD,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,448078
+TEMOA_test,PJME,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,416153
+TEMOA_test,PJMW,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,3.91338e+06
+TEMOA_test,RMRG,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,29.039
+TEMOA_test,SPPC,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,23015.4
+TEMOA_test,SPPN,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,36.1679
+TEMOA_test,SPPS,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,684698
+TEMOA_test,SRCA,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,210112
+TEMOA_test,SRCE,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,739619
+TEMOA_test,SRSE,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,2.1866e+06
+TEMOA_test,SRSG,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,36042.6
+TEMOA_test,TRE,natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin,all,MWh,831981
+TEMOA_test,BASN,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,2.22567
+TEMOA_test,CANO,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,15.5514
+TEMOA_test,CASO,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,19.3868
+TEMOA_test,FRCC,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,1.50297
+TEMOA_test,ISNE,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,3.86446
+TEMOA_test,MISC,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,1.36319
+TEMOA_test,MISE,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,19.5898
+TEMOA_test,MISS,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,11.5596
+TEMOA_test,MISW,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,1039.53
+TEMOA_test,NYCW,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,21.6835
+TEMOA_test,NYUP,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,23.2207
+TEMOA_test,PJMC,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,2.62025
+TEMOA_test,PJMD,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,11.7919
+TEMOA_test,PJME,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,0.759212
+TEMOA_test,PJMW,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,0.277997
+TEMOA_test,RMRG,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,1.75197
+TEMOA_test,SPPN,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,17.5478
+TEMOA_test,SPPS,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,1.78912
+TEMOA_test,SRCA,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,2.57863
+TEMOA_test,SRCE,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,1.40839
+TEMOA_test,SRSE,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,1.31666
+TEMOA_test,SRSG,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,18.8218
+TEMOA_test,TRE,natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin,all,MWh,16.5254
+TEMOA_test,BASN,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,22.4348
+TEMOA_test,CANO,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,22.0658
+TEMOA_test,CASO,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,24.2734
+TEMOA_test,FRCC,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,27.7026
+TEMOA_test,ISNE,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,21.4673
+TEMOA_test,MISC,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,23.276
+TEMOA_test,MISE,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,18.0383
+TEMOA_test,MISS,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,24.9006
+TEMOA_test,MISW,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,2272.04
+TEMOA_test,NWPP,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,25.4605
+TEMOA_test,NYCW,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,32.2866
+TEMOA_test,NYUP,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,26.8599
+TEMOA_test,PJMC,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,27.2596
+TEMOA_test,PJME,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,24.5032
+TEMOA_test,PJMW,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,20.8259
+TEMOA_test,RMRG,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,25.0777
+TEMOA_test,SPPC,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,17.3148
+TEMOA_test,SPPN,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,24.4159
+TEMOA_test,SPPS,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,22.3415
+TEMOA_test,SRSE,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,26.3305
+TEMOA_test,SRSG,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,18.6794
+TEMOA_test,TRE,natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin,all,MWh,26.8123
+TEMOA_test,FRCC,natural_gas_steam_turbine_1,Natural Gas,2040,base_thin,all,MWh,16.9547
+TEMOA_test,ISNE,natural_gas_steam_turbine_1,Natural Gas,2040,base_thin,all,MWh,21.9361
+TEMOA_test,MISC,natural_gas_steam_turbine_1,Natural Gas,2040,base_thin,all,MWh,18.2002
+TEMOA_test,MISS,natural_gas_steam_turbine_1,Natural Gas,2040,base_thin,all,MWh,18.8532
+TEMOA_test,MISW,natural_gas_steam_turbine_1,Natural Gas,2040,base_thin,all,MWh,0.0269075
+TEMOA_test,NYCW,natural_gas_steam_turbine_1,Natural Gas,2040,base_thin,all,MWh,2.08444
+TEMOA_test,NYUP,natural_gas_steam_turbine_1,Natural Gas,2040,base_thin,all,MWh,22.4682
+TEMOA_test,PJMD,natural_gas_steam_turbine_1,Natural Gas,2040,base_thin,all,MWh,22.1547
+TEMOA_test,PJME,natural_gas_steam_turbine_1,Natural Gas,2040,base_thin,all,MWh,18.4624
+TEMOA_test,PJMW,natural_gas_steam_turbine_1,Natural Gas,2040,base_thin,all,MWh,23.6955
+TEMOA_test,SPPC,natural_gas_steam_turbine_1,Natural Gas,2040,base_thin,all,MWh,20.5143
+TEMOA_test,SRCA,natural_gas_steam_turbine_1,Natural Gas,2040,base_thin,all,MWh,21.5699
+TEMOA_test,SRCE,natural_gas_steam_turbine_1,Natural Gas,2040,base_thin,all,MWh,23.5718
+TEMOA_test,TRE,natural_gas_steam_turbine_1,Natural Gas,2040,base_thin,all,MWh,17.839
+TEMOA_test,BASN,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,48.7118
+TEMOA_test,CANO,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,46.6527
+TEMOA_test,CASO,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,45.8731
+TEMOA_test,FRCC,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,49.4237
+TEMOA_test,ISNE,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,563694
+TEMOA_test,MISC,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,53.2381
+TEMOA_test,MISE,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,65.8381
+TEMOA_test,MISS,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,52.6023
+TEMOA_test,MISW,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,55.3241
+TEMOA_test,NWPP,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,46.2806
+TEMOA_test,NYCW,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,53.9072
+TEMOA_test,NYUP,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,42.0044
+TEMOA_test,PJMC,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,47.8735
+TEMOA_test,PJMD,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,45.6029
+TEMOA_test,PJME,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,50.827
+TEMOA_test,PJMW,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,48.9927
+TEMOA_test,RMRG,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,48.8042
+TEMOA_test,SPPC,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,54.7127
+TEMOA_test,SPPN,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,48.3634
+TEMOA_test,SPPS,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,50.0921
+TEMOA_test,SRCA,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,50.0066
+TEMOA_test,SRCE,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,49.6036
+TEMOA_test,SRSE,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,48.4617
+TEMOA_test,SRSG,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,49.277
+TEMOA_test,TRE,naturalgas_ccavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,51.4516
+TEMOA_test,CANO,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,6.26119e+07
+TEMOA_test,CASO,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,9.62147e+07
+TEMOA_test,FRCC,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,1.2659e+08
+TEMOA_test,MISC,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,1.93779e+08
+TEMOA_test,MISE,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,9.54836e+07
+TEMOA_test,MISS,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,1.27045e+08
+TEMOA_test,MISW,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,1.65595e+08
+TEMOA_test,NWPP,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,7.50904e+07
+TEMOA_test,PJMC,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,1.40522e+07
+TEMOA_test,PJMW,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,6.19649e+08
+TEMOA_test,RMRG,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,2.20696e+07
+TEMOA_test,SPPC,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,2.57823e+07
+TEMOA_test,SPPN,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,1.83026e+07
+TEMOA_test,SPPS,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,6.7972e+07
+TEMOA_test,SRCA,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,6.68678e+07
+TEMOA_test,SRCE,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,5.9864e+07
+TEMOA_test,SRSE,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,9.13876e+07
+TEMOA_test,SRSG,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,4.2088e+07
+TEMOA_test,TRE,naturalgas_ccccsavgcf_conservative_1,CCS,2040,base_thin,all,MWh,1.38276e+08
+TEMOA_test,BASN,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,19.6924
+TEMOA_test,CANO,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,19.5956
+TEMOA_test,CASO,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,19.3337
+TEMOA_test,FRCC,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,19.9452
+TEMOA_test,ISNE,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,17.18
+TEMOA_test,MISC,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,20.8503
+TEMOA_test,MISE,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,24.8745
+TEMOA_test,MISS,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,20.5143
+TEMOA_test,MISW,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,21.8865
+TEMOA_test,NWPP,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,20.1507
+TEMOA_test,NYCW,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,21.1086
+TEMOA_test,NYUP,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,18.7645
+TEMOA_test,PJMC,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,19.4297
+TEMOA_test,PJMD,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,19.4561
+TEMOA_test,PJME,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,21.0041
+TEMOA_test,PJMW,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,20.1468
+TEMOA_test,RMRG,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,20.0508
+TEMOA_test,SPPC,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,21.6833
+TEMOA_test,SPPN,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,19.7611
+TEMOA_test,SPPS,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,20.0771
+TEMOA_test,SRCA,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,19.8513
+TEMOA_test,SRCE,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,19.7096
+TEMOA_test,SRSE,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,19.3288
+TEMOA_test,SRSG,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,20.0719
+TEMOA_test,TRE,naturalgas_ctavgcf_moderate_1,Natural Gas,2040,base_thin,all,MWh,20.4524
+TEMOA_test,FRCC,nuclear_1,Nuclear,2040,base_thin,all,MWh,3.27361e+07
+TEMOA_test,ISNE,nuclear_1,Nuclear,2040,base_thin,all,MWh,2.93293e+07
+TEMOA_test,MISC,nuclear_1,Nuclear,2040,base_thin,all,MWh,2.07875e+07
+TEMOA_test,MISE,nuclear_1,Nuclear,2040,base_thin,all,MWh,1.01703e+07
+TEMOA_test,MISS,nuclear_1,Nuclear,2040,base_thin,all,MWh,4.75317e+07
+TEMOA_test,MISW,nuclear_1,Nuclear,2040,base_thin,all,MWh,2.57824e+07
+TEMOA_test,NWPP,nuclear_1,Nuclear,2040,base_thin,all,MWh,1.02667e+07
+TEMOA_test,NYUP,nuclear_1,Nuclear,2040,base_thin,all,MWh,2.95676e+07
+TEMOA_test,PJMC,nuclear_1,Nuclear,2040,base_thin,all,MWh,5.70801e+07
+TEMOA_test,PJMD,nuclear_1,Nuclear,2040,base_thin,all,MWh,3.24821e+07
+TEMOA_test,PJME,nuclear_1,Nuclear,2040,base_thin,all,MWh,1.11801e+08
+TEMOA_test,PJMW,nuclear_1,Nuclear,2040,base_thin,all,MWh,5.54157e+07
+TEMOA_test,SPPC,nuclear_1,Nuclear,2040,base_thin,all,MWh,1.09938e+07
+TEMOA_test,SPPN,nuclear_1,Nuclear,2040,base_thin,all,MWh,6.74518e+06
+TEMOA_test,SRCA,nuclear_1,Nuclear,2040,base_thin,all,MWh,1.06036e+08
+TEMOA_test,SRCE,nuclear_1,Nuclear,2040,base_thin,all,MWh,7.48253e+07
+TEMOA_test,SRSE,nuclear_1,Nuclear,2040,base_thin,all,MWh,7.05968e+07
+TEMOA_test,SRSG,nuclear_1,Nuclear,2040,base_thin,all,MWh,3.50663e+07
+TEMOA_test,TRE,nuclear_1,Nuclear,2040,base_thin,all,MWh,4.48512e+07
+TEMOA_test,BASN,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,1.46281e+08
+TEMOA_test,CANO,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,7996.23
+TEMOA_test,CASO,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,1086.76
+TEMOA_test,FRCC,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,1.38438e+08
+TEMOA_test,ISNE,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,1.6757e+08
+TEMOA_test,MISC,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,1338.94
+TEMOA_test,MISE,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,1.24477e+06
+TEMOA_test,MISS,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,6.73706e+07
+TEMOA_test,MISW,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,8.95811e+07
+TEMOA_test,NWPP,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,8.24935e+07
+TEMOA_test,NYCW,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,515.304
+TEMOA_test,NYUP,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,6.41994e+07
+TEMOA_test,PJMC,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,458.73
+TEMOA_test,PJMD,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,1.1597e+08
+TEMOA_test,PJME,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,21351.8
+TEMOA_test,PJMW,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,1.15285e+08
+TEMOA_test,RMRG,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,9.69151e+07
+TEMOA_test,SPPC,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,3424.45
+TEMOA_test,SPPN,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,8.59023e+07
+TEMOA_test,SPPS,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,7.5756e+07
+TEMOA_test,SRCA,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,8.53312e+07
+TEMOA_test,SRCE,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,1.21573e+08
+TEMOA_test,SRSE,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,1.33834e+08
+TEMOA_test,SRSG,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,1.52023e+08
+TEMOA_test,TRE,nuclear_nuclear_moderate_1,Nuclear,2040,base_thin,all,MWh,2.93307e+08
+TEMOA_test,ISNE,offshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,256669
+TEMOA_test,BASN,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,3.31661e+06
+TEMOA_test,CANO,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,1.22298e+06
+TEMOA_test,CASO,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,1.37038e+07
+TEMOA_test,ISNE,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,2.09534e+06
+TEMOA_test,MISC,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,1.25376e+07
+TEMOA_test,MISE,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,8.81616e+06
+TEMOA_test,MISS,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,1.61622e+06
+TEMOA_test,MISW,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,4.09817e+07
+TEMOA_test,NWPP,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,8.96043e+06
+TEMOA_test,NYUP,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,4.45738e+06
+TEMOA_test,PJMC,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,5.44101e+06
+TEMOA_test,PJMD,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,211388
+TEMOA_test,PJME,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,1.04429e+06
+TEMOA_test,PJMW,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,5.81228e+06
+TEMOA_test,RMRG,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,2.39299e+07
+TEMOA_test,SPPC,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,1.79468e+07
+TEMOA_test,SPPN,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,2.03405e+07
+TEMOA_test,SPPS,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,4.68714e+07
+TEMOA_test,SRSG,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,9.35437e+06
+TEMOA_test,TRE,onshore_wind_turbine_1,Wind,2040,base_thin,all,MWh,2.23459e+07
+TEMOA_test,BASN,small_hydroelectric_1,Hydro,2040,base_thin,all,MWh,1.55879e+06
+TEMOA_test,CANO,small_hydroelectric_1,Hydro,2040,base_thin,all,MWh,1.94963e+06
+TEMOA_test,CASO,small_hydroelectric_1,Hydro,2040,base_thin,all,MWh,586149
+TEMOA_test,ISNE,small_hydroelectric_1,Hydro,2040,base_thin,all,MWh,2.04221e+06
+TEMOA_test,MISC,small_hydroelectric_1,Hydro,2040,base_thin,all,MWh,112901
+TEMOA_test,MISE,small_hydroelectric_1,Hydro,2040,base_thin,all,MWh,105587
+TEMOA_test,MISW,small_hydroelectric_1,Hydro,2040,base_thin,all,MWh,1.76425e+06
+TEMOA_test,NWPP,small_hydroelectric_1,Hydro,2040,base_thin,all,MWh,3.25451e+06
+TEMOA_test,NYUP,small_hydroelectric_1,Hydro,2040,base_thin,all,MWh,2.09186e+06
+TEMOA_test,PJME,small_hydroelectric_1,Hydro,2040,base_thin,all,MWh,506680
+TEMOA_test,PJMW,small_hydroelectric_1,Hydro,2040,base_thin,all,MWh,877882
+TEMOA_test,RMRG,small_hydroelectric_1,Hydro,2040,base_thin,all,MWh,816666
+TEMOA_test,SPPN,small_hydroelectric_1,Hydro,2040,base_thin,all,MWh,368286
+TEMOA_test,SPPS,small_hydroelectric_1,Hydro,2040,base_thin,all,MWh,349014
+TEMOA_test,SRCA,small_hydroelectric_1,Hydro,2040,base_thin,all,MWh,300855
+TEMOA_test,SRCE,small_hydroelectric_1,Hydro,2040,base_thin,all,MWh,364241
+TEMOA_test,SRSG,small_hydroelectric_1,Hydro,2040,base_thin,all,MWh,450735
+TEMOA_test,TRE,small_hydroelectric_1,Hydro,2040,base_thin,all,MWh,25545.6
+TEMOA_test,BASN,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,1.64633e+07
+TEMOA_test,CANO,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,1.37086e+07
+TEMOA_test,CASO,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,3.12339e+07
+TEMOA_test,FRCC,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,1.62401e+07
+TEMOA_test,ISNE,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,4.27533e+06
+TEMOA_test,MISC,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,6.56314e+06
+TEMOA_test,MISE,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,2.01207e+06
+TEMOA_test,MISS,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,3.78729e+06
+TEMOA_test,MISW,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,5.33595e+06
+TEMOA_test,NWPP,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,2.95023e+06
+TEMOA_test,NYCW,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,259847
+TEMOA_test,NYUP,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,2.72961e+06
+TEMOA_test,PJMC,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,570426
+TEMOA_test,PJMD,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,8.74777e+06
+TEMOA_test,PJME,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,3.48543e+06
+TEMOA_test,PJMW,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,7.09215e+06
+TEMOA_test,RMRG,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,4.97644e+06
+TEMOA_test,SPPC,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,169107
+TEMOA_test,SPPN,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,213636
+TEMOA_test,SPPS,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,742426
+TEMOA_test,SRCA,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,1.3253e+07
+TEMOA_test,SRCE,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,3.52606e+06
+TEMOA_test,SRSE,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,1.28532e+07
+TEMOA_test,SRSG,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,1.66256e+07
+TEMOA_test,TRE,solar_photovoltaic_1,Solar,2040,base_thin,all,MWh,2.37244e+07
+TEMOA_test,TRE_WEST,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,641.295
+TEMOA_test,TRE_WEST,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,1.85081e+06
+TEMOA_test,TRE_WEST,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1682.91
+TEMOA_test,TRE_WEST,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1021.75
+TEMOA_test,TRE_WEST,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,776.192
+TEMOA_test,TRE_WEST,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,1.12217e+06
+TEMOA_test,TRE_WEST,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,26900.3
+TEMOA_test,TRE_WEST,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,41.7951
+TEMOA_test,TRE_WEST,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,1.47484e+07
+TEMOA_test,TRE_WEST,onshore_wind_turbine_1,Wind,2050,base_thin,all,MWh,1.87166e+07
+TEMOA_test,TRE_WEST,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,1.293e+07
+TEMOA_test,BASN,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,596.953
+TEMOA_test,CANO,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,560.031
+TEMOA_test,CASO,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,607.732
+TEMOA_test,FRCC,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,696.291
+TEMOA_test,ISNE,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,600.95
+TEMOA_test,MISC,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,636.872
+TEMOA_test,MISE,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,640.817
+TEMOA_test,MISS,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,633.185
+TEMOA_test,MISW,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,631.588
+TEMOA_test,NWPP,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,605.455
+TEMOA_test,NYCW,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,617.502
+TEMOA_test,NYUP,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,502.705
+TEMOA_test,PJMC,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,633.384
+TEMOA_test,PJMD,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,638.571
+TEMOA_test,PJME,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,643.485
+TEMOA_test,PJMW,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,641.832
+TEMOA_test,RMRG,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,604.703
+TEMOA_test,SPPC,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,606.079
+TEMOA_test,SPPN,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,601.124
+TEMOA_test,SPPS,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,590.796
+TEMOA_test,SRCA,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,647.469
+TEMOA_test,SRCE,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,630.162
+TEMOA_test,SRSE,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,657.799
+TEMOA_test,SRSG,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,607.369
+TEMOA_test,TRE,battery_moderate_1_10hour,Battery,2050,base_thin,all,MWh,652.482
+TEMOA_test,BASN,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,9.1722e+06
+TEMOA_test,CANO,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,6.22626e+06
+TEMOA_test,CASO,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,1.88342e+07
+TEMOA_test,FRCC,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,2.62812e+07
+TEMOA_test,ISNE,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,1.53832e+07
+TEMOA_test,MISC,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,1.37769e+07
+TEMOA_test,MISE,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,8.0379e+06
+TEMOA_test,MISS,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,1.05868e+07
+TEMOA_test,MISW,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,2.40796e+07
+TEMOA_test,NWPP,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,7.56821e+06
+TEMOA_test,NYCW,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,8.09221e+06
+TEMOA_test,NYUP,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,1450.04
+TEMOA_test,PJMC,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,1.66976e+07
+TEMOA_test,PJMD,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,3.97706e+06
+TEMOA_test,PJME,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,2.76962e+07
+TEMOA_test,PJMW,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,1.8777e+06
+TEMOA_test,RMRG,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,929694
+TEMOA_test,SPPC,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,8.04453e+06
+TEMOA_test,SPPN,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,7134.99
+TEMOA_test,SPPS,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,3.80607e+06
+TEMOA_test,SRCA,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,1.77954e+07
+TEMOA_test,SRCE,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,1.58193e+07
+TEMOA_test,SRSE,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,2.34029e+07
+TEMOA_test,SRSG,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,9.07515e+06
+TEMOA_test,TRE,battery_moderate_1_2hour,Battery,2050,base_thin,all,MWh,2.78203e+07
+TEMOA_test,BASN,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1747.93
+TEMOA_test,CANO,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1628.46
+TEMOA_test,CASO,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1731.33
+TEMOA_test,FRCC,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1691.11
+TEMOA_test,ISNE,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1573.5
+TEMOA_test,MISC,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1650.27
+TEMOA_test,MISE,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1629.31
+TEMOA_test,MISS,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1656.91
+TEMOA_test,MISW,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1682.77
+TEMOA_test,NWPP,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1793.5
+TEMOA_test,NYCW,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1629.33
+TEMOA_test,NYUP,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,991.625
+TEMOA_test,PJMC,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1699.35
+TEMOA_test,PJMD,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1638.74
+TEMOA_test,PJME,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1670.83
+TEMOA_test,PJMW,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1648.66
+TEMOA_test,RMRG,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1814.34
+TEMOA_test,SPPC,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1647.34
+TEMOA_test,SPPN,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1690.09
+TEMOA_test,SPPS,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1371.06
+TEMOA_test,SRCA,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1669.14
+TEMOA_test,SRCE,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1663.96
+TEMOA_test,SRSE,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1687.45
+TEMOA_test,SRSG,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1689.17
+TEMOA_test,TRE,battery_moderate_1_4hour,Battery,2050,base_thin,all,MWh,1699.22
+TEMOA_test,BASN,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1037.05
+TEMOA_test,CANO,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,933.688
+TEMOA_test,CASO,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1016.56
+TEMOA_test,FRCC,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1119.52
+TEMOA_test,ISNE,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,975.213
+TEMOA_test,MISC,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1017.59
+TEMOA_test,MISE,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1110.16
+TEMOA_test,MISS,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,997.639
+TEMOA_test,MISW,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1019.3
+TEMOA_test,NWPP,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1069.2
+TEMOA_test,NYCW,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1049.36
+TEMOA_test,NYUP,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,746.586
+TEMOA_test,PJMC,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1048.68
+TEMOA_test,PJMD,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1039.12
+TEMOA_test,PJME,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1072.4
+TEMOA_test,PJMW,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1040.74
+TEMOA_test,RMRG,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1071.77
+TEMOA_test,SPPC,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1032.69
+TEMOA_test,SPPN,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1001.55
+TEMOA_test,SPPS,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,916.136
+TEMOA_test,SRCA,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1050.63
+TEMOA_test,SRCE,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,998.686
+TEMOA_test,SRSE,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1081.1
+TEMOA_test,SRSG,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1028.53
+TEMOA_test,TRE,battery_moderate_1_6hour,Battery,2050,base_thin,all,MWh,1044.59
+TEMOA_test,BASN,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,752.112
+TEMOA_test,CANO,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,722.188
+TEMOA_test,CASO,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,784.159
+TEMOA_test,FRCC,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,800.915
+TEMOA_test,ISNE,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,756.535
+TEMOA_test,MISC,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,825.996
+TEMOA_test,MISE,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,841.337
+TEMOA_test,MISS,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,797.409
+TEMOA_test,MISW,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,829.773
+TEMOA_test,NWPP,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,789.683
+TEMOA_test,NYCW,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,814.578
+TEMOA_test,NYUP,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,614.676
+TEMOA_test,PJMC,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,832.447
+TEMOA_test,PJMD,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,810.815
+TEMOA_test,PJME,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,822.822
+TEMOA_test,PJMW,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,814.551
+TEMOA_test,RMRG,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,788.976
+TEMOA_test,SPPC,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,822.451
+TEMOA_test,SPPN,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,785.642
+TEMOA_test,SPPS,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,764.704
+TEMOA_test,SRCA,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,775.559
+TEMOA_test,SRCE,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,787.901
+TEMOA_test,SRSE,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,767.221
+TEMOA_test,SRSG,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,770.526
+TEMOA_test,TRE,battery_moderate_1_8hour,Battery,2050,base_thin,all,MWh,785.923
+TEMOA_test,BASN,biomass_1,Other,2050,base_thin,all,MWh,132540
+TEMOA_test,CANO,biomass_1,Other,2050,base_thin,all,MWh,482541
+TEMOA_test,CASO,biomass_1,Other,2050,base_thin,all,MWh,499184
+TEMOA_test,FRCC,biomass_1,Other,2050,base_thin,all,MWh,811346
+TEMOA_test,ISNE,biomass_1,Other,2050,base_thin,all,MWh,449491
+TEMOA_test,MISC,biomass_1,Other,2050,base_thin,all,MWh,387006
+TEMOA_test,MISE,biomass_1,Other,2050,base_thin,all,MWh,268081
+TEMOA_test,MISS,biomass_1,Other,2050,base_thin,all,MWh,261699
+TEMOA_test,MISW,biomass_1,Other,2050,base_thin,all,MWh,367883
+TEMOA_test,NWPP,biomass_1,Other,2050,base_thin,all,MWh,512851
+TEMOA_test,NYCW,biomass_1,Other,2050,base_thin,all,MWh,10962
+TEMOA_test,NYUP,biomass_1,Other,2050,base_thin,all,MWh,107330
+TEMOA_test,PJMC,biomass_1,Other,2050,base_thin,all,MWh,60724.3
+TEMOA_test,PJMD,biomass_1,Other,2050,base_thin,all,MWh,265870
+TEMOA_test,PJME,biomass_1,Other,2050,base_thin,all,MWh,222031
+TEMOA_test,PJMW,biomass_1,Other,2050,base_thin,all,MWh,119714
+TEMOA_test,RMRG,biomass_1,Other,2050,base_thin,all,MWh,68512.1
+TEMOA_test,SPPN,biomass_1,Other,2050,base_thin,all,MWh,51731.1
+TEMOA_test,SPPS,biomass_1,Other,2050,base_thin,all,MWh,4353.76
+TEMOA_test,SRCA,biomass_1,Other,2050,base_thin,all,MWh,335535
+TEMOA_test,SRCE,biomass_1,Other,2050,base_thin,all,MWh,71027
+TEMOA_test,SRSE,biomass_1,Other,2050,base_thin,all,MWh,1.1458e+06
+TEMOA_test,SRSG,biomass_1,Other,2050,base_thin,all,MWh,80341.2
+TEMOA_test,TRE,biomass_1,Other,2050,base_thin,all,MWh,278367
+TEMOA_test,BASN,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,6.2025e+06
+TEMOA_test,CANO,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,1.80372e+07
+TEMOA_test,CASO,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,2.34791e+06
+TEMOA_test,FRCC,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,116105
+TEMOA_test,ISNE,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,1.9005e+06
+TEMOA_test,MISC,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,1.18818e+06
+TEMOA_test,MISS,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,1.26023e+06
+TEMOA_test,MISW,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,265862
+TEMOA_test,NWPP,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,1.16666e+08
+TEMOA_test,NYUP,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,1.50352e+07
+TEMOA_test,PJMC,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,29658.7
+TEMOA_test,PJMD,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,600359
+TEMOA_test,PJME,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,1.98395e+06
+TEMOA_test,PJMW,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,2.20983e+06
+TEMOA_test,RMRG,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,1.73204e+06
+TEMOA_test,SPPC,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,65703.2
+TEMOA_test,SPPN,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,9.45713e+06
+TEMOA_test,SPPS,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,2.87886e+06
+TEMOA_test,SRCA,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,1.71906e+06
+TEMOA_test,SRCE,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,8.67897e+06
+TEMOA_test,SRSE,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,4.80479e+06
+TEMOA_test,SRSG,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,7.02961e+06
+TEMOA_test,TRE,conventional_hydroelectric_1,Hydro,2050,base_thin,all,MWh,374344
+TEMOA_test,BASN,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,4.79726e+06
+TEMOA_test,CANO,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,1.54958e+07
+TEMOA_test,CASO,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,2.41105e+07
+TEMOA_test,FRCC,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,1.58869e+07
+TEMOA_test,ISNE,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,1.03828e+07
+TEMOA_test,MISC,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,7.63389e+06
+TEMOA_test,MISE,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,6.01234e+06
+TEMOA_test,MISS,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,8.26723e+06
+TEMOA_test,MISW,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,8.54152e+06
+TEMOA_test,NWPP,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,6.03664e+06
+TEMOA_test,NYCW,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,4.26182e+06
+TEMOA_test,NYUP,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,3.16218e+06
+TEMOA_test,PJMC,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,3.44524e+06
+TEMOA_test,PJMD,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,6.39063e+06
+TEMOA_test,PJME,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,1.7371e+07
+TEMOA_test,PJMW,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,1.32147e+07
+TEMOA_test,RMRG,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,4.47242e+06
+TEMOA_test,SPPC,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,3.73395e+06
+TEMOA_test,SPPN,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,1.3983e+06
+TEMOA_test,SPPS,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,6.94364e+06
+TEMOA_test,SRCA,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,1.24208e+07
+TEMOA_test,SRCE,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,7.03573e+06
+TEMOA_test,SRSE,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,6.57541e+06
+TEMOA_test,SRSG,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,8.01491e+06
+TEMOA_test,TRE,distributed_generation_1,Distributed Solar,2050,base_thin,all,MWh,2.06542e+07
+TEMOA_test,BASN,geothermal_1,Geothermal,2050,base_thin,all,MWh,593895
+TEMOA_test,CASO,geothermal_1,Geothermal,2050,base_thin,all,MWh,207849
+TEMOA_test,SRSG,geothermal_1,Geothermal,2050,base_thin,all,MWh,230071
+TEMOA_test,CANO,hydroelectric_pumped_storage_1,Hydro,2050,base_thin,all,MWh,1.52868e+06
+TEMOA_test,CASO,hydroelectric_pumped_storage_1,Hydro,2050,base_thin,all,MWh,1.07264e+06
+TEMOA_test,ISNE,hydroelectric_pumped_storage_1,Hydro,2050,base_thin,all,MWh,1.17959e+06
+TEMOA_test,MISC,hydroelectric_pumped_storage_1,Hydro,2050,base_thin,all,MWh,266692
+TEMOA_test,MISE,hydroelectric_pumped_storage_1,Hydro,2050,base_thin,all,MWh,1.22039e+06
+TEMOA_test,NWPP,hydroelectric_pumped_storage_1,Hydro,2050,base_thin,all,MWh,306361
+TEMOA_test,NYUP,hydroelectric_pumped_storage_1,Hydro,2050,base_thin,all,MWh,1.03501e+06
+TEMOA_test,PJMD,hydroelectric_pumped_storage_1,Hydro,2050,base_thin,all,MWh,2.08631e+06
+TEMOA_test,PJME,hydroelectric_pumped_storage_1,Hydro,2050,base_thin,all,MWh,1.46252e+06
+TEMOA_test,PJMW,hydroelectric_pumped_storage_1,Hydro,2050,base_thin,all,MWh,156186
+TEMOA_test,RMRG,hydroelectric_pumped_storage_1,Hydro,2050,base_thin,all,MWh,554054
+TEMOA_test,SPPS,hydroelectric_pumped_storage_1,Hydro,2050,base_thin,all,MWh,288270
+TEMOA_test,SRCA,hydroelectric_pumped_storage_1,Hydro,2050,base_thin,all,MWh,1.54166e+06
+TEMOA_test,SRCE,hydroelectric_pumped_storage_1,Hydro,2050,base_thin,all,MWh,916757
+TEMOA_test,SRSE,hydroelectric_pumped_storage_1,Hydro,2050,base_thin,all,MWh,1.03254e+06
+TEMOA_test,SRSG,hydroelectric_pumped_storage_1,Hydro,2050,base_thin,all,MWh,151064
+TEMOA_test,BASN,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,7.42228e+06
+TEMOA_test,CANO,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,4.55585e+06
+TEMOA_test,CASO,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,2080.99
+TEMOA_test,FRCC,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,1.12175e+07
+TEMOA_test,ISNE,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,1.32801e+07
+TEMOA_test,MISC,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,4.13912e+07
+TEMOA_test,MISE,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,3.05957e+06
+TEMOA_test,MISS,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,6.44618e+06
+TEMOA_test,MISW,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,1.56456e+06
+TEMOA_test,NWPP,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,1930.43
+TEMOA_test,NYCW,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,2.70562e+06
+TEMOA_test,NYUP,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,404.444
+TEMOA_test,PJMC,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,36815.2
+TEMOA_test,PJMD,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,1285.41
+TEMOA_test,PJME,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,8659.31
+TEMOA_test,PJMW,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,3.45598e+06
+TEMOA_test,RMRG,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,962.358
+TEMOA_test,SPPC,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,2.49238e+06
+TEMOA_test,SPPN,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,778.192
+TEMOA_test,SPPS,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,765.202
+TEMOA_test,SRCA,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,4.67929e+06
+TEMOA_test,SRCE,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,12058.1
+TEMOA_test,SRSE,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,9.0483e+06
+TEMOA_test,SRSG,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,7.10535e+06
+TEMOA_test,TRE,hydrogen_ccavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,195583
+TEMOA_test,BASN,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,45.867
+TEMOA_test,CANO,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,38.8732
+TEMOA_test,CASO,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,41.6833
+TEMOA_test,FRCC,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,69.6812
+TEMOA_test,ISNE,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,143.711
+TEMOA_test,MISC,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,51.3544
+TEMOA_test,MISE,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,130.128
+TEMOA_test,MISS,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,45.5354
+TEMOA_test,MISW,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,32.9886
+TEMOA_test,NWPP,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,44.1682
+TEMOA_test,NYCW,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,1134.33
+TEMOA_test,NYUP,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,48.3618
+TEMOA_test,PJMC,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,65.6427
+TEMOA_test,PJMD,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,106.782
+TEMOA_test,PJME,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,133.046
+TEMOA_test,PJMW,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,140.005
+TEMOA_test,RMRG,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,36.1973
+TEMOA_test,SPPC,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,32.1981
+TEMOA_test,SPPN,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,31.2115
+TEMOA_test,SPPS,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,32.345
+TEMOA_test,SRCA,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,121.624
+TEMOA_test,SRCE,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,64.6193
+TEMOA_test,SRSE,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,70.7525
+TEMOA_test,SRSG,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,50.5232
+TEMOA_test,TRE,hydrogen_ctavgcf_moderate_1,Hydrogen,2050,base_thin,all,MWh,50.5303
+TEMOA_test,FRCC,nuclear_1,Nuclear,2050,base_thin,all,MWh,2.73741e+07
+TEMOA_test,ISNE,nuclear_1,Nuclear,2050,base_thin,all,MWh,2.30462e+07
+TEMOA_test,MISC,nuclear_1,Nuclear,2050,base_thin,all,MWh,1.55595e+07
+TEMOA_test,MISE,nuclear_1,Nuclear,2050,base_thin,all,MWh,7.1993e+06
+TEMOA_test,MISS,nuclear_1,Nuclear,2050,base_thin,all,MWh,3.34711e+07
+TEMOA_test,MISW,nuclear_1,Nuclear,2050,base_thin,all,MWh,1.49019e+07
+TEMOA_test,NWPP,nuclear_1,Nuclear,2050,base_thin,all,MWh,8.35616e+06
+TEMOA_test,NYUP,nuclear_1,Nuclear,2050,base_thin,all,MWh,1.48855e+07
+TEMOA_test,PJMC,nuclear_1,Nuclear,2050,base_thin,all,MWh,4.70334e+07
+TEMOA_test,PJMD,nuclear_1,Nuclear,2050,base_thin,all,MWh,2.47281e+07
+TEMOA_test,PJME,nuclear_1,Nuclear,2050,base_thin,all,MWh,8.86986e+07
+TEMOA_test,PJMW,nuclear_1,Nuclear,2050,base_thin,all,MWh,4.23939e+07
+TEMOA_test,SPPC,nuclear_1,Nuclear,2050,base_thin,all,MWh,8.27452e+06
+TEMOA_test,SPPN,nuclear_1,Nuclear,2050,base_thin,all,MWh,4.88926e+06
+TEMOA_test,SRCA,nuclear_1,Nuclear,2050,base_thin,all,MWh,8.52134e+07
+TEMOA_test,SRCE,nuclear_1,Nuclear,2050,base_thin,all,MWh,5.93169e+07
+TEMOA_test,SRSE,nuclear_1,Nuclear,2050,base_thin,all,MWh,7.05943e+07
+TEMOA_test,SRSG,nuclear_1,Nuclear,2050,base_thin,all,MWh,2.64615e+07
+TEMOA_test,TRE,nuclear_1,Nuclear,2050,base_thin,all,MWh,3.26e+07
+TEMOA_test,BASN,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,1.85569e+08
+TEMOA_test,CANO,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,6.92919e+07
+TEMOA_test,CASO,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,1667.23
+TEMOA_test,FRCC,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,3.2748e+08
+TEMOA_test,ISNE,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,1.97839e+08
+TEMOA_test,MISC,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,7.61446e+07
+TEMOA_test,MISE,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,1.20468e+08
+TEMOA_test,MISS,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,2.31735e+08
+TEMOA_test,MISW,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,3.73318e+08
+TEMOA_test,NWPP,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,2.17415e+08
+TEMOA_test,NYCW,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,461.104
+TEMOA_test,NYUP,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,7.39615e+07
+TEMOA_test,PJMC,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,976.572
+TEMOA_test,PJMD,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,2.75709e+08
+TEMOA_test,PJME,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,4.42994e+07
+TEMOA_test,PJMW,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,7.59699e+08
+TEMOA_test,RMRG,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,2.26038e+08
+TEMOA_test,SPPC,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,6.26625e+07
+TEMOA_test,SPPN,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,1.4887e+08
+TEMOA_test,SPPS,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,3.21314e+08
+TEMOA_test,SRCA,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,2.39709e+08
+TEMOA_test,SRCE,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,2.86246e+08
+TEMOA_test,SRSE,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,3.14894e+08
+TEMOA_test,SRSG,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,3.80519e+08
+TEMOA_test,TRE,nuclear_nuclear_moderate_1,Nuclear,2050,base_thin,all,MWh,6.35696e+08
+TEMOA_test,BASN,onshore_wind_turbine_1,Wind,2050,base_thin,all,MWh,1.20136e+06
+TEMOA_test,CANO,onshore_wind_turbine_1,Wind,2050,base_thin,all,MWh,113083
+TEMOA_test,CASO,onshore_wind_turbine_1,Wind,2050,base_thin,all,MWh,1.53904e+06
+TEMOA_test,ISNE,onshore_wind_turbine_1,Wind,2050,base_thin,all,MWh,61310.8
+TEMOA_test,MISC,onshore_wind_turbine_1,Wind,2050,base_thin,all,MWh,3.13467e+06
+TEMOA_test,MISE,onshore_wind_turbine_1,Wind,2050,base_thin,all,MWh,2.35436e+06
+TEMOA_test,MISS,onshore_wind_turbine_1,Wind,2050,base_thin,all,MWh,1.61615e+06
+TEMOA_test,MISW,onshore_wind_turbine_1,Wind,2050,base_thin,all,MWh,8.42575e+06
+TEMOA_test,NWPP,onshore_wind_turbine_1,Wind,2050,base_thin,all,MWh,1.69102e+06
+TEMOA_test,NYUP,onshore_wind_turbine_1,Wind,2050,base_thin,all,MWh,2.65708e+06
+TEMOA_test,PJMC,onshore_wind_turbine_1,Wind,2050,base_thin,all,MWh,912482
+TEMOA_test,PJMW,onshore_wind_turbine_1,Wind,2050,base_thin,all,MWh,1.46766e+06
+TEMOA_test,RMRG,onshore_wind_turbine_1,Wind,2050,base_thin,all,MWh,1.18291e+07
+TEMOA_test,SPPC,onshore_wind_turbine_1,Wind,2050,base_thin,all,MWh,4.03012e+06
+TEMOA_test,SPPN,onshore_wind_turbine_1,Wind,2050,base_thin,all,MWh,7.42304e+06
+TEMOA_test,SPPS,onshore_wind_turbine_1,Wind,2050,base_thin,all,MWh,1.47657e+07
+TEMOA_test,SRSG,onshore_wind_turbine_1,Wind,2050,base_thin,all,MWh,4.94274e+06
+TEMOA_test,TRE,onshore_wind_turbine_1,Wind,2050,base_thin,all,MWh,7.84497e+06
+TEMOA_test,BASN,small_hydroelectric_1,Hydro,2050,base_thin,all,MWh,1.3515e+06
+TEMOA_test,CANO,small_hydroelectric_1,Hydro,2050,base_thin,all,MWh,1.78891e+06
+TEMOA_test,CASO,small_hydroelectric_1,Hydro,2050,base_thin,all,MWh,575535
+TEMOA_test,ISNE,small_hydroelectric_1,Hydro,2050,base_thin,all,MWh,1.78374e+06
+TEMOA_test,MISC,small_hydroelectric_1,Hydro,2050,base_thin,all,MWh,112833
+TEMOA_test,MISE,small_hydroelectric_1,Hydro,2050,base_thin,all,MWh,88990.1
+TEMOA_test,MISW,small_hydroelectric_1,Hydro,2050,base_thin,all,MWh,1.0983e+06
+TEMOA_test,NWPP,small_hydroelectric_1,Hydro,2050,base_thin,all,MWh,3.20387e+06
+TEMOA_test,NYUP,small_hydroelectric_1,Hydro,2050,base_thin,all,MWh,2.0265e+06
+TEMOA_test,PJME,small_hydroelectric_1,Hydro,2050,base_thin,all,MWh,506602
+TEMOA_test,PJMW,small_hydroelectric_1,Hydro,2050,base_thin,all,MWh,877802
+TEMOA_test,RMRG,small_hydroelectric_1,Hydro,2050,base_thin,all,MWh,706849
+TEMOA_test,SPPN,small_hydroelectric_1,Hydro,2050,base_thin,all,MWh,572.855
+TEMOA_test,SPPS,small_hydroelectric_1,Hydro,2050,base_thin,all,MWh,272947
+TEMOA_test,SRCA,small_hydroelectric_1,Hydro,2050,base_thin,all,MWh,214374
+TEMOA_test,SRCE,small_hydroelectric_1,Hydro,2050,base_thin,all,MWh,252038
+TEMOA_test,SRSG,small_hydroelectric_1,Hydro,2050,base_thin,all,MWh,373669
+TEMOA_test,TRE,small_hydroelectric_1,Hydro,2050,base_thin,all,MWh,25498.5
+TEMOA_test,BASN,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,8.93052e+06
+TEMOA_test,CANO,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,5.55929e+06
+TEMOA_test,CASO,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,1.48678e+07
+TEMOA_test,FRCC,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,1.00933e+07
+TEMOA_test,ISNE,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,1.86193e+06
+TEMOA_test,MISC,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,6.06226e+06
+TEMOA_test,MISE,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,1.66826e+06
+TEMOA_test,MISS,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,3.1045e+06
+TEMOA_test,MISW,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,3.27218e+06
+TEMOA_test,NWPP,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,1.95469e+06
+TEMOA_test,NYCW,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,44618.7
+TEMOA_test,NYUP,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,1.82292e+06
+TEMOA_test,PJMC,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,428555
+TEMOA_test,PJMD,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,4.49994e+06
+TEMOA_test,PJME,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,1.27462e+06
+TEMOA_test,PJMW,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,6.49073e+06
+TEMOA_test,RMRG,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,3.3532e+06
+TEMOA_test,SPPC,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,46533.6
+TEMOA_test,SPPN,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,160871
+TEMOA_test,SPPS,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,140682
+TEMOA_test,SRCA,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,4.70652e+06
+TEMOA_test,SRCE,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,2.98168e+06
+TEMOA_test,SRSE,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,8.13165e+06
+TEMOA_test,SRSG,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,6.88573e+06
+TEMOA_test,TRE,solar_photovoltaic_1,Solar,2050,base_thin,all,MWh,2.20995e+07
