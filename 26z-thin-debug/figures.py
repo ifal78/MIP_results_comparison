@@ -78,6 +78,7 @@ def load_data(fn: str) -> pd.DataFrame:
 # %%
 cap = load_data("resource_capacity.csv")
 cap = cap.query("unit=='MW' and not tech_type.isna()")
+cap["additions"] = cap["end_value"] - cap["start_value"]
 # cap.head()
 
 # %%
@@ -140,6 +141,28 @@ chart = (
 chart.save(f"{str(fig_num).zfill(2)} - stacked capacity across models by year.png")
 # chart
 
+# %%
+# stacked bar of capacity additions by model and planning year
+fig_num += 1
+data = cap.groupby(["tech_type", "model", "planning_year"], as_index=False)[
+    "additions"
+].sum()
+chart = (
+    alt.Chart(data)
+    .mark_bar()
+    .encode(
+        x="model",
+        y=alt.Y("additions").title("Capacity additions (MW)"),
+        color=alt.Color("tech_type").scale(scheme="tableau20"),
+        # column="zone",
+        row="planning_year:O",
+    )
+    .properties(width=350, height=250)
+)
+
+chart.save(
+    f"{str(fig_num).zfill(2)} - stacked capacity additions across models by year.png"
+)
 
 # %%
 fig_num += 1
@@ -163,6 +186,27 @@ chart.save(
     f"{str(fig_num).zfill(2)} - regional stacked capacity across models by year.png"
 )
 
+# %%
+fig_num += 1
+data = cap.groupby(["agg_zone", "tech_type", "model", "planning_year"], as_index=False)[
+    "additions"
+].sum()
+chart = (
+    alt.Chart(data)
+    .mark_bar()
+    .encode(
+        x="model",
+        y=alt.Y("additions").title("Capacity additions (MW)"),
+        color=alt.Color("tech_type").scale(scheme="tableau20"),
+        column="agg_zone",
+        row="planning_year:O",
+    )
+    .properties(width=350, height=250)
+)
+
+chart.save(
+    f"{str(fig_num).zfill(2)} - regional stacked capacity additions across models by year.png"
+)
 # %% [markdown]
 # ## Generation
 
