@@ -389,6 +389,23 @@ chart.save(f"{str(fig_num).zfill(2)} - regional emissions across cases.png")
 
 # %%
 
+fig_num += 1
+chart = (
+    alt.Chart(emiss)
+    .mark_bar()
+    .encode(
+        x="model",
+        y=alt.Y("value").title("CO2 emissions (tonnes)"),
+        color=alt.Color("zone").scale(scheme="tableau20"),
+        # column="agg_zone",
+        row="planning_year:O",
+    )
+    .properties(width=350, height=250)
+    .resolve_scale(y="independent")
+)
+
+chart.save(f"{str(fig_num).zfill(2)} - stacked emissions across models by year.png")
+# %%
 from pathlib import Path
 
 fig_files = list(Path.cwd().rglob("*.png"))
