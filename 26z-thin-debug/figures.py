@@ -1,4 +1,5 @@
 import os
+from typing import Dict, List
 
 os.environ["USE_PYGEOS"] = "0"
 
@@ -17,6 +18,40 @@ gdf["lon"] = gdf.geometry.centroid.x
 
 print("\n\nstarting figure script\n\n")
 
+region_map = {
+    "WECC": ["BASN", "CANO", "CASO", "NWPP", "SRSG", "RMRG"],
+    "TRE": ["TRE", "TRE_WEST"],
+    "SPP": ["SPPC", "SPPN", "SPPS"],
+    "MISO": ["MISC", "MISE", "MISS", "MISW", "SRCE"],
+    "PJM": ["PJMC", "PJMW", "PJME", "PJMD"],
+    "SOU": ["SRSE", "SRCA", "FRCC"],
+    "NE": ["ISNE", "NYUP", "NYCW"],
+}
+
+
+def reverse_dict_of_lists(d: Dict[str, list]) -> Dict[str, List[str]]:
+    """Reverse the mapping in a dictionary of lists so each list item maps to the key
+
+    Parameters
+    ----------
+    d : Dict[str, List[str]]
+        A dictionary with string keys and lists of strings.
+
+    Returns
+    -------
+    Dict[str, str]
+        A reverse mapped dictionary where the item of each list becomes a key and the
+        original keys are mapped as values.
+    """
+    if isinstance(d, dict):
+        rev = {v: k for k in d for v in d[k]}
+    else:
+        rev = dict()
+    return rev
+
+
+rev_region_map = reverse_dict_of_lists(region_map)
+
 
 # %%
 def load_data(fn: str) -> pd.DataFrame:
@@ -31,6 +66,7 @@ def load_data(fn: str) -> pd.DataFrame:
         df["line_name"] = df["line_name"].str.replace(
             "Eastern_to_ERCOT", "ERCOT_to_Eastern"
         )
+    df["agg_zone"] = df["zone"].map(rev_region_map)
 
     return df
 
@@ -93,7 +129,7 @@ chart = (
     .encode(
         x="model",
         y=alt.Y("sum(end_value)").title("Capacity (MW)"),
-        color="tech_type",
+        color=alt.Color("tech_type").scale(scheme="tableau20"),
         # column="zone",
         row="planning_year:O",
     )
@@ -102,6 +138,29 @@ chart = (
 
 chart.save(f"{str(fig_num).zfill(2)} - stacked capacity across models by year.png")
 # chart
+
+
+# %%
+fig_num += 1
+data = cap.groupby(["agg_zone", "tech_type", "model", "planning_year"], as_index=False)[
+    "end_value"
+].sum()
+chart = (
+    alt.Chart(data)
+    .mark_bar()
+    .encode(
+        x="model",
+        y=alt.Y("end_value").title("Capacity (MW)"),
+        color=alt.Color("tech_type").scale(scheme="tableau20"),
+        column="agg_zone",
+        row="planning_year:O",
+    )
+    .properties(width=350, height=250)
+)
+
+chart.save(
+    f"{str(fig_num).zfill(2)} - regional stacked capacity across models by year.png"
+)
 
 # %% [markdown]
 # ## Generation
@@ -150,13 +209,16 @@ for year, _df in cap.groupby("planning_year"):
 # %%
 # stacked bar of generation by model and planning year
 fig_num += 1
+data = gen.groupby(["tech_type", "model", "planning_year"], as_index=False)[
+    "value"
+].sum()
 chart = (
-    alt.Chart(cap)
+    alt.Chart(data)
     .mark_bar()
     .encode(
         x="model",
-        y=alt.Y("sum(end_value)").title("Capacity (MW)"),
-        color="tech_type",
+        y=alt.Y("value").title("Generation (MWh)"),
+        color=alt.Color("tech_type").scale(scheme="tableau20"),
         # column="zone",
         row="planning_year:O",
     )
@@ -166,6 +228,27 @@ chart = (
 chart.save(f"{str(fig_num).zfill(2)} - stacked generation across models by year.png")
 # chart
 
+# %%
+fig_num += 1
+data = gen.groupby(["agg_zone", "tech_type", "model", "planning_year"], as_index=False)[
+    "value"
+].sum()
+chart = (
+    alt.Chart(data)
+    .mark_bar()
+    .encode(
+        x="model",
+        y=alt.Y("value").title("Generation (MWh)"),
+        color=alt.Color("tech_type").scale(scheme="tableau20"),
+        column="agg_zone",
+        row="planning_year:O",
+    )
+    .properties(width=350, height=250)
+)
+
+chart.save(
+    f"{str(fig_num).zfill(2)} - regional stacked generation across models by year.png"
+)
 # %% [markdown]
 # ## Capacity factors
 
