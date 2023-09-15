@@ -66,7 +66,8 @@ def load_data(fn: str) -> pd.DataFrame:
         df["line_name"] = df["line_name"].str.replace(
             "Eastern_to_ERCOT", "ERCOT_to_Eastern"
         )
-    df["agg_zone"] = df["zone"].map(rev_region_map)
+    if "zone" in df.columns:
+        df["agg_zone"] = df["zone"].map(rev_region_map)
 
     return df
 
