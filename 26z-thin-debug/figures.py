@@ -76,7 +76,7 @@ def reverse_line_name(s: str) -> str:
 
 
 def fix_tx_line_names(df: pd.DataFrame) -> pd.DataFrame:
-    line_count = tx.groupby("line_name", as_index=False)["model"].count()
+    line_count = df.groupby("line_name", as_index=False)["model"].count()
     median_count = line_count["model"].median()
     reversed_lines = line_count.query("model < @median_count")
 
