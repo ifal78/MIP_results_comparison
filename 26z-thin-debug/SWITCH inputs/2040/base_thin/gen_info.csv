@@ -1,0 +1,510 @@
+GENERATION_PROJECT,gen_tech,gen_energy_source,gen_load_zone,gen_max_age,gen_is_variable,gen_is_baseload,gen_full_load_heat_rate,gen_variable_om,gen_connect_cost_per_mw,gen_dbid,gen_scheduled_outage_rate,gen_forced_outage_rate,gen_min_build_capacity,gen_is_cogen,gen_storage_efficiency,gen_store_to_release_ratio,gen_can_provide_cap_reserves,gen_self_discharge_rate,gen_discharge_efficiency,gen_land_use_rate,gen_storage_energy_to_power_ratio,gen_type,gen_capacity_limit_mw
+BASN_biomass_1,Biomass,Bio Solid,BASN,50,FALSE,FALSE,.,5.719,0,BASN_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,38.4
+BASN_conventional_hydroelectric_1,Conventional Hydroelectric,Water,BASN,100,FALSE,FALSE,.,0,0,BASN_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,1773.8
+BASN_conventional_steam_coal_1,Conventional Steam Coal,Coal,BASN,65,FALSE,FALSE,10.5,1.879,0,BASN_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,2092.2
+BASN_geothermal_1,Geothermal,Heat,BASN,30,FALSE,FALSE,.,0,0,BASN_geothermal_1,0.05,0.04,0,FALSE,.,.,1,.,.,.,.,Geothermal,523.7
+BASN_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,BASN,60,FALSE,FALSE,7.588,3.697,0,BASN_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,8151.9
+BASN_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,BASN,50,FALSE,FALSE,11.584,5.279,0,BASN_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,2261.2
+BASN_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,BASN,60,FALSE,FALSE,9.285,4.776,0,BASN_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,221.4
+BASN_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,BASN,50,FALSE,FALSE,9.21,1.056,0,BASN_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,5
+BASN_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,BASN,30,TRUE,FALSE,.,0,0,BASN_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,1454
+BASN_petroleum_liquids_1,Petroleum Liquids,Diesel,BASN,40,FALSE,FALSE,.,16.205,0,BASN_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,13.6
+BASN_small_hydroelectric_1,Small Hydroelectric,Water,BASN,100,FALSE,FALSE,.,0,0,BASN_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,352.9
+BASN_solar_photovoltaic_1,Solar Photovoltaic,Solar,BASN,30,TRUE,FALSE,.,0,0,BASN_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,7483.7
+CANO_biomass_1,Biomass,Bio Solid,CANO,50,FALSE,FALSE,.,6.599,0,CANO_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,199.7
+CANO_conventional_hydroelectric_1,Conventional Hydroelectric,Water,CANO,100,FALSE,FALSE,.,0,0,CANO_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,6901.8
+CANO_hydroelectric_pumped_storage_1,Hydroelectric Pumped Storage,Electricity,CANO,100,FALSE,FALSE,.,0,0,CANO_hydroelectric_pumped_storage_1,0.05,0.05,0,FALSE,0.749956,1,1,.,.,.,.,Hydro,2276.9
+CANO_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,CANO,60,FALSE,FALSE,7.644,3.858,0,CANO_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,11409.7
+CANO_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,CANO,50,FALSE,FALSE,10.785,5.279,0,CANO_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,3504.9
+CANO_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,CANO,60,FALSE,FALSE,9.462,4.867,0,CANO_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,431.6
+CANO_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,CANO,50,FALSE,FALSE,9.21,1.056,0,CANO_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,2.9
+CANO_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,CANO,30,TRUE,FALSE,.,0,0,CANO_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,698
+CANO_petroleum_liquids_1,Petroleum Liquids,Diesel,CANO,40,FALSE,FALSE,.,6.05,0,CANO_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,167.4
+CANO_small_hydroelectric_1,Small Hydroelectric,Water,CANO,100,FALSE,FALSE,.,0,0,CANO_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,589
+CANO_solar_photovoltaic_1,Solar Photovoltaic,Solar,CANO,30,TRUE,FALSE,.,0,0,CANO_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,5750
+CASO_batteries_1,Batteries,Electricity,CASO,15,FALSE,FALSE,.,0.15,0,CASO_batteries_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,84
+CASO_biomass_1,Biomass,Bio Solid,CASO,50,FALSE,FALSE,.,4.573,0,CASO_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,229.1
+CASO_conventional_hydroelectric_1,Conventional Hydroelectric,Water,CASO,100,FALSE,FALSE,.,0,0,CASO_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,955
+CASO_conventional_steam_coal_1,Conventional Steam Coal,Coal,CASO,65,FALSE,FALSE,11.05,1.879,0,CASO_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,50
+CASO_geothermal_1,Geothermal,Heat,CASO,30,FALSE,FALSE,.,0,0,CASO_geothermal_1,0.05,0.04,0,FALSE,.,.,1,.,.,.,.,Geothermal,23.729
+CASO_hydroelectric_pumped_storage_1,Hydroelectric Pumped Storage,Electricity,CASO,100,FALSE,FALSE,.,0,0,CASO_hydroelectric_pumped_storage_1,0.05,0.05,0,FALSE,0.749956,1,1,.,.,.,.,Hydro,1665
+CASO_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,CASO,60,FALSE,FALSE,8.08,3.814,0,CASO_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,8281
+CASO_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,CASO,50,FALSE,FALSE,10.342,5.279,0,CASO_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,5268.3
+CASO_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,CASO,60,FALSE,FALSE,8.818,4.536,0,CASO_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,50.2
+CASO_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,CASO,30,TRUE,FALSE,.,0,0,CASO_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,3464.4
+CASO_petroleum_liquids_1,Petroleum Liquids,Diesel,CASO,40,FALSE,FALSE,.,6.615,0,CASO_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,7.8
+CASO_small_hydroelectric_1,Small Hydroelectric,Water,CASO,100,FALSE,FALSE,.,0,0,CASO_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,229.2
+CASO_solar_photovoltaic_1,Solar Photovoltaic,Solar,CASO,30,TRUE,FALSE,.,0,0,CASO_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,12852.6
+FRCC_biomass_1,Biomass,Bio Solid,FRCC,50,FALSE,FALSE,.,6.052,0,FRCC_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,575.8
+FRCC_conventional_hydroelectric_1,Conventional Hydroelectric,Water,FRCC,100,FALSE,FALSE,.,0,0,FRCC_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,43.5
+FRCC_conventional_steam_coal_1,Conventional Steam Coal,Coal,FRCC,65,FALSE,FALSE,10.876,1.879,0,FRCC_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,4281
+FRCC_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,FRCC,60,FALSE,FALSE,7.229,3.636,0,FRCC_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,37506.7
+FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,FRCC,50,FALSE,FALSE,11.711,5.279,0,FRCC_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,8561.1
+FRCC_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,FRCC,60,FALSE,FALSE,8.379,4.31,0,FRCC_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,244.4
+FRCC_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,FRCC,50,FALSE,FALSE,11.318,1.056,0,FRCC_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,335
+FRCC_nuclear_1,Nuclear,Uranium,FRCC,80,FALSE,FALSE,10.446,2.841,0,FRCC_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,3737
+FRCC_petroleum_liquids_1,Petroleum Liquids,Diesel,FRCC,40,FALSE,FALSE,.,5.997,0,FRCC_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,148.3
+FRCC_solar_photovoltaic_1,Solar Photovoltaic,Solar,FRCC,30,TRUE,FALSE,.,0,0,FRCC_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,7848.6
+ISNE_biomass_1,Biomass,Bio Solid,ISNE,50,FALSE,FALSE,.,5.466,0,ISNE_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,292.9
+ISNE_conventional_hydroelectric_1,Conventional Hydroelectric,Water,ISNE,100,FALSE,FALSE,.,0,0,ISNE_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,516.1
+ISNE_hydroelectric_pumped_storage_1,Hydroelectric Pumped Storage,Electricity,ISNE,100,FALSE,FALSE,.,0,0,ISNE_hydroelectric_pumped_storage_1,0.05,0.05,0,FALSE,0.749956,1,1,.,.,.,.,Hydro,1768
+ISNE_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,ISNE,60,FALSE,FALSE,7.867,3.851,0,ISNE_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,14234.1
+ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,ISNE,50,FALSE,FALSE,10.747,5.279,0,ISNE_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,1789.4
+ISNE_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,ISNE,60,FALSE,FALSE,9.309,4.788,0,ISNE_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,57.4
+ISNE_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,ISNE,50,FALSE,FALSE,9.312,1.056,0,ISNE_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,17.2
+ISNE_nuclear_1,Nuclear,Uranium,ISNE,80,FALSE,FALSE,10.446,2.841,0,ISNE_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,3348.1
+ISNE_offshore_wind_turbine_1,Offshore Wind Turbine,Wind,ISNE,30,TRUE,FALSE,.,0,0,ISNE_offshore_wind_turbine_1,0,0.05,0,FALSE,.,.,1,.,.,.,.,Wind,29.3
+ISNE_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,ISNE,30,TRUE,FALSE,.,0,0,ISNE_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,1165.2
+ISNE_petroleum_liquids_1,Petroleum Liquids,Diesel,ISNE,40,FALSE,FALSE,.,7.227,0,ISNE_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,824.1
+ISNE_small_hydroelectric_1,Small Hydroelectric,Water,ISNE,100,FALSE,FALSE,.,0,0,ISNE_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,515.1
+ISNE_solar_photovoltaic_1,Solar Photovoltaic,Solar,ISNE,30,TRUE,FALSE,.,0,0,ISNE_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,2438
+MISC_biomass_1,Biomass,Bio Solid,MISC,50,FALSE,FALSE,.,4.634,0,MISC_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,131.8
+MISC_conventional_hydroelectric_1,Conventional Hydroelectric,Water,MISC,100,FALSE,FALSE,.,0,0,MISC_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,276.6
+MISC_conventional_steam_coal_1,Conventional Steam Coal,Coal,MISC,65,FALSE,FALSE,10.414,1.879,0,MISC_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,7486.7
+MISC_hydroelectric_pumped_storage_1,Hydroelectric Pumped Storage,Electricity,MISC,100,FALSE,FALSE,.,0,0,MISC_hydroelectric_pumped_storage_1,0.05,0.05,0,FALSE,0.749956,1,1,.,.,.,.,Hydro,471
+MISC_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,MISC,60,FALSE,FALSE,7.407,3.759,0,MISC_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,5234.1
+MISC_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,MISC,50,FALSE,FALSE,12.236,5.279,0,MISC_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,9409
+MISC_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,MISC,60,FALSE,FALSE,9.041,4.651,0,MISC_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,34.8
+MISC_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,MISC,50,FALSE,FALSE,13.36,1.056,0,MISC_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,134.3
+MISC_nuclear_1,Nuclear,Uranium,MISC,80,FALSE,FALSE,10.447,2.841,0,MISC_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,2373
+MISC_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,MISC,30,TRUE,FALSE,.,0,0,MISC_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,3811.7
+MISC_petroleum_liquids_1,Petroleum Liquids,Diesel,MISC,40,FALSE,FALSE,.,5.837,0,MISC_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,208.2
+MISC_small_hydroelectric_1,Small Hydroelectric,Water,MISC,100,FALSE,FALSE,.,0,0,MISC_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,12.888
+MISC_solar_photovoltaic_1,Solar Photovoltaic,Solar,MISC,30,TRUE,FALSE,.,0,0,MISC_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,3878.1
+MISE_biomass_1,Biomass,Bio Solid,MISE,50,FALSE,FALSE,.,6.578,0,MISE_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,174.3
+MISE_conventional_steam_coal_1,Conventional Steam Coal,Coal,MISE,65,FALSE,FALSE,12.352,1.879,0,MISE_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,62.3
+MISE_hydroelectric_pumped_storage_1,Hydroelectric Pumped Storage,Electricity,MISE,100,FALSE,FALSE,.,0,0,MISE_hydroelectric_pumped_storage_1,0.05,0.05,0,FALSE,0.749956,1,1,.,.,.,.,Hydro,2047
+MISE_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,MISE,60,FALSE,FALSE,7.829,3.677,0,MISE_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,6749.6
+MISE_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,MISE,50,FALSE,FALSE,11.954,5.279,0,MISE_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,4389.6
+MISE_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,MISE,60,FALSE,FALSE,9.529,4.902,0,MISE_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,82.9
+MISE_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,MISE,50,FALSE,FALSE,22.407,1.056,0,MISE_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,93
+MISE_nuclear_1,Nuclear,Uranium,MISE,80,FALSE,FALSE,10.501,2.856,0,MISE_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,1161
+MISE_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,MISE,30,TRUE,FALSE,.,0,0,MISE_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,3075.1
+MISE_petroleum_liquids_1,Petroleum Liquids,Diesel,MISE,40,FALSE,FALSE,.,5.434,0,MISE_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,28.7
+MISE_small_hydroelectric_1,Small Hydroelectric,Water,MISE,100,FALSE,FALSE,.,0,0,MISE_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,15.3
+MISE_solar_photovoltaic_1,Solar Photovoltaic,Solar,MISE,30,TRUE,FALSE,.,0,0,MISE_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,1073.5
+MISS_biomass_1,Biomass,Bio Solid,MISS,50,FALSE,FALSE,.,4.073,0,MISS_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,152.8
+MISS_conventional_hydroelectric_1,Conventional Hydroelectric,Water,MISS,100,FALSE,FALSE,.,0,0,MISS_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,521.4
+MISS_conventional_steam_coal_1,Conventional Steam Coal,Coal,MISS,65,FALSE,FALSE,11.704,1.879,0,MISS_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,6111.1
+MISS_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,MISS,60,FALSE,FALSE,7.779,3.651,0,MISS_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,20100.5
+MISS_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,MISS,50,FALSE,FALSE,11.601,5.279,0,MISS_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,4146.8
+MISS_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,MISS,60,FALSE,FALSE,9.05,4.655,0,MISS_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,82.8
+MISS_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,MISS,50,FALSE,FALSE,24.601,1.056,0,MISS_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,168.6
+MISS_nuclear_1,Nuclear,Uranium,MISS,80,FALSE,FALSE,10.451,2.842,0,MISS_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,5426
+MISS_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,MISS,30,TRUE,FALSE,.,0,0,MISS_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,184.5
+MISS_petroleum_liquids_1,Petroleum Liquids,Diesel,MISS,40,FALSE,FALSE,.,7.007,0,MISS_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,39.3
+MISS_small_hydroelectric_1,Small Hydroelectric,Water,MISS,100,FALSE,FALSE,.,0,0,MISS_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,36.6
+MISS_solar_photovoltaic_1,Solar Photovoltaic,Solar,MISS,30,TRUE,FALSE,.,0,0,MISS_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,2053.9
+MISW_biomass_1,Biomass,Bio Solid,MISW,50,FALSE,FALSE,.,6.778,0,MISW_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,407.3
+MISW_conventional_hydroelectric_1,Conventional Hydroelectric,Water,MISW,100,FALSE,FALSE,.,0,0,MISW_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,82
+MISW_conventional_steam_coal_1,Conventional Steam Coal,Coal,MISW,65,FALSE,FALSE,11.326,1.879,0,MISW_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,8421.9
+MISW_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,MISW,60,FALSE,FALSE,7.242,3.749,0,MISW_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,7688.6
+MISW_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,MISW,50,FALSE,FALSE,12.146,5.279,0,MISW_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,6388.6
+MISW_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,MISW,60,FALSE,FALSE,8.672,4.461,0,MISW_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,683.2
+MISW_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,MISW,50,FALSE,FALSE,17.62,1.056,0,MISW_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,174.8
+MISW_nuclear_1,Nuclear,Uranium,MISW,80,FALSE,FALSE,10.446,2.841,0,MISW_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,2943.2
+MISW_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,MISW,30,TRUE,FALSE,.,0,0,MISW_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,13734.3
+MISW_petroleum_liquids_1,Petroleum Liquids,Diesel,MISW,40,FALSE,FALSE,.,5.708,0,MISW_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,679.8
+MISW_small_hydroelectric_1,Small Hydroelectric,Water,MISW,100,FALSE,FALSE,.,0,0,MISW_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,315.1
+MISW_solar_photovoltaic_1,Solar Photovoltaic,Solar,MISW,30,TRUE,FALSE,.,0,0,MISW_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,2841.5
+NWPP_biomass_1,Biomass,Bio Solid,NWPP,50,FALSE,FALSE,.,8.278,0,NWPP_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,338.6
+NWPP_conventional_hydroelectric_1,Conventional Hydroelectric,Water,NWPP,100,FALSE,FALSE,.,0,0,NWPP_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,30884.9
+NWPP_conventional_steam_coal_1,Conventional Steam Coal,Coal,NWPP,65,FALSE,FALSE,10.965,1.879,0,NWPP_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,1629
+NWPP_geothermal_1,Geothermal,Heat,NWPP,30,FALSE,FALSE,.,0,0,NWPP_geothermal_1,0.05,0.04,0,FALSE,.,.,1,.,.,.,.,Geothermal,30.8
+NWPP_hydroelectric_pumped_storage_1,Hydroelectric Pumped Storage,Electricity,NWPP,100,FALSE,FALSE,.,0,0,NWPP_hydroelectric_pumped_storage_1,0.05,0.05,0,FALSE,0.749956,1,1,.,.,.,.,Hydro,314
+NWPP_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,NWPP,60,FALSE,FALSE,7.388,4.199,0,NWPP_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,6421.2
+NWPP_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,NWPP,50,FALSE,FALSE,12.302,5.279,0,NWPP_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,724.5
+NWPP_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,NWPP,60,FALSE,FALSE,8.778,4.516,0,NWPP_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,305
+NWPP_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,NWPP,50,FALSE,FALSE,9.21,1.056,0,NWPP_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,3
+NWPP_nuclear_1,Nuclear,Uranium,NWPP,80,FALSE,FALSE,10.446,2.841,0,NWPP_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,1172
+NWPP_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,NWPP,30,TRUE,FALSE,.,0,0,NWPP_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,3387.5
+NWPP_petroleum_liquids_1,Petroleum Liquids,Diesel,NWPP,40,FALSE,FALSE,.,4.815,0,NWPP_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,15.3
+NWPP_small_hydroelectric_1,Small Hydroelectric,Water,NWPP,100,FALSE,FALSE,.,0,0,NWPP_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,681.3
+NWPP_solar_photovoltaic_1,Solar Photovoltaic,Solar,NWPP,30,TRUE,FALSE,.,0,0,NWPP_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,1450.4
+NYCW_biomass_1,Biomass,Bio Solid,NYCW,50,FALSE,FALSE,.,3.957,0,NYCW_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,1.264
+NYCW_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,NYCW,60,FALSE,FALSE,8.203,3.927,0,NYCW_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,4245
+NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,NYCW,50,FALSE,FALSE,10.195,5.279,0,NYCW_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,2076.9
+NYCW_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,NYCW,60,FALSE,FALSE,8.612,4.43,0,NYCW_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,37.1
+NYCW_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,NYCW,50,FALSE,FALSE,12.124,1.056,0,NYCW_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,15
+NYCW_petroleum_liquids_1,Petroleum Liquids,Diesel,NYCW,40,FALSE,FALSE,.,5.214,0,NYCW_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,334.9
+NYCW_solar_photovoltaic_1,Solar Photovoltaic,Solar,NYCW,30,TRUE,FALSE,.,0,0,NYCW_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,158.2
+NYUP_biomass_1,Biomass,Bio Solid,NYUP,50,FALSE,FALSE,.,4.87,0,NYUP_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,120.4
+NYUP_conventional_hydroelectric_1,Conventional Hydroelectric,Water,NYUP,100,FALSE,FALSE,.,0,0,NYUP_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,3442.8
+NYUP_hydroelectric_pumped_storage_1,Hydroelectric Pumped Storage,Electricity,NYUP,100,FALSE,FALSE,.,0,0,NYUP_hydroelectric_pumped_storage_1,0.05,0.05,0,FALSE,0.749956,1,1,.,.,.,.,Hydro,1405.1
+NYUP_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,NYUP,60,FALSE,FALSE,7.783,3.854,0,NYUP_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,6941.4
+NYUP_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,NYUP,50,FALSE,FALSE,8.78,5.279,0,NYUP_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,47.5
+NYUP_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,NYUP,60,FALSE,FALSE,8.268,4.253,0,NYUP_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,18.5
+NYUP_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,NYUP,50,FALSE,FALSE,9.21,1.056,0,NYUP_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,49.2
+NYUP_nuclear_1,Nuclear,Uranium,NYUP,80,FALSE,FALSE,10.446,2.841,0,NYUP_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,3375.3
+NYUP_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,NYUP,30,TRUE,FALSE,.,0,0,NYUP_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,2115
+NYUP_petroleum_liquids_1,Petroleum Liquids,Diesel,NYUP,40,FALSE,FALSE,.,4.822,0,NYUP_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,55.8
+NYUP_small_hydroelectric_1,Small Hydroelectric,Water,NYUP,100,FALSE,FALSE,.,0,0,NYUP_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,499.3
+NYUP_solar_photovoltaic_1,Solar Photovoltaic,Solar,NYUP,30,TRUE,FALSE,.,0,0,NYUP_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,1546.3
+PJMC_biomass_1,Biomass,Bio Solid,PJMC,50,FALSE,FALSE,.,4.806,0,PJMC_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,19.1
+PJMC_conventional_hydroelectric_1,Conventional Hydroelectric,Water,PJMC,100,FALSE,FALSE,.,0,0,PJMC_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,10.4
+PJMC_conventional_steam_coal_1,Conventional Steam Coal,Coal,PJMC,65,FALSE,FALSE,11.373,1.879,0,PJMC_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,42.4
+PJMC_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,PJMC,60,FALSE,FALSE,7.137,3.61,0,PJMC_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,5038.4
+PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,PJMC,50,FALSE,FALSE,11.557,5.279,0,PJMC_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,8649.2
+PJMC_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,PJMC,60,FALSE,FALSE,8.537,4.392,0,PJMC_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,111.4
+PJMC_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,PJMC,50,FALSE,FALSE,9.21,1.056,0,PJMC_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,1.8
+PJMC_nuclear_1,Nuclear,Uranium,PJMC,80,FALSE,FALSE,10.446,2.841,0,PJMC_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,6516
+PJMC_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,PJMC,30,TRUE,FALSE,.,0,0,PJMC_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,2059.5
+PJMC_petroleum_liquids_1,Petroleum Liquids,Diesel,PJMC,40,FALSE,FALSE,.,5.493,0,PJMC_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,49.9
+PJMC_small_hydroelectric_1,Small Hydroelectric,Water,PJMC,100,FALSE,FALSE,.,0,0,PJMC_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,22
+PJMC_solar_photovoltaic_1,Solar Photovoltaic,Solar,PJMC,30,TRUE,FALSE,.,0,0,PJMC_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,279.5
+PJMD_biomass_1,Biomass,Bio Solid,PJMD,50,FALSE,FALSE,.,5.626,0,PJMD_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,319.2
+PJMD_conventional_hydroelectric_1,Conventional Hydroelectric,Water,PJMD,100,FALSE,FALSE,.,0,0,PJMD_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,613.1
+PJMD_conventional_steam_coal_1,Conventional Steam Coal,Coal,PJMD,65,FALSE,FALSE,10.075,1.879,0,PJMD_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,1038.9
+PJMD_hydroelectric_pumped_storage_1,Hydroelectric Pumped Storage,Electricity,PJMD,100,FALSE,FALSE,.,0,0,PJMD_hydroelectric_pumped_storage_1,0.05,0.05,0,FALSE,0.749956,1,1,.,.,.,.,Hydro,3003
+PJMD_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,PJMD,60,FALSE,FALSE,7.199,3.694,0,PJMD_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,8015.4
+PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,PJMD,50,FALSE,FALSE,10.775,5.279,0,PJMD_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,3783.5
+PJMD_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,PJMD,60,FALSE,FALSE,8.16,4.198,0,PJMD_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,2.3
+PJMD_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,PJMD,50,FALSE,FALSE,9.21,1.056,0,PJMD_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,2.4
+PJMD_nuclear_1,Nuclear,Uranium,PJMD,80,FALSE,FALSE,10.446,2.841,0,PJMD_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,3708
+PJMD_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,PJMD,30,TRUE,FALSE,.,0,0,PJMD_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,208
+PJMD_petroleum_liquids_1,Petroleum Liquids,Diesel,PJMD,40,FALSE,FALSE,.,5.658,0,PJMD_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,35.4
+PJMD_small_hydroelectric_1,Small Hydroelectric,Water,PJMD,100,FALSE,FALSE,.,0,0,PJMD_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,10.9
+PJMD_solar_photovoltaic_1,Solar Photovoltaic,Solar,PJMD,30,TRUE,FALSE,.,0,0,PJMD_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,3883.6
+PJME_biomass_1,Biomass,Bio Solid,PJME,50,FALSE,FALSE,.,5.355,0,PJME_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,393.3
+PJME_conventional_hydroelectric_1,Conventional Hydroelectric,Water,PJME,100,FALSE,FALSE,.,0,0,PJME_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,579.1
+PJME_conventional_steam_coal_1,Conventional Steam Coal,Coal,PJME,65,FALSE,FALSE,12.794,1.879,0,PJME_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,3111.4
+PJME_hydroelectric_pumped_storage_1,Hydroelectric Pumped Storage,Electricity,PJME,100,FALSE,FALSE,.,0,0,PJME_hydroelectric_pumped_storage_1,0.05,0.05,0,FALSE,0.749956,1,1,.,.,.,.,Hydro,1972
+PJME_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,PJME,60,FALSE,FALSE,7.399,3.669,0,PJME_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,28161.1
+PJME_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,PJME,50,FALSE,FALSE,12.736,5.279,0,PJME_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,4868.3
+PJME_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,PJME,60,FALSE,FALSE,9.351,4.81,0,PJME_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,261.5
+PJME_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,PJME,50,FALSE,FALSE,11.239,1.056,0,PJME_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,88.6
+PJME_nuclear_1,Nuclear,Uranium,PJME,80,FALSE,FALSE,10.446,2.841,0,PJME_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,12762.7
+PJME_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,PJME,30,TRUE,FALSE,.,0,0,PJME_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,582.2
+PJME_petroleum_liquids_1,Petroleum Liquids,Diesel,PJME,40,FALSE,FALSE,.,5.433,0,PJME_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,319.2
+PJME_small_hydroelectric_1,Small Hydroelectric,Water,PJME,100,FALSE,FALSE,.,0,0,PJME_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,100.5
+PJME_solar_photovoltaic_1,Solar Photovoltaic,Solar,PJME,30,TRUE,FALSE,.,0,0,PJME_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,2021.8
+PJMW_biomass_1,Biomass,Bio Solid,PJMW,50,FALSE,FALSE,.,4.932,0,PJMW_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,109.5
+PJMW_conventional_hydroelectric_1,Conventional Hydroelectric,Water,PJMW,100,FALSE,FALSE,.,0,0,PJMW_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,626
+PJMW_conventional_steam_coal_1,Conventional Steam Coal,Coal,PJMW,65,FALSE,FALSE,10.811,1.879,0,PJMW_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,5556
+PJMW_hydroelectric_pumped_storage_1,Hydroelectric Pumped Storage,Electricity,PJMW,100,FALSE,FALSE,.,0,0,PJMW_hydroelectric_pumped_storage_1,0.05,0.05,0,FALSE,0.749956,1,1,.,.,.,.,Hydro,238
+PJMW_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,PJMW,60,FALSE,FALSE,7.011,3.651,0,PJMW_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,17972.5
+PJMW_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,PJMW,50,FALSE,FALSE,12.488,5.279,0,PJMW_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,11572.7
+PJMW_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,PJMW,60,FALSE,FALSE,9.889,5.087,0,PJMW_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,73.3
+PJMW_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,PJMW,50,FALSE,FALSE,9.314,1.056,0,PJMW_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,33.7
+PJMW_nuclear_1,Nuclear,Uranium,PJMW,80,FALSE,FALSE,10.446,2.841,0,PJMW_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,6326
+PJMW_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,PJMW,30,TRUE,FALSE,.,0,0,PJMW_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,2504
+PJMW_petroleum_liquids_1,Petroleum Liquids,Diesel,PJMW,40,FALSE,FALSE,.,5.093,0,PJMW_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,78.5
+PJMW_small_hydroelectric_1,Small Hydroelectric,Water,PJMW,100,FALSE,FALSE,.,0,0,PJMW_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,244.6
+PJMW_solar_photovoltaic_1,Solar Photovoltaic,Solar,PJMW,30,TRUE,FALSE,.,0,0,PJMW_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,4033.2
+RMRG_biomass_1,Biomass,Bio Solid,RMRG,50,FALSE,FALSE,.,5.236,0,RMRG_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,25.1
+RMRG_conventional_hydroelectric_1,Conventional Hydroelectric,Water,RMRG,100,FALSE,FALSE,.,0,0,RMRG_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,655.7
+RMRG_conventional_steam_coal_1,Conventional Steam Coal,Coal,RMRG,65,FALSE,FALSE,10.802,1.879,0,RMRG_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,5135
+RMRG_hydroelectric_pumped_storage_1,Hydroelectric Pumped Storage,Electricity,RMRG,100,FALSE,FALSE,.,0,0,RMRG_hydroelectric_pumped_storage_1,0.05,0.05,0,FALSE,0.749956,1,1,.,.,.,.,Hydro,580.8
+RMRG_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,RMRG,60,FALSE,FALSE,8.308,4.038,0,RMRG_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,3537.5
+RMRG_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,RMRG,50,FALSE,FALSE,12.036,5.279,0,RMRG_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,3018.7
+RMRG_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,RMRG,60,FALSE,FALSE,8.804,4.529,0,RMRG_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,243.4
+RMRG_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,RMRG,30,TRUE,FALSE,.,0,0,RMRG_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,6871.1
+RMRG_petroleum_liquids_1,Petroleum Liquids,Diesel,RMRG,40,FALSE,FALSE,.,5.916,0,RMRG_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,11.8
+RMRG_small_hydroelectric_1,Small Hydroelectric,Water,RMRG,100,FALSE,FALSE,.,0,0,RMRG_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,228.2
+RMRG_solar_photovoltaic_1,Solar Photovoltaic,Solar,RMRG,30,TRUE,FALSE,.,0,0,RMRG_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,2191.5
+SPPC_biomass_1,Biomass,Bio Solid,SPPC,50,FALSE,FALSE,.,4.969,0,SPPC_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,13.6
+SPPC_conventional_hydroelectric_1,Conventional Hydroelectric,Water,SPPC,100,FALSE,FALSE,.,0,0,SPPC_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,52
+SPPC_conventional_steam_coal_1,Conventional Steam Coal,Coal,SPPC,65,FALSE,FALSE,11.661,1.879,0,SPPC_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,5317.5
+SPPC_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,SPPC,60,FALSE,FALSE,7.789,4.194,0,SPPC_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,1782
+SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,SPPC,50,FALSE,FALSE,12.744,5.279,0,SPPC_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,3109
+SPPC_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,SPPC,60,FALSE,FALSE,11.503,5.917,0,SPPC_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,366.2
+SPPC_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,SPPC,50,FALSE,FALSE,10.542,1.056,0,SPPC_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,10.5
+SPPC_nuclear_1,Nuclear,Uranium,SPPC,80,FALSE,FALSE,10.446,2.841,0,SPPC_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,1255
+SPPC_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,SPPC,30,TRUE,FALSE,.,0,0,SPPC_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,6620.3
+SPPC_petroleum_liquids_1,Petroleum Liquids,Diesel,SPPC,40,FALSE,FALSE,.,6.673,0,SPPC_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,106.3
+SPPC_solar_photovoltaic_1,Solar Photovoltaic,Solar,SPPC,30,TRUE,FALSE,.,0,0,SPPC_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,81.9
+SPPN_biomass_1,Biomass,Bio Solid,SPPN,50,FALSE,FALSE,.,4.465,0,SPPN_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,17.4
+SPPN_conventional_hydroelectric_1,Conventional Hydroelectric,Water,SPPN,100,FALSE,FALSE,.,0,0,SPPN_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,2465
+SPPN_conventional_steam_coal_1,Conventional Steam Coal,Coal,SPPN,65,FALSE,FALSE,11.147,1.879,0,SPPN_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,4175.2
+SPPN_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,SPPN,60,FALSE,FALSE,7.985,4.551,0,SPPN_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,644.6
+SPPN_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,SPPN,50,FALSE,FALSE,11.053,5.279,0,SPPN_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,2417
+SPPN_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,SPPN,60,FALSE,FALSE,8.653,4.451,0,SPPN_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,341.4
+SPPN_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,SPPN,50,FALSE,FALSE,9.21,1.056,0,SPPN_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,7.5
+SPPN_nuclear_1,Nuclear,Uranium,SPPN,80,FALSE,FALSE,10.446,2.841,0,SPPN_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,770
+SPPN_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,SPPN,30,TRUE,FALSE,.,0,0,SPPN_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,5600.4
+SPPN_petroleum_liquids_1,Petroleum Liquids,Diesel,SPPN,40,FALSE,FALSE,.,5.574,0,SPPN_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,28.4
+SPPN_small_hydroelectric_1,Small Hydroelectric,Water,SPPN,100,FALSE,FALSE,.,0,0,SPPN_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,63.6
+SPPN_solar_photovoltaic_1,Solar Photovoltaic,Solar,SPPN,30,TRUE,FALSE,.,0,0,SPPN_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,116.2
+SPPS_biomass_1,Biomass,Bio Solid,SPPS,50,FALSE,FALSE,.,4.054,0,SPPS_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,76.4
+SPPS_conventional_hydroelectric_1,Conventional Hydroelectric,Water,SPPS,100,FALSE,FALSE,.,0,0,SPPS_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,1931.8
+SPPS_conventional_steam_coal_1,Conventional Steam Coal,Coal,SPPS,65,FALSE,FALSE,13.831,1.879,0,SPPS_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,4639
+SPPS_hydroelectric_pumped_storage_1,Hydroelectric Pumped Storage,Electricity,SPPS,100,FALSE,FALSE,.,0,0,SPPS_hydroelectric_pumped_storage_1,0.05,0.05,0,FALSE,0.749956,1,1,.,.,.,.,Hydro,474
+SPPS_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,SPPS,60,FALSE,FALSE,7.466,3.805,0,SPPS_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,9073.6
+SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,SPPS,50,FALSE,FALSE,11.924,5.279,0,SPPS_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,3483.3
+SPPS_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,SPPS,60,FALSE,FALSE,9.428,4.85,0,SPPS_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,420.6
+SPPS_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,SPPS,30,TRUE,FALSE,.,0,0,SPPS_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,15016.5
+SPPS_petroleum_liquids_1,Petroleum Liquids,Diesel,SPPS,40,FALSE,FALSE,.,5.467,0,SPPS_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,24.2
+SPPS_small_hydroelectric_1,Small Hydroelectric,Water,SPPS,100,FALSE,FALSE,.,0,0,SPPS_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,89.1
+SPPS_solar_photovoltaic_1,Solar Photovoltaic,Solar,SPPS,30,TRUE,FALSE,.,0,0,SPPS_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,323.3
+SRCA_biomass_1,Biomass,Bio Solid,SRCA,50,FALSE,FALSE,.,7.241,0,SRCA_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,330.8
+SRCA_conventional_hydroelectric_1,Conventional Hydroelectric,Water,SRCA,100,FALSE,FALSE,.,0,0,SRCA_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,1222.4
+SRCA_conventional_steam_coal_1,Conventional Steam Coal,Coal,SRCA,65,FALSE,FALSE,11.61,1.879,0,SRCA_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,4648
+SRCA_hydroelectric_pumped_storage_1,Hydroelectric Pumped Storage,Electricity,SRCA,100,FALSE,FALSE,.,0,0,SRCA_hydroelectric_pumped_storage_1,0.05,0.05,0,FALSE,0.749956,1,1,.,.,.,.,Hydro,2796
+SRCA_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,SRCA,60,FALSE,FALSE,7.309,3.649,0,SRCA_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,9518.2
+SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,SRCA,50,FALSE,FALSE,11.395,5.279,0,SRCA_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,10246.4
+SRCA_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,SRCA,50,FALSE,FALSE,9.878,1.056,0,SRCA_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,519.7
+SRCA_nuclear_1,Nuclear,Uranium,SRCA,80,FALSE,FALSE,10.446,2.841,0,SRCA_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,12104.6
+SRCA_petroleum_liquids_1,Petroleum Liquids,Diesel,SRCA,40,FALSE,FALSE,.,6.418,0,SRCA_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,138.4
+SRCA_small_hydroelectric_1,Small Hydroelectric,Water,SRCA,100,FALSE,FALSE,.,0,0,SRCA_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,102.1
+SRCA_solar_photovoltaic_1,Solar Photovoltaic,Solar,SRCA,30,TRUE,FALSE,.,0,0,SRCA_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,7162.6
+SRCE_biomass_1,Biomass,Bio Solid,SRCE,50,FALSE,FALSE,.,5.177,0,SRCE_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,53.1
+SRCE_conventional_hydroelectric_1,Conventional Hydroelectric,Water,SRCE,100,FALSE,FALSE,.,0,0,SRCE_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,3887.3
+SRCE_conventional_steam_coal_1,Conventional Steam Coal,Coal,SRCE,65,FALSE,FALSE,10.328,1.879,0,SRCE_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,4083
+SRCE_hydroelectric_pumped_storage_1,Hydroelectric Pumped Storage,Electricity,SRCE,100,FALSE,FALSE,.,0,0,SRCE_hydroelectric_pumped_storage_1,0.05,0.05,0,FALSE,0.749956,1,1,.,.,.,.,Hydro,1683.8
+SRCE_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,SRCE,60,FALSE,FALSE,7.255,3.601,0,SRCE_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,11484.6
+SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,SRCE,50,FALSE,FALSE,11.438,5.279,0,SRCE_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,5986.9
+SRCE_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,SRCE,60,FALSE,FALSE,9.218,4.742,0,SRCE_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,3.2
+SRCE_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,SRCE,50,FALSE,FALSE,9.21,1.056,0,SRCE_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,47
+SRCE_nuclear_1,Nuclear,Uranium,SRCE,80,FALSE,FALSE,10.446,2.841,0,SRCE_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,8541.7
+SRCE_petroleum_liquids_1,Petroleum Liquids,Diesel,SRCE,40,FALSE,FALSE,.,5.333,0,SRCE_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,23.4
+SRCE_small_hydroelectric_1,Small Hydroelectric,Water,SRCE,100,FALSE,FALSE,.,0,0,SRCE_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,115.6
+SRCE_solar_photovoltaic_1,Solar Photovoltaic,Solar,SRCE,30,TRUE,FALSE,.,0,0,SRCE_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,1935.7
+SRSE_biomass_1,Biomass,Bio Solid,SRSE,50,FALSE,FALSE,.,6.079,0,SRSE_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,996.5
+SRSE_conventional_hydroelectric_1,Conventional Hydroelectric,Water,SRSE,100,FALSE,FALSE,.,0,0,SRSE_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,3352.4
+SRSE_conventional_steam_coal_1,Conventional Steam Coal,Coal,SRSE,65,FALSE,FALSE,11.552,1.879,0,SRSE_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,6361.5
+SRSE_hydroelectric_pumped_storage_1,Hydroelectric Pumped Storage,Electricity,SRSE,100,FALSE,FALSE,.,0,0,SRSE_hydroelectric_pumped_storage_1,0.05,0.05,0,FALSE,0.749956,1,1,.,.,.,.,Hydro,1896.2
+SRSE_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,SRSE,60,FALSE,FALSE,7.155,3.638,0,SRSE_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,21496.6
+SRSE_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,SRSE,50,FALSE,FALSE,11.676,5.279,0,SRSE_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,12476.2
+SRSE_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,SRSE,60,FALSE,FALSE,8.423,4.333,0,SRSE_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,20.3
+SRSE_nuclear_1,Nuclear,Uranium,SRSE,80,FALSE,FALSE,10.105,2.746,0,SRSE_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,8059
+SRSE_petroleum_liquids_1,Petroleum Liquids,Diesel,SRSE,40,FALSE,FALSE,.,5.038,0,SRSE_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,31.8
+SRSE_small_hydroelectric_1,Small Hydroelectric,Water,SRSE,100,FALSE,FALSE,.,0,0,SRSE_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,12.1
+SRSE_solar_photovoltaic_1,Solar Photovoltaic,Solar,SRSE,30,TRUE,FALSE,.,0,0,SRSE_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,6389.2
+SRSG_biomass_1,Biomass,Bio Solid,SRSG,50,FALSE,FALSE,.,6.604,0,SRSG_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,78.1
+SRSG_conventional_hydroelectric_1,Conventional Hydroelectric,Water,SRSG,100,FALSE,FALSE,.,0,0,SRSG_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,2438.3
+SRSG_conventional_steam_coal_1,Conventional Steam Coal,Coal,SRSG,65,FALSE,FALSE,11.015,1.879,0,SRSG_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,2065
+SRSG_geothermal_1,Geothermal,Heat,SRSG,30,FALSE,FALSE,.,0,0,SRSG_geothermal_1,0.05,0.04,0,FALSE,.,.,1,.,.,.,.,Geothermal,125.2
+SRSG_hydroelectric_pumped_storage_1,Hydroelectric Pumped Storage,Electricity,SRSG,100,FALSE,FALSE,.,0,0,SRSG_hydroelectric_pumped_storage_1,0.05,0.05,0,FALSE,0.749956,1,1,.,.,.,.,Hydro,216.3
+SRSG_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,SRSG,60,FALSE,FALSE,7.93,3.674,0,SRSG_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,11337.6
+SRSG_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,SRSG,50,FALSE,FALSE,10.604,5.279,0,SRSG_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,3595.6
+SRSG_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,SRSG,60,FALSE,FALSE,10.572,5.438,0,SRSG_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,107.2
+SRSG_nuclear_1,Nuclear,Uranium,SRSG,80,FALSE,FALSE,10.446,2.841,0,SRSG_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,4003
+SRSG_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,SRSG,30,TRUE,FALSE,.,0,0,SRSG_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,3312.6
+SRSG_small_hydroelectric_1,Small Hydroelectric,Water,SRSG,100,FALSE,FALSE,.,0,0,SRSG_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,137.6
+SRSG_solar_photovoltaic_1,Solar Photovoltaic,Solar,SRSG,30,TRUE,FALSE,.,0,0,SRSG_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,7020.9
+TRE_biomass_1,Biomass,Bio Solid,TRE,50,FALSE,FALSE,.,6.582,0,TRE_biomass_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Biomass,150.1
+TRE_conventional_hydroelectric_1,Conventional Hydroelectric,Water,TRE,100,FALSE,FALSE,.,0,0,TRE_conventional_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,440.4
+TRE_conventional_steam_coal_1,Conventional Steam Coal,Coal,TRE,65,FALSE,FALSE,11.233,1.879,0,TRE_conventional_steam_coal_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Coal,11290.6
+TRE_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,TRE,60,FALSE,FALSE,7.97,3.727,0,TRE_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,36343.1
+TRE_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,TRE,50,FALSE,FALSE,10.867,5.279,0,TRE_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,7531.6
+TRE_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,TRE,60,FALSE,FALSE,8.729,4.49,0,TRE_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,860.9
+TRE_natural_gas_steam_turbine_1,Natural Gas Steam Turbine,Naturalgas,TRE,50,FALSE,FALSE,11.4,1.056,0,TRE_natural_gas_steam_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,333.9
+TRE_nuclear_1,Nuclear,Uranium,TRE,80,FALSE,FALSE,10.446,2.841,0,TRE_nuclear_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,5120
+TRE_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,TRE,30,TRUE,FALSE,.,0,0,TRE_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,9770.2
+TRE_petroleum_liquids_1,Petroleum Liquids,Diesel,TRE,40,FALSE,FALSE,.,4.91,0,TRE_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,114.1
+TRE_small_hydroelectric_1,Small Hydroelectric,Water,TRE,100,FALSE,FALSE,.,0,0,TRE_small_hydroelectric_1,0.05,0.05,0,FALSE,.,.,1,.,.,.,.,Hydro,9.3
+TRE_solar_photovoltaic_1,Solar Photovoltaic,Solar,TRE,30,TRUE,FALSE,.,0,0,TRE_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,12046.6
+TRE_WEST_natural_gas_fired_combined_cycle_1,Natural Gas Fired Combined Cycle,Naturalgas,TRE_WEST,60,FALSE,FALSE,7.365,3.696,0,TRE_WEST_natural_gas_fired_combined_cycle_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,3590.3
+TRE_WEST_natural_gas_fired_combustion_turbine_1,Natural Gas Fired Combustion Turbine,Naturalgas,TRE_WEST,50,FALSE,FALSE,10.803,5.279,0,TRE_WEST_natural_gas_fired_combustion_turbine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,336
+TRE_WEST_natural_gas_internal_combustion_engine_1,Natural Gas Internal Combustion Engine,Naturalgas,TRE_WEST,60,FALSE,FALSE,8.16,4.198,0,TRE_WEST_natural_gas_internal_combustion_engine_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,9.1
+TRE_WEST_onshore_wind_turbine_1,Onshore Wind Turbine,Wind,TRE_WEST,30,TRUE,FALSE,.,0,0,TRE_WEST_onshore_wind_turbine_1,0,0,0,FALSE,.,.,1,.,.,.,.,Wind,17296.7
+TRE_WEST_petroleum_liquids_1,Petroleum Liquids,Diesel,TRE_WEST,40,FALSE,FALSE,.,4.738,0,TRE_WEST_petroleum_liquids_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Petroleum,54
+TRE_WEST_solar_photovoltaic_1,Solar Photovoltaic,Solar,TRE_WEST,30,TRUE,FALSE,.,0,0,TRE_WEST_solar_photovoltaic_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,7849.8
+BASN_distributed_generation_1,distributed_generation,Solar,BASN,100,TRUE,FALSE,.,0,0,BASN_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,2011
+CANO_distributed_generation_1,distributed_generation,Solar,CANO,100,TRUE,FALSE,.,0,0,CANO_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,6426
+CASO_distributed_generation_1,distributed_generation,Solar,CASO,100,TRUE,FALSE,.,0,0,CASO_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,9999
+FRCC_distributed_generation_1,distributed_generation,Solar,FRCC,100,TRUE,FALSE,.,0,0,FRCC_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,7445
+ISNE_distributed_generation_1,distributed_generation,Solar,ISNE,100,TRUE,FALSE,.,0,0,ISNE_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,5664
+MISC_distributed_generation_1,distributed_generation,Solar,MISC,100,TRUE,FALSE,.,0,0,MISC_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,3144
+MISE_distributed_generation_1,distributed_generation,Solar,MISE,100,TRUE,FALSE,.,0,0,MISE_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,3712
+MISS_distributed_generation_1,distributed_generation,Solar,MISS,100,TRUE,FALSE,.,0,0,MISS_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,4440
+MISW_distributed_generation_1,distributed_generation,Solar,MISW,100,TRUE,FALSE,.,0,0,MISW_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,4681
+NWPP_distributed_generation_1,distributed_generation,Solar,NWPP,100,TRUE,FALSE,.,0,0,NWPP_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,3084
+NYCW_distributed_generation_1,distributed_generation,Solar,NYCW,100,TRUE,FALSE,.,0,0,NYCW_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,1887
+NYUP_distributed_generation_1,distributed_generation,Solar,NYUP,100,TRUE,FALSE,.,0,0,NYUP_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,1400
+PJMC_distributed_generation_1,distributed_generation,Solar,PJMC,100,TRUE,FALSE,.,0,0,PJMC_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,2179
+PJMD_distributed_generation_1,distributed_generation,Solar,PJMD,100,TRUE,FALSE,.,0,0,PJMD_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,3190
+PJME_distributed_generation_1,distributed_generation,Solar,PJME,100,TRUE,FALSE,.,0,0,PJME_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,9784
+PJMW_distributed_generation_1,distributed_generation,Solar,PJMW,100,TRUE,FALSE,.,0,0,PJMW_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,5826
+RMRG_distributed_generation_1,distributed_generation,Solar,RMRG,100,TRUE,FALSE,.,0,0,RMRG_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,1975
+SPPC_distributed_generation_1,distributed_generation,Solar,SPPC,100,TRUE,FALSE,.,0,0,SPPC_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,1078
+SPPN_distributed_generation_1,distributed_generation,Solar,SPPN,100,TRUE,FALSE,.,0,0,SPPN_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,640
+SPPS_distributed_generation_1,distributed_generation,Solar,SPPS,100,TRUE,FALSE,.,0,0,SPPS_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,2719
+SRCA_distributed_generation_1,distributed_generation,Solar,SRCA,100,TRUE,FALSE,.,0,0,SRCA_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,5554
+SRCE_distributed_generation_1,distributed_generation,Solar,SRCE,100,TRUE,FALSE,.,0,0,SRCE_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,2478
+SRSE_distributed_generation_1,distributed_generation,Solar,SRSE,100,TRUE,FALSE,.,0,0,SRSE_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,1994
+SRSG_distributed_generation_1,distributed_generation,Solar,SRSG,100,TRUE,FALSE,.,0,0,SRSG_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,3109
+TRE_distributed_generation_1,distributed_generation,Solar,TRE,100,TRUE,FALSE,.,0,0,TRE_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,8407
+TRE_WEST_distributed_generation_1,distributed_generation,Solar,TRE_WEST,100,TRUE,FALSE,.,0,0,TRE_WEST_distributed_generation_1,0,0,0,FALSE,.,.,1,.,.,.,.,Solar,456
+BASN_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,BASN,40,FALSE,FALSE,7.16,6,0,BASN_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+BASN_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,BASN,40,FALSE,FALSE,6.36,2,0,BASN_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+BASN_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,BASN,50,FALSE,FALSE,9.72,5,0,BASN_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+BASN_battery_moderate_1,Battery_*_Moderate,Electricity,BASN,15,FALSE,FALSE,.,0.15,0,BASN_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+BASN_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,BASN,40,FALSE,FALSE,10.443,2.84,0,BASN_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+BASN_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,BASN,50,FALSE,FALSE,9.72,5,0,BASN_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+BASN_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,BASN,40,FALSE,FALSE,6.36,2,0,BASN_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+CANO_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,CANO,40,FALSE,FALSE,7.16,6,0,CANO_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+CANO_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,CANO,40,FALSE,FALSE,6.36,2,0,CANO_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+CANO_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,CANO,50,FALSE,FALSE,9.72,5,0,CANO_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+CANO_battery_moderate_1,Battery_*_Moderate,Electricity,CANO,15,FALSE,FALSE,.,0.15,0,CANO_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+CANO_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,CANO,40,FALSE,FALSE,10.443,2.84,0,CANO_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+CANO_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,CANO,50,FALSE,FALSE,9.72,5,0,CANO_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+CANO_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,CANO,40,FALSE,FALSE,6.36,2,0,CANO_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+CASO_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,CASO,40,FALSE,FALSE,7.16,6,0,CASO_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+CASO_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,CASO,40,FALSE,FALSE,6.36,2,0,CASO_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+CASO_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,CASO,50,FALSE,FALSE,9.72,5,0,CASO_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+CASO_battery_moderate_1,Battery_*_Moderate,Electricity,CASO,15,FALSE,FALSE,.,0.15,0,CASO_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+CASO_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,CASO,40,FALSE,FALSE,10.443,2.84,0,CASO_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+CASO_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,CASO,50,FALSE,FALSE,9.72,5,0,CASO_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+CASO_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,CASO,40,FALSE,FALSE,6.36,2,0,CASO_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+FRCC_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,FRCC,40,FALSE,FALSE,7.16,6,0,FRCC_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+FRCC_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,FRCC,40,FALSE,FALSE,6.36,2,0,FRCC_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+FRCC_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,FRCC,50,FALSE,FALSE,9.72,5,0,FRCC_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+FRCC_battery_moderate_1,Battery_*_Moderate,Electricity,FRCC,15,FALSE,FALSE,.,0.15,0,FRCC_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+FRCC_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,FRCC,40,FALSE,FALSE,10.443,2.84,0,FRCC_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+FRCC_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,FRCC,50,FALSE,FALSE,9.72,5,0,FRCC_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+FRCC_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,FRCC,40,FALSE,FALSE,6.36,2,0,FRCC_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+ISNE_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,ISNE,40,FALSE,FALSE,7.16,6,0,ISNE_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+ISNE_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,ISNE,40,FALSE,FALSE,6.36,2,0,ISNE_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+ISNE_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,ISNE,50,FALSE,FALSE,9.72,5,0,ISNE_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+ISNE_battery_moderate_1,Battery_*_Moderate,Electricity,ISNE,15,FALSE,FALSE,.,0.15,0,ISNE_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+ISNE_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,ISNE,40,FALSE,FALSE,10.443,2.84,0,ISNE_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+ISNE_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,ISNE,50,FALSE,FALSE,9.72,5,0,ISNE_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+ISNE_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,ISNE,40,FALSE,FALSE,6.36,2,0,ISNE_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+MISC_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,MISC,40,FALSE,FALSE,7.16,6,0,MISC_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+MISC_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,MISC,40,FALSE,FALSE,6.36,2,0,MISC_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+MISC_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,MISC,50,FALSE,FALSE,9.72,5,0,MISC_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+MISC_battery_moderate_1,Battery_*_Moderate,Electricity,MISC,15,FALSE,FALSE,.,0.15,0,MISC_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+MISC_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,MISC,40,FALSE,FALSE,10.443,2.84,0,MISC_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+MISC_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,MISC,50,FALSE,FALSE,9.72,5,0,MISC_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+MISC_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,MISC,40,FALSE,FALSE,6.36,2,0,MISC_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+MISE_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,MISE,40,FALSE,FALSE,7.16,6,0,MISE_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+MISE_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,MISE,40,FALSE,FALSE,6.36,2,0,MISE_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+MISE_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,MISE,50,FALSE,FALSE,9.72,5,0,MISE_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+MISE_battery_moderate_1,Battery_*_Moderate,Electricity,MISE,15,FALSE,FALSE,.,0.15,0,MISE_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+MISE_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,MISE,40,FALSE,FALSE,10.443,2.84,0,MISE_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+MISE_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,MISE,50,FALSE,FALSE,9.72,5,0,MISE_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+MISE_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,MISE,40,FALSE,FALSE,6.36,2,0,MISE_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+MISS_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,MISS,40,FALSE,FALSE,7.16,6,0,MISS_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+MISS_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,MISS,40,FALSE,FALSE,6.36,2,0,MISS_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+MISS_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,MISS,50,FALSE,FALSE,9.72,5,0,MISS_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+MISS_battery_moderate_1,Battery_*_Moderate,Electricity,MISS,15,FALSE,FALSE,.,0.15,0,MISS_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+MISS_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,MISS,40,FALSE,FALSE,10.443,2.84,0,MISS_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+MISS_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,MISS,50,FALSE,FALSE,9.72,5,0,MISS_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+MISS_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,MISS,40,FALSE,FALSE,6.36,2,0,MISS_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+MISW_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,MISW,40,FALSE,FALSE,7.16,6,0,MISW_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+MISW_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,MISW,40,FALSE,FALSE,6.36,2,0,MISW_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+MISW_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,MISW,50,FALSE,FALSE,9.72,5,0,MISW_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+MISW_battery_moderate_1,Battery_*_Moderate,Electricity,MISW,15,FALSE,FALSE,.,0.15,0,MISW_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+MISW_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,MISW,40,FALSE,FALSE,10.443,2.84,0,MISW_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+MISW_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,MISW,50,FALSE,FALSE,9.72,5,0,MISW_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+MISW_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,MISW,40,FALSE,FALSE,6.36,2,0,MISW_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+NWPP_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,NWPP,40,FALSE,FALSE,7.16,6,0,NWPP_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+NWPP_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,NWPP,40,FALSE,FALSE,6.36,2,0,NWPP_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+NWPP_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,NWPP,50,FALSE,FALSE,9.72,5,0,NWPP_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+NWPP_battery_moderate_1,Battery_*_Moderate,Electricity,NWPP,15,FALSE,FALSE,.,0.15,0,NWPP_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+NWPP_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,NWPP,40,FALSE,FALSE,10.443,2.84,0,NWPP_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+NWPP_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,NWPP,50,FALSE,FALSE,9.72,5,0,NWPP_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+NWPP_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,NWPP,40,FALSE,FALSE,6.36,2,0,NWPP_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+NYCW_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,NYCW,40,FALSE,FALSE,7.16,6,0,NYCW_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+NYCW_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,NYCW,40,FALSE,FALSE,6.36,2,0,NYCW_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+NYCW_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,NYCW,50,FALSE,FALSE,9.72,5,0,NYCW_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+NYCW_battery_moderate_1,Battery_*_Moderate,Electricity,NYCW,15,FALSE,FALSE,.,0.15,0,NYCW_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+NYCW_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,NYCW,40,FALSE,FALSE,10.443,2.84,0,NYCW_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+NYCW_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,NYCW,50,FALSE,FALSE,9.72,5,0,NYCW_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+NYCW_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,NYCW,40,FALSE,FALSE,6.36,2,0,NYCW_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+NYUP_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,NYUP,40,FALSE,FALSE,7.16,6,0,NYUP_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+NYUP_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,NYUP,40,FALSE,FALSE,6.36,2,0,NYUP_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+NYUP_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,NYUP,50,FALSE,FALSE,9.72,5,0,NYUP_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+NYUP_battery_moderate_1,Battery_*_Moderate,Electricity,NYUP,15,FALSE,FALSE,.,0.15,0,NYUP_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+NYUP_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,NYUP,40,FALSE,FALSE,10.443,2.84,0,NYUP_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+NYUP_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,NYUP,50,FALSE,FALSE,9.72,5,0,NYUP_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+NYUP_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,NYUP,40,FALSE,FALSE,6.36,2,0,NYUP_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+PJMC_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,PJMC,40,FALSE,FALSE,7.16,6,0,PJMC_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+PJMC_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,PJMC,40,FALSE,FALSE,6.36,2,0,PJMC_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+PJMC_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,PJMC,50,FALSE,FALSE,9.72,5,0,PJMC_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+PJMC_battery_moderate_1,Battery_*_Moderate,Electricity,PJMC,15,FALSE,FALSE,.,0.15,0,PJMC_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+PJMC_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,PJMC,40,FALSE,FALSE,10.443,2.84,0,PJMC_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+PJMC_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,PJMC,50,FALSE,FALSE,9.72,5,0,PJMC_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+PJMC_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,PJMC,40,FALSE,FALSE,6.36,2,0,PJMC_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+PJMD_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,PJMD,40,FALSE,FALSE,7.16,6,0,PJMD_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+PJMD_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,PJMD,40,FALSE,FALSE,6.36,2,0,PJMD_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+PJMD_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,PJMD,50,FALSE,FALSE,9.72,5,0,PJMD_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+PJMD_battery_moderate_1,Battery_*_Moderate,Electricity,PJMD,15,FALSE,FALSE,.,0.15,0,PJMD_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+PJMD_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,PJMD,40,FALSE,FALSE,10.443,2.84,0,PJMD_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+PJMD_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,PJMD,50,FALSE,FALSE,9.72,5,0,PJMD_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+PJMD_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,PJMD,40,FALSE,FALSE,6.36,2,0,PJMD_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+PJME_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,PJME,40,FALSE,FALSE,7.16,6,0,PJME_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+PJME_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,PJME,40,FALSE,FALSE,6.36,2,0,PJME_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+PJME_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,PJME,50,FALSE,FALSE,9.72,5,0,PJME_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+PJME_battery_moderate_1,Battery_*_Moderate,Electricity,PJME,15,FALSE,FALSE,.,0.15,0,PJME_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+PJME_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,PJME,40,FALSE,FALSE,10.443,2.84,0,PJME_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+PJME_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,PJME,50,FALSE,FALSE,9.72,5,0,PJME_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+PJME_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,PJME,40,FALSE,FALSE,6.36,2,0,PJME_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+PJMW_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,PJMW,40,FALSE,FALSE,7.16,6,0,PJMW_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+PJMW_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,PJMW,40,FALSE,FALSE,6.36,2,0,PJMW_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+PJMW_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,PJMW,50,FALSE,FALSE,9.72,5,0,PJMW_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+PJMW_battery_moderate_1,Battery_*_Moderate,Electricity,PJMW,15,FALSE,FALSE,.,0.15,0,PJMW_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+PJMW_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,PJMW,40,FALSE,FALSE,10.443,2.84,0,PJMW_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+PJMW_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,PJMW,50,FALSE,FALSE,9.72,5,0,PJMW_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+PJMW_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,PJMW,40,FALSE,FALSE,6.36,2,0,PJMW_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+RMRG_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,RMRG,40,FALSE,FALSE,7.16,6,0,RMRG_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+RMRG_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,RMRG,40,FALSE,FALSE,6.36,2,0,RMRG_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+RMRG_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,RMRG,50,FALSE,FALSE,9.72,5,0,RMRG_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+RMRG_battery_moderate_1,Battery_*_Moderate,Electricity,RMRG,15,FALSE,FALSE,.,0.15,0,RMRG_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+RMRG_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,RMRG,40,FALSE,FALSE,10.443,2.84,0,RMRG_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+RMRG_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,RMRG,50,FALSE,FALSE,9.72,5,0,RMRG_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+RMRG_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,RMRG,40,FALSE,FALSE,6.36,2,0,RMRG_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+SPPC_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,SPPC,40,FALSE,FALSE,7.16,6,0,SPPC_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SPPC_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,SPPC,40,FALSE,FALSE,6.36,2,0,SPPC_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SPPC_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,SPPC,50,FALSE,FALSE,9.72,5,0,SPPC_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SPPC_battery_moderate_1,Battery_*_Moderate,Electricity,SPPC,15,FALSE,FALSE,.,0.15,0,SPPC_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+SPPC_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,SPPC,40,FALSE,FALSE,10.443,2.84,0,SPPC_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+SPPC_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,SPPC,50,FALSE,FALSE,9.72,5,0,SPPC_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+SPPC_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,SPPC,40,FALSE,FALSE,6.36,2,0,SPPC_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+SPPN_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,SPPN,40,FALSE,FALSE,7.16,6,0,SPPN_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SPPN_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,SPPN,40,FALSE,FALSE,6.36,2,0,SPPN_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SPPN_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,SPPN,50,FALSE,FALSE,9.72,5,0,SPPN_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SPPN_battery_moderate_1,Battery_*_Moderate,Electricity,SPPN,15,FALSE,FALSE,.,0.15,0,SPPN_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+SPPN_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,SPPN,40,FALSE,FALSE,10.443,2.84,0,SPPN_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+SPPN_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,SPPN,50,FALSE,FALSE,9.72,5,0,SPPN_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+SPPN_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,SPPN,40,FALSE,FALSE,6.36,2,0,SPPN_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+SPPS_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,SPPS,40,FALSE,FALSE,7.16,6,0,SPPS_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SPPS_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,SPPS,40,FALSE,FALSE,6.36,2,0,SPPS_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SPPS_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,SPPS,50,FALSE,FALSE,9.72,5,0,SPPS_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SPPS_battery_moderate_1,Battery_*_Moderate,Electricity,SPPS,15,FALSE,FALSE,.,0.15,0,SPPS_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+SPPS_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,SPPS,40,FALSE,FALSE,10.443,2.84,0,SPPS_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+SPPS_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,SPPS,50,FALSE,FALSE,9.72,5,0,SPPS_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+SPPS_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,SPPS,40,FALSE,FALSE,6.36,2,0,SPPS_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+SRCA_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,SRCA,40,FALSE,FALSE,7.16,6,0,SRCA_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SRCA_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,SRCA,40,FALSE,FALSE,6.36,2,0,SRCA_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SRCA_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,SRCA,50,FALSE,FALSE,9.72,5,0,SRCA_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SRCA_battery_moderate_1,Battery_*_Moderate,Electricity,SRCA,15,FALSE,FALSE,.,0.15,0,SRCA_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+SRCA_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,SRCA,40,FALSE,FALSE,10.443,2.84,0,SRCA_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+SRCA_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,SRCA,50,FALSE,FALSE,9.72,5,0,SRCA_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+SRCA_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,SRCA,40,FALSE,FALSE,6.36,2,0,SRCA_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+SRCE_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,SRCE,40,FALSE,FALSE,7.16,6,0,SRCE_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SRCE_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,SRCE,40,FALSE,FALSE,6.36,2,0,SRCE_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SRCE_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,SRCE,50,FALSE,FALSE,9.72,5,0,SRCE_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SRCE_battery_moderate_1,Battery_*_Moderate,Electricity,SRCE,15,FALSE,FALSE,.,0.15,0,SRCE_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+SRCE_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,SRCE,40,FALSE,FALSE,10.443,2.84,0,SRCE_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+SRCE_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,SRCE,50,FALSE,FALSE,9.72,5,0,SRCE_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+SRCE_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,SRCE,40,FALSE,FALSE,6.36,2,0,SRCE_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+SRSE_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,SRSE,40,FALSE,FALSE,7.16,6,0,SRSE_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SRSE_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,SRSE,40,FALSE,FALSE,6.36,2,0,SRSE_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SRSE_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,SRSE,50,FALSE,FALSE,9.72,5,0,SRSE_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SRSE_battery_moderate_1,Battery_*_Moderate,Electricity,SRSE,15,FALSE,FALSE,.,0.15,0,SRSE_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+SRSE_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,SRSE,40,FALSE,FALSE,10.443,2.84,0,SRSE_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+SRSE_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,SRSE,50,FALSE,FALSE,9.72,5,0,SRSE_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+SRSE_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,SRSE,40,FALSE,FALSE,6.36,2,0,SRSE_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+SRSG_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,SRSG,40,FALSE,FALSE,7.16,6,0,SRSG_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SRSG_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,SRSG,40,FALSE,FALSE,6.36,2,0,SRSG_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SRSG_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,SRSG,50,FALSE,FALSE,9.72,5,0,SRSG_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+SRSG_battery_moderate_1,Battery_*_Moderate,Electricity,SRSG,15,FALSE,FALSE,.,0.15,0,SRSG_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+SRSG_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,SRSG,40,FALSE,FALSE,10.443,2.84,0,SRSG_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+SRSG_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,SRSG,50,FALSE,FALSE,9.72,5,0,SRSG_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+SRSG_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,SRSG,40,FALSE,FALSE,6.36,2,0,SRSG_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+TRE_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,TRE,40,FALSE,FALSE,7.16,6,0,TRE_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+TRE_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,TRE,40,FALSE,FALSE,6.36,2,0,TRE_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+TRE_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,TRE,50,FALSE,FALSE,9.72,5,0,TRE_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+TRE_battery_moderate_1,Battery_*_Moderate,Electricity,TRE,15,FALSE,FALSE,.,0.15,0,TRE_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+TRE_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,TRE,40,FALSE,FALSE,10.443,2.84,0,TRE_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+TRE_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,TRE,50,FALSE,FALSE,9.72,5,0,TRE_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+TRE_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,TRE,40,FALSE,FALSE,6.36,2,0,TRE_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+TRE_WEST_naturalgas_ccccsavgcf_conservative_1,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas,TRE_WEST,40,FALSE,FALSE,7.16,6,0,TRE_WEST_naturalgas_ccccsavgcf_conservative_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+TRE_WEST_naturalgas_ccavgcf_moderate_1,NaturalGas_CCAvgCF_Moderate,Naturalgas,TRE_WEST,40,FALSE,FALSE,6.36,2,0,TRE_WEST_naturalgas_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+TRE_WEST_naturalgas_ctavgcf_moderate_1,NaturalGas_CTAvgCF_Moderate,Naturalgas,TRE_WEST,50,FALSE,FALSE,9.72,5,0,TRE_WEST_naturalgas_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Naturalgas,.
+TRE_WEST_battery_moderate_1,Battery_*_Moderate,Electricity,TRE_WEST,15,FALSE,FALSE,.,0.15,0,TRE_WEST_battery_moderate_1,0.01,0.02,0,FALSE,0.8464,1,1,.,.,.,.,Storage,.
+TRE_WEST_nuclear_nuclear_moderate_1,Nuclear_Nuclear_Moderate,Uranium,TRE_WEST,40,FALSE,FALSE,10.443,2.84,0,TRE_WEST_nuclear_nuclear_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Nuclear,.
+TRE_WEST_hydrogen_ctavgcf_moderate_1,Hydrogen_CTAvgCF_Moderate,Hydrogen,TRE_WEST,50,FALSE,FALSE,9.72,5,0,TRE_WEST_hydrogen_ctavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.
+TRE_WEST_hydrogen_ccavgcf_moderate_1,Hydrogen_CCAvgCF_Moderate,Hydrogen,TRE_WEST,40,FALSE,FALSE,6.36,2,0,TRE_WEST_hydrogen_ccavgcf_moderate_1,0.06,0.04,0,FALSE,.,.,1,.,.,.,.,Hydrogen,.

@@ -1,0 +1,25 @@
+map_name,gen_type,gen_tech,energy_source
+default,Storage,Batteries,Electricity
+default,Biomass,Biomass,Bio Solid
+default,Hydro,Conventional Hydroelectric,Water
+default,Coal,Conventional Steam Coal,Coal
+default,Geothermal,Geothermal,Heat
+default,Naturalgas,Natural Gas Fired Combined Cycle,Naturalgas
+default,Naturalgas,Natural Gas Fired Combustion Turbine,Naturalgas
+default,Naturalgas,Natural Gas Internal Combustion Engine,Naturalgas
+default,Naturalgas,Natural Gas Steam Turbine,Naturalgas
+default,Wind,Onshore Wind Turbine,Wind
+default,Petroleum,Petroleum Liquids,Diesel
+default,Hydro,Small Hydroelectric,Water
+default,Solar,Solar Photovoltaic,Solar
+default,Hydro,Hydroelectric Pumped Storage,Electricity
+default,Nuclear,Nuclear,Uranium
+default,Wind,Offshore Wind Turbine,Wind
+default,Solar,distributed_generation,Solar
+default,Naturalgas,NaturalGas_CCCCSAvgCF_Conservative,Naturalgas
+default,Naturalgas,NaturalGas_CCAvgCF_Moderate,Naturalgas
+default,Naturalgas,NaturalGas_CTAvgCF_Moderate,Naturalgas
+default,Storage,Battery_*_Moderate,Electricity
+default,Nuclear,Nuclear_Nuclear_Moderate,Uranium
+default,Hydrogen,Hydrogen_CTAvgCF_Moderate,Hydrogen
+default,Hydrogen,Hydrogen_CCAvgCF_Moderate,Hydrogen
