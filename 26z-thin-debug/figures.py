@@ -59,15 +59,31 @@ def load_data(fn: str) -> pd.DataFrame:
     for f in data_path.rglob(fn):
         _df = pd.read_csv(f)
         df_list.append(_df)
-    df = pd.concat(df_list)
+    df = pd.concat(df_list, ignore_index=True)
     if "resource_name" in df.columns:
         df.loc[df["resource_name"].str.contains("ccs"), "tech_type"] = "CCS"
     if "line_name" in df.columns:
-        df["line_name"] = df["line_name"].str.replace(
-            "Eastern_to_ERCOT", "ERCOT_to_Eastern"
-        )
+        df = fix_tx_line_names(df)
     if "zone" in df.columns:
         df["agg_zone"] = df["zone"].map(rev_region_map)
+
+    return df
+
+
+def reverse_line_name(s: str) -> str:
+    segments = s.split("_to_")
+    return segments[-1] + "_to_" + segments[0]
+
+
+def fix_tx_line_names(df: pd.DataFrame) -> pd.DataFrame:
+    line_count = tx.groupby("line_name", as_index=False)["model"].count()
+    median_count = line_count["model"].median()
+    reversed_lines = line_count.query("model < @median_count")
+
+    for idx, row in reversed_lines.iterrows():
+        df["line_name"] = df["line_name"].str.replace(
+            row["line_name"], reverse_line_name(row["line_name"])
+        )
 
     return df
 
@@ -351,7 +367,40 @@ chart = alt.vconcat(*all_figs)
 chart.save(f"{str(fig_num).zfill(2)} - transmission expansion map across models.png")
 # chart
 
+
 # %%
+for year, _df in tx_exp.groupby("planning_year"):
+    fig_num += 1
+    chart = (
+        alt.Chart(_df, title=f"Transmission expansion {str(year)}")
+        .mark_bar()
+        .encode(
+            # xOffset="model:N",
+            x="model",
+            y=alt.Y("value").title("Transmission expansion (MW)"),
+            color="model:N",
+            facet=alt.Facet("line_name", columns=10),
+        )
+    )
+
+    chart.save(f"{str(fig_num).zfill(2)} - {year} transmission expansion bar chart.png")
+
+# %%
+fig_num += 1
+
+chart = (
+    alt.Chart(tx_exp)
+    .mark_bar()
+    .encode(
+        # xOffset="model:N",
+        x="model",
+        y=alt.Y("sum(value)").title("Total transmission expansion (MW)"),
+        color="model:N",
+        facet=alt.Facet("line_name", columns=10),
+    )
+)
+
+chart.save(f"{str(fig_num).zfill(2)} - total transmission expansion bar chart.png")
 
 
 # %% [markdown]
