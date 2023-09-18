@@ -6,7 +6,7 @@ GenX,BASN,BASN_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,BASN,BASN_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,28.7,28.7
 GenX,BASN,BASN_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2566.3,2566.3
 GenX,BASN,BASN_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3000.2,3000.2
-GenX,BASN,BASN_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1642.0,1642.0
+GenX,BASN,BASN_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1642.0,1642.0
 GenX,BASN,BASN_geothermal_1,Geothermal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,432.9,432.9
 GenX,BASN,BASN_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0009619560085187
 GenX,BASN,BASN_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0011022890402295
@@ -31,7 +31,7 @@ GenX,CANO,CANO_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,CANO,CANO_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,0.0,0.0050349545057456
 GenX,CANO,CANO_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,219.3,219.3
 GenX,CANO,CANO_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,6973.5,6973.5
-GenX,CANO,CANO_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5329.0,5329.0
+GenX,CANO,CANO_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5329.0,5329.0
 GenX,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2276.9,2276.9
 GenX,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,35292.0,35292.0
 GenX,CANO,CANO_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0007392797182179
@@ -63,7 +63,7 @@ GenX,CASO,CASO_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,CASO,CASO_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,129.6,129.6
 GenX,CASO,CASO_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,971.0,971.0
 GenX,CASO,CASO_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,50.0,50.0
-GenX,CASO,CASO_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,8292.0,8292.0
+GenX,CASO,CASO_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,8292.0,8292.0
 GenX,CASO,CASO_geothermal_1,Geothermal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,23.6,23.6
 GenX,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1665.0,1665.0
 GenX,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,25807.5,25807.5
@@ -96,7 +96,7 @@ GenX,FRCC,FRCC_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,FRCC,FRCC_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,189.4,189.4
 GenX,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,43.5,43.5
 GenX,FRCC,FRCC_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4867.0,4867.0
-GenX,FRCC,FRCC_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5592.0,5592.0
+GenX,FRCC,FRCC_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5592.0,5592.0
 GenX,FRCC,FRCC_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0009436173382423
 GenX,FRCC,FRCC_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0011022232093265
 GenX,FRCC,FRCC_landbasedwind_class3_moderate_1,Wind,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,9998.795314160065
@@ -125,7 +125,7 @@ GenX,ISNE,ISNE_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,ISNE,ISNE_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,158.4,158.4
 GenX,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,592.8,592.8
 GenX,ISNE,ISNE_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,330.0,330.0
-GenX,ISNE,ISNE_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5017.0,5017.0
+GenX,ISNE,ISNE_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5017.0,5017.0
 GenX,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1768.0,1768.0
 GenX,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,27404.0,27404.0
 GenX,ISNE,ISNE_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0010627294157954
@@ -162,7 +162,7 @@ GenX,MISC,MISC_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,MISC,MISC_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,79.4,79.4
 GenX,MISC,MISC_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,448.6,448.6
 GenX,MISC,MISC_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,14602.8,14602.8
-GenX,MISC,MISC_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1486.0,1486.0
+GenX,MISC,MISC_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1486.0,1486.0
 GenX,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,471.0,471.0
 GenX,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,7300.5,7300.5
 GenX,MISC,MISC_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0009535345824885
@@ -191,7 +191,7 @@ GenX,MISE,MISE_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,MISE,MISE_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,119.1,119.1
 GenX,MISE,MISE_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,32.4,32.4
 GenX,MISE,MISE_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3148.3,3148.3
-GenX,MISE,MISE_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1565.0,1565.0
+GenX,MISE,MISE_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1565.0,1565.0
 GenX,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2047.0,2047.0
 GenX,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,31728.5,31728.5
 GenX,MISE,MISE_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0009311567683979
@@ -220,7 +220,7 @@ GenX,MISS,MISS_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,MISS,MISS_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,80.9,80.9
 GenX,MISS,MISS_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,583.1,583.1
 GenX,MISS,MISS_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,6111.1,6111.1
-GenX,MISS,MISS_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3255.0,3255.0
+GenX,MISS,MISS_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3255.0,3255.0
 GenX,MISS,MISS_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0009499882782793
 GenX,MISS,MISS_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0010662483786187
 GenX,MISS,MISS_landbasedwind_class3_moderate_1,Wind,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,13825.195106658197
@@ -251,7 +251,7 @@ GenX,MISW,MISW_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,MISW,MISW_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,101.5,101.5
 GenX,MISW,MISW_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,99.0,99.0
 GenX,MISW,MISW_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,11041.6,11041.6
-GenX,MISW,MISW_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2762.0,2762.0
+GenX,MISW,MISW_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2762.0,2762.0
 GenX,MISW,MISW_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0010344962198241
 GenX,MISW,MISW_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0010052786547048
 GenX,MISW,MISW_landbasedwind_class3_moderate_1,Wind,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,30823.03570752541
@@ -278,7 +278,7 @@ GenX,NWPP,NWPP_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,NWPP,NWPP_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,122.6,122.6
 GenX,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,31532.0,31532.0
 GenX,NWPP,NWPP_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1629.0,1629.0
-GenX,NWPP,NWPP_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2187.0,2187.0
+GenX,NWPP,NWPP_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2187.0,2187.0
 GenX,NWPP,NWPP_geothermal_1,Geothermal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,21.6,21.6
 GenX,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,314.0,314.0
 GenX,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,4867.0,4867.0
@@ -310,7 +310,7 @@ GenX,NYCW,NYCW_batteries_1,Battery,2030,debug_full_scenarios_wacc_5_no_ramp_cap/
 GenX,NYCW,NYCW_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.003797795033297
 GenX,NYCW,NYCW_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,0.0,0.0075198410998165
 GenX,NYCW,NYCW_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,11.5,11.5
-GenX,NYCW,NYCW_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1466.0,1466.0
+GenX,NYCW,NYCW_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1466.0,1466.0
 GenX,NYCW,NYCW_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.000576460535799
 GenX,NYCW,NYCW_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0006118603513389
 GenX,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4245.0,4245.0
@@ -337,7 +337,7 @@ GenX,NYUP,NYUP_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,NYUP,NYUP_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,0.0,0.0071634494151777
 GenX,NYUP,NYUP_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,128.1,128.1
 GenX,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3442.8,3442.8
-GenX,NYUP,NYUP_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1088.0,1088.0
+GenX,NYUP,NYUP_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1088.0,1088.0
 GenX,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1405.1,1405.1
 GenX,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,21779.0,21779.0
 GenX,NYUP,NYUP_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.000804269492091
@@ -365,7 +365,7 @@ GenX,PJMC,PJMC_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,PJMC,PJMC_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,26.8,26.8
 GenX,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,10.4,10.4
 GenX,PJMC,PJMC_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1580.4,1580.4
-GenX,PJMC,PJMC_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1903.0,1903.0
+GenX,PJMC,PJMC_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1903.0,1903.0
 GenX,PJMC,PJMC_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.000838796808726
 GenX,PJMC,PJMC_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0008707556827465
 GenX,PJMC,PJMC_landbasedwind_class3_moderate_1,Wind,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0548635186192454
@@ -392,7 +392,7 @@ GenX,PJMD,PJMD_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,PJMD,PJMD_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,63.2,63.2
 GenX,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,613.1,613.1
 GenX,PJMD,PJMD_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,913.5,913.5
-GenX,PJMD,PJMD_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2051.0,2051.0
+GenX,PJMD,PJMD_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2051.0,2051.0
 GenX,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3003.0,3003.0
 GenX,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,46546.5,46546.5
 GenX,PJMD,PJMD_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0008837513432407
@@ -426,7 +426,7 @@ GenX,PJME,PJME_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,PJME,PJME_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,207.1,207.1
 GenX,PJME,PJME_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,811.5,811.5
 GenX,PJME,PJME_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,9521.2,9521.2
-GenX,PJME,PJME_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,9275.0,9275.0
+GenX,PJME,PJME_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,9275.0,9275.0
 GenX,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1972.0,1972.0
 GenX,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,30566.0,30566.0
 GenX,PJME,PJME_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0008349975493612
@@ -462,7 +462,7 @@ GenX,PJMW,PJMW_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,PJMW,PJMW_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,25.8,25.8
 GenX,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,832.8,832.8
 GenX,PJMW,PJMW_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,17777.7,17777.7
-GenX,PJMW,PJMW_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2804.0,2804.0
+GenX,PJMW,PJMW_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2804.0,2804.0
 GenX,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,238.0,238.0
 GenX,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,3689.0,3689.0
 GenX,PJMW,PJMW_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0009699740161905
@@ -491,7 +491,7 @@ GenX,RMRG,RMRG_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,RMRG,RMRG_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,9.6,9.6
 GenX,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,707.3,707.3
 GenX,RMRG,RMRG_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,6781.0,6781.0
-GenX,RMRG,RMRG_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1386.0,1386.0
+GenX,RMRG,RMRG_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1386.0,1386.0
 GenX,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,580.8,580.8
 GenX,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,9002.4,9002.4
 GenX,RMRG,RMRG_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0010705335490977
@@ -519,7 +519,7 @@ GenX,SPPC,SPPC_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,SPPC,SPPC_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,11.8,11.8
 GenX,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,52.0,52.0
 GenX,SPPC,SPPC_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,7013.3,7013.3
-GenX,SPPC,SPPC_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,382.0,382.0
+GenX,SPPC,SPPC_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,382.0,382.0
 GenX,SPPC,SPPC_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0009589409025459
 GenX,SPPC,SPPC_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0010550125641514
 GenX,SPPC,SPPC_landbasedwind_class3_moderate_1,Wind,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,13782.519276950534
@@ -546,7 +546,7 @@ GenX,SPPN,SPPN_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,SPPN,SPPN_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,23.3,23.3
 GenX,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2510.0,2510.0
 GenX,SPPN,SPPN_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5016.0,5016.0
-GenX,SPPN,SPPN_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,339.0,339.0
+GenX,SPPN,SPPN_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,339.0,339.0
 GenX,SPPN,SPPN_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0010325067558042
 GenX,SPPN,SPPN_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0011020809978846
 GenX,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0060522811757485
@@ -573,7 +573,7 @@ GenX,SPPS,SPPS_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,SPPS,SPPS_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,13.8,13.8
 GenX,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2016.3,2016.3
 GenX,SPPS,SPPS_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,6724.0,6724.0
-GenX,SPPS,SPPS_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1620.0,1620.0
+GenX,SPPS,SPPS_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1620.0,1620.0
 GenX,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,474.0,474.0
 GenX,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,7347.0,7347.0
 GenX,SPPS,SPPS_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0009858055098244
@@ -601,7 +601,7 @@ GenX,SRCA,SRCA_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,SRCA,SRCA_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,115.9,115.9
 GenX,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1222.4,1222.4
 GenX,SRCA,SRCA_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,11991.0,11991.0
-GenX,SRCA,SRCA_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3265.0,3265.0
+GenX,SRCA,SRCA_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3265.0,3265.0
 GenX,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2796.0,2796.0
 GenX,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,43338.0,43338.0
 GenX,SRCA,SRCA_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0010230393397126
@@ -634,7 +634,7 @@ GenX,SRCE,SRCE_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,SRCE,SRCE_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,35.3,35.3
 GenX,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4439.3,4439.3
 GenX,SRCE,SRCE_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,7684.8,7684.8
-GenX,SRCE,SRCE_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,823.0,823.0
+GenX,SRCE,SRCE_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,823.0,823.0
 GenX,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1683.8,1683.8
 GenX,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,26098.9,26098.9
 GenX,SRCE,SRCE_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0009793558396351
@@ -663,7 +663,7 @@ GenX,SRSE,SRSE_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,SRSE,SRSE_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,276.0,276.0
 GenX,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3430.3,3430.3
 GenX,SRSE,SRSE_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,12318.0,12318.0
-GenX,SRSE,SRSE_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,866.0,866.0
+GenX,SRSE,SRSE_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,866.0,866.0
 GenX,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1896.2,1896.2
 GenX,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,29391.1,29391.1
 GenX,SRSE,SRSE_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.000967595494597
@@ -695,7 +695,7 @@ GenX,SRSG,SRSG_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ra
 GenX,SRSG,SRSG_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,35.4,35.4
 GenX,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2765.5,2765.5
 GenX,SRSG,SRSG_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4367.0,4367.0
-GenX,SRSG,SRSG_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2531.0,2531.0
+GenX,SRSG,SRSG_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2531.0,2531.0
 GenX,SRSG,SRSG_geothermal_1,Geothermal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,142.2,142.2
 GenX,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,216.3,216.3
 GenX,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,3352.6,3352.6
@@ -721,7 +721,7 @@ GenX,TRE_WEST,TRE_WEST_batteries_1,Battery,2030,debug_full_scenarios_wacc_5_no_r
 GenX,TRE_WEST,TRE_WEST_batteries_1,Battery,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,3481.3,3481.3
 GenX,TRE_WEST,TRE_WEST_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0041521671018914
 GenX,TRE_WEST,TRE_WEST_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,0.0,0.0074706612566977
-GenX,TRE_WEST,TRE_WEST_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,300.0,300.0
+GenX,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,300.0,300.0
 GenX,TRE_WEST,TRE_WEST_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0010211291728776
 GenX,TRE_WEST,TRE_WEST_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0011800225919331
 GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_1,Wind,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0045328211324536
@@ -745,7 +745,7 @@ GenX,TRE,TRE_battery_moderate_0,Battery,2030,debug_full_scenarios_wacc_5_no_ramp
 GenX,TRE,TRE_biomass_1,Biomass,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,29.2,29.2
 GenX,TRE,TRE_conventional_hydroelectric_1,Hydro,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,479.4,479.4
 GenX,TRE,TRE_conventional_steam_coal_1,Coal,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,11290.6,11290.6
-GenX,TRE,TRE_distributed_generation_1,Other,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5518.0,5518.0
+GenX,TRE,TRE_distributed_generation_1,Distributed Solar,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5518.0,5518.0
 GenX,TRE,TRE_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0010328069908367
 GenX,TRE,TRE_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,0.0011412802309905
 GenX,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2030,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0,102939.82539011315
@@ -774,7 +774,7 @@ GenX,BASN,BASN_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,BASN,BASN_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,24.7,24.7
 GenX,BASN,BASN_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1773.8,1773.8
 GenX,BASN,BASN_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2092.2,2092.2
-GenX,BASN,BASN_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2011.0,2011.0
+GenX,BASN,BASN_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2011.0,2011.0
 GenX,BASN,BASN_geothermal_1,Geothermal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,287.4,287.4
 GenX,BASN,BASN_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0001352519902975,0.0082039480979594
 GenX,BASN,BASN_hydrogen_ctavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,7.569783699591167e-05,0.0051714013208456
@@ -797,7 +797,7 @@ GenX,CANO,CANO_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,CANO,CANO_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,0.0016008179227265,0.0984951203298019
 GenX,CANO,CANO_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,67.7,67.7
 GenX,CANO,CANO_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,6904.5,6904.5
-GenX,CANO,CANO_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,6426.0,6426.0
+GenX,CANO,CANO_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,6426.0,6426.0
 GenX,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2276.9,2276.9
 GenX,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,35292.0,35292.0
 GenX,CANO,CANO_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0001221861783105,0.0047642282086509
@@ -829,7 +829,7 @@ GenX,CASO,CASO_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,CASO,CASO_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,94.1,94.1
 GenX,CASO,CASO_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,955.0,955.0
 GenX,CASO,CASO_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,50.0,50.0
-GenX,CASO,CASO_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,9999.0,9999.0
+GenX,CASO,CASO_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,9999.0,9999.0
 GenX,CASO,CASO_geothermal_1,Geothermal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,23.6,23.6
 GenX,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1665.0,1665.0
 GenX,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,25807.5,25807.5
@@ -859,7 +859,7 @@ GenX,FRCC,FRCC_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,FRCC,FRCC_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,134.8,134.8
 GenX,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,43.5,43.5
 GenX,FRCC,FRCC_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4281.0,4281.0
-GenX,FRCC,FRCC_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,7445.0,7445.0
+GenX,FRCC,FRCC_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,7445.0,7445.0
 GenX,FRCC,FRCC_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0001539598756658,0.005049921098275
 GenX,FRCC,FRCC_hydrogen_ctavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,8.117557468955066e-05,0.0048269692096748
 GenX,FRCC,FRCC_landbasedwind_class3_moderate_1,Wind,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2492.412857855704,9998.799187142684
@@ -885,7 +885,7 @@ GenX,ISNE,ISNE_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,ISNE,ISNE_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,2211.260676269022,33957.33497652308
 GenX,ISNE,ISNE_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,57.4,57.4
 GenX,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,516.1,516.1
-GenX,ISNE,ISNE_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5664.0,5664.0
+GenX,ISNE,ISNE_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5664.0,5664.0
 GenX,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1768.0,1768.0
 GenX,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,27404.0,27404.0
 GenX,ISNE,ISNE_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0002057948213478,0.0169146373943239
@@ -920,7 +920,7 @@ GenX,MISC,MISC_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,MISC,MISC_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,77.0,77.0
 GenX,MISC,MISC_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,276.6,276.6
 GenX,MISC,MISC_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,7486.7,7486.7
-GenX,MISC,MISC_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3144.0,3144.0
+GenX,MISC,MISC_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3144.0,3144.0
 GenX,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,471.0,471.0
 GenX,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,7300.5,7300.5
 GenX,MISC,MISC_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.000126021260893,0.0059277166501386
@@ -946,7 +946,7 @@ GenX,MISE,MISE_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,MISE,MISE_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,0.0045251156386476,1.3409231065626863
 GenX,MISE,MISE_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,80.1,80.1
 GenX,MISE,MISE_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,62.3,62.3
-GenX,MISE,MISE_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3712.0,3712.0
+GenX,MISE,MISE_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3712.0,3712.0
 GenX,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2047.0,2047.0
 GenX,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,31728.5,31728.5
 GenX,MISE,MISE_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0001391538148933,0.0059196900693895
@@ -973,7 +973,7 @@ GenX,MISS,MISS_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,MISS,MISS_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,42.8,42.8
 GenX,MISS,MISS_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,521.4,521.4
 GenX,MISS,MISS_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,6111.1,6111.1
-GenX,MISS,MISS_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4440.0,4440.0
+GenX,MISS,MISS_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4440.0,4440.0
 GenX,MISS,MISS_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.000126067643271,0.0060223674136524
 GenX,MISS,MISS_hydrogen_ctavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,7.390776707146922e-05,0.0047817752931172
 GenX,MISS,MISS_landbasedwind_class3_moderate_1,Wind,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.001605436251787,13825.19014945769
@@ -1002,7 +1002,7 @@ GenX,MISW,MISW_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,MISW,MISW_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,78.8,78.8
 GenX,MISW,MISW_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,82.0,82.0
 GenX,MISW,MISW_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,8386.8,8386.8
-GenX,MISW,MISW_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4681.0,4681.0
+GenX,MISW,MISW_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4681.0,4681.0
 GenX,MISW,MISW_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0001321750228974,0.0066106173461293
 GenX,MISW,MISW_hydrogen_ctavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,7.451235320251406e-05,0.0048846241719664
 GenX,MISW,MISW_landbasedwind_class3_moderate_1,Wind,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3013.1510345137185,41421.49267092036
@@ -1027,7 +1027,7 @@ GenX,NWPP,NWPP_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,NWPP,NWPP_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,78.5,78.5
 GenX,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,31006.8,31006.8
 GenX,NWPP,NWPP_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1629.0,1629.0
-GenX,NWPP,NWPP_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3084.0,3084.0
+GenX,NWPP,NWPP_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3084.0,3084.0
 GenX,NWPP,NWPP_geothermal_1,Geothermal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,21.6,21.6
 GenX,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,314.0,314.0
 GenX,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,4867.0,4867.0
@@ -1057,7 +1057,7 @@ GenX,NWPP,NWPP_utilitypv_class1_moderate_2,Solar,2040,debug_full_scenarios_wacc_
 GenX,NYCW,NYCW_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0013280304104319,0.0458258023613362
 GenX,NYCW,NYCW_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,0.002975395908832,0.1580218694770338
 GenX,NYCW,NYCW_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1.3,1.3
-GenX,NYCW,NYCW_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1887.0,1887.0
+GenX,NYCW,NYCW_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1887.0,1887.0
 GenX,NYCW,NYCW_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0001278704844733,0.0041812784675497
 GenX,NYCW,NYCW_hydrogen_ctavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,7.311242481791139e-05,0.0030341577318911
 GenX,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4245.0,4245.0
@@ -1082,7 +1082,7 @@ GenX,NYUP,NYUP_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,NYUP,NYUP_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,0.0025968351189029,0.1100024242786497
 GenX,NYUP,NYUP_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,59.1,59.1
 GenX,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3442.8,3442.8
-GenX,NYUP,NYUP_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1400.0,1400.0
+GenX,NYUP,NYUP_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1400.0,1400.0
 GenX,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1405.1,1405.1
 GenX,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,21779.0,21779.0
 GenX,NYUP,NYUP_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0001293689683193,0.0053821041043109
@@ -1108,7 +1108,7 @@ GenX,PJMC,PJMC_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,PJMC,PJMC_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,10.5,10.5
 GenX,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,10.4,10.4
 GenX,PJMC,PJMC_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,42.4,42.4
-GenX,PJMC,PJMC_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2179.0,2179.0
+GenX,PJMC,PJMC_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2179.0,2179.0
 GenX,PJMC,PJMC_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0001199636914009,0.0048859665277441
 GenX,PJMC,PJMC_hydrogen_ctavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,7.204027003534832e-05,0.0040618765221245
 GenX,PJMC,PJMC_landbasedwind_class3_moderate_1,Wind,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0006196752608336,10424.418926751712
@@ -1133,7 +1133,7 @@ GenX,PJMD,PJMD_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,PJMD,PJMD_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,52.1,52.1
 GenX,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,613.1,613.1
 GenX,PJMD,PJMD_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,913.5,913.5
-GenX,PJMD,PJMD_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3190.0,3190.0
+GenX,PJMD,PJMD_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3190.0,3190.0
 GenX,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3003.0,3003.0
 GenX,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,46546.5,46546.5
 GenX,PJMD,PJMD_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0001293042106583,0.0060341085962103
@@ -1165,7 +1165,7 @@ GenX,PJME,PJME_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,PJME,PJME_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,99.6,99.6
 GenX,PJME,PJME_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,579.1,579.1
 GenX,PJME,PJME_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3062.5,3062.5
-GenX,PJME,PJME_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,9784.0,9784.0
+GenX,PJME,PJME_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,9784.0,9784.0
 GenX,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1972.0,1972.0
 GenX,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,30566.0,30566.0
 GenX,PJME,PJME_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0001333619675522,0.0058374491069408
@@ -1199,7 +1199,7 @@ GenX,PJMW,PJMW_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,PJMW,PJMW_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,25.1,25.1
 GenX,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,626.0,626.0
 GenX,PJMW,PJMW_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5526.5,5526.5
-GenX,PJMW,PJMW_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5826.0,5826.0
+GenX,PJMW,PJMW_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5826.0,5826.0
 GenX,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,238.0,238.0
 GenX,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,3689.0,3689.0
 GenX,PJMW,PJMW_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.000127830489347,0.0055238991269697
@@ -1226,7 +1226,7 @@ GenX,RMRG,RMRG_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,RMRG,RMRG_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,8.1,8.1
 GenX,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,655.7,655.7
 GenX,RMRG,RMRG_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5135.0,5135.0
-GenX,RMRG,RMRG_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1975.0,1975.0
+GenX,RMRG,RMRG_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1975.0,1975.0
 GenX,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,580.8,580.8
 GenX,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,9002.4,9002.4
 GenX,RMRG,RMRG_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0001202365371063,0.0069401679662165
@@ -1251,7 +1251,7 @@ GenX,SPPC,SPPC_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,SPPC,SPPC_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,11.8,11.8
 GenX,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,52.0,52.0
 GenX,SPPC,SPPC_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5317.5,5317.5
-GenX,SPPC,SPPC_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1078.0,1078.0
+GenX,SPPC,SPPC_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1078.0,1078.0
 GenX,SPPC,SPPC_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.000120211319907,0.0059433781590353
 GenX,SPPC,SPPC_hydrogen_ctavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,7.211716275697146e-05,0.0048900927581145
 GenX,SPPC,SPPC_landbasedwind_class3_moderate_1,Wind,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0033609813745144,27940.880776294183
@@ -1276,7 +1276,7 @@ GenX,SPPN,SPPN_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,SPPN,SPPN_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,20.9,20.9
 GenX,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2465.0,2465.0
 GenX,SPPN,SPPN_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4175.2,4175.2
-GenX,SPPN,SPPN_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,640.0,640.0
+GenX,SPPN,SPPN_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,640.0,640.0
 GenX,SPPN,SPPN_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0001207040408637,0.0065476192942715
 GenX,SPPN,SPPN_hydrogen_ctavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,7.212071110087285e-05,0.005129364474458
 GenX,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0005779881077713,0.0181706868158056
@@ -1301,7 +1301,7 @@ GenX,SPPS,SPPS_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,SPPS,SPPS_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,13.0,13.0
 GenX,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1931.8,1931.8
 GenX,SPPS,SPPS_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4639.0,4639.0
-GenX,SPPS,SPPS_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2719.0,2719.0
+GenX,SPPS,SPPS_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2719.0,2719.0
 GenX,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,474.0,474.0
 GenX,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,7347.0,7347.0
 GenX,SPPS,SPPS_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0001176931631592,0.0057856158493139
@@ -1326,7 +1326,7 @@ GenX,SRCA,SRCA_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,SRCA,SRCA_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,67.8,67.8
 GenX,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1222.4,1222.4
 GenX,SRCA,SRCA_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4648.0,4648.0
-GenX,SRCA,SRCA_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5554.0,5554.0
+GenX,SRCA,SRCA_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5554.0,5554.0
 GenX,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2796.0,2796.0
 GenX,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,43338.0,43338.0
 GenX,SRCA,SRCA_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0001281501203415,0.0068706298086598
@@ -1357,7 +1357,7 @@ GenX,SRCE,SRCE_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,SRCE,SRCE_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,8.0,8.0
 GenX,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3887.2,3887.2
 GenX,SRCE,SRCE_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4083.0,4083.0
-GenX,SRCE,SRCE_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2478.0,2478.0
+GenX,SRCE,SRCE_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2478.0,2478.0
 GenX,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1683.8,1683.8
 GenX,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,26098.9,26098.9
 GenX,SRCE,SRCE_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0001293338893836,0.0059457058447625
@@ -1383,7 +1383,7 @@ GenX,SRSE,SRSE_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,SRSE,SRSE_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,197.2,197.2
 GenX,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3352.4,3352.4
 GenX,SRSE,SRSE_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,6361.5,6361.5
-GenX,SRSE,SRSE_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1994.0,1994.0
+GenX,SRSE,SRSE_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1994.0,1994.0
 GenX,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1896.2,1896.2
 GenX,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,29391.1,29391.1
 GenX,SRSE,SRSE_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0001336787608003,0.0057274101161184
@@ -1412,7 +1412,7 @@ GenX,SRSG,SRSG_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ra
 GenX,SRSG,SRSG_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,28.9,28.9
 GenX,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2438.3,2438.3
 GenX,SRSG,SRSG_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2065.0,2065.0
-GenX,SRSG,SRSG_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3109.0,3109.0
+GenX,SRSG,SRSG_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3109.0,3109.0
 GenX,SRSG,SRSG_geothermal_1,Geothermal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,65.3,65.3
 GenX,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,216.3,216.3
 GenX,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,3352.6,3352.6
@@ -1435,7 +1435,7 @@ GenX,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2040,debug_full_scenarios_wacc_
 GenX,SRSG,SRSG_utilitypv_class1_moderate_2,Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0006026631604672,0.0072382306329158
 GenX,TRE_WEST,TRE_WEST_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0011628882859055,0.0352784854326448
 GenX,TRE_WEST,TRE_WEST_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,0.0023276056509656,0.1062959652245955
-GenX,TRE_WEST,TRE_WEST_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,456.0,456.0
+GenX,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,456.0,456.0
 GenX,TRE_WEST,TRE_WEST_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0001192457684552,0.0061335833087179
 GenX,TRE_WEST,TRE_WEST_hydrogen_ctavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,7.311847296961448e-05,0.0053381522162799
 GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_1,Wind,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0007541403368584,404.0247661108842
@@ -1457,7 +1457,7 @@ GenX,TRE,TRE_battery_moderate_0,Battery,2040,debug_full_scenarios_wacc_5_no_ramp
 GenX,TRE,TRE_biomass_1,Biomass,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,29.2,29.2
 GenX,TRE,TRE_conventional_hydroelectric_1,Hydro,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,440.4,440.4
 GenX,TRE,TRE_conventional_steam_coal_1,Coal,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,11290.6,11290.6
-GenX,TRE,TRE_distributed_generation_1,Other,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,8407.0,8407.0
+GenX,TRE,TRE_distributed_generation_1,Distributed Solar,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,8407.0,8407.0
 GenX,TRE,TRE_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0001226809986986,0.0072571900068178
 GenX,TRE,TRE_hydrogen_ctavgcf_moderate_0,Hydrogen,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,7.330780413197343e-05,0.0052137942368201
 GenX,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2040,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,55104.804990366414,109385.3945025308
@@ -1486,7 +1486,7 @@ GenX,BASN,BASN_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,BASN,BASN_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,16.4,16.4
 GenX,BASN,BASN_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1478.3,1478.3
 GenX,BASN,BASN_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,270.2,270.2
-GenX,BASN,BASN_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2057.0,2057.0
+GenX,BASN,BASN_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2057.0,2057.0
 GenX,BASN,BASN_geothermal_1,Geothermal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,56.5,56.5
 GenX,BASN,BASN_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0082039480979594,0.0741797480889647
 GenX,BASN,BASN_hydrogen_ctavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0051714013208456,0.0339165091129912
@@ -1507,7 +1507,7 @@ GenX,CANO,CANO_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,CANO,CANO_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,0.0984951203298019,12042.421307879273
 GenX,CANO,CANO_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,57.1,57.1
 GenX,CANO,CANO_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5619.5,5619.5
-GenX,CANO,CANO_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,6562.0,6562.0
+GenX,CANO,CANO_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,6562.0,6562.0
 GenX,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2276.9,2276.9
 GenX,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,35292.0,35292.0
 GenX,CANO,CANO_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0047642282086509,0.0243338308837279
@@ -1536,7 +1536,7 @@ GenX,CASO,CASO_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,CASO,CASO_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,0.4283044300594501,99441.84817025636
 GenX,CASO,CASO_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,66.2,66.2
 GenX,CASO,CASO_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,919.0,919.0
-GenX,CASO,CASO_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,10210.0,10210.0
+GenX,CASO,CASO_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,10210.0,10210.0
 GenX,CASO,CASO_geothermal_1,Geothermal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,23.6,23.6
 GenX,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1665.0,1665.0
 GenX,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,25807.5,25807.5
@@ -1566,7 +1566,7 @@ GenX,FRCC,FRCC_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,FRCC,FRCC_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,92.8,92.8
 GenX,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,43.5,43.5
 GenX,FRCC,FRCC_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,898.0,898.0
-GenX,FRCC,FRCC_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,7817.0,7817.0
+GenX,FRCC,FRCC_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,7817.0,7817.0
 GenX,FRCC,FRCC_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.005049921098275,0.0164698632201934
 GenX,FRCC,FRCC_hydrogen_ctavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0048269692096748,0.0163675254528691
 GenX,FRCC,FRCC_landbasedwind_class3_moderate_1,Wind,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,9998.799187142684,9998.799060753614
@@ -1592,7 +1592,7 @@ GenX,ISNE,ISNE_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,ISNE,ISNE_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,33957.33497652308,48860.99985229704
 GenX,ISNE,ISNE_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,31.2,31.2
 GenX,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,464.8,464.8
-GenX,ISNE,ISNE_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5940.0,5940.0
+GenX,ISNE,ISNE_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5940.0,5940.0
 GenX,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1768.0,1768.0
 GenX,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,27404.0,27404.0
 GenX,ISNE,ISNE_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0169146373943239,0.0464780505377537
@@ -1626,7 +1626,7 @@ GenX,MISC,MISC_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,MISC,MISC_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,53.8,53.8
 GenX,MISC,MISC_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,276.6,276.6
 GenX,MISC,MISC_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2698.4,2698.4
-GenX,MISC,MISC_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4278.0,4278.0
+GenX,MISC,MISC_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4278.0,4278.0
 GenX,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,471.0,471.0
 GenX,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,7300.5,7300.5
 GenX,MISC,MISC_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0059277166501386,0.0296247364264325
@@ -1652,7 +1652,7 @@ GenX,MISE,MISE_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,MISE,MISE_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,1.3409231065626863,16899.182175759444
 GenX,MISE,MISE_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,36.9,36.9
 GenX,MISE,MISE_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,61.4,61.4
-GenX,MISE,MISE_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4586.0,4586.0
+GenX,MISE,MISE_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4586.0,4586.0
 GenX,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2047.0,2047.0
 GenX,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,31728.5,31728.5
 GenX,MISE,MISE_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0059196900693895,0.029661950644047
@@ -1678,7 +1678,7 @@ GenX,MISS,MISS_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,MISS,MISS_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,31.0,31.0
 GenX,MISS,MISS_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,521.4,521.4
 GenX,MISS,MISS_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,680.0,680.0
-GenX,MISS,MISS_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4468.0,4468.0
+GenX,MISS,MISS_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4468.0,4468.0
 GenX,MISS,MISS_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0060223674136524,0.0286188536467309
 GenX,MISS,MISS_hydrogen_ctavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0047817752931172,0.0229572074399275
 GenX,MISS,MISS_landbasedwind_class3_moderate_1,Wind,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,13825.19014945769,13825.191759622488
@@ -1707,7 +1707,7 @@ GenX,MISW,MISW_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,MISW,MISW_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,47.3,47.3
 GenX,MISW,MISW_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,67.3,67.3
 GenX,MISW,MISW_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3174.5,3174.5
-GenX,MISW,MISW_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5190.0,5190.0
+GenX,MISW,MISW_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5190.0,5190.0
 GenX,MISW,MISW_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0066106173461293,0.0355029139032067
 GenX,MISW,MISW_hydrogen_ctavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0048846241719664,0.025208307901026
 GenX,MISW,MISW_landbasedwind_class3_moderate_1,Wind,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,41421.49267092036,55867.51823638582
@@ -1732,7 +1732,7 @@ GenX,NWPP,NWPP_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,NWPP,NWPP_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,57.2,57.2
 GenX,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,28365.9,28365.9
 GenX,NWPP,NWPP_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,889.0,889.0
-GenX,NWPP,NWPP_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3200.0,3200.0
+GenX,NWPP,NWPP_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3200.0,3200.0
 GenX,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,314.0,314.0
 GenX,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,4867.0,4867.0
 GenX,NWPP,NWPP_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0058212430760359,0.1233175057966134
@@ -1761,7 +1761,7 @@ GenX,NWPP,NWPP_utilitypv_class1_moderate_2,Solar,2050,debug_full_scenarios_wacc_
 GenX,NYCW,NYCW_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0458258023613362,350.7371919725236
 GenX,NYCW,NYCW_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,0.1580218694770338,1143.709252711741
 GenX,NYCW,NYCW_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1.3,1.3
-GenX,NYCW,NYCW_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2372.0,2372.0
+GenX,NYCW,NYCW_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2372.0,2372.0
 GenX,NYCW,NYCW_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0041812784675497,0.0160635400511794
 GenX,NYCW,NYCW_hydrogen_ctavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0030341577318911,0.0117792362627307
 GenX,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4184.2,4184.2
@@ -1786,7 +1786,7 @@ GenX,NYUP,NYUP_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,NYUP,NYUP_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,0.1100024242786497,721.2215575077084
 GenX,NYUP,NYUP_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,19.1,19.1
 GenX,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3438.8,3438.8
-GenX,NYUP,NYUP_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1760.0,1760.0
+GenX,NYUP,NYUP_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1760.0,1760.0
 GenX,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1405.1,1405.1
 GenX,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,21779.0,21779.0
 GenX,NYUP,NYUP_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0053821041043109,0.0279499777951606
@@ -1812,7 +1812,7 @@ GenX,PJMC,PJMC_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,PJMC,PJMC_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,6.9,6.9
 GenX,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,10.4,10.4
 GenX,PJMC,PJMC_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,42.4,42.4
-GenX,PJMC,PJMC_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2181.0,2181.0
+GenX,PJMC,PJMC_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2181.0,2181.0
 GenX,PJMC,PJMC_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0048859665277441,0.0226197881364118
 GenX,PJMC,PJMC_hydrogen_ctavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0040618765221245,0.018835292908582
 GenX,PJMC,PJMC_landbasedwind_class3_moderate_1,Wind,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,10424.418926751712,15073.806194358269
@@ -1837,7 +1837,7 @@ GenX,PJMD,PJMD_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,PJMD,PJMD_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,30.5,30.5
 GenX,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,613.1,613.1
 GenX,PJMD,PJMD_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,913.5,913.5
-GenX,PJMD,PJMD_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3646.0,3646.0
+GenX,PJMD,PJMD_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3646.0,3646.0
 GenX,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3003.0,3003.0
 GenX,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,46546.5,46546.5
 GenX,PJMD,PJMD_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0060341085962103,0.0257794219871541
@@ -1868,7 +1868,7 @@ GenX,PJME,PJME_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,PJME,PJME_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,26.5,26.5
 GenX,PJME,PJME_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,579.1,579.1
 GenX,PJME,PJME_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1762.1,1762.1
-GenX,PJME,PJME_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,9659.0,9659.0
+GenX,PJME,PJME_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,9659.0,9659.0
 GenX,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1972.0,1972.0
 GenX,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,30566.0,30566.0
 GenX,PJME,PJME_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0058374491069408,0.0257806749565372
@@ -1901,7 +1901,7 @@ GenX,PJMW,PJMW_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,PJMW,PJMW_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,11.8,11.8
 GenX,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,626.0,626.0
 GenX,PJMW,PJMW_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2197.5,2197.5
-GenX,PJMW,PJMW_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,7516.0,7516.0
+GenX,PJMW,PJMW_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,7516.0,7516.0
 GenX,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,238.0,238.0
 GenX,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,3689.0,3689.0
 GenX,PJMW,PJMW_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0055238991269697,0.026093959493346
@@ -1928,7 +1928,7 @@ GenX,RMRG,RMRG_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,RMRG,RMRG_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,5.0,5.0
 GenX,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,579.7,579.7
 GenX,RMRG,RMRG_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1531.0,1531.0
-GenX,RMRG,RMRG_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2206.0,2206.0
+GenX,RMRG,RMRG_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2206.0,2206.0
 GenX,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,580.8,580.8
 GenX,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,9002.4,9002.4
 GenX,RMRG,RMRG_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0069401679662165,0.0453767008872872
@@ -1952,7 +1952,7 @@ GenX,SPPC,SPPC_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,SPPC,SPPC_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3.0,3.0
 GenX,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,52.0,52.0
 GenX,SPPC,SPPC_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1152.0,1152.0
-GenX,SPPC,SPPC_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1875.0,1875.0
+GenX,SPPC,SPPC_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1875.0,1875.0
 GenX,SPPC,SPPC_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0059433781590353,0.0321488332109059
 GenX,SPPC,SPPC_hydrogen_ctavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0048900927581145,0.0252081778261409
 GenX,SPPC,SPPC_landbasedwind_class3_moderate_1,Wind,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,27940.880776294183,46220.32296787486
@@ -1977,7 +1977,7 @@ GenX,SPPN,SPPN_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,SPPN,SPPN_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,13.5,13.5
 GenX,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2395.0,2395.0
 GenX,SPPN,SPPN_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1446.9,1446.9
-GenX,SPPN,SPPN_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,835.0,835.0
+GenX,SPPN,SPPN_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,835.0,835.0
 GenX,SPPN,SPPN_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0065476192942715,0.0381166854873026
 GenX,SPPN,SPPN_hydrogen_ctavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.005129364474458,0.0273061743978112
 GenX,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0181706868158056,0.0473765531760852
@@ -2002,7 +2002,7 @@ GenX,SPPS,SPPS_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,SPPS,SPPS_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.5,0.5
 GenX,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1809.8,1809.8
 GenX,SPPS,SPPS_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,970.0,970.0
-GenX,SPPS,SPPS_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3418.0,3418.0
+GenX,SPPS,SPPS_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3418.0,3418.0
 GenX,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,474.0,474.0
 GenX,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,7347.0,7347.0
 GenX,SPPS,SPPS_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0057856158493139,0.0298049038355216
@@ -2027,7 +2027,7 @@ GenX,SRCA,SRCA_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,SRCA,SRCA_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,39.4,39.4
 GenX,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1030.9,1030.9
 GenX,SRCA,SRCA_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2639.0,2639.0
-GenX,SRCA,SRCA_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,6424.0,6424.0
+GenX,SRCA,SRCA_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,6424.0,6424.0
 GenX,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2796.0,2796.0
 GenX,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,43338.0,43338.0
 GenX,SRCA,SRCA_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0068706298086598,0.0266051218695617
@@ -2058,7 +2058,7 @@ GenX,SRCE,SRCE_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,SRCE,SRCE_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,7.5,7.5
 GenX,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2176.0,2176.0
 GenX,SRCE,SRCE_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1745.6,1745.6
-GenX,SRCE,SRCE_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4012.0,4012.0
+GenX,SRCE,SRCE_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4012.0,4012.0
 GenX,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1683.8,1683.8
 GenX,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,26098.9,26098.9
 GenX,SRCE,SRCE_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0059457058447625,0.0286745282231799
@@ -2083,7 +2083,7 @@ GenX,SRSE,SRSE_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,SRSE,SRSE_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,134.1,134.1
 GenX,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3257.7,3257.7
 GenX,SRSE,SRSE_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,2257.0,2257.0
-GenX,SRSE,SRSE_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3111.0,3111.0
+GenX,SRSE,SRSE_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3111.0,3111.0
 GenX,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1896.2,1896.2
 GenX,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,29391.1,29391.1
 GenX,SRSE,SRSE_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0057274101161184,0.0257264665731722
@@ -2112,7 +2112,7 @@ GenX,SRSG,SRSG_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ra
 GenX,SRSG,SRSG_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,10.3,10.3
 GenX,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1931.3,1931.3
 GenX,SRSG,SRSG_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,1238.0,1238.0
-GenX,SRSG,SRSG_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3281.0,3281.0
+GenX,SRSG,SRSG_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,3281.0,3281.0
 GenX,SRSG,SRSG_geothermal_1,Geothermal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,19.6,19.6
 GenX,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,216.3,216.3
 GenX,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,3352.6,3352.6
@@ -2135,7 +2135,7 @@ GenX,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2050,debug_full_scenarios_wacc_
 GenX,SRSG,SRSG_utilitypv_class1_moderate_2,Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0072382306329158,0.0279095330942507
 GenX,TRE_WEST,TRE_WEST_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0352784854326448,0.7540729683414199
 GenX,TRE_WEST,TRE_WEST_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MWh,0.1062959652245955,2.073162638746391
-GenX,TRE_WEST,TRE_WEST_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,521.0,521.0
+GenX,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,521.0,521.0
 GenX,TRE_WEST,TRE_WEST_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0061335833087179,0.0302753979927809
 GenX,TRE_WEST,TRE_WEST_hydrogen_ctavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0053381522162799,0.0278280178953374
 GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_1,Wind,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,404.0247661108842,31956.43428106947
@@ -2157,7 +2157,7 @@ GenX,TRE,TRE_battery_moderate_0,Battery,2050,debug_full_scenarios_wacc_5_no_ramp
 GenX,TRE,TRE_biomass_1,Biomass,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,24.5,24.5
 GenX,TRE,TRE_conventional_hydroelectric_1,Hydro,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,224.1,224.1
 GenX,TRE,TRE_conventional_steam_coal_1,Coal,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,4734.6,4734.6
-GenX,TRE,TRE_distributed_generation_1,Other,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,9588.0,9588.0
+GenX,TRE,TRE_distributed_generation_1,Distributed Solar,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,9588.0,9588.0
 GenX,TRE,TRE_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0072571900068178,0.0374613266837561
 GenX,TRE,TRE_hydrogen_ctavgcf_moderate_0,Hydrogen,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,0.0052137942368201,0.0277251936754064
 GenX,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2050,debug_full_scenarios_wacc_5_no_ramp_cap/results_thin,MW,109385.3945025308,109385.39760995406
