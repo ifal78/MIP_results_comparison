@@ -177,8 +177,11 @@ for year, _df in cap.groupby("planning_year"):
 # %%
 # stacked bar of capacity by model and planning year
 fig_num += 1
+data = cap.groupby(["tech_type", "model", "planning_year"], as_index=False)[
+    "end_value"
+].sum()
 chart = (
-    alt.Chart(cap)
+    alt.Chart(data)
     .mark_bar()
     .encode(
         x="model",
