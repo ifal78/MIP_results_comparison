@@ -34,10 +34,10 @@ TECH_MAP = {
     "conventional_hydroelectric": "Hydro",
     "conventional_steam_coal": "Coal",
     "geothermal": "Geothermal",
-    "natural_gas_fired_combined_cycle": "Natural Gas",
-    "natural_gas_fired_combustion_turbine": "Natural Gas",
-    "natural_gas_internal_combustion_engine": "Natural Gas",
-    "natural_gas_steam_turbine": "Natural Gas",
+    "natural_gas_fired_combined_cycle": "Natural Gas CC",
+    "natural_gas_fired_combustion_turbine": "Natural Gas CT",
+    "natural_gas_internal_combustion_engine": "Natural Gas Other",
+    "natural_gas_steam_turbine": "Natural Gas Other",
     "onshore_wind_turbine": "Wind",
     "petroleum_liquids": "Other",
     "small_hydroelectric": "Hydro",
@@ -46,8 +46,8 @@ TECH_MAP = {
     "nuclear": "Nuclear",
     "offshore_wind_turbine": "Wind",
     "distributed_generation": "Distributed Solar",
-    "naturalgas_ccavgcf": "Natural Gas",
-    "naturalgas_ctavgcf": "Natural Gas",
+    "naturalgas_ccavgcf": "Natural Gas CC",
+    "naturalgas_ctavgcf": "Natural Gas CT",
     "battery": "Battery",
     "landbasedwind": "Wind",
     "utilitypv": "Solar",
@@ -98,6 +98,7 @@ def load_data(fn: str) -> pd.DataFrame:
     df = pd.concat(df_list, ignore_index=True)
     if "resource_name" in df.columns:
         df = tech_to_type(df)
+        df = df.query("~tech_type.str.contains('Other')")
     if "line_name" in df.columns:
         df = fix_tx_line_names(df)
     if "zone" in df.columns:
