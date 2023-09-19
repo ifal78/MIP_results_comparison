@@ -540,6 +540,25 @@ chart = (
 
 chart.save(f"{str(fig_num).zfill(2)} - stacked emissions across models by year.png")
 # %%
+dispatch = load_data("dispatch.csv")
+
+# %%
+fig_num += 1
+data = (
+    dispatch.query("planning_year==2030")
+    .groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)["value"]
+    .sum()
+)
+alt.data_transformers.disable_max_rows()
+chart = (
+    alt.Chart(data)
+    .mark_line()
+    .encode(x="hour", y="value", color="model", row="tech_type", column="agg_zone")
+    .properties(width=250, height=150)
+)
+
+chart.save(f"{str(fig_num).zfill(2)} - dispatch by tech type and region.png")
+# %%
 from pathlib import Path
 
 fig_files = list(Path.cwd().rglob("*.png"))
@@ -547,4 +566,3 @@ for f in fig_files:
     print(f, "\n")
 
 print("\n\nFinshed with figure script\n\n")
-# %%
