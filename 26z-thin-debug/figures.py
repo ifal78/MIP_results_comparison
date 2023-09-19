@@ -28,6 +28,42 @@ region_map = {
     "NE": ["ISNE", "NYUP", "NYCW"],
 }
 
+TECH_MAP = {
+    "batteries": "Battery",
+    "biomass_": "Other",
+    "conventional_hydroelectric": "Hydro",
+    "conventional_steam_coal": "Coal",
+    "geothermal": "Geothermal",
+    "natural_gas_fired_combined_cycle": "Natural Gas",
+    "natural_gas_fired_combustion_turbine": "Natural Gas",
+    "natural_gas_internal_combustion_engine": "Natural Gas",
+    "natural_gas_steam_turbine": "Natural Gas",
+    "onshore_wind_turbine": "Wind",
+    "petroleum_liquids": "Other",
+    "small_hydroelectric": "Hydro",
+    "solar_photovoltaic": "Solar",
+    "hydroelectric_pumped_storage": "Hydro",
+    "nuclear": "Nuclear",
+    "offshore_wind_turbine": "Wind",
+    "distributed_generation": "Distributed Solar",
+    "naturalgas_ccavgcf": "Natural Gas",
+    "naturalgas_ctavgcf": "Natural Gas",
+    "battery": "Battery",
+    "landbasedwind": "Wind",
+    "utilitypv": "Solar",
+    "naturalgas_ccccsavgcf": "CCS",
+    "ccs": "CCS",
+    "offshorewind": "Wind",
+    "hydrogen": "Hydrogen",
+}
+
+
+def tech_to_type(df: pd.DataFrame) -> pd.DataFrame:
+    for tech, type in TECH_MAP.items():
+        df.loc[df["resource_name"].str.contains(tech), "tech_type"] = type
+
+    return df
+
 
 def reverse_dict_of_lists(d: Dict[str, list]) -> Dict[str, List[str]]:
     """Reverse the mapping in a dictionary of lists so each list item maps to the key
@@ -61,7 +97,7 @@ def load_data(fn: str) -> pd.DataFrame:
         df_list.append(_df)
     df = pd.concat(df_list, ignore_index=True)
     if "resource_name" in df.columns:
-        df.loc[df["resource_name"].str.contains("ccs"), "tech_type"] = "CCS"
+        df = tech_to_type(df)
     if "line_name" in df.columns:
         df = fix_tx_line_names(df)
     if "zone" in df.columns:
