@@ -88,6 +88,7 @@ jobs:
           echo "Commit done"
 
       - name: Push changes to repository
+        if: steps.git-check.outputs.modified == 'true'
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
