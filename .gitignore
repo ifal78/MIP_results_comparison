@@ -112,3 +112,9 @@ venv.bak/
 # Ignore notebooks, but not examples
 # *.ipynb
 .DS_Store
+
+# Cluster assignment caching files
+**/cluster_assignments/*
+
+# extra_outputs files for GenX inputs
+**/extra_outputs/*
