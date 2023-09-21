@@ -1,16 +1,32 @@
 from pathlib import Path
 import subprocess
 import os
+import re
 
 
 def run_script(f: Path):
     subprocess.run([f"python {str(f)}"], shell=True)
 
 
+# Get modified or added files from the last git commit
+result = subprocess.run(
+    ["git", "diff", "--name-status", "HEAD^", "HEAD"], stdout=subprocess.PIPE
+)
+files = re.split("\n|\t", result.stdout.decode("utf-8"))
+
+# Find parent (top level) directories for each of the files
+script_dirs = []
+for f in files:
+    if Path(f).exists() and len(f) > 1:
+        script_dirs.append(Path(f).parts[0])
+script_dirs = set(script_dirs)
+
+# Run scripts in the parent directory of the modified files
 cwd = Path.cwd()
-py_scripts = cwd.rglob("figures.py")
-for f in py_scripts:
-    os.chdir(f.parent)
-    print(f)
-    run_script(f)
-    os.chdir(cwd)
+for f in script_dirs:
+    scripts = (cwd / f).glob("figures.py")
+    for s in scripts:
+        os.chdir(s.parent)
+        print(s)
+        run_script(s)
+        os.chdir(cwd)
