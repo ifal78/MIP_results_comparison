@@ -21,3 +21,9 @@ default,Storage,Battery_*_Moderate,Electricity
 default,Nuclear,Nuclear_Nuclear_Moderate,Uranium
 default,Hydrogen,Hydrogen_CTAvgCF_Moderate,Hydrogen
 default,Hydrogen,Hydrogen_CCAvgCF_Moderate,Hydrogen
+default,Wind,LandbasedWind_Class3_Moderate,Wind
+default,Solar,UtilityPV_Class1_Moderate,Solar
+default,Wind,OffShoreWind_Class12_Moderate_floating_1,Wind
+default,Wind,OffShoreWind_Class12_Moderate_floating_0,Wind
+default,Wind,OffShoreWind_Class3_Moderate_fixed_0,Wind
+default,Wind,OffShoreWind_Class3_Moderate_fixed_1,Wind
