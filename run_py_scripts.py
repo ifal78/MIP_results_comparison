@@ -10,16 +10,18 @@ def run_script(f: Path):
 
 # Get modified or added files from the last git commit
 result = subprocess.run(
-    ["git", "diff", "--name-status", "HEAD^", "HEAD"], stdout=subprocess.PIPE
+    ["git", "diff", "--name-only", "HEAD^", "HEAD"], stdout=subprocess.PIPE
 )
-files = re.split("\n|\t", result.stdout.decode("utf-8"))
+print(result.stdout.decode("utf-8"))
+files = re.split("\n|\t", result.stdout.decode("utf-8"))[:-1]
 
 # Find parent (top level) directories for each of the files
 script_dirs = []
 for f in files:
-    if Path(f).exists() and len(f) > 1:
-        script_dirs.append(Path(f).parts[0])
+    # if Path(f).exists() and len(f) > 1:
+    script_dirs.append(Path(f).parts[0])
 script_dirs = set(script_dirs)
+print(script_dirs)
 
 # Run scripts in the parent directory of the modified files
 cwd = Path.cwd()
