@@ -353,12 +353,24 @@ chart.save(
 # %% [markdown]
 # ## Capacity factors
 
-# %%
-
 
 # %% [markdown]
 # ## Transmission expansion
+# %%
+tx = load_data("transmission.csv")
 
+
+tx["start_region"] = tx["line_name"].str.split("_to_").str[0]
+tx["dest_region"] = tx["line_name"].str.split("_to_").str[1]
+tx["lat1"] = tx["start_region"].map(gdf.set_index("zone")["lat"])
+tx["lon1"] = tx["start_region"].map(gdf.set_index("zone")["lon"])
+tx["lat2"] = tx["dest_region"].map(gdf.set_index("zone")["lat"])
+tx["lon2"] = tx["dest_region"].map(gdf.set_index("zone")["lon"])
+
+first_year = tx["planning_year"].min()
+starting_tx = tx.loc[tx["planning_year"] == first_year, :]
+starting_tx = starting_tx.rename(columns={"start_value": "value"})
+starting_tx["planning_year"] = 2023
 # %%
 tx_exp = load_data("transmission_expansion.csv")
 
@@ -369,6 +381,7 @@ tx_exp["lat1"] = tx_exp["start_region"].map(gdf.set_index("zone")["lat"])
 tx_exp["lon1"] = tx_exp["start_region"].map(gdf.set_index("zone")["lon"])
 tx_exp["lat2"] = tx_exp["dest_region"].map(gdf.set_index("zone")["lat"])
 tx_exp["lon2"] = tx_exp["dest_region"].map(gdf.set_index("zone")["lon"])
+
 
 # %%
 fig_num += 1
@@ -429,14 +442,20 @@ for year, _df in tx_exp.groupby("planning_year"):
 fig_num += 1
 
 chart = (
-    alt.Chart(tx_exp)
+    alt.Chart(pd.concat([starting_tx, tx_exp]))
     .mark_bar()
     .encode(
         # xOffset="model:N",
         x="model",
         y=alt.Y("sum(value)").title("Total transmission expansion (MW)"),
         color="model:N",
+        opacity=alt.Opacity("planning_year:O", sort="descending"),
         facet=alt.Facet("line_name", columns=10),
+        order=alt.Order(
+            # Sort the segments of the bars by this field
+            "planning_year",
+            sort="ascending",
+        ),
     )
 )
 
@@ -446,16 +465,6 @@ chart.save(f"{str(fig_num).zfill(2)} - total transmission expansion bar chart.pn
 # %% [markdown]
 # ## Transmission
 
-# %%
-tx = load_data("transmission.csv")
-
-
-tx["start_region"] = tx["line_name"].str.split("_to_").str[0]
-tx["dest_region"] = tx["line_name"].str.split("_to_").str[1]
-tx["lat1"] = tx["start_region"].map(gdf.set_index("zone")["lat"])
-tx["lon1"] = tx["start_region"].map(gdf.set_index("zone")["lon"])
-tx["lat2"] = tx["dest_region"].map(gdf.set_index("zone")["lat"])
-tx["lon2"] = tx["dest_region"].map(gdf.set_index("zone")["lon"])
 
 # %%
 fig_num += 1
