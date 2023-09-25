@@ -554,21 +554,20 @@ chart.save(f"{str(fig_num).zfill(2)} - stacked emissions across models by year.p
 dispatch = load_data("dispatch.csv")
 
 # %%
-fig_num += 1
-data = (
-    dispatch.query("planning_year==2030")
-    .groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)["value"]
-    .sum()
-)
-alt.data_transformers.disable_max_rows()
-chart = (
-    alt.Chart(data)
-    .mark_line()
-    .encode(x="hour", y="value", color="model", row="tech_type", column="agg_zone")
-    .properties(width=250, height=150)
-)
+for year, _df in dispatch.groupby("planning_year"):
+    fig_num += 1
+    data = _df.groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)[
+        "value"
+    ].sum()
+    alt.data_transformers.disable_max_rows()
+    chart = (
+        alt.Chart(data)
+        .mark_line()
+        .encode(x="hour", y="value", color="model", row="tech_type", column="agg_zone")
+        .properties(width=250, height=150)
+    )
 
-chart.save(f"{str(fig_num).zfill(2)} - dispatch by tech type and region.png")
+    chart.save(f"{str(fig_num).zfill(2)} - {year} dispatch by tech type and region.png")
 # %%
 from pathlib import Path
 
