@@ -1,0 +1,1531 @@
+model,zone,resource_name,tech_type,planning_year,case,unit,value
+USENSYS,BASN,BASN_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,367493
+USENSYS,BASN,BASN_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,399552
+USENSYS,BASN,BASN_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,308975
+USENSYS,BASN,BASN_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,3561601
+USENSYS,BASN,BASN_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,19899738
+USENSYS,BASN,BASN_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,165257
+USENSYS,BASN,BASN_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,118219
+USENSYS,BASN,BASN_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,70100
+USENSYS,BASN,BASN_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,63233
+USENSYS,BASN,BASN_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,54127
+USENSYS,BASN,BASN_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,29334
+USENSYS,BASN,BASN_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,22478160
+USENSYS,BASN,BASN_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,15540240
+USENSYS,BASN,BASN_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,12947280
+USENSYS,BASN,BASN_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,24907808
+USENSYS,BASN,BASN_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,15604666
+USENSYS,BASN,BASN_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,327571
+USENSYS,BASN,BASN_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,387147
+USENSYS,BASN,BASN_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,359189
+USENSYS,BASN,BASN_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,1509044
+USENSYS,BASN,BASN_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,3882200
+USENSYS,BASN,BASN_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,4555160
+USENSYS,BASN,BASN_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,4564013
+USENSYS,BASN,BASN_geothermal_1,Geothermal,2030,base-8760-perfect foresight-cheap transmission,MWh,3793080
+USENSYS,BASN,BASN_geothermal_1,Geothermal,2040,base-8760-perfect foresight-cheap transmission,MWh,2514120
+USENSYS,BASN,BASN_geothermal_1,Geothermal,2050,base-8760-perfect foresight-cheap transmission,MWh,490560
+USENSYS,BASN,BASN_landbasedwind_class3_moderate_0,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,21103462
+USENSYS,BASN,BASN_landbasedwind_class3_moderate_0,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,21103462
+USENSYS,BASN,BASN_landbasedwind_class3_moderate_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,12080836
+USENSYS,BASN,BASN_landbasedwind_class3_moderate_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,12080836
+USENSYS,BASN,BASN_landbasedwind_class3_moderate_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,12080843
+USENSYS,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,11309877
+USENSYS,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,10949964
+USENSYS,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,9709170
+USENSYS,BASN,BASN_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,42082
+USENSYS,BASN,BASN_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,281256
+USENSYS,BASN,BASN_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,251025
+USENSYS,BASN,BASN_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,80722
+USENSYS,BASN,BASN_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,118957
+USENSYS,BASN,BASN_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,11922
+USENSYS,BASN,BASN_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,16989
+USENSYS,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,709
+USENSYS,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,58830
+USENSYS,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,54374
+USENSYS,BASN,BASN_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,463
+USENSYS,BASN,BASN_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,2584
+USENSYS,BASN,BASN_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,2550
+USENSYS,BASN,BASN_onshore_wind_turbine_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,4602536
+USENSYS,BASN,BASN_onshore_wind_turbine_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,3296464
+USENSYS,BASN,BASN_onshore_wind_turbine_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,1178896
+USENSYS,BASN,BASN_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,84
+USENSYS,BASN,BASN_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,167
+USENSYS,BASN,BASN_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,1550520
+USENSYS,BASN,BASN_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,1445400
+USENSYS,BASN,BASN_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,1252680
+USENSYS,BASN,BASN_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,17113434
+USENSYS,BASN,BASN_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,16957245
+USENSYS,BASN,BASN_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,9148243
+USENSYS,BASN,BASN_utilitypv_class1_moderate_0,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,49132581
+USENSYS,BASN,BASN_utilitypv_class1_moderate_0,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,113726681
+USENSYS,CANO,CANO_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,950735
+USENSYS,CANO,CANO_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,1018417
+USENSYS,CANO,CANO_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,883825
+USENSYS,CANO,CANO_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,3942
+USENSYS,CANO,CANO_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,15583599
+USENSYS,CANO,CANO_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,362078
+USENSYS,CANO,CANO_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,327084
+USENSYS,CANO,CANO_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,219429
+USENSYS,CANO,CANO_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,1103279
+USENSYS,CANO,CANO_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,118876
+USENSYS,CANO,CANO_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,103001
+USENSYS,CANO,CANO_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,61092240
+USENSYS,CANO,CANO_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,60479040
+USENSYS,CANO,CANO_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,49231200
+USENSYS,CANO,CANO_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,12591098
+USENSYS,CANO,CANO_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,15093676
+USENSYS,CANO,CANO_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,14322743
+USENSYS,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,407487
+USENSYS,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,773847
+USENSYS,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,853354
+USENSYS,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,13942
+USENSYS,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,1724871
+USENSYS,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,2181997
+USENSYS,CANO,CANO_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,6151302
+USENSYS,CANO,CANO_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,22075075
+USENSYS,CANO,CANO_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,22844777
+USENSYS,CANO,CANO_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,214570
+USENSYS,CANO,CANO_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,92544
+USENSYS,CANO,CANO_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,88061
+USENSYS,CANO,CANO_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,146907
+USENSYS,CANO,CANO_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,105138
+USENSYS,CANO,CANO_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,111764
+USENSYS,CANO,CANO_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,22
+USENSYS,CANO,CANO_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,1834
+USENSYS,CANO,CANO_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,2308
+USENSYS,CANO,CANO_onshore_wind_turbine_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,2448162
+USENSYS,CANO,CANO_onshore_wind_turbine_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,1185092
+USENSYS,CANO,CANO_onshore_wind_turbine_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,104743
+USENSYS,CANO,CANO_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,986
+USENSYS,CANO,CANO_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,1893
+USENSYS,CANO,CANO_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,1892160
+USENSYS,CANO,CANO_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,1865880
+USENSYS,CANO,CANO_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,1708200
+USENSYS,CANO,CANO_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,14245572
+USENSYS,CANO,CANO_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,14152562
+USENSYS,CANO,CANO_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,5633833
+USENSYS,CANO,CANO_utilitypv_class1_moderate_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,10538978
+USENSYS,CANO,CANO_utilitypv_class1_moderate_3,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,19096814
+USENSYS,CANO,CANO_utilitypv_class1_moderate_3,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,81837915
+USENSYS,CASO,CASO_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,2908699
+USENSYS,CASO,CASO_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,37754
+USENSYS,CASO,CASO_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,31059
+USENSYS,CASO,CASO_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,10232054
+USENSYS,CASO,CASO_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,41875713
+USENSYS,CASO,CASO_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,904592
+USENSYS,CASO,CASO_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,582788
+USENSYS,CASO,CASO_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,84465
+USENSYS,CASO,CASO_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,201744
+USENSYS,CASO,CASO_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,146518
+USENSYS,CASO,CASO_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,383877
+USENSYS,CASO,CASO_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,8505960
+USENSYS,CASO,CASO_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,8365800
+USENSYS,CASO,CASO_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,8050440
+USENSYS,CASO,CASO_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,370072
+USENSYS,CASO,CASO_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,334216
+USENSYS,CASO,CASO_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,309002
+USENSYS,CASO,CASO_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,19591899
+USENSYS,CASO,CASO_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,23485639
+USENSYS,CASO,CASO_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,22285107
+USENSYS,CASO,CASO_geothermal_1,Geothermal,2030,base-8760-perfect foresight-cheap transmission,MWh,210240
+USENSYS,CASO,CASO_geothermal_1,Geothermal,2040,base-8760-perfect foresight-cheap transmission,MWh,210240
+USENSYS,CASO,CASO_geothermal_1,Geothermal,2050,base-8760-perfect foresight-cheap transmission,MWh,210240
+USENSYS,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,283720
+USENSYS,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,601030
+USENSYS,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,669623
+USENSYS,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,606061
+USENSYS,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,567816
+USENSYS,CASO,CASO_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,18271854
+USENSYS,CASO,CASO_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,21478797
+USENSYS,CASO,CASO_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,20361284
+USENSYS,CASO,CASO_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,831188
+USENSYS,CASO,CASO_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1133033
+USENSYS,CASO,CASO_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,116585
+USENSYS,CASO,CASO_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,120868
+USENSYS,CASO,CASO_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,2649
+USENSYS,CASO,CASO_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,33484
+USENSYS,CASO,CASO_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,42664
+USENSYS,CASO,CASO_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,181
+USENSYS,CASO,CASO_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,1076
+USENSYS,CASO,CASO_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1361
+USENSYS,CASO,CASO_onshore_wind_turbine_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,13867262
+USENSYS,CASO,CASO_onshore_wind_turbine_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,12182192
+USENSYS,CASO,CASO_onshore_wind_turbine_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,1463160
+USENSYS,CASO,CASO_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,48
+USENSYS,CASO,CASO_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,36
+USENSYS,CASO,CASO_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,639480
+USENSYS,CASO,CASO_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,639480
+USENSYS,CASO,CASO_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,630720
+USENSYS,CASO,CASO_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,31720600
+USENSYS,CASO,CASO_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,31627493
+USENSYS,CASO,CASO_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,14941196
+USENSYS,CASO,CASO_utilitypv_class1_moderate_0,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,37613223
+USENSYS,CASO,CASO_utilitypv_class1_moderate_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,56490426
+USENSYS,CASO,CASO_utilitypv_class1_moderate_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,56490448
+USENSYS,CASO,CASO_utilitypv_class1_moderate_2,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,9798736
+USENSYS,CASO,CASO_utilitypv_class1_moderate_3,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,7965351
+USENSYS,CASO,CASO_utilitypv_class1_moderate_3,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,42909700
+USENSYS,CASO,CASO_utilitypv_class1_moderate_5,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,8961975
+USENSYS,CASO,CASO_utilitypv_class1_moderate_5,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,8961985
+USENSYS,FRCC,FRCC_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,1233
+USENSYS,FRCC,FRCC_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,169988
+USENSYS,FRCC,FRCC_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,175221
+USENSYS,FRCC,FRCC_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,781
+USENSYS,FRCC,FRCC_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,14787477
+USENSYS,FRCC,FRCC_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,604440
+USENSYS,FRCC,FRCC_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,1092949
+USENSYS,FRCC,FRCC_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,235821
+USENSYS,FRCC,FRCC_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,1051200
+USENSYS,FRCC,FRCC_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,1065
+USENSYS,FRCC,FRCC_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,504717
+USENSYS,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,385440
+USENSYS,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,385440
+USENSYS,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,385440
+USENSYS,FRCC,FRCC_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,32832480
+USENSYS,FRCC,FRCC_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,8005451
+USENSYS,FRCC,FRCC_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,2934432
+USENSYS,FRCC,FRCC_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,9802440
+USENSYS,FRCC,FRCC_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,24781080
+USENSYS,FRCC,FRCC_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,3294620
+USENSYS,FRCC,FRCC_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,11201427
+USENSYS,FRCC,FRCC_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,13205008
+USENSYS,FRCC,FRCC_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,13387213
+USENSYS,FRCC,FRCC_landbasedwind_class3_moderate_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,5245338
+USENSYS,FRCC,FRCC_landbasedwind_class3_moderate_2,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,16232302
+USENSYS,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,28440
+USENSYS,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,130727583
+USENSYS,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,136579344
+USENSYS,FRCC,FRCC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,152922620
+USENSYS,FRCC,FRCC_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,1540484
+USENSYS,FRCC,FRCC_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1997454
+USENSYS,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,428192
+USENSYS,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,24171
+USENSYS,FRCC,FRCC_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,27281
+USENSYS,FRCC,FRCC_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,399879
+USENSYS,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,562
+USENSYS,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,139212
+USENSYS,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,212100
+USENSYS,FRCC,FRCC_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,65648
+USENSYS,FRCC,FRCC_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,60871
+USENSYS,FRCC,FRCC_nuclear_1,Nuclear,2030,base-8760-perfect foresight-cheap transmission,MWh,32736120
+USENSYS,FRCC,FRCC_nuclear_1,Nuclear,2040,base-8760-perfect foresight-cheap transmission,MWh,32470856
+USENSYS,FRCC,FRCC_nuclear_1,Nuclear,2050,base-8760-perfect foresight-cheap transmission,MWh,31802607
+USENSYS,FRCC,FRCC_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,1050
+USENSYS,FRCC,FRCC_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,56
+USENSYS,FRCC,FRCC_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,16213756
+USENSYS,FRCC,FRCC_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,16129958
+USENSYS,FRCC,FRCC_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,10071209
+USENSYS,FRCC,FRCC_utilitypv_class1_moderate_2,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,89251251
+USENSYS,FRCC,FRCC_utilitypv_class1_moderate_2,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,152461901
+USENSYS,ISNE,ISNE_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,65765
+USENSYS,ISNE,ISNE_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,101940
+USENSYS,ISNE,ISNE_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,104022
+USENSYS,ISNE,ISNE_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,19133031
+USENSYS,ISNE,ISNE_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,30024198
+USENSYS,ISNE,ISNE_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,928560
+USENSYS,ISNE,ISNE_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,416930
+USENSYS,ISNE,ISNE_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,148062
+USENSYS,ISNE,ISNE_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,23553
+USENSYS,ISNE,ISNE_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,68336
+USENSYS,ISNE,ISNE_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,111549
+USENSYS,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,5194680
+USENSYS,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,4520160
+USENSYS,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,4073400
+USENSYS,ISNE,ISNE_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,2890800
+USENSYS,ISNE,ISNE_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,2890800
+USENSYS,ISNE,ISNE_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,2890800
+USENSYS,ISNE,ISNE_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,8247917
+USENSYS,ISNE,ISNE_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,9302287
+USENSYS,ISNE,ISNE_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,9722332
+USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,79997
+USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,59857
+USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,58835
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_0,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,15514761
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_0,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,15514761
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_0,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,15514761
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,7074198
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,7074198
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_2,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,14450213
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_2,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,14450213
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_3,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,12548045
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_3,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,12548045
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_5,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,3427436
+USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,2850990
+USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,4427541
+USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,3303107
+USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,41280106
+USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,32259417
+USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,25046101
+USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,38045
+USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,133711
+USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,123363
+USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,170802
+USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,548379
+USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,562793
+USENSYS,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,24569
+USENSYS,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,44276
+USENSYS,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,68463
+USENSYS,ISNE,ISNE_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,28127
+USENSYS,ISNE,ISNE_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,27200
+USENSYS,ISNE,ISNE_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,12747
+USENSYS,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,7136
+USENSYS,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,6291
+USENSYS,ISNE,ISNE_nuclear_1,Nuclear,2030,base-8760-perfect foresight-cheap transmission,MWh,29328480
+USENSYS,ISNE,ISNE_nuclear_1,Nuclear,2040,base-8760-perfect foresight-cheap transmission,MWh,29289223
+USENSYS,ISNE,ISNE_nuclear_1,Nuclear,2050,base-8760-perfect foresight-cheap transmission,MWh,29281541
+USENSYS,ISNE,ISNE_onshore_wind_turbine_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,2686102
+USENSYS,ISNE,ISNE_onshore_wind_turbine_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,2160080
+USENSYS,ISNE,ISNE_onshore_wind_turbine_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,69411
+USENSYS,ISNE,ISNE_petroleum_liquids_1,Other,2030,base-8760-perfect foresight-cheap transmission,MWh,4176
+USENSYS,ISNE,ISNE_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,19776
+USENSYS,ISNE,ISNE_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,17248
+USENSYS,ISNE,ISNE_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,2225040
+USENSYS,ISNE,ISNE_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,1988520
+USENSYS,ISNE,ISNE_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,1734480
+USENSYS,ISNE,ISNE_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,4202915
+USENSYS,ISNE,ISNE_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,4198648
+USENSYS,ISNE,ISNE_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,1816592
+USENSYS,ISNE,ISNE_utilitypv_class1_moderate_0,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,65161392
+USENSYS,ISNE,ISNE_utilitypv_class1_moderate_0,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,73056795
+USENSYS,ISNE,ISNE_utilitypv_class1_moderate_2,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,28981563
+USENSYS,MISC,MISC_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,8717
+USENSYS,MISC,MISC_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,14768
+USENSYS,MISC,MISC_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,11894
+USENSYS,MISC,MISC_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,2362
+USENSYS,MISC,MISC_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,2778698
+USENSYS,MISC,MISC_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,674520
+USENSYS,MISC,MISC_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,636113
+USENSYS,MISC,MISC_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,440150
+USENSYS,MISC,MISC_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,9827
+USENSYS,MISC,MISC_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,8866
+USENSYS,MISC,MISC_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,733
+USENSYS,MISC,MISC_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,3933240
+USENSYS,MISC,MISC_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,2426520
+USENSYS,MISC,MISC_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,2426520
+USENSYS,MISC,MISC_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,34517491
+USENSYS,MISC,MISC_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,49352012
+USENSYS,MISC,MISC_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,15945648
+USENSYS,MISC,MISC_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,90903741
+USENSYS,MISC,MISC_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,7714881
+USENSYS,MISC,MISC_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,3889524
+USENSYS,MISC,MISC_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,2589984
+USENSYS,MISC,MISC_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,5555899
+USENSYS,MISC,MISC_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,7480824
+USENSYS,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,46782
+USENSYS,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,102217
+USENSYS,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,68387
+USENSYS,MISC,MISC_landbasedwind_class3_moderate_0,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,96855458
+USENSYS,MISC,MISC_landbasedwind_class3_moderate_0,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,96855458
+USENSYS,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,15441149
+USENSYS,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,17891115
+USENSYS,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,17274710
+USENSYS,MISC,MISC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,1706747
+USENSYS,MISC,MISC_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,2474678
+USENSYS,MISC,MISC_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,2362050
+USENSYS,MISC,MISC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,377119
+USENSYS,MISC,MISC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,1874655
+USENSYS,MISC,MISC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,321334
+USENSYS,MISC,MISC_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,108063
+USENSYS,MISC,MISC_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,1493617
+USENSYS,MISC,MISC_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1514041
+USENSYS,MISC,MISC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,54355
+USENSYS,MISC,MISC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,58139
+USENSYS,MISC,MISC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,60075
+USENSYS,MISC,MISC_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,116381
+USENSYS,MISC,MISC_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,41377
+USENSYS,MISC,MISC_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,118765
+USENSYS,MISC,MISC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,84350403
+USENSYS,MISC,MISC_nuclear_1,Nuclear,2030,base-8760-perfect foresight-cheap transmission,MWh,20787480
+USENSYS,MISC,MISC_nuclear_1,Nuclear,2040,base-8760-perfect foresight-cheap transmission,MWh,20472651
+USENSYS,MISC,MISC_nuclear_1,Nuclear,2050,base-8760-perfect foresight-cheap transmission,MWh,20226393
+USENSYS,MISC,MISC_onshore_wind_turbine_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,14528951
+USENSYS,MISC,MISC_onshore_wind_turbine_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,12610014
+USENSYS,MISC,MISC_onshore_wind_turbine_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,3539445
+USENSYS,MISC,MISC_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,2912
+USENSYS,MISC,MISC_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,540
+USENSYS,MISC,MISC_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,122640
+USENSYS,MISC,MISC_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,122640
+USENSYS,MISC,MISC_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,122640
+USENSYS,MISC,MISC_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,6519911
+USENSYS,MISC,MISC_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,6519911
+USENSYS,MISC,MISC_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,6073594
+USENSYS,MISC,MISC_utilitypv_class1_moderate_5,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,23418943
+USENSYS,MISE,MISE_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,72
+USENSYS,MISE,MISE_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,124
+USENSYS,MISE,MISE_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,70
+USENSYS,MISE,MISE_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,1330349
+USENSYS,MISE,MISE_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,3567897
+USENSYS,MISE,MISE_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,500316
+USENSYS,MISE,MISE_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,281067
+USENSYS,MISE,MISE_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,118461
+USENSYS,MISE,MISE_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,534360
+USENSYS,MISE,MISE_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,276261
+USENSYS,MISE,MISE_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,127112
+USENSYS,MISE,MISE_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,280320
+USENSYS,MISE,MISE_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,280320
+USENSYS,MISE,MISE_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,280320
+USENSYS,MISE,MISE_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,27050880
+USENSYS,MISE,MISE_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,16744
+USENSYS,MISE,MISE_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,319009
+USENSYS,MISE,MISE_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,514046
+USENSYS,MISE,MISE_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,395047
+USENSYS,MISE,MISE_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,8069
+USENSYS,MISE,MISE_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,1964193
+USENSYS,MISE,MISE_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,4658270
+USENSYS,MISE,MISE_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,5757134
+USENSYS,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,167040
+USENSYS,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,407105
+USENSYS,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,231374
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_0,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,4343772
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_0,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,4343772
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,2654523
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,2654523
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_2,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,3869071
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_2,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,3869071
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_3,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,2884616
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_3,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,2884618
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_4,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,4010431
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_5,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,2320395
+USENSYS,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,23347643
+USENSYS,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,1954391
+USENSYS,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,20827016
+USENSYS,MISE,MISE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,1176186
+USENSYS,MISE,MISE_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,24714757
+USENSYS,MISE,MISE_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,105
+USENSYS,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,1498985
+USENSYS,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,3565209
+USENSYS,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1944823
+USENSYS,MISE,MISE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,8338
+USENSYS,MISE,MISE_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,135414
+USENSYS,MISE,MISE_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,76041
+USENSYS,MISE,MISE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,15244
+USENSYS,MISE,MISE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,152462
+USENSYS,MISE,MISE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,123452
+USENSYS,MISE,MISE_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,712
+USENSYS,MISE,MISE_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,1166
+USENSYS,MISE,MISE_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,648
+USENSYS,MISE,MISE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,46104551
+USENSYS,MISE,MISE_nuclear_1,Nuclear,2030,base-8760-perfect foresight-cheap transmission,MWh,10170360
+USENSYS,MISE,MISE_nuclear_1,Nuclear,2040,base-8760-perfect foresight-cheap transmission,MWh,10037387
+USENSYS,MISE,MISE_nuclear_1,Nuclear,2050,base-8760-perfect foresight-cheap transmission,MWh,10017839
+USENSYS,MISE,MISE_onshore_wind_turbine_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,8593240
+USENSYS,MISE,MISE_onshore_wind_turbine_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,8169969
+USENSYS,MISE,MISE_onshore_wind_turbine_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,2482129
+USENSYS,MISE,MISE_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,435
+USENSYS,MISE,MISE_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,406
+USENSYS,MISE,MISE_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,105120
+USENSYS,MISE,MISE_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,96360
+USENSYS,MISE,MISE_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,87600
+USENSYS,MISE,MISE_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,1968185
+USENSYS,MISE,MISE_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,1968185
+USENSYS,MISE,MISE_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,1628018
+USENSYS,MISE,MISE_utilitypv_class1_moderate_3,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,9066056
+USENSYS,MISE,MISE_utilitypv_class1_moderate_3,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,10321638
+USENSYS,MISE,MISE_utilitypv_class1_moderate_5,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,14396155
+USENSYS,MISE,MISE_utilitypv_class1_moderate_5,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,14396164
+USENSYS,MISS,MISS_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,1172
+USENSYS,MISS,MISS_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,3867
+USENSYS,MISS,MISS_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,3620
+USENSYS,MISS,MISS_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,872
+USENSYS,MISS,MISS_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,3716509
+USENSYS,MISS,MISS_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,52560
+USENSYS,MISS,MISS_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,343310
+USENSYS,MISS,MISS_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,249479
+USENSYS,MISS,MISS_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,657000
+USENSYS,MISS,MISS_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,25011
+USENSYS,MISS,MISS_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,7714
+USENSYS,MISS,MISS_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,5107080
+USENSYS,MISS,MISS_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,4563960
+USENSYS,MISS,MISS_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,4563960
+USENSYS,MISS,MISS_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,44441636
+USENSYS,MISS,MISS_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,39923993
+USENSYS,MISS,MISS_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,5261217
+USENSYS,MISS,MISS_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,7475066
+USENSYS,MISS,MISS_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,6228331
+USENSYS,MISS,MISS_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,5860428
+USENSYS,MISS,MISS_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,6236417
+USENSYS,MISS,MISS_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,8448512
+USENSYS,MISS,MISS_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,9158419
+USENSYS,MISS,MISS_landbasedwind_class3_moderate_0,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,5970007
+USENSYS,MISS,MISS_landbasedwind_class3_moderate_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,5748655
+USENSYS,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,82976431
+USENSYS,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,197749
+USENSYS,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,66288001
+USENSYS,MISS,MISS_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,69563378
+USENSYS,MISS,MISS_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,251877
+USENSYS,MISS,MISS_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,88215
+USENSYS,MISS,MISS_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,71864
+USENSYS,MISS,MISS_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,273096
+USENSYS,MISS,MISS_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,592105
+USENSYS,MISS,MISS_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,652167
+USENSYS,MISS,MISS_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,28467
+USENSYS,MISS,MISS_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,94492
+USENSYS,MISS,MISS_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,100211
+USENSYS,MISS,MISS_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,5187
+USENSYS,MISS,MISS_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1638
+USENSYS,MISS,MISS_natural_gas_steam_turbine_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,412035
+USENSYS,MISS,MISS_natural_gas_steam_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,546
+USENSYS,MISS,MISS_natural_gas_steam_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,13448
+USENSYS,MISS,MISS_nuclear_1,Nuclear,2030,base-8760-perfect foresight-cheap transmission,MWh,47531760
+USENSYS,MISS,MISS_nuclear_1,Nuclear,2040,base-8760-perfect foresight-cheap transmission,MWh,47114368
+USENSYS,MISS,MISS_nuclear_1,Nuclear,2050,base-8760-perfect foresight-cheap transmission,MWh,46083198
+USENSYS,MISS,MISS_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,390
+USENSYS,MISS,MISS_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,28
+USENSYS,MISS,MISS_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,26280
+USENSYS,MISS,MISS_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,26280
+USENSYS,MISS,MISS_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,26280
+USENSYS,MISS,MISS_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,3868712
+USENSYS,MISS,MISS_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,3868712
+USENSYS,MISS,MISS_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,3213930
+USENSYS,MISS,MISS_utilitypv_class1_moderate_0,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,1764765
+USENSYS,MISS,MISS_utilitypv_class1_moderate_0,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,49096825
+USENSYS,MISW,MISW_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,9022
+USENSYS,MISW,MISW_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,12049
+USENSYS,MISW,MISW_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,10289
+USENSYS,MISW,MISW_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,8960955
+USENSYS,MISW,MISW_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,31196616
+USENSYS,MISW,MISW_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,744600
+USENSYS,MISW,MISW_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,498078
+USENSYS,MISW,MISW_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,293185
+USENSYS,MISW,MISW_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,2605
+USENSYS,MISW,MISW_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,6860
+USENSYS,MISW,MISW_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,2991
+USENSYS,MISW,MISW_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,867240
+USENSYS,MISW,MISW_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,718320
+USENSYS,MISW,MISW_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,586920
+USENSYS,MISW,MISW_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,89953282
+USENSYS,MISW,MISW_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,10137
+USENSYS,MISW,MISW_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,15602
+USENSYS,MISW,MISW_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,2860
+USENSYS,MISW,MISW_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,54285940
+USENSYS,MISW,MISW_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,19522322
+USENSYS,MISW,MISW_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,4383117
+USENSYS,MISW,MISW_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,7596916
+USENSYS,MISW,MISW_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,8340157
+USENSYS,MISW,MISW_landbasedwind_class3_moderate_0,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,169390163
+USENSYS,MISW,MISW_landbasedwind_class3_moderate_0,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,252534939
+USENSYS,MISW,MISW_landbasedwind_class3_moderate_4,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,84127794
+USENSYS,MISW,MISW_landbasedwind_class3_moderate_4,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,84127794
+USENSYS,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,2357180
+USENSYS,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,2981372
+USENSYS,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,3252969
+USENSYS,MISW,MISW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,36005283
+USENSYS,MISW,MISW_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,26624755
+USENSYS,MISW,MISW_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,27588988
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,4126
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,11313
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1872772
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,55805
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,3140329
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,657500
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,1539858
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,238442
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,31752
+USENSYS,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,893278
+USENSYS,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,1242858
+USENSYS,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1483793
+USENSYS,MISW,MISW_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,2991
+USENSYS,MISW,MISW_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,6955
+USENSYS,MISW,MISW_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,8971
+USENSYS,MISW,MISW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,34410
+USENSYS,MISW,MISW_nuclear_1,Nuclear,2030,base-8760-perfect foresight-cheap transmission,MWh,25780680
+USENSYS,MISW,MISW_nuclear_1,Nuclear,2040,base-8760-perfect foresight-cheap transmission,MWh,24502002
+USENSYS,MISW,MISW_nuclear_1,Nuclear,2050,base-8760-perfect foresight-cheap transmission,MWh,18334525
+USENSYS,MISW,MISW_onshore_wind_turbine_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,60226607
+USENSYS,MISW,MISW_onshore_wind_turbine_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,41793697
+USENSYS,MISW,MISW_onshore_wind_turbine_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,8963258
+USENSYS,MISW,MISW_petroleum_liquids_1,Other,2030,base-8760-perfect foresight-cheap transmission,MWh,5026
+USENSYS,MISW,MISW_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,9688
+USENSYS,MISW,MISW_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,2670
+USENSYS,MISW,MISW_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,3679200
+USENSYS,MISW,MISW_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,3101040
+USENSYS,MISW,MISW_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,1927200
+USENSYS,MISW,MISW_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,5345014
+USENSYS,MISW,MISW_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,5345014
+USENSYS,MISW,MISW_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,3231503
+USENSYS,NWPP,NWPP_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,59596
+USENSYS,NWPP,NWPP_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,58869
+USENSYS,NWPP,NWPP_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,44296
+USENSYS,NWPP,NWPP_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,3640265
+USENSYS,NWPP,NWPP_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,14172573
+USENSYS,NWPP,NWPP_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,568697
+USENSYS,NWPP,NWPP_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,332188
+USENSYS,NWPP,NWPP_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,171818
+USENSYS,NWPP,NWPP_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,9872
+USENSYS,NWPP,NWPP_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,26062
+USENSYS,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,276220320
+USENSYS,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,271621320
+USENSYS,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,248486160
+USENSYS,NWPP,NWPP_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,614939
+USENSYS,NWPP,NWPP_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,751994
+USENSYS,NWPP,NWPP_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,752293
+USENSYS,NWPP,NWPP_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,9217062
+USENSYS,NWPP,NWPP_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,9853113
+USENSYS,NWPP,NWPP_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,4586381
+USENSYS,NWPP,NWPP_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,3971619
+USENSYS,NWPP,NWPP_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,5617880
+USENSYS,NWPP,NWPP_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,5835597
+USENSYS,NWPP,NWPP_geothermal_1,Geothermal,2030,base-8760-perfect foresight-cheap transmission,MWh,192720
+USENSYS,NWPP,NWPP_geothermal_1,Geothermal,2040,base-8760-perfect foresight-cheap transmission,MWh,192720
+USENSYS,NWPP,NWPP_geothermal_1,Geothermal,2050,base-8760-perfect foresight-cheap transmission,MWh,192720
+USENSYS,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,85208
+USENSYS,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,122102
+USENSYS,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,128305
+USENSYS,NWPP,NWPP_landbasedwind_class3_moderate_0,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,24511270
+USENSYS,NWPP,NWPP_landbasedwind_class3_moderate_0,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,24511270
+USENSYS,NWPP,NWPP_landbasedwind_class3_moderate_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,11445688
+USENSYS,NWPP,NWPP_landbasedwind_class3_moderate_3,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,19717934
+USENSYS,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,3845804
+USENSYS,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,4989356
+USENSYS,NWPP,NWPP_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,150711
+USENSYS,NWPP,NWPP_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,4620539
+USENSYS,NWPP,NWPP_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,6599456
+USENSYS,NWPP,NWPP_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,28040
+USENSYS,NWPP,NWPP_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,12977
+USENSYS,NWPP,NWPP_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,3168
+USENSYS,NWPP,NWPP_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,10874
+USENSYS,NWPP,NWPP_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,96997
+USENSYS,NWPP,NWPP_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,139199
+USENSYS,NWPP,NWPP_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,1304
+USENSYS,NWPP,NWPP_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1991
+USENSYS,NWPP,NWPP_nuclear_1,Nuclear,2030,base-8760-perfect foresight-cheap transmission,MWh,10154263
+USENSYS,NWPP,NWPP_nuclear_1,Nuclear,2040,base-8760-perfect foresight-cheap transmission,MWh,9627841
+USENSYS,NWPP,NWPP_nuclear_1,Nuclear,2050,base-8760-perfect foresight-cheap transmission,MWh,9021740
+USENSYS,NWPP,NWPP_onshore_wind_turbine_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,20770671
+USENSYS,NWPP,NWPP_onshore_wind_turbine_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,9765758
+USENSYS,NWPP,NWPP_onshore_wind_turbine_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,1789209
+USENSYS,NWPP,NWPP_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,90
+USENSYS,NWPP,NWPP_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,26
+USENSYS,NWPP,NWPP_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,3661680
+USENSYS,NWPP,NWPP_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,3591600
+USENSYS,NWPP,NWPP_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,3539040
+USENSYS,NWPP,NWPP_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,3088391
+USENSYS,NWPP,NWPP_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,3087465
+USENSYS,NWPP,NWPP_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,1926099
+USENSYS,NWPP,NWPP_utilitypv_class1_moderate_3,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,12213613
+USENSYS,NYCW,NYCW_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,4301
+USENSYS,NYCW,NYCW_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,6045
+USENSYS,NYCW,NYCW_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,5316
+USENSYS,NYCW,NYCW_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,6531636
+USENSYS,NYCW,NYCW_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,8459374
+USENSYS,NYCW,NYCW_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,8760
+USENSYS,NYCW,NYCW_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,8731
+USENSYS,NYCW,NYCW_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,8749
+USENSYS,NYCW,NYCW_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,87600
+USENSYS,NYCW,NYCW_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,72932
+USENSYS,NYCW,NYCW_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,52596
+USENSYS,NYCW,NYCW_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,2437834
+USENSYS,NYCW,NYCW_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,3142967
+USENSYS,NYCW,NYCW_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,3948590
+USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,4780021
+USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,7161134
+USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,6098598
+USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,7967554
+USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,13293683
+USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,11401257
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,125819
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,446049
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,825750
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,1023567
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,2095618
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1374087
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,279019
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,723720
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,628018
+USENSYS,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,75365
+USENSYS,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,125780
+USENSYS,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,103323
+USENSYS,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,4912
+USENSYS,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,18139
+USENSYS,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,13673
+USENSYS,NYCW,NYCW_petroleum_liquids_1,Other,2030,base-8760-perfect foresight-cheap transmission,MWh,1536
+USENSYS,NYCW,NYCW_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,9180
+USENSYS,NYCW,NYCW_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,2396
+USENSYS,NYCW,NYCW_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,255554
+USENSYS,NYCW,NYCW_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,255554
+USENSYS,NYCW,NYCW_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,43456
+USENSYS,NYUP,NYUP_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,33246
+USENSYS,NYUP,NYUP_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,44462
+USENSYS,NYUP,NYUP_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,36854
+USENSYS,NYUP,NYUP_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,2882
+USENSYS,NYUP,NYUP_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,220405
+USENSYS,NYUP,NYUP_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,700800
+USENSYS,NYUP,NYUP_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,243103
+USENSYS,NYUP,NYUP_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,104657
+USENSYS,NYUP,NYUP_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,68977
+USENSYS,NYUP,NYUP_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,269855
+USENSYS,NYUP,NYUP_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,60853
+USENSYS,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,30160680
+USENSYS,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,30160680
+USENSYS,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,30125640
+USENSYS,NYUP,NYUP_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,1809276
+USENSYS,NYUP,NYUP_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,2331785
+USENSYS,NYUP,NYUP_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,2929898
+USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,103763
+USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,103165
+USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,44682
+USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_0,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,9535779
+USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_0,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,9535779
+USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,1593087
+USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,3393770
+USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,2754873
+USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,41550641
+USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,33238081
+USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,28665974
+USENSYS,NYUP,NYUP_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,4302
+USENSYS,NYUP,NYUP_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,5887
+USENSYS,NYUP,NYUP_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,4341
+USENSYS,NYUP,NYUP_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,43331
+USENSYS,NYUP,NYUP_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,86724
+USENSYS,NYUP,NYUP_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,68987
+USENSYS,NYUP,NYUP_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,29711
+USENSYS,NYUP,NYUP_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,46469
+USENSYS,NYUP,NYUP_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,40896
+USENSYS,NYUP,NYUP_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,77166
+USENSYS,NYUP,NYUP_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,132960
+USENSYS,NYUP,NYUP_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,57952
+USENSYS,NYUP,NYUP_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,90985471
+USENSYS,NYUP,NYUP_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,109378630
+USENSYS,NYUP,NYUP_nuclear_1,Nuclear,2030,base-8760-perfect foresight-cheap transmission,MWh,29565000
+USENSYS,NYUP,NYUP_nuclear_1,Nuclear,2040,base-8760-perfect foresight-cheap transmission,MWh,29530248
+USENSYS,NYUP,NYUP_nuclear_1,Nuclear,2050,base-8760-perfect foresight-cheap transmission,MWh,18886529
+USENSYS,NYUP,NYUP_onshore_wind_turbine_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,6431599
+USENSYS,NYUP,NYUP_onshore_wind_turbine_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,4035382
+USENSYS,NYUP,NYUP_onshore_wind_turbine_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,2676664
+USENSYS,NYUP,NYUP_petroleum_liquids_1,Other,2030,base-8760-perfect foresight-cheap transmission,MWh,304
+USENSYS,NYUP,NYUP_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,1560
+USENSYS,NYUP,NYUP_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,1295
+USENSYS,NYUP,NYUP_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,3302520
+USENSYS,NYUP,NYUP_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,3101040
+USENSYS,NYUP,NYUP_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,3004680
+USENSYS,NYUP,NYUP_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,2740897
+USENSYS,NYUP,NYUP_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,2740897
+USENSYS,NYUP,NYUP_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,1789364
+USENSYS,PJMC,PJMC_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,9364
+USENSYS,PJMC,PJMC_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,15473
+USENSYS,PJMC,PJMC_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,12946
+USENSYS,PJMC,PJMC_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,3579
+USENSYS,PJMC,PJMC_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,3530234
+USENSYS,PJMC,PJMC_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,157680
+USENSYS,PJMC,PJMC_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,24394
+USENSYS,PJMC,PJMC_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,47446
+USENSYS,PJMC,PJMC_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,31157
+USENSYS,PJMC,PJMC_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,57697
+USENSYS,PJMC,PJMC_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,8104
+USENSYS,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,87600
+USENSYS,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,87600
+USENSYS,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,87600
+USENSYS,PJMC,PJMC_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,360057
+USENSYS,PJMC,PJMC_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,286223
+USENSYS,PJMC,PJMC_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,250951
+USENSYS,PJMC,PJMC_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,11610404
+USENSYS,PJMC,PJMC_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,8847997
+USENSYS,PJMC,PJMC_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,7838911
+USENSYS,PJMC,PJMC_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,2907027
+USENSYS,PJMC,PJMC_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,3307465
+USENSYS,PJMC,PJMC_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,3221712
+USENSYS,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,29696221
+USENSYS,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,25113690
+USENSYS,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,23792121
+USENSYS,PJMC,PJMC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,4528
+USENSYS,PJMC,PJMC_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,44528
+USENSYS,PJMC,PJMC_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,45998
+USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,59555
+USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,5256441
+USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,63758
+USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,2002216
+USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,91730
+USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,4438426
+USENSYS,PJMC,PJMC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,164185
+USENSYS,PJMC,PJMC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,252364
+USENSYS,PJMC,PJMC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,252552
+USENSYS,PJMC,PJMC_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,3489
+USENSYS,PJMC,PJMC_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,5066
+USENSYS,PJMC,PJMC_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,5332
+USENSYS,PJMC,PJMC_nuclear_1,Nuclear,2030,base-8760-perfect foresight-cheap transmission,MWh,57080160
+USENSYS,PJMC,PJMC_nuclear_1,Nuclear,2040,base-8760-perfect foresight-cheap transmission,MWh,55577015
+USENSYS,PJMC,PJMC_nuclear_1,Nuclear,2050,base-8760-perfect foresight-cheap transmission,MWh,55219157
+USENSYS,PJMC,PJMC_onshore_wind_turbine_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,10031129
+USENSYS,PJMC,PJMC_onshore_wind_turbine_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,5714376
+USENSYS,PJMC,PJMC_onshore_wind_turbine_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,1037933
+USENSYS,PJMC,PJMC_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,750
+USENSYS,PJMC,PJMC_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,510
+USENSYS,PJMC,PJMC_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,78840
+USENSYS,PJMC,PJMC_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,78840
+USENSYS,PJMC,PJMC_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,78840
+USENSYS,PJMC,PJMC_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,576389
+USENSYS,PJMC,PJMC_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,561282
+USENSYS,PJMC,PJMC_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,423785
+USENSYS,PJMD,PJMD_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,7053
+USENSYS,PJMD,PJMD_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,14837
+USENSYS,PJMD,PJMD_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,14165
+USENSYS,PJMD,PJMD_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,3875531
+USENSYS,PJMD,PJMD_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,7553773
+USENSYS,PJMD,PJMD_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,429240
+USENSYS,PJMD,PJMD_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,336002
+USENSYS,PJMD,PJMD_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,237315
+USENSYS,PJMD,PJMD_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,122640
+USENSYS,PJMD,PJMD_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,119044
+USENSYS,PJMD,PJMD_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,8513
+USENSYS,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,5369880
+USENSYS,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,5369880
+USENSYS,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,5369880
+USENSYS,PJMD,PJMD_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,42740
+USENSYS,PJMD,PJMD_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,101884
+USENSYS,PJMD,PJMD_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,76390
+USENSYS,PJMD,PJMD_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,7717560
+USENSYS,PJMD,PJMD_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,7143156
+USENSYS,PJMD,PJMD_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,6020357
+USENSYS,PJMD,PJMD_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,3408576
+USENSYS,PJMD,PJMD_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,5374729
+USENSYS,PJMD,PJMD_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,6138605
+USENSYS,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,234259
+USENSYS,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,451671
+USENSYS,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,394346
+USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_0,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,1142382
+USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_0,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,1142382
+USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,2731522
+USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,2731522
+USENSYS,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,12086852
+USENSYS,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,18235977
+USENSYS,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,14059141
+USENSYS,PJMD,PJMD_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,582992
+USENSYS,PJMD,PJMD_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,1187893
+USENSYS,PJMD,PJMD_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,533377
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,27046
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,160000
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,235850
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,7847
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,597824
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,127478
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,123021
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,26074
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,93346
+USENSYS,PJMD,PJMD_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,1348
+USENSYS,PJMD,PJMD_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,2585
+USENSYS,PJMD,PJMD_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1715
+USENSYS,PJMD,PJMD_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,9200
+USENSYS,PJMD,PJMD_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,2251
+USENSYS,PJMD,PJMD_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1436
+USENSYS,PJMD,PJMD_nuclear_1,Nuclear,2030,base-8760-perfect foresight-cheap transmission,MWh,32482080
+USENSYS,PJMD,PJMD_nuclear_1,Nuclear,2040,base-8760-perfect foresight-cheap transmission,MWh,32448191
+USENSYS,PJMD,PJMD_nuclear_1,Nuclear,2050,base-8760-perfect foresight-cheap transmission,MWh,32357548
+USENSYS,PJMD,PJMD_petroleum_liquids_1,Other,2030,base-8760-perfect foresight-cheap transmission,MWh,464
+USENSYS,PJMD,PJMD_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,700
+USENSYS,PJMD,PJMD_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,18
+USENSYS,PJMD,PJMD_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,35040
+USENSYS,PJMD,PJMD_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,35040
+USENSYS,PJMD,PJMD_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,35040
+USENSYS,PJMD,PJMD_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,8669505
+USENSYS,PJMD,PJMD_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,8669505
+USENSYS,PJMD,PJMD_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,4465690
+USENSYS,PJMD,PJMD_utilitypv_class1_moderate_4,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,33788848
+USENSYS,PJMD,PJMD_utilitypv_class1_moderate_4,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,62096219
+USENSYS,PJME,PJME_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,16540
+USENSYS,PJME,PJME_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,28382
+USENSYS,PJME,PJME_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,26250
+USENSYS,PJME,PJME_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,1896992
+USENSYS,PJME,PJME_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,1784226
+USENSYS,PJME,PJME_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,181598
+USENSYS,PJME,PJME_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,651000
+USENSYS,PJME,PJME_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,95793
+USENSYS,PJME,PJME_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,718320
+USENSYS,PJME,PJME_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,45559
+USENSYS,PJME,PJME_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,138952
+USENSYS,PJME,PJME_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,7113120
+USENSYS,PJME,PJME_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,5072040
+USENSYS,PJME,PJME_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,5072040
+USENSYS,PJME,PJME_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,75449880
+USENSYS,PJME,PJME_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,20066685
+USENSYS,PJME,PJME_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,1368382
+USENSYS,PJME,PJME_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,1154792
+USENSYS,PJME,PJME_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,1206332
+USENSYS,PJME,PJME_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,9194655
+USENSYS,PJME,PJME_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,15453979
+USENSYS,PJME,PJME_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,16308815
+USENSYS,PJME,PJME_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,16101508
+USENSYS,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,171009
+USENSYS,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,250835
+USENSYS,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,184821
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_0,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,2202692
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_0,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,2202692
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,8263485
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,8263485
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_3,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,5046745
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_3,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,5046753
+USENSYS,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,1231461
+USENSYS,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,8565169
+USENSYS,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,6511393
+USENSYS,PJME,PJME_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,201863910
+USENSYS,PJME,PJME_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,183486663
+USENSYS,PJME,PJME_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,156538271
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,535075
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,2281091
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,466187
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,20506
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,160981
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1237844
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,136269
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,750724
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,37025
+USENSYS,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,248691
+USENSYS,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,558382
+USENSYS,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,379790
+USENSYS,PJME,PJME_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,7409
+USENSYS,PJME,PJME_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,38195
+USENSYS,PJME,PJME_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,78013
+USENSYS,PJME,PJME_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,5748462
+USENSYS,PJME,PJME_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,136052306
+USENSYS,PJME,PJME_nuclear_1,Nuclear,2030,base-8760-perfect foresight-cheap transmission,MWh,111803880
+USENSYS,PJME,PJME_nuclear_1,Nuclear,2040,base-8760-perfect foresight-cheap transmission,MWh,111699922
+USENSYS,PJME,PJME_nuclear_1,Nuclear,2050,base-8760-perfect foresight-cheap transmission,MWh,111731439
+USENSYS,PJME,PJME_petroleum_liquids_1,Other,2030,base-8760-perfect foresight-cheap transmission,MWh,2584
+USENSYS,PJME,PJME_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,6380
+USENSYS,PJME,PJME_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,1716
+USENSYS,PJME,PJME_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,464280
+USENSYS,PJME,PJME_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,464280
+USENSYS,PJME,PJME_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,464280
+USENSYS,PJME,PJME_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,3511632
+USENSYS,PJME,PJME_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,3415152
+USENSYS,PJME,PJME_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,1245432
+USENSYS,PJMW,PJMW_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,7669
+USENSYS,PJMW,PJMW_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,15950
+USENSYS,PJMW,PJMW_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,13871
+USENSYS,PJMW,PJMW_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,2016202
+USENSYS,PJMW,PJMW_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,2468250
+USENSYS,PJMW,PJMW_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,166440
+USENSYS,PJMW,PJMW_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,60453
+USENSYS,PJMW,PJMW_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,59140
+USENSYS,PJMW,PJMW_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,61320
+USENSYS,PJMW,PJMW_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,154530
+USENSYS,PJMW,PJMW_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,42631
+USENSYS,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,7297080
+USENSYS,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,5483760
+USENSYS,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,5483760
+USENSYS,PJMW,PJMW_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,150426720
+USENSYS,PJMW,PJMW_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,21077142
+USENSYS,PJMW,PJMW_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,10629318
+USENSYS,PJMW,PJMW_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,4593182
+USENSYS,PJMW,PJMW_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,1972253
+USENSYS,PJMW,PJMW_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,1726748
+USENSYS,PJMW,PJMW_conventional_steam_coal_3,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,45833
+USENSYS,PJMW,PJMW_conventional_steam_coal_3,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,22065297
+USENSYS,PJMW,PJMW_conventional_steam_coal_3,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,2816303
+USENSYS,PJMW,PJMW_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,4670399
+USENSYS,PJMW,PJMW_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,10276810
+USENSYS,PJMW,PJMW_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,12954101
+USENSYS,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,22129
+USENSYS,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,47344
+USENSYS,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,34291
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_0,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,24195844
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_0,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,24195844
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,11529225
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,11529237
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,11529245
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_2,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,19237724
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_2,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,19237724
+USENSYS,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,113373199
+USENSYS,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,120493319
+USENSYS,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,105915456
+USENSYS,PJMW,PJMW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,2522272
+USENSYS,PJMW,PJMW_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,1586
+USENSYS,PJMW,PJMW_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1787
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,658170
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,4659886
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,856569
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,5136
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,199181
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,104924
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,583
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,15228
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,2744172
+USENSYS,PJMW,PJMW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,39385
+USENSYS,PJMW,PJMW_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,111434
+USENSYS,PJMW,PJMW_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,95316
+USENSYS,PJMW,PJMW_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,59860
+USENSYS,PJMW,PJMW_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,94406
+USENSYS,PJMW,PJMW_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,81508
+USENSYS,PJMW,PJMW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,145286929
+USENSYS,PJMW,PJMW_nuclear_1,Nuclear,2030,base-8760-perfect foresight-cheap transmission,MWh,55415760
+USENSYS,PJMW,PJMW_nuclear_1,Nuclear,2040,base-8760-perfect foresight-cheap transmission,MWh,55207421
+USENSYS,PJMW,PJMW_nuclear_1,Nuclear,2050,base-8760-perfect foresight-cheap transmission,MWh,55111107
+USENSYS,PJMW,PJMW_onshore_wind_turbine_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,9257659
+USENSYS,PJMW,PJMW_onshore_wind_turbine_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,5875311
+USENSYS,PJMW,PJMW_onshore_wind_turbine_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,1678584
+USENSYS,PJMW,PJMW_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,2220
+USENSYS,PJMW,PJMW_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,1188
+USENSYS,PJMW,PJMW_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,1734480
+USENSYS,PJMW,PJMW_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,1340280
+USENSYS,PJMW,PJMW_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,1340280
+USENSYS,PJMW,PJMW_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,7091878
+USENSYS,PJMW,PJMW_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,7072718
+USENSYS,PJMW,PJMW_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,6473899
+USENSYS,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,33663835
+USENSYS,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,43808420
+USENSYS,PJMW,PJMW_utilitypv_class1_moderate_5,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,22668625
+USENSYS,PJMW,PJMW_utilitypv_class1_moderate_5,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,22668625
+USENSYS,RMRG,RMRG_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,88115
+USENSYS,RMRG,RMRG_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,97975
+USENSYS,RMRG,RMRG_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,78027
+USENSYS,RMRG,RMRG_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,1871454
+USENSYS,RMRG,RMRG_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,3628306
+USENSYS,RMRG,RMRG_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,50189
+USENSYS,RMRG,RMRG_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,41135
+USENSYS,RMRG,RMRG_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,22821
+USENSYS,RMRG,RMRG_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,26229
+USENSYS,RMRG,RMRG_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,16039
+USENSYS,RMRG,RMRG_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,5853
+USENSYS,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,6193320
+USENSYS,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,5746560
+USENSYS,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,5080800
+USENSYS,RMRG,RMRG_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,50617886
+USENSYS,RMRG,RMRG_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,4679426
+USENSYS,RMRG,RMRG_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,5002579
+USENSYS,RMRG,RMRG_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,6664512
+USENSYS,RMRG,RMRG_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,34170380
+USENSYS,RMRG,RMRG_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,5156552
+USENSYS,RMRG,RMRG_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,2813290
+USENSYS,RMRG,RMRG_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,3978825
+USENSYS,RMRG,RMRG_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,4591626
+USENSYS,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,90619
+USENSYS,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,224606
+USENSYS,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,294679
+USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,14065948
+USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,132724590
+USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,132724590
+USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_4,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,23254102
+USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_4,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,211519912
+USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,107741
+USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,447951
+USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,329452
+USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,1177679
+USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,1796768
+USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1451257
+USENSYS,RMRG,RMRG_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,91615
+USENSYS,RMRG,RMRG_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,125818
+USENSYS,RMRG,RMRG_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,3513
+USENSYS,RMRG,RMRG_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1144
+USENSYS,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,28120
+USENSYS,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,90681
+USENSYS,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,62357
+USENSYS,RMRG,RMRG_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,260
+USENSYS,RMRG,RMRG_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,260
+USENSYS,RMRG,RMRG_onshore_wind_turbine_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,30916245
+USENSYS,RMRG,RMRG_onshore_wind_turbine_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,23966743
+USENSYS,RMRG,RMRG_onshore_wind_turbine_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,11570322
+USENSYS,RMRG,RMRG_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,96
+USENSYS,RMRG,RMRG_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,144
+USENSYS,RMRG,RMRG_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,884760
+USENSYS,RMRG,RMRG_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,858480
+USENSYS,RMRG,RMRG_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,744600
+USENSYS,RMRG,RMRG_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,5039701
+USENSYS,RMRG,RMRG_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,4953532
+USENSYS,RMRG,RMRG_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,3357681
+USENSYS,SPPC,SPPC_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,29
+USENSYS,SPPC,SPPC_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,336
+USENSYS,SPPC,SPPC_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,792
+USENSYS,SPPC,SPPC_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,40076
+USENSYS,SPPC,SPPC_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,3068461
+USENSYS,SPPC,SPPC_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,26280
+USENSYS,SPPC,SPPC_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,24057
+USENSYS,SPPC,SPPC_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,13821
+USENSYS,SPPC,SPPC_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,78813
+USENSYS,SPPC,SPPC_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,69923
+USENSYS,SPPC,SPPC_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,6460
+USENSYS,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,455520
+USENSYS,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,455520
+USENSYS,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,455520
+USENSYS,SPPC,SPPC_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,42812329
+USENSYS,SPPC,SPPC_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,7924735
+USENSYS,SPPC,SPPC_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,6335231
+USENSYS,SPPC,SPPC_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,17471666
+USENSYS,SPPC,SPPC_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,29861550
+USENSYS,SPPC,SPPC_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,1794731
+USENSYS,SPPC,SPPC_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,731575
+USENSYS,SPPC,SPPC_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,2035173
+USENSYS,SPPC,SPPC_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,3349894
+USENSYS,SPPC,SPPC_landbasedwind_class3_moderate_0,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,4178977
+USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,1726487
+USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,2177742
+USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,2164084
+USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,98496
+USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,197660
+USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,159696
+USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,117573
+USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,121034
+USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,18757
+USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,48095
+USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,882
+USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,10987
+USENSYS,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,26350
+USENSYS,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,32657
+USENSYS,SPPC,SPPC_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,1973
+USENSYS,SPPC,SPPC_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,4671
+USENSYS,SPPC,SPPC_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,5525
+USENSYS,SPPC,SPPC_nuclear_1,Nuclear,2030,base-8760-perfect foresight-cheap transmission,MWh,10993800
+USENSYS,SPPC,SPPC_nuclear_1,Nuclear,2040,base-8760-perfect foresight-cheap transmission,MWh,10300327
+USENSYS,SPPC,SPPC_nuclear_1,Nuclear,2050,base-8760-perfect foresight-cheap transmission,MWh,9634113
+USENSYS,SPPC,SPPC_onshore_wind_turbine_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,20081064
+USENSYS,SPPC,SPPC_onshore_wind_turbine_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,17881077
+USENSYS,SPPC,SPPC_onshore_wind_turbine_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,4229816
+USENSYS,SPPC,SPPC_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,1100
+USENSYS,SPPC,SPPC_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,560
+USENSYS,SPPC,SPPC_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,164704
+USENSYS,SPPC,SPPC_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,164704
+USENSYS,SPPC,SPPC_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,46048
+USENSYS,SPPN,SPPN_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,1081
+USENSYS,SPPN,SPPN_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,2052
+USENSYS,SPPN,SPPN_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,2578
+USENSYS,SPPN,SPPN_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,601447
+USENSYS,SPPN,SPPN_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,4571361
+USENSYS,SPPN,SPPN_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,61243
+USENSYS,SPPN,SPPN_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,53774
+USENSYS,SPPN,SPPN_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,44228
+USENSYS,SPPN,SPPN_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,140032
+USENSYS,SPPN,SPPN_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,104431
+USENSYS,SPPN,SPPN_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,59658
+USENSYS,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,21987600
+USENSYS,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,21593400
+USENSYS,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,20980200
+USENSYS,SPPN,SPPN_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,37396448
+USENSYS,SPPN,SPPN_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,26882626
+USENSYS,SPPN,SPPN_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,7226231
+USENSYS,SPPN,SPPN_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,5361026
+USENSYS,SPPN,SPPN_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,2912318
+USENSYS,SPPN,SPPN_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,1129195
+USENSYS,SPPN,SPPN_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,546084
+USENSYS,SPPN,SPPN_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,996799
+USENSYS,SPPN,SPPN_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,1374629
+USENSYS,SPPN,SPPN_landbasedwind_class3_moderate_0,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,136670863
+USENSYS,SPPN,SPPN_landbasedwind_class3_moderate_0,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,226401245
+USENSYS,SPPN,SPPN_landbasedwind_class3_moderate_4,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,17605038
+USENSYS,SPPN,SPPN_landbasedwind_class3_moderate_4,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,17605038
+USENSYS,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,305544
+USENSYS,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,390794
+USENSYS,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,380437
+USENSYS,SPPN,SPPN_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,225649
+USENSYS,SPPN,SPPN_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,338049
+USENSYS,SPPN,SPPN_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,309586
+USENSYS,SPPN,SPPN_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,142
+USENSYS,SPPN,SPPN_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,276668
+USENSYS,SPPN,SPPN_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,328412
+USENSYS,SPPN,SPPN_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,720
+USENSYS,SPPN,SPPN_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,21001
+USENSYS,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,145163
+USENSYS,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,292795
+USENSYS,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,275551
+USENSYS,SPPN,SPPN_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,4869
+USENSYS,SPPN,SPPN_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,6951
+USENSYS,SPPN,SPPN_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,6364
+USENSYS,SPPN,SPPN_nuclear_1,Nuclear,2030,base-8760-perfect foresight-cheap transmission,MWh,6745200
+USENSYS,SPPN,SPPN_nuclear_1,Nuclear,2040,base-8760-perfect foresight-cheap transmission,MWh,6295667
+USENSYS,SPPN,SPPN_nuclear_1,Nuclear,2050,base-8760-perfect foresight-cheap transmission,MWh,5893240
+USENSYS,SPPN,SPPN_onshore_wind_turbine_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,21753195
+USENSYS,SPPN,SPPN_onshore_wind_turbine_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,19608072
+USENSYS,SPPN,SPPN_onshore_wind_turbine_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,7363054
+USENSYS,SPPN,SPPN_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,384
+USENSYS,SPPN,SPPN_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,210
+USENSYS,SPPN,SPPN_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,543120
+USENSYS,SPPN,SPPN_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,385440
+USENSYS,SPPN,SPPN_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,214172
+USENSYS,SPPN,SPPN_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,214172
+USENSYS,SPPN,SPPN_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,160122
+USENSYS,SPPN,SPPN_utilitypv_class1_moderate_3,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,519216
+USENSYS,SPPN,SPPN_utilitypv_class1_moderate_3,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,34946277
+USENSYS,SPPS,SPPS_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,49054
+USENSYS,SPPS,SPPS_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,88534
+USENSYS,SPPS,SPPS_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,67806
+USENSYS,SPPS,SPPS_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,28990
+USENSYS,SPPS,SPPS_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,6578360
+USENSYS,SPPS,SPPS_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,17440
+USENSYS,SPPS,SPPS_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,7635
+USENSYS,SPPS,SPPS_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,12
+USENSYS,SPPS,SPPS_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,105024
+USENSYS,SPPS,SPPS_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,95437
+USENSYS,SPPS,SPPS_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,87443
+USENSYS,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,17660160
+USENSYS,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,16924320
+USENSYS,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,15855600
+USENSYS,SPPS,SPPS_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,33327969
+USENSYS,SPPS,SPPS_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,13580994
+USENSYS,SPPS,SPPS_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,4298864
+USENSYS,SPPS,SPPS_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,2437345
+USENSYS,SPPS,SPPS_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,4499553
+USENSYS,SPPS,SPPS_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,1463008
+USENSYS,SPPS,SPPS_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,3221769
+USENSYS,SPPS,SPPS_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,5860667
+USENSYS,SPPS,SPPS_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,7092914
+USENSYS,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,35424
+USENSYS,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,180262
+USENSYS,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,214147
+USENSYS,SPPS,SPPS_landbasedwind_class3_moderate_0,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,215521844
+USENSYS,SPPS,SPPS_landbasedwind_class3_moderate_0,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,337186625
+USENSYS,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,1389070
+USENSYS,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,18837882
+USENSYS,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1820005
+USENSYS,SPPS,SPPS_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,30212295
+USENSYS,SPPS,SPPS_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,2006046
+USENSYS,SPPS,SPPS_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,18863991
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,61425
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,51880
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,78272
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,474609
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,558718
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,12547
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,60814
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,73585
+USENSYS,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,123584
+USENSYS,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,270305
+USENSYS,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,271525
+USENSYS,SPPS,SPPS_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,130082
+USENSYS,SPPS,SPPS_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,311707
+USENSYS,SPPS,SPPS_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,283237
+USENSYS,SPPS,SPPS_onshore_wind_turbine_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,55539668
+USENSYS,SPPS,SPPS_onshore_wind_turbine_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,48327856
+USENSYS,SPPS,SPPS_onshore_wind_turbine_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,15946918
+USENSYS,SPPS,SPPS_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,240
+USENSYS,SPPS,SPPS_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,77
+USENSYS,SPPS,SPPS_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,350400
+USENSYS,SPPS,SPPS_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,350400
+USENSYS,SPPS,SPPS_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,271560
+USENSYS,SPPS,SPPS_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,742581
+USENSYS,SPPS,SPPS_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,742581
+USENSYS,SPPS,SPPS_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,141938
+USENSYS,SPPS,SPPS_utilitypv_class1_moderate_3,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,59798965
+USENSYS,SPPS,SPPS_utilitypv_class1_moderate_3,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,70209761
+USENSYS,SRCA,SRCA_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,40020
+USENSYS,SRCA,SRCA_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,65112
+USENSYS,SRCA,SRCA_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,57322
+USENSYS,SRCA,SRCA_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,1478038
+USENSYS,SRCA,SRCA_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,19629127
+USENSYS,SRCA,SRCA_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,683280
+USENSYS,SRCA,SRCA_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,391512
+USENSYS,SRCA,SRCA_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,293361
+USENSYS,SRCA,SRCA_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,11603
+USENSYS,SRCA,SRCA_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,31531
+USENSYS,SRCA,SRCA_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,2502
+USENSYS,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,10704720
+USENSYS,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,10704720
+USENSYS,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,9031560
+USENSYS,SRCA,SRCA_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,65595730
+USENSYS,SRCA,SRCA_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,24310971
+USENSYS,SRCA,SRCA_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,12346684
+USENSYS,SRCA,SRCA_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,17558925
+USENSYS,SRCA,SRCA_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,7418687
+USENSYS,SRCA,SRCA_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,5607309
+USENSYS,SRCA,SRCA_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,6248820
+USENSYS,SRCA,SRCA_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,10887623
+USENSYS,SRCA,SRCA_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,12626333
+USENSYS,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,109120
+USENSYS,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,688711
+USENSYS,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,494280
+USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_0,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,9764688
+USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_0,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,9764688
+USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,985062
+USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,985073
+USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_2,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,5559044
+USENSYS,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,11146875
+USENSYS,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,35350523
+USENSYS,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,29526488
+USENSYS,SRCA,SRCA_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,18687
+USENSYS,SRCA,SRCA_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,373447
+USENSYS,SRCA,SRCA_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,751412
+USENSYS,SRCA,SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,35715
+USENSYS,SRCA,SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,1669907
+USENSYS,SRCA,SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1056212
+USENSYS,SRCA,SRCA_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,13960
+USENSYS,SRCA,SRCA_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,177593
+USENSYS,SRCA,SRCA_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,42582
+USENSYS,SRCA,SRCA_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,67061
+USENSYS,SRCA,SRCA_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,493748
+USENSYS,SRCA,SRCA_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1267
+USENSYS,SRCA,SRCA_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,2799
+USENSYS,SRCA,SRCA_nuclear_1,Nuclear,2030,base-8760-perfect foresight-cheap transmission,MWh,106039800
+USENSYS,SRCA,SRCA_nuclear_1,Nuclear,2040,base-8760-perfect foresight-cheap transmission,MWh,105706300
+USENSYS,SRCA,SRCA_nuclear_1,Nuclear,2050,base-8760-perfect foresight-cheap transmission,MWh,104899338
+USENSYS,SRCA,SRCA_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,2196
+USENSYS,SRCA,SRCA_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,576
+USENSYS,SRCA,SRCA_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,271560
+USENSYS,SRCA,SRCA_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,254040
+USENSYS,SRCA,SRCA_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,175200
+USENSYS,SRCA,SRCA_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,13272542
+USENSYS,SRCA,SRCA_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,13253869
+USENSYS,SRCA,SRCA_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,4748567
+USENSYS,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,31221990
+USENSYS,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,31221990
+USENSYS,SRCA,SRCA_utilitypv_class1_moderate_5,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,11098139
+USENSYS,SRCA,SRCA_utilitypv_class1_moderate_5,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,72687743
+USENSYS,SRCE,SRCE_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,23221
+USENSYS,SRCE,SRCE_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,49861
+USENSYS,SRCE,SRCE_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,41970
+USENSYS,SRCE,SRCE_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,4131
+USENSYS,SRCE,SRCE_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,22701847
+USENSYS,SRCE,SRCE_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,131400
+USENSYS,SRCE,SRCE_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,59725
+USENSYS,SRCE,SRCE_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,57428
+USENSYS,SRCE,SRCE_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,60
+USENSYS,SRCE,SRCE_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,1277
+USENSYS,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,38885640
+USENSYS,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,34050120
+USENSYS,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,19061760
+USENSYS,SRCE,SRCE_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,19827015
+USENSYS,SRCE,SRCE_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,4045494
+USENSYS,SRCE,SRCE_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,7251566
+USENSYS,SRCE,SRCE_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,47452920
+USENSYS,SRCE,SRCE_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,29845323
+USENSYS,SRCE,SRCE_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,6322607
+USENSYS,SRCE,SRCE_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,1489522
+USENSYS,SRCE,SRCE_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,4511507
+USENSYS,SRCE,SRCE_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,7595159
+USENSYS,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,63723
+USENSYS,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,444952
+USENSYS,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,305506
+USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_0,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,14624401
+USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_0,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,58743107
+USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,19375470
+USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,19375470
+USENSYS,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,30647816
+USENSYS,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,26936409
+USENSYS,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,23050936
+USENSYS,SRCE,SRCE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,2542976
+USENSYS,SRCE,SRCE_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,4036953
+USENSYS,SRCE,SRCE_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,4469352
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,6462
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,163532
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,557549
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,360555
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,1461997
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,34216
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,2707
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,46422
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,21518
+USENSYS,SRCE,SRCE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,688
+USENSYS,SRCE,SRCE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,2044
+USENSYS,SRCE,SRCE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1708
+USENSYS,SRCE,SRCE_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,34353
+USENSYS,SRCE,SRCE_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,55351
+USENSYS,SRCE,SRCE_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,54098
+USENSYS,SRCE,SRCE_nuclear_1,Nuclear,2030,base-8760-perfect foresight-cheap transmission,MWh,74827920
+USENSYS,SRCE,SRCE_nuclear_1,Nuclear,2040,base-8760-perfect foresight-cheap transmission,MWh,73991375
+USENSYS,SRCE,SRCE_nuclear_1,Nuclear,2050,base-8760-perfect foresight-cheap transmission,MWh,72732268
+USENSYS,SRCE,SRCE_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,322
+USENSYS,SRCE,SRCE_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,322
+USENSYS,SRCE,SRCE_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,402960
+USENSYS,SRCE,SRCE_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,359160
+USENSYS,SRCE,SRCE_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,245280
+USENSYS,SRCE,SRCE_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,3582097
+USENSYS,SRCE,SRCE_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,3582097
+USENSYS,SRCE,SRCE_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,3032525
+USENSYS,SRCE,SRCE_utilitypv_class1_moderate_2,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,104649697
+USENSYS,SRCE,SRCE_utilitypv_class1_moderate_2,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,174337395
+USENSYS,SRSE,SRSE_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,22937
+USENSYS,SRSE,SRSE_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,52422
+USENSYS,SRSE,SRSE_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,53426
+USENSYS,SRSE,SRSE_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,1090
+USENSYS,SRSE,SRSE_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,20578619
+USENSYS,SRSE,SRSE_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,1345710
+USENSYS,SRSE,SRSE_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,989327
+USENSYS,SRSE,SRSE_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,1944720
+USENSYS,SRSE,SRSE_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,19189
+USENSYS,SRSE,SRSE_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,3621
+USENSYS,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,30046800
+USENSYS,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,29363520
+USENSYS,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,28540080
+USENSYS,SRSE,SRSE_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,81781570
+USENSYS,SRSE,SRSE_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,39445723
+USENSYS,SRSE,SRSE_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,3290074
+USENSYS,SRSE,SRSE_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,930966
+USENSYS,SRSE,SRSE_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,1550727
+USENSYS,SRSE,SRSE_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,9969697
+USENSYS,SRSE,SRSE_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,1872049
+USENSYS,SRSE,SRSE_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,4043173
+USENSYS,SRSE,SRSE_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,6070151
+USENSYS,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,7563
+USENSYS,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,444636
+USENSYS,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,352591
+USENSYS,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,23033485
+USENSYS,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,56961265
+USENSYS,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,57174692
+USENSYS,SRSE,SRSE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,132775
+USENSYS,SRSE,SRSE_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,1160718
+USENSYS,SRSE,SRSE_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,1307252
+USENSYS,SRSE,SRSE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,723431
+USENSYS,SRSE,SRSE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,632868
+USENSYS,SRSE,SRSE_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,171739
+USENSYS,SRSE,SRSE_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,42741
+USENSYS,SRSE,SRSE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,762
+USENSYS,SRSE,SRSE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,15823
+USENSYS,SRSE,SRSE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,11799
+USENSYS,SRSE,SRSE_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,3557
+USENSYS,SRSE,SRSE_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,66002
+USENSYS,SRSE,SRSE_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,72147
+USENSYS,SRSE,SRSE_nuclear_1,Nuclear,2030,base-8760-perfect foresight-cheap transmission,MWh,70596840
+USENSYS,SRSE,SRSE_nuclear_1,Nuclear,2040,base-8760-perfect foresight-cheap transmission,MWh,70301408
+USENSYS,SRSE,SRSE_nuclear_1,Nuclear,2050,base-8760-perfect foresight-cheap transmission,MWh,69072929
+USENSYS,SRSE,SRSE_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,351
+USENSYS,SRSE,SRSE_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,70
+USENSYS,SRSE,SRSE_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,35040
+USENSYS,SRSE,SRSE_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,35040
+USENSYS,SRSE,SRSE_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,17520
+USENSYS,SRSE,SRSE_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,13107309
+USENSYS,SRSE,SRSE_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,13107309
+USENSYS,SRSE,SRSE_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,8359377
+USENSYS,SRSE,SRSE_utilitypv_class1_moderate_4,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,33675214
+USENSYS,SRSE,SRSE_utilitypv_class1_moderate_4,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,116855954
+USENSYS,SRSG,SRSG_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,729556
+USENSYS,SRSG,SRSG_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,841977
+USENSYS,SRSG,SRSG_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,669807
+USENSYS,SRSG,SRSG_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,10089
+USENSYS,SRSG,SRSG_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,16443577
+USENSYS,SRSG,SRSG_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,87030
+USENSYS,SRSG,SRSG_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,158881
+USENSYS,SRSG,SRSG_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,14020
+USENSYS,SRSG,SRSG_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,179737
+USENSYS,SRSG,SRSG_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,23413
+USENSYS,SRSG,SRSG_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,43178
+USENSYS,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,24230160
+USENSYS,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,21356880
+USENSYS,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,16915560
+USENSYS,SRSG,SRSG_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,29339817
+USENSYS,SRSG,SRSG_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,12276721
+USENSYS,SRSG,SRSG_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,5624692
+USENSYS,SRSG,SRSG_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,6247234
+USENSYS,SRSG,SRSG_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,3213181
+USENSYS,SRSG,SRSG_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,2785534
+USENSYS,SRSG,SRSG_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,6148894
+USENSYS,SRSG,SRSG_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,7278849
+USENSYS,SRSG,SRSG_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,6893506
+USENSYS,SRSG,SRSG_geothermal_1,Geothermal,2030,base-8760-perfect foresight-cheap transmission,MWh,1243920
+USENSYS,SRSG,SRSG_geothermal_1,Geothermal,2040,base-8760-perfect foresight-cheap transmission,MWh,569400
+USENSYS,SRSG,SRSG_geothermal_1,Geothermal,2050,base-8760-perfect foresight-cheap transmission,MWh,175200
+USENSYS,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,41736
+USENSYS,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,95286
+USENSYS,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,106947
+USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_0,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,27606324
+USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_0,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,33345182
+USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,24057596
+USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,24057596
+USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,24057596
+USENSYS,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,4551417
+USENSYS,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,8495580
+USENSYS,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,8526987
+USENSYS,SRSG,SRSG_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,1073439
+USENSYS,SRSG,SRSG_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,524826
+USENSYS,SRSG,SRSG_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,612593
+USENSYS,SRSG,SRSG_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,225370
+USENSYS,SRSG,SRSG_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,214922
+USENSYS,SRSG,SRSG_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,30258
+USENSYS,SRSG,SRSG_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,49999
+USENSYS,SRSG,SRSG_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,11118
+USENSYS,SRSG,SRSG_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,12399
+USENSYS,SRSG,SRSG_nuclear_1,Nuclear,2030,base-8760-perfect foresight-cheap transmission,MWh,34959478
+USENSYS,SRSG,SRSG_nuclear_1,Nuclear,2040,base-8760-perfect foresight-cheap transmission,MWh,32570647
+USENSYS,SRSG,SRSG_nuclear_1,Nuclear,2050,base-8760-perfect foresight-cheap transmission,MWh,30177583
+USENSYS,SRSG,SRSG_onshore_wind_turbine_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,11270429
+USENSYS,SRSG,SRSG_onshore_wind_turbine_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,9628615
+USENSYS,SRSG,SRSG_onshore_wind_turbine_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,5269293
+USENSYS,SRSG,SRSG_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,138
+USENSYS,SRSG,SRSG_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,276
+USENSYS,SRSG,SRSG_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,543120
+USENSYS,SRSG,SRSG_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,455520
+USENSYS,SRSG,SRSG_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,376680
+USENSYS,SRSG,SRSG_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,16504223
+USENSYS,SRSG,SRSG_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,16398099
+USENSYS,SRSG,SRSG_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,6896549
+USENSYS,SRSG,SRSG_utilitypv_class1_moderate_5,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,54586798
+USENSYS,SRSG,SRSG_utilitypv_class1_moderate_5,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,128346116
+USENSYS,TRE_WEST,TRE_WEST_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,404208
+USENSYS,TRE_WEST,TRE_WEST_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,721367
+USENSYS,TRE_WEST,TRE_WEST_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,463112
+USENSYS,TRE_WEST,TRE_WEST_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,6260
+USENSYS,TRE_WEST,TRE_WEST_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,31929
+USENSYS,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,643925
+USENSYS,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,948297
+USENSYS,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,1088715
+USENSYS,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,7825915
+USENSYS,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,8881607
+USENSYS,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_4,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,82424165
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,15320184
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,10070952
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,9937163
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,10139
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,63967
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,45827
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,35340
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,48101
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,36223
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,49543
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,5649
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,9254
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,9156
+USENSYS,TRE_WEST,TRE_WEST_onshore_wind_turbine_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,77737030
+USENSYS,TRE_WEST,TRE_WEST_onshore_wind_turbine_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,55002057
+USENSYS,TRE_WEST,TRE_WEST_onshore_wind_turbine_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,20302009
+USENSYS,TRE_WEST,TRE_WEST_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,648
+USENSYS,TRE_WEST,TRE_WEST_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,756
+USENSYS,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,21072499
+USENSYS,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,21072499
+USENSYS,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,12640642
+USENSYS,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_5,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,21848760
+USENSYS,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_5,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,27748796
+USENSYS,TRE,TRE_batteries_1,Battery,2030,base-8760-perfect foresight-cheap transmission,MWh,647894
+USENSYS,TRE,TRE_batteries_1,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,1119351
+USENSYS,TRE,TRE_batteries_1,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,883114
+USENSYS,TRE,TRE_battery_moderate_0,Battery,2040,base-8760-perfect foresight-cheap transmission,MWh,3148686
+USENSYS,TRE,TRE_battery_moderate_0,Battery,2050,base-8760-perfect foresight-cheap transmission,MWh,23571825
+USENSYS,TRE,TRE_biomass_1,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,78398
+USENSYS,TRE,TRE_biomass_1,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,67770
+USENSYS,TRE,TRE_biomass_1,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,27011
+USENSYS,TRE,TRE_biomass_2,Biomass,2030,base-8760-perfect foresight-cheap transmission,MWh,143347
+USENSYS,TRE,TRE_biomass_2,Biomass,2040,base-8760-perfect foresight-cheap transmission,MWh,106423
+USENSYS,TRE,TRE_biomass_2,Biomass,2050,base-8760-perfect foresight-cheap transmission,MWh,101815
+USENSYS,TRE,TRE_conventional_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,4196040
+USENSYS,TRE,TRE_conventional_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,3854400
+USENSYS,TRE,TRE_conventional_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,1962240
+USENSYS,TRE,TRE_conventional_steam_coal_1,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,42805956
+USENSYS,TRE,TRE_conventional_steam_coal_1,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,33945059
+USENSYS,TRE,TRE_conventional_steam_coal_1,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,24016234
+USENSYS,TRE,TRE_conventional_steam_coal_2,Coal,2030,base-8760-perfect foresight-cheap transmission,MWh,46959639
+USENSYS,TRE,TRE_conventional_steam_coal_2,Coal,2040,base-8760-perfect foresight-cheap transmission,MWh,35998826
+USENSYS,TRE,TRE_conventional_steam_coal_2,Coal,2050,base-8760-perfect foresight-cheap transmission,MWh,4605912
+USENSYS,TRE,TRE_distributed_generation_1,Distributed Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,11843605
+USENSYS,TRE,TRE_distributed_generation_1,Distributed Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,17484164
+USENSYS,TRE,TRE_distributed_generation_1,Distributed Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,20035743
+USENSYS,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,79395022
+USENSYS,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,256225130
+USENSYS,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,266933971
+USENSYS,TRE,TRE_landbasedwind_class3_moderate_4,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,30241702
+USENSYS,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,74978236
+USENSYS,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,4449737
+USENSYS,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,72591166
+USENSYS,TRE,TRE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,2185310
+USENSYS,TRE,TRE_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,66276247
+USENSYS,TRE,TRE_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,3446496
+USENSYS,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,52693
+USENSYS,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,1511460
+USENSYS,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,72278
+USENSYS,TRE,TRE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,6052
+USENSYS,TRE,TRE_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,107124
+USENSYS,TRE,TRE_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,2249956
+USENSYS,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,526185
+USENSYS,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,853422
+USENSYS,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,989678
+USENSYS,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2030,base-8760-perfect foresight-cheap transmission,MWh,51698
+USENSYS,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2040,base-8760-perfect foresight-cheap transmission,MWh,121361
+USENSYS,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2050,base-8760-perfect foresight-cheap transmission,MWh,84925
+USENSYS,TRE,TRE_nuclear_1,Nuclear,2030,base-8760-perfect foresight-cheap transmission,MWh,44761910
+USENSYS,TRE,TRE_nuclear_1,Nuclear,2040,base-8760-perfect foresight-cheap transmission,MWh,40919132
+USENSYS,TRE,TRE_nuclear_1,Nuclear,2050,base-8760-perfect foresight-cheap transmission,MWh,37875456
+USENSYS,TRE,TRE_onshore_wind_turbine_1,Wind,2030,base-8760-perfect foresight-cheap transmission,MWh,28532878
+USENSYS,TRE,TRE_onshore_wind_turbine_1,Wind,2040,base-8760-perfect foresight-cheap transmission,MWh,24987571
+USENSYS,TRE,TRE_onshore_wind_turbine_1,Wind,2050,base-8760-perfect foresight-cheap transmission,MWh,8760395
+USENSYS,TRE,TRE_petroleum_liquids_1,Other,2040,base-8760-perfect foresight-cheap transmission,MWh,1422
+USENSYS,TRE,TRE_petroleum_liquids_1,Other,2050,base-8760-perfect foresight-cheap transmission,MWh,1582
+USENSYS,TRE,TRE_small_hydroelectric_1,Hydro,2030,base-8760-perfect foresight-cheap transmission,MWh,175200
+USENSYS,TRE,TRE_small_hydroelectric_1,Hydro,2040,base-8760-perfect foresight-cheap transmission,MWh,35040
+USENSYS,TRE,TRE_small_hydroelectric_1,Hydro,2050,base-8760-perfect foresight-cheap transmission,MWh,35040
+USENSYS,TRE,TRE_solar_photovoltaic_1,Solar,2030,base-8760-perfect foresight-cheap transmission,MWh,23862623
+USENSYS,TRE,TRE_solar_photovoltaic_1,Solar,2040,base-8760-perfect foresight-cheap transmission,MWh,23836777
+USENSYS,TRE,TRE_solar_photovoltaic_1,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,22132085
+USENSYS,TRE,TRE_utilitypv_class1_moderate_5,Solar,2050,base-8760-perfect foresight-cheap transmission,MWh,75141159
