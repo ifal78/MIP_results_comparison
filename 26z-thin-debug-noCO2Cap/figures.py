@@ -566,6 +566,52 @@ for year, _df in dispatch.groupby("planning_year"):
     )
 
     chart.save(f"{str(fig_num).zfill(2)} - {year} dispatch by tech type and region.png")
+
+# %%
+wind_dispatch = dispatch.query("resource_name.str.contains('landbasedwind')")
+wind_dispatch["cluster"] = wind_dispatch["resource_name"].str.split("_").str[-1]
+
+alt.data_transformers.disable_max_rows()
+for year, _df in wind_dispatch.groupby("planning_year"):
+    chart = (
+        alt.Chart(_df)
+        .mark_line()
+        .encode(
+            x="hour",
+            y="sum(value)",
+            color="model",
+            strokeDash="cluster",
+            facet=alt.Facet("zone", columns=5),
+        )
+        .properties(width=250, height=150)
+        .resolve_scale(y="independent")
+    )
+    chart.save(
+        f"{str(fig_num).zfill(2)} - {year} new-build wind dispatch by region.png"
+    )
+
+# %%
+solar_dispatch = dispatch.query("resource_name.str.contains('utilitypv')")
+solar_dispatch["cluster"] = solar_dispatch["resource_name"].str.split("_").str[-1]
+
+alt.data_transformers.disable_max_rows()
+for year, _df in solar_dispatch.groupby("planning_year"):
+    chart = (
+        alt.Chart(_df)
+        .mark_line()
+        .encode(
+            x="hour",
+            y="sum(value)",
+            color="model",
+            strokeDash="cluster",
+            facet=alt.Facet("zone", columns=5),
+        )
+        .properties(width=250, height=150)
+        .resolve_scale(y="independent")
+    )
+    chart.save(
+        f"{str(fig_num).zfill(2)} - {year} new-build solar dispatch by region.png"
+    )
 # %%
 from pathlib import Path
 
