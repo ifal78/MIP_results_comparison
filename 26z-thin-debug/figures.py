@@ -575,6 +575,7 @@ wind_dispatch["cluster"] = wind_dispatch["resource_name"].str.split("_").str[-1]
 
 alt.data_transformers.disable_max_rows()
 for year, _df in wind_dispatch.groupby("planning_year"):
+    fig_num += 1
     chart = (
         alt.Chart(_df)
         .mark_line()
@@ -598,6 +599,7 @@ solar_dispatch["cluster"] = solar_dispatch["resource_name"].str.split("_").str[-
 
 alt.data_transformers.disable_max_rows()
 for year, _df in solar_dispatch.groupby("planning_year"):
+    fig_num += 1
     chart = (
         alt.Chart(_df)
         .mark_line()
