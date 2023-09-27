@@ -139,41 +139,133 @@ cap["additions"] = cap["end_value"] - cap["start_value"]
 fig_num = 0
 # %%
 # A faceted choropleth with capacity of each tech_type for each year
-for year, _df in cap.groupby("planning_year"):
-    fig_num += 1
-    cap_group = _df.groupby(["model", "zone", "tech_type", "case"], as_index=False)[
-        "end_value"
-    ].sum()
+# for year, _df in cap.groupby("planning_year"):
+#     fig_num += 1
+#     cap_group = _df.groupby(["model", "zone", "tech_type", "case"], as_index=False)[
+#         "end_value"
+#     ].sum()
 
-    chart = alt.hconcat(
-        *(
-            alt.vconcat(
-                *(
-                    alt.Chart(gdf, title=f"{m}_{tech}")
-                    .mark_geoshape(stroke="white")
-                    .encode(
-                        color="end_value:Q",
-                        # column="model:N",
-                        # row="tech_type:N",
-                    )
-                    .transform_lookup(
-                        lookup="zone",
-                        from_=alt.LookupData(
-                            cap_group.query("tech_type==@tech and model==@m"),
-                            "zone",
-                            list(cap_group.columns),
-                        ),
-                    )
-                    .project("albersUsa")
-                    .properties(width=300, height=150)
-                    for tech in cap_group["tech_type"].unique()
-                )
-            )
-            for m in cap_group["model"].unique()
+#     chart = alt.hconcat(
+#         *(
+#             alt.vconcat(
+#                 *(
+#                     alt.Chart(gdf, title=f"{m}_{tech}")
+#                     .mark_geoshape(stroke="white")
+#                     .encode(
+#                         color="end_value:Q",
+#                         # column="model:N",
+#                         # row="tech_type:N",
+#                     )
+#                     .transform_lookup(
+#                         lookup="zone",
+#                         from_=alt.LookupData(
+#                             cap_group.query("tech_type==@tech and model==@m"),
+#                             "zone",
+#                             list(cap_group.columns),
+#                         ),
+#                     )
+#                     .project("albersUsa")
+#                     .properties(width=300, height=150)
+#                     for tech in cap_group["tech_type"].unique()
+#                 )
+#             )
+#             for m in cap_group["model"].unique()
+#         )
+#     )
+#     chart.save(f"{str(fig_num).zfill(2)} - {year} regional capacity map.png")
+
+
+# %%
+fig_num += 1
+cap_group = cap.groupby(
+    ["model", "planning_year", "zone", "tech_type"]  # , as_index=False
+)["end_value"].sum()
+years = cap["planning_year"].unique()
+idx = pd.IndexSlice
+df_list = []
+for prev_year, year in list(zip(years[:-1], years[1:]))[::-1]:
+    print(prev_year, year)
+    cap_group.loc[idx[:, year]] = (
+        cap_group.loc[idx[:, year]]
+        - cap_group.loc[idx[:, prev_year]].reindex(
+            cap_group.loc[idx[:, year]].index, fill_value=0
         )
-    )
-    chart.save(f"{str(fig_num).zfill(2)} - {year} regional capacity map.png")
+    ).values
 
+
+cap_group = cap_group.to_frame().reset_index()
+cap_group["end_value"] = cap_group["end_value"].where(
+    cond=cap_group["end_value"] > 0, other=0
+)
+chart = (
+    alt.Chart(cap_group)
+    .mark_bar()
+    .encode(
+        xOffset="model",
+        x="tech_type",
+        y=alt.Y("sum(end_value)").title("Capacity (MW)"),
+        color="model:N",
+        opacity=alt.Opacity("planning_year:O", sort="descending"),
+        facet=alt.Facet("zone", columns=5),
+        order=alt.Order(
+            # Sort the segments of the bars by this field
+            "planning_year",
+            sort="ascending",
+        ),
+    )
+    .properties(width=225, height=125)
+)
+
+chart.save(
+    f"{str(fig_num).zfill(2)} - regional capacity across models by year.png",
+    scale_factor=2,
+)
+
+# %%
+fig_num += 1
+cap_group = cap.groupby(
+    ["model", "planning_year", "agg_zone", "tech_type", "case"]  # , as_index=False
+)["end_value"].sum()
+years = cap["planning_year"].unique()
+idx = pd.IndexSlice
+df_list = []
+for prev_year, year in list(zip(years[:-1], years[1:]))[::-1]:
+    print(prev_year, year)
+    cap_group.loc[idx[:, year]] = (
+        cap_group.loc[idx[:, year]]
+        - cap_group.loc[idx[:, prev_year]].reindex(
+            cap_group.loc[idx[:, year]].index, fill_value=0
+        )
+    ).values
+
+
+cap_group = cap_group.to_frame().reset_index()
+cap_group["end_value"] = cap_group["end_value"].where(
+    cond=cap_group["end_value"] > 0, other=0
+)
+chart = (
+    alt.Chart(cap_group)
+    .mark_bar()
+    .encode(
+        xOffset="model",
+        x="tech_type",
+        y=alt.Y("sum(end_value)").title("Capacity (MW)"),
+        color="model:N",
+        opacity=alt.Opacity("planning_year:O", sort="descending"),
+        facet=alt.Facet("agg_zone", columns=4),
+        order=alt.Order(
+            # Sort the segments of the bars by this field
+            "planning_year",
+            sort="ascending",
+        ),
+    )
+    .properties(width=250, height=150)
+)
+
+chart.save(
+    f"{str(fig_num).zfill(2)} - aggregated regional capacity across models by year.png",
+    scale_factor=2,
+)
 
 # %%
 # stacked bar of capacity by model and planning year
@@ -271,41 +363,128 @@ gen = load_data("generation.csv")
 
 # %%
 # A faceted choropleth with generation of each tech_type for each year
-for year, _df in cap.groupby("planning_year"):
-    fig_num += 1
-    cap_group = _df.groupby(["model", "zone", "tech_type", "case"], as_index=False)[
-        "end_value"
-    ].sum()
+# for year, _df in cap.groupby("planning_year"):
+#     fig_num += 1
+#     cap_group = _df.groupby(["model", "zone", "tech_type", "case"], as_index=False)[
+#         "end_value"
+#     ].sum()
 
-    chart = alt.hconcat(
-        *(
-            alt.vconcat(
-                *(
-                    alt.Chart(gdf, title=f"{m}_{tech}")
-                    .mark_geoshape(stroke="white")
-                    .encode(
-                        color="end_value:Q",
-                        # column="model:N",
-                        # row="tech_type:N",
-                    )
-                    .transform_lookup(
-                        lookup="zone",
-                        from_=alt.LookupData(
-                            cap_group.query("tech_type==@tech and model==@m"),
-                            "zone",
-                            list(cap_group.columns),
-                        ),
-                    )
-                    .project("albersUsa")
-                    .properties(width=300, height=150)
-                    for tech in cap_group["tech_type"].unique()
-                )
-            )
-            for m in cap_group["model"].unique()
+#     chart = alt.hconcat(
+#         *(
+#             alt.vconcat(
+#                 *(
+#                     alt.Chart(gdf, title=f"{m}_{tech}")
+#                     .mark_geoshape(stroke="white")
+#                     .encode(
+#                         color="end_value:Q",
+#                         # column="model:N",
+#                         # row="tech_type:N",
+#                     )
+#                     .transform_lookup(
+#                         lookup="zone",
+#                         from_=alt.LookupData(
+#                             cap_group.query("tech_type==@tech and model==@m"),
+#                             "zone",
+#                             list(cap_group.columns),
+#                         ),
+#                     )
+#                     .project("albersUsa")
+#                     .properties(width=300, height=150)
+#                     for tech in cap_group["tech_type"].unique()
+#                 )
+#             )
+#             for m in cap_group["model"].unique()
+#         )
+#     )
+#     chart.save(f"{str(fig_num).zfill(2)} - {year} regional generation map.png")
+
+# %%
+fig_num += 1
+gen_group = gen.groupby(
+    ["model", "planning_year", "zone", "tech_type", "case"]  # , as_index=False
+)["value"].sum()
+years = gen["planning_year"].unique()
+idx = pd.IndexSlice
+df_list = []
+for prev_year, year in list(zip(years[:-1], years[1:]))[::-1]:
+    print(prev_year, year)
+    gen_group.loc[idx[:, year]] = (
+        gen_group.loc[idx[:, year]]
+        - gen_group.loc[idx[:, prev_year]].reindex(
+            gen_group.loc[idx[:, year]].index, fill_value=0
         )
-    )
-    chart.save(f"{str(fig_num).zfill(2)} - {year} regional generation map.png")
+    ).values
 
+
+gen_group = gen_group.to_frame().reset_index()
+gen_group["value"] = gen_group["value"].where(cond=gen_group["value"] > 0, other=0)
+chart = (
+    alt.Chart(gen_group)
+    .mark_bar()
+    .encode(
+        xOffset="model",
+        x="tech_type",
+        y=alt.Y("sum(value)").title("Generation (MWh)"),
+        color="model:N",
+        opacity=alt.Opacity("planning_year:O", sort="descending"),
+        facet=alt.Facet("zone", columns=5),
+        order=alt.Order(
+            # Sort the segments of the bars by this field
+            "planning_year",
+            sort="ascending",
+        ),
+    )
+    .properties(width=225, height=125)
+)
+
+chart.save(
+    f"{str(fig_num).zfill(2)} - regional generation across models by year.png",
+    scale_factor=2,
+)
+
+# %%
+fig_num += 1
+gen_group = gen.groupby(
+    ["model", "planning_year", "agg_zone", "tech_type", "case"]  # , as_index=False
+)["value"].sum()
+years = gen["planning_year"].unique()
+idx = pd.IndexSlice
+df_list = []
+for prev_year, year in list(zip(years[:-1], years[1:]))[::-1]:
+    print(prev_year, year)
+    gen_group.loc[idx[:, year]] = (
+        gen_group.loc[idx[:, year]]
+        - gen_group.loc[idx[:, prev_year]].reindex(
+            gen_group.loc[idx[:, year]].index, fill_value=0
+        )
+    ).values
+
+
+gen_group = gen_group.to_frame().reset_index()
+gen_group["value"] = gen_group["value"].where(cond=gen_group["value"] > 0, other=0)
+chart = (
+    alt.Chart(gen_group)
+    .mark_bar()
+    .encode(
+        xOffset="model",
+        x="tech_type",
+        y=alt.Y("sum(value)").title("Generation (MWh)"),
+        color="model:N",
+        opacity=alt.Opacity("planning_year:O", sort="descending"),
+        facet=alt.Facet("agg_zone", columns=4),
+        order=alt.Order(
+            # Sort the segments of the bars by this field
+            "planning_year",
+            sort="ascending",
+        ),
+    )
+    .properties(width=250, height=150)
+)
+
+chart.save(
+    f"{str(fig_num).zfill(2)} - aggregated regional generation across models by year.png",
+    scale_factor=2,
+)
 
 # %%
 # stacked bar of generation by model and planning year
@@ -550,6 +729,36 @@ chart = (
 chart.save(f"{str(fig_num).zfill(2)} - stacked emissions across models by year.png")
 # %%
 dispatch = load_data("dispatch.csv")
+# dispatch["hour"] = dispatch["hour"].astype("category")
+dispatch = dispatch.groupby(
+    [
+        "planning_year",
+        "model",
+        "agg_zone",
+        "zone",
+        "tech_type",
+        "resource_name",
+        "hour",
+    ],
+    as_index=False,
+)["value"].sum()
+group_cols = ["planning_year", "model", "agg_zone", "zone", "tech_type"]
+hours = dispatch["hour"].unique()
+index_cols = ["resource_name"]
+df_list = []
+for _, _df in dispatch.groupby(group_cols):
+    multi_index = pd.MultiIndex.from_product(
+        [_df[col].unique() for col in index_cols] + [hours],
+        names=index_cols + ["hour"],
+    )
+    _df = _df.set_index(index_cols + ["hour"])
+    _df = _df.reindex(index=multi_index, fill_value=0)
+    _df = _df.reset_index()
+    for val, col in zip(_, group_cols):
+        _df[col] = val
+    df_list.append(_df)
+
+dispatch = pd.concat(df_list, ignore_index=True)
 
 # %%
 for year, _df in dispatch.groupby("planning_year"):
@@ -563,9 +772,12 @@ for year, _df in dispatch.groupby("planning_year"):
         .mark_line()
         .encode(x="hour", y="value", color="model", row="tech_type", column="agg_zone")
         .properties(width=250, height=150)
-    )
+    ).resolve_scale(y="independent")
 
-    chart.save(f"{str(fig_num).zfill(2)} - {year} dispatch by tech type and region.png")
+    chart.save(
+        f"{str(fig_num).zfill(2)} - {year} dispatch by tech type and region.png",
+        scale_factor=2,
+    )
 
 # %%
 wind_dispatch = dispatch.query("resource_name.str.contains('landbasedwind')")
@@ -588,7 +800,8 @@ for year, _df in wind_dispatch.groupby("planning_year"):
         .resolve_scale(y="independent")
     )
     chart.save(
-        f"{str(fig_num).zfill(2)} - {year} new-build wind dispatch by region.png"
+        f"{str(fig_num).zfill(2)} - {year} new-build wind dispatch by region.png",
+        scale_factor=2,
     )
 
 # %%
@@ -612,9 +825,9 @@ for year, _df in solar_dispatch.groupby("planning_year"):
         .resolve_scale(y="independent")
     )
     chart.save(
-        f"{str(fig_num).zfill(2)} - {year} new-build solar dispatch by region.png"
+        f"{str(fig_num).zfill(2)} - {year} new-build solar dispatch by region.png",
+        scale_factor=2,
     )
-
 # %%
 from pathlib import Path
 
