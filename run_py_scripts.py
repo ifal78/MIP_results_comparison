@@ -8,7 +8,10 @@ CWD = Path.cwd()
 
 
 def run_script(f: Path):
+    os.chdir(f.parent)
+    print(f)
     subprocess.run([f"python {str(f)}"], shell=True)
+    os.chdir(CWD)
 
 
 def run_scripts_in_dir(f: Path):
@@ -33,20 +36,26 @@ def git_changed_files():
     return files
 
 
+def figure_scripts():
+    scripts = list(CWD.rglob("figures.py"))
+    return scripts
+
+
 def main():
     # Get modified or added files from the last git commit
     files = git_changed_files()
-
-    # Find parent (top level) directories for each of the files
-    script_dirs = []
+    run = False
     for f in files:
-        # if Path(f).exists() and len(f) > 1:
-        script_dirs.append(Path(f).parts[0])
-    script_dirs = set(script_dirs)
-    print(script_dirs)
+        if ".py" in f or ".csv" in f:
+            run = True
+    if run:
+        print("Running figure generation scripts")
+        scripts = figure_scripts()
 
-    # Run scripts in the parent directory of the modified files
-    Parallel(n_jobs=-1)(delayed(run_scripts_in_dir)(f) for f in script_dirs)
+        # Run scripts in the parent directory of the modified files
+        Parallel(n_jobs=-1)(delayed(run_script)(Path(f)) for f in scripts)
+    else:
+        print("No modified .py or .csv files")
 
 
 if __name__ == "__main__":
