@@ -1,0 +1,16 @@
+case_id,year,flex_resource,ng_price,limitedtransmission,ira,min_cap,existing_clusters,hydrogen_gen,time_reduction,policies,period_years,vre_clusters,econ_retirement,wacc,misc_file,carbon_slack
+base_thin,2030,none,reference,no,no,none,thin,greenfield,10_weeks,yes,ten,thin,no,standardize_5,no_ramp,base
+base_thin,2040,none,reference,no,no,none,thin,greenfield,10_weeks,yes,ten,thin,no,standardize_5,no_ramp,base
+base_thin,2050,none,reference,no,no,none,thin,greenfield,10_weeks,yes,ten,thin,no,standardize_5,no_ramp,base
+base_thin_no_cap,2030,none,reference,no,no,none,thin,greenfield,10_weeks,none,ten,thin,no,standardize_5,no_ramp,none
+base_thin_no_cap,2040,none,reference,no,no,none,thin,greenfield,10_weeks,none,ten,thin,no,standardize_5,no_ramp,none
+base_thin_no_cap,2050,none,reference,no,no,none,thin,greenfield,10_weeks,none,ten,thin,no,standardize_5,no_ramp,none
+base_thin_high_slack,2030,none,reference,no,no,none,thin,greenfield,10_weeks,yes,ten,thin,no,standardize_5,no_ramp,high
+base_thin_high_slack,2040,none,reference,no,no,none,thin,greenfield,10_weeks,yes,ten,thin,no,standardize_5,no_ramp,high
+base_thin_high_slack,2050,none,reference,no,no,none,thin,greenfield,10_weeks,yes,ten,thin,no,standardize_5,no_ramp,high
+base_thin_ramp,2030,none,reference,no,no,none,thin,greenfield,10_weeks,yes,ten,thin,no,standardize_5,ramp,base
+base_thin_ramp,2040,none,reference,no,no,none,thin,greenfield,10_weeks,yes,ten,thin,no,standardize_5,ramp,base
+base_thin_ramp,2050,none,reference,no,no,none,thin,greenfield,10_weeks,yes,ten,thin,no,standardize_5,ramp,base
+base_thin_ramp_retire,2030,none,reference,no,no,none,thin,greenfield,10_weeks,yes,ten,thin,no,standardize_5,ramp,base
+base_thin_ramp_retire,2040,none,reference,no,no,none,thin,greenfield,10_weeks,yes,ten,thin,no,standardize_5,ramp,base
+base_thin_ramp_retire,2050,none,reference,no,no,none,thin,greenfield,10_weeks,yes,ten,thin,no,standardize_5,ramp,base
