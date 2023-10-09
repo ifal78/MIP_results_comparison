@@ -1,0 +1,1527 @@
+model,zone,resource_name,tech_type,planning_year,case,unit,value
+USENSYS,BASN,BASN_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,8171980
+USENSYS,BASN,BASN_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,6969662
+USENSYS,BASN,BASN_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,7325126
+USENSYS,BASN,BASN_battery_moderate_0,Battery,2040,26z-debug-noCO2Cap,MWh,9280
+USENSYS,BASN,BASN_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,29102080
+USENSYS,BASN,BASN_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,166268
+USENSYS,BASN,BASN_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,111958
+USENSYS,BASN,BASN_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,70400
+USENSYS,BASN,BASN_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,64235
+USENSYS,BASN,BASN_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,60193
+USENSYS,BASN,BASN_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,38871
+USENSYS,BASN,BASN_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,22478160
+USENSYS,BASN,BASN_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,15540240
+USENSYS,BASN,BASN_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,12947280
+USENSYS,BASN,BASN_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,25358518
+USENSYS,BASN,BASN_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,14775494
+USENSYS,BASN,BASN_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,347229
+USENSYS,BASN,BASN_conventional_steam_coal_2,Coal,2030,26z-debug-noCO2Cap,MWh,364738
+USENSYS,BASN,BASN_conventional_steam_coal_2,Coal,2040,26z-debug-noCO2Cap,MWh,344787
+USENSYS,BASN,BASN_conventional_steam_coal_2,Coal,2050,26z-debug-noCO2Cap,MWh,1523487
+USENSYS,BASN,BASN_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,3882200
+USENSYS,BASN,BASN_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,4555160
+USENSYS,BASN,BASN_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,4564013
+USENSYS,BASN,BASN_geothermal_1,Geothermal,2030,26z-debug-noCO2Cap,MWh,3793080
+USENSYS,BASN,BASN_geothermal_1,Geothermal,2040,26z-debug-noCO2Cap,MWh,2514120
+USENSYS,BASN,BASN_geothermal_1,Geothermal,2050,26z-debug-noCO2Cap,MWh,490560
+USENSYS,BASN,BASN_landbasedwind_class3_moderate_0,Wind,2040,26z-debug-noCO2Cap,MWh,21103462
+USENSYS,BASN,BASN_landbasedwind_class3_moderate_0,Wind,2050,26z-debug-noCO2Cap,MWh,21103462
+USENSYS,BASN,BASN_landbasedwind_class3_moderate_1,Wind,2030,26z-debug-noCO2Cap,MWh,12080836
+USENSYS,BASN,BASN_landbasedwind_class3_moderate_1,Wind,2040,26z-debug-noCO2Cap,MWh,12080843
+USENSYS,BASN,BASN_landbasedwind_class3_moderate_1,Wind,2050,26z-debug-noCO2Cap,MWh,12080860
+USENSYS,BASN,BASN_landbasedwind_class3_moderate_2,Wind,2040,26z-debug-noCO2Cap,MWh,52857702
+USENSYS,BASN,BASN_landbasedwind_class3_moderate_2,Wind,2050,26z-debug-noCO2Cap,MWh,93903609
+USENSYS,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,13246383
+USENSYS,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,19345843
+USENSYS,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,10924304
+USENSYS,BASN,BASN_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,13541
+USENSYS,BASN,BASN_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,421298
+USENSYS,BASN,BASN_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,265784
+USENSYS,BASN,BASN_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,206626
+USENSYS,BASN,BASN_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,147326
+USENSYS,BASN,BASN_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,33304
+USENSYS,BASN,BASN_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,20064
+USENSYS,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,82497
+USENSYS,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,59092
+USENSYS,BASN,BASN_natural_gas_steam_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,165
+USENSYS,BASN,BASN_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,4745
+USENSYS,BASN,BASN_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,2563
+USENSYS,BASN,BASN_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,17581222
+USENSYS,BASN,BASN_onshore_wind_turbine_1,Wind,2030,26z-debug-noCO2Cap,MWh,4602536
+USENSYS,BASN,BASN_onshore_wind_turbine_1,Wind,2040,26z-debug-noCO2Cap,MWh,3296464
+USENSYS,BASN,BASN_onshore_wind_turbine_1,Wind,2050,26z-debug-noCO2Cap,MWh,1178896
+USENSYS,BASN,BASN_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,112
+USENSYS,BASN,BASN_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,252
+USENSYS,BASN,BASN_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,1550520
+USENSYS,BASN,BASN_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,1445400
+USENSYS,BASN,BASN_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,1252680
+USENSYS,BASN,BASN_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,17113434
+USENSYS,BASN,BASN_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,16957245
+USENSYS,BASN,BASN_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,9148243
+USENSYS,BASN,BASN_utilitypv_class1_moderate_0,Solar,2040,26z-debug-noCO2Cap,MWh,15825463
+USENSYS,BASN,BASN_utilitypv_class1_moderate_0,Solar,2050,26z-debug-noCO2Cap,MWh,48160566
+USENSYS,CANO,CANO_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,31087808
+USENSYS,CANO,CANO_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,28207060
+USENSYS,CANO,CANO_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,27272416
+USENSYS,CANO,CANO_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,65682
+USENSYS,CANO,CANO_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,510496
+USENSYS,CANO,CANO_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,326946
+USENSYS,CANO,CANO_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,232179
+USENSYS,CANO,CANO_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,1159707
+USENSYS,CANO,CANO_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,171994
+USENSYS,CANO,CANO_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,153571
+USENSYS,CANO,CANO_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,61092240
+USENSYS,CANO,CANO_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,60479040
+USENSYS,CANO,CANO_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,49231200
+USENSYS,CANO,CANO_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,12591098
+USENSYS,CANO,CANO_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,15093676
+USENSYS,CANO,CANO_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,14322743
+USENSYS,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2030,26z-debug-noCO2Cap,MWh,49241559
+USENSYS,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2040,26z-debug-noCO2Cap,MWh,46228012
+USENSYS,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2050,26z-debug-noCO2Cap,MWh,45311331
+USENSYS,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,859016
+USENSYS,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,2231900
+USENSYS,CANO,CANO_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,2668185
+USENSYS,CANO,CANO_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,30444140
+USENSYS,CANO,CANO_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,34646500
+USENSYS,CANO,CANO_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,18879
+USENSYS,CANO,CANO_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,106133
+USENSYS,CANO,CANO_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,118178
+USENSYS,CANO,CANO_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,12396
+USENSYS,CANO,CANO_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,95080
+USENSYS,CANO,CANO_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,1000
+USENSYS,CANO,CANO_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,2173
+USENSYS,CANO,CANO_onshore_wind_turbine_1,Wind,2030,26z-debug-noCO2Cap,MWh,2448162
+USENSYS,CANO,CANO_onshore_wind_turbine_1,Wind,2040,26z-debug-noCO2Cap,MWh,1185092
+USENSYS,CANO,CANO_onshore_wind_turbine_1,Wind,2050,26z-debug-noCO2Cap,MWh,104743
+USENSYS,CANO,CANO_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,2718
+USENSYS,CANO,CANO_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,1892160
+USENSYS,CANO,CANO_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,1865880
+USENSYS,CANO,CANO_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,1708200
+USENSYS,CANO,CANO_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,14245572
+USENSYS,CANO,CANO_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,14152562
+USENSYS,CANO,CANO_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,5633833
+USENSYS,CANO,CANO_utilitypv_class1_moderate_1,Solar,2050,26z-debug-noCO2Cap,MWh,1110727
+USENSYS,CANO,CANO_utilitypv_class1_moderate_3,Solar,2040,26z-debug-noCO2Cap,MWh,24378975
+USENSYS,CANO,CANO_utilitypv_class1_moderate_3,Solar,2050,26z-debug-noCO2Cap,MWh,81837911
+USENSYS,CASO,CASO_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,50090088
+USENSYS,CASO,CASO_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,1333605
+USENSYS,CASO,CASO_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,1413872
+USENSYS,CASO,CASO_battery_moderate_0,Battery,2040,26z-debug-noCO2Cap,MWh,7844
+USENSYS,CASO,CASO_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,49637815
+USENSYS,CASO,CASO_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,910104
+USENSYS,CASO,CASO_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,566908
+USENSYS,CASO,CASO_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,97568
+USENSYS,CASO,CASO_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,210785
+USENSYS,CASO,CASO_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,151172
+USENSYS,CASO,CASO_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,408644
+USENSYS,CASO,CASO_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,8505960
+USENSYS,CASO,CASO_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,8365800
+USENSYS,CASO,CASO_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,8050440
+USENSYS,CASO,CASO_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,397593
+USENSYS,CASO,CASO_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,355949
+USENSYS,CASO,CASO_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,369980
+USENSYS,CASO,CASO_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,19591899
+USENSYS,CASO,CASO_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,23485639
+USENSYS,CASO,CASO_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,22285107
+USENSYS,CASO,CASO_geothermal_1,Geothermal,2030,26z-debug-noCO2Cap,MWh,210240
+USENSYS,CASO,CASO_geothermal_1,Geothermal,2040,26z-debug-noCO2Cap,MWh,210240
+USENSYS,CASO,CASO_geothermal_1,Geothermal,2050,26z-debug-noCO2Cap,MWh,210240
+USENSYS,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2030,26z-debug-noCO2Cap,MWh,46376981
+USENSYS,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2040,26z-debug-noCO2Cap,MWh,36082401
+USENSYS,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2050,26z-debug-noCO2Cap,MWh,39355576
+USENSYS,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,1383474
+USENSYS,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,610302
+USENSYS,CASO,CASO_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,29655403
+USENSYS,CASO,CASO_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,38518157
+USENSYS,CASO,CASO_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,27463332
+USENSYS,CASO,CASO_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,1546122
+USENSYS,CASO,CASO_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,1074390
+USENSYS,CASO,CASO_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,214261
+USENSYS,CASO,CASO_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,126505
+USENSYS,CASO,CASO_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,86440
+USENSYS,CASO,CASO_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,50557
+USENSYS,CASO,CASO_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,58735413
+USENSYS,CASO,CASO_onshore_wind_turbine_1,Wind,2030,26z-debug-noCO2Cap,MWh,13867262
+USENSYS,CASO,CASO_onshore_wind_turbine_1,Wind,2040,26z-debug-noCO2Cap,MWh,12182192
+USENSYS,CASO,CASO_onshore_wind_turbine_1,Wind,2050,26z-debug-noCO2Cap,MWh,1463160
+USENSYS,CASO,CASO_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,136
+USENSYS,CASO,CASO_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,54
+USENSYS,CASO,CASO_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,639480
+USENSYS,CASO,CASO_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,639480
+USENSYS,CASO,CASO_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,630720
+USENSYS,CASO,CASO_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,31720600
+USENSYS,CASO,CASO_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,31627493
+USENSYS,CASO,CASO_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,14941196
+USENSYS,CASO,CASO_utilitypv_class1_moderate_0,Solar,2050,26z-debug-noCO2Cap,MWh,27366586
+USENSYS,CASO,CASO_utilitypv_class1_moderate_1,Solar,2040,26z-debug-noCO2Cap,MWh,24848890
+USENSYS,CASO,CASO_utilitypv_class1_moderate_1,Solar,2050,26z-debug-noCO2Cap,MWh,56490448
+USENSYS,CASO,CASO_utilitypv_class1_moderate_3,Solar,2040,26z-debug-noCO2Cap,MWh,42909700
+USENSYS,CASO,CASO_utilitypv_class1_moderate_3,Solar,2050,26z-debug-noCO2Cap,MWh,42909700
+USENSYS,CASO,CASO_utilitypv_class1_moderate_5,Solar,2030,26z-debug-noCO2Cap,MWh,372524
+USENSYS,CASO,CASO_utilitypv_class1_moderate_5,Solar,2040,26z-debug-noCO2Cap,MWh,8961975
+USENSYS,CASO,CASO_utilitypv_class1_moderate_5,Solar,2050,26z-debug-noCO2Cap,MWh,8961985
+USENSYS,FRCC,FRCC_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,5079404
+USENSYS,FRCC,FRCC_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,4766634
+USENSYS,FRCC,FRCC_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,4841942
+USENSYS,FRCC,FRCC_battery_moderate_0,Battery,2040,26z-debug-noCO2Cap,MWh,17
+USENSYS,FRCC,FRCC_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,52646141
+USENSYS,FRCC,FRCC_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,604440
+USENSYS,FRCC,FRCC_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,1087175
+USENSYS,FRCC,FRCC_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,220226
+USENSYS,FRCC,FRCC_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,1051200
+USENSYS,FRCC,FRCC_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,659
+USENSYS,FRCC,FRCC_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,502573
+USENSYS,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,385440
+USENSYS,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,385440
+USENSYS,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,385440
+USENSYS,FRCC,FRCC_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,32832480
+USENSYS,FRCC,FRCC_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,8743997
+USENSYS,FRCC,FRCC_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,3274340
+USENSYS,FRCC,FRCC_conventional_steam_coal_2,Coal,2030,26z-debug-noCO2Cap,MWh,9802440
+USENSYS,FRCC,FRCC_conventional_steam_coal_2,Coal,2040,26z-debug-noCO2Cap,MWh,25673051
+USENSYS,FRCC,FRCC_conventional_steam_coal_2,Coal,2050,26z-debug-noCO2Cap,MWh,3449400
+USENSYS,FRCC,FRCC_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,11201427
+USENSYS,FRCC,FRCC_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,13205008
+USENSYS,FRCC,FRCC_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,13387213
+USENSYS,FRCC,FRCC_landbasedwind_class3_moderate_1,Wind,2050,26z-debug-noCO2Cap,MWh,5245344
+USENSYS,FRCC,FRCC_landbasedwind_class3_moderate_2,Wind,2050,26z-debug-noCO2Cap,MWh,26691828
+USENSYS,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,4869
+USENSYS,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,150256753
+USENSYS,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,159234935
+USENSYS,FRCC,FRCC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,158846562
+USENSYS,FRCC,FRCC_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,853618
+USENSYS,FRCC,FRCC_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,1278359
+USENSYS,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,220878
+USENSYS,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,34005
+USENSYS,FRCC,FRCC_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,24518
+USENSYS,FRCC,FRCC_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,639156
+USENSYS,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,62222
+USENSYS,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,152049
+USENSYS,FRCC,FRCC_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,45006
+USENSYS,FRCC,FRCC_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,85652
+USENSYS,FRCC,FRCC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,1632826
+USENSYS,FRCC,FRCC_nuclear_1,Nuclear,2030,26z-debug-noCO2Cap,MWh,32736120
+USENSYS,FRCC,FRCC_nuclear_1,Nuclear,2040,26z-debug-noCO2Cap,MWh,32000965
+USENSYS,FRCC,FRCC_nuclear_1,Nuclear,2050,26z-debug-noCO2Cap,MWh,30013189
+USENSYS,FRCC,FRCC_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,52
+USENSYS,FRCC,FRCC_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,16213756
+USENSYS,FRCC,FRCC_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,16129958
+USENSYS,FRCC,FRCC_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,10071209
+USENSYS,FRCC,FRCC_utilitypv_class1_moderate_0,Solar,2050,26z-debug-noCO2Cap,MWh,36565739
+USENSYS,FRCC,FRCC_utilitypv_class1_moderate_2,Solar,2040,26z-debug-noCO2Cap,MWh,85794043
+USENSYS,FRCC,FRCC_utilitypv_class1_moderate_2,Solar,2050,26z-debug-noCO2Cap,MWh,109346706
+USENSYS,ISNE,ISNE_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,3381894
+USENSYS,ISNE,ISNE_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,3297294
+USENSYS,ISNE,ISNE_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,3299576
+USENSYS,ISNE,ISNE_battery_moderate_0,Battery,2040,26z-debug-noCO2Cap,MWh,75561
+USENSYS,ISNE,ISNE_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,41615830
+USENSYS,ISNE,ISNE_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,928560
+USENSYS,ISNE,ISNE_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,393083
+USENSYS,ISNE,ISNE_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,138855
+USENSYS,ISNE,ISNE_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,2080
+USENSYS,ISNE,ISNE_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,69876
+USENSYS,ISNE,ISNE_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,111972
+USENSYS,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,5194680
+USENSYS,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,4520160
+USENSYS,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,4073400
+USENSYS,ISNE,ISNE_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,8247917
+USENSYS,ISNE,ISNE_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,9302287
+USENSYS,ISNE,ISNE_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,9722332
+USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2030,26z-debug-noCO2Cap,MWh,48595872
+USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2040,26z-debug-noCO2Cap,MWh,47336488
+USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2050,26z-debug-noCO2Cap,MWh,45892458
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_0,Wind,2030,26z-debug-noCO2Cap,MWh,15514761
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_0,Wind,2040,26z-debug-noCO2Cap,MWh,15514761
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_0,Wind,2050,26z-debug-noCO2Cap,MWh,15514761
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2030,26z-debug-noCO2Cap,MWh,7074198
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2040,26z-debug-noCO2Cap,MWh,7074198
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2050,26z-debug-noCO2Cap,MWh,7074198
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_2,Wind,2040,26z-debug-noCO2Cap,MWh,14450213
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_2,Wind,2050,26z-debug-noCO2Cap,MWh,14450213
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_3,Wind,2040,26z-debug-noCO2Cap,MWh,12548045
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_3,Wind,2050,26z-debug-noCO2Cap,MWh,12548045
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_5,Wind,2050,26z-debug-noCO2Cap,MWh,3427436
+USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,526957
+USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,1977612
+USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,1591640
+USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,25098575
+USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,15587933
+USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,16289259
+USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,11755
+USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,15088
+USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,10584
+USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,41677
+USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,55799
+USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,45951
+USENSYS,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,2280
+USENSYS,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,20407
+USENSYS,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,38044
+USENSYS,ISNE,ISNE_natural_gas_steam_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,7068
+USENSYS,ISNE,ISNE_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,12201
+USENSYS,ISNE,ISNE_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,7194
+USENSYS,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,26z-debug-noCO2Cap,MWh,33054441
+USENSYS,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-debug-noCO2Cap,MWh,56723704
+USENSYS,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,59654990
+USENSYS,ISNE,ISNE_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,26z-debug-noCO2Cap,MWh,1421356
+USENSYS,ISNE,ISNE_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,1603418
+USENSYS,ISNE,ISNE_nuclear_1,Nuclear,2030,26z-debug-noCO2Cap,MWh,29328480
+USENSYS,ISNE,ISNE_nuclear_1,Nuclear,2040,26z-debug-noCO2Cap,MWh,28215981
+USENSYS,ISNE,ISNE_nuclear_1,Nuclear,2050,26z-debug-noCO2Cap,MWh,28150407
+USENSYS,ISNE,ISNE_onshore_wind_turbine_1,Wind,2030,26z-debug-noCO2Cap,MWh,2686102
+USENSYS,ISNE,ISNE_onshore_wind_turbine_1,Wind,2040,26z-debug-noCO2Cap,MWh,2160080
+USENSYS,ISNE,ISNE_onshore_wind_turbine_1,Wind,2050,26z-debug-noCO2Cap,MWh,69411
+USENSYS,ISNE,ISNE_petroleum_liquids_1,Other,2030,26z-debug-noCO2Cap,MWh,24492
+USENSYS,ISNE,ISNE_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,23783
+USENSYS,ISNE,ISNE_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,10976
+USENSYS,ISNE,ISNE_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,2225040
+USENSYS,ISNE,ISNE_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,1988520
+USENSYS,ISNE,ISNE_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,1734480
+USENSYS,ISNE,ISNE_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,4202915
+USENSYS,ISNE,ISNE_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,4198648
+USENSYS,ISNE,ISNE_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,1816592
+USENSYS,ISNE,ISNE_utilitypv_class1_moderate_0,Solar,2030,26z-debug-noCO2Cap,MWh,9126725
+USENSYS,ISNE,ISNE_utilitypv_class1_moderate_0,Solar,2040,26z-debug-noCO2Cap,MWh,35830165
+USENSYS,ISNE,ISNE_utilitypv_class1_moderate_0,Solar,2050,26z-debug-noCO2Cap,MWh,55131508
+USENSYS,MISC,MISC_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,253539
+USENSYS,MISC,MISC_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,237510
+USENSYS,MISC,MISC_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,249969
+USENSYS,MISC,MISC_battery_moderate_0,Battery,2040,26z-debug-noCO2Cap,MWh,7196
+USENSYS,MISC,MISC_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,454387
+USENSYS,MISC,MISC_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,674520
+USENSYS,MISC,MISC_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,630224
+USENSYS,MISC,MISC_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,434469
+USENSYS,MISC,MISC_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,10568
+USENSYS,MISC,MISC_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,7940
+USENSYS,MISC,MISC_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,404
+USENSYS,MISC,MISC_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,3933240
+USENSYS,MISC,MISC_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,2426520
+USENSYS,MISC,MISC_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,2426520
+USENSYS,MISC,MISC_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,36332409
+USENSYS,MISC,MISC_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,49664777
+USENSYS,MISC,MISC_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,16592619
+USENSYS,MISC,MISC_conventional_steam_coal_2,Coal,2030,26z-debug-noCO2Cap,MWh,90928800
+USENSYS,MISC,MISC_conventional_steam_coal_2,Coal,2040,26z-debug-noCO2Cap,MWh,7136498
+USENSYS,MISC,MISC_conventional_steam_coal_2,Coal,2050,26z-debug-noCO2Cap,MWh,4046594
+USENSYS,MISC,MISC_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,2589984
+USENSYS,MISC,MISC_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,5555899
+USENSYS,MISC,MISC_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,7480824
+USENSYS,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2030,26z-debug-noCO2Cap,MWh,20496918
+USENSYS,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2040,26z-debug-noCO2Cap,MWh,19273707
+USENSYS,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2050,26z-debug-noCO2Cap,MWh,20271863
+USENSYS,MISC,MISC_landbasedwind_class3_moderate_0,Wind,2040,26z-debug-noCO2Cap,MWh,94709371
+USENSYS,MISC,MISC_landbasedwind_class3_moderate_0,Wind,2050,26z-debug-noCO2Cap,MWh,96855458
+USENSYS,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,16439729
+USENSYS,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,15198246
+USENSYS,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,9701360
+USENSYS,MISC,MISC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,1958723
+USENSYS,MISC,MISC_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,1966104
+USENSYS,MISC,MISC_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,1110705
+USENSYS,MISC,MISC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,544289
+USENSYS,MISC,MISC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,2037952
+USENSYS,MISC,MISC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,175987
+USENSYS,MISC,MISC_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,138067
+USENSYS,MISC,MISC_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,952075
+USENSYS,MISC,MISC_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,704760
+USENSYS,MISC,MISC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,53769
+USENSYS,MISC,MISC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,59724
+USENSYS,MISC,MISC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,30295
+USENSYS,MISC,MISC_natural_gas_steam_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,118817
+USENSYS,MISC,MISC_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,36111
+USENSYS,MISC,MISC_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,56149
+USENSYS,MISC,MISC_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-debug-noCO2Cap,MWh,25807519
+USENSYS,MISC,MISC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,125759680
+USENSYS,MISC,MISC_nuclear_1,Nuclear,2030,26z-debug-noCO2Cap,MWh,20787480
+USENSYS,MISC,MISC_nuclear_1,Nuclear,2040,26z-debug-noCO2Cap,MWh,20164693
+USENSYS,MISC,MISC_nuclear_1,Nuclear,2050,26z-debug-noCO2Cap,MWh,20021365
+USENSYS,MISC,MISC_onshore_wind_turbine_1,Wind,2030,26z-debug-noCO2Cap,MWh,14528951
+USENSYS,MISC,MISC_onshore_wind_turbine_1,Wind,2040,26z-debug-noCO2Cap,MWh,12610014
+USENSYS,MISC,MISC_onshore_wind_turbine_1,Wind,2050,26z-debug-noCO2Cap,MWh,3539445
+USENSYS,MISC,MISC_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,2912
+USENSYS,MISC,MISC_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,756
+USENSYS,MISC,MISC_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,122640
+USENSYS,MISC,MISC_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,122640
+USENSYS,MISC,MISC_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,122640
+USENSYS,MISC,MISC_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,6519911
+USENSYS,MISC,MISC_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,6519911
+USENSYS,MISC,MISC_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,6073594
+USENSYS,MISC,MISC_utilitypv_class1_moderate_5,Solar,2040,26z-debug-noCO2Cap,MWh,55366152
+USENSYS,MISC,MISC_utilitypv_class1_moderate_5,Solar,2050,26z-debug-noCO2Cap,MWh,55366178
+USENSYS,MISE,MISE_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,8639
+USENSYS,MISE,MISE_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,8295
+USENSYS,MISE,MISE_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,8348
+USENSYS,MISE,MISE_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,25936
+USENSYS,MISE,MISE_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,508080
+USENSYS,MISE,MISE_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,280071
+USENSYS,MISE,MISE_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,104627
+USENSYS,MISE,MISE_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,534360
+USENSYS,MISE,MISE_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,347965
+USENSYS,MISE,MISE_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,129465
+USENSYS,MISE,MISE_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,27050880
+USENSYS,MISE,MISE_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,16936
+USENSYS,MISE,MISE_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,281480
+USENSYS,MISE,MISE_conventional_steam_coal_2,Coal,2030,26z-debug-noCO2Cap,MWh,525600
+USENSYS,MISE,MISE_conventional_steam_coal_2,Coal,2040,26z-debug-noCO2Cap,MWh,455786
+USENSYS,MISE,MISE_conventional_steam_coal_2,Coal,2050,26z-debug-noCO2Cap,MWh,8591
+USENSYS,MISE,MISE_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,1964193
+USENSYS,MISE,MISE_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,4658270
+USENSYS,MISE,MISE_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,5757134
+USENSYS,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2030,26z-debug-noCO2Cap,MWh,50900094
+USENSYS,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2040,26z-debug-noCO2Cap,MWh,48251286
+USENSYS,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2050,26z-debug-noCO2Cap,MWh,47116911
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_0,Wind,2040,26z-debug-noCO2Cap,MWh,4343772
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_0,Wind,2050,26z-debug-noCO2Cap,MWh,4343772
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2040,26z-debug-noCO2Cap,MWh,2654523
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2050,26z-debug-noCO2Cap,MWh,2654523
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_2,Wind,2040,26z-debug-noCO2Cap,MWh,3869071
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_2,Wind,2050,26z-debug-noCO2Cap,MWh,3869071
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_3,Wind,2040,26z-debug-noCO2Cap,MWh,2884618
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_3,Wind,2050,26z-debug-noCO2Cap,MWh,2884618
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_4,Wind,2040,26z-debug-noCO2Cap,MWh,4010431
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_4,Wind,2050,26z-debug-noCO2Cap,MWh,4010431
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_5,Wind,2050,26z-debug-noCO2Cap,MWh,2320395
+USENSYS,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,38843912
+USENSYS,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,1700742
+USENSYS,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,14058027
+USENSYS,MISE,MISE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,1070127
+USENSYS,MISE,MISE_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,28245128
+USENSYS,MISE,MISE_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,180
+USENSYS,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,1199202
+USENSYS,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,2604871
+USENSYS,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,706469
+USENSYS,MISE,MISE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,3345
+USENSYS,MISE,MISE_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,37711
+USENSYS,MISE,MISE_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,14883
+USENSYS,MISE,MISE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,7133
+USENSYS,MISE,MISE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,159156
+USENSYS,MISE,MISE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,51075
+USENSYS,MISE,MISE_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,848
+USENSYS,MISE,MISE_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,972
+USENSYS,MISE,MISE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-debug-noCO2Cap,MWh,10388412
+USENSYS,MISE,MISE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,54689932
+USENSYS,MISE,MISE_nuclear_1,Nuclear,2030,26z-debug-noCO2Cap,MWh,10170360
+USENSYS,MISE,MISE_nuclear_1,Nuclear,2040,26z-debug-noCO2Cap,MWh,9941033
+USENSYS,MISE,MISE_nuclear_1,Nuclear,2050,26z-debug-noCO2Cap,MWh,10067609
+USENSYS,MISE,MISE_onshore_wind_turbine_1,Wind,2030,26z-debug-noCO2Cap,MWh,8593240
+USENSYS,MISE,MISE_onshore_wind_turbine_1,Wind,2040,26z-debug-noCO2Cap,MWh,8169969
+USENSYS,MISE,MISE_onshore_wind_turbine_1,Wind,2050,26z-debug-noCO2Cap,MWh,2482129
+USENSYS,MISE,MISE_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,464
+USENSYS,MISE,MISE_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,899
+USENSYS,MISE,MISE_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,105120
+USENSYS,MISE,MISE_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,96360
+USENSYS,MISE,MISE_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,87600
+USENSYS,MISE,MISE_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,1968185
+USENSYS,MISE,MISE_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,1968185
+USENSYS,MISE,MISE_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,1628018
+USENSYS,MISE,MISE_utilitypv_class1_moderate_1,Solar,2040,26z-debug-noCO2Cap,MWh,28791409
+USENSYS,MISE,MISE_utilitypv_class1_moderate_1,Solar,2050,26z-debug-noCO2Cap,MWh,31787897
+USENSYS,MISE,MISE_utilitypv_class1_moderate_4,Solar,2040,26z-debug-noCO2Cap,MWh,15361675
+USENSYS,MISE,MISE_utilitypv_class1_moderate_4,Solar,2050,26z-debug-noCO2Cap,MWh,15361684
+USENSYS,MISS,MISS_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,138170
+USENSYS,MISS,MISS_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,129017
+USENSYS,MISS,MISS_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,126387
+USENSYS,MISS,MISS_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,8810638
+USENSYS,MISS,MISS_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,52560
+USENSYS,MISS,MISS_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,347309
+USENSYS,MISS,MISS_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,244286
+USENSYS,MISS,MISS_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,657000
+USENSYS,MISS,MISS_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,25938
+USENSYS,MISS,MISS_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,7884
+USENSYS,MISS,MISS_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,5107080
+USENSYS,MISS,MISS_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,4563960
+USENSYS,MISS,MISS_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,4563960
+USENSYS,MISS,MISS_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,44623440
+USENSYS,MISS,MISS_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,42372174
+USENSYS,MISS,MISS_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,5379819
+USENSYS,MISS,MISS_conventional_steam_coal_2,Coal,2030,26z-debug-noCO2Cap,MWh,8908683
+USENSYS,MISS,MISS_conventional_steam_coal_2,Coal,2040,26z-debug-noCO2Cap,MWh,7746095
+USENSYS,MISS,MISS_conventional_steam_coal_2,Coal,2050,26z-debug-noCO2Cap,MWh,6757405
+USENSYS,MISS,MISS_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,6236417
+USENSYS,MISS,MISS_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,8448512
+USENSYS,MISS,MISS_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,9158419
+USENSYS,MISS,MISS_landbasedwind_class3_moderate_0,Wind,2040,26z-debug-noCO2Cap,MWh,5970007
+USENSYS,MISS,MISS_landbasedwind_class3_moderate_0,Wind,2050,26z-debug-noCO2Cap,MWh,5970014
+USENSYS,MISS,MISS_landbasedwind_class3_moderate_1,Wind,2050,26z-debug-noCO2Cap,MWh,5748679
+USENSYS,MISS,MISS_landbasedwind_class3_moderate_2,Wind,2050,26z-debug-noCO2Cap,MWh,17086498
+USENSYS,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,76083802
+USENSYS,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,76204
+USENSYS,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,70434842
+USENSYS,MISS,MISS_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,78751167
+USENSYS,MISS,MISS_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,199458
+USENSYS,MISS,MISS_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,41457
+USENSYS,MISS,MISS_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,63154
+USENSYS,MISS,MISS_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,216399
+USENSYS,MISS,MISS_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,369770
+USENSYS,MISS,MISS_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,613205
+USENSYS,MISS,MISS_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,19650
+USENSYS,MISS,MISS_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,68647
+USENSYS,MISS,MISS_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,64570
+USENSYS,MISS,MISS_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,4378
+USENSYS,MISS,MISS_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,941
+USENSYS,MISS,MISS_natural_gas_steam_turbine_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,172235
+USENSYS,MISS,MISS_natural_gas_steam_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,195
+USENSYS,MISS,MISS_natural_gas_steam_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,7690
+USENSYS,MISS,MISS_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,32220076
+USENSYS,MISS,MISS_nuclear_1,Nuclear,2030,26z-debug-noCO2Cap,MWh,47531760
+USENSYS,MISS,MISS_nuclear_1,Nuclear,2040,26z-debug-noCO2Cap,MWh,47514567
+USENSYS,MISS,MISS_nuclear_1,Nuclear,2050,26z-debug-noCO2Cap,MWh,45474020
+USENSYS,MISS,MISS_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,117
+USENSYS,MISS,MISS_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,44
+USENSYS,MISS,MISS_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,26280
+USENSYS,MISS,MISS_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,26280
+USENSYS,MISS,MISS_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,26280
+USENSYS,MISS,MISS_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,3868712
+USENSYS,MISS,MISS_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,3868712
+USENSYS,MISS,MISS_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,3213930
+USENSYS,MISS,MISS_utilitypv_class1_moderate_0,Solar,2040,26z-debug-noCO2Cap,MWh,29320988
+USENSYS,MISS,MISS_utilitypv_class1_moderate_0,Solar,2050,26z-debug-noCO2Cap,MWh,57532277
+USENSYS,MISW,MISW_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,250095
+USENSYS,MISW,MISW_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,261059
+USENSYS,MISW,MISW_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,277826
+USENSYS,MISW,MISW_battery_moderate_0,Battery,2040,26z-debug-noCO2Cap,MWh,35539128
+USENSYS,MISW,MISW_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,56740712
+USENSYS,MISW,MISW_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,740012
+USENSYS,MISW,MISW_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,499832
+USENSYS,MISW,MISW_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,299394
+USENSYS,MISW,MISW_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,3646
+USENSYS,MISW,MISW_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,3668
+USENSYS,MISW,MISW_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,1053
+USENSYS,MISW,MISW_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,867240
+USENSYS,MISW,MISW_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,718320
+USENSYS,MISW,MISW_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,586920
+USENSYS,MISW,MISW_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,83250158
+USENSYS,MISW,MISW_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,10290
+USENSYS,MISW,MISW_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,8886
+USENSYS,MISW,MISW_conventional_steam_coal_2,Coal,2030,26z-debug-noCO2Cap,MWh,2600
+USENSYS,MISW,MISW_conventional_steam_coal_2,Coal,2040,26z-debug-noCO2Cap,MWh,56922912
+USENSYS,MISW,MISW_conventional_steam_coal_2,Coal,2050,26z-debug-noCO2Cap,MWh,21652957
+USENSYS,MISW,MISW_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,4383117
+USENSYS,MISW,MISW_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,7596916
+USENSYS,MISW,MISW_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,8340157
+USENSYS,MISW,MISW_landbasedwind_class3_moderate_0,Wind,2040,26z-debug-noCO2Cap,MWh,73648700
+USENSYS,MISW,MISW_landbasedwind_class3_moderate_0,Wind,2050,26z-debug-noCO2Cap,MWh,151395426
+USENSYS,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,2223053
+USENSYS,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,1976324
+USENSYS,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,1184461
+USENSYS,MISW,MISW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,28078022
+USENSYS,MISW,MISW_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,20225824
+USENSYS,MISW,MISW_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,11810391
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,4040
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,13818
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,760787
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,98880
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,2104654
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,263435
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,26z-debug-noCO2Cap,MWh,1936266
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,26z-debug-noCO2Cap,MWh,124059
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,26z-debug-noCO2Cap,MWh,12578
+USENSYS,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,931506
+USENSYS,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,874725
+USENSYS,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,517597
+USENSYS,MISW,MISW_natural_gas_steam_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,6108
+USENSYS,MISW,MISW_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,6640
+USENSYS,MISW,MISW_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,5586
+USENSYS,MISW,MISW_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-debug-noCO2Cap,MWh,55236483
+USENSYS,MISW,MISW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,123437109
+USENSYS,MISW,MISW_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,588
+USENSYS,MISW,MISW_nuclear_1,Nuclear,2030,26z-debug-noCO2Cap,MWh,25733921
+USENSYS,MISW,MISW_nuclear_1,Nuclear,2040,26z-debug-noCO2Cap,MWh,24419824
+USENSYS,MISW,MISW_nuclear_1,Nuclear,2050,26z-debug-noCO2Cap,MWh,18602805
+USENSYS,MISW,MISW_onshore_wind_turbine_1,Wind,2030,26z-debug-noCO2Cap,MWh,60226607
+USENSYS,MISW,MISW_onshore_wind_turbine_1,Wind,2040,26z-debug-noCO2Cap,MWh,41793697
+USENSYS,MISW,MISW_onshore_wind_turbine_1,Wind,2050,26z-debug-noCO2Cap,MWh,8963258
+USENSYS,MISW,MISW_petroleum_liquids_1,Other,2030,26z-debug-noCO2Cap,MWh,8896
+USENSYS,MISW,MISW_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,13624
+USENSYS,MISW,MISW_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,4094
+USENSYS,MISW,MISW_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,3679200
+USENSYS,MISW,MISW_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,3101040
+USENSYS,MISW,MISW_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,1927200
+USENSYS,MISW,MISW_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,5345014
+USENSYS,MISW,MISW_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,5345014
+USENSYS,MISW,MISW_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,3231503
+USENSYS,MISW,MISW_utilitypv_class1_moderate_5,Solar,2030,26z-debug-noCO2Cap,MWh,16354663
+USENSYS,MISW,MISW_utilitypv_class1_moderate_5,Solar,2040,26z-debug-noCO2Cap,MWh,46197962
+USENSYS,MISW,MISW_utilitypv_class1_moderate_5,Solar,2050,26z-debug-noCO2Cap,MWh,46197966
+USENSYS,NWPP,NWPP_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,1388845
+USENSYS,NWPP,NWPP_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,1324352
+USENSYS,NWPP,NWPP_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,1401181
+USENSYS,NWPP,NWPP_battery_moderate_0,Battery,2040,26z-debug-noCO2Cap,MWh,26760666
+USENSYS,NWPP,NWPP_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,54221719
+USENSYS,NWPP,NWPP_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,299969
+USENSYS,NWPP,NWPP_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,291126
+USENSYS,NWPP,NWPP_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,179714
+USENSYS,NWPP,NWPP_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,9915
+USENSYS,NWPP,NWPP_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,14746
+USENSYS,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,276220320
+USENSYS,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,271621320
+USENSYS,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,248486160
+USENSYS,NWPP,NWPP_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,340225
+USENSYS,NWPP,NWPP_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,765022
+USENSYS,NWPP,NWPP_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,974059
+USENSYS,NWPP,NWPP_conventional_steam_coal_2,Coal,2030,26z-debug-noCO2Cap,MWh,4608199
+USENSYS,NWPP,NWPP_conventional_steam_coal_2,Coal,2040,26z-debug-noCO2Cap,MWh,8712297
+USENSYS,NWPP,NWPP_conventional_steam_coal_2,Coal,2050,26z-debug-noCO2Cap,MWh,5303231
+USENSYS,NWPP,NWPP_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,3971619
+USENSYS,NWPP,NWPP_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,5617880
+USENSYS,NWPP,NWPP_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,5835597
+USENSYS,NWPP,NWPP_geothermal_1,Geothermal,2030,26z-debug-noCO2Cap,MWh,192720
+USENSYS,NWPP,NWPP_geothermal_1,Geothermal,2040,26z-debug-noCO2Cap,MWh,192720
+USENSYS,NWPP,NWPP_geothermal_1,Geothermal,2050,26z-debug-noCO2Cap,MWh,192720
+USENSYS,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2030,26z-debug-noCO2Cap,MWh,15039658
+USENSYS,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2040,26z-debug-noCO2Cap,MWh,14884983
+USENSYS,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2050,26z-debug-noCO2Cap,MWh,16094488
+USENSYS,NWPP,NWPP_landbasedwind_class3_moderate_0,Wind,2040,26z-debug-noCO2Cap,MWh,21223112
+USENSYS,NWPP,NWPP_landbasedwind_class3_moderate_0,Wind,2050,26z-debug-noCO2Cap,MWh,24511270
+USENSYS,NWPP,NWPP_landbasedwind_class3_moderate_1,Wind,2050,26z-debug-noCO2Cap,MWh,11445692
+USENSYS,NWPP,NWPP_landbasedwind_class3_moderate_2,Wind,2050,26z-debug-noCO2Cap,MWh,579484
+USENSYS,NWPP,NWPP_landbasedwind_class3_moderate_3,Wind,2050,26z-debug-noCO2Cap,MWh,19717934
+USENSYS,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,4691482
+USENSYS,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,4136035
+USENSYS,NWPP,NWPP_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,4686467
+USENSYS,NWPP,NWPP_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,4072171
+USENSYS,NWPP,NWPP_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,27182
+USENSYS,NWPP,NWPP_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,9768
+USENSYS,NWPP,NWPP_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,4962
+USENSYS,NWPP,NWPP_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,13210
+USENSYS,NWPP,NWPP_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,95978
+USENSYS,NWPP,NWPP_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,96035
+USENSYS,NWPP,NWPP_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,1306
+USENSYS,NWPP,NWPP_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,1168
+USENSYS,NWPP,NWPP_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,31756178
+USENSYS,NWPP,NWPP_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,22
+USENSYS,NWPP,NWPP_nuclear_1,Nuclear,2030,26z-debug-noCO2Cap,MWh,5899462
+USENSYS,NWPP,NWPP_nuclear_1,Nuclear,2040,26z-debug-noCO2Cap,MWh,8851723
+USENSYS,NWPP,NWPP_nuclear_1,Nuclear,2050,26z-debug-noCO2Cap,MWh,9053565
+USENSYS,NWPP,NWPP_onshore_wind_turbine_1,Wind,2030,26z-debug-noCO2Cap,MWh,20770671
+USENSYS,NWPP,NWPP_onshore_wind_turbine_1,Wind,2040,26z-debug-noCO2Cap,MWh,9765758
+USENSYS,NWPP,NWPP_onshore_wind_turbine_1,Wind,2050,26z-debug-noCO2Cap,MWh,1789209
+USENSYS,NWPP,NWPP_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,210
+USENSYS,NWPP,NWPP_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,44
+USENSYS,NWPP,NWPP_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,3661680
+USENSYS,NWPP,NWPP_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,3591600
+USENSYS,NWPP,NWPP_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,3539040
+USENSYS,NWPP,NWPP_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,3088391
+USENSYS,NWPP,NWPP_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,3087465
+USENSYS,NWPP,NWPP_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,1926099
+USENSYS,NWPP,NWPP_utilitypv_class1_moderate_3,Solar,2050,26z-debug-noCO2Cap,MWh,28064707
+USENSYS,NYCW,NYCW_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,513048
+USENSYS,NYCW,NYCW_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,512764
+USENSYS,NYCW,NYCW_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,521426
+USENSYS,NYCW,NYCW_battery_moderate_0,Battery,2030,26z-debug-noCO2Cap,MWh,102
+USENSYS,NYCW,NYCW_battery_moderate_0,Battery,2040,26z-debug-noCO2Cap,MWh,8988727
+USENSYS,NYCW,NYCW_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,30738369
+USENSYS,NYCW,NYCW_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,8760
+USENSYS,NYCW,NYCW_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,8760
+USENSYS,NYCW,NYCW_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,8760
+USENSYS,NYCW,NYCW_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,2437834
+USENSYS,NYCW,NYCW_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,3142967
+USENSYS,NYCW,NYCW_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,3948590
+USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,7731706
+USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,3986718
+USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,2993846
+USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,6096947
+USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,6630785
+USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,4497545
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,52968
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,106719
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,162622
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,402649
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,796657
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,436632
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,26z-debug-noCO2Cap,MWh,125774
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,26z-debug-noCO2Cap,MWh,233456
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,26z-debug-noCO2Cap,MWh,151218
+USENSYS,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,34768
+USENSYS,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,57299
+USENSYS,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,32884
+USENSYS,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,1954
+USENSYS,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,5289
+USENSYS,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,3386
+USENSYS,NYCW,NYCW_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-debug-noCO2Cap,MWh,59059868
+USENSYS,NYCW,NYCW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,70686256
+USENSYS,NYCW,NYCW_petroleum_liquids_1,Other,2030,26z-debug-noCO2Cap,MWh,8152
+USENSYS,NYCW,NYCW_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,9860
+USENSYS,NYCW,NYCW_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,1650
+USENSYS,NYCW,NYCW_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,255554
+USENSYS,NYCW,NYCW_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,255554
+USENSYS,NYCW,NYCW_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,43456
+USENSYS,NYCW,NYCW_utilitypv_class1_moderate_0,Solar,2040,26z-debug-noCO2Cap,MWh,9744
+USENSYS,NYCW,NYCW_utilitypv_class1_moderate_0,Solar,2050,26z-debug-noCO2Cap,MWh,9744
+USENSYS,NYUP,NYUP_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,1807757
+USENSYS,NYUP,NYUP_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,1764402
+USENSYS,NYUP,NYUP_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,1738393
+USENSYS,NYUP,NYUP_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,8608
+USENSYS,NYUP,NYUP_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,700800
+USENSYS,NYUP,NYUP_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,245280
+USENSYS,NYUP,NYUP_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,102467
+USENSYS,NYUP,NYUP_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,5682
+USENSYS,NYUP,NYUP_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,271560
+USENSYS,NYUP,NYUP_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,59437
+USENSYS,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,30160680
+USENSYS,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,30160680
+USENSYS,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,30125640
+USENSYS,NYUP,NYUP_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,1809276
+USENSYS,NYUP,NYUP_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,2331785
+USENSYS,NYUP,NYUP_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,2929898
+USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2030,26z-debug-noCO2Cap,MWh,45463182
+USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2040,26z-debug-noCO2Cap,MWh,43981507
+USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2050,26z-debug-noCO2Cap,MWh,41637131
+USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_0,Wind,2040,26z-debug-noCO2Cap,MWh,9535713
+USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_0,Wind,2050,26z-debug-noCO2Cap,MWh,9535779
+USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_2,Wind,2050,26z-debug-noCO2Cap,MWh,14588108
+USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,43062
+USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,639596
+USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,635933
+USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,29830656
+USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,21819006
+USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,19323229
+USENSYS,NYUP,NYUP_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,727
+USENSYS,NYUP,NYUP_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,670
+USENSYS,NYUP,NYUP_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,3337
+USENSYS,NYUP,NYUP_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,24138
+USENSYS,NYUP,NYUP_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,21220
+USENSYS,NYUP,NYUP_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,3325
+USENSYS,NYUP,NYUP_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,13759
+USENSYS,NYUP,NYUP_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,11181
+USENSYS,NYUP,NYUP_natural_gas_steam_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,8959
+USENSYS,NYUP,NYUP_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,40669
+USENSYS,NYUP,NYUP_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,15722
+USENSYS,NYUP,NYUP_nuclear_1,Nuclear,2030,26z-debug-noCO2Cap,MWh,29565000
+USENSYS,NYUP,NYUP_nuclear_1,Nuclear,2040,26z-debug-noCO2Cap,MWh,29565000
+USENSYS,NYUP,NYUP_nuclear_1,Nuclear,2050,26z-debug-noCO2Cap,MWh,18688597
+USENSYS,NYUP,NYUP_onshore_wind_turbine_1,Wind,2030,26z-debug-noCO2Cap,MWh,6431599
+USENSYS,NYUP,NYUP_onshore_wind_turbine_1,Wind,2040,26z-debug-noCO2Cap,MWh,4035382
+USENSYS,NYUP,NYUP_onshore_wind_turbine_1,Wind,2050,26z-debug-noCO2Cap,MWh,2676664
+USENSYS,NYUP,NYUP_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,1140
+USENSYS,NYUP,NYUP_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,703
+USENSYS,NYUP,NYUP_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,3302520
+USENSYS,NYUP,NYUP_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,3101040
+USENSYS,NYUP,NYUP_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,3004680
+USENSYS,NYUP,NYUP_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,2740897
+USENSYS,NYUP,NYUP_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,2740897
+USENSYS,NYUP,NYUP_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,1789364
+USENSYS,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2040,26z-debug-noCO2Cap,MWh,1751202
+USENSYS,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2050,26z-debug-noCO2Cap,MWh,14997099
+USENSYS,PJMC,PJMC_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,242663
+USENSYS,PJMC,PJMC_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,234471
+USENSYS,PJMC,PJMC_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,252419
+USENSYS,PJMC,PJMC_battery_moderate_0,Battery,2040,26z-debug-noCO2Cap,MWh,2882203
+USENSYS,PJMC,PJMC_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,30479608
+USENSYS,PJMC,PJMC_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,157680
+USENSYS,PJMC,PJMC_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,25223
+USENSYS,PJMC,PJMC_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,49233
+USENSYS,PJMC,PJMC_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,39771
+USENSYS,PJMC,PJMC_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,58974
+USENSYS,PJMC,PJMC_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,8240
+USENSYS,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,87600
+USENSYS,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,87600
+USENSYS,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,87600
+USENSYS,PJMC,PJMC_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,360159
+USENSYS,PJMC,PJMC_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,315413
+USENSYS,PJMC,PJMC_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,271625
+USENSYS,PJMC,PJMC_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,2907027
+USENSYS,PJMC,PJMC_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,3307465
+USENSYS,PJMC,PJMC_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,3221712
+USENSYS,PJMC,PJMC_landbasedwind_class3_moderate_0,Wind,2050,26z-debug-noCO2Cap,MWh,35953485
+USENSYS,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,30559080
+USENSYS,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,24090612
+USENSYS,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,16528865
+USENSYS,PJMC,PJMC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,6825
+USENSYS,PJMC,PJMC_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,28190
+USENSYS,PJMC,PJMC_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,20246
+USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,68998
+USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,5475923
+USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,36445
+USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,2950308
+USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,114206
+USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,2316758
+USENSYS,PJMC,PJMC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,194763
+USENSYS,PJMC,PJMC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,235437
+USENSYS,PJMC,PJMC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,120848
+USENSYS,PJMC,PJMC_natural_gas_steam_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,4126
+USENSYS,PJMC,PJMC_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,4578
+USENSYS,PJMC,PJMC_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,2575
+USENSYS,PJMC,PJMC_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-debug-noCO2Cap,MWh,607324
+USENSYS,PJMC,PJMC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,556512
+USENSYS,PJMC,PJMC_nuclear_1,Nuclear,2030,26z-debug-noCO2Cap,MWh,57080160
+USENSYS,PJMC,PJMC_nuclear_1,Nuclear,2040,26z-debug-noCO2Cap,MWh,56076405
+USENSYS,PJMC,PJMC_nuclear_1,Nuclear,2050,26z-debug-noCO2Cap,MWh,55467020
+USENSYS,PJMC,PJMC_onshore_wind_turbine_1,Wind,2030,26z-debug-noCO2Cap,MWh,10031129
+USENSYS,PJMC,PJMC_onshore_wind_turbine_1,Wind,2040,26z-debug-noCO2Cap,MWh,5714376
+USENSYS,PJMC,PJMC_onshore_wind_turbine_1,Wind,2050,26z-debug-noCO2Cap,MWh,1037933
+USENSYS,PJMC,PJMC_petroleum_liquids_1,Other,2030,26z-debug-noCO2Cap,MWh,550
+USENSYS,PJMC,PJMC_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,800
+USENSYS,PJMC,PJMC_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,748
+USENSYS,PJMC,PJMC_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,78840
+USENSYS,PJMC,PJMC_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,78840
+USENSYS,PJMC,PJMC_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,78840
+USENSYS,PJMC,PJMC_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,576389
+USENSYS,PJMC,PJMC_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,561282
+USENSYS,PJMC,PJMC_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,423785
+USENSYS,PJMC,PJMC_utilitypv_class1_moderate_2,Solar,2040,26z-debug-noCO2Cap,MWh,28583076
+USENSYS,PJMC,PJMC_utilitypv_class1_moderate_2,Solar,2050,26z-debug-noCO2Cap,MWh,35606088
+USENSYS,PJMD,PJMD_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,347348
+USENSYS,PJMD,PJMD_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,335807
+USENSYS,PJMD,PJMD_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,330462
+USENSYS,PJMD,PJMD_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,8242
+USENSYS,PJMD,PJMD_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,429240
+USENSYS,PJMD,PJMD_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,340002
+USENSYS,PJMD,PJMD_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,242052
+USENSYS,PJMD,PJMD_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,122640
+USENSYS,PJMD,PJMD_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,121929
+USENSYS,PJMD,PJMD_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,8675
+USENSYS,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,5369880
+USENSYS,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,5369880
+USENSYS,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,5369880
+USENSYS,PJMD,PJMD_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,23170
+USENSYS,PJMD,PJMD_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,69886
+USENSYS,PJMD,PJMD_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,26800
+USENSYS,PJMD,PJMD_conventional_steam_coal_2,Coal,2030,26z-debug-noCO2Cap,MWh,7717560
+USENSYS,PJMD,PJMD_conventional_steam_coal_2,Coal,2040,26z-debug-noCO2Cap,MWh,7636136
+USENSYS,PJMD,PJMD_conventional_steam_coal_2,Coal,2050,26z-debug-noCO2Cap,MWh,5545766
+USENSYS,PJMD,PJMD_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,3408576
+USENSYS,PJMD,PJMD_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,5374729
+USENSYS,PJMD,PJMD_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,6138605
+USENSYS,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2030,26z-debug-noCO2Cap,MWh,58007054
+USENSYS,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2040,26z-debug-noCO2Cap,MWh,56304735
+USENSYS,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2050,26z-debug-noCO2Cap,MWh,54067182
+USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_0,Wind,2050,26z-debug-noCO2Cap,MWh,1142761
+USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_1,Wind,2040,26z-debug-noCO2Cap,MWh,2731522
+USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_1,Wind,2050,26z-debug-noCO2Cap,MWh,2731526
+USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_2,Wind,2050,26z-debug-noCO2Cap,MWh,21676057
+USENSYS,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,14181260
+USENSYS,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,10693680
+USENSYS,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,3990478
+USENSYS,PJMD,PJMD_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,213993
+USENSYS,PJMD,PJMD_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,442982
+USENSYS,PJMD,PJMD_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,99128
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,43536
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,51545
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,141023
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,36526
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,26z-debug-noCO2Cap,MWh,3968
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,26z-debug-noCO2Cap,MWh,23920
+USENSYS,PJMD,PJMD_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,524
+USENSYS,PJMD,PJMD_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,956
+USENSYS,PJMD,PJMD_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,367
+USENSYS,PJMD,PJMD_natural_gas_steam_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,3420
+USENSYS,PJMD,PJMD_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,802
+USENSYS,PJMD,PJMD_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,336
+USENSYS,PJMD,PJMD_nuclear_1,Nuclear,2030,26z-debug-noCO2Cap,MWh,32482080
+USENSYS,PJMD,PJMD_nuclear_1,Nuclear,2040,26z-debug-noCO2Cap,MWh,32482072
+USENSYS,PJMD,PJMD_nuclear_1,Nuclear,2050,26z-debug-noCO2Cap,MWh,32376361
+USENSYS,PJMD,PJMD_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,385
+USENSYS,PJMD,PJMD_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,11
+USENSYS,PJMD,PJMD_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,35040
+USENSYS,PJMD,PJMD_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,35040
+USENSYS,PJMD,PJMD_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,35040
+USENSYS,PJMD,PJMD_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,8669505
+USENSYS,PJMD,PJMD_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,8669505
+USENSYS,PJMD,PJMD_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,4465690
+USENSYS,PJMD,PJMD_utilitypv_class1_moderate_4,Solar,2040,26z-debug-noCO2Cap,MWh,48122568
+USENSYS,PJMD,PJMD_utilitypv_class1_moderate_4,Solar,2050,26z-debug-noCO2Cap,MWh,68236841
+USENSYS,PJME,PJME_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,602810
+USENSYS,PJME,PJME_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,590609
+USENSYS,PJME,PJME_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,588141
+USENSYS,PJME,PJME_battery_moderate_0,Battery,2040,26z-debug-noCO2Cap,MWh,7687
+USENSYS,PJME,PJME_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,17404
+USENSYS,PJME,PJME_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,76387
+USENSYS,PJME,PJME_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,657000
+USENSYS,PJME,PJME_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,96360
+USENSYS,PJME,PJME_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,718320
+USENSYS,PJME,PJME_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,16389
+USENSYS,PJME,PJME_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,140160
+USENSYS,PJME,PJME_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,7113120
+USENSYS,PJME,PJME_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,5072040
+USENSYS,PJME,PJME_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,5072040
+USENSYS,PJME,PJME_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,75449880
+USENSYS,PJME,PJME_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,21411219
+USENSYS,PJME,PJME_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,437626
+USENSYS,PJME,PJME_conventional_steam_coal_2,Coal,2030,26z-debug-noCO2Cap,MWh,437895
+USENSYS,PJME,PJME_conventional_steam_coal_2,Coal,2040,26z-debug-noCO2Cap,MWh,439696
+USENSYS,PJME,PJME_conventional_steam_coal_2,Coal,2050,26z-debug-noCO2Cap,MWh,9424422
+USENSYS,PJME,PJME_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,15453979
+USENSYS,PJME,PJME_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,16308815
+USENSYS,PJME,PJME_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,16101508
+USENSYS,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2030,26z-debug-noCO2Cap,MWh,49928762
+USENSYS,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2040,26z-debug-noCO2Cap,MWh,50476029
+USENSYS,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2050,26z-debug-noCO2Cap,MWh,49929459
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_0,Wind,2040,26z-debug-noCO2Cap,MWh,2202692
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_0,Wind,2050,26z-debug-noCO2Cap,MWh,2202692
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2040,26z-debug-noCO2Cap,MWh,8263485
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2050,26z-debug-noCO2Cap,MWh,8263490
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_2,Wind,2050,26z-debug-noCO2Cap,MWh,3477081
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_3,Wind,2040,26z-debug-noCO2Cap,MWh,5046753
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_3,Wind,2050,26z-debug-noCO2Cap,MWh,5046762
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_4,Wind,2050,26z-debug-noCO2Cap,MWh,7374043
+USENSYS,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,426002
+USENSYS,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,4266484
+USENSYS,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,2211794
+USENSYS,PJME,PJME_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,159325043
+USENSYS,PJME,PJME_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,166237563
+USENSYS,PJME,PJME_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,115754510
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,101207
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,445927
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,101953
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,69910
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,262074
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,26z-debug-noCO2Cap,MWh,15018
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,26z-debug-noCO2Cap,MWh,169696
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,26z-debug-noCO2Cap,MWh,11497
+USENSYS,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,81440
+USENSYS,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,215110
+USENSYS,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,87006
+USENSYS,PJME,PJME_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,6850
+USENSYS,PJME,PJME_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,23969
+USENSYS,PJME,PJME_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-debug-noCO2Cap,MWh,98392426
+USENSYS,PJME,PJME_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,184058179
+USENSYS,PJME,PJME_nuclear_1,Nuclear,2030,26z-debug-noCO2Cap,MWh,111803880
+USENSYS,PJME,PJME_nuclear_1,Nuclear,2040,26z-debug-noCO2Cap,MWh,111803880
+USENSYS,PJME,PJME_nuclear_1,Nuclear,2050,26z-debug-noCO2Cap,MWh,111803880
+USENSYS,PJME,PJME_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,4792
+USENSYS,PJME,PJME_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,1248
+USENSYS,PJME,PJME_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,464280
+USENSYS,PJME,PJME_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,464280
+USENSYS,PJME,PJME_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,464280
+USENSYS,PJME,PJME_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,3511632
+USENSYS,PJME,PJME_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,3415152
+USENSYS,PJME,PJME_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,1245432
+USENSYS,PJME,PJME_utilitypv_class1_moderate_3,Solar,2050,26z-debug-noCO2Cap,MWh,15502881
+USENSYS,PJME,PJME_utilitypv_class1_moderate_5,Solar,2040,26z-debug-noCO2Cap,MWh,6996896
+USENSYS,PJME,PJME_utilitypv_class1_moderate_5,Solar,2050,26z-debug-noCO2Cap,MWh,7494703
+USENSYS,PJMW,PJMW_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,362411
+USENSYS,PJMW,PJMW_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,342575
+USENSYS,PJMW,PJMW_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,358331
+USENSYS,PJMW,PJMW_battery_moderate_0,Battery,2040,26z-debug-noCO2Cap,MWh,7338
+USENSYS,PJMW,PJMW_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,31732739
+USENSYS,PJMW,PJMW_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,166440
+USENSYS,PJMW,PJMW_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,60969
+USENSYS,PJMW,PJMW_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,60775
+USENSYS,PJMW,PJMW_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,61320
+USENSYS,PJMW,PJMW_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,156778
+USENSYS,PJMW,PJMW_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,43418
+USENSYS,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,7297080
+USENSYS,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,5483760
+USENSYS,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,5483760
+USENSYS,PJMW,PJMW_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,150426720
+USENSYS,PJMW,PJMW_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,22132494
+USENSYS,PJMW,PJMW_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,11206056
+USENSYS,PJMW,PJMW_conventional_steam_coal_2,Coal,2030,26z-debug-noCO2Cap,MWh,4818000
+USENSYS,PJMW,PJMW_conventional_steam_coal_2,Coal,2040,26z-debug-noCO2Cap,MWh,2163704
+USENSYS,PJMW,PJMW_conventional_steam_coal_2,Coal,2050,26z-debug-noCO2Cap,MWh,1575169
+USENSYS,PJMW,PJMW_conventional_steam_coal_3,Coal,2030,26z-debug-noCO2Cap,MWh,34064
+USENSYS,PJMW,PJMW_conventional_steam_coal_3,Coal,2040,26z-debug-noCO2Cap,MWh,22567408
+USENSYS,PJMW,PJMW_conventional_steam_coal_3,Coal,2050,26z-debug-noCO2Cap,MWh,1194212
+USENSYS,PJMW,PJMW_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,4670399
+USENSYS,PJMW,PJMW_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,10276810
+USENSYS,PJMW,PJMW_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,12954101
+USENSYS,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2030,26z-debug-noCO2Cap,MWh,13011512
+USENSYS,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2040,26z-debug-noCO2Cap,MWh,12065519
+USENSYS,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2050,26z-debug-noCO2Cap,MWh,12418587
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_0,Wind,2040,26z-debug-noCO2Cap,MWh,24195844
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_0,Wind,2050,26z-debug-noCO2Cap,MWh,24195849
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2030,26z-debug-noCO2Cap,MWh,11529237
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2040,26z-debug-noCO2Cap,MWh,11529262
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2050,26z-debug-noCO2Cap,MWh,11529269
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_2,Wind,2040,26z-debug-noCO2Cap,MWh,19237724
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_2,Wind,2050,26z-debug-noCO2Cap,MWh,19237724
+USENSYS,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,138882926
+USENSYS,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,121054435
+USENSYS,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,67503220
+USENSYS,PJMW,PJMW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,1464776
+USENSYS,PJMW,PJMW_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,779
+USENSYS,PJMW,PJMW_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,1015
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,73117
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,2900501
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,242220
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,55337
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,43061
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,26z-debug-noCO2Cap,MWh,10739
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,26z-debug-noCO2Cap,MWh,1091783
+USENSYS,PJMW,PJMW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,22296
+USENSYS,PJMW,PJMW_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,91959
+USENSYS,PJMW,PJMW_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,45280
+USENSYS,PJMW,PJMW_natural_gas_steam_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,38248
+USENSYS,PJMW,PJMW_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,69784
+USENSYS,PJMW,PJMW_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,32717
+USENSYS,PJMW,PJMW_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-debug-noCO2Cap,MWh,50787593
+USENSYS,PJMW,PJMW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,180719320
+USENSYS,PJMW,PJMW_nuclear_1,Nuclear,2030,26z-debug-noCO2Cap,MWh,55415760
+USENSYS,PJMW,PJMW_nuclear_1,Nuclear,2040,26z-debug-noCO2Cap,MWh,55330149
+USENSYS,PJMW,PJMW_nuclear_1,Nuclear,2050,26z-debug-noCO2Cap,MWh,55295145
+USENSYS,PJMW,PJMW_onshore_wind_turbine_1,Wind,2030,26z-debug-noCO2Cap,MWh,9257659
+USENSYS,PJMW,PJMW_onshore_wind_turbine_1,Wind,2040,26z-debug-noCO2Cap,MWh,5875311
+USENSYS,PJMW,PJMW_onshore_wind_turbine_1,Wind,2050,26z-debug-noCO2Cap,MWh,1678584
+USENSYS,PJMW,PJMW_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,1887
+USENSYS,PJMW,PJMW_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,1584
+USENSYS,PJMW,PJMW_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,1734480
+USENSYS,PJMW,PJMW_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,1340280
+USENSYS,PJMW,PJMW_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,1340280
+USENSYS,PJMW,PJMW_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,7091878
+USENSYS,PJMW,PJMW_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,7072718
+USENSYS,PJMW,PJMW_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,6473899
+USENSYS,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2040,26z-debug-noCO2Cap,MWh,23174901
+USENSYS,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2050,26z-debug-noCO2Cap,MWh,42875882
+USENSYS,PJMW,PJMW_utilitypv_class1_moderate_2,Solar,2040,26z-debug-noCO2Cap,MWh,6989999
+USENSYS,PJMW,PJMW_utilitypv_class1_moderate_2,Solar,2050,26z-debug-noCO2Cap,MWh,6990003
+USENSYS,PJMW,PJMW_utilitypv_class1_moderate_5,Solar,2040,26z-debug-noCO2Cap,MWh,22668625
+USENSYS,PJMW,PJMW_utilitypv_class1_moderate_5,Solar,2050,26z-debug-noCO2Cap,MWh,22668625
+USENSYS,RMRG,RMRG_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,1534588
+USENSYS,RMRG,RMRG_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,1400050
+USENSYS,RMRG,RMRG_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,1520585
+USENSYS,RMRG,RMRG_battery_moderate_0,Battery,2040,26z-debug-noCO2Cap,MWh,7149
+USENSYS,RMRG,RMRG_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,52184332
+USENSYS,RMRG,RMRG_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,43944
+USENSYS,RMRG,RMRG_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,33648
+USENSYS,RMRG,RMRG_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,22190
+USENSYS,RMRG,RMRG_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,26280
+USENSYS,RMRG,RMRG_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,14963
+USENSYS,RMRG,RMRG_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,6013
+USENSYS,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,6193320
+USENSYS,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,5746560
+USENSYS,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,5080800
+USENSYS,RMRG,RMRG_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,48854467
+USENSYS,RMRG,RMRG_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,3794247
+USENSYS,RMRG,RMRG_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,4796464
+USENSYS,RMRG,RMRG_conventional_steam_coal_2,Coal,2030,26z-debug-noCO2Cap,MWh,5840699
+USENSYS,RMRG,RMRG_conventional_steam_coal_2,Coal,2040,26z-debug-noCO2Cap,MWh,30260274
+USENSYS,RMRG,RMRG_conventional_steam_coal_2,Coal,2050,26z-debug-noCO2Cap,MWh,4922244
+USENSYS,RMRG,RMRG_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,2813290
+USENSYS,RMRG,RMRG_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,3978825
+USENSYS,RMRG,RMRG_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,4591626
+USENSYS,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2030,26z-debug-noCO2Cap,MWh,23406609
+USENSYS,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2040,26z-debug-noCO2Cap,MWh,22869183
+USENSYS,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2050,26z-debug-noCO2Cap,MWh,24916840
+USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2030,26z-debug-noCO2Cap,MWh,6942355
+USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2040,26z-debug-noCO2Cap,MWh,106684900
+USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2050,26z-debug-noCO2Cap,MWh,132724590
+USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_4,Wind,2050,26z-debug-noCO2Cap,MWh,23098177
+USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,25775
+USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,661223
+USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,373848
+USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,1642020
+USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,2077639
+USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,1288124
+USENSYS,RMRG,RMRG_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,102751
+USENSYS,RMRG,RMRG_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,99252
+USENSYS,RMRG,RMRG_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,4032
+USENSYS,RMRG,RMRG_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,2464
+USENSYS,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,10932
+USENSYS,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,138977
+USENSYS,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,66019
+USENSYS,RMRG,RMRG_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,2009
+USENSYS,RMRG,RMRG_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,127
+USENSYS,RMRG,RMRG_onshore_wind_turbine_1,Wind,2030,26z-debug-noCO2Cap,MWh,30916245
+USENSYS,RMRG,RMRG_onshore_wind_turbine_1,Wind,2040,26z-debug-noCO2Cap,MWh,23966743
+USENSYS,RMRG,RMRG_onshore_wind_turbine_1,Wind,2050,26z-debug-noCO2Cap,MWh,11570322
+USENSYS,RMRG,RMRG_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,168
+USENSYS,RMRG,RMRG_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,324
+USENSYS,RMRG,RMRG_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,884760
+USENSYS,RMRG,RMRG_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,858480
+USENSYS,RMRG,RMRG_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,744600
+USENSYS,RMRG,RMRG_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,5039701
+USENSYS,RMRG,RMRG_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,4953532
+USENSYS,RMRG,RMRG_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,3357681
+USENSYS,RMRG,RMRG_utilitypv_class1_moderate_2,Solar,2040,26z-debug-noCO2Cap,MWh,4168641
+USENSYS,RMRG,RMRG_utilitypv_class1_moderate_2,Solar,2050,26z-debug-noCO2Cap,MWh,44397965
+USENSYS,SPPC,SPPC_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,7033
+USENSYS,SPPC,SPPC_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,6659
+USENSYS,SPPC,SPPC_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,7765
+USENSYS,SPPC,SPPC_battery_moderate_0,Battery,2040,26z-debug-noCO2Cap,MWh,6856
+USENSYS,SPPC,SPPC_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,29345002
+USENSYS,SPPC,SPPC_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,26205
+USENSYS,SPPC,SPPC_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,23974
+USENSYS,SPPC,SPPC_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,13616
+USENSYS,SPPC,SPPC_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,78286
+USENSYS,SPPC,SPPC_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,70077
+USENSYS,SPPC,SPPC_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,6666
+USENSYS,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,455520
+USENSYS,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,455520
+USENSYS,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,455520
+USENSYS,SPPC,SPPC_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,39505905
+USENSYS,SPPC,SPPC_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,7841613
+USENSYS,SPPC,SPPC_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,6110495
+USENSYS,SPPC,SPPC_conventional_steam_coal_2,Coal,2030,26z-debug-noCO2Cap,MWh,17095042
+USENSYS,SPPC,SPPC_conventional_steam_coal_2,Coal,2040,26z-debug-noCO2Cap,MWh,29401199
+USENSYS,SPPC,SPPC_conventional_steam_coal_2,Coal,2050,26z-debug-noCO2Cap,MWh,1842185
+USENSYS,SPPC,SPPC_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,731575
+USENSYS,SPPC,SPPC_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,2035173
+USENSYS,SPPC,SPPC_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,3349894
+USENSYS,SPPC,SPPC_landbasedwind_class3_moderate_0,Wind,2040,26z-debug-noCO2Cap,MWh,26083445
+USENSYS,SPPC,SPPC_landbasedwind_class3_moderate_0,Wind,2050,26z-debug-noCO2Cap,MWh,70071310
+USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,1743530
+USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,2113796
+USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,1997395
+USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,158787
+USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,204917
+USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,157046
+USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,26691
+USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,87028
+USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,115881
+USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,16323
+USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,32745
+USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,26z-debug-noCO2Cap,MWh,12631
+USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,26z-debug-noCO2Cap,MWh,490
+USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,26z-debug-noCO2Cap,MWh,11224
+USENSYS,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,22467
+USENSYS,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,33876
+USENSYS,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,33811
+USENSYS,SPPC,SPPC_natural_gas_steam_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,4093
+USENSYS,SPPC,SPPC_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,4973
+USENSYS,SPPC,SPPC_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,4761
+USENSYS,SPPC,SPPC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,1826
+USENSYS,SPPC,SPPC_nuclear_1,Nuclear,2030,26z-debug-noCO2Cap,MWh,10981568
+USENSYS,SPPC,SPPC_nuclear_1,Nuclear,2040,26z-debug-noCO2Cap,MWh,10212721
+USENSYS,SPPC,SPPC_nuclear_1,Nuclear,2050,26z-debug-noCO2Cap,MWh,9213269
+USENSYS,SPPC,SPPC_onshore_wind_turbine_1,Wind,2030,26z-debug-noCO2Cap,MWh,20081064
+USENSYS,SPPC,SPPC_onshore_wind_turbine_1,Wind,2040,26z-debug-noCO2Cap,MWh,17881077
+USENSYS,SPPC,SPPC_onshore_wind_turbine_1,Wind,2050,26z-debug-noCO2Cap,MWh,4229816
+USENSYS,SPPC,SPPC_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,770
+USENSYS,SPPC,SPPC_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,880
+USENSYS,SPPC,SPPC_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,164704
+USENSYS,SPPC,SPPC_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,164704
+USENSYS,SPPC,SPPC_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,46048
+USENSYS,SPPC,SPPC_utilitypv_class1_moderate_5,Solar,2040,26z-debug-noCO2Cap,MWh,13902288
+USENSYS,SPPC,SPPC_utilitypv_class1_moderate_5,Solar,2050,26z-debug-noCO2Cap,MWh,13902302
+USENSYS,SPPN,SPPN_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,50812
+USENSYS,SPPN,SPPN_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,50505
+USENSYS,SPPN,SPPN_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,55274
+USENSYS,SPPN,SPPN_battery_moderate_0,Battery,2040,26z-debug-noCO2Cap,MWh,7308
+USENSYS,SPPN,SPPN_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,17125630
+USENSYS,SPPN,SPPN_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,60734
+USENSYS,SPPN,SPPN_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,53588
+USENSYS,SPPN,SPPN_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,41438
+USENSYS,SPPN,SPPN_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,139264
+USENSYS,SPPN,SPPN_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,102522
+USENSYS,SPPN,SPPN_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,55454
+USENSYS,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,21987600
+USENSYS,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,21593400
+USENSYS,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,20980200
+USENSYS,SPPN,SPPN_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,36054043
+USENSYS,SPPN,SPPN_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,26604640
+USENSYS,SPPN,SPPN_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,7491199
+USENSYS,SPPN,SPPN_conventional_steam_coal_2,Coal,2030,26z-debug-noCO2Cap,MWh,4170443
+USENSYS,SPPN,SPPN_conventional_steam_coal_2,Coal,2040,26z-debug-noCO2Cap,MWh,2538194
+USENSYS,SPPN,SPPN_conventional_steam_coal_2,Coal,2050,26z-debug-noCO2Cap,MWh,1003666
+USENSYS,SPPN,SPPN_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,546084
+USENSYS,SPPN,SPPN_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,996799
+USENSYS,SPPN,SPPN_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,1374629
+USENSYS,SPPN,SPPN_landbasedwind_class3_moderate_0,Wind,2050,26z-debug-noCO2Cap,MWh,28674812
+USENSYS,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,320142
+USENSYS,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,372471
+USENSYS,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,338132
+USENSYS,SPPN,SPPN_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,266754
+USENSYS,SPPN,SPPN_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,331074
+USENSYS,SPPN,SPPN_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,259778
+USENSYS,SPPN,SPPN_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,223493
+USENSYS,SPPN,SPPN_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,345915
+USENSYS,SPPN,SPPN_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,351008
+USENSYS,SPPN,SPPN_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,237
+USENSYS,SPPN,SPPN_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,440
+USENSYS,SPPN,SPPN_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,15314
+USENSYS,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,247040
+USENSYS,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,277843
+USENSYS,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,219874
+USENSYS,SPPN,SPPN_natural_gas_steam_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,5697
+USENSYS,SPPN,SPPN_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,6844
+USENSYS,SPPN,SPPN_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,5415
+USENSYS,SPPN,SPPN_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,3105
+USENSYS,SPPN,SPPN_nuclear_1,Nuclear,2030,26z-debug-noCO2Cap,MWh,6715797
+USENSYS,SPPN,SPPN_nuclear_1,Nuclear,2040,26z-debug-noCO2Cap,MWh,6202245
+USENSYS,SPPN,SPPN_nuclear_1,Nuclear,2050,26z-debug-noCO2Cap,MWh,5526688
+USENSYS,SPPN,SPPN_onshore_wind_turbine_1,Wind,2030,26z-debug-noCO2Cap,MWh,21753195
+USENSYS,SPPN,SPPN_onshore_wind_turbine_1,Wind,2040,26z-debug-noCO2Cap,MWh,19608072
+USENSYS,SPPN,SPPN_onshore_wind_turbine_1,Wind,2050,26z-debug-noCO2Cap,MWh,7363054
+USENSYS,SPPN,SPPN_petroleum_liquids_1,Other,2030,26z-debug-noCO2Cap,MWh,193
+USENSYS,SPPN,SPPN_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,256
+USENSYS,SPPN,SPPN_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,308
+USENSYS,SPPN,SPPN_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,543120
+USENSYS,SPPN,SPPN_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,385440
+USENSYS,SPPN,SPPN_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,214172
+USENSYS,SPPN,SPPN_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,214172
+USENSYS,SPPN,SPPN_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,160122
+USENSYS,SPPN,SPPN_utilitypv_class1_moderate_3,Solar,2040,26z-debug-noCO2Cap,MWh,10567452
+USENSYS,SPPN,SPPN_utilitypv_class1_moderate_3,Solar,2050,26z-debug-noCO2Cap,MWh,18101871
+USENSYS,SPPS,SPPS_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,1803766
+USENSYS,SPPS,SPPS_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,1716829
+USENSYS,SPPS,SPPS_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,1734279
+USENSYS,SPPS,SPPS_battery_moderate_0,Battery,2040,26z-debug-noCO2Cap,MWh,1145
+USENSYS,SPPS,SPPS_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,627115
+USENSYS,SPPS,SPPS_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,17258
+USENSYS,SPPS,SPPS_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,7696
+USENSYS,SPPS,SPPS_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,21
+USENSYS,SPPS,SPPS_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,104844
+USENSYS,SPPS,SPPS_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,93502
+USENSYS,SPPS,SPPS_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,83756
+USENSYS,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,17660160
+USENSYS,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,16924320
+USENSYS,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,15855600
+USENSYS,SPPS,SPPS_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,31104495
+USENSYS,SPPS,SPPS_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,14285843
+USENSYS,SPPS,SPPS_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,4378517
+USENSYS,SPPS,SPPS_conventional_steam_coal_2,Coal,2030,26z-debug-noCO2Cap,MWh,2366434
+USENSYS,SPPS,SPPS_conventional_steam_coal_2,Coal,2040,26z-debug-noCO2Cap,MWh,4838950
+USENSYS,SPPS,SPPS_conventional_steam_coal_2,Coal,2050,26z-debug-noCO2Cap,MWh,1598220
+USENSYS,SPPS,SPPS_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,3221769
+USENSYS,SPPS,SPPS_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,5860667
+USENSYS,SPPS,SPPS_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,7092914
+USENSYS,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2030,26z-debug-noCO2Cap,MWh,20778042
+USENSYS,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2040,26z-debug-noCO2Cap,MWh,20177073
+USENSYS,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2050,26z-debug-noCO2Cap,MWh,19856072
+USENSYS,SPPS,SPPS_landbasedwind_class3_moderate_0,Wind,2040,26z-debug-noCO2Cap,MWh,44538532
+USENSYS,SPPS,SPPS_landbasedwind_class3_moderate_0,Wind,2050,26z-debug-noCO2Cap,MWh,129403815
+USENSYS,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,1301843
+USENSYS,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,26314745
+USENSYS,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,1381943
+USENSYS,SPPS,SPPS_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,24097987
+USENSYS,SPPS,SPPS_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,1771635
+USENSYS,SPPS,SPPS_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,21606454
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,150932
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,29948
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,62638
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,511987
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,615847
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,26z-debug-noCO2Cap,MWh,34251
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,26z-debug-noCO2Cap,MWh,57680
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,26z-debug-noCO2Cap,MWh,76562
+USENSYS,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,141312
+USENSYS,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,241562
+USENSYS,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,211688
+USENSYS,SPPS,SPPS_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,11316963
+USENSYS,SPPS,SPPS_onshore_wind_turbine_1,Wind,2030,26z-debug-noCO2Cap,MWh,55539668
+USENSYS,SPPS,SPPS_onshore_wind_turbine_1,Wind,2040,26z-debug-noCO2Cap,MWh,48327856
+USENSYS,SPPS,SPPS_onshore_wind_turbine_1,Wind,2050,26z-debug-noCO2Cap,MWh,15946918
+USENSYS,SPPS,SPPS_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,96
+USENSYS,SPPS,SPPS_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,126
+USENSYS,SPPS,SPPS_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,350400
+USENSYS,SPPS,SPPS_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,350400
+USENSYS,SPPS,SPPS_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,271560
+USENSYS,SPPS,SPPS_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,742581
+USENSYS,SPPS,SPPS_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,742581
+USENSYS,SPPS,SPPS_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,141938
+USENSYS,SPPS,SPPS_utilitypv_class1_moderate_3,Solar,2040,26z-debug-noCO2Cap,MWh,16393942
+USENSYS,SPPS,SPPS_utilitypv_class1_moderate_3,Solar,2050,26z-debug-noCO2Cap,MWh,31601798
+USENSYS,SRCA,SRCA_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,1380374
+USENSYS,SRCA,SRCA_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,1336981
+USENSYS,SRCA,SRCA_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,1301681
+USENSYS,SRCA,SRCA_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,8153
+USENSYS,SRCA,SRCA_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,683280
+USENSYS,SRCA,SRCA_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,391218
+USENSYS,SRCA,SRCA_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,294376
+USENSYS,SRCA,SRCA_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,1443
+USENSYS,SRCA,SRCA_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,23964
+USENSYS,SRCA,SRCA_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,1314
+USENSYS,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,10704720
+USENSYS,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,10704720
+USENSYS,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,9031560
+USENSYS,SRCA,SRCA_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,69414624
+USENSYS,SRCA,SRCA_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,25616229
+USENSYS,SRCA,SRCA_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,13374735
+USENSYS,SRCA,SRCA_conventional_steam_coal_2,Coal,2030,26z-debug-noCO2Cap,MWh,18076943
+USENSYS,SRCA,SRCA_conventional_steam_coal_2,Coal,2040,26z-debug-noCO2Cap,MWh,9539575
+USENSYS,SRCA,SRCA_conventional_steam_coal_2,Coal,2050,26z-debug-noCO2Cap,MWh,6129979
+USENSYS,SRCA,SRCA_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,6248820
+USENSYS,SRCA,SRCA_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,10887623
+USENSYS,SRCA,SRCA_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,12626333
+USENSYS,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2030,26z-debug-noCO2Cap,MWh,59456922
+USENSYS,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2040,26z-debug-noCO2Cap,MWh,56876323
+USENSYS,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2050,26z-debug-noCO2Cap,MWh,53459548
+USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_0,Wind,2040,26z-debug-noCO2Cap,MWh,9764688
+USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_0,Wind,2050,26z-debug-noCO2Cap,MWh,9764688
+USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2040,26z-debug-noCO2Cap,MWh,985073
+USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2050,26z-debug-noCO2Cap,MWh,985084
+USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_2,Wind,2050,26z-debug-noCO2Cap,MWh,5559044
+USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_3,Wind,2050,26z-debug-noCO2Cap,MWh,3762763
+USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_5,Wind,2050,26z-debug-noCO2Cap,MWh,1660661
+USENSYS,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,6877842
+USENSYS,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,34551737
+USENSYS,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,17376050
+USENSYS,SRCA,SRCA_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,331162
+USENSYS,SRCA,SRCA_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,304307
+USENSYS,SRCA,SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,716232
+USENSYS,SRCA,SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,588261
+USENSYS,SRCA,SRCA_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,159814
+USENSYS,SRCA,SRCA_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,11448
+USENSYS,SRCA,SRCA_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,447715
+USENSYS,SRCA,SRCA_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,475
+USENSYS,SRCA,SRCA_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,49235192
+USENSYS,SRCA,SRCA_nuclear_1,Nuclear,2030,26z-debug-noCO2Cap,MWh,106039800
+USENSYS,SRCA,SRCA_nuclear_1,Nuclear,2040,26z-debug-noCO2Cap,MWh,105632839
+USENSYS,SRCA,SRCA_nuclear_1,Nuclear,2050,26z-debug-noCO2Cap,MWh,104261398
+USENSYS,SRCA,SRCA_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,672
+USENSYS,SRCA,SRCA_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,271560
+USENSYS,SRCA,SRCA_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,254040
+USENSYS,SRCA,SRCA_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,175200
+USENSYS,SRCA,SRCA_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,13272542
+USENSYS,SRCA,SRCA_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,13253869
+USENSYS,SRCA,SRCA_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,4748567
+USENSYS,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2040,26z-debug-noCO2Cap,MWh,31221990
+USENSYS,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2050,26z-debug-noCO2Cap,MWh,31221990
+USENSYS,SRCA,SRCA_utilitypv_class1_moderate_5,Solar,2040,26z-debug-noCO2Cap,MWh,23811097
+USENSYS,SRCA,SRCA_utilitypv_class1_moderate_5,Solar,2050,26z-debug-noCO2Cap,MWh,57594669
+USENSYS,SRCE,SRCE_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,1100480
+USENSYS,SRCE,SRCE_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,1025053
+USENSYS,SRCE,SRCE_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,1028471
+USENSYS,SRCE,SRCE_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,38285809
+USENSYS,SRCE,SRCE_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,131400
+USENSYS,SRCE,SRCE_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,60334
+USENSYS,SRCE,SRCE_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,56084
+USENSYS,SRCE,SRCE_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,949
+USENSYS,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,38885640
+USENSYS,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,34050120
+USENSYS,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,19061760
+USENSYS,SRCE,SRCE_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,19867680
+USENSYS,SRCE,SRCE_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,4077212
+USENSYS,SRCE,SRCE_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,7184056
+USENSYS,SRCE,SRCE_conventional_steam_coal_2,Coal,2030,26z-debug-noCO2Cap,MWh,47452920
+USENSYS,SRCE,SRCE_conventional_steam_coal_2,Coal,2040,26z-debug-noCO2Cap,MWh,30418373
+USENSYS,SRCE,SRCE_conventional_steam_coal_2,Coal,2050,26z-debug-noCO2Cap,MWh,6282017
+USENSYS,SRCE,SRCE_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,1489522
+USENSYS,SRCE,SRCE_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,4511507
+USENSYS,SRCE,SRCE_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,7595159
+USENSYS,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2030,26z-debug-noCO2Cap,MWh,48645302
+USENSYS,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2040,26z-debug-noCO2Cap,MWh,43906024
+USENSYS,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2050,26z-debug-noCO2Cap,MWh,40004066
+USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_0,Wind,2040,26z-debug-noCO2Cap,MWh,32146426
+USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_0,Wind,2050,26z-debug-noCO2Cap,MWh,58743107
+USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2040,26z-debug-noCO2Cap,MWh,19375470
+USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2050,26z-debug-noCO2Cap,MWh,19375470
+USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_2,Wind,2050,26z-debug-noCO2Cap,MWh,11428478
+USENSYS,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,42902976
+USENSYS,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,25792486
+USENSYS,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,16768614
+USENSYS,SRCE,SRCE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,1589039
+USENSYS,SRCE,SRCE_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,3238011
+USENSYS,SRCE,SRCE_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,2154540
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,52801
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,422746
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,80171
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,818151
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,25382
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,26z-debug-noCO2Cap,MWh,26615
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,26z-debug-noCO2Cap,MWh,26258
+USENSYS,SRCE,SRCE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,526
+USENSYS,SRCE,SRCE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,1455
+USENSYS,SRCE,SRCE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,1278
+USENSYS,SRCE,SRCE_natural_gas_steam_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,17164
+USENSYS,SRCE,SRCE_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,41103
+USENSYS,SRCE,SRCE_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,27301
+USENSYS,SRCE,SRCE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,22992431
+USENSYS,SRCE,SRCE_nuclear_1,Nuclear,2030,26z-debug-noCO2Cap,MWh,74827920
+USENSYS,SRCE,SRCE_nuclear_1,Nuclear,2040,26z-debug-noCO2Cap,MWh,74527796
+USENSYS,SRCE,SRCE_nuclear_1,Nuclear,2050,26z-debug-noCO2Cap,MWh,71122170
+USENSYS,SRCE,SRCE_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,92
+USENSYS,SRCE,SRCE_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,598
+USENSYS,SRCE,SRCE_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,402960
+USENSYS,SRCE,SRCE_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,359160
+USENSYS,SRCE,SRCE_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,245280
+USENSYS,SRCE,SRCE_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,3582097
+USENSYS,SRCE,SRCE_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,3582097
+USENSYS,SRCE,SRCE_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,3032525
+USENSYS,SRCE,SRCE_utilitypv_class1_moderate_2,Solar,2040,26z-debug-noCO2Cap,MWh,51533252
+USENSYS,SRCE,SRCE_utilitypv_class1_moderate_2,Solar,2050,26z-debug-noCO2Cap,MWh,96075207
+USENSYS,SRSE,SRSE_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,1417328
+USENSYS,SRSE,SRSE_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,1358903
+USENSYS,SRSE,SRSE_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,1336167
+USENSYS,SRSE,SRSE_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,34428748
+USENSYS,SRSE,SRSE_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,1340170
+USENSYS,SRSE,SRSE_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,953980
+USENSYS,SRSE,SRSE_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,1944720
+USENSYS,SRSE,SRSE_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,10869
+USENSYS,SRSE,SRSE_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,4767
+USENSYS,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,30046800
+USENSYS,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,29363520
+USENSYS,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,28540080
+USENSYS,SRSE,SRSE_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,83763120
+USENSYS,SRSE,SRSE_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,42284709
+USENSYS,SRSE,SRSE_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,5344553
+USENSYS,SRSE,SRSE_conventional_steam_coal_2,Coal,2030,26z-debug-noCO2Cap,MWh,238199
+USENSYS,SRSE,SRSE_conventional_steam_coal_2,Coal,2040,26z-debug-noCO2Cap,MWh,911526
+USENSYS,SRSE,SRSE_conventional_steam_coal_2,Coal,2050,26z-debug-noCO2Cap,MWh,10433735
+USENSYS,SRSE,SRSE_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,1872049
+USENSYS,SRSE,SRSE_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,4043173
+USENSYS,SRSE,SRSE_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,6070151
+USENSYS,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2030,26z-debug-noCO2Cap,MWh,52089729
+USENSYS,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2040,26z-debug-noCO2Cap,MWh,49466767
+USENSYS,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2050,26z-debug-noCO2Cap,MWh,45906334
+USENSYS,SRSE,SRSE_landbasedwind_class3_moderate_0,Wind,2050,26z-debug-noCO2Cap,MWh,10042
+USENSYS,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,31449099
+USENSYS,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,82615495
+USENSYS,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,70111900
+USENSYS,SRSE,SRSE_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,581644
+USENSYS,SRSE,SRSE_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,779851
+USENSYS,SRSE,SRSE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,171312
+USENSYS,SRSE,SRSE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,886347
+USENSYS,SRSE,SRSE_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,107640
+USENSYS,SRSE,SRSE_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,51730
+USENSYS,SRSE,SRSE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,7891
+USENSYS,SRSE,SRSE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,8623
+USENSYS,SRSE,SRSE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,35022961
+USENSYS,SRSE,SRSE_nuclear_1,Nuclear,2030,26z-debug-noCO2Cap,MWh,70596840
+USENSYS,SRSE,SRSE_nuclear_1,Nuclear,2040,26z-debug-noCO2Cap,MWh,70161201
+USENSYS,SRSE,SRSE_nuclear_1,Nuclear,2050,26z-debug-noCO2Cap,MWh,66640881
+USENSYS,SRSE,SRSE_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,115
+USENSYS,SRSE,SRSE_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,35040
+USENSYS,SRSE,SRSE_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,35040
+USENSYS,SRSE,SRSE_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,17520
+USENSYS,SRSE,SRSE_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,13107309
+USENSYS,SRSE,SRSE_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,13107309
+USENSYS,SRSE,SRSE_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,8359377
+USENSYS,SRSE,SRSE_utilitypv_class1_moderate_4,Solar,2040,26z-debug-noCO2Cap,MWh,80215750
+USENSYS,SRSE,SRSE_utilitypv_class1_moderate_4,Solar,2050,26z-debug-noCO2Cap,MWh,137385974
+USENSYS,SRSG,SRSG_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,13410605
+USENSYS,SRSG,SRSG_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,11534177
+USENSYS,SRSG,SRSG_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,11825210
+USENSYS,SRSG,SRSG_battery_moderate_0,Battery,2040,26z-debug-noCO2Cap,MWh,7280
+USENSYS,SRSG,SRSG_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,29581567
+USENSYS,SRSG,SRSG_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,87509
+USENSYS,SRSG,SRSG_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,161738
+USENSYS,SRSG,SRSG_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,13955
+USENSYS,SRSG,SRSG_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,176632
+USENSYS,SRSG,SRSG_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,21888
+USENSYS,SRSG,SRSG_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,49453
+USENSYS,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,24230160
+USENSYS,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,21356880
+USENSYS,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,16915560
+USENSYS,SRSG,SRSG_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,29563891
+USENSYS,SRSG,SRSG_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,11363656
+USENSYS,SRSG,SRSG_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,5721060
+USENSYS,SRSG,SRSG_conventional_steam_coal_2,Coal,2030,26z-debug-noCO2Cap,MWh,5971819
+USENSYS,SRSG,SRSG_conventional_steam_coal_2,Coal,2040,26z-debug-noCO2Cap,MWh,3005068
+USENSYS,SRSG,SRSG_conventional_steam_coal_2,Coal,2050,26z-debug-noCO2Cap,MWh,2819710
+USENSYS,SRSG,SRSG_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,6148894
+USENSYS,SRSG,SRSG_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,7278849
+USENSYS,SRSG,SRSG_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,6893506
+USENSYS,SRSG,SRSG_geothermal_1,Geothermal,2030,26z-debug-noCO2Cap,MWh,1243920
+USENSYS,SRSG,SRSG_geothermal_1,Geothermal,2040,26z-debug-noCO2Cap,MWh,569400
+USENSYS,SRSG,SRSG_geothermal_1,Geothermal,2050,26z-debug-noCO2Cap,MWh,175200
+USENSYS,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2030,26z-debug-noCO2Cap,MWh,11251042
+USENSYS,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2040,26z-debug-noCO2Cap,MWh,9689265
+USENSYS,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2050,26z-debug-noCO2Cap,MWh,9974623
+USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_0,Wind,2040,26z-debug-noCO2Cap,MWh,33345182
+USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_0,Wind,2050,26z-debug-noCO2Cap,MWh,33345182
+USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_1,Wind,2030,26z-debug-noCO2Cap,MWh,24057596
+USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_1,Wind,2040,26z-debug-noCO2Cap,MWh,24057596
+USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_1,Wind,2050,26z-debug-noCO2Cap,MWh,24057606
+USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_2,Wind,2050,26z-debug-noCO2Cap,MWh,24815474
+USENSYS,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,5566491
+USENSYS,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,16334275
+USENSYS,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,13340130
+USENSYS,SRSG,SRSG_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,1910202
+USENSYS,SRSG,SRSG_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,591905
+USENSYS,SRSG,SRSG_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,599660
+USENSYS,SRSG,SRSG_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,342184
+USENSYS,SRSG,SRSG_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,392358
+USENSYS,SRSG,SRSG_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,44934
+USENSYS,SRSG,SRSG_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,52890
+USENSYS,SRSG,SRSG_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,19057
+USENSYS,SRSG,SRSG_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,13196
+USENSYS,SRSG,SRSG_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,18338
+USENSYS,SRSG,SRSG_nuclear_1,Nuclear,2030,26z-debug-noCO2Cap,MWh,35066280
+USENSYS,SRSG,SRSG_nuclear_1,Nuclear,2040,26z-debug-noCO2Cap,MWh,31150121
+USENSYS,SRSG,SRSG_nuclear_1,Nuclear,2050,26z-debug-noCO2Cap,MWh,29753197
+USENSYS,SRSG,SRSG_onshore_wind_turbine_1,Wind,2030,26z-debug-noCO2Cap,MWh,11270429
+USENSYS,SRSG,SRSG_onshore_wind_turbine_1,Wind,2040,26z-debug-noCO2Cap,MWh,9628615
+USENSYS,SRSG,SRSG_onshore_wind_turbine_1,Wind,2050,26z-debug-noCO2Cap,MWh,5269293
+USENSYS,SRSG,SRSG_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,543120
+USENSYS,SRSG,SRSG_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,455520
+USENSYS,SRSG,SRSG_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,376680
+USENSYS,SRSG,SRSG_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,16504223
+USENSYS,SRSG,SRSG_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,16398099
+USENSYS,SRSG,SRSG_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,6896549
+USENSYS,SRSG,SRSG_utilitypv_class1_moderate_5,Solar,2040,26z-debug-noCO2Cap,MWh,38580031
+USENSYS,SRSG,SRSG_utilitypv_class1_moderate_5,Solar,2050,26z-debug-noCO2Cap,MWh,71421523
+USENSYS,TRE_WEST,TRE_WEST_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,13050168
+USENSYS,TRE_WEST,TRE_WEST_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,11999892
+USENSYS,TRE_WEST,TRE_WEST_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,12154213
+USENSYS,TRE_WEST,TRE_WEST_battery_moderate_0,Battery,2040,26z-debug-noCO2Cap,MWh,7665
+USENSYS,TRE_WEST,TRE_WEST_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,84980
+USENSYS,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,643925
+USENSYS,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,948297
+USENSYS,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,1088715
+USENSYS,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_4,Wind,2050,26z-debug-noCO2Cap,MWh,48133578
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,19852081
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,15933578
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,11668536
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,27517
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,36160
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,26201
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,15782
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,34195
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,4665
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,8417
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,5913
+USENSYS,TRE_WEST,TRE_WEST_onshore_wind_turbine_1,Wind,2030,26z-debug-noCO2Cap,MWh,77737030
+USENSYS,TRE_WEST,TRE_WEST_onshore_wind_turbine_1,Wind,2040,26z-debug-noCO2Cap,MWh,55002057
+USENSYS,TRE_WEST,TRE_WEST_onshore_wind_turbine_1,Wind,2050,26z-debug-noCO2Cap,MWh,20302009
+USENSYS,TRE_WEST,TRE_WEST_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,702
+USENSYS,TRE_WEST,TRE_WEST_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,1188
+USENSYS,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,21072499
+USENSYS,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,21072499
+USENSYS,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,12640642
+USENSYS,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_5,Solar,2040,26z-debug-noCO2Cap,MWh,17265610
+USENSYS,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_5,Solar,2050,26z-debug-noCO2Cap,MWh,24599704
+USENSYS,TRE,TRE_batteries_1,Battery,2030,26z-debug-noCO2Cap,MWh,16633606
+USENSYS,TRE,TRE_batteries_1,Battery,2040,26z-debug-noCO2Cap,MWh,15380261
+USENSYS,TRE,TRE_batteries_1,Battery,2050,26z-debug-noCO2Cap,MWh,15949709
+USENSYS,TRE,TRE_battery_moderate_0,Battery,2040,26z-debug-noCO2Cap,MWh,9530
+USENSYS,TRE,TRE_battery_moderate_0,Battery,2050,26z-debug-noCO2Cap,MWh,46077901
+USENSYS,TRE,TRE_biomass_1,Biomass,2030,26z-debug-noCO2Cap,MWh,76866
+USENSYS,TRE,TRE_biomass_1,Biomass,2040,26z-debug-noCO2Cap,MWh,65753
+USENSYS,TRE,TRE_biomass_1,Biomass,2050,26z-debug-noCO2Cap,MWh,26853
+USENSYS,TRE,TRE_biomass_2,Biomass,2030,26z-debug-noCO2Cap,MWh,139678
+USENSYS,TRE,TRE_biomass_2,Biomass,2040,26z-debug-noCO2Cap,MWh,113773
+USENSYS,TRE,TRE_biomass_2,Biomass,2050,26z-debug-noCO2Cap,MWh,96359
+USENSYS,TRE,TRE_conventional_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,4196040
+USENSYS,TRE,TRE_conventional_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,3854400
+USENSYS,TRE,TRE_conventional_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,1962240
+USENSYS,TRE,TRE_conventional_steam_coal_1,Coal,2030,26z-debug-noCO2Cap,MWh,42006202
+USENSYS,TRE,TRE_conventional_steam_coal_1,Coal,2040,26z-debug-noCO2Cap,MWh,34889651
+USENSYS,TRE,TRE_conventional_steam_coal_1,Coal,2050,26z-debug-noCO2Cap,MWh,25157604
+USENSYS,TRE,TRE_conventional_steam_coal_2,Coal,2030,26z-debug-noCO2Cap,MWh,46623722
+USENSYS,TRE,TRE_conventional_steam_coal_2,Coal,2040,26z-debug-noCO2Cap,MWh,37872322
+USENSYS,TRE,TRE_conventional_steam_coal_2,Coal,2050,26z-debug-noCO2Cap,MWh,5296759
+USENSYS,TRE,TRE_distributed_generation_1,Distributed Solar,2030,26z-debug-noCO2Cap,MWh,11843605
+USENSYS,TRE,TRE_distributed_generation_1,Distributed Solar,2040,26z-debug-noCO2Cap,MWh,17484164
+USENSYS,TRE,TRE_distributed_generation_1,Distributed Solar,2050,26z-debug-noCO2Cap,MWh,20035743
+USENSYS,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2030,26z-debug-noCO2Cap,MWh,52076337
+USENSYS,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2040,26z-debug-noCO2Cap,MWh,163018552
+USENSYS,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2050,26z-debug-noCO2Cap,MWh,230002327
+USENSYS,TRE,TRE_landbasedwind_class3_moderate_4,Wind,2040,26z-debug-noCO2Cap,MWh,5934375
+USENSYS,TRE,TRE_landbasedwind_class3_moderate_4,Wind,2050,26z-debug-noCO2Cap,MWh,14539649
+USENSYS,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,95552353
+USENSYS,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,3767296
+USENSYS,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,66314703
+USENSYS,TRE,TRE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,1630464
+USENSYS,TRE,TRE_natural_gas_fired_combined_cycle_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,88226476
+USENSYS,TRE,TRE_natural_gas_fired_combined_cycle_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,2277081
+USENSYS,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,123022
+USENSYS,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,1247461
+USENSYS,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,35924
+USENSYS,TRE,TRE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-debug-noCO2Cap,MWh,63529
+USENSYS,TRE,TRE_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,26z-debug-noCO2Cap,MWh,66278
+USENSYS,TRE,TRE_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,26z-debug-noCO2Cap,MWh,1378968
+USENSYS,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,433291
+USENSYS,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,809811
+USENSYS,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,614733
+USENSYS,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2030,26z-debug-noCO2Cap,MWh,32317
+USENSYS,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2040,26z-debug-noCO2Cap,MWh,110664
+USENSYS,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2050,26z-debug-noCO2Cap,MWh,43280
+USENSYS,TRE,TRE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-debug-noCO2Cap,MWh,75067238
+USENSYS,TRE,TRE_nuclear_1,Nuclear,2030,26z-debug-noCO2Cap,MWh,44347077
+USENSYS,TRE,TRE_nuclear_1,Nuclear,2040,26z-debug-noCO2Cap,MWh,38949587
+USENSYS,TRE,TRE_nuclear_1,Nuclear,2050,26z-debug-noCO2Cap,MWh,36270202
+USENSYS,TRE,TRE_onshore_wind_turbine_1,Wind,2030,26z-debug-noCO2Cap,MWh,28532878
+USENSYS,TRE,TRE_onshore_wind_turbine_1,Wind,2040,26z-debug-noCO2Cap,MWh,24987571
+USENSYS,TRE,TRE_onshore_wind_turbine_1,Wind,2050,26z-debug-noCO2Cap,MWh,8760395
+USENSYS,TRE,TRE_petroleum_liquids_1,Other,2040,26z-debug-noCO2Cap,MWh,1785
+USENSYS,TRE,TRE_petroleum_liquids_1,Other,2050,26z-debug-noCO2Cap,MWh,2486
+USENSYS,TRE,TRE_small_hydroelectric_1,Hydro,2030,26z-debug-noCO2Cap,MWh,175200
+USENSYS,TRE,TRE_small_hydroelectric_1,Hydro,2040,26z-debug-noCO2Cap,MWh,35040
+USENSYS,TRE,TRE_small_hydroelectric_1,Hydro,2050,26z-debug-noCO2Cap,MWh,35040
+USENSYS,TRE,TRE_solar_photovoltaic_1,Solar,2030,26z-debug-noCO2Cap,MWh,23862623
+USENSYS,TRE,TRE_solar_photovoltaic_1,Solar,2040,26z-debug-noCO2Cap,MWh,23836777
+USENSYS,TRE,TRE_solar_photovoltaic_1,Solar,2050,26z-debug-noCO2Cap,MWh,22132085
+USENSYS,TRE,TRE_utilitypv_class1_moderate_5,Solar,2040,26z-debug-noCO2Cap,MWh,46203703
+USENSYS,TRE,TRE_utilitypv_class1_moderate_5,Solar,2050,26z-debug-noCO2Cap,MWh,88569276
