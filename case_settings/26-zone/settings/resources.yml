@@ -311,6 +311,12 @@ atb_modifiers:
   ngccccs:
     technology: NaturalGas
     tech_detail: CCCCSAvgCF
+  h2ct:
+    technology: Hydrogen
+    tech_detail: CTAvgCF
+  h2cc:
+    technology: Hydrogen
+    tech_detail: CCAvgCF
 
 
 # Copy and modify an existing ATB new generator. This takes place BEFORE any modifers to
