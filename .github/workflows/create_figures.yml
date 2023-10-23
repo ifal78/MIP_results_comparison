@@ -83,7 +83,7 @@ jobs:
       - name: Add changes
         if: steps.git-check.outputs.modified == 'true'
         run: |
-          git pull
+          git pull --rebase
           git add .
           git commit -m "Update figures"
           echo "Commit done"
