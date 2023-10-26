@@ -7442,7 +7442,7 @@ TRE_solar_photovoltaic_1,TRE,Solar,SWITCH,2040,base_thin,MW,3974.4,3974.4
 TRE_utilitypv_class1_moderate_1,TRE,Solar,SWITCH,2040,base_thin,MW,19626.86511193402,19626.86511193402
 TRE_utilitypv_class1_moderate_1,TRE,Solar,SWITCH,2040,base_thin,MW,23335.86917606331,23335.86917606331
 BASN_battery_moderate_0,BASN,Battery,SWITCH,2050,base_thin,MW,1606.0977239811496,1606.0977239811496
-BASN_battery_moderate_0,BASN,Battery,SWITCH,2050,base_thin,MW,21672.955309277026,21672.955309277026
+BASN_battery_moderate_0,BASN,Battery,SWITCH,2050,base_thin,MW,9341.004988657747,9341.004988657747
 BASN_biomass_1,BASN,Other,SWITCH,2050,base_thin,MW,3.6,3.6
 BASN_biomass_1,BASN,Other,SWITCH,2050,base_thin,MW,1.8,1.8
 BASN_biomass_1,BASN,Other,SWITCH,2050,base_thin,MW,13.4,13.4
@@ -7472,6 +7472,7 @@ BASN_geothermal_1,BASN,Geothermal,SWITCH,2050,base_thin,MW,24.8,24.8
 BASN_geothermal_1,BASN,Geothermal,SWITCH,2050,base_thin,MW,47.4,47.4
 BASN_geothermal_1,BASN,Geothermal,SWITCH,2050,base_thin,MW,37.0,37.0
 BASN_landbasedwind_class3_moderate_1,BASN,Wind,SWITCH,2050,base_thin,MW,20385.231458439404,20385.231458439404
+BASN_landbasedwind_class3_moderate_1,BASN,Wind,SWITCH,2050,base_thin,MW,28478.047244330777,28478.047244330777
 BASN_natural_gas_fired_combined_cycle_1,BASN,Natural Gas,SWITCH,2050,base_thin,MW,162.0,162.0
 BASN_natural_gas_fired_combined_cycle_1,BASN,Natural Gas,SWITCH,2050,base_thin,MW,81.0,81.0
 BASN_natural_gas_fired_combined_cycle_1,BASN,Natural Gas,SWITCH,2050,base_thin,MW,81.0,81.0
@@ -7552,7 +7553,8 @@ BASN_solar_photovoltaic_1,BASN,Solar,SWITCH,2050,base_thin,MW,1688.9,1688.9
 BASN_solar_photovoltaic_1,BASN,Solar,SWITCH,2050,base_thin,MW,566.0,566.0
 BASN_solar_photovoltaic_1,BASN,Solar,SWITCH,2050,base_thin,MW,663.0,663.0
 BASN_utilitypv_class1_moderate_1,BASN,Solar,SWITCH,2050,base_thin,MW,7857.1913021044575,7857.1913021044575
-BASN_utilitypv_class1_moderate_1,BASN,Solar,SWITCH,2050,base_thin,MW,56847.680241283575,56847.680241283575
+BASN_utilitypv_class1_moderate_1,BASN,Solar,SWITCH,2050,base_thin,MW,18890.383605418487,18890.383605418487
+CANO_battery_moderate_0,CANO,Battery,SWITCH,2050,base_thin,MW,4804.38887010164,4804.38887010164
 CANO_biomass_1,CANO,Other,SWITCH,2050,base_thin,MW,1.9,1.9
 CANO_biomass_1,CANO,Other,SWITCH,2050,base_thin,MW,16.9,16.9
 CANO_biomass_1,CANO,Other,SWITCH,2050,base_thin,MW,21.0,21.0
@@ -7638,7 +7640,7 @@ CANO_natural_gas_internal_combustion_engine_1,CANO,Natural Gas,SWITCH,2050,base_
 CANO_natural_gas_internal_combustion_engine_1,CANO,Natural Gas,SWITCH,2050,base_thin,MW,65.5,65.5
 CANO_natural_gas_internal_combustion_engine_1,CANO,Natural Gas,SWITCH,2050,base_thin,MW,94.8,94.8
 CANO_naturalgas_ccccsavgcf_conservative_0,CANO,CCS,SWITCH,2050,base_thin,MW,5980.645163980153,5980.645163980153
-CANO_naturalgas_ccccsavgcf_conservative_0,CANO,CCS,SWITCH,2050,base_thin,MW,891.6750160505538,891.6750160505538
+CANO_naturalgas_ccccsavgcf_conservative_0,CANO,CCS,SWITCH,2050,base_thin,MW,1241.3771052393722,1241.3771052393722
 CANO_onshore_wind_turbine_1,CANO,Wind,SWITCH,2050,base_thin,MW,56.2,56.2
 CANO_onshore_wind_turbine_1,CANO,Wind,SWITCH,2050,base_thin,MW,5.6,5.6
 CANO_petroleum_liquids_1,CANO,Other,SWITCH,2050,base_thin,MW,45.0,45.0
@@ -7676,9 +7678,9 @@ CANO_solar_photovoltaic_1,CANO,Solar,SWITCH,2050,base_thin,MW,297.5,297.5
 CANO_solar_photovoltaic_1,CANO,Solar,SWITCH,2050,base_thin,MW,610.1,610.1
 CANO_solar_photovoltaic_1,CANO,Solar,SWITCH,2050,base_thin,MW,1050.3,1050.3
 CANO_utilitypv_class1_moderate_1,CANO,Solar,SWITCH,2050,base_thin,MW,5404.621784182287,5404.621784182287
-CANO_utilitypv_class1_moderate_1,CANO,Solar,SWITCH,2050,base_thin,MW,32797.89742182018,32797.89742182018
+CANO_utilitypv_class1_moderate_1,CANO,Solar,SWITCH,2050,base_thin,MW,32703.346315422463,32703.346315422463
 CASO_battery_moderate_0,CASO,Battery,SWITCH,2050,base_thin,MW,12576.316173375826,12576.316173375826
-CASO_battery_moderate_0,CASO,Battery,SWITCH,2050,base_thin,MW,30850.04523391859,30850.04523391859
+CASO_battery_moderate_0,CASO,Battery,SWITCH,2050,base_thin,MW,8517.51118872928,8517.51118872928
 CASO_biomass_1,CASO,Other,SWITCH,2050,base_thin,MW,16.4,16.4
 CASO_biomass_1,CASO,Other,SWITCH,2050,base_thin,MW,9.0,9.0
 CASO_biomass_1,CASO,Other,SWITCH,2050,base_thin,MW,9.0,9.0
@@ -7717,6 +7719,7 @@ CASO_hydroelectric_pumped_storage_1,CASO,Hydro,SWITCH,2050,base_thin,MW,270.5,27
 CASO_hydroelectric_pumped_storage_1,CASO,Hydro,SWITCH,2050,base_thin,MW,541.0,541.0
 CASO_hydroelectric_pumped_storage_1,CASO,Hydro,SWITCH,2050,base_thin,MW,541.0,541.0
 CASO_hydroelectric_pumped_storage_1,CASO,Hydro,SWITCH,2050,base_thin,MW,42.0,42.0
+CASO_landbasedwind_class3_moderate_1,CASO,Wind,SWITCH,2050,base_thin,MW,3032.133742,3032.133742
 CASO_natural_gas_fired_combined_cycle_1,CASO,Natural Gas,SWITCH,2050,base_thin,MW,77.4,77.4
 CASO_natural_gas_fired_combined_cycle_1,CASO,Natural Gas,SWITCH,2050,base_thin,MW,84.5,84.5
 CASO_natural_gas_fired_combined_cycle_1,CASO,Natural Gas,SWITCH,2050,base_thin,MW,87.0,87.0
@@ -7765,6 +7768,7 @@ CASO_natural_gas_internal_combustion_engine_1,CASO,Natural Gas,SWITCH,2050,base_
 CASO_natural_gas_internal_combustion_engine_1,CASO,Natural Gas,SWITCH,2050,base_thin,MW,1.5,1.5
 CASO_natural_gas_internal_combustion_engine_1,CASO,Natural Gas,SWITCH,2050,base_thin,MW,1.5,1.5
 CASO_naturalgas_ccccsavgcf_conservative_0,CASO,CCS,SWITCH,2050,base_thin,MW,6389.7835622376615,6389.7835622376615
+CASO_naturalgas_ccccsavgcf_conservative_0,CASO,CCS,SWITCH,2050,base_thin,MW,4350.650318740627,4350.650318740627
 CASO_onshore_wind_turbine_1,CASO,Wind,SWITCH,2050,base_thin,MW,293.6,293.6
 CASO_onshore_wind_turbine_1,CASO,Wind,SWITCH,2050,base_thin,MW,95.5,95.5
 CASO_onshore_wind_turbine_1,CASO,Wind,SWITCH,2050,base_thin,MW,27.0,27.0
@@ -7795,9 +7799,8 @@ CASO_solar_photovoltaic_1,CASO,Solar,SWITCH,2050,base_thin,MW,1100.0,1100.0
 CASO_solar_photovoltaic_1,CASO,Solar,SWITCH,2050,base_thin,MW,90.0,90.0
 CASO_utilitypv_class1_moderate_1,CASO,Solar,SWITCH,2050,base_thin,MW,19869.01396537664,19869.01396537664
 CASO_utilitypv_class1_moderate_1,CASO,Solar,SWITCH,2050,base_thin,MW,57986.03403462336,57986.03403462336
-CASO_utilitypv_class1_moderate_2,CASO,Solar,SWITCH,2050,base_thin,MW,9711.701140790969,9711.701140790969
 FRCC_battery_moderate_0,FRCC,Battery,SWITCH,2050,base_thin,MW,6174.292261325367,6174.292261325367
-FRCC_battery_moderate_0,FRCC,Battery,SWITCH,2050,base_thin,MW,63040.82830367462,63040.82830367462
+FRCC_battery_moderate_0,FRCC,Battery,SWITCH,2050,base_thin,MW,10852.617640670234,10852.617640670234
 FRCC_biomass_1,FRCC,Other,SWITCH,2050,base_thin,MW,21.0,21.0
 FRCC_biomass_1,FRCC,Other,SWITCH,2050,base_thin,MW,3.4,3.4
 FRCC_biomass_1,FRCC,Other,SWITCH,2050,base_thin,MW,8.4,8.4
@@ -7822,6 +7825,7 @@ FRCC_conventional_steam_coal_1,FRCC,Coal,SWITCH,2050,base_thin,MW,445.0,445.0
 FRCC_conventional_steam_coal_1,FRCC,Coal,SWITCH,2050,base_thin,MW,453.0,453.0
 FRCC_distributed_generation_1,FRCC,Distributed Solar,SWITCH,2050,base_thin,MW,7817.0,7817.0
 FRCC_landbasedwind_class3_moderate_1,FRCC,Wind,SWITCH,2050,base_thin,MW,1576.6278913554706,1576.6278913554706
+FRCC_landbasedwind_class3_moderate_1,FRCC,Wind,SWITCH,2050,base_thin,MW,6550.54084964453,6550.54084964453
 FRCC_natural_gas_fired_combined_cycle_1,FRCC,Natural Gas,SWITCH,2050,base_thin,MW,35.0,35.0
 FRCC_natural_gas_fired_combined_cycle_1,FRCC,Natural Gas,SWITCH,2050,base_thin,MW,141.0,141.0
 FRCC_natural_gas_fired_combined_cycle_1,FRCC,Natural Gas,SWITCH,2050,base_thin,MW,243.0,243.0
@@ -7873,6 +7877,7 @@ FRCC_natural_gas_internal_combustion_engine_1,FRCC,Natural Gas,SWITCH,2050,base_
 FRCC_natural_gas_internal_combustion_engine_1,FRCC,Natural Gas,SWITCH,2050,base_thin,MW,2.6,2.6
 FRCC_natural_gas_internal_combustion_engine_1,FRCC,Natural Gas,SWITCH,2050,base_thin,MW,120.0,120.0
 FRCC_naturalgas_ccccsavgcf_conservative_0,FRCC,CCS,SWITCH,2050,base_thin,MW,5102.41546213843,5102.41546213843
+FRCC_naturalgas_ccccsavgcf_conservative_0,FRCC,CCS,SWITCH,2050,base_thin,MW,18032.322281613284,18032.322281613284
 FRCC_nuclear_1,FRCC,Nuclear,SWITCH,2050,base_thin,MW,859.0,859.0
 FRCC_nuclear_1,FRCC,Nuclear,SWITCH,2050,base_thin,MW,888.0,888.0
 FRCC_nuclear_1,FRCC,Nuclear,SWITCH,2050,base_thin,MW,1003.0,1003.0
@@ -7886,9 +7891,9 @@ FRCC_solar_photovoltaic_1,FRCC,Solar,SWITCH,2050,base_thin,MW,1266.9,1266.9
 FRCC_solar_photovoltaic_1,FRCC,Solar,SWITCH,2050,base_thin,MW,1043.0,1043.0
 FRCC_solar_photovoltaic_1,FRCC,Solar,SWITCH,2050,base_thin,MW,372.5,372.5
 FRCC_utilitypv_class1_moderate_1,FRCC,Solar,SWITCH,2050,base_thin,MW,24019.951901666456,24019.951901666456
-FRCC_utilitypv_class1_moderate_1,FRCC,Solar,SWITCH,2050,base_thin,MW,138643.81679833354,138643.81679833354
+FRCC_utilitypv_class1_moderate_1,FRCC,Solar,SWITCH,2050,base_thin,MW,64170.10203995539,64170.10203995539
 ISNE_battery_moderate_0,ISNE,Battery,SWITCH,2050,base_thin,MW,9988.447733761112,9988.447733761112
-ISNE_battery_moderate_0,ISNE,Battery,SWITCH,2050,base_thin,MW,12801.597602144431,12801.597602144431
+ISNE_battery_moderate_0,ISNE,Battery,SWITCH,2050,base_thin,MW,3870.147664625208,3870.147664625208
 ISNE_biomass_1,ISNE,Other,SWITCH,2050,base_thin,MW,3.3,3.3
 ISNE_biomass_1,ISNE,Other,SWITCH,2050,base_thin,MW,140.1,140.1
 ISNE_biomass_1,ISNE,Other,SWITCH,2050,base_thin,MW,8.6,8.6
@@ -7915,6 +7920,7 @@ ISNE_hydroelectric_pumped_storage_1,ISNE,Hydro,SWITCH,2050,base_thin,MW,292.0,29
 ISNE_hydroelectric_pumped_storage_1,ISNE,Hydro,SWITCH,2050,base_thin,MW,876.0,876.0
 ISNE_hydroelectric_pumped_storage_1,ISNE,Hydro,SWITCH,2050,base_thin,MW,600.0,600.0
 ISNE_landbasedwind_class3_moderate_1,ISNE,Wind,SWITCH,2050,base_thin,MW,12066.891009566194,12066.891009566194
+ISNE_landbasedwind_class3_moderate_1,ISNE,Wind,SWITCH,2050,base_thin,MW,10762.220749491267,10762.220749491267
 ISNE_natural_gas_fired_combined_cycle_1,ISNE,Natural Gas,SWITCH,2050,base_thin,MW,22.9,22.9
 ISNE_natural_gas_fired_combined_cycle_1,ISNE,Natural Gas,SWITCH,2050,base_thin,MW,61.0,61.0
 ISNE_natural_gas_fired_combined_cycle_1,ISNE,Natural Gas,SWITCH,2050,base_thin,MW,574.9,574.9
@@ -7973,10 +7979,12 @@ ISNE_natural_gas_steam_turbine_1,ISNE,Natural Gas,SWITCH,2050,base_thin,MW,3.0,3
 ISNE_natural_gas_steam_turbine_1,ISNE,Natural Gas,SWITCH,2050,base_thin,MW,0.6,0.6
 ISNE_natural_gas_steam_turbine_1,ISNE,Natural Gas,SWITCH,2050,base_thin,MW,0.6,0.6
 ISNE_naturalgas_ccavgcf_moderate_0,ISNE,Natural Gas,SWITCH,2050,base_thin,MW,8955.61953531096,8955.61953531096
+ISNE_naturalgas_ccavgcf_moderate_0,ISNE,Natural Gas,SWITCH,2050,base_thin,MW,1793.975938072008,1793.975938072008
 ISNE_nuclear_1,ISNE,Nuclear,SWITCH,2050,base_thin,MW,863.3,863.3
 ISNE_nuclear_1,ISNE,Nuclear,SWITCH,2050,base_thin,MW,1233.4,1233.4
 ISNE_nuclear_1,ISNE,Nuclear,SWITCH,2050,base_thin,MW,1251.4,1251.4
 ISNE_offshorewind_class3_moderate_fixed_1_1,ISNE,Wind,SWITCH,2050,base_thin,MW,754.3679548858087,754.3679548858087
+ISNE_offshorewind_class3_moderate_fixed_1_1,ISNE,Wind,SWITCH,2050,base_thin,MW,3587.83315973139,3587.83315973139
 ISNE_onshore_wind_turbine_1,ISNE,Wind,SWITCH,2050,base_thin,MW,19.8,19.8
 ISNE_onshore_wind_turbine_1,ISNE,Wind,SWITCH,2050,base_thin,MW,20.0,20.0
 ISNE_petroleum_liquids_1,ISNE,Other,SWITCH,2050,base_thin,MW,197.0,197.0
@@ -8028,9 +8036,9 @@ ISNE_solar_photovoltaic_1,ISNE,Solar,SWITCH,2050,base_thin,MW,167.3,167.3
 ISNE_solar_photovoltaic_1,ISNE,Solar,SWITCH,2050,base_thin,MW,222.3,222.3
 ISNE_solar_photovoltaic_1,ISNE,Solar,SWITCH,2050,base_thin,MW,100.0,100.0
 ISNE_utilitypv_class1_moderate_1,ISNE,Solar,SWITCH,2050,base_thin,MW,8972.446187267347,8972.446187267347
-ISNE_utilitypv_class1_moderate_1,ISNE,Solar,SWITCH,2050,base_thin,MW,43380.75387401848,43380.75387401848
+ISNE_utilitypv_class1_moderate_1,ISNE,Solar,SWITCH,2050,base_thin,MW,22595.32976095817,22595.32976095817
 MISC_battery_moderate_0,MISC,Battery,SWITCH,2050,base_thin,MW,744.3963073807868,744.3963073807868
-MISC_battery_moderate_0,MISC,Battery,SWITCH,2050,base_thin,MW,30340.690607512603,30340.690607512603
+MISC_battery_moderate_0,MISC,Battery,SWITCH,2050,base_thin,MW,4011.5177804417863,4011.5177804417863
 MISC_biomass_1,MISC,Other,SWITCH,2050,base_thin,MW,60.0,60.0
 MISC_biomass_1,MISC,Other,SWITCH,2050,base_thin,MW,3.0,3.0
 MISC_biomass_1,MISC,Other,SWITCH,2050,base_thin,MW,4.3,4.3
@@ -8095,6 +8103,7 @@ MISC_natural_gas_steam_turbine_1,MISC,Natural Gas,SWITCH,2050,base_thin,MW,3.4,3
 MISC_natural_gas_steam_turbine_1,MISC,Natural Gas,SWITCH,2050,base_thin,MW,4.2,4.2
 MISC_natural_gas_steam_turbine_1,MISC,Natural Gas,SWITCH,2050,base_thin,MW,8.0,8.0
 MISC_naturalgas_ccccsavgcf_conservative_0,MISC,CCS,SWITCH,2050,base_thin,MW,10393.745076411004,10393.745076411004
+MISC_naturalgas_ccccsavgcf_conservative_0,MISC,CCS,SWITCH,2050,base_thin,MW,7507.849447199808,7507.849447199808
 MISC_nuclear_1,MISC,Nuclear,SWITCH,2050,base_thin,MW,1295.0,1295.0
 MISC_nuclear_1,MISC,Nuclear,SWITCH,2050,base_thin,MW,1078.0,1078.0
 MISC_onshore_wind_turbine_1,MISC,Wind,SWITCH,2050,base_thin,MW,921.4,921.4
@@ -8112,9 +8121,9 @@ MISC_solar_photovoltaic_1,MISC,Solar,SWITCH,2050,base_thin,MW,448.1,448.1
 MISC_solar_photovoltaic_1,MISC,Solar,SWITCH,2050,base_thin,MW,1223.3,1223.3
 MISC_solar_photovoltaic_1,MISC,Solar,SWITCH,2050,base_thin,MW,1200.0,1200.0
 MISC_utilitypv_class1_moderate_1,MISC,Solar,SWITCH,2050,base_thin,MW,9488.719719033204,9488.719719033204
-MISC_utilitypv_class1_moderate_1,MISC,Solar,SWITCH,2050,base_thin,MW,71539.7019037224,71539.7019037224
+MISC_utilitypv_class1_moderate_1,MISC,Solar,SWITCH,2050,base_thin,MW,33801.06499626469,33801.06499626469
 MISE_battery_moderate_0,MISE,Battery,SWITCH,2050,base_thin,MW,105.10197305453585,105.10197305453585
-MISE_battery_moderate_0,MISE,Battery,SWITCH,2050,base_thin,MW,13330.747799832554,13330.747799832554
+MISE_battery_moderate_0,MISE,Battery,SWITCH,2050,base_thin,MW,2952.1226869539787,2952.1226869539787
 MISE_biomass_1,MISE,Other,SWITCH,2050,base_thin,MW,1.5,1.5
 MISE_biomass_1,MISE,Other,SWITCH,2050,base_thin,MW,1.5,1.5
 MISE_biomass_1,MISE,Other,SWITCH,2050,base_thin,MW,6.4,6.4
@@ -8127,6 +8136,7 @@ MISE_distributed_generation_1,MISE,Distributed Solar,SWITCH,2050,base_thin,MW,45
 MISE_hydroelectric_pumped_storage_1,MISE,Hydro,SWITCH,2050,base_thin,MW,2047.0,2047.0
 MISE_landbasedwind_class3_moderate_1,MISE,Wind,SWITCH,2050,base_thin,MW,3030.884996,3030.884996
 MISE_landbasedwind_class3_moderate_2,MISE,Wind,SWITCH,2050,base_thin,MW,2058.792093992275,2058.792093992275
+MISE_landbasedwind_class3_moderate_2,MISE,Wind,SWITCH,2050,base_thin,MW,968.9204190077248,968.9204190077248
 MISE_natural_gas_fired_combined_cycle_1,MISE,Natural Gas,SWITCH,2050,base_thin,MW,11.5,11.5
 MISE_natural_gas_fired_combined_cycle_1,MISE,Natural Gas,SWITCH,2050,base_thin,MW,11.5,11.5
 MISE_natural_gas_fired_combined_cycle_1,MISE,Natural Gas,SWITCH,2050,base_thin,MW,618.0,618.0
@@ -8164,7 +8174,7 @@ MISE_natural_gas_steam_turbine_1,MISE,Natural Gas,SWITCH,2050,base_thin,MW,21.0,
 MISE_natural_gas_steam_turbine_1,MISE,Natural Gas,SWITCH,2050,base_thin,MW,25.0,25.0
 MISE_natural_gas_steam_turbine_1,MISE,Natural Gas,SWITCH,2050,base_thin,MW,2.2,2.2
 MISE_naturalgas_ccccsavgcf_conservative_0,MISE,CCS,SWITCH,2050,base_thin,MW,2046.1471570075428,2046.1471570075428
-MISE_naturalgas_ccccsavgcf_conservative_0,MISE,CCS,SWITCH,2050,base_thin,MW,436.575170836729,436.575170836729
+MISE_naturalgas_ccccsavgcf_conservative_0,MISE,CCS,SWITCH,2050,base_thin,MW,6183.432118358716,6183.432118358716
 MISE_onshore_wind_turbine_1,MISE,Wind,SWITCH,2050,base_thin,MW,533.5,533.5
 MISE_onshore_wind_turbine_1,MISE,Wind,SWITCH,2050,base_thin,MW,537.1,537.1
 MISE_small_hydroelectric_1,MISE,Hydro,SWITCH,2050,base_thin,MW,2.5,2.5
@@ -8178,7 +8188,8 @@ MISE_solar_photovoltaic_1,MISE,Solar,SWITCH,2050,base_thin,MW,212.5,212.5
 MISE_solar_photovoltaic_1,MISE,Solar,SWITCH,2050,base_thin,MW,40.0,40.0
 MISE_solar_photovoltaic_1,MISE,Solar,SWITCH,2050,base_thin,MW,250.0,250.0
 MISE_utilitypv_class1_moderate_1,MISE,Solar,SWITCH,2050,base_thin,MW,3478.3749582826413,3478.3749582826413
-MISE_utilitypv_class1_moderate_1,MISE,Solar,SWITCH,2050,base_thin,MW,42487.593467455365,42487.593467455365
+MISE_utilitypv_class1_moderate_1,MISE,Solar,SWITCH,2050,base_thin,MW,20520.758675285837,20520.758675285837
+MISS_battery_moderate_0,MISS,Battery,SWITCH,2050,base_thin,MW,657.522568028985,657.522568028985
 MISS_biomass_1,MISS,Other,SWITCH,2050,base_thin,MW,62.0,62.0
 MISS_biomass_1,MISS,Other,SWITCH,2050,base_thin,MW,1.3,1.3
 MISS_biomass_1,MISS,Other,SWITCH,2050,base_thin,MW,46.5,46.5
@@ -8192,6 +8203,7 @@ MISS_conventional_hydroelectric_1,MISS,Hydro,SWITCH,2050,base_thin,MW,35.0,35.0
 MISS_conventional_hydroelectric_1,MISS,Hydro,SWITCH,2050,base_thin,MW,45.0,45.0
 MISS_distributed_generation_1,MISS,Distributed Solar,SWITCH,2050,base_thin,MW,4468.0,4468.0
 MISS_landbasedwind_class3_moderate_1,MISS,Wind,SWITCH,2050,base_thin,MW,2941.0411985722517,2941.0411985722517
+MISS_landbasedwind_class3_moderate_1,MISS,Wind,SWITCH,2050,base_thin,MW,9434.606461044996,9434.606461044996
 MISS_natural_gas_fired_combined_cycle_1,MISS,Natural Gas,SWITCH,2050,base_thin,MW,121.1,121.1
 MISS_natural_gas_fired_combined_cycle_1,MISS,Natural Gas,SWITCH,2050,base_thin,MW,15.0,15.0
 MISS_natural_gas_fired_combined_cycle_1,MISS,Natural Gas,SWITCH,2050,base_thin,MW,243.1,243.1
@@ -8235,6 +8247,7 @@ MISS_natural_gas_steam_turbine_1,MISS,Natural Gas,SWITCH,2050,base_thin,MW,2.3,2
 MISS_natural_gas_steam_turbine_1,MISS,Natural Gas,SWITCH,2050,base_thin,MW,7.2,7.2
 MISS_natural_gas_steam_turbine_1,MISS,Natural Gas,SWITCH,2050,base_thin,MW,20.5,20.5
 MISS_naturalgas_ccccsavgcf_conservative_0,MISS,CCS,SWITCH,2050,base_thin,MW,5948.400950349143,5948.400950349143
+MISS_naturalgas_ccccsavgcf_conservative_0,MISS,CCS,SWITCH,2050,base_thin,MW,4811.369630354823,4811.369630354823
 MISS_nuclear_1,MISS,Nuclear,SWITCH,2050,base_thin,MW,852.0,852.0
 MISS_nuclear_1,MISS,Nuclear,SWITCH,2050,base_thin,MW,1002.0,1002.0
 MISS_nuclear_1,MISS,Nuclear,SWITCH,2050,base_thin,MW,2605.0,2605.0
@@ -8248,7 +8261,7 @@ MISS_solar_photovoltaic_1,MISS,Solar,SWITCH,2050,base_thin,MW,250.0,250.0
 MISS_solar_photovoltaic_1,MISS,Solar,SWITCH,2050,base_thin,MW,899.0,899.0
 MISS_solar_photovoltaic_1,MISS,Solar,SWITCH,2050,base_thin,MW,681.0,681.0
 MISW_battery_moderate_0,MISW,Battery,SWITCH,2050,base_thin,MW,2901.918231825822,2901.918231825822
-MISW_battery_moderate_0,MISW,Battery,SWITCH,2050,base_thin,MW,22055.677270617383,22055.677270617383
+MISW_battery_moderate_0,MISW,Battery,SWITCH,2050,base_thin,MW,6717.353133183365,6717.353133183365
 MISW_biomass_1,MISW,Other,SWITCH,2050,base_thin,MW,17.5,17.5
 MISW_biomass_1,MISW,Other,SWITCH,2050,base_thin,MW,41.5,41.5
 MISW_biomass_1,MISW,Other,SWITCH,2050,base_thin,MW,15.0,15.0
@@ -8283,7 +8296,7 @@ MISW_conventional_steam_coal_1,MISW,Coal,SWITCH,2050,base_thin,MW,637.8,637.8
 MISW_conventional_steam_coal_1,MISW,Coal,SWITCH,2050,base_thin,MW,636.0,636.0
 MISW_distributed_generation_1,MISW,Distributed Solar,SWITCH,2050,base_thin,MW,5190.0,5190.0
 MISW_landbasedwind_class3_moderate_1,MISW,Wind,SWITCH,2050,base_thin,MW,15577.205734805044,15577.205734805044
-MISW_landbasedwind_class3_moderate_1,MISW,Wind,SWITCH,2050,base_thin,MW,34640.75766376608,34640.75766376608
+MISW_landbasedwind_class3_moderate_1,MISW,Wind,SWITCH,2050,base_thin,MW,31338.840171878142,31338.840171878142
 MISW_natural_gas_fired_combined_cycle_1,MISW,Natural Gas,SWITCH,2050,base_thin,MW,117.0,117.0
 MISW_natural_gas_fired_combined_cycle_1,MISW,Natural Gas,SWITCH,2050,base_thin,MW,158.0,158.0
 MISW_natural_gas_fired_combined_cycle_1,MISW,Natural Gas,SWITCH,2050,base_thin,MW,51.0,51.0
@@ -8335,7 +8348,7 @@ MISW_natural_gas_steam_turbine_1,MISW,Natural Gas,SWITCH,2050,base_thin,MW,10.0,
 MISW_natural_gas_steam_turbine_1,MISW,Natural Gas,SWITCH,2050,base_thin,MW,4.9,4.9
 MISW_natural_gas_steam_turbine_1,MISW,Natural Gas,SWITCH,2050,base_thin,MW,15.8,15.8
 MISW_naturalgas_ccccsavgcf_conservative_0,MISW,CCS,SWITCH,2050,base_thin,MW,8705.569061480131,8705.569061480131
-MISW_naturalgas_ccccsavgcf_conservative_0,MISW,CCS,SWITCH,2050,base_thin,MW,476.5064147980498,476.5064147980498
+MISW_naturalgas_ccccsavgcf_conservative_0,MISW,CCS,SWITCH,2050,base_thin,MW,12356.937471028114,12356.937471028114
 MISW_nuclear_1,MISW,Nuclear,SWITCH,2050,base_thin,MW,646.0,646.0
 MISW_nuclear_1,MISW,Nuclear,SWITCH,2050,base_thin,MW,605.0,605.0
 MISW_nuclear_1,MISW,Nuclear,SWITCH,2050,base_thin,MW,1092.0,1092.0
@@ -8385,8 +8398,8 @@ MISW_solar_photovoltaic_1,MISW,Solar,SWITCH,2050,base_thin,MW,389.9,389.9
 MISW_solar_photovoltaic_1,MISW,Solar,SWITCH,2050,base_thin,MW,842.4,842.4
 MISW_solar_photovoltaic_1,MISW,Solar,SWITCH,2050,base_thin,MW,183.5,183.5
 MISW_utilitypv_class1_moderate_1,MISW,Solar,SWITCH,2050,base_thin,MW,8061.182426549275,8061.182426549275
-MISW_utilitypv_class1_moderate_1,MISW,Solar,SWITCH,2050,base_thin,MW,35237.204523821776,35237.204523821776
-NWPP_battery_moderate_0,NWPP,Battery,SWITCH,2050,base_thin,MW,13454.8045987328,13454.8045987328
+MISW_utilitypv_class1_moderate_1,MISW,Solar,SWITCH,2050,base_thin,MW,19418.33161330307,19418.33161330307
+NWPP_battery_moderate_0,NWPP,Battery,SWITCH,2050,base_thin,MW,12699.689050593784,12699.689050593784
 NWPP_biomass_1,NWPP,Other,SWITCH,2050,base_thin,MW,22.5,22.5
 NWPP_biomass_1,NWPP,Other,SWITCH,2050,base_thin,MW,18.0,18.0
 NWPP_biomass_1,NWPP,Other,SWITCH,2050,base_thin,MW,6.3,6.3
@@ -8456,7 +8469,7 @@ NWPP_hydroelectric_pumped_storage_1,NWPP,Hydro,SWITCH,2050,base_thin,MW,100.0,10
 NWPP_hydroelectric_pumped_storage_1,NWPP,Hydro,SWITCH,2050,base_thin,MW,160.5,160.5
 NWPP_hydroelectric_pumped_storage_1,NWPP,Hydro,SWITCH,2050,base_thin,MW,53.5,53.5
 NWPP_landbasedwind_class3_moderate_1,NWPP,Wind,SWITCH,2050,base_thin,MW,20656.577318713815,20656.577318713815
-NWPP_landbasedwind_class3_moderate_1,NWPP,Wind,SWITCH,2050,base_thin,MW,10577.528895066052,10577.528895066052
+NWPP_landbasedwind_class3_moderate_1,NWPP,Wind,SWITCH,2050,base_thin,MW,17612.505779229556,17612.505779229556
 NWPP_natural_gas_fired_combined_cycle_1,NWPP,Natural Gas,SWITCH,2050,base_thin,MW,319.8,319.8
 NWPP_natural_gas_fired_combined_cycle_1,NWPP,Natural Gas,SWITCH,2050,base_thin,MW,286.0,286.0
 NWPP_natural_gas_fired_combined_cycle_1,NWPP,Natural Gas,SWITCH,2050,base_thin,MW,270.9,270.9
@@ -8525,7 +8538,8 @@ NWPP_solar_photovoltaic_1,NWPP,Solar,SWITCH,2050,base_thin,MW,230.1,230.1
 NWPP_solar_photovoltaic_1,NWPP,Solar,SWITCH,2050,base_thin,MW,527.8,527.8
 NWPP_solar_photovoltaic_1,NWPP,Solar,SWITCH,2050,base_thin,MW,102.9,102.9
 NWPP_utilitypv_class1_moderate_1,NWPP,Solar,SWITCH,2050,base_thin,MW,7908.947421267557,7908.947421267557
-NWPP_utilitypv_class1_moderate_1,NWPP,Solar,SWITCH,2050,base_thin,MW,26941.35260435928,26941.35260435928
+NWPP_utilitypv_class1_moderate_1,NWPP,Solar,SWITCH,2050,base_thin,MW,26017.849933356178,26017.849933356178
+NYCW_battery_moderate_0,NYCW,Battery,SWITCH,2050,base_thin,MW,1226.5292869828838,1226.5292869828838
 NYCW_distributed_generation_1,NYCW,Distributed Solar,SWITCH,2050,base_thin,MW,2372.0,2372.0
 NYCW_natural_gas_fired_combined_cycle_1,NYCW,Natural Gas,SWITCH,2050,base_thin,MW,815.6,815.6
 NYCW_natural_gas_fired_combined_cycle_1,NYCW,Natural Gas,SWITCH,2050,base_thin,MW,261.9,261.9
@@ -8558,6 +8572,7 @@ NYCW_natural_gas_internal_combustion_engine_1,NYCW,Natural Gas,SWITCH,2050,base_
 NYCW_natural_gas_internal_combustion_engine_1,NYCW,Natural Gas,SWITCH,2050,base_thin,MW,6.0,6.0
 NYCW_natural_gas_internal_combustion_engine_1,NYCW,Natural Gas,SWITCH,2050,base_thin,MW,1.8,1.8
 NYCW_natural_gas_internal_combustion_engine_1,NYCW,Natural Gas,SWITCH,2050,base_thin,MW,2.6,2.6
+NYCW_offshorewind_class3_moderate_fixed_1_2,NYCW,Wind,SWITCH,2050,base_thin,MW,886.6012411039791,886.6012411039791
 NYCW_petroleum_liquids_1,NYCW,Other,SWITCH,2050,base_thin,MW,11.1,11.1
 NYCW_petroleum_liquids_1,NYCW,Other,SWITCH,2050,base_thin,MW,7.7,7.7
 NYCW_petroleum_liquids_1,NYCW,Other,SWITCH,2050,base_thin,MW,1.4,1.4
@@ -8571,6 +8586,7 @@ NYCW_petroleum_liquids_1,NYCW,Other,SWITCH,2050,base_thin,MW,2.5,2.5
 NYCW_solar_photovoltaic_1,NYCW,Solar,SWITCH,2050,base_thin,MW,3.0,3.0
 NYCW_solar_photovoltaic_1,NYCW,Solar,SWITCH,2050,base_thin,MW,23.9,23.9
 NYCW_utilitypv_class1_moderate_1,NYCW,Solar,SWITCH,2050,base_thin,MW,4.5,4.5
+NYUP_battery_moderate_0,NYUP,Battery,SWITCH,2050,base_thin,MW,2399.437008928262,2399.437008928262
 NYUP_biomass_1,NYUP,Other,SWITCH,2050,base_thin,MW,4.4,4.4
 NYUP_biomass_1,NYUP,Other,SWITCH,2050,base_thin,MW,6.4,6.4
 NYUP_biomass_1,NYUP,Other,SWITCH,2050,base_thin,MW,6.4,6.4
@@ -8679,14 +8695,15 @@ NYUP_solar_photovoltaic_1,NYUP,Solar,SWITCH,2050,base_thin,MW,331.6,331.6
 NYUP_solar_photovoltaic_1,NYUP,Solar,SWITCH,2050,base_thin,MW,95.0,95.0
 NYUP_solar_photovoltaic_1,NYUP,Solar,SWITCH,2050,base_thin,MW,180.0,180.0
 NYUP_utilitypv_class1_moderate_1,NYUP,Solar,SWITCH,2050,base_thin,MW,4593.420813921437,4593.420813921437
-NYUP_utilitypv_class1_moderate_1,NYUP,Solar,SWITCH,2050,base_thin,MW,9084.321492462132,9084.321492462132
+NYUP_utilitypv_class1_moderate_1,NYUP,Solar,SWITCH,2050,base_thin,MW,14580.558303988306,14580.558303988306
 PJMC_battery_moderate_0,PJMC,Battery,SWITCH,2050,base_thin,MW,2163.1917163048565,2163.1917163048565
-PJMC_battery_moderate_0,PJMC,Battery,SWITCH,2050,base_thin,MW,4792.588180424333,4792.588180424333
+PJMC_battery_moderate_0,PJMC,Battery,SWITCH,2050,base_thin,MW,2166.418242443008,2166.418242443008
 PJMC_biomass_1,PJMC,Other,SWITCH,2050,base_thin,MW,3.0,3.0
 PJMC_biomass_1,PJMC,Other,SWITCH,2050,base_thin,MW,9.6,9.6
 PJMC_conventional_hydroelectric_1,PJMC,Hydro,SWITCH,2050,base_thin,MW,10.4,10.4
 PJMC_distributed_generation_1,PJMC,Distributed Solar,SWITCH,2050,base_thin,MW,2181.0,2181.0
 PJMC_landbasedwind_class3_moderate_1,PJMC,Wind,SWITCH,2050,base_thin,MW,4756.672646143049,4756.672646143049
+PJMC_landbasedwind_class3_moderate_1,PJMC,Wind,SWITCH,2050,base_thin,MW,4606.814345835872,4606.814345835872
 PJMC_natural_gas_fired_combined_cycle_1,PJMC,Natural Gas,SWITCH,2050,base_thin,MW,133.0,133.0
 PJMC_natural_gas_fired_combined_cycle_1,PJMC,Natural Gas,SWITCH,2050,base_thin,MW,62.0,62.0
 PJMC_natural_gas_fired_combined_cycle_1,PJMC,Natural Gas,SWITCH,2050,base_thin,MW,601.2,601.2
@@ -8729,9 +8746,9 @@ PJMC_solar_photovoltaic_1,PJMC,Solar,SWITCH,2050,base_thin,MW,19.4,19.4
 PJMC_solar_photovoltaic_1,PJMC,Solar,SWITCH,2050,base_thin,MW,130.7,130.7
 PJMC_solar_photovoltaic_1,PJMC,Solar,SWITCH,2050,base_thin,MW,35.0,35.0
 PJMC_utilitypv_class1_moderate_1,PJMC,Solar,SWITCH,2050,base_thin,MW,9137.427707624982,9137.427707624982
-PJMC_utilitypv_class1_moderate_1,PJMC,Solar,SWITCH,2050,base_thin,MW,15408.941756913036,15408.941756913036
+PJMC_utilitypv_class1_moderate_1,PJMC,Solar,SWITCH,2050,base_thin,MW,13325.550179225718,13325.550179225718
 PJMD_battery_moderate_0,PJMD,Battery,SWITCH,2050,base_thin,MW,8150.587176053204,8150.587176053204
-PJMD_battery_moderate_0,PJMD,Battery,SWITCH,2050,base_thin,MW,60987.72461354501,60987.72461354501
+PJMD_battery_moderate_0,PJMD,Battery,SWITCH,2050,base_thin,MW,11248.966608609544,11248.966608609544
 PJMD_biomass_1,PJMD,Other,SWITCH,2050,base_thin,MW,10.5,10.5
 PJMD_biomass_1,PJMD,Other,SWITCH,2050,base_thin,MW,32.5,32.5
 PJMD_biomass_1,PJMD,Other,SWITCH,2050,base_thin,MW,32.5,32.5
@@ -8752,6 +8769,7 @@ PJMD_conventional_steam_coal_1,PJMD,Coal,SWITCH,2050,base_thin,MW,438.0,438.0
 PJMD_conventional_steam_coal_1,PJMD,Coal,SWITCH,2050,base_thin,MW,82.4,82.4
 PJMD_distributed_generation_1,PJMD,Distributed Solar,SWITCH,2050,base_thin,MW,3646.0,3646.0
 PJMD_hydroelectric_pumped_storage_1,PJMD,Hydro,SWITCH,2050,base_thin,MW,3003.0,3003.0
+PJMD_landbasedwind_class3_moderate_1,PJMD,Wind,SWITCH,2050,base_thin,MW,5213.531252,5213.531252
 PJMD_landbasedwind_class3_moderate_2,PJMD,Wind,SWITCH,2050,base_thin,MW,5200.031224,5200.031224
 PJMD_natural_gas_fired_combined_cycle_1,PJMD,Natural Gas,SWITCH,2050,base_thin,MW,376.0,376.0
 PJMD_natural_gas_fired_combined_cycle_1,PJMD,Natural Gas,SWITCH,2050,base_thin,MW,612.0,612.0
@@ -8785,9 +8803,9 @@ PJMD_solar_photovoltaic_1,PJMD,Solar,SWITCH,2050,base_thin,MW,824.7,824.7
 PJMD_solar_photovoltaic_1,PJMD,Solar,SWITCH,2050,base_thin,MW,130.0,130.0
 PJMD_solar_photovoltaic_1,PJMD,Solar,SWITCH,2050,base_thin,MW,90.0,90.0
 PJMD_utilitypv_class1_moderate_1,PJMD,Solar,SWITCH,2050,base_thin,MW,21918.578796101832,21918.578796101832
-PJMD_utilitypv_class1_moderate_1,PJMD,Solar,SWITCH,2050,base_thin,MW,131015.38030389816,131015.38030389816
+PJMD_utilitypv_class1_moderate_1,PJMD,Solar,SWITCH,2050,base_thin,MW,52090.856062557745,52090.856062557745
 PJME_battery_moderate_0,PJME,Battery,SWITCH,2050,base_thin,MW,13222.774786026048,13222.774786026048
-PJME_battery_moderate_0,PJME,Battery,SWITCH,2050,base_thin,MW,13144.491527581573,13144.491527581573
+PJME_battery_moderate_0,PJME,Battery,SWITCH,2050,base_thin,MW,5895.237425502172,5895.237425502172
 PJME_biomass_1,PJME,Other,SWITCH,2050,base_thin,MW,1.4,1.4
 PJME_biomass_1,PJME,Other,SWITCH,2050,base_thin,MW,12.3,12.3
 PJME_biomass_1,PJME,Other,SWITCH,2050,base_thin,MW,20.6,20.6
@@ -8820,6 +8838,7 @@ PJME_hydroelectric_pumped_storage_1,PJME,Hydro,SWITCH,2050,base_thin,MW,802.0,80
 PJME_hydroelectric_pumped_storage_1,PJME,Hydro,SWITCH,2050,base_thin,MW,268.0,268.0
 PJME_hydroelectric_pumped_storage_1,PJME,Hydro,SWITCH,2050,base_thin,MW,482.0,482.0
 PJME_landbasedwind_class3_moderate_1,PJME,Wind,SWITCH,2050,base_thin,MW,2924.201265,2924.201265
+PJME_landbasedwind_class3_moderate_2,PJME,Wind,SWITCH,2050,base_thin,MW,2916.337494,2916.337494
 PJME_natural_gas_fired_combined_cycle_1,PJME,Natural Gas,SWITCH,2050,base_thin,MW,234.8,234.8
 PJME_natural_gas_fired_combined_cycle_1,PJME,Natural Gas,SWITCH,2050,base_thin,MW,15.0,15.0
 PJME_natural_gas_fired_combined_cycle_1,PJME,Natural Gas,SWITCH,2050,base_thin,MW,252.0,252.0
@@ -8907,7 +8926,7 @@ PJME_solar_photovoltaic_1,PJME,Solar,SWITCH,2050,base_thin,MW,50.0,50.0
 PJME_utilitypv_class1_moderate_1,PJME,Solar,SWITCH,2050,base_thin,MW,32990.996133710345,32990.996133710345
 PJME_utilitypv_class1_moderate_1,PJME,Solar,SWITCH,2050,base_thin,MW,51946.91453628965,51946.91453628965
 PJMW_battery_moderate_0,PJMW,Battery,SWITCH,2050,base_thin,MW,3185.1502339911185,3185.1502339911185
-PJMW_battery_moderate_0,PJMW,Battery,SWITCH,2050,base_thin,MW,62414.072182381526,62414.072182381526
+PJMW_battery_moderate_0,PJMW,Battery,SWITCH,2050,base_thin,MW,12136.058172144129,12136.058172144129
 PJMW_biomass_1,PJMW,Other,SWITCH,2050,base_thin,MW,11.6,11.6
 PJMW_biomass_1,PJMW,Other,SWITCH,2050,base_thin,MW,1.0,1.0
 PJMW_biomass_1,PJMW,Other,SWITCH,2050,base_thin,MW,25.4,25.4
@@ -8943,6 +8962,7 @@ PJMW_hydroelectric_pumped_storage_1,PJMW,Hydro,SWITCH,2050,base_thin,MW,66.0,66.
 PJMW_hydroelectric_pumped_storage_1,PJMW,Hydro,SWITCH,2050,base_thin,MW,106.0,106.0
 PJMW_landbasedwind_class3_moderate_1,PJMW,Wind,SWITCH,2050,base_thin,MW,10898.88751,10898.88751
 PJMW_landbasedwind_class3_moderate_2,PJMW,Wind,SWITCH,2050,base_thin,MW,5965.834832106312,5965.834832106312
+PJMW_landbasedwind_class3_moderate_2,PJMW,Wind,SWITCH,2050,base_thin,MW,4909.123907893688,4909.123907893688
 PJMW_natural_gas_fired_combined_cycle_1,PJMW,Natural Gas,SWITCH,2050,base_thin,MW,28.6,28.6
 PJMW_natural_gas_fired_combined_cycle_1,PJMW,Natural Gas,SWITCH,2050,base_thin,MW,686.0,686.0
 PJMW_natural_gas_fired_combined_cycle_1,PJMW,Natural Gas,SWITCH,2050,base_thin,MW,3641.9,3641.9
@@ -8975,6 +8995,7 @@ PJMW_natural_gas_steam_turbine_1,PJMW,Natural Gas,SWITCH,2050,base_thin,MW,2.5,2
 PJMW_natural_gas_steam_turbine_1,PJMW,Natural Gas,SWITCH,2050,base_thin,MW,24.3,24.3
 PJMW_natural_gas_steam_turbine_1,PJMW,Natural Gas,SWITCH,2050,base_thin,MW,2.1,2.1
 PJMW_naturalgas_ccccsavgcf_conservative_0,PJMW,CCS,SWITCH,2050,base_thin,MW,16158.209740539603,16158.209740539603
+PJMW_naturalgas_ccccsavgcf_conservative_0,PJMW,CCS,SWITCH,2050,base_thin,MW,20028.976776990487,20028.976776990487
 PJMW_nuclear_1,PJMW,Nuclear,SWITCH,2050,base_thin,MW,1084.0,1084.0
 PJMW_nuclear_1,PJMW,Nuclear,SWITCH,2050,base_thin,MW,939.0,939.0
 PJMW_nuclear_1,PJMW,Nuclear,SWITCH,2050,base_thin,MW,908.0,908.0
@@ -9012,9 +9033,9 @@ PJMW_solar_photovoltaic_1,PJMW,Solar,SWITCH,2050,base_thin,MW,1199.9,1199.9
 PJMW_solar_photovoltaic_1,PJMW,Solar,SWITCH,2050,base_thin,MW,1632.5,1632.5
 PJMW_solar_photovoltaic_1,PJMW,Solar,SWITCH,2050,base_thin,MW,150.0,150.0
 PJMW_utilitypv_class1_moderate_1,PJMW,Solar,SWITCH,2050,base_thin,MW,15472.967052462838,15472.967052462838
-PJMW_utilitypv_class1_moderate_1,PJMW,Solar,SWITCH,2050,base_thin,MW,168356.22580769393,168356.22580769393
+PJMW_utilitypv_class1_moderate_1,PJMW,Solar,SWITCH,2050,base_thin,MW,77221.2398481414,77221.2398481414
 RMRG_battery_moderate_0,RMRG,Battery,SWITCH,2050,base_thin,MW,1468.3988021058024,1468.3988021058024
-RMRG_battery_moderate_0,RMRG,Battery,SWITCH,2050,base_thin,MW,8638.391214718511,8638.391214718511
+RMRG_battery_moderate_0,RMRG,Battery,SWITCH,2050,base_thin,MW,4832.734079297561,4832.734079297561
 RMRG_biomass_1,RMRG,Other,SWITCH,2050,base_thin,MW,3.1,3.1
 RMRG_biomass_1,RMRG,Other,SWITCH,2050,base_thin,MW,12.6,12.6
 RMRG_conventional_hydroelectric_1,RMRG,Hydro,SWITCH,2050,base_thin,MW,12.2,12.2
@@ -9040,7 +9061,7 @@ RMRG_hydroelectric_pumped_storage_1,RMRG,Hydro,SWITCH,2050,base_thin,MW,342.3,34
 RMRG_hydroelectric_pumped_storage_1,RMRG,Hydro,SWITCH,2050,base_thin,MW,115.0,115.0
 RMRG_hydroelectric_pumped_storage_1,RMRG,Hydro,SWITCH,2050,base_thin,MW,115.0,115.0
 RMRG_landbasedwind_class3_moderate_1,RMRG,Wind,SWITCH,2050,base_thin,MW,10134.476779397595,10134.476779397595
-RMRG_landbasedwind_class3_moderate_1,RMRG,Wind,SWITCH,2050,base_thin,MW,27631.125656358057,27631.125656358057
+RMRG_landbasedwind_class3_moderate_1,RMRG,Wind,SWITCH,2050,base_thin,MW,38256.678519460576,38256.678519460576
 RMRG_natural_gas_fired_combined_cycle_1,RMRG,Natural Gas,SWITCH,2050,base_thin,MW,33.0,33.0
 RMRG_natural_gas_fired_combined_cycle_1,RMRG,Natural Gas,SWITCH,2050,base_thin,MW,474.9,474.9
 RMRG_natural_gas_fired_combined_cycle_1,RMRG,Natural Gas,SWITCH,2050,base_thin,MW,134.0,134.0
@@ -9072,6 +9093,7 @@ RMRG_natural_gas_internal_combustion_engine_1,RMRG,Natural Gas,SWITCH,2050,base_
 RMRG_natural_gas_internal_combustion_engine_1,RMRG,Natural Gas,SWITCH,2050,base_thin,MW,4.0,4.0
 RMRG_natural_gas_internal_combustion_engine_1,RMRG,Natural Gas,SWITCH,2050,base_thin,MW,2.2,2.2
 RMRG_naturalgas_ccccsavgcf_conservative_0,RMRG,CCS,SWITCH,2050,base_thin,MW,2828.6597016491655,2828.6597016491655
+RMRG_naturalgas_ccccsavgcf_conservative_0,RMRG,CCS,SWITCH,2050,base_thin,MW,3575.9823526025066,3575.9823526025066
 RMRG_onshore_wind_turbine_1,RMRG,Wind,SWITCH,2050,base_thin,MW,812.2,812.2
 RMRG_onshore_wind_turbine_1,RMRG,Wind,SWITCH,2050,base_thin,MW,145.0,145.0
 RMRG_onshore_wind_turbine_1,RMRG,Wind,SWITCH,2050,base_thin,MW,329.8,329.8
@@ -9111,16 +9133,15 @@ RMRG_solar_photovoltaic_1,RMRG,Solar,SWITCH,2050,base_thin,MW,235.0,235.0
 RMRG_solar_photovoltaic_1,RMRG,Solar,SWITCH,2050,base_thin,MW,921.0,921.0
 RMRG_solar_photovoltaic_1,RMRG,Solar,SWITCH,2050,base_thin,MW,4.4,4.4
 RMRG_utilitypv_class1_moderate_1,RMRG,Solar,SWITCH,2050,base_thin,MW,424.8187628962856,424.8187628962856
-RMRG_utilitypv_class1_moderate_1,RMRG,Solar,SWITCH,2050,base_thin,MW,13015.74199658574,13015.74199658574
 SPPC_battery_moderate_0,SPPC,Battery,SWITCH,2050,base_thin,MW,1651.5315566593315,1651.5315566593315
-SPPC_battery_moderate_0,SPPC,Battery,SWITCH,2050,base_thin,MW,18876.47689888472,18876.47689888472
+SPPC_battery_moderate_0,SPPC,Battery,SWITCH,2050,base_thin,MW,1174.8459360876327,1174.8459360876327
 SPPC_biomass_1,SPPC,Other,SWITCH,2050,base_thin,MW,1.6,1.6
 SPPC_biomass_1,SPPC,Other,SWITCH,2050,base_thin,MW,1.9,1.9
 SPPC_conventional_steam_coal_1,SPPC,Coal,SWITCH,2050,base_thin,MW,877.0,877.0
 SPPC_conventional_steam_coal_1,SPPC,Coal,SWITCH,2050,base_thin,MW,275.0,275.0
 SPPC_distributed_generation_1,SPPC,Distributed Solar,SWITCH,2050,base_thin,MW,1875.0,1875.0
 SPPC_landbasedwind_class3_moderate_1,SPPC,Wind,SWITCH,2050,base_thin,MW,3979.744122193614,3979.744122193614
-SPPC_landbasedwind_class3_moderate_1,SPPC,Wind,SWITCH,2050,base_thin,MW,22847.655258837396,22847.655258837396
+SPPC_landbasedwind_class3_moderate_1,SPPC,Wind,SWITCH,2050,base_thin,MW,24733.613596613784,24733.613596613784
 SPPC_natural_gas_fired_combined_cycle_1,SPPC,Natural Gas,SWITCH,2050,base_thin,MW,328.0,328.0
 SPPC_natural_gas_fired_combined_cycle_1,SPPC,Natural Gas,SWITCH,2050,base_thin,MW,142.8,142.8
 SPPC_natural_gas_fired_combined_cycle_1,SPPC,Natural Gas,SWITCH,2050,base_thin,MW,729.4,729.4
@@ -9169,9 +9190,9 @@ SPPC_solar_photovoltaic_1,SPPC,Solar,SWITCH,2050,base_thin,MW,5.2,5.2
 SPPC_solar_photovoltaic_1,SPPC,Solar,SWITCH,2050,base_thin,MW,11.3,11.3
 SPPC_solar_photovoltaic_1,SPPC,Solar,SWITCH,2050,base_thin,MW,12.0,12.0
 SPPC_utilitypv_class1_moderate_1,SPPC,Solar,SWITCH,2050,base_thin,MW,5051.795501979678,5051.795501979678
-SPPC_utilitypv_class1_moderate_1,SPPC,Solar,SWITCH,2050,base_thin,MW,23754.64470217733,23754.64470217733
+SPPC_utilitypv_class1_moderate_1,SPPC,Solar,SWITCH,2050,base_thin,MW,12324.436131671717,12324.436131671717
 SPPN_battery_moderate_0,SPPN,Battery,SWITCH,2050,base_thin,MW,1325.9498437421248,1325.9498437421248
-SPPN_battery_moderate_0,SPPN,Battery,SWITCH,2050,base_thin,MW,8519.606723983212,8519.606723983212
+SPPN_battery_moderate_0,SPPN,Battery,SWITCH,2050,base_thin,MW,1469.9852957112146,1469.9852957112146
 SPPN_biomass_1,SPPN,Other,SWITCH,2050,base_thin,MW,1.0,1.0
 SPPN_biomass_1,SPPN,Other,SWITCH,2050,base_thin,MW,4.8,4.8
 SPPN_biomass_1,SPPN,Other,SWITCH,2050,base_thin,MW,5.4,5.4
@@ -9195,7 +9216,7 @@ SPPN_conventional_steam_coal_1,SPPN,Coal,SWITCH,2050,base_thin,MW,691.0,691.0
 SPPN_conventional_steam_coal_1,SPPN,Coal,SWITCH,2050,base_thin,MW,61.0,61.0
 SPPN_conventional_steam_coal_1,SPPN,Coal,SWITCH,2050,base_thin,MW,232.0,232.0
 SPPN_distributed_generation_1,SPPN,Distributed Solar,SWITCH,2050,base_thin,MW,835.0,835.0
-SPPN_landbasedwind_class3_moderate_1,SPPN,Wind,SWITCH,2050,base_thin,MW,2679.8961734507157,2679.8961734507157
+SPPN_landbasedwind_class3_moderate_1,SPPN,Wind,SWITCH,2050,base_thin,MW,5445.366198689592,5445.366198689592
 SPPN_natural_gas_fired_combined_cycle_1,SPPN,Natural Gas,SWITCH,2050,base_thin,MW,48.0,48.0
 SPPN_natural_gas_fired_combined_cycle_1,SPPN,Natural Gas,SWITCH,2050,base_thin,MW,76.6,76.6
 SPPN_natural_gas_fired_combined_cycle_1,SPPN,Natural Gas,SWITCH,2050,base_thin,MW,220.0,220.0
@@ -9229,7 +9250,7 @@ SPPN_solar_photovoltaic_1,SPPN,Solar,SWITCH,2050,base_thin,MW,4.4,4.4
 SPPN_solar_photovoltaic_1,SPPN,Solar,SWITCH,2050,base_thin,MW,8.5,8.5
 SPPN_solar_photovoltaic_1,SPPN,Solar,SWITCH,2050,base_thin,MW,81.0,81.0
 SPPN_utilitypv_class1_moderate_1,SPPN,Solar,SWITCH,2050,base_thin,MW,5909.118967893722,5909.118967893722
-SPPN_utilitypv_class1_moderate_1,SPPN,Solar,SWITCH,2050,base_thin,MW,21924.45126090697,21924.45126090697
+SPPN_utilitypv_class1_moderate_1,SPPN,Solar,SWITCH,2050,base_thin,MW,10419.322813073164,10419.322813073164
 SPPS_biomass_1,SPPS,Other,SWITCH,2050,base_thin,MW,1.4,1.4
 SPPS_conventional_hydroelectric_1,SPPS,Hydro,SWITCH,2050,base_thin,MW,125.0,125.0
 SPPS_conventional_hydroelectric_1,SPPS,Hydro,SWITCH,2050,base_thin,MW,138.2,138.2
@@ -9256,7 +9277,7 @@ SPPS_hydroelectric_pumped_storage_1,SPPS,Hydro,SWITCH,2050,base_thin,MW,31.0,31.
 SPPS_hydroelectric_pumped_storage_1,SPPS,Hydro,SWITCH,2050,base_thin,MW,31.0,31.0
 SPPS_hydroelectric_pumped_storage_1,SPPS,Hydro,SWITCH,2050,base_thin,MW,124.0,124.0
 SPPS_landbasedwind_class3_moderate_1,SPPS,Wind,SWITCH,2050,base_thin,MW,63817.244657310024,63817.244657310024
-SPPS_landbasedwind_class3_moderate_1,SPPS,Wind,SWITCH,2050,base_thin,MW,57867.55260687271,57867.55260687271
+SPPS_landbasedwind_class3_moderate_1,SPPS,Wind,SWITCH,2050,base_thin,MW,62614.94644268997,62614.94644268997
 SPPS_natural_gas_fired_combined_cycle_1,SPPS,Natural Gas,SWITCH,2050,base_thin,MW,18.0,18.0
 SPPS_natural_gas_fired_combined_cycle_1,SPPS,Natural Gas,SWITCH,2050,base_thin,MW,18.0,18.0
 SPPS_natural_gas_fired_combined_cycle_1,SPPS,Natural Gas,SWITCH,2050,base_thin,MW,62.0,62.0
@@ -9306,9 +9327,9 @@ SPPS_small_hydroelectric_1,SPPS,Hydro,SWITCH,2050,base_thin,MW,7.8,7.8
 SPPS_solar_photovoltaic_1,SPPS,Solar,SWITCH,2050,base_thin,MW,9.0,9.0
 SPPS_solar_photovoltaic_1,SPPS,Solar,SWITCH,2050,base_thin,MW,5.0,5.0
 SPPS_solar_photovoltaic_1,SPPS,Solar,SWITCH,2050,base_thin,MW,50.0,50.0
-SPPS_utilitypv_class1_moderate_1,SPPS,Solar,SWITCH,2050,base_thin,MW,29010.33094089403,29010.33094089403
+SPPS_utilitypv_class1_moderate_1,SPPS,Solar,SWITCH,2050,base_thin,MW,25120.66931364103,25120.66931364103
 SRCA_battery_moderate_0,SRCA,Battery,SWITCH,2050,base_thin,MW,3176.2246118344956,3176.2246118344956
-SRCA_battery_moderate_0,SRCA,Battery,SWITCH,2050,base_thin,MW,41278.670063744226,41278.670063744226
+SRCA_battery_moderate_0,SRCA,Battery,SWITCH,2050,base_thin,MW,10024.642492113331,10024.642492113331
 SRCA_biomass_1,SRCA,Other,SWITCH,2050,base_thin,MW,38.0,38.0
 SRCA_biomass_1,SRCA,Other,SWITCH,2050,base_thin,MW,13.0,13.0
 SRCA_biomass_1,SRCA,Other,SWITCH,2050,base_thin,MW,25.8,25.8
@@ -9336,6 +9357,7 @@ SRCA_hydroelectric_pumped_storage_1,SRCA,Hydro,SWITCH,2050,base_thin,MW,390.0,39
 SRCA_hydroelectric_pumped_storage_1,SRCA,Hydro,SWITCH,2050,base_thin,MW,390.0,390.0
 SRCA_hydroelectric_pumped_storage_1,SRCA,Hydro,SWITCH,2050,base_thin,MW,576.0,576.0
 SRCA_hydroelectric_pumped_storage_1,SRCA,Hydro,SWITCH,2050,base_thin,MW,1440.0,1440.0
+SRCA_landbasedwind_class3_moderate_1,SRCA,Wind,SWITCH,2050,base_thin,MW,5594.940009,5594.940009
 SRCA_natural_gas_fired_combined_cycle_1,SRCA,Natural Gas,SWITCH,2050,base_thin,MW,65.0,65.0
 SRCA_natural_gas_fired_combined_cycle_1,SRCA,Natural Gas,SWITCH,2050,base_thin,MW,66.0,66.0
 SRCA_natural_gas_fired_combined_cycle_1,SRCA,Natural Gas,SWITCH,2050,base_thin,MW,101.0,101.0
@@ -9363,6 +9385,7 @@ SRCA_natural_gas_fired_combustion_turbine_1,SRCA,Natural Gas,SWITCH,2050,base_th
 SRCA_natural_gas_fired_combustion_turbine_1,SRCA,Natural Gas,SWITCH,2050,base_thin,MW,24.6,24.6
 SRCA_natural_gas_fired_combustion_turbine_1,SRCA,Natural Gas,SWITCH,2050,base_thin,MW,616.7,616.7
 SRCA_naturalgas_ccccsavgcf_conservative_0,SRCA,CCS,SWITCH,2050,base_thin,MW,4335.214867295712,4335.214867295712
+SRCA_naturalgas_ccccsavgcf_conservative_0,SRCA,CCS,SWITCH,2050,base_thin,MW,6677.767479473321,6677.767479473321
 SRCA_nuclear_1,SRCA,Nuclear,SWITCH,2050,base_thin,MW,792.9,792.9
 SRCA_nuclear_1,SRCA,Nuclear,SWITCH,2050,base_thin,MW,865.0,865.0
 SRCA_nuclear_1,SRCA,Nuclear,SWITCH,2050,base_thin,MW,1753.0,1753.0
@@ -9401,9 +9424,9 @@ SRCA_solar_photovoltaic_1,SRCA,Solar,SWITCH,2050,base_thin,MW,74.4,74.4
 SRCA_solar_photovoltaic_1,SRCA,Solar,SWITCH,2050,base_thin,MW,75.0,75.0
 SRCA_solar_photovoltaic_1,SRCA,Solar,SWITCH,2050,base_thin,MW,989.4,989.4
 SRCA_utilitypv_class1_moderate_1,SRCA,Solar,SWITCH,2050,base_thin,MW,16611.627929249382,16611.627929249382
-SRCA_utilitypv_class1_moderate_1,SRCA,Solar,SWITCH,2050,base_thin,MW,89616.00584773628,89616.00584773628
+SRCA_utilitypv_class1_moderate_1,SRCA,Solar,SWITCH,2050,base_thin,MW,51263.785052627936,51263.785052627936
 SRCE_battery_moderate_0,SRCE,Battery,SWITCH,2050,base_thin,MW,2180.015893869576,2180.015893869576
-SRCE_battery_moderate_0,SRCE,Battery,SWITCH,2050,base_thin,MW,25298.44241213822,25298.44241213822
+SRCE_battery_moderate_0,SRCE,Battery,SWITCH,2050,base_thin,MW,5102.058150070241,5102.058150070241
 SRCE_biomass_1,SRCE,Other,SWITCH,2050,base_thin,MW,0.9,0.9
 SRCE_biomass_1,SRCE,Other,SWITCH,2050,base_thin,MW,1.8,1.8
 SRCE_biomass_1,SRCE,Other,SWITCH,2050,base_thin,MW,22.5,22.5
@@ -9444,7 +9467,7 @@ SRCE_hydroelectric_pumped_storage_1,SRCE,Hydro,SWITCH,2050,base_thin,MW,67.5,67.
 SRCE_hydroelectric_pumped_storage_1,SRCE,Hydro,SWITCH,2050,base_thin,MW,404.1,404.1
 SRCE_hydroelectric_pumped_storage_1,SRCE,Hydro,SWITCH,2050,base_thin,MW,1212.2,1212.2
 SRCE_landbasedwind_class3_moderate_1,SRCE,Wind,SWITCH,2050,base_thin,MW,11126.068274916232,11126.068274916232
-SRCE_landbasedwind_class3_moderate_1,SRCE,Wind,SWITCH,2050,base_thin,MW,10453.045986313527,10453.045986313527
+SRCE_landbasedwind_class3_moderate_1,SRCE,Wind,SWITCH,2050,base_thin,MW,34256.10547508377,34256.10547508377
 SRCE_natural_gas_fired_combined_cycle_1,SRCE,Natural Gas,SWITCH,2050,base_thin,MW,883.5,883.5
 SRCE_natural_gas_fired_combined_cycle_1,SRCE,Natural Gas,SWITCH,2050,base_thin,MW,685.0,685.0
 SRCE_natural_gas_fired_combined_cycle_1,SRCE,Natural Gas,SWITCH,2050,base_thin,MW,4458.0,4458.0
@@ -9463,6 +9486,7 @@ SRCE_natural_gas_fired_combustion_turbine_1,SRCE,Natural Gas,SWITCH,2050,base_th
 SRCE_natural_gas_fired_combustion_turbine_1,SRCE,Natural Gas,SWITCH,2050,base_thin,MW,61.4,61.4
 SRCE_natural_gas_fired_combustion_turbine_1,SRCE,Natural Gas,SWITCH,2050,base_thin,MW,6.5,6.5
 SRCE_naturalgas_ccccsavgcf_conservative_0,SRCE,CCS,SWITCH,2050,base_thin,MW,3066.6692941612578,3066.6692941612578
+SRCE_naturalgas_ccccsavgcf_conservative_0,SRCE,CCS,SWITCH,2050,base_thin,MW,3625.3038131821263,3625.3038131821263
 SRCE_nuclear_1,SRCE,Nuclear,SWITCH,2050,base_thin,MW,1286.7,1286.7
 SRCE_nuclear_1,SRCE,Nuclear,SWITCH,2050,base_thin,MW,1290.3,1290.3
 SRCE_nuclear_1,SRCE,Nuclear,SWITCH,2050,base_thin,MW,1289.2,1289.2
@@ -9485,9 +9509,9 @@ SRCE_solar_photovoltaic_1,SRCE,Solar,SWITCH,2050,base_thin,MW,220.7,220.7
 SRCE_solar_photovoltaic_1,SRCE,Solar,SWITCH,2050,base_thin,MW,711.3,711.3
 SRCE_solar_photovoltaic_1,SRCE,Solar,SWITCH,2050,base_thin,MW,472.0,472.0
 SRCE_utilitypv_class1_moderate_1,SRCE,Solar,SWITCH,2050,base_thin,MW,11407.67698947901,11407.67698947901
-SRCE_utilitypv_class1_moderate_1,SRCE,Solar,SWITCH,2050,base_thin,MW,70989.60871196899,70989.60871196899
+SRCE_utilitypv_class1_moderate_1,SRCE,Solar,SWITCH,2050,base_thin,MW,34224.69887192176,34224.69887192176
 SRSE_battery_moderate_0,SRSE,Battery,SWITCH,2050,base_thin,MW,1164.9018556342508,1164.9018556342508
-SRSE_battery_moderate_0,SRSE,Battery,SWITCH,2050,base_thin,MW,43262.00817429746,43262.00817429746
+SRSE_battery_moderate_0,SRSE,Battery,SWITCH,2050,base_thin,MW,12542.31541426966,12542.31541426966
 SRSE_biomass_1,SRSE,Other,SWITCH,2050,base_thin,MW,16.9,16.9
 SRSE_biomass_1,SRSE,Other,SWITCH,2050,base_thin,MW,17.6,17.6
 SRSE_biomass_1,SRSE,Other,SWITCH,2050,base_thin,MW,46.6,46.6
@@ -9567,6 +9591,7 @@ SRSE_natural_gas_fired_combustion_turbine_1,SRSE,Natural Gas,SWITCH,2050,base_th
 SRSE_natural_gas_internal_combustion_engine_1,SRSE,Natural Gas,SWITCH,2050,base_thin,MW,10.4,10.4
 SRSE_natural_gas_internal_combustion_engine_1,SRSE,Natural Gas,SWITCH,2050,base_thin,MW,6.6,6.6
 SRSE_naturalgas_ccccsavgcf_conservative_0,SRSE,CCS,SWITCH,2050,base_thin,MW,5949.524478465233,5949.524478465233
+SRSE_naturalgas_ccccsavgcf_conservative_0,SRSE,CCS,SWITCH,2050,base_thin,MW,4663.449147016154,4663.449147016154
 SRSE_nuclear_1,SRSE,Nuclear,SWITCH,2050,base_thin,MW,876.0,876.0
 SRSE_nuclear_1,SRSE,Nuclear,SWITCH,2050,base_thin,MW,874.0,874.0
 SRSE_nuclear_1,SRSE,Nuclear,SWITCH,2050,base_thin,MW,883.0,883.0
@@ -9588,9 +9613,9 @@ SRSE_solar_photovoltaic_1,SRSE,Solar,SWITCH,2050,base_thin,MW,1183.4,1183.4
 SRSE_solar_photovoltaic_1,SRSE,Solar,SWITCH,2050,base_thin,MW,74.5,74.5
 SRSE_solar_photovoltaic_1,SRSE,Solar,SWITCH,2050,base_thin,MW,74.5,74.5
 SRSE_utilitypv_class1_moderate_1,SRSE,Solar,SWITCH,2050,base_thin,MW,10903.705995463446,10903.705995463446
-SRSE_utilitypv_class1_moderate_1,SRSE,Solar,SWITCH,2050,base_thin,MW,106005.67998640072,106005.67998640072
+SRSE_utilitypv_class1_moderate_1,SRSE,Solar,SWITCH,2050,base_thin,MW,57329.80949033214,57329.80949033214
 SRSG_battery_moderate_0,SRSG,Battery,SWITCH,2050,base_thin,MW,2805.519862313784,2805.519862313784
-SRSG_battery_moderate_0,SRSG,Battery,SWITCH,2050,base_thin,MW,38434.99414316535,38434.99414316535
+SRSG_battery_moderate_0,SRSG,Battery,SWITCH,2050,base_thin,MW,7092.739704977731,7092.739704977731
 SRSG_biomass_1,SRSG,Other,SWITCH,2050,base_thin,MW,2.5,2.5
 SRSG_biomass_1,SRSG,Other,SWITCH,2050,base_thin,MW,22.2,22.2
 SRSG_biomass_1,SRSG,Other,SWITCH,2050,base_thin,MW,3.2,3.2
@@ -9639,6 +9664,7 @@ SRSG_natural_gas_internal_combustion_engine_1,SRSG,Natural Gas,SWITCH,2050,base_
 SRSG_natural_gas_internal_combustion_engine_1,SRSG,Natural Gas,SWITCH,2050,base_thin,MW,4.4,4.4
 SRSG_natural_gas_internal_combustion_engine_1,SRSG,Natural Gas,SWITCH,2050,base_thin,MW,97.0,97.0
 SRSG_naturalgas_ccccsavgcf_conservative_0,SRSG,CCS,SWITCH,2050,base_thin,MW,33.580526771956784,33.580526771956784
+SRSG_naturalgas_ccccsavgcf_conservative_0,SRSG,CCS,SWITCH,2050,base_thin,MW,537.8120855073043,537.8120855073043
 SRSG_nuclear_1,SRSG,Nuclear,SWITCH,2050,base_thin,MW,2669.0,2669.0
 SRSG_nuclear_1,SRSG,Nuclear,SWITCH,2050,base_thin,MW,1334.0,1334.0
 SRSG_onshore_wind_turbine_1,SRSG,Wind,SWITCH,2050,base_thin,MW,1458.2,1458.2
@@ -9661,8 +9687,9 @@ SRSG_solar_photovoltaic_1,SRSG,Solar,SWITCH,2050,base_thin,MW,452.1,452.1
 SRSG_solar_photovoltaic_1,SRSG,Solar,SWITCH,2050,base_thin,MW,1540.3,1540.3
 SRSG_solar_photovoltaic_1,SRSG,Solar,SWITCH,2050,base_thin,MW,850.0,850.0
 SRSG_utilitypv_class1_moderate_1,SRSG,Solar,SWITCH,2050,base_thin,MW,9244.801403383675,9244.801403383675
-SRSG_utilitypv_class1_moderate_1,SRSG,Solar,SWITCH,2050,base_thin,MW,67893.36521402138,67893.36521402138
+SRSG_utilitypv_class1_moderate_1,SRSG,Solar,SWITCH,2050,base_thin,MW,31570.915014110175,31570.915014110175
 TRE_WEST_distributed_generation_1,TRE,Distributed Solar,SWITCH,2050,base_thin,MW,521.0,521.0
+TRE_WEST_landbasedwind_class3_moderate_1,TRE,Wind,SWITCH,2050,base_thin,MW,15261.07890876486,15261.07890876486
 TRE_WEST_natural_gas_fired_combined_cycle_1,TRE,Natural Gas,SWITCH,2050,base_thin,MW,1202.6,1202.6
 TRE_WEST_natural_gas_fired_combined_cycle_1,TRE,Natural Gas,SWITCH,2050,base_thin,MW,168.0,168.0
 TRE_WEST_natural_gas_fired_combined_cycle_1,TRE,Natural Gas,SWITCH,2050,base_thin,MW,106.0,106.0
@@ -9681,6 +9708,7 @@ TRE_WEST_petroleum_liquids_1,TRE,Other,SWITCH,2050,base_thin,MW,54.0,54.0
 TRE_WEST_solar_photovoltaic_1,TRE,Solar,SWITCH,2050,base_thin,MW,2845.0,2845.0
 TRE_WEST_solar_photovoltaic_1,TRE,Solar,SWITCH,2050,base_thin,MW,1474.6,1474.6
 TRE_WEST_solar_photovoltaic_1,TRE,Solar,SWITCH,2050,base_thin,MW,1602.0,1602.0
+TRE_battery_moderate_0,TRE,Battery,SWITCH,2050,base_thin,MW,5912.827675630142,5912.827675630142
 TRE_biomass_1,TRE,Other,SWITCH,2050,base_thin,MW,5.0,5.0
 TRE_biomass_1,TRE,Other,SWITCH,2050,base_thin,MW,2.5,2.5
 TRE_biomass_1,TRE,Other,SWITCH,2050,base_thin,MW,10.0,10.0
@@ -9765,6 +9793,7 @@ TRE_natural_gas_internal_combustion_engine_1,TRE,Natural Gas,SWITCH,2050,base_th
 TRE_natural_gas_internal_combustion_engine_1,TRE,Natural Gas,SWITCH,2050,base_thin,MW,8.4,8.4
 TRE_natural_gas_steam_turbine_1,TRE,Natural Gas,SWITCH,2050,base_thin,MW,286.2,286.2
 TRE_naturalgas_ccccsavgcf_conservative_0,TRE,CCS,SWITCH,2050,base_thin,MW,5083.721051965415,5083.721051965415
+TRE_naturalgas_ccccsavgcf_conservative_0,TRE,CCS,SWITCH,2050,base_thin,MW,8361.710557484806,8361.710557484806
 TRE_nuclear_1,TRE,Nuclear,SWITCH,2050,base_thin,MW,1340.0,1340.0
 TRE_nuclear_1,TRE,Nuclear,SWITCH,2050,base_thin,MW,1320.0,1320.0
 TRE_nuclear_1,TRE,Nuclear,SWITCH,2050,base_thin,MW,1235.0,1235.0
@@ -9783,4 +9812,4 @@ TRE_solar_photovoltaic_1,TRE,Solar,SWITCH,2050,base_thin,MW,2727.1,2727.1
 TRE_solar_photovoltaic_1,TRE,Solar,SWITCH,2050,base_thin,MW,3987.8,3987.8
 TRE_solar_photovoltaic_1,TRE,Solar,SWITCH,2050,base_thin,MW,3974.4,3974.4
 TRE_utilitypv_class1_moderate_1,TRE,Solar,SWITCH,2050,base_thin,MW,23335.86917606331,23335.86917606331
-TRE_utilitypv_class1_moderate_1,TRE,Solar,SWITCH,2050,base_thin,MW,47814.14637396947,47814.14637396947
+TRE_utilitypv_class1_moderate_1,TRE,Solar,SWITCH,2050,base_thin,MW,41637.76848074677,41637.76848074677
