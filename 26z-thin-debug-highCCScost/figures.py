@@ -107,6 +107,18 @@ def load_data(fn: str) -> pd.DataFrame:
     return df
 
 
+def load_genx_operations_data(fn: str) -> pd.DataFrame:
+    df_list = []
+    for f in data_path.rglob(fn):
+        _df = pd.read_csv(f)
+        model = f.parts[-3].split("_")[0]
+        _df["model"] = model
+        df_list.append(_df)
+
+    df = pd.concat(df_list, ignore_index=True)
+    return df
+
+
 def reverse_line_name(s: str) -> str:
     segments = s.split("_to_")
     return segments[-1] + "_to_" + segments[0]
@@ -563,41 +575,41 @@ tx_exp["lon2"] = tx_exp["dest_region"].map(gdf.set_index("zone")["lon"])
 
 
 # %%
-fig_num += 1
-all_figs = []
+# fig_num += 1
+# all_figs = []
 
-for year in tx_exp.planning_year.unique():
-    year_figs = []
-    for model in tx_exp.model.unique():
-        background = (
-            alt.Chart(gdf, title=f"{str(year)}_{model}")
-            .mark_geoshape(
-                stroke="white",
-                fill="lightgray",
-            )
-            .project(type="albersUsa")
-        )
-        lines = (
-            alt.Chart(tx_exp.query("planning_year==@year and model==@model"))
-            .mark_rule()
-            .encode(
-                latitude="lat1",
-                longitude="lon1",
-                latitude2="lat2",
-                longitude2="lon2",
-                # strokeWidth="value",
-                color=alt.Color("value:Q").scale(scheme="plasma"),
-            )
-            .project(type="albersUsa")
-        )
+# for year in tx_exp.planning_year.unique():
+#     year_figs = []
+#     for model in tx_exp.model.unique():
+#         background = (
+#             alt.Chart(gdf, title=f"{str(year)}_{model}")
+#             .mark_geoshape(
+#                 stroke="white",
+#                 fill="lightgray",
+#             )
+#             .project(type="albersUsa")
+#         )
+#         lines = (
+#             alt.Chart(tx_exp.query("planning_year==@year and model==@model"))
+#             .mark_rule()
+#             .encode(
+#                 latitude="lat1",
+#                 longitude="lon1",
+#                 latitude2="lat2",
+#                 longitude2="lon2",
+#                 # strokeWidth="value",
+#                 color=alt.Color("value:Q").scale(scheme="plasma"),
+#             )
+#             .project(type="albersUsa")
+#         )
 
-        year_figs.append(background + lines)
-    all_figs.append(alt.hconcat(*year_figs))
+#         year_figs.append(background + lines)
+#     all_figs.append(alt.hconcat(*year_figs))
 
-chart = alt.vconcat(*all_figs)
+# chart = alt.vconcat(*all_figs)
 
-chart.save(f"{str(fig_num).zfill(2)} - transmission expansion map across models.png")
-# chart
+# chart.save(f"{str(fig_num).zfill(2)} - transmission expansion map across models.png")
+# # chart
 
 
 # %%
@@ -645,41 +657,41 @@ chart.save(f"{str(fig_num).zfill(2)} - total transmission expansion bar chart.pn
 # ## Transmission
 
 
-# %%
-fig_num += 1
-all_figs = []
+# # %%
+# fig_num += 1
+# all_figs = []
 
-for year in tx.planning_year.unique():
-    year_figs = []
-    for model in tx.model.unique():
-        background = (
-            alt.Chart(gdf, title=f"{str(year)}_{model}")
-            .mark_geoshape(
-                stroke="white",
-                fill="lightgray",
-            )
-            .project(type="albersUsa")
-        )
-        lines = (
-            alt.Chart(tx.query("planning_year==@year and model==@model"))
-            .mark_rule()
-            .encode(
-                latitude="lat1",
-                longitude="lon1",
-                latitude2="lat2",
-                longitude2="lon2",
-                # strokeWidth=alt.StrokeWidth("end_value:Q", bin=alt.Bin(step=5000)),
-                color=alt.Color("end_value:Q").scale(scheme="plasma"),
-            )
-            .project(type="albersUsa")
-        )
+# for year in tx.planning_year.unique():
+#     year_figs = []
+#     for model in tx.model.unique():
+#         background = (
+#             alt.Chart(gdf, title=f"{str(year)}_{model}")
+#             .mark_geoshape(
+#                 stroke="white",
+#                 fill="lightgray",
+#             )
+#             .project(type="albersUsa")
+#         )
+#         lines = (
+#             alt.Chart(tx.query("planning_year==@year and model==@model"))
+#             .mark_rule()
+#             .encode(
+#                 latitude="lat1",
+#                 longitude="lon1",
+#                 latitude2="lat2",
+#                 longitude2="lon2",
+#                 # strokeWidth=alt.StrokeWidth("end_value:Q", bin=alt.Bin(step=5000)),
+#                 color=alt.Color("end_value:Q").scale(scheme="plasma"),
+#             )
+#             .project(type="albersUsa")
+#         )
 
-        year_figs.append(background + lines)
-    all_figs.append(alt.hconcat(*year_figs))
+#         year_figs.append(background + lines)
+#     all_figs.append(alt.hconcat(*year_figs))
 
-chart = alt.vconcat(*all_figs)
+# chart = alt.vconcat(*all_figs)
 
-chart.save(f"{str(fig_num).zfill(2)} - transmission map across models.png")
+# chart.save(f"{str(fig_num).zfill(2)} - transmission map across models.png")
 # chart
 
 # %% [markdown]
@@ -828,6 +840,46 @@ for year, _df in solar_dispatch.groupby("planning_year"):
         f"{str(fig_num).zfill(2)} - {year} new-build solar dispatch by region.png",
         scale_factor=2,
     )
+
+# %%
+op_costs = load_genx_operations_data("costs.csv")
+fig_num += 1
+chart = (
+    alt.Chart(
+        op_costs[["Costs", "Total", "model"]].query("Total>0 and Costs != 'cTotal'")
+    )
+    .mark_bar()
+    .encode(
+        # xOffset="model:N",
+        x="model:N",
+        y=alt.Y("Total").title("Costs"),
+        color="Costs:N",
+    )
+)
+chart.save(
+    f"{str(fig_num).zfill(2)} - operational costs in GenX by model.png",
+    scale_factor=2,
+)
+
+
+# %%
+op_nse = load_genx_operations_data("nse.csv")
+fig_num += 1
+chart = (
+    alt.Chart(op_nse[["Segment", "Total", "model"]].query("Segment == 'AnnualSum'"))
+    .mark_bar()
+    .encode(
+        # xOffset="model:N",
+        x="model:N",
+        y=alt.Y("Total").title("Annual non-served MWh"),
+        color="model:N",
+    )
+)
+chart.save(
+    f"{str(fig_num).zfill(2)} - operational NSE in GenX by model.png",
+    scale_factor=2,
+)
+
 # %%
 from pathlib import Path
 
