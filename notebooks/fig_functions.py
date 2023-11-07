@@ -79,7 +79,7 @@ rev_region_map = reverse_dict_of_lists(region_map)
 def load_data(data_path: Path, fn: str) -> pd.DataFrame:
     df_list = []
     for f in data_path.rglob(fn):
-        if not "output" in f.parts[-2]:
+        if not ("output" in f.parts[-2] or "Results" in f.parts[-2]):
             # print(f.parts[-2])
             _df = pd.read_csv(f)
             df_list.append(_df)
