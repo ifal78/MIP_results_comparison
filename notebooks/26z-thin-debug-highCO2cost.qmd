@@ -1,0 +1,377 @@
+---
+title: "26 zone thin high CO2 cost"
+format: 
+  dashboard:
+    scrolling: false
+  # html: 
+  #   code-fold: true
+    # theme: sketchy
+jupyter: python3
+---
+
+```{python}
+#| output: false
+folder = "26z-thin-debug-highCCScost"
+import os
+from typing import Dict, List
+
+import pandas as pd
+import altair as alt
+from pathlib import Path
+from fig_functions import fix_tx_line_names, load_genx_operations_data, load_data
+
+alt.renderers.enable("html")
+
+cwd = Path.cwd()
+data_path = cwd.parent / folder
+
+
+
+fig_num = 0
+
+cap = load_data(data_path, "resource_capacity.csv")
+cap = cap.query("unit=='MW' and not tech_type.isna()")
+cap["additions"] = cap["end_value"] - cap["start_value"]
+
+gen = load_data(data_path, "generation.csv")
+
+tx = load_data(data_path, "transmission.csv")
+
+
+tx["start_region"] = tx["line_name"].str.split("_to_").str[0]
+tx["dest_region"] = tx["line_name"].str.split("_to_").str[1]
+
+first_year = tx["planning_year"].min()
+starting_tx = tx.loc[tx["planning_year"] == first_year, :]
+starting_tx = starting_tx.rename(columns={"start_value": "value"})
+starting_tx["planning_year"] = 2023
+
+tx_exp = load_data(data_path, "transmission_expansion.csv")
+tx_exp["start_region"] = tx_exp["line_name"].str.split("_to_").str[0]
+tx_exp["dest_region"] = tx_exp["line_name"].str.split("_to_").str[1]
+
+emiss = load_data(data_path, "emissions.csv")
+
+emiss.loc[emiss["unit"] == "kg", "value"] /= 1000
+
+
+dispatch = load_data(data_path, "dispatch.csv")
+
+dispatch = dispatch.groupby(
+    [
+        "planning_year",
+        "model",
+        "agg_zone",
+        "zone",
+        "tech_type",
+        "resource_name",
+        "hour",
+    ],
+    as_index=False,
+)["value"].sum()
+group_cols = ["planning_year", "model", "agg_zone", "zone", "tech_type"]
+hours = dispatch["hour"].unique()
+index_cols = ["resource_name"]
+df_list = []
+for _, _df in dispatch.groupby(group_cols):
+    multi_index = pd.MultiIndex.from_product(
+        [_df[col].unique() for col in index_cols] + [hours],
+        names=index_cols + ["hour"],
+    )
+    _df = _df.set_index(index_cols + ["hour"])
+    _df = _df.reindex(index=multi_index, fill_value=0)
+    _df = _df.reset_index()
+    for val, col in zip(_, group_cols):
+        _df[col] = val
+    df_list.append(_df)
+
+dispatch = pd.concat(df_list, ignore_index=True)
+```
+# Capacity and Generation
+
+## Row
+
+#### Column {.tabset}
+```{python}
+# | title: Total Capacity
+cap_data = cap.groupby(["tech_type", "model", "planning_year"], as_index=False)[
+    "end_value"
+].sum()
+
+chart = (
+    alt.Chart(cap_data)
+    .mark_bar()
+    .encode(
+        x="model",
+        y=alt.Y("sum(end_value)").title("Capacity (MW)"),
+        color=alt.Color("tech_type").scale(scheme="tableau20"),
+        # column="zone",
+        row="planning_year:O",
+        tooltip=alt.Tooltip("end_value", title="Capacity (MW)", format=",.0f")
+    )
+    .properties(width=350, height=250)
+)
+chart
+```
+```{python}
+# | title: Regional Capacity
+data = cap.groupby(["agg_zone", "tech_type", "model", "planning_year"], as_index=False)[
+    "end_value"
+].sum()
+chart = (
+    alt.Chart(data)
+    .mark_bar()
+    .encode(
+        x="model",
+        y=alt.Y("end_value").title("Capacity (MW)"),
+        color=alt.Color("tech_type").scale(scheme="tableau20"),
+        column="agg_zone",
+        row="planning_year:O",
+        tooltip=alt.Tooltip("end_value", title="Capacity (MW)", format=",.0f")
+    )
+    .properties(width=150, height=250)
+)
+chart
+```
+
+#### Column {.tabset}
+```{python}
+# | title: Total Generation
+data = gen.groupby(["tech_type", "model", "planning_year"], as_index=False)[
+    "value"
+].sum()
+# ojs_define(gendata = data)
+chart = (
+    alt.Chart(data)
+    .mark_bar()
+    .encode(
+        x="model",
+        y=alt.Y("value").title("Generation (MWh)"),
+        color=alt.Color("tech_type").scale(scheme="tableau20"),
+        # column="zone",
+        row="planning_year:O",
+        tooltip=alt.Tooltip("value", title="Generation (MWh)", format=",.0f")
+    )
+    .properties(width=350, height=250)
+)
+chart
+```
+
+
+```{python}
+# | title: Regional Generation
+data = gen.groupby(["agg_zone", "tech_type", "model", "planning_year"], as_index=False)[
+    "value"
+].sum()
+chart = (
+    alt.Chart(data)
+    .mark_bar()
+    .encode(
+        x="model",
+        y=alt.Y("value").title("Generation (MWh)"),
+        color=alt.Color("tech_type").scale(scheme="tableau20"),
+        column="agg_zone",
+        row="planning_year:O",
+        tooltip=alt.Tooltip("value", title="Generation (MWh)", format=",.0f")
+    )
+    .properties(width=150, height=250)
+)
+chart
+```
+
+# Transmission Expansion
+## Row
+```{python}
+# | title: Transmission expansion
+chart = (
+    alt.Chart(pd.concat([starting_tx, tx_exp]))
+    .mark_bar()
+    .encode(
+        # xOffset="model:N",
+        x="model",
+        y=alt.Y("sum(value)").title("Total transmission expansion (MW)"),
+        color="model:N",
+        opacity=alt.Opacity("planning_year:O", sort="descending"),
+        facet=alt.Facet("line_name", columns=10),
+        order=alt.Order(
+            # Sort the segments of the bars by this field
+            "planning_year",
+            sort="ascending",
+        ),
+        tooltip=alt.Tooltip("sum(value)", format=",.0f")
+    )
+)
+chart
+```
+
+# Emissions
+```{python}
+# | title: Emissions
+alt.data_transformers.disable_max_rows()
+base = (
+    alt.Chart(emiss)
+    .mark_bar()
+    .encode(
+        x="model",
+        y=alt.Y("value").title("CO2 emissions (tonnes)"),
+        color=alt.Color("zone").scale(scheme="tableau20"),
+        # column="agg_zone",
+        row="planning_year:O",
+        tooltip=alt.Tooltip("value", format=",.0f")
+    )
+    .properties(width=350, height=250)
+    .resolve_scale(y="independent")
+)
+# text = (
+#     alt.Chart(emiss)
+#     .mark_text(dy=3)
+#     .encode(
+#         x="model",
+#         y=alt.Y("sum(value)"),
+#         # color=alt.Color("zone").scale(scheme="tableau20"),
+#         # column="agg_zone",
+#         row="planning_year:O",
+#         text="sum(value)"
+#     )
+#     .properties(width=350, height=250)
+#     .resolve_scale(y="independent")
+# )
+chart
+```
+
+# Dispatch
+## Row {.tabset}
+```{python}
+# | title: 2030 Dispatch
+data = dispatch.query("planning_year==2030").groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)[
+    "value"
+].sum()
+alt.data_transformers.disable_max_rows()
+chart = (
+    alt.Chart(data)
+    .mark_line()
+    .encode(x="hour", y="value", color="model", row="tech_type", column="agg_zone")
+    .properties(width=250, height=150)
+).resolve_scale(y="independent")
+chart
+```
+
+```{python}
+# | title: 2040 Dispatch
+data = dispatch.query("planning_year==2040").groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)[
+    "value"
+].sum()
+alt.data_transformers.disable_max_rows()
+chart = (
+    alt.Chart(data)
+    .mark_line()
+    .encode(x="hour", y="value", color="model", row="tech_type", column="agg_zone")
+    .properties(width=250, height=150)
+).resolve_scale(y="independent")
+chart
+```
+
+```{python}
+# | title: 2050 Dispatch
+data = dispatch.query("planning_year==2050").groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)[
+    "value"
+].sum()
+alt.data_transformers.disable_max_rows()
+chart = (
+    alt.Chart(data)
+    .mark_line()
+    .encode(x="hour", y="value", color="model", row="tech_type", column="agg_zone")
+    .properties(width=250, height=150)
+).resolve_scale(y="independent")
+chart
+```
+```{python}
+# | title: 2030 Wind Dispatch
+wind_dispatch = dispatch.query("resource_name.str.contains('landbasedwind')")
+wind_dispatch["cluster"] = wind_dispatch["resource_name"].str.split("_").str[-1]
+data = wind_dispatch.query("planning_year==2030").groupby(["model", "tech_type", "cluster", "zone", "hour"], as_index=False)[
+    "value"
+].sum()
+alt.data_transformers.disable_max_rows()
+chart = (
+    alt.Chart(data)
+    .mark_line()
+    .encode(x="hour", y="value", color="model", strokeDash="cluster",
+            facet=alt.Facet("zone", columns=5))
+    .properties(width=250, height=150)
+).resolve_scale(y="independent")
+chart
+```
+
+```{python}
+# | title: 2040 Wind Dispatch
+data = wind_dispatch.query("planning_year==2040").groupby(["model", "tech_type", "cluster", "zone", "hour"], as_index=False)[
+    "value"
+].sum()
+alt.data_transformers.disable_max_rows()
+chart = (
+    alt.Chart(data)
+    .mark_line()
+    .encode(x="hour", y="value", color="model", strokeDash="cluster",
+            facet=alt.Facet("zone", columns=5))
+    .properties(width=250, height=150)
+).resolve_scale(y="independent")
+chart
+```
+
+```{python}
+# | title: 2050 Wind Dispatch
+data = wind_dispatch.query("planning_year==2050").groupby(["model", "tech_type", "cluster", "zone", "hour"], as_index=False)[
+    "value"
+].sum()
+alt.data_transformers.disable_max_rows()
+chart = (
+    alt.Chart(data)
+    .mark_line()
+    .encode(x="hour", y="value", color="model", strokeDash="cluster",
+            facet=alt.Facet("zone", columns=5))
+    .properties(width=250, height=150)
+).resolve_scale(y="independent")
+chart
+```
+
+# Operational Results
+## Row {.tabset}
+
+```{python}
+# | title: Operational costs
+op_costs = load_genx_operations_data(data_path, "costs.csv")
+fig_num += 1
+chart = (
+    alt.Chart(
+        op_costs[["Costs", "Total", "model"]].query("Total>0 and Costs != 'cTotal'")
+    )
+    .mark_bar()
+    .encode(
+        # xOffset="model:N",
+        x="model:N",
+        y=alt.Y("Total").title("Costs"),
+        color="Costs:N",
+        tooltip=alt.Tooltip("Total", format=",.0f")
+    )
+)
+chart
+```
+
+```{python}
+# | title: Operational NSE
+op_nse = load_genx_operations_data(data_path, "nse.csv")
+fig_num += 1
+chart = (
+    alt.Chart(op_nse[["Segment", "Total", "model"]].query("Segment == 'AnnualSum'"))
+    .mark_bar()
+    .encode(
+        # xOffset="model:N",
+        x="model:N",
+        y=alt.Y("Total").title("Annual non-served MWh"),
+        color="model:N",
+        tooltip=alt.Tooltip("Total", format=",.0f")
+    )
+)
+chart
+```
