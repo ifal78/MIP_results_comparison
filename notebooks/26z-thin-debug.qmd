@@ -1,6 +1,6 @@
 ---
 title: "26 zone thin"
-# format: 
+format: dashboard
 #   dashboard:
 #     scrolling: false
 jupyter: python3
@@ -18,6 +18,7 @@ from pathlib import Path
 from fig_functions import fix_tx_line_names, load_genx_operations_data, load_data
 
 alt.renderers.enable("html")
+alt.data_transformers.disable_max_rows()
 
 cwd = Path.cwd()
 data_path = cwd.parent / folder
@@ -84,6 +85,7 @@ for _, _df in dispatch.groupby(group_cols):
 
 dispatch = pd.concat(df_list, ignore_index=True)
 ```
+
 # Capacity and Generation
 
 ## Row
@@ -204,7 +206,7 @@ chart
 # Emissions
 ```{python}
 # | title: Emissions
-alt.data_transformers.disable_max_rows()
+
 base = (
     alt.Chart(emiss)
     .mark_bar()
@@ -237,13 +239,15 @@ chart
 ```
 
 # Dispatch
+
 ## Row {.tabset}
+
 ```{python}
 # | title: 2030 Dispatch
 data = dispatch.query("planning_year==2030").groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)[
     "value"
 ].sum()
-alt.data_transformers.disable_max_rows()
+
 chart = (
     alt.Chart(data)
     .mark_line()
@@ -258,7 +262,7 @@ chart
 data = dispatch.query("planning_year==2040").groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)[
     "value"
 ].sum()
-alt.data_transformers.disable_max_rows()
+
 chart = (
     alt.Chart(data)
     .mark_line()
@@ -273,7 +277,7 @@ chart
 data = dispatch.query("planning_year==2050").groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)[
     "value"
 ].sum()
-alt.data_transformers.disable_max_rows()
+
 chart = (
     alt.Chart(data)
     .mark_line()
@@ -289,7 +293,7 @@ wind_dispatch["cluster"] = wind_dispatch["resource_name"].str.split("_").str[-1]
 data = wind_dispatch.query("planning_year==2030").groupby(["model", "tech_type", "cluster", "zone", "hour"], as_index=False)[
     "value"
 ].sum()
-alt.data_transformers.disable_max_rows()
+
 chart = (
     alt.Chart(data)
     .mark_line()
@@ -305,7 +309,7 @@ chart
 data = wind_dispatch.query("planning_year==2040").groupby(["model", "tech_type", "cluster", "zone", "hour"], as_index=False)[
     "value"
 ].sum()
-alt.data_transformers.disable_max_rows()
+
 chart = (
     alt.Chart(data)
     .mark_line()
@@ -321,7 +325,7 @@ chart
 data = wind_dispatch.query("planning_year==2050").groupby(["model", "tech_type", "cluster", "zone", "hour"], as_index=False)[
     "value"
 ].sum()
-alt.data_transformers.disable_max_rows()
+
 chart = (
     alt.Chart(data)
     .mark_line()
