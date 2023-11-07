@@ -1,0 +1,35 @@
+name: Publish Quarto Dashboard
+
+on: push
+permissions:
+  contents: write
+jobs:
+  dashboard:
+    runs-on: ubuntu-latest  # You can choose a different runner if needed
+    defaults:
+      run:
+        shell: bash -l {0}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+      - name: Install Environment with Micromamba
+        uses: mamba-org/setup-micromamba@main
+        with:
+          environment-file: environment.yml
+          cache-environment: true
+          init-shell: bash
+          post-cleanup: 'all'
+      
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      # NOTE: If Publishing to GitHub Pages, set the permissions correctly (see top of this yaml)
+      - name: Publish to GitHub Pages (and render) 
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
