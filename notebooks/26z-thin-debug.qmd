@@ -236,12 +236,22 @@ alt.layer(base, text, data=emiss).properties(width=350, height=250).facet(row="p
 data = dispatch.query("planning_year==2030").groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)[
     "value"
 ].sum()
-
+selection = alt.selection_point(fields=['model'], bind='legend')
 chart = (
     alt.Chart(data)
     .mark_line()
-    .encode(x="hour", y="value", color="model", row="tech_type", column="agg_zone")
+    .encode(
+        x="hour", 
+        y="value", 
+        color="model", 
+        row="tech_type", 
+        column="agg_zone",
+        opacity=alt.condition(selection, alt.value(1), alt.value(0.2))
+    )
     .properties(width=250, height=150)
+    .add_params(
+    selection
+)
 ).resolve_scale(y="independent")
 chart
 ```
@@ -251,12 +261,22 @@ chart
 data = dispatch.query("planning_year==2040").groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)[
     "value"
 ].sum()
-
+selection = alt.selection_point(fields=['model'], bind='legend')
 chart = (
     alt.Chart(data)
     .mark_line()
-    .encode(x="hour", y="value", color="model", row="tech_type", column="agg_zone")
+    .encode(
+        x="hour", 
+        y="value", 
+        color="model", 
+        row="tech_type", 
+        column="agg_zone",
+        opacity=alt.condition(selection, alt.value(1), alt.value(0.2))
+    )
     .properties(width=250, height=150)
+    .add_params(
+    selection
+)
 ).resolve_scale(y="independent")
 chart
 ```
@@ -266,12 +286,22 @@ chart
 data = dispatch.query("planning_year==2050").groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)[
     "value"
 ].sum()
-
+selection = alt.selection_point(fields=['model'], bind='legend')
 chart = (
     alt.Chart(data)
     .mark_line()
-    .encode(x="hour", y="value", color="model", row="tech_type", column="agg_zone")
+    .encode(
+        x="hour", 
+        y="value", 
+        color="model", 
+        row="tech_type", 
+        column="agg_zone",
+        opacity=alt.condition(selection, alt.value(1), alt.value(0.2))
+    )
     .properties(width=250, height=150)
+    .add_params(
+    selection
+)
 ).resolve_scale(y="independent")
 chart
 ```
@@ -282,13 +312,21 @@ wind_dispatch["cluster"] = wind_dispatch["resource_name"].str.split("_").str[-1]
 data = wind_dispatch.query("planning_year==2030").groupby(["model", "tech_type", "cluster", "zone", "hour"], as_index=False)[
     "value"
 ].sum()
-
+selection = alt.selection_point(fields=['model'], bind='legend')
 chart = (
     alt.Chart(data)
     .mark_line()
-    .encode(x="hour", y="value", color="model", strokeDash="cluster",
-            facet=alt.Facet("zone", columns=5))
+    .encode(
+        x="hour", 
+        y="value", 
+        color="model", 
+        strokeDash="cluster",
+        facet=alt.Facet("zone", columns=5), 
+        opacity=alt.condition(selection, alt.value(1), alt.value(0.2)))
     .properties(width=250, height=150)
+    .add_params(
+    selection
+)
 ).resolve_scale(y="independent")
 chart
 ```
@@ -298,13 +336,21 @@ chart
 data = wind_dispatch.query("planning_year==2040").groupby(["model", "tech_type", "cluster", "zone", "hour"], as_index=False)[
     "value"
 ].sum()
-
+selection = alt.selection_point(fields=['model'], bind='legend')
 chart = (
     alt.Chart(data)
     .mark_line()
-    .encode(x="hour", y="value", color="model", strokeDash="cluster",
-            facet=alt.Facet("zone", columns=5))
+    .encode(
+        x="hour", 
+        y="value", 
+        color="model", 
+        strokeDash="cluster",
+        facet=alt.Facet("zone", columns=5), 
+        opacity=alt.condition(selection, alt.value(1), alt.value(0.2)))
     .properties(width=250, height=150)
+    .add_params(
+    selection
+)
 ).resolve_scale(y="independent")
 chart
 ```
@@ -314,13 +360,21 @@ chart
 data = wind_dispatch.query("planning_year==2050").groupby(["model", "tech_type", "cluster", "zone", "hour"], as_index=False)[
     "value"
 ].sum()
-
+selection = alt.selection_point(fields=['model'], bind='legend')
 chart = (
     alt.Chart(data)
     .mark_line()
-    .encode(x="hour", y="value", color="model", strokeDash="cluster",
-            facet=alt.Facet("zone", columns=5))
+    .encode(
+        x="hour", 
+        y="value", 
+        color="model", 
+        strokeDash="cluster",
+        facet=alt.Facet("zone", columns=5), 
+        opacity=alt.condition(selection, alt.value(1), alt.value(0.2)))
     .properties(width=250, height=150)
+    .add_params(
+    selection
+)
 ).resolve_scale(y="independent")
 chart
 ```
@@ -333,9 +387,7 @@ chart
 op_costs = load_genx_operations_data(data_path, "costs.csv")
 fig_num += 1
 chart = (
-    alt.Chart(
-        op_costs[["Costs", "Total", "model"]].query("Total>0 and Costs != 'cTotal'")
-    )
+    alt.Chart()
     .mark_bar()
     .encode(
         # xOffset="model:N",
@@ -345,7 +397,16 @@ chart = (
         tooltip=alt.Tooltip("Total", format=",.0f")
     )
 )
-chart
+
+text = alt.Chart().mark_text(dy=-5).encode(
+    x="model",
+    y="sum(Total):Q", text=alt.Text("sum(Total):Q", format=".2e"))
+
+alt.layer(
+    chart, 
+    text, 
+    data=op_costs[["Costs", "Total", "model"]].query("Total>0 and Costs != 'cTotal'")
+).properties(width=250, height=250)
 ```
 
 ```{python}
@@ -361,7 +422,7 @@ chart = (
         y=alt.Y("Total").title("Annual non-served MWh"),
         color="model:N",
         tooltip=alt.Tooltip("Total", format=",.0f")
-    )
+    ).properties(width=250, height=250)
 )
 chart
 ```
