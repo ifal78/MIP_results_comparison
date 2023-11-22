@@ -1,982 +1,801 @@
 model,zone,resource_name,tech_type,planning_year,case,unit,start_value,end_value
-TEMOA,SRCA,SRCA_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,12104.6,12104.6
-TEMOA,ISNE,ISNE_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,330,330
-TEMOA,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,453.908,453.908
-TEMOA,PJME,PJME_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,917.28,917.28
-TEMOA,PJME,PJME_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,9521.2,9521.2
-TEMOA,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,189.486,189.486
-TEMOA,CANO,CANO_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,5329,5329
-TEMOA,MISE,MISE_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,32.4,32.4
-TEMOA,TRE,TRE_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,5532.29,5532.29
-TEMOA,CANO,CANO_batteries_1,Battery,2030,base_thin_no_cap,MW,484.3,484.3
-TEMOA,ISNE,ISNE_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,3348.1,3348.1
-TEMOA,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,703.294,703.294
-TEMOA,NYCW,NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,2061.08,2061.08
-TEMOA,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,35451.2,35451.2
-TEMOA,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,7589.4,7589.4
-TEMOA,PJME,PJME_biomass_1,Other,2030,base_thin_no_cap,MW,198.081,198.081
-TEMOA,RMRG,RMRG_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,2935.59,2935.59
-TEMOA,NWPP,NWPP_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,6964.2,6964.2
-TEMOA,SRSG,SRSG_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,3408.5,3408.5
-TEMOA,SRSG,SRSG_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,3190.99,3190.99
-TEMOA,TRE_WEST,TRE_batteries_1,Battery,2030,base_thin_no_cap,MW,51.8,51.8
-TEMOA,PJMW,PJMW_batteries_1,Battery,2030,base_thin_no_cap,MW,23.8,23.8
-TEMOA,NWPP,NWPP_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,302.994,302.994
-TEMOA,TRE,TRE_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,16.368,16.368
-TEMOA,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,364.705,364.705
-TEMOA,MISE,MISE_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,11.952,11.952
-TEMOA,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,5360.94,5360.94
-TEMOA,RMRG,RMRG_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,6721,6721
-TEMOA,PJMC,PJMC_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,1580.4,1580.4
-TEMOA,CASO,CASO_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,3441,3441
-TEMOA,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,9667.21,9667.21
-TEMOA,SPPS,SPPS_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,27.996,27.996
-TEMOA,SPPC,SPPC_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,4751.51,4751.51
-TEMOA,MISC,MISC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,8753.28,8753.28
-TEMOA,FRCC,FRCC_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,5592,5592
-TEMOA,NYUP,NYUP_biomass_1,Other,2030,base_thin_no_cap,MW,82.517,82.517
-TEMOA,NYUP,NYUP_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,1088,1088
-TEMOA,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,237.999,237.999
-TEMOA,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,580.8,580.8
-TEMOA,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,644.601,644.601
 TEMOA,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,313.998,313.998
-TEMOA,PJMD,PJMD_biomass_1,Other,2030,base_thin_no_cap,MW,56.727,56.727
-TEMOA,CASO,CASO_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,50,50
-TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,6479.11,6479.11
-TEMOA,SPPC,SPPC_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,1255,1255
-TEMOA,MISC,MISC_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,25.401,25.401
-TEMOA,SRSG,SRSG_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,4003,4003
-TEMOA,CANO,CANO_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,6961.93,6961.93
-TEMOA,PJME,PJME_batteries_1,Battery,2030,base_thin_no_cap,MW,10.4,10.4
-TEMOA,PJME,PJME_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,809.094,809.094
-TEMOA,SPPC,SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,3417.98,3417.98
-TEMOA,CASO,CASO_batteries_1,Battery,2030,base_thin_no_cap,MW,623.9,623.9
-TEMOA,SPPS,SPPS_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,1620,1620
-TEMOA,MISW,MISW_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,2762,2762
-TEMOA,RMRG,RMRG_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,18.3,18.3
-TEMOA,PJME,PJME_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,58.28,58.28
-TEMOA,NWPP,NWPP_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,2187,2187
-TEMOA,MISW,MISW_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,2943.2,2943.2
-TEMOA,FRCC,FRCC_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,335,335
-TEMOA,PJMW,PJMW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,51.296,51.296
-TEMOA,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,14.504,14.504
-TEMOA,TRE_WEST,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,2127.9,2127.9
-TEMOA,MISS,MISS_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,3255,3255
-TEMOA,BASN,BASN_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,25.8,25.8
-TEMOA,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,1768,1768
-TEMOA,SPPC,SPPC_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,167.504,167.504
-TEMOA,PJME,PJME_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,9275,9275
-TEMOA,SRSG,SRSG_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,23,23
-TEMOA,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,11484.6,11484.6
-TEMOA,MISW,MISW_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,963.786,963.786
-TEMOA,SPPN,SPPN_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,1690.31,1690.31
-TEMOA,NYCW,NYCW_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,87.598,87.598
-TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2030,base_thin_no_cap,MW,0,10898.9
-TEMOA,CANO,CANO_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,217.665,217.665
-TEMOA,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,15,15
-TEMOA,MISC,MISC_batteries_1,Battery,2030,base_thin_no_cap,MW,20,20
-TEMOA,TRE_WEST,TRE_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,1036.2,1036.2
-TEMOA,PJMW,PJMW_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,3038.78,3038.78
-TEMOA,RMRG,RMRG_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,92.29,92.29
+TEMOA,FRCC,FRCC_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,5592,5592
+TEMOA,PJMW,PJMW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,83.292,83.292
+TEMOA,MISE,MISE_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,44.8,44.8
+TEMOA,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,9667.21,9667.21
 TEMOA,MISS,MISS_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,40.9,40.9
-TEMOA,PJMD,PJMD_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,2051,2051
-TEMOA,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,8231.5,8231.5
-TEMOA,PJMD,PJMD_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,574.391,574.391
-TEMOA,SRSG,SRSG_batteries_1,Battery,2030,base_thin_no_cap,MW,222.002,222.002
-TEMOA,SRSG,SRSG_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,61.886,61.886
-TEMOA,CASO,CASO_utilitypv_class1_moderate_1,Solar,2030,base_thin_no_cap,MW,0,31319.6
-TEMOA,NWPP,NWPP_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,379.824,379.824
-TEMOA,CASO,CASO_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,5484.51,5484.51
-TEMOA,MISC,MISC_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,448.596,448.596
-TEMOA,MISS,MISS_biomass_1,Other,2030,base_thin_no_cap,MW,14.04,14.04
-TEMOA,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,8331.11,8331.11
-TEMOA,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,589.519,589.519
-TEMOA,NYUP,NYUP_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,1807,1807
-TEMOA,NWPP,NWPP_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,156.408,156.408
-TEMOA,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,3537.49,3537.49
-TEMOA,SPPN,SPPN_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,59.884,59.884
-TEMOA,SRSE,SRSE_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,12318,12318
-TEMOA,ISNE,ISNE_biomass_1,Other,2030,base_thin_no_cap,MW,245.856,245.856
-TEMOA,PJMD,PJMD_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,208,208
-TEMOA,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,4830.8,4830.8
-TEMOA,PJMW,PJMW_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,2804,2804
-TEMOA,TRE_WEST,TRE_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,300,300
-TEMOA,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,3430.31,3430.31
-TEMOA,SPPC,SPPC_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,7013.31,7013.31
-TEMOA,NYUP,NYUP_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,47,47
-TEMOA,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,4433.66,4433.66
-TEMOA,PJMD,PJMD_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,3708,3708
-TEMOA,SRCE,SRCE_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,7614,7614
-TEMOA,NYUP,NYUP_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,77.6,77.6
-TEMOA,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,32369.4,32369.4
-TEMOA,NWPP,NWPP_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,1172,1172
-TEMOA,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,21378.7,21378.7
-TEMOA,MISE,MISE_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,79.8,79.8
-TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2030,base_thin_no_cap,MW,0,8981.35
-TEMOA,CANO,CANO_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,1328.81,1328.81
-TEMOA,MISC,MISC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,57.7,57.7
-TEMOA,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,6621.48,6621.48
-TEMOA,MISC,MISC_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,177.974,177.974
-TEMOA,BASN,BASN_biomass_1,Other,2030,base_thin_no_cap,MW,24.31,24.31
-TEMOA,SRCA,SRCA_biomass_1,Other,2030,base_thin_no_cap,MW,96.248,96.248
-TEMOA,MISE,MISE_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,68.4,68.4
-TEMOA,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,6941.39,6941.39
-TEMOA,SRSE,SRSE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,10641.8,10641.8
-TEMOA,MISS,MISS_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,101.304,101.304
-TEMOA,TRE,TRE_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,11290.6,11290.6
-TEMOA,PJMC,PJMC_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,33.9,33.9
-TEMOA,PJME,PJME_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,63.3,63.3
-TEMOA,MISW,MISW_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_thin_no_cap,MW,0,3182.84
-TEMOA,BASN,BASN_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,2566.08,2566.08
-TEMOA,RMRG,RMRG_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,413.517,413.517
-TEMOA,NWPP,NWPP_biomass_1,Other,2030,base_thin_no_cap,MW,137.46,137.46
-TEMOA,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,1170.5,1170.5
-TEMOA,MISW,MISW_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,440.064,440.064
-TEMOA,SPPS,SPPS_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,6724,6724
-TEMOA,ISNE,ISNE_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,5017,5017
-TEMOA,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,611.592,611.592
-TEMOA,TRE,TRE_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,285.296,285.296
-TEMOA,MISW,MISW_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,13453.3,13453.3
-TEMOA,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,4244.99,4244.99
-TEMOA,MISC,MISC_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,2708.31,2708.31
-TEMOA,PJMD,PJMD_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,113.19,113.19
-TEMOA,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,1683.8,1683.8
-TEMOA,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,191.694,191.694
-TEMOA,PJME,PJME_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,5052.77,5052.77
-TEMOA,PJMC,PJMC_biomass_1,Other,2030,base_thin_no_cap,MW,18.96,18.96
-TEMOA,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,410.72,410.72
-TEMOA,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,237.198,237.198
-TEMOA,NYCW,NYCW_biomass_1,Other,2030,base_thin_no_cap,MW,11.582,11.582
-TEMOA,SRSG,SRSG_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,4367,4367
-TEMOA,PJMW,PJMW_biomass_1,Other,2030,base_thin_no_cap,MW,26.085,26.085
-TEMOA,SRCA,SRCA_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,3265,3265
-TEMOA,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,1896.21,1896.21
-TEMOA,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,8151.91,8151.91
-TEMOA,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,1428.19,1428.19
-TEMOA,SRCE,SRCE_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,27,27
-TEMOA,PJMC,PJMC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,42.806,42.806
-TEMOA,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,4501.01,4501.01
-TEMOA,MISW,MISW_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,177,177
-TEMOA,SPPS,SPPS_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,486,486
-TEMOA,SRCE,SRCE_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,178.194,178.194
-TEMOA,ISNE,ISNE_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,969.732,969.732
-TEMOA,PJMC,PJMC_batteries_1,Battery,2030,base_thin_no_cap,MW,19.8,19.8
-TEMOA,SRSE,SRSE_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,1274.22,1274.22
-TEMOA,MISW,MISW_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,240.38,240.38
-TEMOA,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,43.5,43.5
-TEMOA,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,3003,3003
-TEMOA,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,2671.7,2671.7
-TEMOA,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,6938.19,6938.19
-TEMOA,MISC,MISC_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,12.888,12.888
-TEMOA,NYUP,NYUP_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,241.56,241.56
-TEMOA,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2030,base_thin_no_cap,MW,0,47862.8
-TEMOA,CASO,CASO_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,23.604,23.604
-TEMOA,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,474.006,474.006
-TEMOA,SRCA,SRCA_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,415,415
-TEMOA,SRCA,SRCA_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,398.4,398.4
-TEMOA,SRCE,SRCE_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,823,823
-TEMOA,BASN,BASN_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,2239.59,2239.59
-TEMOA,SPPS,SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,3714.41,3714.41
-TEMOA,SRCA,SRCA_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,34.839,34.839
-TEMOA,MISW,MISW_biomass_1,Other,2030,base_thin_no_cap,MW,42.496,42.496
-TEMOA,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,1791,1791
-TEMOA,MISC,MISC_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,1486,1486
-TEMOA,SPPN,SPPN_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,56.31,56.31
-TEMOA,TRE,TRE_biomass_1,Other,2030,base_thin_no_cap,MW,39.312,39.312
-TEMOA,ISNE,ISNE_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,1361.3,1361.29
-TEMOA,TRE,TRE_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,5120,5120
-TEMOA,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,502.712,502.712
-TEMOA,PJMC,PJMC_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,52.7,52.7
-TEMOA,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,1782,1782
-TEMOA,SRSE,SRSE_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,866,866
-TEMOA,PJMW,PJMW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,11562.5,11562.5
-TEMOA,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,471,471
-TEMOA,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,11191.3,11191.3
-TEMOA,RMRG,RMRG_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,1386,1386
-TEMOA,BASN,BASN_geothermal_1,Geothermal,2030,base_thin_no_cap,MW,383.216,383.216
-TEMOA,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,2489.99,2489.99
-TEMOA,MISS,MISS_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,190.2,190.2
-TEMOA,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,4296.69,4296.69
 TEMOA,MISC,MISC_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,2373,2373
-TEMOA,TRE_WEST,TRE_utilitypv_class1_moderate_1,Solar,2030,base_thin_no_cap,MW,0,1910.06
-TEMOA,SRCA,SRCA_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,2606.33,2606.33
-TEMOA,TRE,TRE_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,476.995,476.995
-TEMOA,TRE,TRE_batteries_1,Battery,2030,base_thin_no_cap,MW,269.9,269.9
-TEMOA,PJMW,PJMW_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,6326,6326
-TEMOA,SPPC,SPPC_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,24.003,24.003
-TEMOA,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,52,52
-TEMOA,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,30982.5,30982.5
-TEMOA,MISC,MISC_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,14265,14265
-TEMOA,FRCC,FRCC_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,4867,4867
-TEMOA,TRE,TRE_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,5518,5518
-TEMOA,FRCC,FRCC_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,425.6,425.6
-TEMOA,MISE,MISE_biomass_1,Other,2030,base_thin_no_cap,MW,94.276,94.276
-TEMOA,MISS,MISS_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,6111.1,6111.1
-TEMOA,NYCW,NYCW_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,245.2,245.2
-TEMOA,MISE,MISE_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,1948.41,1948.41
-TEMOA,SRSE,SRSE_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,8059,8059
-TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2030,base_thin_no_cap,MW,0,656.805
-TEMOA,BASN,BASN_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,183.315,183.315
-TEMOA,SRCE,SRCE_biomass_1,Other,2030,base_thin_no_cap,MW,23.364,23.364
-TEMOA,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,19.903,19.903
-TEMOA,MISE,MISE_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,30.9,30.9
-TEMOA,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,1896.79,1896.78
-TEMOA,CASO,CASO_biomass_1,Other,2030,base_thin_no_cap,MW,81.374,81.374
-TEMOA,MISW,MISW_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,30.7,30.7
-TEMOA,SRSG,SRSG_biomass_1,Other,2030,base_thin_no_cap,MW,25.84,25.84
-TEMOA,PJMW,PJMW_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,138.985,138.985
-TEMOA,MISW,MISW_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,10784.2,10784.2
-TEMOA,NWPP,NWPP_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,1342.9,1342.9
-TEMOA,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,2047,2047
-TEMOA,MISE,MISE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,132.99,132.99
-TEMOA,PJMC,PJMC_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,1903,1903
-TEMOA,PJME,PJME_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,1314.4,1314.4
-TEMOA,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,11958.4,11958.4
-TEMOA,SRSG,SRSG_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,2188,2188
-TEMOA,CANO,CANO_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,2695.92,2695.92
-TEMOA,SPPN,SPPN_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,5003.1,5003.1
-TEMOA,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,2762.51,2762.51
-TEMOA,CANO,CANO_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,92.701,92.701
-TEMOA,RMRG,RMRG_biomass_1,Other,2030,base_thin_no_cap,MW,13.84,13.84
-TEMOA,CANO,CANO_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,324.276,324.276
-TEMOA,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,3428.68,3428.69
-TEMOA,PJMW,PJMW_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,17727.7,17727.7
-TEMOA,SRSG,SRSG_geothermal_1,Geothermal,2030,base_thin_no_cap,MW,165.333,165.333
-TEMOA,PJME,PJME_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,567.789,567.789
-TEMOA,PJMW,PJMW_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,137.52,137.52
-TEMOA,SRSG,SRSG_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,198.396,198.396
-TEMOA,SPPN,SPPN_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,2918.11,2918.11
-TEMOA,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,7971.92,7971.92
-TEMOA,MISE,MISE_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,1161,1161
-TEMOA,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,2796,2796
-TEMOA,ISNE,ISNE_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,622.118,622.118
-TEMOA,MISS,MISS_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,538.104,538.104
-TEMOA,BASN,BASN_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,3000.2,3000.2
-TEMOA,SRCE,SRCE_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,55.803,55.803
-TEMOA,SPPS,SPPS_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,208.104,208.104
-TEMOA,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,4845.1,4845.1
-TEMOA,BASN,BASN_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,1510.12,1510.12
-TEMOA,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,1665,1665
+TEMOA,CASO,CASO_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,6439.92,6439.92
+TEMOA,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,11993.1,11993.1
+TEMOA,SRSG,SRSG_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,3646.03,3646.03
 TEMOA,SRSG,SRSG_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,2531,2531
-TEMOA,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,26743.1,26743.1
-TEMOA,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_thin_no_cap,MW,0,6895.45
-TEMOA,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,174.603,174.603
-TEMOA,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,7914.4,7914.4
-TEMOA,CASO,CASO_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,11.592,11.592
-TEMOA,SPPS,SPPS_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,39.842,39.842
-TEMOA,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,14190.5,14190.5
-TEMOA,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,16236.7,16236.7
-TEMOA,CASO,CASO_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,73.99,73.99
-TEMOA,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,810.999,810.999
-TEMOA,CANO,CANO_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,4412.65,4412.65
-TEMOA,TRE_WEST,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,1208,1208
+TEMOA,PJMW,PJMW_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,6326,6326
 TEMOA,MISE,MISE_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,1565,1565
-TEMOA,SRCE,SRCE_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,41.36,41.36
-TEMOA,MISC,MISC_landbasedwind_class3_moderate_1,Wind,2030,base_thin_no_cap,MW,0,8374.44
-TEMOA,SPPN,SPPN_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,770,770
-TEMOA,RMRG,RMRG_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,20,20
-TEMOA,PJMD,PJMD_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,913.5,913.5
-TEMOA,CASO,CASO_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,8292,8292
-TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_1,Wind,2030,base_thin_no_cap,MW,0,8492.77
-TEMOA,NWPP,NWPP_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,1627.5,1627.5
-TEMOA,TRE_WEST,TRE_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,16053.5,16053.5
-TEMOA,CANO,CANO_biomass_1,Other,2030,base_thin_no_cap,MW,201.168,201.168
-TEMOA,MISC,MISC_biomass_1,Other,2030,base_thin_no_cap,MW,52.725,52.725
-TEMOA,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,228.893,228.893
-TEMOA,PJMC,PJMC_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,2783.8,2783.8
-TEMOA,PJMW,PJMW_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,76.375,76.375
-TEMOA,BASN,BASN_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,1642,1642
-TEMOA,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,216.3,216.3
-TEMOA,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,1405.1,1405.1
-TEMOA,SPPN,SPPN_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,339,339
-TEMOA,SPPC,SPPC_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,382,382
-TEMOA,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,1972,1972
-TEMOA,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,324.5,324.5
-TEMOA,MISS,MISS_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,4612.27,4612.27
-TEMOA,FRCC,FRCC_batteries_1,Battery,2030,base_thin_no_cap,MW,423,423
-TEMOA,MISE,MISE_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,3146,3146
-TEMOA,CASO,CASO_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,5435.34,5435.34
-TEMOA,NYCW,NYCW_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,1466,1466
-TEMOA,MISC,MISC_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,299.943,299.943
-TEMOA,SRCA,SRCA_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,11991,11991
-TEMOA,MISE,MISE_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_thin_no_cap,MW,0,2013.92
-TEMOA,SRCA,SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,10092.8,10092.8
-TEMOA,FRCC,FRCC_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,3737,3737
-TEMOA,MISS,MISS_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,3398.5,3398.5
-TEMOA,FRCC,FRCC_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,878.084,878.084
-TEMOA,FRCC,FRCC_biomass_1,Other,2030,base_thin_no_cap,MW,163.098,163.098
-TEMOA,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,8163.3,8163.3
-TEMOA,SRSE,SRSE_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,95.394,95.394
-TEMOA,PJMC,PJMC_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,6516,6516
-TEMOA,CASO,CASO_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,965.91,965.91
-TEMOA,NWPP,NWPP_geothermal_1,Geothermal,2030,base_thin_no_cap,MW,20.364,20.364
-TEMOA,NYUP,NYUP_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,3375.3,3375.3
-TEMOA,SRSE,SRSE_biomass_1,Other,2030,base_thin_no_cap,MW,134.862,134.862
-TEMOA,ISNE,ISNE_offshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,29.3,29.3
-TEMOA,SRCE,SRCE_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,8541.7,8541.7
-TEMOA,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,11941.2,11941.2
-TEMOA,BASN,BASN_solar_photovoltaic_1,Solar,2030,base_thin_no_cap,MW,2766.78,2766.78
-TEMOA,RMRG,RMRG_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,4517.32,4517.32
-TEMOA,ISNE,ISNE_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,248.534,248.534
-TEMOA,ISNE,ISNE_batteries_1,Battery,2030,base_thin_no_cap,MW,53.703,53.703
-TEMOA,PJME,PJME_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,12762.7,12762.7
+TEMOA,CANO,CANO_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,177.284,177.284
+TEMOA,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,6938.19,6938.19
+TEMOA,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,2765.5,2765.5
+TEMOA,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,2016.33,2016.33
+TEMOA,PJME,PJME_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,57.84,57.84
+TEMOA,MISW,MISW_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,239.136,239.136
+TEMOA,SPPC,SPPC_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,175.284,175.284
+TEMOA,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,28323.5,28323.5
+TEMOA,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,4396.7,4396.7
+TEMOA,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,5038.4,5038.4
+TEMOA,SPPN,SPPN_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,60.288,60.288
+TEMOA,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,19318.8,19318.8
+TEMOA,MISC,MISC_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,322.361,322.361
+TEMOA,RMRG,RMRG_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,18.3,18.3
+TEMOA,BASN,BASN_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,3000.2,3000.2
+TEMOA,TRE,TRE_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,11290.6,11290.6
+TEMOA,SRSE,SRSE_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,12318,12318
+TEMOA,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,57.39,57.39
+TEMOA,SPPS,SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,3730.99,3730.99
+TEMOA,SPPC,SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,3502.5,3502.5
+TEMOA,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,471,471
+TEMOA,PJME,PJME_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,9275,9275
+TEMOA,SRCE,SRCE_biomass_1,Other,2030,base_thin_no_cap,MW,38.571,38.571
+TEMOA,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,395.904,395.904
+TEMOA,SRCE,SRCE_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,69.79,69.79
+TEMOA,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,8365.2,8365.2
+TEMOA,CANO,CANO_biomass_1,Other,2030,base_thin_no_cap,MW,213.73,213.73
+TEMOA,CASO,CASO_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,14.105,14.105
+TEMOA,CANO,CANO_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,5329,5329
+TEMOA,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,1782,1782
+TEMOA,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,243.39,243.39
+TEMOA,PJMW,PJMW_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,196.987,196.987
+TEMOA,CASO,CASO_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,971,971
+TEMOA,SPPC,SPPC_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,10.5,10.5
+TEMOA,CASO,CASO_biomass_1,Other,2030,base_thin_no_cap,MW,112.575,112.575
+TEMOA,TRE_WEST,TRE_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,54,54
+TEMOA,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,1896.21,1896.21
+TEMOA,SPPS,SPPS_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,1620,1620
+TEMOA,NYCW,NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,2076.9,2076.9
+TEMOA,MISE,MISE_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,32.4,32.4
+TEMOA,SRSE,SRSE_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,146.016,146.016
+TEMOA,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,474.006,474.006
+TEMOA,CASO,CASO_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,50,50
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2030,base_thin_no_cap,MW,0,31722.4
+TEMOA,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,15,15
+TEMOA,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,9758.88,9758.88
+TEMOA,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,3537.49,3537.49
+TEMOA,RMRG,RMRG_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,3056.82,3056.82
+TEMOA,NYUP,NYUP_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,254.538,254.538
+TEMOA,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,7914.4,7914.4
+TEMOA,NWPP,NWPP_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,304.993,304.993
+TEMOA,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,31532,31532
+TEMOA,SRSG,SRSG_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,61.886,61.886
+TEMOA,SRCA,SRCA_biomass_1,Other,2030,base_thin_no_cap,MW,113.74,113.74
+TEMOA,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,221.381,221.381
+TEMOA,CANO,CANO_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,225.342,225.342
 TEMOA,MISS,MISS_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,5426,5426
-TEMOA,SPPS,SPPS_onshore_wind_turbine_1,Wind,2030,base_thin_no_cap,MW,10362.3,10362.3
-TEMOA,PJME,PJME_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,63.3,61.7
-TEMOA,NWPP,NWPP_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,379.824,373.184
-TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,8492.77,13860.7
-TEMOA,TRE_WEST,TRE_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,1910.06,6156.71
-TEMOA,SRCA,SRCA_biomass_1,Other,2040,base_thin_no_cap,MW,96.248,60.8
-TEMOA,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,26743.1,26411.1
-TEMOA,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,32369.4,31831.4
-TEMOA,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,8163.3,8045.3
-TEMOA,MISS,MISS_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,538.104,476.406
-TEMOA,SRCA,SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,10092.8,10092.8
-TEMOA,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,15,15
-TEMOA,PJME,PJME_biomass_1,Other,2040,base_thin_no_cap,MW,198.081,86.108
-TEMOA,PJMC,PJMC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,42.806,42.806
-TEMOA,TRE_WEST,TRE_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,300,456
-TEMOA,PJMC,PJMC_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,1580.4,42.4
-TEMOA,PJMW,PJMW_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,27755.6
-TEMOA,SRCA,SRCA_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,5026.49
-TEMOA,SPPC,SPPC_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,7013.31,5317.5
-TEMOA,CASO,CASO_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,965.91,949.893
-TEMOA,NWPP,NWPP_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,302.994,302.994
-TEMOA,PJMC,PJMC_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,6516,6516
-TEMOA,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,7971.92,7959.88
-TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,0,10162.4
-TEMOA,CANO,CANO_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,16577.8
-TEMOA,PJME,PJME_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,15483.8
-TEMOA,CASO,CASO_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,8292,9999
-TEMOA,SPPC,SPPC_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,1255,1255
-TEMOA,NWPP,NWPP_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,2187,3084
-TEMOA,SRSE,SRSE_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,8059,8059
-TEMOA,SPPN,SPPN_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,2918.11,2177.5
-TEMOA,TRE,TRE_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,5532.29,4150.51
-TEMOA,SRCE,SRCE_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,8541.7,8541.7
-TEMOA,CASO,CASO_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,6722.92
-TEMOA,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,324.5,286.2
-TEMOA,MISE,MISE_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,1948.41,1765.79
-TEMOA,PJMW,PJMW_biomass_1,Other,2040,base_thin_no_cap,MW,26.085,25.208
-TEMOA,SPPS,SPPS_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,6724,4639
-TEMOA,TRE_WEST,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,2127.9,2127.9
-TEMOA,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,237.198,237.198
-TEMOA,CANO,CANO_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,2883.33
-TEMOA,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,4296.69,4296.69
-TEMOA,PJME,PJME_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,58.28,58.28
-TEMOA,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,11484.6,11484.6
-TEMOA,PJMW,PJMW_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,3038.78,1413.9
-TEMOA,SRSE,SRSE_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,12318,6361.5
-TEMOA,NYCW,NYCW_petroleum_liquids_1,Other,2040,base_thin_no_cap,MW,245.2,229.908
-TEMOA,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,410.72,362.204
-TEMOA,PJME,PJME_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,9521.2,3062.5
-TEMOA,SRCA,SRCA_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,12104.6,12104.6
-TEMOA,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,11958.4,11689
-TEMOA,MISW,MISW_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,10784.2,8144.41
-TEMOA,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,9667.21,9517.19
-TEMOA,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,4830.8,4819.3
-TEMOA,BASN,BASN_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,1465.69
-TEMOA,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,474.006,474.006
-TEMOA,SRSG,SRSG_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,3190.99,3143.55
-TEMOA,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,7589.4,7521.7
-TEMOA,MISS,MISS_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,3398.5,59.1
-TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,0,10334.3
-TEMOA,TRE,TRE_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,5120,5120
-TEMOA,CASO,CASO_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,50,50
-TEMOA,RMRG,RMRG_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,6721,5120
-TEMOA,MISC,MISC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,57.7,20.7
-TEMOA,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,47862.8,66933.7
-TEMOA,TRE,TRE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,15755
-TEMOA,PJMW,PJMW_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,51.296,51.296
-TEMOA,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,4845.1,4845.1
-TEMOA,NWPP,NWPP_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,156.408,155.9
-TEMOA,FRCC,FRCC_petroleum_liquids_1,Other,2040,base_thin_no_cap,MW,425.6,124.1
-TEMOA,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,52,52
-TEMOA,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,3003,3003
-TEMOA,NWPP,NWPP_geothermal_1,Geothermal,2040,base_thin_no_cap,MW,20.364,20.364
-TEMOA,NYUP,NYUP_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,77.6,77.6
-TEMOA,ISNE,ISNE_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,622.118,619.14
-TEMOA,RMRG,RMRG_petroleum_liquids_1,Other,2040,base_thin_no_cap,MW,18.3,11.8
-TEMOA,MISW,MISW_petroleum_liquids_1,Other,2040,base_thin_no_cap,MW,963.786,549.113
-TEMOA,NWPP,NWPP_biomass_1,Other,2040,base_thin_no_cap,MW,137.46,81.576
-TEMOA,SRCA,SRCA_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,3265,5554
-TEMOA,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,4433.66,3881.71
-TEMOA,SPPC,SPPC_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,382,1078
-TEMOA,PJMW,PJMW_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,76.375,42.458
-TEMOA,SRCE,SRCE_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,7614,4033
-TEMOA,MISC,MISC_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,11060.2
-TEMOA,SRCE,SRCE_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,41.36,36.54
-TEMOA,NYUP,NYUP_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,1088,1400
-TEMOA,MISE,MISE_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,79.8,44.8
-TEMOA,SRSG,SRSG_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,2531,3109
-TEMOA,SRCE,SRCE_petroleum_liquids_1,Other,2040,base_thin_no_cap,MW,55.803,23.4
-TEMOA,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,364.705,314.019
-TEMOA,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,1896.21,1896.21
-TEMOA,ISNE,ISNE_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,1361.29,1062.58
-TEMOA,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,237.999,237.999
-TEMOA,NYCW,NYCW_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,5529.92
-TEMOA,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,8231.5,7679.5
-TEMOA,RMRG,RMRG_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,413.517,374.01
-TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,6479.11,6368.52
-TEMOA,MISC,MISC_petroleum_liquids_1,Other,2040,base_thin_no_cap,MW,299.943,195.902
-TEMOA,CASO,CASO_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,3441,2961.8
-TEMOA,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,644.601,644.601
-TEMOA,CANO,CANO_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,324.276,324.276
-TEMOA,TRE_WEST,TRE_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,1036.2,1036.2
-TEMOA,ISNE,ISNE_petroleum_liquids_1,Other,2040,base_thin_no_cap,MW,969.732,753.777
-TEMOA,FRCC,FRCC_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,335,335
-TEMOA,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,9851.71
-TEMOA,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,6895.45,22136.8
-TEMOA,TRE,TRE_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,5518,8407
-TEMOA,MISW,MISW_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,2762,4681
-TEMOA,SPPS,SPPS_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,208.104,208.104
-TEMOA,MISC,MISC_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,448.596,276.595
-TEMOA,PJMD,PJMD_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,2051,3190
-TEMOA,CASO,CASO_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,5484.51,4594.36
-TEMOA,CANO,CANO_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,5329,6426
-TEMOA,SPPN,SPPN_petroleum_liquids_1,Other,2040,base_thin_no_cap,MW,56.31,28.395
-TEMOA,NWPP,NWPP_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,1627.5,1627.5
-TEMOA,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,189.486,135
-TEMOA,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,502.712,502.712
-TEMOA,RMRG,RMRG_biomass_1,Other,2040,base_thin_no_cap,MW,13.84,12.632
-TEMOA,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,7914.4,7914.4
-TEMOA,ISNE,ISNE_biomass_1,Other,2040,base_thin_no_cap,MW,245.856,91.584
-TEMOA,SRCE,SRCE_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,823,2478
-TEMOA,MISW,MISW_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,440.064,440.064
-TEMOA,MISE,MISE_biomass_1,Other,2040,base_thin_no_cap,MW,94.276,61.962
-TEMOA,CANO,CANO_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,4412.65,3251.5
-TEMOA,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,1791,1791
-TEMOA,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,8454.72
-TEMOA,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,313.998,313.998
-TEMOA,PJMD,PJMD_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,3708,3708
-TEMOA,MISE,MISE_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,11.952,11.248
-TEMOA,PJME,PJME_petroleum_liquids_1,Other,2040,base_thin_no_cap,MW,567.789,245.303
-TEMOA,ISNE,ISNE_battery_moderate_0_2hour,Battery,2040,base_thin_no_cap,MW,0,41.0873
-TEMOA,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,1170.5,1170.5
-TEMOA,PJME,PJME_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,809.094,579.098
-TEMOA,SPPC,SPPC_petroleum_liquids_1,Other,2040,base_thin_no_cap,MW,167.504,102.51
-TEMOA,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,3430.31,3352.36
-TEMOA,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,611.592,611.592
-TEMOA,MISS,MISS_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,6111.1,6111.1
-TEMOA,SRCA,SRCA_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,415,415
-TEMOA,MISW,MISW_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,240.38,200.01
-TEMOA,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,0,2934.22
-TEMOA,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,1403.06
-TEMOA,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,1683.8,1683.8
-TEMOA,MISS,MISS_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,378.204
-TEMOA,PJME,PJME_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,1314.4,582.2
-TEMOA,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,18869.3
-TEMOA,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,6941.39,6941.39
-TEMOA,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,3428.69,3428.69
-TEMOA,MISE,MISE_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,68.4,68.4
-TEMOA,SRSG,SRSG_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,4367,2065
-TEMOA,MISE,MISE_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,3146,60
-TEMOA,CANO,CANO_petroleum_liquids_1,Other,2040,base_thin_no_cap,MW,92.701,92.701
-TEMOA,SPPS,SPPS_petroleum_liquids_1,Other,2040,base_thin_no_cap,MW,27.996,22.4
-TEMOA,FRCC,FRCC_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,7473.08
-TEMOA,CASO,CASO_biomass_1,Other,2040,base_thin_no_cap,MW,81.374,60.984
-TEMOA,CASO,CASO_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,5435.34,5398.08
-TEMOA,PJMC,PJMC_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,1903,2179
-TEMOA,NWPP,NWPP_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,6964.2,2357.09
-TEMOA,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,11941.2,11253.2
-TEMOA,CASO,CASO_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,23.604,23.604
-TEMOA,FRCC,FRCC_biomass_1,Other,2040,base_thin_no_cap,MW,163.098,127.995
-TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,8981.35,53268.3
-TEMOA,TRE_WEST,TRE_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,16053.5,8460.69
-TEMOA,BASN,BASN_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,1510.12,934
-TEMOA,MISW,MISW_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,3182.84,18823.9
-TEMOA,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,471,471
-TEMOA,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,4501.01,3724
-TEMOA,MISC,MISC_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,2373,2373
-TEMOA,MISC,MISC_biomass_1,Other,2040,base_thin_no_cap,MW,52.725,49.91
-TEMOA,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,1768,1768
-TEMOA,BASN,BASN_geothermal_1,Geothermal,2040,base_thin_no_cap,MW,383.216,200.552
-TEMOA,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,2047,2047
-TEMOA,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,8331.11,8194.62
-TEMOA,CANO,CANO_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,6961.93,6892.93
-TEMOA,NYUP,NYUP_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,3375.3,3375.3
-TEMOA,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,35451.2,33511
-TEMOA,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,2489.99,2445.01
-TEMOA,ISNE,ISNE_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,248.534,220.48
-TEMOA,ISNE,ISNE_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,5017,5664
-TEMOA,SPPC,SPPC_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,24.003,24.003
-TEMOA,SPPN,SPPN_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,770,770
-TEMOA,PJMW,PJMW_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,2804,5826
-TEMOA,RMRG,RMRG_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,92.29,90.321
-TEMOA,BASN,BASN_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,1642,2011
-TEMOA,FRCC,FRCC_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,878.084,829.41
-TEMOA,SRSG,SRSG_biomass_1,Other,2040,base_thin_no_cap,MW,25.84,25.11
-TEMOA,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,1428.19,1384.21
-TEMOA,MISW,MISW_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,30.7,14.7
-TEMOA,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,6938.19,6421.2
-TEMOA,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,14.504,14.504
-TEMOA,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,14190.5,14082.1
-TEMOA,NYCW,NYCW_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,1466,1887
-TEMOA,CANO,CANO_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,2695.92,2656.44
-TEMOA,NYCW,NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,2061.08,2061.08
-TEMOA,PJMC,PJMC_petroleum_liquids_1,Other,2040,base_thin_no_cap,MW,52.7,49.105
-TEMOA,SRSE,SRSE_biomass_1,Other,2040,base_thin_no_cap,MW,134.862,105.88
-TEMOA,PJMC,PJMC_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,4341.61
-TEMOA,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,6621.48,5891.91
-TEMOA,NYUP,NYUP_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,47,47
-TEMOA,PJME,PJME_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,5052.77,4745.79
-TEMOA,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,0,3040.9
-TEMOA,BASN,BASN_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,2766.78,2693.82
-TEMOA,SRCA,SRCA_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,11991,4648
-TEMOA,NYCW,NYCW_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,87.598,87.598
-TEMOA,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,11191.3,11191.3
-TEMOA,SRSG,SRSG_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,61.886,51.454
-TEMOA,SRSE,SRSE_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,1274.22,1274.22
-TEMOA,SPPS,SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,3714.41,3483.32
-TEMOA,SRCA,SRCA_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,34.839,33.229
-TEMOA,SRSG,SRSG_geothermal_1,Geothermal,2040,base_thin_no_cap,MW,165.333,61.536
-TEMOA,MISW,MISW_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,0,24698.8
-TEMOA,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,43.5,43.5
-TEMOA,ISNE,ISNE_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,3348.1,3348.1
-TEMOA,RMRG,RMRG_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,4517.32,1942.4
-TEMOA,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,38869
-TEMOA,SRSG,SRSG_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,3408.5,3364.12
-TEMOA,SPPN,SPPN_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,5003.1,4162.3
-TEMOA,SPPC,SPPC_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,4751.51,3833.5
-TEMOA,BASN,BASN_petroleum_liquids_1,Other,2040,base_thin_no_cap,MW,25.8,13.601
-TEMOA,MISS,MISS_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,3255,4440
-TEMOA,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,21378.7,21378.7
-TEMOA,TRE,TRE_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,285.296,271.8
-TEMOA,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,174.603,174.603
-TEMOA,ISNE,ISNE_offshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,29.3,29.3
-TEMOA,PJMD,PJMD_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,913.5,913.5
-TEMOA,SPPS,SPPS_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,10362.3,7896.28
-TEMOA,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,1782,1782
-TEMOA,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,1972,1972
-TEMOA,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,5360.94,3607.92
-TEMOA,CASO,CASO_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,31319.6,49328
-TEMOA,SRSG,SRSG_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,4003,4003
-TEMOA,NYUP,NYUP_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,3504.28
-TEMOA,PJMC,PJMC_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,33.9,24.9
-TEMOA,PJMW,PJMW_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,11562.5,11543
-TEMOA,FRCC,FRCC_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,4867,4281
-TEMOA,MISW,MISW_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,177,113.6
-TEMOA,MISS,MISS_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,101.304,99.803
-TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,0,7583.95
-TEMOA,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,703.294,651.7
-TEMOA,MISE,MISE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,2013.92,9962.75
-TEMOA,PJMC,PJMC_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,2783.8,866.2
-TEMOA,MISS,MISS_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,190.2,190.2
-TEMOA,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,1896.78,1812.79
-TEMOA,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,5827.56
-TEMOA,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,8165.66
-TEMOA,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,19.903,19.903
-TEMOA,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,2796,2796
-TEMOA,PJMW,PJMW_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,138.985,127.908
-TEMOA,MISE,MISE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,132.99,90.6
-TEMOA,MISC,MISC_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,25.401,25.401
-TEMOA,MISC,MISC_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,2708.31,1858.1
-TEMOA,RMRG,RMRG_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,1386,1975
-TEMOA,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,228.893,211.9
-TEMOA,TRE_WEST,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,1208,336
-TEMOA,SRSG,SRSG_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,2188,1563.5
-TEMOA,SPPS,SPPS_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,39.842,39.842
-TEMOA,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,580.8,580.8
-TEMOA,SRSG,SRSG_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,198.396,198.396
-TEMOA,BASN,BASN_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,3000.2,2092.2
-TEMOA,SPPS,SPPS_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,1620,2719
-TEMOA,SPPN,SPPN_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,1690.31,1690.31
-TEMOA,FRCC,FRCC_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,3737,3737
-TEMOA,FRCC,FRCC_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,5592,7445
+TEMOA,NYCW,NYCW_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,1466,1466
+TEMOA,NYUP,NYUP_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,57.6,57.6
+TEMOA,SRSG,SRSG_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,4367,4367
+TEMOA,NYCW,NYCW_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,383.626,383.626
+TEMOA,CASO,CASO_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,8292,8292
+TEMOA,BASN,BASN_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,2566.29,2566.29
+TEMOA,MISC,MISC_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,448.596,448.596
+TEMOA,SRCA,SRCA_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,35.952,35.952
+TEMOA,PJME,PJME_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,645.888,645.888
+TEMOA,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,14310.7,14310.7
+TEMOA,SRSG,SRSG_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,204.195,204.195
+TEMOA,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,43.5,43.5
+TEMOA,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,9508.8,9508.8
+TEMOA,SRCE,SRCE_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,63.8,63.8
+TEMOA,NWPP,NWPP_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,21.296,21.296
+TEMOA,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,8079.59,8079.59
+TEMOA,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,4560.51,4560.51
+TEMOA,CANO,CANO_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,6973.45,6973.45
+TEMOA,PJME,PJME_biomass_1,Other,2030,base_thin_no_cap,MW,200.279,200.279
+TEMOA,PJMW,PJMW_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,17777.7,17777.7
+TEMOA,NYCW,NYCW_biomass_1,Other,2030,base_thin_no_cap,MW,11.582,11.582
+TEMOA,SPPS,SPPS_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,29.796,29.796
+TEMOA,ISNE,ISNE_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,330,330
+TEMOA,RMRG,RMRG_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,6780.99,6780.99
+TEMOA,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,580.8,580.8
+TEMOA,SRSG,SRSG_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_thin_no_cap,MW,0,5968.3
+TEMOA,SRCA,SRCA_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,445.83,445.83
+TEMOA,TRE,TRE_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,479.4,479.4
+TEMOA,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,3003,3003
+TEMOA,NWPP,NWPP_biomass_1,Other,2030,base_thin_no_cap,MW,126.72,126.72
+TEMOA,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,10.4,10.4
+TEMOA,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,613.1,613.1
+TEMOA,PJME,PJME_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,5212.37,5212.37
+TEMOA,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,2796,2796
+TEMOA,NYUP,NYUP_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,3375.3,3375.3
+TEMOA,MISE,MISE_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_thin_no_cap,MW,0,407.14
+TEMOA,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,1972,1972
+TEMOA,TRE,TRE_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,15.948,15.948
+TEMOA,RMRG,RMRG_biomass_1,Other,2030,base_thin_no_cap,MW,15.048,15.048
+TEMOA,RMRG,RMRG_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,1386,1386
+TEMOA,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,21456.6,21456.6
+TEMOA,SPPS,SPPS_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,39.842,39.842
+TEMOA,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,1683.8,1683.8
+TEMOA,PJMD,PJMD_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,913.5,913.5
+TEMOA,SRSG,SRSG_biomass_1,Other,2030,base_thin_no_cap,MW,31.82,31.82
+TEMOA,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,6761.11,6761.11
+TEMOA,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,372.198,372.198
+TEMOA,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,11409.7,11409.7
+TEMOA,PJMD,PJMD_biomass_1,Other,2030,base_thin_no_cap,MW,63.474,63.474
+TEMOA,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,899.976,899.976
+TEMOA,PJMW,PJMW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,11592.2,11592.2
+TEMOA,SRCE,SRCE_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,8541.7,8541.7
+TEMOA,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,216.3,216.3
+TEMOA,SPPN,SPPN_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,339,339
+TEMOA,TRE,TRE_biomass_1,Other,2030,base_thin_no_cap,MW,38.256,38.256
+TEMOA,MISS,MISS_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,109.312,109.312
+TEMOA,SRCA,SRCA_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,565.698,565.698
+TEMOA,SPPS,SPPS_biomass_1,Other,2030,base_thin_no_cap,MW,14.84,14.84
+TEMOA,MISE,MISE_biomass_1,Other,2030,base_thin_no_cap,MW,99.756,99.756
+TEMOA,PJMC,PJMC_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,1903,1903
+TEMOA,PJMC,PJMC_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,6516,6516
+TEMOA,SPPC,SPPC_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,382,382
+TEMOA,MISE,MISE_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,12.768,12.768
+TEMOA,TRE_WEST,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,1208,1208
+TEMOA,NYUP,NYUP_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,49.2,49.2
+TEMOA,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,1665,1665
+TEMOA,ISNE,ISNE_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,5017,5017
+TEMOA,MISC,MISC_biomass_1,Other,2030,base_thin_no_cap,MW,65.912,65.912
+TEMOA,PJMC,PJMC_biomass_1,Other,2030,base_thin_no_cap,MW,27.024,27.024
+TEMOA,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,1833.42,1833.42
+TEMOA,FRCC,FRCC_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,3737,3737
+TEMOA,MISS,MISS_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,3255,3255
+TEMOA,MISC,MISC_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,14602.8,14602.8
+TEMOA,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,3442.81,3442.81
+TEMOA,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,52,52
+TEMOA,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,279.909,279.909
+TEMOA,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,592.805,592.805
+TEMOA,NWPP,NWPP_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,2187,2187
+TEMOA,PJME,PJME_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,811.512,811.512
+TEMOA,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,6716.5,6716.5
+TEMOA,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,4244.99,4244.99
+TEMOA,SRCE,SRCE_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,46.391,46.391
+TEMOA,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,264.77,264.77
+TEMOA,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,36041.7,36041.7
+TEMOA,SRSE,SRSE_biomass_1,Other,2030,base_thin_no_cap,MW,271.875,271.875
+TEMOA,FRCC,FRCC_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,335,335
+TEMOA,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,5037.1,5037.1
+TEMOA,PJMD,PJMD_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,20.3,20.3
+TEMOA,BASN,BASN_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,190.5,190.5
+TEMOA,SRCE,SRCE_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,823,823
+TEMOA,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,707.304,707.304
+TEMOA,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,9707,9707
+TEMOA,PJMC,PJMC_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,55.3,55.3
+TEMOA,CANO,CANO_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,444.382,444.382
+TEMOA,SPPN,SPPN_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,2417.01,2417.01
+TEMOA,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,237.999,237.999
+TEMOA,MISW,MISW_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,2762,2762
+TEMOA,MISS,MISS_biomass_1,Other,2030,base_thin_no_cap,MW,78.82,78.82
+TEMOA,MISE,MISE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,132.99,132.99
+TEMOA,PJMC,PJMC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,111.408,111.408
+TEMOA,TRE_WEST,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,3590.3,3590.3
+TEMOA,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,832.804,832.804
+TEMOA,NYUP,NYUP_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,1088,1088
+TEMOA,BASN,BASN_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,25.8,25.8
+TEMOA,SRSE,SRSE_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,866,866
+TEMOA,SPPC,SPPC_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,7013.31,7013.31
+TEMOA,PJMW,PJMW_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,129.255,129.255
+TEMOA,NYUP,NYUP_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,75.537,75.537
+TEMOA,MISC,MISC_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,1486,1486
+TEMOA,SRCE,SRCE_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,7684.8,7684.8
+TEMOA,SRCA,SRCA_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,12104.6,12104.6
+TEMOA,TRE,TRE_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,5518,5518
+TEMOA,MISW,MISW_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,11041.6,11041.6
+TEMOA,ISNE,ISNE_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,1043.64,1043.64
+TEMOA,SRCA,SRCA_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,3265,3265
+TEMOA,MISW,MISW_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,225.004,225.004
+TEMOA,MISE,MISE_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,1161,1161
+TEMOA,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,1222.39,1222.39
+TEMOA,SPPC,SPPC_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,1255,1255
+TEMOA,CASO,CASO_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,50.204,50.204
+TEMOA,MISS,MISS_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,583.092,583.092
+TEMOA,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,414.674,414.674
+TEMOA,MISW,MISW_biomass_1,Other,2030,base_thin_no_cap,MW,91.16,91.16
+TEMOA,NWPP,NWPP_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,378.2,378.2
+TEMOA,PJMD,PJMD_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,3708,3708
+TEMOA,CASO,CASO_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,66.912,66.912
+TEMOA,FRCC,FRCC_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,451.6,451.6
+TEMOA,PJMD,PJMD_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,115.584,115.584
+TEMOA,MISS,MISS_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,3408,3408
+TEMOA,TRE_WEST,TRE_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,300,300
+TEMOA,NWPP,NWPP_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,1629,1629
+TEMOA,RMRG,RMRG_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,20,20
+TEMOA,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,11484.6,11484.6
+TEMOA,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,1405.1,1405.1
+TEMOA,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,8151.91,8151.91
+TEMOA,ISNE,ISNE_biomass_1,Other,2030,base_thin_no_cap,MW,263.432,263.432
+TEMOA,MISS,MISS_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,5086.62,5086.62
+TEMOA,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_thin_no_cap,MW,0,4916.3
+TEMOA,MISC,MISC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,9528.95,9528.95
+TEMOA,MISW,MISW_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_thin_no_cap,MW,0,1141.86
+TEMOA,SRSG,SRSG_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,23,23
+TEMOA,CANO,CANO_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,4677.88,4677.88
+TEMOA,ISNE,ISNE_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,21.296,21.296
+TEMOA,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,1768,1768
+TEMOA,PJMD,PJMD_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,2051,2051
+TEMOA,PJME,PJME_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,12762.7,12762.7
+TEMOA,SRSG,SRSG_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,4003,4003
+TEMOA,TRE,TRE_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,131.908,131.908
+TEMOA,TRE,TRE_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,5120,5120
+TEMOA,FRCC,FRCC_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,4867,4867
+TEMOA,FRCC,FRCC_biomass_1,Other,2030,base_thin_no_cap,MW,190.953,190.953
+TEMOA,SRCA,SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,10246.4,10246.4
+TEMOA,MISW,MISW_petroleum_liquids_1,Other,2030,base_thin_no_cap,MW,1117.06,1117.06
+TEMOA,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,460.81,460.81
+TEMOA,ISNE,ISNE_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,3348.1,3348.1
+TEMOA,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,4439.34,4439.34
+TEMOA,SRSE,SRSE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,20.704,20.704
+TEMOA,ISNE,ISNE_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,261.112,261.112
+TEMOA,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,38014.5,38014.5
+TEMOA,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,733.91,733.91
+TEMOA,SRSE,SRSE_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,86.601,86.601
+TEMOA,MISS,MISS_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,6111.1,6111.1
+TEMOA,PJMW,PJMW_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,50.496,50.496
+TEMOA,MISE,MISE_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,89,89
+TEMOA,SPPN,SPPN_biomass_1,Other,2030,base_thin_no_cap,MW,10.335,10.335
+TEMOA,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,20755.3,20755.3
+TEMOA,PJMC,PJMC_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,1580.4,1580.4
+TEMOA,PJME,PJME_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,9521.2,9521.2
+TEMOA,SPPS,SPPS_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,6724,6724
+TEMOA,SRSE,SRSE_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,8059,8059
+TEMOA,BASN,BASN_biomass_1,Other,2030,base_thin_no_cap,MW,26.738,26.738
+TEMOA,BASN,BASN_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_thin_no_cap,MW,0,863.932
+TEMOA,SPPN,SPPN_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,5016,5016
+TEMOA,PJMW,PJMW_biomass_1,Other,2030,base_thin_no_cap,MW,30.222,30.222
+TEMOA,BASN,BASN_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,1642,1642
+TEMOA,MISW,MISW_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,2943.2,2943.2
+TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,6499.2,6499.2
+TEMOA,MISW,MISW_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,99,99
+TEMOA,BASN,BASN_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,2261.19,2261.19
+TEMOA,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_thin_no_cap,MW,644.601,644.601
+TEMOA,NWPP,NWPP_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,1172,1172
+TEMOA,SRCA,SRCA_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,11991,11991
+TEMOA,TRE_WEST,TRE_utilitypv_class1_moderate_1,Solar,2030,base_thin_no_cap,MW,0,12411.3
+TEMOA,NWPP,NWPP_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,1342.9,1342.9
+TEMOA,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,2510,2510
+TEMOA,SRSE,SRSE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,12567.6,12567.6
+TEMOA,PJME,PJME_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,90.202,90.202
+TEMOA,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,3430.31,3430.31
+TEMOA,CASO,CASO_utilitypv_class1_moderate_1,Solar,2030,base_thin_no_cap,MW,0,36531.7
+TEMOA,RMRG,RMRG_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,95.19,95.19
+TEMOA,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,37.408,37.408
+TEMOA,PJMW,PJMW_distributed_generation_1,Distributed Solar,2030,base_thin_no_cap,MW,2804,2804
+TEMOA,MISE,MISE_conventional_steam_coal_1,Coal,2030,base_thin_no_cap,MW,3148.3,3148.3
+TEMOA,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,2047,2047
+TEMOA,RMRG,RMRG_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_thin_no_cap,MW,0,855.102
+TEMOA,SPPN,SPPN_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,59.884,59.884
+TEMOA,MISC,MISC_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,204,204
+TEMOA,SPPN,SPPN_nuclear_1,Nuclear,2030,base_thin_no_cap,MW,770,770
+TEMOA,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,8830.27,8830.27
+TEMOA,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,8664.99,8664.99
+TEMOA,MISC,MISC_small_hydroelectric_1,Hydro,2030,base_thin_no_cap,MW,12.888,12.888
+TEMOA,NYUP,NYUP_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,19.509,19.509
+TEMOA,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_no_cap,MW,2276.9,2276.9
+TEMOA,MISC,MISC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_thin_no_cap,MW,72.711,72.711
+TEMOA,NYUP,NYUP_biomass_1,Other,2030,base_thin_no_cap,MW,83.096,83.096
+TEMOA,SPPS,SPPS_natural_gas_steam_turbine_1,Natural Gas,2030,base_thin_no_cap,MW,524.1,524.1
+TEMOA,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,6761.11,6738.1
 TEMOA,NWPP,NWPP_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,1172,1172
-TEMOA,SRCE,SRCE_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,178.194,178.194
-TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,10898.9,10908.9
-TEMOA,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,453.908,413.685
-TEMOA,ISNE,ISNE_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,7488.45
-TEMOA,CANO,CANO_biomass_1,Other,2040,base_thin_no_cap,MW,201.168,62.658
-TEMOA,PJMD,PJMD_petroleum_liquids_1,Other,2040,base_thin_no_cap,MW,113.19,32.994
-TEMOA,TRE,TRE_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,11290.6,11290.6
-TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,0,24276
-TEMOA,PJMW,PJMW_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,6326,6326
-TEMOA,MISE,MISE_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,1565,3712
-TEMOA,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,30982.5,30503.2
-TEMOA,BASN,BASN_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,183.315,170.658
-TEMOA,SRSE,SRSE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,10641.8,10599.8
-TEMOA,SRSE,SRSE_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,866,1994
-TEMOA,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,216.3,216.3
-TEMOA,BASN,BASN_biomass_1,Other,2040,base_thin_no_cap,MW,24.31,20.6
-TEMOA,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,13240.5
-TEMOA,SRCA,SRCA_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,2606.33,2595.7
-TEMOA,MISW,MISW_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,2943.2,2943.2
-TEMOA,PJMD,PJMD_biomass_1,Other,2040,base_thin_no_cap,MW,56.727,55.581
-TEMOA,MISE,MISE_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,3104.96
-TEMOA,SPPC,SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,3417.98,3071.01
-TEMOA,SRCA,SRCA_petroleum_liquids_1,Other,2040,base_thin_no_cap,MW,398.4,124.285
-TEMOA,PJMW,PJMW_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,17727.7,5476.5
-TEMOA,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,1665,1665
-TEMOA,PJME,PJME_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,917.28,864.576
-TEMOA,BASN,BASN_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,14263.8
-TEMOA,CASO,CASO_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,73.99,73.99
-TEMOA,MISC,MISC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,8753.28,8669.34
-TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,656.805,18444.5
-TEMOA,MISW,MISW_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,13453.3,6331.7
-TEMOA,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,810.999,604.201
-TEMOA,MISE,MISE_petroleum_liquids_1,Other,2040,base_thin_no_cap,MW,30.9,15.8
-TEMOA,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,3537.49,3537.49
-TEMOA,BASN,BASN_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,2566.08,1773.61
-TEMOA,MISW,MISW_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,2112.18
-TEMOA,PJME,PJME_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,9275,9784
-TEMOA,MISS,MISS_petroleum_liquids_1,Other,2040,base_thin_no_cap,MW,40.9,39.3
-TEMOA,TRE,TRE_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,476.995,440.402
-TEMOA,PJME,PJME_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,12762.7,12762.7
-TEMOA,SPPN,SPPN_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,339,640
-TEMOA,SPPN,SPPN_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,59.884,42.042
-TEMOA,NWPP,NWPP_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,10616.7
-TEMOA,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,191.694,191.694
-TEMOA,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,2762.51,2438.3
-TEMOA,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,2671.7,2671.7
-TEMOA,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,16236.7,16083.7
-TEMOA,NYUP,NYUP_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,241.56,226.455
-TEMOA,MISC,MISC_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,14265,7148.9
-TEMOA,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,8151.91,7908.89
-TEMOA,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,4244.99,4244.99
-TEMOA,CANO,CANO_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,217.665,214.812
-TEMOA,CANO,CANO_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,1328.81,584.805
-TEMOA,MISW,MISW_biomass_1,Other,2040,base_thin_no_cap,MW,42.496,38.796
-TEMOA,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,14083.5
-TEMOA,RMRG,RMRG_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,2935.59,2905.58
-TEMOA,PJMD,PJMD_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,208,208
-TEMOA,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,589.519,512.818
-TEMOA,NYUP,NYUP_onshore_wind_turbine_1,Wind,2040,base_thin_no_cap,MW,1807,551.4
-TEMOA,PJMW,PJMW_petroleum_liquids_1,Other,2040,base_thin_no_cap,MW,137.52,51.408
+TEMOA,SPPN,SPPN_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,770,770
+TEMOA,NWPP,NWPP_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,378.2,371.52
+TEMOA,RMRG,RMRG_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,95.19,93.227
+TEMOA,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,460.81,420.597
+TEMOA,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,899.976,899.976
 TEMOA,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,1405.1,1405.1
-TEMOA,MISE,MISE_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,1161,1161
-TEMOA,BASN,BASN_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,2239.59,2239.59
-TEMOA,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,24701.3
-TEMOA,NYUP,NYUP_biomass_1,Other,2040,base_thin_no_cap,MW,82.517,42.432
-TEMOA,MISC,MISC_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,12.888,12.888
-TEMOA,MISC,MISC_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,8374.44,24176.2
-TEMOA,MISS,MISS_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,4612.27,4418.12
+TEMOA,MISE,MISE_biomass_1,Other,2040,base_thin_no_cap,MW,99.756,67.144
+TEMOA,NWPP,NWPP_biomass_1,Other,2040,base_thin_no_cap,MW,126.72,81.104
+TEMOA,TRE,TRE_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,11290.6,11290.6
+TEMOA,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,10.4,10.4
+TEMOA,NWPP,NWPP_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,304.993,304.993
+TEMOA,PJMW,PJMW_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,2804,5826
+TEMOA,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,395.904,341.385
+TEMOA,PJMC,PJMC_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,1580.4,42.4
+TEMOA,ISNE,ISNE_battery_moderate_0_2hour,Battery,2040,base_thin_no_cap,MW,0,215.932
+TEMOA,CANO,CANO_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,13739.4
+TEMOA,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,279.909,262.899
+TEMOA,PJME,PJME_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,9521.2,3062.5
+TEMOA,NWPP,NWPP_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,2187,3084
+TEMOA,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,2510,2465.01
+TEMOA,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,11484.6,11484.6
+TEMOA,PJME,PJME_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,90.202,88.602
+TEMOA,CASO,CASO_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,50,50
+TEMOA,CANO,CANO_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,225.342,222.56
+TEMOA,SRSG,SRSG_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,4003,4003
+TEMOA,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,1683.8,1683.8
+TEMOA,MISW,MISW_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,2762,4681
+TEMOA,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,9667.21,9517.19
+TEMOA,PJME,PJME_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,12762.7,12762.7
+TEMOA,PJMC,PJMC_biomass_1,Other,2040,base_thin_no_cap,MW,27.024,10.626
+TEMOA,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,832.804,626
+TEMOA,PJMW,PJMW_biomass_1,Other,2040,base_thin_no_cap,MW,30.222,29.394
+TEMOA,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,9758.88,7727.66
+TEMOA,PJMW,PJMW_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,11592.2,11572.7
+TEMOA,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,707.304,655.704
+TEMOA,TRE_WEST,TRE_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,300,456
+TEMOA,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,8079.59,8079.59
+TEMOA,CASO,CASO_biomass_1,Other,2040,base_thin_no_cap,MW,112.575,81.704
+TEMOA,BASN,BASN_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,863.932,14671.5
+TEMOA,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,8151.91,7908.89
+TEMOA,SRCA,SRCA_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,35.952,34.344
+TEMOA,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,9508.8,8956.81
+TEMOA,FRCC,FRCC_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,3737,3737
+TEMOA,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,613.1,613.1
+TEMOA,MISS,MISS_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,6111.1,6111.1
+TEMOA,CASO,CASO_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,8625.03
+TEMOA,MISE,MISE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,132.99,90.6
+TEMOA,MISC,MISC_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,11455.2
+TEMOA,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,1972,1972
+TEMOA,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,15,15
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,19526.5
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,0,1301.25
+TEMOA,MISS,MISS_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,3408,68.6
+TEMOA,RMRG,RMRG_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,1386,1975
+TEMOA,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,7914.4,7914.4
+TEMOA,PJME,PJME_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,5212.37,4868.3
+TEMOA,SPPC,SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,3502.5,3122.48
+TEMOA,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,14310.7,14106.2
+TEMOA,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,6274.44
+TEMOA,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,36041.7,35503.7
+TEMOA,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,28323.5,27991.5
+TEMOA,PJMW,PJMW_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,50.496,33.696
+TEMOA,RMRG,RMRG_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,6780.99,5135
+TEMOA,MISC,MISC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,9528.95,9409.02
+TEMOA,MISE,MISE_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,1565,3712
 TEMOA,MISS,MISS_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,5426,5426
+TEMOA,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,6938.19,6421.2
+TEMOA,CASO,CASO_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,66.912,66.912
+TEMOA,PJME,PJME_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,811.512,579.098
+TEMOA,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,2047,2047
+TEMOA,SPPC,SPPC_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,7013.31,5317.5
+TEMOA,MISS,MISS_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,5086.62,4707.38
+TEMOA,SRSE,SRSE_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,12318,6361.5
+TEMOA,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,733.91,683.215
+TEMOA,SPPS,SPPS_biomass_1,Other,2040,base_thin_no_cap,MW,14.84,13.941
+TEMOA,CASO,CASO_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,50.204,50.204
+TEMOA,TRE,TRE_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,479.4,440.402
+TEMOA,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,11409.7,11409.7
+TEMOA,PJMD,PJMD_biomass_1,Other,2040,base_thin_no_cap,MW,63.474,52.38
+TEMOA,TRE,TRE_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,5518,8407
+TEMOA,SRCA,SRCA_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,3265,5554
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,0,18267.6
+TEMOA,MISC,MISC_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,448.596,276.595
+TEMOA,CANO,CANO_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,444.382,444.382
+TEMOA,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,21456.6,21456.6
+TEMOA,BASN,BASN_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,1642,2011
+TEMOA,MISE,MISE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,407.14,9912.65
+TEMOA,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,3003,3003
+TEMOA,MISW,MISW_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,225.004,161.604
+TEMOA,SPPC,SPPC_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,10.5,10.5
+TEMOA,SRCE,SRCE_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,46.391,41.58
+TEMOA,SPPS,SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,3730.99,3483.32
+TEMOA,NYCW,NYCW_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,5915.76
+TEMOA,MISC,MISC_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,14602.8,7486.7
+TEMOA,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,11993.1,11305.1
+TEMOA,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,1768,1768
+TEMOA,BASN,BASN_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,190.5,177.944
+TEMOA,MISC,MISC_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,12.888,12.888
+TEMOA,SRCA,SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,10246.4,10246.4
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,0,10908.9
+TEMOA,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,414.674,366.208
+TEMOA,MISW,MISW_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,99,82
+TEMOA,MISE,MISE_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,12.768,12.053
+TEMOA,NYUP,NYUP_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,1983.4
+TEMOA,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,57.39,57.39
+TEMOA,MISC,MISC_biomass_1,Other,2040,base_thin_no_cap,MW,65.912,64.008
+TEMOA,SPPC,SPPC_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,382,1078
+TEMOA,TRE,TRE_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,5120,5120
+TEMOA,ISNE,ISNE_biomass_1,Other,2040,base_thin_no_cap,MW,263.432,95.433
+TEMOA,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,19318.8,19049.4
+TEMOA,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,592.805,516.107
+TEMOA,SRCE,SRCE_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,63.8,47
+TEMOA,CASO,CASO_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,36531.7,52930.7
+TEMOA,CASO,CASO_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,971,955.008
+TEMOA,SRSG,SRSG_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,5968.3,7857.13
+TEMOA,MISE,MISE_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,2451.95
+TEMOA,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,4396.7,4389.6
+TEMOA,TRE_WEST,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,1208,336
+TEMOA,BASN,BASN_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,3000.2,2092.2
+TEMOA,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,2016.33,1931.8
+TEMOA,PJMC,PJMC_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,6516,6516
+TEMOA,SRSE,SRSE_biomass_1,Other,2040,base_thin_no_cap,MW,271.875,194.304
+TEMOA,PJMW,PJMW_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,129.255,100.215
+TEMOA,NWPP,NWPP_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,1629,1629
+TEMOA,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,3537.49,3537.49
+TEMOA,PJMW,PJMW_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,21950
+TEMOA,PJMW,PJMW_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,17777.7,5526.49
+TEMOA,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,216.3,216.3
+TEMOA,SRSE,SRSE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,20.704,20.704
+TEMOA,NYUP,NYUP_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,254.538,238.797
+TEMOA,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,5038.4,5038.4
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,6866.23
+TEMOA,CANO,CANO_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,3947.88
+TEMOA,NYCW,NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,2076.9,2076.9
+TEMOA,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,580.8,580.8
+TEMOA,SRSE,SRSE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,12567.6,12476.2
+TEMOA,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,4439.34,3887.25
+TEMOA,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,8664.99,8649.23
+TEMOA,MISE,MISE_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,1161,1161
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,21763.9
+TEMOA,SPPN,SPPN_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,339,640
+TEMOA,SPPS,SPPS_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,1620,2719
+TEMOA,MISW,MISW_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,1141.86,26430.7
+TEMOA,FRCC,FRCC_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,335,335
+TEMOA,TRE,TRE_biomass_1,Other,2040,base_thin_no_cap,MW,38.256,38.256
+TEMOA,NYUP,NYUP_biomass_1,Other,2040,base_thin_no_cap,MW,83.096,38.32
+TEMOA,SPPN,SPPN_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,59.884,42.042
+TEMOA,MISW,MISW_biomass_1,Other,2040,base_thin_no_cap,MW,91.16,70.763
+TEMOA,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,2765.5,2438.3
+TEMOA,MISC,MISC_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,204,101.805
+TEMOA,SRCE,SRCE_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,7684.8,4083
+TEMOA,FRCC,FRCC_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,5592,7445
+TEMOA,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,9707,9589.02
+TEMOA,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,43.5,43.5
+TEMOA,SRSE,SRSE_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,866,1994
+TEMOA,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,471,471
+TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,6499.2,6388.61
+TEMOA,MISW,MISW_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,239.136,201.399
+TEMOA,SPPN,SPPN_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,5016,4175.2
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,0,11887.6
+TEMOA,NWPP,NWPP_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,19809.8
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,31722.4,52833
+TEMOA,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,221.381,221.381
+TEMOA,MISS,MISS_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,583.092,521.4
+TEMOA,MISC,MISC_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,2373,2373
+TEMOA,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,3430.31,3352.36
+TEMOA,PJME,PJME_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,14241.7
+TEMOA,CANO,CANO_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,4677.88,3504.93
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,0,2934.22
+TEMOA,RMRG,RMRG_biomass_1,Other,2040,base_thin_no_cap,MW,15.048,12.632
+TEMOA,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,20755.3,20580.3
+TEMOA,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,3442.81,3442.81
+TEMOA,TRE_WEST,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,3590.3,3590.3
+TEMOA,BASN,BASN_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,2566.29,1773.8
+TEMOA,MISS,MISS_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,3255,4440
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,7137.05
+TEMOA,SRCA,SRCA_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,5227.16
+TEMOA,PJMW,PJMW_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,6326,6326
+TEMOA,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,313.998,313.998
+TEMOA,SRSG,SRSG_biomass_1,Other,2040,base_thin_no_cap,MW,31.82,25.935
+TEMOA,CANO,CANO_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,5329,6426
+TEMOA,SRCE,SRCE_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,823,2478
+TEMOA,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,8365.2,8297.5
+TEMOA,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,264.77,264.77
+TEMOA,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,474.006,474.006
+TEMOA,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,52,52
+TEMOA,MISW,MISW_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,956.678
+TEMOA,FRCC,FRCC_biomass_1,Other,2040,base_thin_no_cap,MW,190.953,135.876
+TEMOA,RMRG,RMRG_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,3056.82,3018.7
+TEMOA,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,372.198,333.9
+TEMOA,NYUP,NYUP_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,19.509,18.5
+TEMOA,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,237.999,237.999
+TEMOA,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,2796,2796
+TEMOA,MISC,MISC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,72.711,35.701
+TEMOA,PJMD,PJMD_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,2051,3190
+TEMOA,PJMW,PJMW_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,83.292,83.292
+TEMOA,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,4244.99,4244.99
+TEMOA,MISE,MISE_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,89,52.998
+TEMOA,PJME,PJME_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,9275,9784
+TEMOA,BASN,BASN_biomass_1,Other,2040,base_thin_no_cap,MW,26.738,23.016
+TEMOA,CANO,CANO_biomass_1,Other,2040,base_thin_no_cap,MW,213.73,66
+TEMOA,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,6716.5,5986.92
+TEMOA,BASN,BASN_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,2261.19,2261.19
+TEMOA,TRE_WEST,TRE_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,12411.3,25458.5
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,0,50910.1
+TEMOA,MISW,MISW_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,11041.6,8386.79
+TEMOA,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,4916.3,22476
+TEMOA,PJMC,PJMC_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,1903,2179
+TEMOA,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,38014.5,36074.3
+TEMOA,PJMC,PJMC_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,4229.2
+TEMOA,SRCA,SRCA_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,12104.6,12104.6
+TEMOA,PJME,PJME_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,57.84,57.84
+TEMOA,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,2276.9,2276.9
+TEMOA,SPPS,SPPS_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,6724,4639
+TEMOA,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,1833.42,1789.38
 TEMOA,MISC,MISC_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,1486,3144
-TEMOA,PJMD,PJMD_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,574.391,574.391
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,27945.6
+TEMOA,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,644.601,644.601
+TEMOA,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,4560.51,3783.5
+TEMOA,MISS,MISS_biomass_1,Other,2040,base_thin_no_cap,MW,78.82,41.688
+TEMOA,SPPC,SPPC_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,1255,1255
+TEMOA,SPPS,SPPS_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,39.842,39.842
+TEMOA,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,243.39,243.39
+TEMOA,ISNE,ISNE_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,5017,5664
+TEMOA,PJMD,PJMD_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,913.5,913.5
+TEMOA,SRSG,SRSG_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,204.195,204.195
+TEMOA,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,1896.21,1896.21
+TEMOA,NYUP,NYUP_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,49.2,49.2
+TEMOA,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_no_cap,MW,1665,1665
+TEMOA,SPPN,SPPN_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,2417.01,2417.01
+TEMOA,MISS,MISS_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,109.312,107.787
+TEMOA,SRSG,SRSG_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,4367,2065
+TEMOA,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,37.408,37.408
+TEMOA,SRCE,SRCE_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,8541.7,8541.7
+TEMOA,SRCA,SRCA_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,11991,4648
+TEMOA,SRSE,SRSE_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,8059,8059
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_1,Wind,2040,base_thin_no_cap,MW,0,920.254
+TEMOA,MISW,MISW_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,2943.2,2943.2
+TEMOA,NYUP,NYUP_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,1088,1400
+TEMOA,SRSG,SRSG_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,2531,3109
+TEMOA,ISNE,ISNE_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,5857.91
+TEMOA,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,1222.39,1222.39
+TEMOA,SRSG,SRSG_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,61.886,51.454
+TEMOA,PJME,PJME_biomass_1,Other,2040,base_thin_no_cap,MW,200.279,96.354
+TEMOA,SRCA,SRCA_biomass_1,Other,2040,base_thin_no_cap,MW,113.74,66.528
+TEMOA,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,8830.27,8683.12
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,1519.53
+TEMOA,MISC,MISC_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,2189.14
+TEMOA,ISNE,ISNE_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,3348.1,3348.1
+TEMOA,PJMC,PJMC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_no_cap,MW,111.408,111.408
+TEMOA,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,5037.1,5037.1
+TEMOA,SRCA,SRCA_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,565.698,519.7
+TEMOA,NYUP,NYUP_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,57.6,51.9
+TEMOA,MISE,MISE_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,3148.3,62.301
 TEMOA,NWPP,NWPP_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,1342.9,724.496
-TEMOA,TRE,TRE_biomass_1,Other,2040,base_thin_no_cap,MW,39.312,39.312
-TEMOA,MISC,MISC_solar_photovoltaic_1,Solar,2040,base_thin_no_cap,MW,177.974,177.974
-TEMOA,PJMW,PJMW_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,5826,7516
-TEMOA,PJME,PJME_biomass_1,Other,2050,base_thin_no_cap,MW,86.108,26.816
-TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,10334.3,21218.3
-TEMOA,BASN,BASN_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,14263.8,18953
-TEMOA,TRE,TRE_biomass_1,Other,2050,base_thin_no_cap,MW,39.312,32.989
-TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,53268.3,87610.7
-TEMOA,BASN,BASN_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,1773.61,1478.09
-TEMOA,NYUP,NYUP_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,47,47
-TEMOA,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,3607.92,2763.89
-TEMOA,MISE,MISE_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,3104.96,7055.73
-TEMOA,SRCA,SRCA_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,5554,6424
-TEMOA,SPPN,SPPN_petroleum_liquids_1,Other,2050,base_thin_no_cap,MW,28.395,10
-TEMOA,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,4296.69,2924.09
-TEMOA,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,651.7,575.7
-TEMOA,RMRG,RMRG_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,0,3430.89
-TEMOA,SRSG,SRSG_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,3364.12,3215.11
-TEMOA,MISC,MISC_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,3144,4278
-TEMOA,ISNE,ISNE_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,7488.45,8674.51
-TEMOA,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,2934.22,2944.22
-TEMOA,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,2796,2796
-TEMOA,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,11689,11689
-TEMOA,PJME,PJME_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,58.28,58.28
-TEMOA,MISE,MISE_biomass_1,Other,2050,base_thin_no_cap,MW,61.962,27.225
-TEMOA,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,1384.21,1384.21
-TEMOA,SPPS,SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,3483.32,3356.42
-TEMOA,ISNE,ISNE_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,3348.1,3348.1
-TEMOA,SPPN,SPPN_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,770,770
-TEMOA,SRCA,SRCA_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,5026.49,13922.3
-TEMOA,NYCW,NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,2061.08,2013.98
-TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,6368.52,4229.4
-TEMOA,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,24701.3,30351.3
-TEMOA,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,1812.79,1690.78
-TEMOA,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,580.8,580.8
-TEMOA,SPPC,SPPC_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,3569.29
-TEMOA,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,3537.49,3477.5
-TEMOA,SRCA,SRCA_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,33.229,23.332
-TEMOA,SPPS,SPPS_onshore_wind_turbine_1,Wind,2050,base_thin_no_cap,MW,7896.28,200
-TEMOA,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,3040.9,3050.9
-TEMOA,SRSE,SRSE_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,8059,8059
-TEMOA,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,11253.2,11253.2
-TEMOA,SRSE,SRSE_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,6361.5,2257
-TEMOA,NWPP,NWPP_biomass_1,Other,2050,base_thin_no_cap,MW,81.576,63.154
-TEMOA,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,644.601,644.601
-TEMOA,MISC,MISC_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,12.888,12.888
-TEMOA,NYCW,NYCW_petroleum_liquids_1,Other,2050,base_thin_no_cap,MW,229.908,13.503
-TEMOA,NYUP,NYUP_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,3504.28,3504.49
-TEMOA,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,7908.89,7827.9
-TEMOA,PJME,PJME_petroleum_liquids_1,Other,2050,base_thin_no_cap,MW,245.303,19.4
-TEMOA,SPPC,SPPC_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,1255,1255
-TEMOA,MISS,MISS_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,4418.12,3587.32
-TEMOA,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,474.006,474.006
-TEMOA,TRE,TRE_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,11290.6,4734.6
-TEMOA,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,313.998,313.998
-TEMOA,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,31831.4,31775.4
-TEMOA,SRCA,SRCA_petroleum_liquids_1,Other,2050,base_thin_no_cap,MW,124.285,26.306
-TEMOA,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,286.2,286.2
-TEMOA,SRCA,SRCA_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,4648,2639
-TEMOA,PJMC,PJMC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,42.806,37.8
-TEMOA,FRCC,FRCC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,7473.08,23713.5
-TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,24276,39541.1
-TEMOA,MISS,MISS_natural_gas_steam_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,59.1,20.5
-TEMOA,MISC,MISC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,11060.2,29698
-TEMOA,TRE,TRE_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,2596.53
-TEMOA,ISNE,ISNE_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,220.48,191.866
-TEMOA,PJMD,PJMD_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,3190,3646
-TEMOA,NYCW,NYCW_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,2645.62
-TEMOA,CASO,CASO_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,73.99,72.662
-TEMOA,FRCC,FRCC_natural_gas_steam_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,335,335
-TEMOA,MISW,MISW_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,24698.8,29989.3
-TEMOA,CANO,CANO_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,3251.5,2768.4
-TEMOA,BASN,BASN_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,1465.69,15198
-TEMOA,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,216.3,216.3
-TEMOA,SRCA,SRCA_biomass_1,Other,2050,base_thin_no_cap,MW,60.8,32.96
-TEMOA,PJMW,PJMW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,27755.6,45575.9
-TEMOA,NYUP,NYUP_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,1400,1760
-TEMOA,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,8045.3,7356.1
-TEMOA,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,19.903,14.904
-TEMOA,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,7679.5,7548.09
-TEMOA,NWPP,NWPP_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,1627.5,887.499
-TEMOA,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,6941.39,6814.39
-TEMOA,ISNE,ISNE_biomass_1,Other,2050,base_thin_no_cap,MW,91.584,51.615
-TEMOA,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,3003,3003
-TEMOA,PJME,PJME_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,9784,9659
-TEMOA,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,6421.2,6421.2
-TEMOA,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,4845.1,4845.1
-TEMOA,MISE,MISE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,90.6,80.9
-TEMOA,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,1170.5,979.503
-TEMOA,PJMC,PJMC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,4341.61,6316.13
-TEMOA,RMRG,RMRG_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,5120,1531
-TEMOA,NWPP,NWPP_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,1172,1172
-TEMOA,NWPP,NWPP_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,724.496,411.499
-TEMOA,PJMD,PJMD_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,913.5,913.5
-TEMOA,MISS,MISS_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,378.204,16510.9
-TEMOA,MISC,MISC_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,24176.2,24186.2
-TEMOA,SPPS,SPPS_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,4639,969.999
-TEMOA,SPPC,SPPC_petroleum_liquids_1,Other,2050,base_thin_no_cap,MW,102.51,31.905
-TEMOA,SRCA,SRCA_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,6450.45
-TEMOA,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,4244.99,4184.19
-TEMOA,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,1782,1782
-TEMOA,NYUP,NYUP_biomass_1,Other,2050,base_thin_no_cap,MW,42.432,14.546
-TEMOA,PJMW,PJMW_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,6326,6326
-TEMOA,SRCE,SRCE_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,8541.7,8541.7
-TEMOA,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,471,471
-TEMOA,MISE,MISE_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,60,60
-TEMOA,TRE_WEST,TRE_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,6156.71,12996.5
-TEMOA,MISW,MISW_biomass_1,Other,2050,base_thin_no_cap,MW,38.796,22.705
-TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,10162.4,13704.1
-TEMOA,PJMW,PJMW_biomass_1,Other,2050,base_thin_no_cap,MW,25.208,11.178
-TEMOA,MISW,MISW_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,4681,5190
-TEMOA,SRSG,SRSG_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,0,2258.05
-TEMOA,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,3428.69,3428.69
-TEMOA,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,52,52
-TEMOA,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,8454.72,8455.89
-TEMOA,CASO,CASO_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,49328,75571.4
-TEMOA,ISNE,ISNE_petroleum_liquids_1,Other,2050,base_thin_no_cap,MW,753.777,371.906
+TEMOA,CANO,CANO_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,6973.45,6904.49
+TEMOA,SRSG,SRSG_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,3646.03,3595.58
+TEMOA,FRCC,FRCC_conventional_steam_coal_1,Coal,2040,base_thin_no_cap,MW,4867,4281
+TEMOA,CASO,CASO_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,8292,9999
+TEMOA,CASO,CASO_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,6439.92,5409.31
+TEMOA,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,31532,31006.8
+TEMOA,FRCC,FRCC_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,3459.88
+TEMOA,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,14956.5
+TEMOA,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2040,base_thin_no_cap,MW,0,7551.66
+TEMOA,MISS,MISS_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,2474.8
+TEMOA,TRE,TRE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,0,13164.9
+TEMOA,ISNE,ISNE_small_hydroelectric_1,Hydro,2040,base_thin_no_cap,MW,261.112,233.129
+TEMOA,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_no_cap,MW,1782,1782
+TEMOA,ISNE,ISNE_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_no_cap,MW,21.296,17.199
+TEMOA,PJMD,PJMD_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,3708,3708
+TEMOA,RMRG,RMRG_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_no_cap,MW,855.102,961.581
+TEMOA,NYCW,NYCW_distributed_generation_1,Distributed Solar,2040,base_thin_no_cap,MW,1466,1887
+TEMOA,NYUP,NYUP_nuclear_1,Nuclear,2040,base_thin_no_cap,MW,3375.3,3375.3
 TEMOA,MISS,MISS_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,6111.1,680
-TEMOA,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,5891.91,3745.41
-TEMOA,MISE,MISE_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,3712,4586
-TEMOA,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,362.204,303.8
-TEMOA,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,18869.3,30425.1
-TEMOA,MISW,MISW_petroleum_liquids_1,Other,2050,base_thin_no_cap,MW,549.113,89.112
-TEMOA,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,8165.66,8169.22
-TEMOA,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,13240.5,15480.3
-TEMOA,TRE,TRE_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,5120,5120
-TEMOA,NYCW,NYCW_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,1887,2372
-TEMOA,SPPN,SPPN_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,640,835
-TEMOA,PJMC,PJMC_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,42.4,42.4
-TEMOA,SPPN,SPPN_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,125.417
-TEMOA,CASO,CASO_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,4594.36,4593.34
-TEMOA,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,1405.1,1405.1
-TEMOA,PJME,PJME_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,4745.79,2642.9
-TEMOA,MISC,MISC_petroleum_liquids_1,Other,2050,base_thin_no_cap,MW,195.902,36.295
-TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,0,5233.54
-TEMOA,SRCA,SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,10092.8,5812.62
-TEMOA,NWPP,NWPP_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,3084,3200
-TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,13860.7,25499.4
-TEMOA,MISS,MISS_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,476.406,476.406
-TEMOA,CANO,CANO_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,6892.93,5607.91
-TEMOA,MISS,MISS_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,5426,5426
-TEMOA,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,11191.3,10713.2
-TEMOA,FRCC,FRCC_biomass_1,Other,2050,base_thin_no_cap,MW,127.995,93.8
-TEMOA,NWPP,NWPP_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,373.184,367.31
-TEMOA,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,1768,1768
-TEMOA,PJMC,PJMC_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,2263.69
-TEMOA,CANO,CANO_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,2883.33,7956.61
-TEMOA,MISW,MISW_natural_gas_steam_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,113.6,108.9
-TEMOA,SRCE,SRCE_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,4033,1711
-TEMOA,BASN,BASN_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,2239.59,1797.62
-TEMOA,RMRG,RMRG_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,90.321,77.808
-TEMOA,RMRG,RMRG_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,7073.76
-TEMOA,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,1972,1972
-TEMOA,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,11484.6,11484.6
-TEMOA,MISW,MISW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,18823.9,34386.9
-TEMOA,CANO,CANO_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,16577.8,26112.3
-TEMOA,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,314.019,295.593
-TEMOA,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,43.5,43.5
-TEMOA,BASN,BASN_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,0,668.263
-TEMOA,PJMD,PJMD_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,3708,3708
-TEMOA,CANO,CANO_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,621.452
-TEMOA,MISE,MISE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,9962.75,14387.3
+TEMOA,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,516.107,464.816
+TEMOA,PJMW,PJMW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,21950,43507.3
 TEMOA,BASN,BASN_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,2011,2057
-TEMOA,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,2445.01,2395.01
-TEMOA,RMRG,RMRG_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,1975,2206
-TEMOA,SPPS,SPPS_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,2719,3418
-TEMOA,CANO,CANO_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,324.276,324.276
-TEMOA,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,211.9,199.903
-TEMOA,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,174.603,132.8
-TEMOA,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,1683.8,1683.8
-TEMOA,MISW,MISW_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,2943.2,2343
-TEMOA,PJME,PJME_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,579.098,579.098
-TEMOA,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,237.999,237.999
-TEMOA,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,135,121.005
-TEMOA,CANO,CANO_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,6426,6562
-TEMOA,FRCC,FRCC_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,4281,898
-TEMOA,NYUP,NYUP_solar_photovoltaic_1,Solar,2050,base_thin_no_cap,MW,77.6,10.2
 TEMOA,TRE,TRE_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,8407,9588
-TEMOA,CANO,CANO_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,214.812,196.119
-TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,18444.5,34532.4
-TEMOA,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,611.592,611.592
-TEMOA,MISW,MISW_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,200.01,127.463
-TEMOA,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,16083.7,16083.7
-TEMOA,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,7521.7,7363.69
-TEMOA,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,14082.1,13337.9
-TEMOA,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,9517.19,9452.2
-TEMOA,RMRG,RMRG_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,0,4053.43
-TEMOA,PJMW,PJMW_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,51.296,44.395
-TEMOA,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,3881.71,2170.37
-TEMOA,PJMC,PJMC_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,6516,6516
-TEMOA,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,604.201,604.201
-TEMOA,TRE,TRE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,15755,40263.3
-TEMOA,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,21378.7,21378.7
-TEMOA,SRSG,SRSG_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,3109,3281
-TEMOA,FRCC,FRCC_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,7445,7817
-TEMOA,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,1665,1665
-TEMOA,PJME,PJME_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,12762.7,12762.7
-TEMOA,CASO,CASO_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,23.604,23.604
-TEMOA,CASO,CASO_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,949.893,913.9
-TEMOA,ISNE,ISNE_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,41.0873,640.569
-TEMOA,TRE_WEST,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,336,336
-TEMOA,MISC,MISC_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,7148.9,2360.6
-TEMOA,SRCA,SRCA_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,12104.6,12104.6
-TEMOA,CASO,CASO_onshore_wind_turbine_1,Wind,2050,base_thin_no_cap,MW,2961.8,107
-TEMOA,NWPP,NWPP_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,10616.7,24027.4
-TEMOA,PJMD,PJMD_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,2183.3
-TEMOA,SPPN,SPPN_onshore_wind_turbine_1,Wind,2050,base_thin_no_cap,MW,2177.5,150
-TEMOA,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,1896.21,1896.21
-TEMOA,SPPN,SPPN_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,4162.3,1434
-TEMOA,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,1791,1791
-TEMOA,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,2671.7,2668.2
-TEMOA,MISC,MISC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,8669.34,4782.49
-TEMOA,TRE,TRE_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,440.402,224.103
-TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,10908.9,10918.9
-TEMOA,SRCE,SRCE_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,4403.09
-TEMOA,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,512.818,461.516
-TEMOA,PJMC,PJMC_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,2179,2181
-TEMOA,PJMW,PJMW_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,42.458,42.458
-TEMOA,TRE_WEST,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,2127.9,1840.8
-TEMOA,PJME,PJME_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,3062.5,1762.1
-TEMOA,SPPC,SPPC_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,1078,1875
-TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,0,5614.95
-TEMOA,MISC,MISC_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,276.595,276.595
-TEMOA,CASO,CASO_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,6722.92,7134.42
-TEMOA,SRSG,SRSG_onshore_wind_turbine_1,Wind,2050,base_thin_no_cap,MW,1563.5,306.2
-TEMOA,MISW,MISW_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,8144.41,2939.6
-TEMOA,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,33511,31978.7
-TEMOA,SRSE,SRSE_biomass_1,Other,2050,base_thin_no_cap,MW,105.88,72.371
-TEMOA,CASO,CASO_biomass_1,Other,2050,base_thin_no_cap,MW,60.984,52.832
-TEMOA,PJMC,PJMC_petroleum_liquids_1,Other,2050,base_thin_no_cap,MW,49.105,34.095
-TEMOA,SRSG,SRSG_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,198.396,198.396
-TEMOA,SRSE,SRSE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,10599.8,5651.92
-TEMOA,CANO,CANO_biomass_1,Other,2050,base_thin_no_cap,MW,62.658,53.36
-TEMOA,NYCW,NYCW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,5529.92,7861.93
-TEMOA,MISE,MISE_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,1161,1161
-TEMOA,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,5827.56,9204.08
-TEMOA,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,9851.71,37599.6
-TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,0,5146.53
-TEMOA,CASO,CASO_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,15914.9
-TEMOA,SRSG,SRSG_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,4003,4003
-TEMOA,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,3724,2610
-TEMOA,CASO,CASO_solar_photovoltaic_1,Solar,2050,base_thin_no_cap,MW,5398.08,80
+TEMOA,SRCE,SRCE_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,41.58,28.78
+TEMOA,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,31006.8,28365.9
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,6866.23,6866.71
+TEMOA,SRSE,SRSE_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,8059,8059
+TEMOA,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,243.39,243.39
+TEMOA,PJMW,PJMW_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,100.215,100.215
+TEMOA,SRCA,SRCA_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,7926.4
+TEMOA,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,2276.9,2276.9
+TEMOA,SRSG,SRSG_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,0,6537.04
+TEMOA,RMRG,RMRG_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,0,18062.5
 TEMOA,SPPC,SPPC_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,5317.5,1152
-TEMOA,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,66933.7,88432.7
-TEMOA,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,15,15
-TEMOA,MISC,MISC_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,2373,2373
-TEMOA,NWPP,NWPP_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,302.994,302.994
-TEMOA,MISC,MISC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,20.7,19.8
-TEMOA,FRCC,FRCC_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,3737,3737
-TEMOA,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,30503.2,27871.8
-TEMOA,RMRG,RMRG_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,2905.58,2444.69
-TEMOA,ISNE,ISNE_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,5664,5940
-TEMOA,MISS,MISS_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,4440,4468
-TEMOA,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,7959.88,5648.72
-TEMOA,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,7914.4,7486.4
-TEMOA,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,14.504,14.504
-TEMOA,MISE,MISE_natural_gas_steam_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,44.8,23.8
-TEMOA,SRSE,SRSE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,0,14585.7
-TEMOA,CASO,CASO_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,9999,10210
-TEMOA,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,8194.62,6473.88
-TEMOA,CANO,CANO_petroleum_liquids_1,Other,2050,base_thin_no_cap,MW,92.701,92.701
-TEMOA,MISS,MISS_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,99.803,99.803
-TEMOA,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,2047,2047
-TEMOA,NYUP,NYUP_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,226.455,219.24
-TEMOA,NYUP,NYUP_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,3375.3,2155.6
-TEMOA,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,4819.3,2744.8
-TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,7583.95,7584.43
-TEMOA,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,1403.06,4492.42
-TEMOA,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,3352.36,3257.7
-TEMOA,SRCE,SRCE_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,2478,4012
-TEMOA,SRSE,SRSE_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,1994,3111
-TEMOA,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,413.685,413.685
-TEMOA,PJME,PJME_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,15483.8,33472.1
-TEMOA,SPPS,SPPS_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,39.842,31.167
-TEMOA,MISW,MISW_solar_photovoltaic_1,Solar,2050,base_thin_no_cap,MW,440.064,15.2
-TEMOA,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,191.694,174.018
-TEMOA,BASN,BASN_biomass_1,Other,2050,base_thin_no_cap,MW,20.6,12.908
-TEMOA,PJMD,PJMD_biomass_1,Other,2050,base_thin_no_cap,MW,55.581,32.571
-TEMOA,SPPN,SPPN_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,1690.31,1394.9
-TEMOA,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,22136.8,24562.8
-TEMOA,SRCE,SRCE_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,36.54,23.736
-TEMOA,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,38869,58577.3
-TEMOA,MISC,MISC_biomass_1,Other,2050,base_thin_no_cap,MW,49.91,21.942
-TEMOA,MISW,MISW_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,2112.18,2112.36
-TEMOA,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,2438.3,1931.3
+TEMOA,CASO,CASO_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,16388.4
+TEMOA,SRSE,SRSE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,0,25294.2
+TEMOA,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,3442.81,3438.8
+TEMOA,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,313.998,313.998
+TEMOA,NYCW,NYCW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,5915.76,10261.9
+TEMOA,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,36074.3,33887.7
 TEMOA,BASN,BASN_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,2092.2,270.2
-TEMOA,SRSG,SRSG_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,2065,1238
-TEMOA,BASN,BASN_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,170.658,147.018
+TEMOA,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,22476,22872.4
+TEMOA,CANO,CANO_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,3947.88,9795.87
+TEMOA,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,57.39,52.39
+TEMOA,PJMD,PJMD_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,3708,3708
+TEMOA,PJMW,PJMW_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,5526.49,2197.5
+TEMOA,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,7551.66,9740.86
+TEMOA,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,626,626
+TEMOA,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,8956.81,8825.41
+TEMOA,PJME,PJME_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,9784,9659
+TEMOA,SPPS,SPPS_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,2719,3418
+TEMOA,SRCE,SRCE_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,6993.29
+TEMOA,TRE,TRE_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,11290.6,4734.6
+TEMOA,SPPN,SPPN_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,4175.2,1446.9
+TEMOA,TRE_WEST,TRE_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,25458.5,28160.9
+TEMOA,RMRG,RMRG_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,961.581,4552.09
+TEMOA,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,1665,1665
+TEMOA,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,11484.6,11484.6
+TEMOA,MISS,MISS_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,4440,4468
+TEMOA,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,52,52
+TEMOA,CANO,CANO_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,444.382,433.912
+TEMOA,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,35503.7,35447.7
+TEMOA,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,1782,1782
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,2934.22,2944.2
+TEMOA,CASO,CASO_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,955.008,919.011
+TEMOA,SRCA,SRCA_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,34.344,24.48
+TEMOA,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,899.976,893.78
+TEMOA,NYUP,NYUP_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,238.797,231.345
+TEMOA,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,10.4,10.4
+TEMOA,BASN,BASN_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,0,5914.52
+TEMOA,MISE,MISE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,90.6,80.9
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,27945.6,47416.6
+TEMOA,SRSG,SRSG_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,7857.13,7857.85
+TEMOA,NYUP,NYUP_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,1400,1760
+TEMOA,FRCC,FRCC_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,3737,3737
+TEMOA,RMRG,RMRG_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,857.963
+TEMOA,BASN,BASN_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,177.944,154.29
+TEMOA,PJMW,PJMW_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,83.292,76.399
+TEMOA,SRCE,SRCE_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,2478,4012
+TEMOA,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,264.77,222.984
+TEMOA,MISW,MISW_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,82,67.302
+TEMOA,PJME,PJME_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,3062.5,1762.1
+TEMOA,ISNE,ISNE_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,215.932,688.806
+TEMOA,SPPC,SPPC_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,1131.41
+TEMOA,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,27991.5,27505.1
+TEMOA,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,37.408,37.408
 TEMOA,SRSG,SRSG_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,51.454,42.665
-TEMOA,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,502.712,496.215
+TEMOA,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,1405.1,1405.1
+TEMOA,CASO,CASO_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,50.204,48.594
+TEMOA,MISE,MISE_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,12.053,10.166
+TEMOA,MISW,MISW_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,2943.2,2343
+TEMOA,RMRG,RMRG_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,93.227,80.7
+TEMOA,CASO,CASO_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,8625.03,11426.8
+TEMOA,SPPS,SPPS_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,4639,969.999
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,19526.5,47989.1
+TEMOA,MISW,MISW_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,201.399,125.386
+TEMOA,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,613.1,613.1
+TEMOA,RMRG,RMRG_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,5135,1531
+TEMOA,BASN,BASN_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,14671.5,22059
+TEMOA,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,474.006,474.006
+TEMOA,SRCE,SRCE_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,8541.7,8541.7
+TEMOA,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,420.597,420.597
+TEMOA,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,9517.19,9452.2
+TEMOA,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,3537.49,3477.5
+TEMOA,SPPN,SPPN_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,1074.91
+TEMOA,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,14956.5,18868
+TEMOA,PJMC,PJMC_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,6516,6516
+TEMOA,MISC,MISC_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,276.595,276.595
+TEMOA,FRCC,FRCC_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,7445,7817
+TEMOA,NWPP,NWPP_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,1629,889
+TEMOA,PJMC,PJMC_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,42.4,42.4
+TEMOA,SRCA,SRCA_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,12104.6,12104.6
+TEMOA,MISS,MISS_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,5426,5426
+TEMOA,TRE,TRE_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,440.402,224.103
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,1301.25,1301.47
+TEMOA,FRCC,FRCC_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,4281,898
+TEMOA,MISC,MISC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,35.701,34.794
+TEMOA,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,1683.8,1683.8
+TEMOA,PJME,PJME_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,579.098,579.098
+TEMOA,PJMC,PJMC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,111.408,104.58
+TEMOA,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,2438.3,1931.3
+TEMOA,RMRG,RMRG_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,1975,2206
+TEMOA,NWPP,NWPP_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,304.993,304.993
+TEMOA,PJMD,PJMD_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,3796.2
+TEMOA,TRE,TRE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,13164.9,46282.7
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,21763.9,25838.7
+TEMOA,MISE,MISE_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,3712,4586
+TEMOA,CASO,CASO_battery_moderate_0_4hour,Battery,2050,base_thin_no_cap,MW,0,465.704
+TEMOA,NYCW,NYCW_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,1887,2372
+TEMOA,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,644.601,644.601
+TEMOA,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,366.208,307.788
+TEMOA,SPPC,SPPC_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,1255,1255
+TEMOA,SRCA,SRCA_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,0,3349.49
+TEMOA,SRSG,SRSG_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,4003,4003
+TEMOA,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,7908.89,7827.9
+TEMOA,SPPC,SPPC_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,1078,1875
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,1519.53,1519.77
+TEMOA,CANO,CANO_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,222.56,204.222
+TEMOA,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,0,16945.8
+TEMOA,TRE_WEST,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,3590.3,3303.2
+TEMOA,NYCW,NYCW_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,2195.67
+TEMOA,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,6274.44,6274.59
+TEMOA,MISS,MISS_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,2474.8,18030.2
+TEMOA,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,3352.36,3257.7
+TEMOA,MISC,MISC_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,7486.7,2698.4
+TEMOA,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,4244.99,4184.19
+TEMOA,CASO,CASO_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,52930.7,76103.4
+TEMOA,SPPN,SPPN_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,0,673.129
+TEMOA,ISNE,ISNE_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,5664,5940
+TEMOA,MISE,MISE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,9912.65,17683.7
+TEMOA,MISW,MISW_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,4681,5190
+TEMOA,PJMW,PJMW_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,6326,6326
+TEMOA,PJMW,PJMW_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,5826,7516
+TEMOA,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,1896.21,1896.21
+TEMOA,CANO,CANO_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,13739.4,24748.4
+TEMOA,SRCA,SRCA_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,5554,6424
+TEMOA,NYUP,NYUP_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,3375.3,2155.6
+TEMOA,BASN,BASN_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,1773.8,1478.3
+TEMOA,SRSE,SRSE_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,6361.5,2257
+TEMOA,SRCE,SRCE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,0,8935.55
+TEMOA,MISW,MISW_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,956.678,956.764
 TEMOA,TRE_WEST,TRE_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,456,521
-TEMOA,PJMW,PJMW_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,11543,8711.13
-TEMOA,MISW,MISW_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,1632.23
-TEMOA,SPPC,SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_no_cap,MW,3071.01,2398
-TEMOA,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,237.198,237.198
-TEMOA,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,14083.5,25958.9
-TEMOA,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,26411.1,25925.9
-TEMOA,PJMW,PJMW_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,5476.5,2147.5
-TEMOA,SRCE,SRCE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,0,6400.09
-TEMOA,CANO,CANO_batteries_1,Battery,2030,base_thin_no_cap,MWh,1937.2,1937.2
-TEMOA,TRE_WEST,TRE_batteries_1,Battery,2030,base_thin_no_cap,MWh,103.6,103.6
-TEMOA,PJMW,PJMW_batteries_1,Battery,2030,base_thin_no_cap,MWh,47.6,47.6
-TEMOA,PJME,PJME_batteries_1,Battery,2030,base_thin_no_cap,MWh,20.8,20.8
-TEMOA,CASO,CASO_batteries_1,Battery,2030,base_thin_no_cap,MWh,2495.6,2495.6
-TEMOA,MISC,MISC_batteries_1,Battery,2030,base_thin_no_cap,MWh,40,40
-TEMOA,SRSG,SRSG_batteries_1,Battery,2030,base_thin_no_cap,MWh,444,444
-TEMOA,PJMC,PJMC_batteries_1,Battery,2030,base_thin_no_cap,MWh,39.6,39.6
-TEMOA,TRE,TRE_batteries_1,Battery,2030,base_thin_no_cap,MWh,539.8,539.8
-TEMOA,FRCC,FRCC_batteries_1,Battery,2030,base_thin_no_cap,MWh,846,846
-TEMOA,ISNE,ISNE_batteries_1,Battery,2030,base_thin_no_cap,MWh,107.4,107.4
-TEMOA,ISNE,ISNE_battery_moderate_0_2hour,Battery,2040,base_thin_no_cap,MWh,0,82.1746
-TEMOA,SPPC,SPPC_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,7138.58
-TEMOA,TRE,TRE_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,5193.05
-TEMOA,NYCW,NYCW_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,5291.23
-TEMOA,SRCA,SRCA_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,12900.9
-TEMOA,SPPN,SPPN_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,250.835
-TEMOA,PJMC,PJMC_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,4527.38
-TEMOA,RMRG,RMRG_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,14147.5
-TEMOA,CANO,CANO_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,1242.9
-TEMOA,ISNE,ISNE_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,82.1746,1281.14
-TEMOA,PJMD,PJMD_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,4366.61
-TEMOA,SRCE,SRCE_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,8806.19
-TEMOA,CASO,CASO_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,31829.9
-TEMOA,MISW,MISW_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,3264.45
+TEMOA,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,3003,3003
+TEMOA,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,262.899,250.895
+TEMOA,SRSG,SRSG_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,2065,1238
+TEMOA,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,2796,2796
+TEMOA,SRCE,SRCE_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,4083,1745.6
+TEMOA,MISE,MISE_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,1161,1161
+TEMOA,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,580.8,580.8
+TEMOA,SPPS,SPPS_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,39.842,31.167
+TEMOA,MISC,MISC_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,3144,4278
+TEMOA,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,341.385,327.39
+TEMOA,MISS,MISS_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,521.4,521.4
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,7137.05,7138
+TEMOA,MISC,MISC_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,12.888,12.888
+TEMOA,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,11409.7,10931.6
+TEMOA,CANO,CANO_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,6426,6562
+TEMOA,MISC,MISC_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,2373,2373
+TEMOA,NWPP,NWPP_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,371.52,365.748
+TEMOA,SPPN,SPPN_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,770,770
+TEMOA,FRCC,FRCC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,3459.88,32250.1
+TEMOA,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,11305.1,11305.1
+TEMOA,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,7914.4,7486.4
+TEMOA,MISS,MISS_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,107.787,107.787
+TEMOA,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,43.5,43.5
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,50910.1,70757.1
+TEMOA,NWPP,NWPP_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,1172,1172
+TEMOA,ISNE,ISNE_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,5857.91,10050.3
+TEMOA,CANO,CANO_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,6904.49,5619.52
+TEMOA,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,655.704,579.696
+TEMOA,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,1972,1972
+TEMOA,NWPP,NWPP_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,19809.8,26955
+TEMOA,MISC,MISC_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,2189.14,2189.24
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,18267.6,38973.5
+TEMOA,PJMD,PJMD_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,3190,3646
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,11887.6,11891
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,10908.9,10918.9
+TEMOA,BASN,BASN_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,0,5265.6
+TEMOA,PJMC,PJMC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,4229.2,8867.83
+TEMOA,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,5037.1,5037.1
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,920.254,920.621
+TEMOA,TRE,TRE_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,0,1148.13
+TEMOA,CASO,CASO_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,66.912,65.709
+TEMOA,PJME,PJME_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,57.84,57.84
+TEMOA,NYUP,NYUP_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,1983.4,5324.37
+TEMOA,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,21456.6,21456.6
+TEMOA,SRCA,SRCA_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,4648,2639
+TEMOA,MISE,MISE_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,62.301,61.4
+TEMOA,SRSE,SRSE_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,406.883
+TEMOA,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,3887.25,2175.97
+TEMOA,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,6738.1,4663.6
+TEMOA,MISW,MISW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,26430.7,45885
+TEMOA,PJME,PJME_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,14241.7,38989.3
+TEMOA,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,221.381,203.51
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2050,base_thin_no_cap,MW,52833,64093.2
+TEMOA,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,14106.2,13362
+TEMOA,PJMC,PJMC_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,2179,2181
+TEMOA,MISW,MISW_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,8386.79,3174.5
+TEMOA,ISNE,ISNE_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,3348.1,3348.1
+TEMOA,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,19049.4,19049.4
+TEMOA,SRSG,SRSG_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,3109,3281
+TEMOA,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,1768,1768
+TEMOA,PJMD,PJMD_conventional_steam_coal_1,Coal,2050,base_thin_no_cap,MW,913.5,913.5
+TEMOA,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,2465.01,2395.01
+TEMOA,ISNE,ISNE_small_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,233.129,203.632
+TEMOA,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,8297.5,8139.49
+TEMOA,MISE,MISE_utilitypv_class1_moderate_1,Solar,2050,base_thin_no_cap,MW,2451.95,2452.21
+TEMOA,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,237.999,237.999
+TEMOA,CASO,CASO_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,9999,10210
+TEMOA,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,1222.39,1030.9
+TEMOA,SRSE,SRSE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,20.704,17.394
+TEMOA,TRE,TRE_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,5120,5120
+TEMOA,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,8079.59,7952.59
+TEMOA,NWPP,NWPP_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,3084,3200
+TEMOA,MISC,MISC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,11455.2,33580.8
+TEMOA,SPPC,SPPC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,0,3557.83
+TEMOA,FRCC,FRCC_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,79.6718
+TEMOA,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2050,base_thin_no_cap,MW,1931.8,1809.8
+TEMOA,SRSE,SRSE_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,1994,3111
+TEMOA,PJMC,PJMC_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MW,0,1259.97
+TEMOA,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,471,471
+TEMOA,SRSG,SRSG_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,204.195,200.005
+TEMOA,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,216.3,216.3
+TEMOA,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,6421.2,6421.2
+TEMOA,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_no_cap,MW,2047,2047
+TEMOA,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,683.215,664.778
+TEMOA,PJME,PJME_nuclear_1,Nuclear,2050,base_thin_no_cap,MW,12762.7,12762.7
+TEMOA,SRCA,SRCA_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_no_cap,MW,5227.16,21386.5
+TEMOA,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,9589.02,8797.79
+TEMOA,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,20580.3,20444.3
+TEMOA,SPPN,SPPN_distributed_generation_1,Distributed Solar,2050,base_thin_no_cap,MW,640,835
+TEMOA,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_no_cap,MW,5038.4,5034.2
+TEMOA,NYUP,NYUP_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_no_cap,MW,18.5,18.5
+TEMOA,ISNE,ISNE_battery_moderate_0_2hour,Battery,2040,base_thin_no_cap,MWh,0,431.864
+TEMOA,SRCA,SRCA_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,15852.8
+TEMOA,CASO,CASO_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,32776.8
+TEMOA,SRCE,SRCE_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,13986.6
+TEMOA,RMRG,RMRG_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,1715.93
+TEMOA,ISNE,ISNE_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,431.864,1377.61
+TEMOA,SPPC,SPPC_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,2262.82
+TEMOA,SPPN,SPPN_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,2149.82
+TEMOA,PJMD,PJMD_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,7592.4
+TEMOA,CASO,CASO_battery_moderate_0_4hour,Battery,2050,base_thin_no_cap,MWh,0,1862.81
+TEMOA,NYCW,NYCW_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,4391.34
+TEMOA,SRSE,SRSE_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,813.766
+TEMOA,FRCC,FRCC_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,159.344
+TEMOA,PJMC,PJMC_battery_moderate_0_2hour,Battery,2050,base_thin_no_cap,MWh,0,2519.94
