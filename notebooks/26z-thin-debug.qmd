@@ -106,7 +106,7 @@ chart = (
         color=alt.Color("tech_type").scale(scheme="tableau20"),
         # column="zone",
         row="planning_year:O",
-        tooltip=alt.Tooltip("end_value", title="Capacity (MW)", format=",.0f")
+        tooltip=[alt.Tooltip("tech_type", title="Technology"), alt.Tooltip("end_value", title="Capacity (MW)", format=",.0f")]
     )
     .properties(width=350, height=250)
 )
@@ -126,7 +126,7 @@ chart = (
         color=alt.Color("tech_type").scale(scheme="tableau20"),
         column="agg_zone",
         row="planning_year:O",
-        tooltip=alt.Tooltip("end_value", title="Capacity (MW)", format=",.0f")
+        tooltip=[alt.Tooltip("tech_type", title="Technology"), alt.Tooltip("end_value", title="Capacity (MW)", format=",.0f")]
     )
     .properties(width=150, height=250)
 )
@@ -149,7 +149,7 @@ chart = (
         color=alt.Color("tech_type").scale(scheme="tableau20"),
         # column="zone",
         row="planning_year:O",
-        tooltip=alt.Tooltip("value", title="Generation (MWh)", format=",.0f")
+        tooltip=[alt.Tooltip("tech_type", title="Technology"), alt.Tooltip("value", title="Generation (MWh)", format=",.0f")]
     )
     .properties(width=350, height=250)
 )
@@ -171,7 +171,7 @@ chart = (
         color=alt.Color("tech_type").scale(scheme="tableau20"),
         column="agg_zone",
         row="planning_year:O",
-        tooltip=alt.Tooltip("value", title="Generation (MWh)", format=",.0f")
+        tooltip=[alt.Tooltip("tech_type", title="Technology"), alt.Tooltip("value", title="Generation (MWh)", format=",.0f")]
     )
     .properties(width=150, height=250)
 )
