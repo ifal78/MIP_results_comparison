@@ -15,7 +15,21 @@ from typing import Dict, List
 import pandas as pd
 import altair as alt
 from pathlib import Path
-from fig_functions import fix_tx_line_names, load_genx_operations_data, load_data
+from fig_functions import (
+    fix_tx_line_names,
+    load_genx_operations_data,
+    load_data,
+    chart_total_cap,
+    chart_regional_cap,
+    chart_total_gen,
+    chart_regional_gen,
+    chart_tx_expansion,
+    chart_emissions,
+    chart_dispatch,
+    chart_wind_dispatch,
+    chart_op_cost,
+    chart_op_nse
+)
 
 alt.renderers.enable("html")
 alt.data_transformers.disable_max_rows()
@@ -93,88 +107,26 @@ dispatch = pd.concat(df_list, ignore_index=True)
 #### Column {.tabset}
 ```{python}
 # | title: Total Capacity
-cap_data = cap.groupby(["tech_type", "model", "planning_year"], as_index=False)[
-    "end_value"
-].sum()
-
-chart = (
-    alt.Chart(cap_data)
-    .mark_bar()
-    .encode(
-        x="model",
-        y=alt.Y("sum(end_value)").title("Capacity (MW)"),
-        color=alt.Color("tech_type").scale(scheme="tableau20"),
-        # column="zone",
-        row="planning_year:O",
-        tooltip=[alt.Tooltip("tech_type", title="Technology"), alt.Tooltip("end_value", title="Capacity (MW)", format=",.0f")]
-    )
-    .properties(width=350, height=250)
-)
+chart = chart_total_cap(cap)
 chart
 ```
 ```{python}
 # | title: Regional Capacity
-data = cap.groupby(["agg_zone", "tech_type", "model", "planning_year"], as_index=False)[
-    "end_value"
-].sum()
-chart = (
-    alt.Chart(data)
-    .mark_bar()
-    .encode(
-        x="model",
-        y=alt.Y("end_value").title("Capacity (MW)"),
-        color=alt.Color("tech_type").scale(scheme="tableau20"),
-        column="agg_zone",
-        row="planning_year:O",
-        tooltip=[alt.Tooltip("tech_type", title="Technology"), alt.Tooltip("end_value", title="Capacity (MW)", format=",.0f")]
-    )
-    .properties(width=150, height=250)
-)
+chart = chart_regional_cap(cap)
 chart
 ```
 
 #### Column {.tabset}
 ```{python}
 # | title: Total Generation
-data = gen.groupby(["tech_type", "model", "planning_year"], as_index=False)[
-    "value"
-].sum()
-# ojs_define(gendata = data)
-chart = (
-    alt.Chart(data)
-    .mark_bar()
-    .encode(
-        x="model",
-        y=alt.Y("value").title("Generation (MWh)"),
-        color=alt.Color("tech_type").scale(scheme="tableau20"),
-        # column="zone",
-        row="planning_year:O",
-        tooltip=[alt.Tooltip("tech_type", title="Technology"), alt.Tooltip("value", title="Generation (MWh)", format=",.0f")]
-    )
-    .properties(width=350, height=250)
-)
+chart = chart_total_gen(gen)
 chart
 ```
 
 
 ```{python}
 # | title: Regional Generation
-data = gen.groupby(["agg_zone", "tech_type", "model", "planning_year"], as_index=False)[
-    "value"
-].sum()
-chart = (
-    alt.Chart(data)
-    .mark_bar()
-    .encode(
-        x="model",
-        y=alt.Y("value").title("Generation (MWh)"),
-        color=alt.Color("tech_type").scale(scheme="tableau20"),
-        column="agg_zone",
-        row="planning_year:O",
-        tooltip=[alt.Tooltip("tech_type", title="Technology"), alt.Tooltip("value", title="Generation (MWh)", format=",.0f")]
-    )
-    .properties(width=150, height=250)
-)
+chart = chart_regional_gen(gen)
 chart
 ```
 
@@ -182,49 +134,16 @@ chart
 ## Row
 ```{python}
 # | title: Transmission expansion
-chart = (
-    alt.Chart(pd.concat([starting_tx, tx_exp]))
-    .mark_bar()
-    .encode(
-        # xOffset="model:N",
-        x="model",
-        y=alt.Y("sum(value)").title("Total transmission expansion (MW)"),
-        color="model:N",
-        opacity=alt.Opacity("planning_year:O", sort="descending"),
-        facet=alt.Facet("line_name", columns=10),
-        order=alt.Order(
-            # Sort the segments of the bars by this field
-            "planning_year",
-            sort="ascending",
-        ),
-        tooltip=alt.Tooltip("sum(value)", format=",.0f")
-    )
-)
+data = pd.concat([starting_tx, tx_exp])
+chart = chart_tx_expansion(data)
 chart
 ```
 
 # Emissions
 ```{python}
 # | title: Emissions
-base = (
-    alt.Chart()
-    .mark_bar()
-    .encode(
-        x="model",
-        y=alt.Y("value").title("CO2 emissions (tonnes)"),
-        color=alt.Color("zone").scale(scheme="tableau20"),
-        # column="agg_zone",
-        # row="planning_year:O",
-        tooltip=alt.Tooltip("value", format=",.0f")
-    )
-    # .properties(width=350, height=250)
-    # .resolve_scale(y="independent")
-)
-text = alt.Chart().mark_text(dy=-5).encode(
-    x="model",
-    y="sum(value):Q", text=alt.Text("sum(value):Q", format=".2e")) #.properties(width=350, height=250)
-
-alt.layer(base, text, data=emiss).properties(width=350, height=250).facet(row="planning_year:O")
+chart = chart_emissions(emiss)
+chart
 ```
 
 # Dispatch
@@ -236,23 +155,7 @@ alt.layer(base, text, data=emiss).properties(width=350, height=250).facet(row="p
 data = dispatch.query("planning_year==2030").groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)[
     "value"
 ].sum()
-selection = alt.selection_point(fields=['model'], bind='legend')
-chart = (
-    alt.Chart(data)
-    .mark_line()
-    .encode(
-        x="hour", 
-        y="value", 
-        color="model", 
-        row="tech_type", 
-        column="agg_zone",
-        opacity=alt.condition(selection, alt.value(1), alt.value(0.2))
-    )
-    .properties(width=250, height=150)
-    .add_params(
-    selection
-)
-).resolve_scale(y="independent")
+chart = chart_dispatch(data)
 chart
 ```
 
@@ -261,23 +164,7 @@ chart
 data = dispatch.query("planning_year==2040").groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)[
     "value"
 ].sum()
-selection = alt.selection_point(fields=['model'], bind='legend')
-chart = (
-    alt.Chart(data)
-    .mark_line()
-    .encode(
-        x="hour", 
-        y="value", 
-        color="model", 
-        row="tech_type", 
-        column="agg_zone",
-        opacity=alt.condition(selection, alt.value(1), alt.value(0.2))
-    )
-    .properties(width=250, height=150)
-    .add_params(
-    selection
-)
-).resolve_scale(y="independent")
+chart = chart_dispatch(data)
 chart
 ```
 
@@ -286,23 +173,7 @@ chart
 data = dispatch.query("planning_year==2050").groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)[
     "value"
 ].sum()
-selection = alt.selection_point(fields=['model'], bind='legend')
-chart = (
-    alt.Chart(data)
-    .mark_line()
-    .encode(
-        x="hour", 
-        y="value", 
-        color="model", 
-        row="tech_type", 
-        column="agg_zone",
-        opacity=alt.condition(selection, alt.value(1), alt.value(0.2))
-    )
-    .properties(width=250, height=150)
-    .add_params(
-    selection
-)
-).resolve_scale(y="independent")
+chart = chart_dispatch(data)
 chart
 ```
 ```{python}
@@ -312,22 +183,7 @@ wind_dispatch["cluster"] = wind_dispatch["resource_name"].str.split("_").str[-1]
 data = wind_dispatch.query("planning_year==2030").groupby(["model", "tech_type", "cluster", "zone", "hour"], as_index=False)[
     "value"
 ].sum()
-selection = alt.selection_point(fields=['model'], bind='legend')
-chart = (
-    alt.Chart(data)
-    .mark_line()
-    .encode(
-        x="hour", 
-        y="value", 
-        color="model", 
-        strokeDash="cluster",
-        facet=alt.Facet("zone", columns=5), 
-        opacity=alt.condition(selection, alt.value(1), alt.value(0.2)))
-    .properties(width=250, height=150)
-    .add_params(
-    selection
-)
-).resolve_scale(y="independent")
+chart = chart_wind_dispatch(data)
 chart
 ```
 
@@ -336,22 +192,7 @@ chart
 data = wind_dispatch.query("planning_year==2040").groupby(["model", "tech_type", "cluster", "zone", "hour"], as_index=False)[
     "value"
 ].sum()
-selection = alt.selection_point(fields=['model'], bind='legend')
-chart = (
-    alt.Chart(data)
-    .mark_line()
-    .encode(
-        x="hour", 
-        y="value", 
-        color="model", 
-        strokeDash="cluster",
-        facet=alt.Facet("zone", columns=5), 
-        opacity=alt.condition(selection, alt.value(1), alt.value(0.2)))
-    .properties(width=250, height=150)
-    .add_params(
-    selection
-)
-).resolve_scale(y="independent")
+chart = chart_wind_dispatch(data)
 chart
 ```
 
@@ -360,22 +201,7 @@ chart
 data = wind_dispatch.query("planning_year==2050").groupby(["model", "tech_type", "cluster", "zone", "hour"], as_index=False)[
     "value"
 ].sum()
-selection = alt.selection_point(fields=['model'], bind='legend')
-chart = (
-    alt.Chart(data)
-    .mark_line()
-    .encode(
-        x="hour", 
-        y="value", 
-        color="model", 
-        strokeDash="cluster",
-        facet=alt.Facet("zone", columns=5), 
-        opacity=alt.condition(selection, alt.value(1), alt.value(0.2)))
-    .properties(width=250, height=150)
-    .add_params(
-    selection
-)
-).resolve_scale(y="independent")
+chart = chart_wind_dispatch(data)
 chart
 ```
 
@@ -385,44 +211,12 @@ chart
 ```{python}
 # | title: Operational costs
 op_costs = load_genx_operations_data(data_path, "costs.csv")
-fig_num += 1
-chart = (
-    alt.Chart()
-    .mark_bar()
-    .encode(
-        # xOffset="model:N",
-        x="model:N",
-        y=alt.Y("Total").title("Costs"),
-        color="Costs:N",
-        tooltip=alt.Tooltip("Total", format=",.0f")
-    )
-)
-
-text = alt.Chart().mark_text(dy=-5).encode(
-    x="model",
-    y="sum(Total):Q", text=alt.Text("sum(Total):Q", format=".2e"))
-
-alt.layer(
-    chart, 
-    text, 
-    data=op_costs[["Costs", "Total", "model"]].query("Total>0 and Costs != 'cTotal'")
-).properties(width=250, height=250)
+chart = chart_op_cost(op_costs)
 ```
 
 ```{python}
 # | title: Operational NSE
 op_nse = load_genx_operations_data(data_path, "nse.csv")
-fig_num += 1
-chart = (
-    alt.Chart(op_nse[["Segment", "Total", "model"]].query("Segment == 'AnnualSum'"))
-    .mark_bar()
-    .encode(
-        # xOffset="model:N",
-        x="model:N",
-        y=alt.Y("Total").title("Annual non-served MWh"),
-        color="model:N",
-        tooltip=alt.Tooltip("Total", format=",.0f")
-    ).properties(width=250, height=250)
-)
+chart = chart_op_nse(op_nse)
 chart
 ```

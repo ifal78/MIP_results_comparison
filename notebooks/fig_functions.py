@@ -123,3 +123,240 @@ def fix_tx_line_names(df: pd.DataFrame) -> pd.DataFrame:
         )
 
     return df
+
+
+def chart_total_cap(cap: pd.DataFrame) -> alt.Chart:
+    cap_data = cap.groupby(["tech_type", "model", "planning_year"], as_index=False)[
+        "end_value"
+    ].sum()
+
+    chart = (
+        alt.Chart(cap_data)
+        .mark_bar()
+        .encode(
+            x="model",
+            y=alt.Y("sum(end_value)").title("Capacity (MW)"),
+            color=alt.Color("tech_type").scale(scheme="tableau20"),
+            # column="zone",
+            row="planning_year:O",
+            tooltip=[
+                alt.Tooltip("tech_type", title="Technology"),
+                alt.Tooltip("end_value", title="Capacity (MW)", format=",.0f"),
+            ],
+        )
+        .properties(width=350, height=250)
+    )
+    return chart
+
+
+def chart_regional_cap(cap: pd.DataFrame) -> alt.Chart:
+    data = cap.groupby(
+        ["agg_zone", "tech_type", "model", "planning_year"], as_index=False
+    )["end_value"].sum()
+    chart = (
+        alt.Chart(data)
+        .mark_bar()
+        .encode(
+            x="model",
+            y=alt.Y("end_value").title("Capacity (MW)"),
+            color=alt.Color("tech_type").scale(scheme="tableau20"),
+            column="agg_zone",
+            row="planning_year:O",
+            tooltip=[
+                alt.Tooltip("tech_type", title="Technology"),
+                alt.Tooltip("end_value", title="Capacity (MW)", format=",.0f"),
+            ],
+        )
+        .properties(width=150, height=250)
+    )
+    return chart
+
+
+def chart_total_gen(gen: pd.DataFrame) -> alt.Chart:
+    data = gen.groupby(["tech_type", "model", "planning_year"], as_index=False)[
+        "value"
+    ].sum()
+    chart = (
+        alt.Chart(data)
+        .mark_bar()
+        .encode(
+            x="model",
+            y=alt.Y("value").title("Generation (MWh)"),
+            color=alt.Color("tech_type").scale(scheme="tableau20"),
+            # column="zone",
+            row="planning_year:O",
+            tooltip=[
+                alt.Tooltip("tech_type", title="Technology"),
+                alt.Tooltip("value", title="Generation (MWh)", format=",.0f"),
+            ],
+        )
+        .properties(width=350, height=250)
+    )
+    return chart
+
+
+def chart_regional_gen(gen: pd.DataFrame) -> alt.Chart:
+    data = gen.groupby(
+        ["agg_zone", "tech_type", "model", "planning_year"], as_index=False
+    )["value"].sum()
+    chart = (
+        alt.Chart(data)
+        .mark_bar()
+        .encode(
+            x="model",
+            y=alt.Y("value").title("Generation (MWh)"),
+            color=alt.Color("tech_type").scale(scheme="tableau20"),
+            column="agg_zone",
+            row="planning_year:O",
+            tooltip=[
+                alt.Tooltip("tech_type", title="Technology"),
+                alt.Tooltip("value", title="Generation (MWh)", format=",.0f"),
+            ],
+        )
+        .properties(width=150, height=250)
+    )
+    return chart
+
+
+def chart_tx_expansion(data: pd.DataFrame) -> alt.Chart:
+    chart = (
+        alt.Chart(data)
+        .mark_bar()
+        .encode(
+            # xOffset="model:N",
+            x="model",
+            y=alt.Y("sum(value)").title("Total transmission expansion (MW)"),
+            color="model:N",
+            opacity=alt.Opacity("planning_year:O", sort="descending"),
+            facet=alt.Facet("line_name", columns=10),
+            order=alt.Order(
+                # Sort the segments of the bars by this field
+                "planning_year",
+                sort="ascending",
+            ),
+            tooltip=alt.Tooltip("sum(value)", format=",.0f"),
+        )
+        .properties(
+            height=200,
+            width=alt.Step(20),
+        )
+    )
+    return chart
+
+
+def chart_emissions(emiss: pd.DataFrame) -> alt.Chart:
+    base = (
+        alt.Chart()
+        .mark_bar()
+        .encode(
+            x="model",
+            y=alt.Y("value").title("CO2 emissions (tonnes)"),
+            color=alt.Color("zone").scale(scheme="tableau20"),
+            # column="agg_zone",
+            # row="planning_year:O",
+            tooltip=alt.Tooltip("value", format=",.0f"),
+        )
+        # .properties(width=350, height=250)
+        # .resolve_scale(y="independent")
+    )
+    text = (
+        alt.Chart()
+        .mark_text(dy=-5)
+        .encode(
+            x="model", y="sum(value):Q", text=alt.Text("sum(value):Q", format=".2e")
+        )
+    )  # .properties(width=350, height=250)
+
+    chart = (
+        alt.layer(base, text, data=emiss)
+        .properties(width=350, height=250)
+        .facet(row="planning_year:O")
+    )
+    return chart
+
+
+def chart_dispatch(data: pd.DataFrame) -> alt.Chart:
+    selection = alt.selection_point(fields=["model"], bind="legend")
+    chart = (
+        alt.Chart(data)
+        .mark_line()
+        .encode(
+            x="hour",
+            y="value",
+            color="model",
+            row="tech_type",
+            column="agg_zone",
+            opacity=alt.condition(selection, alt.value(1), alt.value(0.2)),
+        )
+        .properties(width=250, height=150)
+        .add_params(selection)
+    ).resolve_scale(y="independent")
+    return chart
+
+
+def chart_wind_dispatch(data: pd.DataFrame) -> alt.Chart:
+    selection = alt.selection_point(fields=["model"], bind="legend")
+    chart = (
+        alt.Chart(data)
+        .mark_line()
+        .encode(
+            x="hour",
+            y="value",
+            color="model",
+            strokeDash="cluster",
+            facet=alt.Facet("zone", columns=5),
+            opacity=alt.condition(selection, alt.value(1), alt.value(0.2)),
+        )
+        .properties(width=250, height=150)
+        .add_params(selection)
+    ).resolve_scale(y="independent")
+    return chart
+
+
+def chart_op_cost(op_costs: pd.DataFrame) -> alt.Chart:
+    base = (
+        alt.Chart()
+        .mark_bar()
+        .encode(
+            # xOffset="model:N",
+            x="model:N",
+            y=alt.Y("Total").title("Costs"),
+            color="Costs:N",
+            tooltip=alt.Tooltip("Total", format=",.0f"),
+        )
+    )
+
+    text = (
+        alt.Chart()
+        .mark_text(dy=-5)
+        .encode(
+            x="model", y="sum(Total):Q", text=alt.Text("sum(Total):Q", format=".2e")
+        )
+    )
+
+    chart = alt.layer(
+        base,
+        text,
+        data=op_costs[["Costs", "Total", "model"]].query(
+            "Total>0 and Costs != 'cTotal'"
+        ),
+    ).properties(width=250, height=250)
+
+    return chart
+
+
+def chart_op_nse(op_nse: pd.DataFrame) -> alt.Chart:
+    chart = (
+        alt.Chart(op_nse[["Segment", "Total", "model"]].query("Segment == 'AnnualSum'"))
+        .mark_bar()
+        .encode(
+            # xOffset="model:N",
+            x="model:N",
+            y=alt.Y("Total").title("Annual non-served MWh"),
+            color="model:N",
+            tooltip=alt.Tooltip("Total", format=",.0f"),
+        )
+        .properties(width=250, height=250)
+    )
+
+    return chart
