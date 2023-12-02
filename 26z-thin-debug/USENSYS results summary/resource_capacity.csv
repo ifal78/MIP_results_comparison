@@ -12,7 +12,7 @@ USENSYS,FRCC,FRCC_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10week
 USENSYS,FRCC,FRCC_landbasedwind_class3_moderate_2,Wind,2030,base_thin_cap_10weeks_myopic,MW,0,8115
 USENSYS,FRCC,FRCC_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_thin_cap_10weeks_myopic,MW,0,13414
 USENSYS,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MW,0,29186
-USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MW,0,19406
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MW,0,19405
 USENSYS,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_thin_cap_10weeks_myopic,MW,0,7224
 USENSYS,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MW,0,7573
 USENSYS,MISC,MISC_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MW,0,24166
@@ -36,7 +36,7 @@ USENSYS,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_m
 USENSYS,NYCW,NYCW_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_thin_cap_10weeks_myopic,MW,0,898
 USENSYS,NYCW,NYCW_nuclear_nuclear_moderate_0,Nuclear,2030,base_thin_cap_10weeks_myopic,MW,0,5100
 USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_1,Wind,2030,base_thin_cap_10weeks_myopic,MW,0,832
-USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_2,Wind,2030,base_thin_cap_10weeks_myopic,MW,0,191
+USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_2,Wind,2030,base_thin_cap_10weeks_myopic,MW,0,192
 USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_1,Wind,2030,base_thin_cap_10weeks_myopic,MW,0,2262
 USENSYS,NYCW,NYCW_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MW,0,4
 USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MW,0,7664
@@ -50,11 +50,11 @@ USENSYS,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_m
 USENSYS,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MW,0,2924
 USENSYS,PJME,PJME_landbasedwind_class3_moderate_2,Wind,2030,base_thin_cap_10weeks_myopic,MW,0,2916
 USENSYS,PJME,PJME_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_thin_cap_10weeks_myopic,MW,0,685
-USENSYS,PJME,PJME_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MW,0,39412
+USENSYS,PJME,PJME_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MW,0,39413
 USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MW,0,10899
 USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_2,Wind,2030,base_thin_cap_10weeks_myopic,MW,0,10875
 USENSYS,PJMW,PJMW_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_thin_cap_10weeks_myopic,MW,0,13428
-USENSYS,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MW,0,31845
+USENSYS,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MW,0,31846
 USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MW,0,11792
 USENSYS,RMRG,RMRG_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_thin_cap_10weeks_myopic,MW,0,66
 USENSYS,RMRG,RMRG_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_thin_cap_10weeks_myopic,MW,0,2709
@@ -492,13 +492,13 @@ USENSYS,CASO,CASO_naturalgas_ccccsavgcf_conservative_0,CCS,2040,base_thin_cap_10
 USENSYS,CASO,CASO_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MW,18820,19611
 USENSYS,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MW,29186,38503
 USENSYS,ISNE,ISNE_battery_moderate_0,Battery,2040,base_thin_cap_10weeks_myopic,MW,0,519
-USENSYS,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_cap_10weeks_myopic,MW,7224,23277
+USENSYS,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_cap_10weeks_myopic,MW,7225,23278
 USENSYS,ISNE,ISNE_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,base_thin_cap_10weeks_myopic,MW,0,6260
-USENSYS,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MW,7573,8867
+USENSYS,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MW,7574,8868
 USENSYS,MISC,MISC_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_cap_10weeks_myopic,MW,0,6443
 USENSYS,MISC,MISC_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MW,14225,19963
 USENSYS,MISE,MISE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_cap_10weeks_myopic,MW,0,1428
-USENSYS,MISE,MISE_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MW,13121,14251
+USENSYS,MISE,MISE_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MW,13122,14252
 USENSYS,MISS,MISS_naturalgas_ccccsavgcf_conservative_0,CCS,2040,base_thin_cap_10weeks_myopic,MW,6309,7908
 USENSYS,MISS,MISS_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MW,14496,19816
 USENSYS,MISW,MISW_battery_moderate_0,Battery,2040,base_thin_cap_10weeks_myopic,MW,0,2659
@@ -519,11 +519,11 @@ USENSYS,PJMC,PJMC_naturalgas_ccccsavgcf_conservative_0,CCS,2040,base_thin_cap_10
 USENSYS,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MW,7295,10010
 USENSYS,PJMD,PJMD_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_cap_10weeks_myopic,MW,0,2717
 USENSYS,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MW,15231,18988
-USENSYS,PJME,PJME_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_cap_10weeks_myopic,MW,684,12698
-USENSYS,PJME,PJME_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MW,39413,45996
+USENSYS,PJME,PJME_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_cap_10weeks_myopic,MW,685,12698
+USENSYS,PJME,PJME_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MW,39412,45995
 USENSYS,PJMW,PJMW_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_cap_10weeks_myopic,MW,0,1693
-USENSYS,PJMW,PJMW_naturalgas_ccccsavgcf_conservative_0,CCS,2040,base_thin_cap_10weeks_myopic,MW,13428,17852
-USENSYS,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MW,31845,37138
+USENSYS,PJMW,PJMW_naturalgas_ccccsavgcf_conservative_0,CCS,2040,base_thin_cap_10weeks_myopic,MW,13427,17852
+USENSYS,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MW,31846,37138
 USENSYS,RMRG,RMRG_battery_moderate_0,Battery,2040,base_thin_cap_10weeks_myopic,MW,0,8
 USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2040,base_thin_cap_10weeks_myopic,MW,11792,16901
 USENSYS,RMRG,RMRG_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_cap_10weeks_myopic,MW,67,5891
@@ -538,7 +538,7 @@ USENSYS,SPPS,SPPS_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_cap_1
 USENSYS,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MW,9488,15199
 USENSYS,SRCA,SRCA_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_cap_10weeks_myopic,MW,0,345
 USENSYS,SRCA,SRCA_naturalgas_ccccsavgcf_conservative_0,CCS,2040,base_thin_cap_10weeks_myopic,MW,4404,6898
-USENSYS,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MW,20051,27035
+USENSYS,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MW,20050,27035
 USENSYS,SRCE,SRCE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_thin_cap_10weeks_myopic,MW,0,4137
 USENSYS,SRCE,SRCE_naturalgas_ccccsavgcf_conservative_0,CCS,2040,base_thin_cap_10weeks_myopic,MW,682,4138
 USENSYS,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MW,19609,25224
@@ -612,7 +612,7 @@ USENSYS,ISNE,ISNE_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MW,57,57
 USENSYS,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2040,base_thin_cap_10weeks_myopic,MW,516,516
 USENSYS,ISNE,ISNE_distributed_generation_1,Distributed Solar,2040,base_thin_cap_10weeks_myopic,MW,5664,5664
 USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_cap_10weeks_myopic,MW,1768,1768
-USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2040,base_thin_cap_10weeks_myopic,MW,19406,19406
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2040,base_thin_cap_10weeks_myopic,MW,19405,19405
 USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_thin_cap_10weeks_myopic,MW,14106,14106
 USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_thin_cap_10weeks_myopic,MW,1789,1789
 USENSYS,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_thin_cap_10weeks_myopic,MW,57,57
@@ -711,7 +711,7 @@ USENSYS,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base
 USENSYS,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2040,base_thin_cap_10weeks_myopic,MW,15,15
 USENSYS,NYCW,NYCW_nuclear_nuclear_moderate_0,Nuclear,2040,base_thin_cap_10weeks_myopic,MW,5100,5100
 USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_1,Wind,2040,base_thin_cap_10weeks_myopic,MW,832,832
-USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_2,Wind,2040,base_thin_cap_10weeks_myopic,MW,191,191
+USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_2,Wind,2040,base_thin_cap_10weeks_myopic,MW,192,192
 USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_1,Wind,2040,base_thin_cap_10weeks_myopic,MW,2262,2262
 USENSYS,NYCW,NYCW_petroleum_liquids_1,Other,2040,base_thin_cap_10weeks_myopic,MW,340,340
 USENSYS,NYCW,NYCW_solar_photovoltaic_1,Solar,2040,base_thin_cap_10weeks_myopic,MW,158,158
@@ -983,7 +983,7 @@ USENSYS,BASN,BASN_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,BASN,BASN_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MW,30591,41768
 USENSYS,BASN,BASN_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_cap_10weeks_myopic,MW,7423,13895
 USENSYS,BASN,BASN_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,base_thin_cap_10weeks_myopic,MW,0,284
-USENSYS,BASN,BASN_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MW,8559,17363
+USENSYS,BASN,BASN_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MW,8560,17364
 USENSYS,CANO,CANO_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MW,0,643
 USENSYS,CANO,CANO_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MW,7573,11097
 USENSYS,CANO,CANO_naturalgas_ccccsavgcf_conservative_0,CCS,2050,base_thin_cap_10weeks_myopic,MW,4393,8656
@@ -994,10 +994,10 @@ USENSYS,CASO,CASO_naturalgas_ccccsavgcf_conservative_0,CCS,2050,base_thin_cap_10
 USENSYS,CASO,CASO_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MW,19612,41037
 USENSYS,FRCC,FRCC_naturalgas_ccccsavgcf_conservative_0,CCS,2050,base_thin_cap_10weeks_myopic,MW,13414,17072
 USENSYS,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MW,38503,56019
-USENSYS,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_cap_10weeks_myopic,MW,23277,23796
+USENSYS,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_cap_10weeks_myopic,MW,23278,23797
 USENSYS,ISNE,ISNE_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,base_thin_cap_10weeks_myopic,MW,6260,9626
 USENSYS,ISNE,ISNE_offshorewind_class3_moderate_fixed_1_1,Wind,2050,base_thin_cap_10weeks_myopic,MW,0,154
-USENSYS,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MW,8867,16635
+USENSYS,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MW,8868,16636
 USENSYS,MISC,MISC_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MW,0,6629
 USENSYS,MISC,MISC_landbasedwind_class3_moderate_2,Wind,2050,base_thin_cap_10weeks_myopic,MW,0,3076
 USENSYS,MISC,MISC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_cap_10weeks_myopic,MW,6443,14680
@@ -1034,9 +1034,9 @@ USENSYS,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_m
 USENSYS,PJMD,PJMD_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MW,0,5824
 USENSYS,PJMD,PJMD_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_cap_10weeks_myopic,MW,2717,4502
 USENSYS,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MW,18988,28244
-USENSYS,PJME,PJME_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MW,0,10585
+USENSYS,PJME,PJME_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MW,0,10584
 USENSYS,PJME,PJME_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_cap_10weeks_myopic,MW,12699,19560
-USENSYS,PJME,PJME_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MW,45996,62520
+USENSYS,PJME,PJME_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MW,45996,62521
 USENSYS,PJMW,PJMW_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MW,0,10545
 USENSYS,PJMW,PJMW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_thin_cap_10weeks_myopic,MW,1694,4203
 USENSYS,PJMW,PJMW_naturalgas_ccccsavgcf_conservative_0,CCS,2050,base_thin_cap_10weeks_myopic,MW,17853,22389
@@ -1140,7 +1140,7 @@ USENSYS,ISNE,ISNE_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MW,31,31
 USENSYS,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2050,base_thin_cap_10weeks_myopic,MW,465,465
 USENSYS,ISNE,ISNE_distributed_generation_1,Distributed Solar,2050,base_thin_cap_10weeks_myopic,MW,5940,5940
 USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_cap_10weeks_myopic,MW,1768,1768
-USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MW,19406,19406
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MW,19405,19405
 USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_thin_cap_10weeks_myopic,MW,13362,13362
 USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_thin_cap_10weeks_myopic,MW,1753,1753
 USENSYS,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_thin_cap_10weeks_myopic,MW,52,52
@@ -1234,7 +1234,7 @@ USENSYS,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base
 USENSYS,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2050,base_thin_cap_10weeks_myopic,MW,15,15
 USENSYS,NYCW,NYCW_nuclear_nuclear_moderate_0,Nuclear,2050,base_thin_cap_10weeks_myopic,MW,5100,5100
 USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_1,Wind,2050,base_thin_cap_10weeks_myopic,MW,832,832
-USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_2,Wind,2050,base_thin_cap_10weeks_myopic,MW,191,191
+USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_2,Wind,2050,base_thin_cap_10weeks_myopic,MW,192,192
 USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_1,Wind,2050,base_thin_cap_10weeks_myopic,MW,2262,2262
 USENSYS,NYCW,NYCW_petroleum_liquids_1,Other,2050,base_thin_cap_10weeks_myopic,MW,54,54
 USENSYS,NYCW,NYCW_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,MW,27,27
@@ -1469,7 +1469,7 @@ USENSYS,NWPP,NWPP_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,331,
 USENSYS,NWPP,NWPP_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,4890,22852
 USENSYS,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_cap_10weeks_myopic,MWh,4867,4867
 USENSYS,NYCW,NYCW_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,117,117
-USENSYS,NYCW,NYCW_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,0,1203
+USENSYS,NYCW,NYCW_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,0,1202
 USENSYS,NYUP,NYUP_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,394,394
 USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_cap_10weeks_myopic,MWh,21779,21779
 USENSYS,PJMC,PJMC_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,60,60
