@@ -1,4 +1,9 @@
 model,zone,resource_name,tech_type,planning_year,case,unit,value
+USENSYS,BASN,BASN_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,731541
+USENSYS,BASN,BASN_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,794718
+USENSYS,BASN,BASN_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,719227
+USENSYS,BASN,BASN_battery_moderate_0,Battery,2040,base_thin_cap_10weeks_myopic,MWh,1790600
+USENSYS,BASN,BASN_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,6555553
 USENSYS,BASN,BASN_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,168490
 USENSYS,BASN,BASN_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,136554
 USENSYS,BASN,BASN_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,85712
@@ -42,6 +47,10 @@ USENSYS,BASN,BASN_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,BASN,BASN_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,1740765
 USENSYS,BASN,BASN_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,19646736
 USENSYS,BASN,BASN_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,41229277
+USENSYS,CANO,CANO_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,3097229
+USENSYS,CANO,CANO_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,2997743
+USENSYS,CANO,CANO_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,3574693
+USENSYS,CANO,CANO_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,285365
 USENSYS,CANO,CANO_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,1641226
 USENSYS,CANO,CANO_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,490744
 USENSYS,CANO,CANO_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,414360
@@ -51,6 +60,9 @@ USENSYS,CANO,CANO_conventional_hydroelectric_1,Hydro,2050,base_thin_cap_10weeks_
 USENSYS,CANO,CANO_distributed_generation_1,Distributed Solar,2030,base_thin_cap_10weeks_myopic,MWh,12231923
 USENSYS,CANO,CANO_distributed_generation_1,Distributed Solar,2040,base_thin_cap_10weeks_myopic,MWh,14650855
 USENSYS,CANO,CANO_distributed_generation_1,Distributed Solar,2050,base_thin_cap_10weeks_myopic,MWh,14000859
+USENSYS,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_cap_10weeks_myopic,MWh,4149323
+USENSYS,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_cap_10weeks_myopic,MWh,4429820
+USENSYS,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_cap_10weeks_myopic,MWh,4804247
 USENSYS,CANO,CANO_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MWh,19750105
 USENSYS,CANO,CANO_landbasedwind_class3_moderate_1,Wind,2040,base_thin_cap_10weeks_myopic,MWh,48708767
 USENSYS,CANO,CANO_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MWh,62336413
@@ -76,6 +88,10 @@ USENSYS,CANO,CANO_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,CANO,CANO_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,24124157
 USENSYS,CANO,CANO_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,38045545
 USENSYS,CANO,CANO_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,63235351
+USENSYS,CASO,CASO_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,9449542
+USENSYS,CASO,CASO_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,121915
+USENSYS,CASO,CASO_battery_moderate_0,Battery,2040,base_thin_cap_10weeks_myopic,MWh,2095784
+USENSYS,CASO,CASO_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,15468890
 USENSYS,CASO,CASO_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,956019
 USENSYS,CASO,CASO_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,691076
 USENSYS,CASO,CASO_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,479094
@@ -89,6 +105,9 @@ USENSYS,CASO,CASO_distributed_generation_1,Distributed Solar,2050,base_thin_cap_
 USENSYS,CASO,CASO_geothermal_1,Geothermal,2030,base_thin_cap_10weeks_myopic,MWh,209664
 USENSYS,CASO,CASO_geothermal_1,Geothermal,2040,base_thin_cap_10weeks_myopic,MWh,209664
 USENSYS,CASO,CASO_geothermal_1,Geothermal,2050,base_thin_cap_10weeks_myopic,MWh,209664
+USENSYS,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_cap_10weeks_myopic,MWh,3206438
+USENSYS,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_cap_10weeks_myopic,MWh,4260885
+USENSYS,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_cap_10weeks_myopic,MWh,4598683
 USENSYS,CASO,CASO_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MWh,8801700
 USENSYS,CASO,CASO_landbasedwind_class3_moderate_1,Wind,2040,base_thin_cap_10weeks_myopic,MWh,8461772
 USENSYS,CASO,CASO_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MWh,8461772
@@ -119,6 +138,10 @@ USENSYS,CASO,CASO_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,CASO,CASO_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,48864030
 USENSYS,CASO,CASO_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,62090843
 USENSYS,CASO,CASO_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,127239213
+USENSYS,FRCC,FRCC_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,410265
+USENSYS,FRCC,FRCC_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,501042
+USENSYS,FRCC,FRCC_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,515470
+USENSYS,FRCC,FRCC_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,3811656
 USENSYS,FRCC,FRCC_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,1454645
 USENSYS,FRCC,FRCC_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,1014499
 USENSYS,FRCC,FRCC_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,692915
@@ -149,6 +172,11 @@ USENSYS,FRCC,FRCC_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,58363917
 USENSYS,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,95875339
 USENSYS,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,137512209
+USENSYS,ISNE,ISNE_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,231058
+USENSYS,ISNE,ISNE_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,267353
+USENSYS,ISNE,ISNE_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,232958
+USENSYS,ISNE,ISNE_battery_moderate_0,Battery,2040,base_thin_cap_10weeks_myopic,MWh,1882405
+USENSYS,ISNE,ISNE_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,4267530
 USENSYS,ISNE,ISNE_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,958053
 USENSYS,ISNE,ISNE_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,304368
 USENSYS,ISNE,ISNE_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,164639
@@ -159,6 +187,9 @@ USENSYS,ISNE,ISNE_conventional_steam_coal_1,Coal,2030,base_thin_cap_10weeks_myop
 USENSYS,ISNE,ISNE_distributed_generation_1,Distributed Solar,2030,base_thin_cap_10weeks_myopic,MWh,8009817
 USENSYS,ISNE,ISNE_distributed_generation_1,Distributed Solar,2040,base_thin_cap_10weeks_myopic,MWh,9238782
 USENSYS,ISNE,ISNE_distributed_generation_1,Distributed Solar,2050,base_thin_cap_10weeks_myopic,MWh,9660935
+USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_cap_10weeks_myopic,MWh,2567219
+USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_cap_10weeks_myopic,MWh,3226948
+USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_cap_10weeks_myopic,MWh,3133272
 USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MWh,62459077
 USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2040,base_thin_cap_10weeks_myopic,MWh,90509969
 USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MWh,100656089
@@ -202,6 +233,10 @@ USENSYS,ISNE,ISNE_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,15757810
 USENSYS,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,27581374
 USENSYS,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,39040931
+USENSYS,MISC,MISC_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,30914
+USENSYS,MISC,MISC_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,33346
+USENSYS,MISC,MISC_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,27634
+USENSYS,MISC,MISC_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,5661701
 USENSYS,MISC,MISC_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,461975
 USENSYS,MISC,MISC_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,458415
 USENSYS,MISC,MISC_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,334282
@@ -214,6 +249,9 @@ USENSYS,MISC,MISC_conventional_steam_coal_1,Coal,2050,base_thin_cap_10weeks_myop
 USENSYS,MISC,MISC_distributed_generation_1,Distributed Solar,2030,base_thin_cap_10weeks_myopic,MWh,2439973
 USENSYS,MISC,MISC_distributed_generation_1,Distributed Solar,2040,base_thin_cap_10weeks_myopic,MWh,5213568
 USENSYS,MISC,MISC_distributed_generation_1,Distributed Solar,2050,base_thin_cap_10weeks_myopic,MWh,7004306
+USENSYS,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_cap_10weeks_myopic,MWh,1212423
+USENSYS,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_cap_10weeks_myopic,MWh,1403914
+USENSYS,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_cap_10weeks_myopic,MWh,1286936
 USENSYS,MISC,MISC_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MWh,83130806
 USENSYS,MISC,MISC_landbasedwind_class3_moderate_1,Wind,2040,base_thin_cap_10weeks_myopic,MWh,87230475
 USENSYS,MISC,MISC_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MWh,87230475
@@ -252,7 +290,10 @@ USENSYS,MISC,MISC_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,MISC,MISC_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,31566981
 USENSYS,MISC,MISC_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,51865745
 USENSYS,MISC,MISC_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,68929766
-USENSYS,MISE,MISE_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,7
+USENSYS,MISE,MISE_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,504
+USENSYS,MISE,MISE_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,549
+USENSYS,MISE,MISE_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,442
+USENSYS,MISE,MISE_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,4091009
 USENSYS,MISE,MISE_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,926436
 USENSYS,MISE,MISE_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,598465
 USENSYS,MISE,MISE_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,284049
@@ -261,6 +302,9 @@ USENSYS,MISE,MISE_conventional_steam_coal_1,Coal,2050,base_thin_cap_10weeks_myop
 USENSYS,MISE,MISE_distributed_generation_1,Distributed Solar,2030,base_thin_cap_10weeks_myopic,MWh,1901296
 USENSYS,MISE,MISE_distributed_generation_1,Distributed Solar,2040,base_thin_cap_10weeks_myopic,MWh,4374093
 USENSYS,MISE,MISE_distributed_generation_1,Distributed Solar,2050,base_thin_cap_10weeks_myopic,MWh,5408206
+USENSYS,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_cap_10weeks_myopic,MWh,4971108
+USENSYS,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_cap_10weeks_myopic,MWh,5027301
+USENSYS,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_cap_10weeks_myopic,MWh,3979047
 USENSYS,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MWh,10226890
 USENSYS,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2040,base_thin_cap_10weeks_myopic,MWh,11277539
 USENSYS,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MWh,11277539
@@ -294,6 +338,9 @@ USENSYS,MISE,MISE_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,MISE,MISE_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,28230804
 USENSYS,MISE,MISE_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,43651594
 USENSYS,MISE,MISE_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,55398382
+USENSYS,MISS,MISS_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,10860
+USENSYS,MISS,MISS_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,11142
+USENSYS,MISS,MISS_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,11528
 USENSYS,MISS,MISS_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,566897
 USENSYS,MISS,MISS_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,298288
 USENSYS,MISS,MISS_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,212071
@@ -334,6 +381,11 @@ USENSYS,MISS,MISS_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,MISS,MISS_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,30153802
 USENSYS,MISS,MISS_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,43798412
 USENSYS,MISS,MISS_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,59056801
+USENSYS,MISW,MISW_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,26721
+USENSYS,MISW,MISW_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,29080
+USENSYS,MISW,MISW_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,24914
+USENSYS,MISW,MISW_battery_moderate_0,Battery,2040,base_thin_cap_10weeks_myopic,MWh,2288511
+USENSYS,MISW,MISW_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,8852003
 USENSYS,MISW,MISW_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,611925
 USENSYS,MISW,MISW_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,452907
 USENSYS,MISW,MISW_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,273493
@@ -383,6 +435,11 @@ USENSYS,MISW,MISW_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,MISW,MISW_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,31800891
 USENSYS,MISW,MISW_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,54603177
 USENSYS,MISW,MISW_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,77994506
+USENSYS,NWPP,NWPP_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,143207
+USENSYS,NWPP,NWPP_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,121002
+USENSYS,NWPP,NWPP_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,117235
+USENSYS,NWPP,NWPP_battery_moderate_0,Battery,2040,base_thin_cap_10weeks_myopic,MWh,7046540
+USENSYS,NWPP,NWPP_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,13399794
 USENSYS,NWPP,NWPP_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,574063
 USENSYS,NWPP,NWPP_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,383689
 USENSYS,NWPP,NWPP_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,287451
@@ -397,6 +454,9 @@ USENSYS,NWPP,NWPP_distributed_generation_1,Distributed Solar,2040,base_thin_cap_
 USENSYS,NWPP,NWPP_distributed_generation_1,Distributed Solar,2050,base_thin_cap_10weeks_myopic,MWh,5896622
 USENSYS,NWPP,NWPP_geothermal_1,Geothermal,2030,base_thin_cap_10weeks_myopic,MWh,192192
 USENSYS,NWPP,NWPP_geothermal_1,Geothermal,2040,base_thin_cap_10weeks_myopic,MWh,192192
+USENSYS,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_cap_10weeks_myopic,MWh,829981
+USENSYS,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_cap_10weeks_myopic,MWh,811330
+USENSYS,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_cap_10weeks_myopic,MWh,777775
 USENSYS,NWPP,NWPP_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MWh,38870026
 USENSYS,NWPP,NWPP_landbasedwind_class3_moderate_1,Wind,2040,base_thin_cap_10weeks_myopic,MWh,104314142
 USENSYS,NWPP,NWPP_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MWh,157387390
@@ -438,6 +498,11 @@ USENSYS,NWPP,NWPP_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,5235053
 USENSYS,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,27110609
 USENSYS,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,56133241
+USENSYS,NYCW,NYCW_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,30234
+USENSYS,NYCW,NYCW_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,38741
+USENSYS,NYCW,NYCW_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,36527
+USENSYS,NYCW,NYCW_battery_moderate_0,Battery,2040,base_thin_cap_10weeks_myopic,MWh,286789
+USENSYS,NYCW,NYCW_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,1163053
 USENSYS,NYCW,NYCW_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,86609
 USENSYS,NYCW,NYCW_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,7127
 USENSYS,NYCW,NYCW_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,6881
@@ -480,6 +545,10 @@ USENSYS,NYCW,NYCW_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,NYCW,NYCW_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,9688
 USENSYS,NYCW,NYCW_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,9789
 USENSYS,NYCW,NYCW_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,9789
+USENSYS,NYUP,NYUP_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,122062
+USENSYS,NYUP,NYUP_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,148547
+USENSYS,NYUP,NYUP_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,146197
+USENSYS,NYUP,NYUP_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,298766
 USENSYS,NYUP,NYUP_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,667797
 USENSYS,NYUP,NYUP_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,273901
 USENSYS,NYUP,NYUP_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,100312
@@ -489,6 +558,9 @@ USENSYS,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2050,base_thin_cap_10weeks_
 USENSYS,NYUP,NYUP_distributed_generation_1,Distributed Solar,2030,base_thin_cap_10weeks_myopic,MWh,1884558
 USENSYS,NYUP,NYUP_distributed_generation_1,Distributed Solar,2040,base_thin_cap_10weeks_myopic,MWh,2456804
 USENSYS,NYUP,NYUP_distributed_generation_1,Distributed Solar,2050,base_thin_cap_10weeks_myopic,MWh,3090311
+USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_cap_10weeks_myopic,MWh,2125682
+USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_cap_10weeks_myopic,MWh,2804101
+USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_cap_10weeks_myopic,MWh,3347383
 USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MWh,26338907
 USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_1,Wind,2040,base_thin_cap_10weeks_myopic,MWh,37695250
 USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MWh,37695250
@@ -519,6 +591,10 @@ USENSYS,NYUP,NYUP_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,1999515
 USENSYS,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,11150532
 USENSYS,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,22744632
+USENSYS,PJMC,PJMC_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,29281
+USENSYS,PJMC,PJMC_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,33306
+USENSYS,PJMC,PJMC_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,28306
+USENSYS,PJMC,PJMC_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,2890826
 USENSYS,PJMC,PJMC_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,160941
 USENSYS,PJMC,PJMC_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,57902
 USENSYS,PJMC,PJMC_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,41993
@@ -566,6 +642,11 @@ USENSYS,PJMC,PJMC_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,16077532
 USENSYS,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,29088417
 USENSYS,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,33569171
+USENSYS,PJMD,PJMD_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,32466
+USENSYS,PJMD,PJMD_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,32018
+USENSYS,PJMD,PJMD_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,29089
+USENSYS,PJMD,PJMD_battery_moderate_0,Battery,2040,base_thin_cap_10weeks_myopic,MWh,996288
+USENSYS,PJMD,PJMD_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,6013004
 USENSYS,PJMD,PJMD_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,432747
 USENSYS,PJMD,PJMD_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,335868
 USENSYS,PJMD,PJMD_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,183121
@@ -577,6 +658,9 @@ USENSYS,PJMD,PJMD_conventional_steam_coal_1,Coal,2050,base_thin_cap_10weeks_myop
 USENSYS,PJMD,PJMD_distributed_generation_1,Distributed Solar,2030,base_thin_cap_10weeks_myopic,MWh,3607638
 USENSYS,PJMD,PJMD_distributed_generation_1,Distributed Solar,2040,base_thin_cap_10weeks_myopic,MWh,5724578
 USENSYS,PJMD,PJMD_distributed_generation_1,Distributed Solar,2050,base_thin_cap_10weeks_myopic,MWh,6537725
+USENSYS,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_cap_10weeks_myopic,MWh,6013337
+USENSYS,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_cap_10weeks_myopic,MWh,7532385
+USENSYS,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_cap_10weeks_myopic,MWh,7651543
 USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MWh,16624646
 USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_1,Wind,2040,base_thin_cap_10weeks_myopic,MWh,17013259
 USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MWh,17013259
@@ -613,6 +697,11 @@ USENSYS,PJMD,PJMD_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,32794706
 USENSYS,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,50546684
 USENSYS,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,69062636
+USENSYS,PJME,PJME_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,42277
+USENSYS,PJME,PJME_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,54320
+USENSYS,PJME,PJME_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,50334
+USENSYS,PJME,PJME_battery_moderate_0,Battery,2040,base_thin_cap_10weeks_myopic,MWh,1574340
+USENSYS,PJME,PJME_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,14265373
 USENSYS,PJME,PJME_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,1443792
 USENSYS,PJME,PJME_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,652192
 USENSYS,PJME,PJME_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,163460
@@ -624,6 +713,9 @@ USENSYS,PJME,PJME_conventional_steam_coal_1,Coal,2050,base_thin_cap_10weeks_myop
 USENSYS,PJME,PJME_distributed_generation_1,Distributed Solar,2030,base_thin_cap_10weeks_myopic,MWh,16160472
 USENSYS,PJME,PJME_distributed_generation_1,Distributed Solar,2040,base_thin_cap_10weeks_myopic,MWh,17043723
 USENSYS,PJME,PJME_distributed_generation_1,Distributed Solar,2050,base_thin_cap_10weeks_myopic,MWh,16828079
+USENSYS,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_cap_10weeks_myopic,MWh,3538233
+USENSYS,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_cap_10weeks_myopic,MWh,4335652
+USENSYS,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_cap_10weeks_myopic,MWh,4360943
 USENSYS,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MWh,11060619
 USENSYS,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2040,base_thin_cap_10weeks_myopic,MWh,11514910
 USENSYS,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MWh,11514910
@@ -661,6 +753,10 @@ USENSYS,PJME,PJME_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,PJME,PJME_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,85221323
 USENSYS,PJME,PJME_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,124809094
 USENSYS,PJME,PJME_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,163507668
+USENSYS,PJMW,PJMW_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,36742
+USENSYS,PJMW,PJMW_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,38884
+USENSYS,PJMW,PJMW_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,35742
+USENSYS,PJMW,PJMW_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,5416041
 USENSYS,PJMW,PJMW_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,193232
 USENSYS,PJMW,PJMW_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,182300
 USENSYS,PJMW,PJMW_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,87636
@@ -672,6 +768,9 @@ USENSYS,PJMW,PJMW_conventional_steam_coal_1,Coal,2050,base_thin_cap_10weeks_myop
 USENSYS,PJMW,PJMW_distributed_generation_1,Distributed Solar,2030,base_thin_cap_10weeks_myopic,MWh,4808495
 USENSYS,PJMW,PJMW_distributed_generation_1,Distributed Solar,2040,base_thin_cap_10weeks_myopic,MWh,10261129
 USENSYS,PJMW,PJMW_distributed_generation_1,Distributed Solar,2050,base_thin_cap_10weeks_myopic,MWh,12889300
+USENSYS,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_cap_10weeks_myopic,MWh,576340
+USENSYS,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_cap_10weeks_myopic,MWh,642151
+USENSYS,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_cap_10weeks_myopic,MWh,598026
 USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MWh,36983716
 USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2040,base_thin_cap_10weeks_myopic,MWh,38742983
 USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MWh,38742983
@@ -709,6 +808,11 @@ USENSYS,PJMW,PJMW_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,70008903
 USENSYS,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,114823968
 USENSYS,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,150552782
+USENSYS,RMRG,RMRG_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,155558
+USENSYS,RMRG,RMRG_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,152191
+USENSYS,RMRG,RMRG_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,123025
+USENSYS,RMRG,RMRG_battery_moderate_0,Battery,2040,base_thin_cap_10weeks_myopic,MWh,591953
+USENSYS,RMRG,RMRG_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,5254744
 USENSYS,RMRG,RMRG_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,53590
 USENSYS,RMRG,RMRG_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,40444
 USENSYS,RMRG,RMRG_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,24190
@@ -721,6 +825,9 @@ USENSYS,RMRG,RMRG_conventional_steam_coal_1,Coal,2050,base_thin_cap_10weeks_myop
 USENSYS,RMRG,RMRG_distributed_generation_1,Distributed Solar,2030,base_thin_cap_10weeks_myopic,MWh,2860474
 USENSYS,RMRG,RMRG_distributed_generation_1,Distributed Solar,2040,base_thin_cap_10weeks_myopic,MWh,4052238
 USENSYS,RMRG,RMRG_distributed_generation_1,Distributed Solar,2050,base_thin_cap_10weeks_myopic,MWh,4710105
+USENSYS,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_cap_10weeks_myopic,MWh,1591491
+USENSYS,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_cap_10weeks_myopic,MWh,1667557
+USENSYS,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_cap_10weeks_myopic,MWh,1516340
 USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MWh,43584814
 USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2040,base_thin_cap_10weeks_myopic,MWh,89448023
 USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MWh,126170705
@@ -753,9 +860,10 @@ USENSYS,RMRG,RMRG_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,RMRG,RMRG_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,7696817
 USENSYS,RMRG,RMRG_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,16756117
 USENSYS,RMRG,RMRG_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,31219638
-USENSYS,SPPC,SPPC_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,8
-USENSYS,SPPC,SPPC_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,12
-USENSYS,SPPC,SPPC_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,49
+USENSYS,SPPC,SPPC_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,691
+USENSYS,SPPC,SPPC_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,689
+USENSYS,SPPC,SPPC_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,429
+USENSYS,SPPC,SPPC_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,3348087
 USENSYS,SPPC,SPPC_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,58800
 USENSYS,SPPC,SPPC_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,58020
 USENSYS,SPPC,SPPC_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,15105
@@ -802,6 +910,10 @@ USENSYS,SPPC,SPPC_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,16163392
 USENSYS,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,23713065
 USENSYS,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,30597886
+USENSYS,SPPN,SPPN_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,5545
+USENSYS,SPPN,SPPN_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,5758
+USENSYS,SPPN,SPPN_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,4206
+USENSYS,SPPN,SPPN_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,2226639
 USENSYS,SPPN,SPPN_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,115685
 USENSYS,SPPN,SPPN_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,99265
 USENSYS,SPPN,SPPN_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,63746
@@ -849,6 +961,10 @@ USENSYS,SPPN,SPPN_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,SPPN,SPPN_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,7031429
 USENSYS,SPPN,SPPN_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,14514602
 USENSYS,SPPN,SPPN_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,20473129
+USENSYS,SPPS,SPPS_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,153736
+USENSYS,SPPS,SPPS_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,174663
+USENSYS,SPPS,SPPS_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,144338
+USENSYS,SPPS,SPPS_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,2012400
 USENSYS,SPPS,SPPS_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,63518
 USENSYS,SPPS,SPPS_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,57772
 USENSYS,SPPS,SPPS_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,117
@@ -860,6 +976,9 @@ USENSYS,SPPS,SPPS_conventional_steam_coal_1,Coal,2050,base_thin_cap_10weeks_myop
 USENSYS,SPPS,SPPS_distributed_generation_1,Distributed Solar,2030,base_thin_cap_10weeks_myopic,MWh,3116206
 USENSYS,SPPS,SPPS_distributed_generation_1,Distributed Solar,2040,base_thin_cap_10weeks_myopic,MWh,5866232
 USENSYS,SPPS,SPPS_distributed_generation_1,Distributed Solar,2050,base_thin_cap_10weeks_myopic,MWh,7078058
+USENSYS,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_cap_10weeks_myopic,MWh,1086813
+USENSYS,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_cap_10weeks_myopic,MWh,1183804
+USENSYS,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_cap_10weeks_myopic,MWh,1202274
 USENSYS,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MWh,78573985
 USENSYS,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2040,base_thin_cap_10weeks_myopic,MWh,127629565
 USENSYS,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MWh,201566186
@@ -887,6 +1006,10 @@ USENSYS,SPPS,SPPS_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,23070955
 USENSYS,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,37786327
 USENSYS,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,50847790
+USENSYS,SRCA,SRCA_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,145207
+USENSYS,SRCA,SRCA_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,155708
+USENSYS,SRCA,SRCA_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,132706
+USENSYS,SRCA,SRCA_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,7918754
 USENSYS,SRCA,SRCA_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,854915
 USENSYS,SRCA,SRCA_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,482664
 USENSYS,SRCA,SRCA_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,279769
@@ -898,6 +1021,9 @@ USENSYS,SRCA,SRCA_conventional_steam_coal_1,Coal,2050,base_thin_cap_10weeks_myop
 USENSYS,SRCA,SRCA_distributed_generation_1,Distributed Solar,2030,base_thin_cap_10weeks_myopic,MWh,6581622
 USENSYS,SRCA,SRCA_distributed_generation_1,Distributed Solar,2040,base_thin_cap_10weeks_myopic,MWh,11876426
 USENSYS,SRCA,SRCA_distributed_generation_1,Distributed Solar,2050,base_thin_cap_10weeks_myopic,MWh,13658941
+USENSYS,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_cap_10weeks_myopic,MWh,5286064
+USENSYS,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_cap_10weeks_myopic,MWh,6735657
+USENSYS,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_cap_10weeks_myopic,MWh,6568016
 USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MWh,14680840
 USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2040,base_thin_cap_10weeks_myopic,MWh,15228172
 USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MWh,15228172
@@ -929,6 +1055,11 @@ USENSYS,SRCA,SRCA_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,42638229
 USENSYS,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,74497705
 USENSYS,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,117460455
+USENSYS,SRCE,SRCE_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,116989
+USENSYS,SRCE,SRCE_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,121082
+USENSYS,SRCE,SRCE_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,104458
+USENSYS,SRCE,SRCE_battery_moderate_0,Battery,2040,base_thin_cap_10weeks_myopic,MWh,1597744
+USENSYS,SRCE,SRCE_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,8942023
 USENSYS,SRCE,SRCE_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,178140
 USENSYS,SRCE,SRCE_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,44968
 USENSYS,SRCE,SRCE_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,38721
@@ -941,6 +1072,9 @@ USENSYS,SRCE,SRCE_conventional_steam_coal_1,Coal,2050,base_thin_cap_10weeks_myop
 USENSYS,SRCE,SRCE_distributed_generation_1,Distributed Solar,2030,base_thin_cap_10weeks_myopic,MWh,1414359
 USENSYS,SRCE,SRCE_distributed_generation_1,Distributed Solar,2040,base_thin_cap_10weeks_myopic,MWh,4349129
 USENSYS,SRCE,SRCE_distributed_generation_1,Distributed Solar,2050,base_thin_cap_10weeks_myopic,MWh,7491133
+USENSYS,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_cap_10weeks_myopic,MWh,3571125
+USENSYS,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_cap_10weeks_myopic,MWh,4565927
+USENSYS,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_cap_10weeks_myopic,MWh,4284962
 USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MWh,86164406
 USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2040,base_thin_cap_10weeks_myopic,MWh,101943348
 USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MWh,123535214
@@ -974,6 +1108,10 @@ USENSYS,SRCE,SRCE_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,42654191
 USENSYS,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,67266035
 USENSYS,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,93303834
+USENSYS,SRSE,SRSE_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,130759
+USENSYS,SRSE,SRSE_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,148501
+USENSYS,SRSE,SRSE_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,134565
+USENSYS,SRSE,SRSE_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,8534108
 USENSYS,SRSE,SRSE_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,1934327
 USENSYS,SRSE,SRSE_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,1405804
 USENSYS,SRSE,SRSE_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,971902
@@ -984,6 +1122,9 @@ USENSYS,SRSE,SRSE_conventional_steam_coal_1,Coal,2050,base_thin_cap_10weeks_myop
 USENSYS,SRSE,SRSE_distributed_generation_1,Distributed Solar,2030,base_thin_cap_10weeks_myopic,MWh,1812517
 USENSYS,SRSE,SRSE_distributed_generation_1,Distributed Solar,2040,base_thin_cap_10weeks_myopic,MWh,4023380
 USENSYS,SRSE,SRSE_distributed_generation_1,Distributed Solar,2050,base_thin_cap_10weeks_myopic,MWh,6054966
+USENSYS,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_cap_10weeks_myopic,MWh,3687045
+USENSYS,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_cap_10weeks_myopic,MWh,4320890
+USENSYS,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_cap_10weeks_myopic,MWh,4230695
 USENSYS,SRSE,SRSE_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MWh,50041764
 USENSYS,SRSE,SRSE_landbasedwind_class3_moderate_1,Wind,2040,base_thin_cap_10weeks_myopic,MWh,58401037
 USENSYS,SRSE,SRSE_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MWh,58401037
@@ -1011,6 +1152,10 @@ USENSYS,SRSE,SRSE_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,53324550
 USENSYS,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,88810862
 USENSYS,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,131635479
+USENSYS,SRSG,SRSG_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,1462231
+USENSYS,SRSG,SRSG_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,1691897
+USENSYS,SRSG,SRSG_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,1525784
+USENSYS,SRSG,SRSG_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,5570516
 USENSYS,SRSG,SRSG_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,199850
 USENSYS,SRSG,SRSG_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,160477
 USENSYS,SRSG,SRSG_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,53490
@@ -1025,6 +1170,9 @@ USENSYS,SRSG,SRSG_distributed_generation_1,Distributed Solar,2050,base_thin_cap_
 USENSYS,SRSG,SRSG_geothermal_1,Geothermal,2030,base_thin_cap_10weeks_myopic,MWh,1240512
 USENSYS,SRSG,SRSG_geothermal_1,Geothermal,2040,base_thin_cap_10weeks_myopic,MWh,567840
 USENSYS,SRSG,SRSG_geothermal_1,Geothermal,2050,base_thin_cap_10weeks_myopic,MWh,174720
+USENSYS,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2030,base_thin_cap_10weeks_myopic,MWh,424025
+USENSYS,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2040,base_thin_cap_10weeks_myopic,MWh,488282
+USENSYS,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2050,base_thin_cap_10weeks_myopic,MWh,512526
 USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_1,Wind,2030,base_thin_cap_10weeks_myopic,MWh,45327793
 USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_1,Wind,2040,base_thin_cap_10weeks_myopic,MWh,68460684
 USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_1,Wind,2050,base_thin_cap_10weeks_myopic,MWh,99649075
@@ -1055,6 +1203,9 @@ USENSYS,SRSG,SRSG_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,M
 USENSYS,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,16589506
 USENSYS,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,38847392
 USENSYS,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,77924510
+USENSYS,TRE_WEST,TRE_WEST_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,661622
+USENSYS,TRE_WEST,TRE_WEST_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,972182
+USENSYS,TRE_WEST,TRE_WEST_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,939530
 USENSYS,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2030,base_thin_cap_10weeks_myopic,MWh,641672
 USENSYS,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2040,base_thin_cap_10weeks_myopic,MWh,957326
 USENSYS,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2050,base_thin_cap_10weeks_myopic,MWh,1084882
@@ -1074,6 +1225,10 @@ USENSYS,TRE_WEST,TRE_WEST_petroleum_liquids_1,Other,2050,base_thin_cap_10weeks_m
 USENSYS,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2030,base_thin_cap_10weeks_myopic,MWh,20911366
 USENSYS,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2040,base_thin_cap_10weeks_myopic,MWh,21034746
 USENSYS,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2050,base_thin_cap_10weeks_myopic,MWh,12617979
+USENSYS,TRE,TRE_batteries_1,Battery,2030,base_thin_cap_10weeks_myopic,MWh,1402161
+USENSYS,TRE,TRE_batteries_1,Battery,2040,base_thin_cap_10weeks_myopic,MWh,1638215
+USENSYS,TRE,TRE_batteries_1,Battery,2050,base_thin_cap_10weeks_myopic,MWh,1672882
+USENSYS,TRE,TRE_battery_moderate_0,Battery,2050,base_thin_cap_10weeks_myopic,MWh,5110271
 USENSYS,TRE,TRE_biomass_1,Biomass,2030,base_thin_cap_10weeks_myopic,MWh,118233
 USENSYS,TRE,TRE_biomass_1,Biomass,2040,base_thin_cap_10weeks_myopic,MWh,110625
 USENSYS,TRE,TRE_biomass_1,Biomass,2050,base_thin_cap_10weeks_myopic,MWh,95441

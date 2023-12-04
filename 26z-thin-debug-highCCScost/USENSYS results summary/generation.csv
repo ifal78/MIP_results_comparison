@@ -1,4 +1,9 @@
 model,zone,resource_name,tech_type,planning_year,case,unit,value
+USENSYS,BASN,BASN_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,731542
+USENSYS,BASN,BASN_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,885032
+USENSYS,BASN,BASN_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,649511
+USENSYS,BASN,BASN_battery_moderate_0,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,801574
+USENSYS,BASN,BASN_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,5442376
 USENSYS,BASN,BASN_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,168490
 USENSYS,BASN,BASN_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,131050
 USENSYS,BASN,BASN_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,77424
@@ -40,6 +45,10 @@ USENSYS,BASN,BASN_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,BASN,BASN_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,1740706
 USENSYS,BASN,BASN_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,21898744
 USENSYS,BASN,BASN_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,37319500
+USENSYS,CANO,CANO_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,3097154
+USENSYS,CANO,CANO_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,3594972
+USENSYS,CANO,CANO_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,3308495
+USENSYS,CANO,CANO_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,6904921
 USENSYS,CANO,CANO_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,1641243
 USENSYS,CANO,CANO_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,456452
 USENSYS,CANO,CANO_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,338352
@@ -49,6 +58,9 @@ USENSYS,CANO,CANO_conventional_hydroelectric_1,Hydro,2050,scen_co2cap10k_w10_h16
 USENSYS,CANO,CANO_distributed_generation_1,Distributed Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,12231923
 USENSYS,CANO,CANO_distributed_generation_1,Distributed Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,14650855
 USENSYS,CANO,CANO_distributed_generation_1,Distributed Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,14000859
+USENSYS,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2030,scen_co2cap10k_w10_h168_1680w,MWh,4150896
+USENSYS,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2040,scen_co2cap10k_w10_h168_1680w,MWh,5173907
+USENSYS,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2050,scen_co2cap10k_w10_h168_1680w,MWh,5219802
 USENSYS,CANO,CANO_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,31502169
 USENSYS,CANO,CANO_landbasedwind_class3_moderate_1,Wind,2030,scen_co2cap10k_w10_h168_1680w,MWh,19750347
 USENSYS,CANO,CANO_landbasedwind_class3_moderate_1,Wind,2040,scen_co2cap10k_w10_h168_1680w,MWh,48679608
@@ -72,6 +84,10 @@ USENSYS,CANO,CANO_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,CANO,CANO_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,24123675
 USENSYS,CANO,CANO_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,41852488
 USENSYS,CANO,CANO_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,77553554
+USENSYS,CASO,CASO_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,9449588
+USENSYS,CASO,CASO_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,128243
+USENSYS,CASO,CASO_battery_moderate_0,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,1137079
+USENSYS,CASO,CASO_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,39976666
 USENSYS,CASO,CASO_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,956019
 USENSYS,CASO,CASO_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,676460
 USENSYS,CASO,CASO_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,389136
@@ -84,6 +100,9 @@ USENSYS,CASO,CASO_distributed_generation_1,Distributed Solar,2050,scen_co2cap10k
 USENSYS,CASO,CASO_geothermal_1,Geothermal,2030,scen_co2cap10k_w10_h168_1680w,MWh,209664
 USENSYS,CASO,CASO_geothermal_1,Geothermal,2040,scen_co2cap10k_w10_h168_1680w,MWh,209664
 USENSYS,CASO,CASO_geothermal_1,Geothermal,2050,scen_co2cap10k_w10_h168_1680w,MWh,209664
+USENSYS,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2030,scen_co2cap10k_w10_h168_1680w,MWh,3204888
+USENSYS,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2040,scen_co2cap10k_w10_h168_1680w,MWh,4572341
+USENSYS,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2050,scen_co2cap10k_w10_h168_1680w,MWh,4671507
 USENSYS,CASO,CASO_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,scen_co2cap10k_w10_h168_1680w,MWh,3999710
 USENSYS,CASO,CASO_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,35441562
 USENSYS,CASO,CASO_landbasedwind_class3_moderate_1,Wind,2030,scen_co2cap10k_w10_h168_1680w,MWh,8801700
@@ -112,6 +131,11 @@ USENSYS,CASO,CASO_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,CASO,CASO_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,48864179
 USENSYS,CASO,CASO_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,64211984
 USENSYS,CASO,CASO_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,160579586
+USENSYS,FRCC,FRCC_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,410306
+USENSYS,FRCC,FRCC_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,536522
+USENSYS,FRCC,FRCC_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,431110
+USENSYS,FRCC,FRCC_battery_moderate_0,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,4779735
+USENSYS,FRCC,FRCC_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,29793282
 USENSYS,FRCC,FRCC_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,1454645
 USENSYS,FRCC,FRCC_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,1003536
 USENSYS,FRCC,FRCC_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,505748
@@ -144,6 +168,11 @@ USENSYS,FRCC,FRCC_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,58363884
 USENSYS,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,102824821
 USENSYS,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,163584125
+USENSYS,ISNE,ISNE_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,231110
+USENSYS,ISNE,ISNE_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,290141
+USENSYS,ISNE,ISNE_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,216751
+USENSYS,ISNE,ISNE_battery_moderate_0,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,2169662
+USENSYS,ISNE,ISNE_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,7281809
 USENSYS,ISNE,ISNE_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,958038
 USENSYS,ISNE,ISNE_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,283631
 USENSYS,ISNE,ISNE_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,154287
@@ -154,6 +183,9 @@ USENSYS,ISNE,ISNE_conventional_steam_coal_1,Coal,2030,scen_co2cap10k_w10_h168_16
 USENSYS,ISNE,ISNE_distributed_generation_1,Distributed Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,8009817
 USENSYS,ISNE,ISNE_distributed_generation_1,Distributed Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,9238782
 USENSYS,ISNE,ISNE_distributed_generation_1,Distributed Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,9660935
+USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2030,scen_co2cap10k_w10_h168_1680w,MWh,2552007
+USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2040,scen_co2cap10k_w10_h168_1680w,MWh,3890702
+USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2050,scen_co2cap10k_w10_h168_1680w,MWh,3434127
 USENSYS,ISNE,ISNE_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,scen_co2cap10k_w10_h168_1680w,MWh,36670296
 USENSYS,ISNE,ISNE_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,38929374
 USENSYS,ISNE,ISNE_hydrogen_ctavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,2159295
@@ -192,6 +224,11 @@ USENSYS,ISNE,ISNE_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,15756141
 USENSYS,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,32993861
 USENSYS,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,45826123
+USENSYS,MISC,MISC_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,30875
+USENSYS,MISC,MISC_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,32353
+USENSYS,MISC,MISC_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,24225
+USENSYS,MISC,MISC_battery_moderate_0,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,188087
+USENSYS,MISC,MISC_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,4815606
 USENSYS,MISC,MISC_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,461975
 USENSYS,MISC,MISC_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,441792
 USENSYS,MISC,MISC_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,236412
@@ -203,6 +240,9 @@ USENSYS,MISC,MISC_conventional_steam_coal_1,Coal,2040,scen_co2cap10k_w10_h168_16
 USENSYS,MISC,MISC_distributed_generation_1,Distributed Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,2439973
 USENSYS,MISC,MISC_distributed_generation_1,Distributed Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,5213568
 USENSYS,MISC,MISC_distributed_generation_1,Distributed Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,7004306
+USENSYS,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2030,scen_co2cap10k_w10_h168_1680w,MWh,1211835
+USENSYS,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2040,scen_co2cap10k_w10_h168_1680w,MWh,1328656
+USENSYS,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2050,scen_co2cap10k_w10_h168_1680w,MWh,1296872
 USENSYS,MISC,MISC_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,scen_co2cap10k_w10_h168_1680w,MWh,7609303
 USENSYS,MISC,MISC_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,51718880
 USENSYS,MISC,MISC_landbasedwind_class3_moderate_1,Wind,2030,scen_co2cap10k_w10_h168_1680w,MWh,83130806
@@ -236,7 +276,10 @@ USENSYS,MISC,MISC_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,MISC,MISC_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,31566943
 USENSYS,MISC,MISC_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,53406003
 USENSYS,MISC,MISC_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,97624376
-USENSYS,MISE,MISE_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,9
+USENSYS,MISE,MISE_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,504
+USENSYS,MISE,MISE_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,498
+USENSYS,MISE,MISE_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,460
+USENSYS,MISE,MISE_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,4486277
 USENSYS,MISE,MISE_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,926436
 USENSYS,MISE,MISE_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,592850
 USENSYS,MISE,MISE_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,181683
@@ -244,6 +287,9 @@ USENSYS,MISE,MISE_conventional_hydroelectric_1,Hydro,2030,scen_co2cap10k_w10_h16
 USENSYS,MISE,MISE_distributed_generation_1,Distributed Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,1901296
 USENSYS,MISE,MISE_distributed_generation_1,Distributed Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,4374093
 USENSYS,MISE,MISE_distributed_generation_1,Distributed Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,5408206
+USENSYS,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2030,scen_co2cap10k_w10_h168_1680w,MWh,4970697
+USENSYS,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2040,scen_co2cap10k_w10_h168_1680w,MWh,4253715
+USENSYS,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2050,scen_co2cap10k_w10_h168_1680w,MWh,4657818
 USENSYS,MISE,MISE_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,scen_co2cap10k_w10_h168_1680w,MWh,1231031
 USENSYS,MISE,MISE_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,15296392
 USENSYS,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2030,scen_co2cap10k_w10_h168_1680w,MWh,10226890
@@ -276,6 +322,10 @@ USENSYS,MISE,MISE_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,MISE,MISE_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,28230804
 USENSYS,MISE,MISE_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,44249004
 USENSYS,MISE,MISE_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,50251765
+USENSYS,MISS,MISS_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,10860
+USENSYS,MISS,MISS_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,13149
+USENSYS,MISS,MISS_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,10486
+USENSYS,MISS,MISS_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,9176996
 USENSYS,MISS,MISS_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,566897
 USENSYS,MISS,MISS_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,299311
 USENSYS,MISS,MISS_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,178343
@@ -310,6 +360,11 @@ USENSYS,MISS,MISS_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,MISS,MISS_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,30153802
 USENSYS,MISS,MISS_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,42944936
 USENSYS,MISS,MISS_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,80088556
+USENSYS,MISW,MISW_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,26710
+USENSYS,MISW,MISW_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,28563
+USENSYS,MISW,MISW_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,17267
+USENSYS,MISW,MISW_battery_moderate_0,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,2381808
+USENSYS,MISW,MISW_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,7397931
 USENSYS,MISW,MISW_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,611920
 USENSYS,MISW,MISW_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,429350
 USENSYS,MISW,MISW_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,198904
@@ -354,6 +409,11 @@ USENSYS,MISW,MISW_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,MISW,MISW_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,31801166
 USENSYS,MISW,MISW_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,58907128
 USENSYS,MISW,MISW_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,111487717
+USENSYS,NWPP,NWPP_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,143204
+USENSYS,NWPP,NWPP_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,119942
+USENSYS,NWPP,NWPP_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,92797
+USENSYS,NWPP,NWPP_battery_moderate_0,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,6782487
+USENSYS,NWPP,NWPP_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,10875815
 USENSYS,NWPP,NWPP_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,574063
 USENSYS,NWPP,NWPP_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,361821
 USENSYS,NWPP,NWPP_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,235809
@@ -367,6 +427,9 @@ USENSYS,NWPP,NWPP_distributed_generation_1,Distributed Solar,2040,scen_co2cap10k
 USENSYS,NWPP,NWPP_distributed_generation_1,Distributed Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,5896622
 USENSYS,NWPP,NWPP_geothermal_1,Geothermal,2030,scen_co2cap10k_w10_h168_1680w,MWh,192192
 USENSYS,NWPP,NWPP_geothermal_1,Geothermal,2040,scen_co2cap10k_w10_h168_1680w,MWh,192192
+USENSYS,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2030,scen_co2cap10k_w10_h168_1680w,MWh,828450
+USENSYS,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2040,scen_co2cap10k_w10_h168_1680w,MWh,826525
+USENSYS,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2050,scen_co2cap10k_w10_h168_1680w,MWh,778078
 USENSYS,NWPP,NWPP_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,scen_co2cap10k_w10_h168_1680w,MWh,17505618
 USENSYS,NWPP,NWPP_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,32991629
 USENSYS,NWPP,NWPP_hydrogen_ctavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,1403344
@@ -405,6 +468,11 @@ USENSYS,NWPP,NWPP_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,5235066
 USENSYS,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,28096266
 USENSYS,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,67987562
+USENSYS,NYCW,NYCW_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,30214
+USENSYS,NYCW,NYCW_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,42345
+USENSYS,NYCW,NYCW_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,26472
+USENSYS,NYCW,NYCW_battery_moderate_0,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,29081
+USENSYS,NYCW,NYCW_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,2657069
 USENSYS,NYCW,NYCW_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,86609
 USENSYS,NYCW,NYCW_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,5990
 USENSYS,NYCW,NYCW_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,5994
@@ -442,6 +510,10 @@ USENSYS,NYCW,NYCW_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,NYCW,NYCW_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,9688
 USENSYS,NYCW,NYCW_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,9789
 USENSYS,NYCW,NYCW_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,9789
+USENSYS,NYUP,NYUP_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,122127
+USENSYS,NYUP,NYUP_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,165028
+USENSYS,NYUP,NYUP_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,137803
+USENSYS,NYUP,NYUP_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,1417039
 USENSYS,NYUP,NYUP_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,667803
 USENSYS,NYUP,NYUP_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,258150
 USENSYS,NYUP,NYUP_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,92283
@@ -451,6 +523,9 @@ USENSYS,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2050,scen_co2cap10k_w10_h16
 USENSYS,NYUP,NYUP_distributed_generation_1,Distributed Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,1884558
 USENSYS,NYUP,NYUP_distributed_generation_1,Distributed Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,2456804
 USENSYS,NYUP,NYUP_distributed_generation_1,Distributed Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,3090311
+USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2030,scen_co2cap10k_w10_h168_1680w,MWh,2123152
+USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2040,scen_co2cap10k_w10_h168_1680w,MWh,3159618
+USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2050,scen_co2cap10k_w10_h168_1680w,MWh,3132586
 USENSYS,NYUP,NYUP_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,10381658
 USENSYS,NYUP,NYUP_hydrogen_ctavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,273882
 USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_1,Wind,2030,scen_co2cap10k_w10_h168_1680w,MWh,26339134
@@ -473,6 +548,11 @@ USENSYS,NYUP,NYUP_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,1999074
 USENSYS,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,14450826
 USENSYS,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,25150722
+USENSYS,PJMC,PJMC_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,29269
+USENSYS,PJMC,PJMC_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,31179
+USENSYS,PJMC,PJMC_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,24440
+USENSYS,PJMC,PJMC_battery_moderate_0,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,495149
+USENSYS,PJMC,PJMC_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,4040633
 USENSYS,PJMC,PJMC_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,160954
 USENSYS,PJMC,PJMC_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,56603
 USENSYS,PJMC,PJMC_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,31122
@@ -514,6 +594,11 @@ USENSYS,PJMC,PJMC_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,16077876
 USENSYS,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,27347580
 USENSYS,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,41376594
+USENSYS,PJMD,PJMD_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,32475
+USENSYS,PJMD,PJMD_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,33393
+USENSYS,PJMD,PJMD_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,27699
+USENSYS,PJMD,PJMD_battery_moderate_0,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,801043
+USENSYS,PJMD,PJMD_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,7728282
 USENSYS,PJMD,PJMD_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,432747
 USENSYS,PJMD,PJMD_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,311532
 USENSYS,PJMD,PJMD_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,152412
@@ -523,6 +608,9 @@ USENSYS,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2050,scen_co2cap10k_w10_h16
 USENSYS,PJMD,PJMD_distributed_generation_1,Distributed Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,3607638
 USENSYS,PJMD,PJMD_distributed_generation_1,Distributed Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,5724578
 USENSYS,PJMD,PJMD_distributed_generation_1,Distributed Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,6537725
+USENSYS,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2030,scen_co2cap10k_w10_h168_1680w,MWh,6013596
+USENSYS,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2040,scen_co2cap10k_w10_h168_1680w,MWh,7876680
+USENSYS,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2050,scen_co2cap10k_w10_h168_1680w,MWh,6483284
 USENSYS,PJMD,PJMD_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,scen_co2cap10k_w10_h168_1680w,MWh,15435905
 USENSYS,PJMD,PJMD_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,21634426
 USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_1,Wind,2030,scen_co2cap10k_w10_h168_1680w,MWh,16624646
@@ -553,6 +641,11 @@ USENSYS,PJMD,PJMD_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,32794706
 USENSYS,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,50804123
 USENSYS,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,70488249
+USENSYS,PJME,PJME_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,42377
+USENSYS,PJME,PJME_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,57728
+USENSYS,PJME,PJME_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,45685
+USENSYS,PJME,PJME_battery_moderate_0,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,4506105
+USENSYS,PJME,PJME_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,29433698
 USENSYS,PJME,PJME_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,1443792
 USENSYS,PJME,PJME_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,572368
 USENSYS,PJME,PJME_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,129841
@@ -562,6 +655,9 @@ USENSYS,PJME,PJME_conventional_hydroelectric_1,Hydro,2050,scen_co2cap10k_w10_h16
 USENSYS,PJME,PJME_distributed_generation_1,Distributed Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,16160472
 USENSYS,PJME,PJME_distributed_generation_1,Distributed Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,17043723
 USENSYS,PJME,PJME_distributed_generation_1,Distributed Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,16828079
+USENSYS,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2030,scen_co2cap10k_w10_h168_1680w,MWh,3538146
+USENSYS,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2040,scen_co2cap10k_w10_h168_1680w,MWh,5039735
+USENSYS,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2050,scen_co2cap10k_w10_h168_1680w,MWh,4020144
 USENSYS,PJME,PJME_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,scen_co2cap10k_w10_h168_1680w,MWh,37418624
 USENSYS,PJME,PJME_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,51414875
 USENSYS,PJME,PJME_hydrogen_ctavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,226380
@@ -593,6 +689,11 @@ USENSYS,PJME,PJME_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,PJME,PJME_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,85221323
 USENSYS,PJME,PJME_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,108344750
 USENSYS,PJME,PJME_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,174686370
+USENSYS,PJMW,PJMW_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,36755
+USENSYS,PJMW,PJMW_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,34169
+USENSYS,PJMW,PJMW_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,31478
+USENSYS,PJMW,PJMW_battery_moderate_0,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,1191532
+USENSYS,PJMW,PJMW_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,18868428
 USENSYS,PJMW,PJMW_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,193232
 USENSYS,PJMW,PJMW_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,178423
 USENSYS,PJMW,PJMW_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,56112
@@ -602,6 +703,9 @@ USENSYS,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2050,scen_co2cap10k_w10_h16
 USENSYS,PJMW,PJMW_distributed_generation_1,Distributed Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,4808495
 USENSYS,PJMW,PJMW_distributed_generation_1,Distributed Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,10261129
 USENSYS,PJMW,PJMW_distributed_generation_1,Distributed Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,12889300
+USENSYS,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2030,scen_co2cap10k_w10_h168_1680w,MWh,576123
+USENSYS,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2040,scen_co2cap10k_w10_h168_1680w,MWh,548103
+USENSYS,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2050,scen_co2cap10k_w10_h168_1680w,MWh,476036
 USENSYS,PJMW,PJMW_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,50981990
 USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2030,scen_co2cap10k_w10_h168_1680w,MWh,36983716
 USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2040,scen_co2cap10k_w10_h168_1680w,MWh,38742983
@@ -636,6 +740,11 @@ USENSYS,PJMW,PJMW_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,70009018
 USENSYS,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,119710512
 USENSYS,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,134782398
+USENSYS,RMRG,RMRG_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,155677
+USENSYS,RMRG,RMRG_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,155176
+USENSYS,RMRG,RMRG_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,108775
+USENSYS,RMRG,RMRG_battery_moderate_0,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,60810
+USENSYS,RMRG,RMRG_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,4459430
 USENSYS,RMRG,RMRG_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,53590
 USENSYS,RMRG,RMRG_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,37576
 USENSYS,RMRG,RMRG_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,20940
@@ -647,6 +756,9 @@ USENSYS,RMRG,RMRG_conventional_steam_coal_1,Coal,2040,scen_co2cap10k_w10_h168_16
 USENSYS,RMRG,RMRG_distributed_generation_1,Distributed Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,2860474
 USENSYS,RMRG,RMRG_distributed_generation_1,Distributed Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,4052238
 USENSYS,RMRG,RMRG_distributed_generation_1,Distributed Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,4710105
+USENSYS,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2030,scen_co2cap10k_w10_h168_1680w,MWh,1586951
+USENSYS,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2040,scen_co2cap10k_w10_h168_1680w,MWh,1682391
+USENSYS,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2050,scen_co2cap10k_w10_h168_1680w,MWh,1495173
 USENSYS,RMRG,RMRG_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,scen_co2cap10k_w10_h168_1680w,MWh,10204922
 USENSYS,RMRG,RMRG_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,19314891
 USENSYS,RMRG,RMRG_hydrogen_ctavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,941941
@@ -679,9 +791,10 @@ USENSYS,RMRG,RMRG_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,RMRG,RMRG_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,7696762
 USENSYS,RMRG,RMRG_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,18021847
 USENSYS,RMRG,RMRG_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,35676239
-USENSYS,SPPC,SPPC_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,8
-USENSYS,SPPC,SPPC_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,49
-USENSYS,SPPC,SPPC_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,12
+USENSYS,SPPC,SPPC_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,691
+USENSYS,SPPC,SPPC_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,767
+USENSYS,SPPC,SPPC_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,325
+USENSYS,SPPC,SPPC_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,2656412
 USENSYS,SPPC,SPPC_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,58800
 USENSYS,SPPC,SPPC_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,55848
 USENSYS,SPPC,SPPC_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,11742
@@ -725,6 +838,10 @@ USENSYS,SPPC,SPPC_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,16163263
 USENSYS,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,23953508
 USENSYS,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,29905420
+USENSYS,SPPN,SPPN_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,5530
+USENSYS,SPPN,SPPN_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,5510
+USENSYS,SPPN,SPPN_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,3148
+USENSYS,SPPN,SPPN_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,1790199
 USENSYS,SPPN,SPPN_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,115679
 USENSYS,SPPN,SPPN_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,96116
 USENSYS,SPPN,SPPN_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,51938
@@ -769,6 +886,10 @@ USENSYS,SPPN,SPPN_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,SPPN,SPPN_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,7031479
 USENSYS,SPPN,SPPN_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,14045332
 USENSYS,SPPN,SPPN_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,20133273
+USENSYS,SPPS,SPPS_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,153730
+USENSYS,SPPS,SPPS_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,188574
+USENSYS,SPPS,SPPS_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,132820
+USENSYS,SPPS,SPPS_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,2917535
 USENSYS,SPPS,SPPS_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,63518
 USENSYS,SPPS,SPPS_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,53144
 USENSYS,SPPS,SPPS_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,32
@@ -778,6 +899,9 @@ USENSYS,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2050,scen_co2cap10k_w10_h16
 USENSYS,SPPS,SPPS_distributed_generation_1,Distributed Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,3116206
 USENSYS,SPPS,SPPS_distributed_generation_1,Distributed Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,5866232
 USENSYS,SPPS,SPPS_distributed_generation_1,Distributed Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,7078058
+USENSYS,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2030,scen_co2cap10k_w10_h168_1680w,MWh,1082484
+USENSYS,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2040,scen_co2cap10k_w10_h168_1680w,MWh,1451326
+USENSYS,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2050,scen_co2cap10k_w10_h168_1680w,MWh,1286091
 USENSYS,SPPS,SPPS_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,scen_co2cap10k_w10_h168_1680w,MWh,6543070
 USENSYS,SPPS,SPPS_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,16730348
 USENSYS,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2030,scen_co2cap10k_w10_h168_1680w,MWh,78573709
@@ -803,6 +927,11 @@ USENSYS,SPPS,SPPS_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,23071070
 USENSYS,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,40984340
 USENSYS,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,43129709
+USENSYS,SRCA,SRCA_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,145258
+USENSYS,SRCA,SRCA_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,146114
+USENSYS,SRCA,SRCA_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,119135
+USENSYS,SRCA,SRCA_battery_moderate_0,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,840649
+USENSYS,SRCA,SRCA_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,10716583
 USENSYS,SRCA,SRCA_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,854915
 USENSYS,SRCA,SRCA_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,478828
 USENSYS,SRCA,SRCA_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,197565
@@ -812,6 +941,9 @@ USENSYS,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2050,scen_co2cap10k_w10_h16
 USENSYS,SRCA,SRCA_distributed_generation_1,Distributed Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,6581622
 USENSYS,SRCA,SRCA_distributed_generation_1,Distributed Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,11876426
 USENSYS,SRCA,SRCA_distributed_generation_1,Distributed Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,13658941
+USENSYS,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2030,scen_co2cap10k_w10_h168_1680w,MWh,5286032
+USENSYS,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2040,scen_co2cap10k_w10_h168_1680w,MWh,6950237
+USENSYS,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2050,scen_co2cap10k_w10_h168_1680w,MWh,5812130
 USENSYS,SRCA,SRCA_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,scen_co2cap10k_w10_h168_1680w,MWh,5676318
 USENSYS,SRCA,SRCA_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,30853902
 USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2030,scen_co2cap10k_w10_h168_1680w,MWh,14680840
@@ -842,6 +974,11 @@ USENSYS,SRCA,SRCA_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,42638229
 USENSYS,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,76346824
 USENSYS,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,116814232
+USENSYS,SRCE,SRCE_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,116984
+USENSYS,SRCE,SRCE_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,128067
+USENSYS,SRCE,SRCE_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,90894
+USENSYS,SRCE,SRCE_battery_moderate_0,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,718191
+USENSYS,SRCE,SRCE_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,6652484
 USENSYS,SRCE,SRCE_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,178190
 USENSYS,SRCE,SRCE_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,42200
 USENSYS,SRCE,SRCE_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,31906
@@ -853,6 +990,9 @@ USENSYS,SRCE,SRCE_conventional_steam_coal_1,Coal,2040,scen_co2cap10k_w10_h168_16
 USENSYS,SRCE,SRCE_distributed_generation_1,Distributed Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,1414359
 USENSYS,SRCE,SRCE_distributed_generation_1,Distributed Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,4349129
 USENSYS,SRCE,SRCE_distributed_generation_1,Distributed Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,7491133
+USENSYS,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2030,scen_co2cap10k_w10_h168_1680w,MWh,3568865
+USENSYS,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2040,scen_co2cap10k_w10_h168_1680w,MWh,4829514
+USENSYS,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2050,scen_co2cap10k_w10_h168_1680w,MWh,3995234
 USENSYS,SRCE,SRCE_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,scen_co2cap10k_w10_h168_1680w,MWh,10116684
 USENSYS,SRCE,SRCE_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,45231285
 USENSYS,SRCE,SRCE_hydrogen_ctavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,520751
@@ -883,6 +1023,11 @@ USENSYS,SRCE,SRCE_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,42651674
 USENSYS,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,71086691
 USENSYS,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,105035061
+USENSYS,SRSE,SRSE_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,130907
+USENSYS,SRSE,SRSE_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,144644
+USENSYS,SRSE,SRSE_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,121438
+USENSYS,SRSE,SRSE_battery_moderate_0,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,2130253
+USENSYS,SRSE,SRSE_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,23131509
 USENSYS,SRSE,SRSE_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,1934332
 USENSYS,SRSE,SRSE_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,1401644
 USENSYS,SRSE,SRSE_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,727289
@@ -892,6 +1037,9 @@ USENSYS,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2050,scen_co2cap10k_w10_h16
 USENSYS,SRSE,SRSE_distributed_generation_1,Distributed Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,1812517
 USENSYS,SRSE,SRSE_distributed_generation_1,Distributed Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,4023380
 USENSYS,SRSE,SRSE_distributed_generation_1,Distributed Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,6054966
+USENSYS,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2030,scen_co2cap10k_w10_h168_1680w,MWh,3686624
+USENSYS,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2040,scen_co2cap10k_w10_h168_1680w,MWh,4814093
+USENSYS,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2050,scen_co2cap10k_w10_h168_1680w,MWh,3849018
 USENSYS,SRSE,SRSE_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,scen_co2cap10k_w10_h168_1680w,MWh,6920507
 USENSYS,SRSE,SRSE_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,49340717
 USENSYS,SRSE,SRSE_landbasedwind_class3_moderate_1,Wind,2030,scen_co2cap10k_w10_h168_1680w,MWh,50041772
@@ -917,6 +1065,10 @@ USENSYS,SRSE,SRSE_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,53324554
 USENSYS,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,90986041
 USENSYS,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,153194717
+USENSYS,SRSG,SRSG_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,1462279
+USENSYS,SRSG,SRSG_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,1963408
+USENSYS,SRSG,SRSG_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,1313139
+USENSYS,SRSG,SRSG_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,11996886
 USENSYS,SRSG,SRSG_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,199850
 USENSYS,SRSG,SRSG_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,157789
 USENSYS,SRSG,SRSG_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,49850
@@ -929,6 +1081,9 @@ USENSYS,SRSG,SRSG_distributed_generation_1,Distributed Solar,2050,scen_co2cap10k
 USENSYS,SRSG,SRSG_geothermal_1,Geothermal,2030,scen_co2cap10k_w10_h168_1680w,MWh,1240512
 USENSYS,SRSG,SRSG_geothermal_1,Geothermal,2040,scen_co2cap10k_w10_h168_1680w,MWh,567840
 USENSYS,SRSG,SRSG_geothermal_1,Geothermal,2050,scen_co2cap10k_w10_h168_1680w,MWh,174720
+USENSYS,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2030,scen_co2cap10k_w10_h168_1680w,MWh,423885
+USENSYS,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2040,scen_co2cap10k_w10_h168_1680w,MWh,596721
+USENSYS,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2050,scen_co2cap10k_w10_h168_1680w,MWh,472201
 USENSYS,SRSG,SRSG_hydrogen_ccavgcf_moderate_0,Hydrogen,2040,scen_co2cap10k_w10_h168_1680w,MWh,28526357
 USENSYS,SRSG,SRSG_hydrogen_ccavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,42645704
 USENSYS,SRSG,SRSG_hydrogen_ctavgcf_moderate_0,Hydrogen,2050,scen_co2cap10k_w10_h168_1680w,MWh,320957
@@ -958,6 +1113,9 @@ USENSYS,SRSG,SRSG_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,
 USENSYS,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,16589516
 USENSYS,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,38527037
 USENSYS,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,80873152
+USENSYS,TRE_WEST,TRE_WEST_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,661647
+USENSYS,TRE_WEST,TRE_WEST_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,1047535
+USENSYS,TRE_WEST,TRE_WEST_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,829319
 USENSYS,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,641672
 USENSYS,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,957326
 USENSYS,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,1084882
@@ -975,6 +1133,10 @@ USENSYS,TRE_WEST,TRE_WEST_onshore_wind_turbine_1,Wind,2050,scen_co2cap10k_w10_h1
 USENSYS,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2030,scen_co2cap10k_w10_h168_1680w,MWh,20911366
 USENSYS,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2040,scen_co2cap10k_w10_h168_1680w,MWh,21034746
 USENSYS,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2050,scen_co2cap10k_w10_h168_1680w,MWh,12617979
+USENSYS,TRE,TRE_batteries_1,Battery,2030,scen_co2cap10k_w10_h168_1680w,MWh,1402289
+USENSYS,TRE,TRE_batteries_1,Battery,2040,scen_co2cap10k_w10_h168_1680w,MWh,1871747
+USENSYS,TRE,TRE_batteries_1,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,1418211
+USENSYS,TRE,TRE_battery_moderate_0,Battery,2050,scen_co2cap10k_w10_h168_1680w,MWh,8958001
 USENSYS,TRE,TRE_biomass_1,Biomass,2030,scen_co2cap10k_w10_h168_1680w,MWh,118233
 USENSYS,TRE,TRE_biomass_1,Biomass,2040,scen_co2cap10k_w10_h168_1680w,MWh,110272
 USENSYS,TRE,TRE_biomass_1,Biomass,2050,scen_co2cap10k_w10_h168_1680w,MWh,86802
