@@ -1,0 +1,1070 @@
+2023-10-26 11:52:40 [    INFO] powergenome:174 Reading settings file
+2023-10-26 11:52:41 [ WARNING] powergenome.util:214 
+            The settings parameter named data_years has been changed to eia_data_years. Please correct it in
+            your settings file.
+
+            
+2023-10-26 11:52:41 [    INFO] powergenome:185 Initiating PUDL connections
+2023-10-26 11:52:41 [ WARNING] powergenome.util:355 
+    *****************************
+    The ATB technology "NaturalGas_CCCCSAvgCF" listed in your settings file under 'atb_new_gen'
+    is not fully specified in the 'cost_multiplier_technology_map' settings parameter.
+    Part of the <tech>_<tech_detail> string might be included, but it is best practice to
+    include the full name in this format. Check your settings file.
+        
+2023-10-26 11:52:41 [    INFO] powergenome:217 Sorted zones are BASN, CANO, CASO, FRCC, ISNE, MISC, MISE, MISS, MISW, NWPP, NYCW, NYUP, PJMC, PJMD, PJME, PJMW, RMRG, SPPC, SPPN, SPPS, SRCA, SRCE, SRSE, SRSG, TRE, TRE_WEST
+2023-10-26 11:52:41 [ WARNING] powergenome:241 The years included the secenario definitions file ({2040, 2050, 2030}) does not match the settings parameter `model_year` ([2025, 2030, 2035, 2040, 2045, 2050])
+2023-10-26 11:52:41 [ WARNING] powergenome.util:904 The parameter value 'no' from column 'ira' in your scenario definitions file is not included in the 'settings_management' dictionary. Settings for case id 'base_thin' will not be modified to reflect this scenario.
+2023-10-26 11:52:41 [ WARNING] powergenome.util:904 The parameter value 'yes' from column 'policies' in your scenario definitions file is not included in the 'settings_management' dictionary. Settings for case id 'base_thin' will not be modified to reflect this scenario.
+2023-10-26 11:52:41 [ WARNING] powergenome.util:904 The parameter value 'no' from column 'ira' in your scenario definitions file is not included in the 'settings_management' dictionary. Settings for case id 'base_thin' will not be modified to reflect this scenario.
+2023-10-26 11:52:41 [ WARNING] powergenome.util:904 The parameter value 'yes' from column 'policies' in your scenario definitions file is not included in the 'settings_management' dictionary. Settings for case id 'base_thin' will not be modified to reflect this scenario.
+2023-10-26 11:52:41 [ WARNING] powergenome.util:904 The parameter value 'no' from column 'ira' in your scenario definitions file is not included in the 'settings_management' dictionary. Settings for case id 'base_thin' will not be modified to reflect this scenario.
+2023-10-26 11:52:41 [ WARNING] powergenome.util:904 The parameter value 'yes' from column 'policies' in your scenario definitions file is not included in the 'settings_management' dictionary. Settings for case id 'base_thin' will not be modified to reflect this scenario.
+2023-10-26 11:52:41 [    INFO] powergenome:261 Starting year 2030 scenario base_thin
+
+2023-10-26 11:52:45 [    INFO] powergenome.generators:2817 Loading map of plants to IPM regions
+2023-10-26 11:52:47 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyCoal Integrated Gasification Combined Cycle changed capacity from 779.0 to 965.5
+********************************
+2023-10-26 11:52:47 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyConventional Hydroelectric changed capacity from 78222.4 to 78413.0
+********************************
+2023-10-26 11:52:47 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyNatural Gas Fired Combined Cycle changed capacity from 284907.7 to 288264.5
+********************************
+2023-10-26 11:52:47 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyNatural Gas Fired Combustion Turbine changed capacity from 138698.5 to 141214.1
+********************************
+2023-10-26 11:52:47 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyNatural Gas Steam Turbine changed capacity from 69963.6 to 70254.7
+********************************
+2023-10-26 11:52:47 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyPetroleum Liquids changed capacity from 25339.6 to 25397.0
+********************************
+2023-10-26 11:52:47 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologySolar Photovoltaic changed capacity from 24438.8 to 24536.9
+********************************
+2023-10-26 11:52:47 [    INFO] powergenome.generators:535 Changing retirement dates based on settings file
+2023-10-26 11:52:47 [    INFO] powergenome.generators:540 Starting retirement capacity is 162010.9 MW
+2023-10-26 11:52:47 [    INFO] powergenome.generators:562 Ending retirement capacity is 162998.9 MW
+2023-10-26 11:52:47 [    INFO] powergenome.generators:572 The retirement year for 162 plants, totaling 6823.5 MW, was changed based on settings file parameters
+2023-10-26 11:52:47 [    INFO] powergenome.generators:535 Changing retirement dates based on settings file
+2023-10-26 11:52:47 [    INFO] powergenome.generators:540 Starting retirement capacity is 162998.9 MW
+2023-10-26 11:52:48 [    INFO] powergenome.generators:562 Ending retirement capacity is 162998.9 MW
+2023-10-26 11:52:48 [    INFO] powergenome.generators:572 The retirement year for 162 plants, totaling 6823.5 MW, was changed based on settings file parameters
+2023-10-26 11:52:48 [    INFO] powergenome.generators:3066 Loading heat rate data for units and generator/fuel combinations
+2023-10-26 11:52:53 [    INFO] powergenome.generators:3088 Units model technologies are ['Small Hydroelectric', 'Conventional Hydroelectric', 'Biomass', 'Batteries', 'Solar Photovoltaic', 'Natural Gas Fired Combustion Turbine', 'Onshore Wind Turbine', 'Petroleum Liquids', 'Natural Gas Internal Combustion Engine', 'Other Natural Gas', 'Natural Gas Fired Combined Cycle', 'All Other', 'Geothermal', 'Natural Gas Steam Turbine', 'Offshore Wind Turbine', 'Petroleum Coke', 'Other Gases', 'Hydroelectric Pumped Storage', 'Flywheels', 'Solar Thermal without Energy Storage', 'Solar Thermal with Energy Storage', 'Conventional Steam Coal', 'Nuclear', 'Coal Integrated Gasification Combined Cycle', 'Natural Gas with Compressed Air Storage']
+2023-10-26 11:52:53 [    INFO] powergenome.generators:3094 Assigning technology/fuel heat rates where unit heat rates are not available
+2023-10-26 11:52:53 [    INFO] powergenome.generators:3143 Units model technologies are ['Small Hydroelectric', 'Conventional Hydroelectric', 'Biomass', 'Batteries', 'Solar Photovoltaic', 'Natural Gas Fired Combustion Turbine', 'Onshore Wind Turbine', 'Petroleum Liquids', 'Natural Gas Internal Combustion Engine', 'Other Natural Gas', 'Natural Gas Fired Combined Cycle', 'All Other', 'Geothermal', 'Natural Gas Steam Turbine', 'Offshore Wind Turbine', 'Petroleum Coke', 'Other Gases', 'Hydroelectric Pumped Storage', 'Flywheels', 'Solar Thermal without Energy Storage', 'Solar Thermal with Energy Storage', 'Conventional Steam Coal', 'Nuclear', 'Coal Integrated Gasification Combined Cycle', 'Natural Gas with Compressed Air Storage']
+2023-10-26 11:52:53 [    INFO] powergenome.generators:3148 Before adding proposed generators, 17602 units with 1045710.2000000001 MW capacity
+2023-10-26 11:52:53 [ WARNING] powergenome.generators:1652 Some generators do not have lon/lat data. Check the source file to determine if they should be included in results. 
+The affected generators account for 4.5 in balancing authorities: 
+['CISO']
+2023-10-26 11:52:53 [    INFO] powergenome.generators:1869 0 generators were added to the planned list based on settings
+2023-10-26 11:52:53 [ WARNING] powergenome.generators:1908 The EIA860 file has 1 proposed generator(s) without a technology description. The plant IDs are [66599], and they have a combined capcity of 0.3 MW.
+2023-10-26 11:52:53 [    INFO] powergenome.generators:577 No retirement dates changed based on the settings file
+2023-10-26 11:53:00 [    INFO] powergenome.generators:577 No retirement dates changed based on the settings file
+2023-10-26 11:53:00 [    INFO] powergenome.generators:3176 Proposed gen technologies are ['Batteries', 'Solar Photovoltaic', 'Onshore Wind Turbine', 'All Other', 'Natural Gas Fired Combustion Turbine', 'Natural Gas Fired Combined Cycle', 'Biomass', 'Natural Gas Internal Combustion Engine', 'Conventional Hydroelectric', 'Natural Gas Steam Turbine', 'Other Natural Gas', 'Petroleum Liquids', 'Nuclear', nan]
+2023-10-26 11:53:00 [    INFO] powergenome.generators:3180 73269.70000000001 MW proposed
+2023-10-26 11:53:00 [ WARNING] powergenome.generators:2569 
+
+**************************
+The storage technology(ies) ['Flywheels'] have some existing generators with energy capacity (MWh) values and some where the energy capacity is missing. You have not included these technologies in the settings parameter 'energy_storage_duration', which is used to fill missing energy capacity data.
+
+NOTE: This is not a comprehensive list of technologies that *should* be included in 'energy_storage_duration'. Technologies without any existing energy capacity data might also be missing.
+**************************
+
+2023-10-26 11:53:01 [    INFO] powergenome.generators:3234 Calculating plant O&M costs
+2023-10-26 11:53:01 [    INFO] powergenome.nrelatb:414 Adding fixed and variable O&M for existing plants
+2023-10-26 11:53:03 [    INFO] powergenome.generators:3252 After adding proposed generators, 25251 units with 1275689.0 MW capacity
+2023-10-26 11:53:03 [    INFO] powergenome.generators:3289 Creating technology clusters by region
+2023-10-26 11:53:07 [    INFO] powergenome.generators:3400 Finalizing generation clusters
+2023-10-26 11:53:07 [    INFO] powergenome.generators:3402 Results technologies are ['Batteries', 'Biomass', 'Conventional Hydroelectric', 'Conventional Steam Coal', 'Geothermal', 'Natural Gas Fired Combined Cycle', 'Natural Gas Fired Combustion Turbine', 'Natural Gas Internal Combustion Engine', 'Natural Gas Steam Turbine', 'Onshore Wind Turbine', 'Petroleum Liquids', 'Small Hydroelectric', 'Solar Photovoltaic', 'Hydroelectric Pumped Storage', 'Nuclear', 'Offshore Wind Turbine']
+2023-10-26 11:53:10 [    INFO] powergenome.generators:3495 
+ **************** 
+Distributed generation is being added as generating resources. The capacity of DG in each region is increased by 4.530000% to account for no distribution losses.
+
+2023-10-26 11:53:11 [ WARNING] powergenome.distributed_gen:168 No distributed generation for the regions {'DC'} was found in your distributed generation data for the scenario MidCase. This is an informational warning -- check your data file if you think there should be distributed generation data in this/these region(s).
+2023-10-26 11:53:11 [    INFO] powergenome.generators:247 Adding non-fuel startup costs
+2023-10-26 11:53:11 [    INFO] powergenome.generators:254 Changing non-fuel VOM costs from 2011 to 2020
+2023-10-26 11:53:11 [    INFO] powergenome.generators:267 Changing non-fuel startup costs from 2011 to 2020
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_1 ('CapRes_1')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_2 ('CapRes_2')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_3 ('CapRes_3')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_4 ('CapRes_4')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_5 ('CapRes_5')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_6 ('CapRes_6')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_7 ('CapRes_7')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_8 ('CapRes_8')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_9 ('CapRes_9')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_10 ('CapRes_10')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_1 ('ESR_1')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_2 ('ESR_2')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_3 ('ESR_3')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_4 ('ESR_4')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_5 ('ESR_5')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_6 ('ESR_6')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_7 ('ESR_7')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_8 ('ESR_8')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_9 ('ESR_9')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_10 ('ESR_10')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_11 ('ESR_11')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_12 ('ESR_12')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_13 ('ESR_13')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_14 ('ESR_14')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_15 ('ESR_15')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_16 ('ESR_16')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_2 ('MinCapTag_2')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_3 ('MinCapTag_3')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_4 ('MinCapTag_4')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_5 ('MinCapTag_5')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Source ('Retro1_Source')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Inv_Cost_per_MWyr ('Retro1_Inv_Cost_per_MWyr')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Source ('Retro2_Source')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Source ('Retro3_Source')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Inv_Cost_per_MWyr ('Retro2_Inv_Cost_per_MWyr')
+2023-10-26 11:53:11 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Inv_Cost_per_MWyr ('Retro3_Inv_Cost_per_MWyr')
+2023-10-26 11:53:13 [    INFO] powergenome.nrelatb:70 Loading NREL ATB data
+2023-10-26 11:53:13 [    INFO] powergenome.nrelatb:176 Using UtilityPV Market WACC for Battery storage.
+2023-10-26 11:53:14 [    INFO] powergenome.nrelatb:261 PV costs are already in AC units, not inflating the cost.
+2023-10-26 11:53:14 [    INFO] powergenome.nrelatb:1058 Creating new resources for each region.
+2023-10-26 11:53:25 [    INFO] powergenome.generators:247 Adding non-fuel startup costs
+2023-10-26 11:53:25 [    INFO] powergenome.generators:254 Changing non-fuel VOM costs from 2011 to 2020
+2023-10-26 11:53:25 [    INFO] powergenome.generators:267 Changing non-fuel startup costs from 2011 to 2020
+2023-10-26 11:53:26 [    INFO] powergenome.external_data:173 Inflating external interconnect annuity costs from 2017 to 2020
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:2469 Transmission investment costs are missing or zero for some resources and will not be included in the total investment costs.
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:2904 A demand response file is included in extra inputs but the parameter `flexible_demand_resources` is not in the settings file. No demand response resources will be included with the generators.
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_1 ('CapRes_1')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_2 ('CapRes_2')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_3 ('CapRes_3')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_4 ('CapRes_4')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_5 ('CapRes_5')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_6 ('CapRes_6')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_7 ('CapRes_7')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_8 ('CapRes_8')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_9 ('CapRes_9')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_10 ('CapRes_10')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_1 ('ESR_1')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_2 ('ESR_2')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_3 ('ESR_3')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_4 ('ESR_4')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_5 ('ESR_5')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_6 ('ESR_6')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_7 ('ESR_7')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_8 ('ESR_8')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_9 ('ESR_9')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_10 ('ESR_10')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_11 ('ESR_11')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_12 ('ESR_12')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_13 ('ESR_13')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_14 ('ESR_14')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_15 ('ESR_15')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_16 ('ESR_16')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_2 ('MinCapTag_2')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_3 ('MinCapTag_3')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_4 ('MinCapTag_4')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_5 ('MinCapTag_5')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Source ('Retro1_Source')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Inv_Cost_per_MWyr ('Retro1_Inv_Cost_per_MWyr')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Source ('Retro2_Source')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Source ('Retro3_Source')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Inv_Cost_per_MWyr ('Retro2_Inv_Cost_per_MWyr')
+2023-10-26 11:53:26 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Inv_Cost_per_MWyr ('Retro3_Inv_Cost_per_MWyr')
+2023-10-26 11:53:26 [    INFO] powergenome.generators:3676 Capacity of 1169976.8370000003 MW in final clusters
+2023-10-26 11:53:28 [    INFO] powergenome.GenX:936 0 resources have Min_Power larger than hourly generation.
+2023-10-26 11:53:28 [    INFO] powergenome.load_profiles:618 Loading load curves
+2023-10-26 11:53:28 [ WARNING] powergenome.load_profiles:637 
+            *****************************
+            Regional load data sources have not been specified. Defaulting to EFS load data.
+            Check your settings file, and please specify the preferred source for load data
+            (FERC, EFS, USER) either for each region or for the entire system with the setting
+            "regional_load_source".
+            *****************************
+            
+2023-10-26 11:53:28 [    INFO] powergenome.load_profiles:123 Loading load curves from PUDL
+2023-10-26 11:53:42 [    INFO] powergenome.load_profiles:187 Aggregating load curves in grouped regions
+2023-10-26 11:53:56 [ WARNING] powergenome.transmission:66 No transmission value column (e.g. firm vs non-firm) was specified in the settings. The column 'firm_ttc_mw' will be used as a default. This is a change from previous versions of PG, where 'nonfirm_ttc_mw' was used. Firm transmission capacity is lower or equal to non-firm capacity.
+2023-10-26 11:53:56 [    INFO] powergenome.transmission:81 Loading transmission constraints from PUDL
+2023-10-26 11:53:56 [ WARNING] powergenome.transmission:136 The user transmission capacity table duplicates values from the database. Database values will be discarded in favor of user values.
+2023-10-26 11:53:56 [    INFO] powergenome.transmission:165 Map and aggregate region names for transmission constraints
+2023-10-26 11:53:56 [    INFO] powergenome.transmission:186 Build a new transmission constraints dataframe with a single line between regions
+2023-10-26 11:53:58 [    INFO] powergenome.GenX:95 Only one zone was found in the emissions policy file. The same emission policies are being applied to all zones.
+2023-10-26 11:53:58 [    INFO] powergenome:261 Starting year 2040 scenario base_thin
+
+2023-10-26 11:54:02 [    INFO] powergenome.generators:2817 Loading map of plants to IPM regions
+2023-10-26 11:54:04 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyCoal Integrated Gasification Combined Cycle changed capacity from 779.0 to 965.5
+********************************
+2023-10-26 11:54:04 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyConventional Hydroelectric changed capacity from 78222.4 to 78413.0
+********************************
+2023-10-26 11:54:04 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyNatural Gas Fired Combined Cycle changed capacity from 284907.7 to 288264.5
+********************************
+2023-10-26 11:54:04 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyNatural Gas Fired Combustion Turbine changed capacity from 138698.5 to 141214.1
+********************************
+2023-10-26 11:54:04 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyNatural Gas Steam Turbine changed capacity from 69963.6 to 70254.7
+********************************
+2023-10-26 11:54:04 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyPetroleum Liquids changed capacity from 25339.6 to 25397.0
+********************************
+2023-10-26 11:54:04 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologySolar Photovoltaic changed capacity from 24438.8 to 24536.9
+********************************
+2023-10-26 11:54:04 [    INFO] powergenome.generators:535 Changing retirement dates based on settings file
+2023-10-26 11:54:04 [    INFO] powergenome.generators:540 Starting retirement capacity is 289644.8 MW
+2023-10-26 11:54:04 [    INFO] powergenome.generators:562 Ending retirement capacity is 290009.0 MW
+2023-10-26 11:54:04 [    INFO] powergenome.generators:572 The retirement year for 162 plants, totaling 6823.5 MW, was changed based on settings file parameters
+2023-10-26 11:54:04 [    INFO] powergenome.generators:535 Changing retirement dates based on settings file
+2023-10-26 11:54:04 [    INFO] powergenome.generators:540 Starting retirement capacity is 290046.10000000003 MW
+2023-10-26 11:54:05 [    INFO] powergenome.generators:562 Ending retirement capacity is 290046.10000000003 MW
+2023-10-26 11:54:05 [    INFO] powergenome.generators:572 The retirement year for 162 plants, totaling 6823.5 MW, was changed based on settings file parameters
+2023-10-26 11:54:05 [    INFO] powergenome.generators:3066 Loading heat rate data for units and generator/fuel combinations
+2023-10-26 11:54:05 [    INFO] powergenome.generators:3088 Units model technologies are ['Small Hydroelectric', 'Conventional Hydroelectric', 'Biomass', 'Batteries', 'Solar Photovoltaic', 'Natural Gas Fired Combustion Turbine', 'Onshore Wind Turbine', 'Petroleum Liquids', 'Natural Gas Internal Combustion Engine', 'Other Natural Gas', 'Natural Gas Fired Combined Cycle', 'All Other', 'Geothermal', 'Natural Gas Steam Turbine', 'Offshore Wind Turbine', 'Petroleum Coke', 'Other Gases', 'Hydroelectric Pumped Storage', 'Flywheels', 'Solar Thermal without Energy Storage', 'Solar Thermal with Energy Storage', 'Conventional Steam Coal', 'Nuclear', 'Coal Integrated Gasification Combined Cycle', 'Natural Gas with Compressed Air Storage']
+2023-10-26 11:54:05 [    INFO] powergenome.generators:3094 Assigning technology/fuel heat rates where unit heat rates are not available
+2023-10-26 11:54:05 [    INFO] powergenome.generators:3143 Units model technologies are ['Small Hydroelectric', 'Conventional Hydroelectric', 'Biomass', 'Batteries', 'Solar Photovoltaic', 'Natural Gas Fired Combustion Turbine', 'Onshore Wind Turbine', 'Petroleum Liquids', 'Natural Gas Internal Combustion Engine', 'Other Natural Gas', 'Natural Gas Fired Combined Cycle', 'All Other', 'Geothermal', 'Natural Gas Steam Turbine', 'Offshore Wind Turbine', 'Petroleum Coke', 'Other Gases', 'Hydroelectric Pumped Storage', 'Flywheels', 'Solar Thermal without Energy Storage', 'Solar Thermal with Energy Storage', 'Conventional Steam Coal', 'Nuclear', 'Coal Integrated Gasification Combined Cycle', 'Natural Gas with Compressed Air Storage']
+2023-10-26 11:54:05 [    INFO] powergenome.generators:3148 Before adding proposed generators, 17602 units with 1045710.2000000001 MW capacity
+2023-10-26 11:54:05 [ WARNING] powergenome.generators:1652 Some generators do not have lon/lat data. Check the source file to determine if they should be included in results. 
+The affected generators account for 4.5 in balancing authorities: 
+['CISO']
+2023-10-26 11:54:05 [    INFO] powergenome.generators:1869 0 generators were added to the planned list based on settings
+2023-10-26 11:54:05 [ WARNING] powergenome.generators:1908 The EIA860 file has 1 proposed generator(s) without a technology description. The plant IDs are [66599], and they have a combined capcity of 0.3 MW.
+2023-10-26 11:54:05 [    INFO] powergenome.generators:577 No retirement dates changed based on the settings file
+2023-10-26 11:54:12 [    INFO] powergenome.generators:577 No retirement dates changed based on the settings file
+2023-10-26 11:54:12 [    INFO] powergenome.generators:3176 Proposed gen technologies are ['Batteries', 'Solar Photovoltaic', 'Onshore Wind Turbine', 'All Other', 'Natural Gas Fired Combustion Turbine', 'Natural Gas Fired Combined Cycle', 'Biomass', 'Natural Gas Internal Combustion Engine', 'Conventional Hydroelectric', 'Natural Gas Steam Turbine', 'Other Natural Gas', 'Petroleum Liquids', 'Nuclear', nan]
+2023-10-26 11:54:12 [    INFO] powergenome.generators:3180 73269.70000000001 MW proposed
+2023-10-26 11:54:12 [ WARNING] powergenome.generators:2569 
+
+**************************
+The storage technology(ies) ['Flywheels'] have some existing generators with energy capacity (MWh) values and some where the energy capacity is missing. You have not included these technologies in the settings parameter 'energy_storage_duration', which is used to fill missing energy capacity data.
+
+NOTE: This is not a comprehensive list of technologies that *should* be included in 'energy_storage_duration'. Technologies without any existing energy capacity data might also be missing.
+**************************
+
+2023-10-26 11:54:14 [    INFO] powergenome.generators:3234 Calculating plant O&M costs
+2023-10-26 11:54:14 [    INFO] powergenome.nrelatb:414 Adding fixed and variable O&M for existing plants
+2023-10-26 11:54:15 [    INFO] powergenome.generators:3252 After adding proposed generators, 25251 units with 1275689.0 MW capacity
+2023-10-26 11:54:15 [    INFO] powergenome.generators:3289 Creating technology clusters by region
+2023-10-26 11:54:19 [    INFO] powergenome.generators:3400 Finalizing generation clusters
+2023-10-26 11:54:19 [    INFO] powergenome.generators:3402 Results technologies are ['Biomass', 'Conventional Hydroelectric', 'Conventional Steam Coal', 'Geothermal', 'Natural Gas Fired Combined Cycle', 'Natural Gas Fired Combustion Turbine', 'Natural Gas Internal Combustion Engine', 'Natural Gas Steam Turbine', 'Onshore Wind Turbine', 'Petroleum Liquids', 'Small Hydroelectric', 'Solar Photovoltaic', 'Hydroelectric Pumped Storage', 'Batteries', 'Nuclear', 'Offshore Wind Turbine']
+2023-10-26 11:54:22 [    INFO] powergenome.generators:3495 
+ **************** 
+Distributed generation is being added as generating resources. The capacity of DG in each region is increased by 4.530000% to account for no distribution losses.
+
+2023-10-26 11:54:22 [ WARNING] powergenome.distributed_gen:168 No distributed generation for the regions {'DC'} was found in your distributed generation data for the scenario MidCase. This is an informational warning -- check your data file if you think there should be distributed generation data in this/these region(s).
+2023-10-26 11:54:23 [    INFO] powergenome.generators:247 Adding non-fuel startup costs
+2023-10-26 11:54:23 [    INFO] powergenome.generators:254 Changing non-fuel VOM costs from 2011 to 2020
+2023-10-26 11:54:23 [    INFO] powergenome.generators:267 Changing non-fuel startup costs from 2011 to 2020
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_1 ('CapRes_1')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_2 ('CapRes_2')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_3 ('CapRes_3')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_4 ('CapRes_4')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_5 ('CapRes_5')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_6 ('CapRes_6')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_7 ('CapRes_7')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_8 ('CapRes_8')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_9 ('CapRes_9')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_10 ('CapRes_10')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_1 ('ESR_1')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_2 ('ESR_2')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_3 ('ESR_3')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_4 ('ESR_4')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_5 ('ESR_5')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_6 ('ESR_6')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_7 ('ESR_7')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_8 ('ESR_8')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_9 ('ESR_9')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_10 ('ESR_10')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_11 ('ESR_11')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_12 ('ESR_12')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_13 ('ESR_13')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_14 ('ESR_14')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_15 ('ESR_15')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_16 ('ESR_16')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_2 ('MinCapTag_2')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_3 ('MinCapTag_3')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_4 ('MinCapTag_4')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_5 ('MinCapTag_5')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Source ('Retro1_Source')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Inv_Cost_per_MWyr ('Retro1_Inv_Cost_per_MWyr')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Source ('Retro2_Source')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Source ('Retro3_Source')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Inv_Cost_per_MWyr ('Retro2_Inv_Cost_per_MWyr')
+2023-10-26 11:54:23 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Inv_Cost_per_MWyr ('Retro3_Inv_Cost_per_MWyr')
+2023-10-26 11:54:25 [    INFO] powergenome.nrelatb:70 Loading NREL ATB data
+2023-10-26 11:54:25 [    INFO] powergenome.nrelatb:176 Using UtilityPV Market WACC for Battery storage.
+2023-10-26 11:54:25 [    INFO] powergenome.nrelatb:261 PV costs are already in AC units, not inflating the cost.
+2023-10-26 11:54:25 [    INFO] powergenome.nrelatb:1058 Creating new resources for each region.
+2023-10-26 11:54:33 [    INFO] powergenome.generators:247 Adding non-fuel startup costs
+2023-10-26 11:54:33 [    INFO] powergenome.generators:254 Changing non-fuel VOM costs from 2011 to 2020
+2023-10-26 11:54:33 [    INFO] powergenome.generators:267 Changing non-fuel startup costs from 2011 to 2020
+2023-10-26 11:54:33 [    INFO] powergenome.external_data:173 Inflating external interconnect annuity costs from 2017 to 2020
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:2469 Transmission investment costs are missing or zero for some resources and will not be included in the total investment costs.
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:2904 A demand response file is included in extra inputs but the parameter `flexible_demand_resources` is not in the settings file. No demand response resources will be included with the generators.
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_1 ('CapRes_1')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_2 ('CapRes_2')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_3 ('CapRes_3')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_4 ('CapRes_4')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_5 ('CapRes_5')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_6 ('CapRes_6')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_7 ('CapRes_7')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_8 ('CapRes_8')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_9 ('CapRes_9')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_10 ('CapRes_10')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_1 ('ESR_1')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_2 ('ESR_2')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_3 ('ESR_3')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_4 ('ESR_4')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_5 ('ESR_5')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_6 ('ESR_6')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_7 ('ESR_7')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_8 ('ESR_8')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_9 ('ESR_9')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_10 ('ESR_10')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_11 ('ESR_11')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_12 ('ESR_12')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_13 ('ESR_13')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_14 ('ESR_14')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_15 ('ESR_15')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_16 ('ESR_16')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_2 ('MinCapTag_2')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_3 ('MinCapTag_3')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_4 ('MinCapTag_4')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_5 ('MinCapTag_5')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Source ('Retro1_Source')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Inv_Cost_per_MWyr ('Retro1_Inv_Cost_per_MWyr')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Source ('Retro2_Source')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Source ('Retro3_Source')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Inv_Cost_per_MWyr ('Retro2_Inv_Cost_per_MWyr')
+2023-10-26 11:54:33 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Inv_Cost_per_MWyr ('Retro3_Inv_Cost_per_MWyr')
+2023-10-26 11:54:34 [    INFO] powergenome.generators:3676 Capacity of 1054437.0429999998 MW in final clusters
+2023-10-26 11:54:35 [    INFO] powergenome.GenX:936 0 resources have Min_Power larger than hourly generation.
+2023-10-26 11:54:35 [    INFO] powergenome.load_profiles:618 Loading load curves
+2023-10-26 11:54:35 [ WARNING] powergenome.load_profiles:637 
+            *****************************
+            Regional load data sources have not been specified. Defaulting to EFS load data.
+            Check your settings file, and please specify the preferred source for load data
+            (FERC, EFS, USER) either for each region or for the entire system with the setting
+            "regional_load_source".
+            *****************************
+            
+2023-10-26 11:54:35 [    INFO] powergenome.load_profiles:123 Loading load curves from PUDL
+2023-10-26 11:54:50 [    INFO] powergenome.load_profiles:187 Aggregating load curves in grouped regions
+2023-10-26 11:55:06 [ WARNING] powergenome.transmission:66 No transmission value column (e.g. firm vs non-firm) was specified in the settings. The column 'firm_ttc_mw' will be used as a default. This is a change from previous versions of PG, where 'nonfirm_ttc_mw' was used. Firm transmission capacity is lower or equal to non-firm capacity.
+2023-10-26 11:55:06 [    INFO] powergenome.transmission:81 Loading transmission constraints from PUDL
+2023-10-26 11:55:06 [ WARNING] powergenome.transmission:136 The user transmission capacity table duplicates values from the database. Database values will be discarded in favor of user values.
+2023-10-26 11:55:06 [    INFO] powergenome.transmission:165 Map and aggregate region names for transmission constraints
+2023-10-26 11:55:06 [    INFO] powergenome.transmission:186 Build a new transmission constraints dataframe with a single line between regions
+2023-10-26 11:55:07 [    INFO] powergenome.GenX:95 Only one zone was found in the emissions policy file. The same emission policies are being applied to all zones.
+2023-10-26 11:55:08 [    INFO] powergenome:261 Starting year 2050 scenario base_thin
+
+2023-10-26 11:55:11 [    INFO] powergenome.generators:2817 Loading map of plants to IPM regions
+2023-10-26 11:55:13 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyCoal Integrated Gasification Combined Cycle changed capacity from 779.0 to 965.5
+********************************
+2023-10-26 11:55:13 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyConventional Hydroelectric changed capacity from 78222.4 to 78413.0
+********************************
+2023-10-26 11:55:13 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyNatural Gas Fired Combined Cycle changed capacity from 284907.7 to 288264.5
+********************************
+2023-10-26 11:55:13 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyNatural Gas Fired Combustion Turbine changed capacity from 138698.5 to 141214.1
+********************************
+2023-10-26 11:55:13 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyNatural Gas Steam Turbine changed capacity from 69963.6 to 70254.7
+********************************
+2023-10-26 11:55:13 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyPetroleum Liquids changed capacity from 25339.6 to 25397.0
+********************************
+2023-10-26 11:55:13 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologySolar Photovoltaic changed capacity from 24438.8 to 24536.9
+********************************
+2023-10-26 11:55:13 [    INFO] powergenome.generators:535 Changing retirement dates based on settings file
+2023-10-26 11:55:13 [    INFO] powergenome.generators:540 Starting retirement capacity is 476966.0 MW
+2023-10-26 11:55:14 [    INFO] powergenome.generators:562 Ending retirement capacity is 477164.2 MW
+2023-10-26 11:55:14 [    INFO] powergenome.generators:572 The retirement year for 162 plants, totaling 6823.5 MW, was changed based on settings file parameters
+2023-10-26 11:55:14 [    INFO] powergenome.generators:535 Changing retirement dates based on settings file
+2023-10-26 11:55:14 [    INFO] powergenome.generators:540 Starting retirement capacity is 478469.3 MW
+2023-10-26 11:55:14 [    INFO] powergenome.generators:562 Ending retirement capacity is 478469.3 MW
+2023-10-26 11:55:14 [    INFO] powergenome.generators:572 The retirement year for 162 plants, totaling 6823.5 MW, was changed based on settings file parameters
+2023-10-26 11:55:14 [    INFO] powergenome.generators:3066 Loading heat rate data for units and generator/fuel combinations
+2023-10-26 11:55:14 [    INFO] powergenome.generators:3088 Units model technologies are ['Small Hydroelectric', 'Conventional Hydroelectric', 'Biomass', 'Batteries', 'Solar Photovoltaic', 'Natural Gas Fired Combustion Turbine', 'Onshore Wind Turbine', 'Petroleum Liquids', 'Natural Gas Internal Combustion Engine', 'Other Natural Gas', 'Natural Gas Fired Combined Cycle', 'All Other', 'Geothermal', 'Natural Gas Steam Turbine', 'Offshore Wind Turbine', 'Petroleum Coke', 'Other Gases', 'Hydroelectric Pumped Storage', 'Flywheels', 'Solar Thermal without Energy Storage', 'Solar Thermal with Energy Storage', 'Conventional Steam Coal', 'Nuclear', 'Coal Integrated Gasification Combined Cycle', 'Natural Gas with Compressed Air Storage']
+2023-10-26 11:55:14 [    INFO] powergenome.generators:3094 Assigning technology/fuel heat rates where unit heat rates are not available
+2023-10-26 11:55:14 [    INFO] powergenome.generators:3143 Units model technologies are ['Small Hydroelectric', 'Conventional Hydroelectric', 'Biomass', 'Batteries', 'Solar Photovoltaic', 'Natural Gas Fired Combustion Turbine', 'Onshore Wind Turbine', 'Petroleum Liquids', 'Natural Gas Internal Combustion Engine', 'Other Natural Gas', 'Natural Gas Fired Combined Cycle', 'All Other', 'Geothermal', 'Natural Gas Steam Turbine', 'Offshore Wind Turbine', 'Petroleum Coke', 'Other Gases', 'Hydroelectric Pumped Storage', 'Flywheels', 'Solar Thermal without Energy Storage', 'Solar Thermal with Energy Storage', 'Conventional Steam Coal', 'Nuclear', 'Coal Integrated Gasification Combined Cycle', 'Natural Gas with Compressed Air Storage']
+2023-10-26 11:55:14 [    INFO] powergenome.generators:3148 Before adding proposed generators, 17602 units with 1045710.2000000001 MW capacity
+2023-10-26 11:55:14 [ WARNING] powergenome.generators:1652 Some generators do not have lon/lat data. Check the source file to determine if they should be included in results. 
+The affected generators account for 4.5 in balancing authorities: 
+['CISO']
+2023-10-26 11:55:14 [    INFO] powergenome.generators:1869 0 generators were added to the planned list based on settings
+2023-10-26 11:55:14 [ WARNING] powergenome.generators:1908 The EIA860 file has 1 proposed generator(s) without a technology description. The plant IDs are [66599], and they have a combined capcity of 0.3 MW.
+2023-10-26 11:55:14 [    INFO] powergenome.generators:577 No retirement dates changed based on the settings file
+2023-10-26 11:55:22 [    INFO] powergenome.generators:577 No retirement dates changed based on the settings file
+2023-10-26 11:55:22 [    INFO] powergenome.generators:3176 Proposed gen technologies are ['Batteries', 'Solar Photovoltaic', 'Onshore Wind Turbine', 'All Other', 'Natural Gas Fired Combustion Turbine', 'Natural Gas Fired Combined Cycle', 'Biomass', 'Natural Gas Internal Combustion Engine', 'Conventional Hydroelectric', 'Natural Gas Steam Turbine', 'Other Natural Gas', 'Petroleum Liquids', 'Nuclear', nan]
+2023-10-26 11:55:22 [    INFO] powergenome.generators:3180 73269.70000000001 MW proposed
+2023-10-26 11:55:22 [ WARNING] powergenome.generators:2569 
+
+**************************
+The storage technology(ies) ['Flywheels'] have some existing generators with energy capacity (MWh) values and some where the energy capacity is missing. You have not included these technologies in the settings parameter 'energy_storage_duration', which is used to fill missing energy capacity data.
+
+NOTE: This is not a comprehensive list of technologies that *should* be included in 'energy_storage_duration'. Technologies without any existing energy capacity data might also be missing.
+**************************
+
+2023-10-26 11:55:23 [    INFO] powergenome.generators:3234 Calculating plant O&M costs
+2023-10-26 11:55:23 [    INFO] powergenome.nrelatb:414 Adding fixed and variable O&M for existing plants
+2023-10-26 11:55:25 [    INFO] powergenome.generators:3252 After adding proposed generators, 25251 units with 1275689.0 MW capacity
+2023-10-26 11:55:25 [    INFO] powergenome.generators:3289 Creating technology clusters by region
+2023-10-26 11:55:28 [    INFO] powergenome.generators:3400 Finalizing generation clusters
+2023-10-26 11:55:28 [    INFO] powergenome.generators:3402 Results technologies are ['Biomass', 'Conventional Hydroelectric', 'Conventional Steam Coal', 'Geothermal', 'Natural Gas Fired Combined Cycle', 'Natural Gas Fired Combustion Turbine', 'Natural Gas Internal Combustion Engine', 'Onshore Wind Turbine', 'Small Hydroelectric', 'Solar Photovoltaic', 'Hydroelectric Pumped Storage', 'Natural Gas Steam Turbine', 'Petroleum Liquids', 'Nuclear']
+2023-10-26 11:55:32 [    INFO] powergenome.generators:3495 
+ **************** 
+Distributed generation is being added as generating resources. The capacity of DG in each region is increased by 4.530000% to account for no distribution losses.
+
+2023-10-26 11:55:32 [ WARNING] powergenome.distributed_gen:168 No distributed generation for the regions {'DC'} was found in your distributed generation data for the scenario MidCase. This is an informational warning -- check your data file if you think there should be distributed generation data in this/these region(s).
+2023-10-26 11:55:32 [    INFO] powergenome.generators:247 Adding non-fuel startup costs
+2023-10-26 11:55:32 [    INFO] powergenome.generators:254 Changing non-fuel VOM costs from 2011 to 2020
+2023-10-26 11:55:32 [    INFO] powergenome.generators:267 Changing non-fuel startup costs from 2011 to 2020
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_1 ('CapRes_1')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_2 ('CapRes_2')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_3 ('CapRes_3')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_4 ('CapRes_4')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_5 ('CapRes_5')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_6 ('CapRes_6')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_7 ('CapRes_7')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_8 ('CapRes_8')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_9 ('CapRes_9')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_10 ('CapRes_10')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_1 ('ESR_1')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_2 ('ESR_2')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_3 ('ESR_3')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_4 ('ESR_4')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_5 ('ESR_5')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_6 ('ESR_6')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_7 ('ESR_7')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_8 ('ESR_8')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_9 ('ESR_9')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_10 ('ESR_10')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_11 ('ESR_11')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_12 ('ESR_12')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_13 ('ESR_13')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_14 ('ESR_14')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_15 ('ESR_15')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_16 ('ESR_16')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_2 ('MinCapTag_2')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_3 ('MinCapTag_3')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_4 ('MinCapTag_4')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_5 ('MinCapTag_5')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Source ('Retro1_Source')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Inv_Cost_per_MWyr ('Retro1_Inv_Cost_per_MWyr')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Source ('Retro2_Source')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Source ('Retro3_Source')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Inv_Cost_per_MWyr ('Retro2_Inv_Cost_per_MWyr')
+2023-10-26 11:55:32 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Inv_Cost_per_MWyr ('Retro3_Inv_Cost_per_MWyr')
+2023-10-26 11:55:34 [    INFO] powergenome.nrelatb:70 Loading NREL ATB data
+2023-10-26 11:55:34 [    INFO] powergenome.nrelatb:176 Using UtilityPV Market WACC for Battery storage.
+2023-10-26 11:55:35 [    INFO] powergenome.nrelatb:261 PV costs are already in AC units, not inflating the cost.
+2023-10-26 11:55:35 [    INFO] powergenome.nrelatb:1058 Creating new resources for each region.
+2023-10-26 11:55:44 [    INFO] powergenome.generators:247 Adding non-fuel startup costs
+2023-10-26 11:55:44 [    INFO] powergenome.generators:254 Changing non-fuel VOM costs from 2011 to 2020
+2023-10-26 11:55:44 [    INFO] powergenome.generators:267 Changing non-fuel startup costs from 2011 to 2020
+2023-10-26 11:55:44 [    INFO] powergenome.external_data:173 Inflating external interconnect annuity costs from 2017 to 2020
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:2469 Transmission investment costs are missing or zero for some resources and will not be included in the total investment costs.
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:2904 A demand response file is included in extra inputs but the parameter `flexible_demand_resources` is not in the settings file. No demand response resources will be included with the generators.
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_1 ('CapRes_1')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_2 ('CapRes_2')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_3 ('CapRes_3')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_4 ('CapRes_4')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_5 ('CapRes_5')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_6 ('CapRes_6')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_7 ('CapRes_7')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_8 ('CapRes_8')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_9 ('CapRes_9')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_10 ('CapRes_10')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_1 ('ESR_1')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_2 ('ESR_2')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_3 ('ESR_3')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_4 ('ESR_4')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_5 ('ESR_5')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_6 ('ESR_6')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_7 ('ESR_7')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_8 ('ESR_8')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_9 ('ESR_9')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_10 ('ESR_10')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_11 ('ESR_11')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_12 ('ESR_12')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_13 ('ESR_13')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_14 ('ESR_14')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_15 ('ESR_15')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_16 ('ESR_16')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_2 ('MinCapTag_2')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_3 ('MinCapTag_3')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_4 ('MinCapTag_4')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_5 ('MinCapTag_5')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Source ('Retro1_Source')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Inv_Cost_per_MWyr ('Retro1_Inv_Cost_per_MWyr')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Source ('Retro2_Source')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Source ('Retro3_Source')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Inv_Cost_per_MWyr ('Retro2_Inv_Cost_per_MWyr')
+2023-10-26 11:55:44 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Inv_Cost_per_MWyr ('Retro3_Inv_Cost_per_MWyr')
+2023-10-26 11:55:44 [    INFO] powergenome.generators:3676 Capacity of 829090.04 MW in final clusters
+2023-10-26 11:55:46 [    INFO] powergenome.GenX:936 0 resources have Min_Power larger than hourly generation.
+2023-10-26 11:55:46 [    INFO] powergenome.load_profiles:618 Loading load curves
+2023-10-26 11:55:46 [ WARNING] powergenome.load_profiles:637 
+            *****************************
+            Regional load data sources have not been specified. Defaulting to EFS load data.
+            Check your settings file, and please specify the preferred source for load data
+            (FERC, EFS, USER) either for each region or for the entire system with the setting
+            "regional_load_source".
+            *****************************
+            
+2023-10-26 11:55:46 [    INFO] powergenome.load_profiles:123 Loading load curves from PUDL
+2023-10-26 11:56:00 [    INFO] powergenome.load_profiles:187 Aggregating load curves in grouped regions
+2023-10-26 11:56:14 [ WARNING] powergenome.transmission:66 No transmission value column (e.g. firm vs non-firm) was specified in the settings. The column 'firm_ttc_mw' will be used as a default. This is a change from previous versions of PG, where 'nonfirm_ttc_mw' was used. Firm transmission capacity is lower or equal to non-firm capacity.
+2023-10-26 11:56:14 [    INFO] powergenome.transmission:81 Loading transmission constraints from PUDL
+2023-10-26 11:56:14 [ WARNING] powergenome.transmission:136 The user transmission capacity table duplicates values from the database. Database values will be discarded in favor of user values.
+2023-10-26 11:56:14 [    INFO] powergenome.transmission:165 Map and aggregate region names for transmission constraints
+2023-10-26 11:56:14 [    INFO] powergenome.transmission:186 Build a new transmission constraints dataframe with a single line between regions
+2023-10-26 11:56:16 [    INFO] powergenome.GenX:95 Only one zone was found in the emissions policy file. The same emission policies are being applied to all zones.
+2023-10-27 16:09:10 [    INFO] powergenome:174 Reading settings file
+2023-10-27 16:09:10 [ WARNING] powergenome.util:214 
+            The settings parameter named data_years has been changed to eia_data_years. Please correct it in
+            your settings file.
+
+            
+2023-10-27 16:09:10 [    INFO] powergenome:185 Initiating PUDL connections
+2023-10-27 16:09:10 [ WARNING] powergenome.util:355 
+    *****************************
+    The ATB technology "NaturalGas_CCCCSAvgCF" listed in your settings file under 'atb_new_gen'
+    is not fully specified in the 'cost_multiplier_technology_map' settings parameter.
+    Part of the <tech>_<tech_detail> string might be included, but it is best practice to
+    include the full name in this format. Check your settings file.
+        
+2023-10-27 16:09:11 [    INFO] powergenome:217 Sorted zones are BASN, CANO, CASO, FRCC, ISNE, MISC, MISE, MISS, MISW, NWPP, NYCW, NYUP, PJMC, PJMD, PJME, PJMW, RMRG, SPPC, SPPN, SPPS, SRCA, SRCE, SRSE, SRSG, TRE, TRE_WEST
+2023-10-27 16:09:11 [ WARNING] powergenome:241 The years included the secenario definitions file ({2040, 2050, 2030}) does not match the settings parameter `model_year` ([2025, 2030, 2035, 2040, 2045, 2050])
+2023-10-27 16:09:11 [ WARNING] powergenome.util:904 The parameter value 'no' from column 'ira' in your scenario definitions file is not included in the 'settings_management' dictionary. Settings for case id 'base_thin_8760' will not be modified to reflect this scenario.
+2023-10-27 16:09:11 [ WARNING] powergenome.util:904 The parameter value 'yes' from column 'policies' in your scenario definitions file is not included in the 'settings_management' dictionary. Settings for case id 'base_thin_8760' will not be modified to reflect this scenario.
+2023-10-27 16:09:11 [ WARNING] powergenome.util:904 The parameter value 'no' from column 'ira' in your scenario definitions file is not included in the 'settings_management' dictionary. Settings for case id 'base_thin_8760' will not be modified to reflect this scenario.
+2023-10-27 16:09:11 [ WARNING] powergenome.util:904 The parameter value 'yes' from column 'policies' in your scenario definitions file is not included in the 'settings_management' dictionary. Settings for case id 'base_thin_8760' will not be modified to reflect this scenario.
+2023-10-27 16:09:11 [ WARNING] powergenome.util:904 The parameter value 'no' from column 'ira' in your scenario definitions file is not included in the 'settings_management' dictionary. Settings for case id 'base_thin_8760' will not be modified to reflect this scenario.
+2023-10-27 16:09:11 [ WARNING] powergenome.util:904 The parameter value 'yes' from column 'policies' in your scenario definitions file is not included in the 'settings_management' dictionary. Settings for case id 'base_thin_8760' will not be modified to reflect this scenario.
+2023-10-27 16:09:11 [    INFO] powergenome:261 Starting year 2030 scenario base_thin_8760
+
+2023-10-27 16:09:16 [    INFO] powergenome.generators:2817 Loading map of plants to IPM regions
+2023-10-27 16:09:19 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyCoal Integrated Gasification Combined Cycle changed capacity from 779.0 to 965.5
+********************************
+2023-10-27 16:09:19 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyConventional Hydroelectric changed capacity from 78222.4 to 78413.0
+********************************
+2023-10-27 16:09:19 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyNatural Gas Fired Combined Cycle changed capacity from 284907.7 to 288264.5
+********************************
+2023-10-27 16:09:19 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyNatural Gas Fired Combustion Turbine changed capacity from 138698.5 to 141214.1
+********************************
+2023-10-27 16:09:19 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyNatural Gas Steam Turbine changed capacity from 69963.6 to 70254.7
+********************************
+2023-10-27 16:09:19 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyPetroleum Liquids changed capacity from 25339.6 to 25397.0
+********************************
+2023-10-27 16:09:19 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologySolar Photovoltaic changed capacity from 24438.8 to 24536.9
+********************************
+2023-10-27 16:09:19 [    INFO] powergenome.generators:535 Changing retirement dates based on settings file
+2023-10-27 16:09:19 [    INFO] powergenome.generators:540 Starting retirement capacity is 162010.9 MW
+2023-10-27 16:09:20 [    INFO] powergenome.generators:562 Ending retirement capacity is 162998.9 MW
+2023-10-27 16:09:20 [    INFO] powergenome.generators:572 The retirement year for 162 plants, totaling 6823.5 MW, was changed based on settings file parameters
+2023-10-27 16:09:20 [    INFO] powergenome.generators:535 Changing retirement dates based on settings file
+2023-10-27 16:09:20 [    INFO] powergenome.generators:540 Starting retirement capacity is 162998.9 MW
+2023-10-27 16:09:20 [    INFO] powergenome.generators:562 Ending retirement capacity is 162998.9 MW
+2023-10-27 16:09:20 [    INFO] powergenome.generators:572 The retirement year for 162 plants, totaling 6823.5 MW, was changed based on settings file parameters
+2023-10-27 16:09:20 [    INFO] powergenome.generators:3066 Loading heat rate data for units and generator/fuel combinations
+2023-10-27 16:09:25 [    INFO] powergenome.generators:3088 Units model technologies are ['Small Hydroelectric', 'Conventional Hydroelectric', 'Biomass', 'Batteries', 'Solar Photovoltaic', 'Natural Gas Fired Combustion Turbine', 'Onshore Wind Turbine', 'Petroleum Liquids', 'Natural Gas Internal Combustion Engine', 'Other Natural Gas', 'Natural Gas Fired Combined Cycle', 'All Other', 'Geothermal', 'Natural Gas Steam Turbine', 'Offshore Wind Turbine', 'Petroleum Coke', 'Other Gases', 'Hydroelectric Pumped Storage', 'Flywheels', 'Solar Thermal without Energy Storage', 'Solar Thermal with Energy Storage', 'Conventional Steam Coal', 'Nuclear', 'Coal Integrated Gasification Combined Cycle', 'Natural Gas with Compressed Air Storage']
+2023-10-27 16:09:25 [    INFO] powergenome.generators:3094 Assigning technology/fuel heat rates where unit heat rates are not available
+2023-10-27 16:09:25 [    INFO] powergenome.generators:3143 Units model technologies are ['Small Hydroelectric', 'Conventional Hydroelectric', 'Biomass', 'Batteries', 'Solar Photovoltaic', 'Natural Gas Fired Combustion Turbine', 'Onshore Wind Turbine', 'Petroleum Liquids', 'Natural Gas Internal Combustion Engine', 'Other Natural Gas', 'Natural Gas Fired Combined Cycle', 'All Other', 'Geothermal', 'Natural Gas Steam Turbine', 'Offshore Wind Turbine', 'Petroleum Coke', 'Other Gases', 'Hydroelectric Pumped Storage', 'Flywheels', 'Solar Thermal without Energy Storage', 'Solar Thermal with Energy Storage', 'Conventional Steam Coal', 'Nuclear', 'Coal Integrated Gasification Combined Cycle', 'Natural Gas with Compressed Air Storage']
+2023-10-27 16:09:25 [    INFO] powergenome.generators:3148 Before adding proposed generators, 17602 units with 1045710.2000000001 MW capacity
+2023-10-27 16:09:25 [ WARNING] powergenome.generators:1652 Some generators do not have lon/lat data. Check the source file to determine if they should be included in results. 
+The affected generators account for 4.5 in balancing authorities: 
+['CISO']
+2023-10-27 16:09:25 [    INFO] powergenome.generators:1869 0 generators were added to the planned list based on settings
+2023-10-27 16:09:25 [ WARNING] powergenome.generators:1908 The EIA860 file has 1 proposed generator(s) without a technology description. The plant IDs are [66599], and they have a combined capcity of 0.3 MW.
+2023-10-27 16:09:25 [    INFO] powergenome.generators:577 No retirement dates changed based on the settings file
+2023-10-27 16:09:33 [    INFO] powergenome.generators:577 No retirement dates changed based on the settings file
+2023-10-27 16:09:33 [    INFO] powergenome.generators:3176 Proposed gen technologies are ['Batteries', 'Solar Photovoltaic', 'Onshore Wind Turbine', 'All Other', 'Natural Gas Fired Combustion Turbine', 'Natural Gas Fired Combined Cycle', 'Biomass', 'Natural Gas Internal Combustion Engine', 'Conventional Hydroelectric', 'Natural Gas Steam Turbine', 'Other Natural Gas', 'Petroleum Liquids', 'Nuclear', nan]
+2023-10-27 16:09:33 [    INFO] powergenome.generators:3180 73269.70000000001 MW proposed
+2023-10-27 16:09:33 [ WARNING] powergenome.generators:2569 
+
+**************************
+The storage technology(ies) ['Flywheels'] have some existing generators with energy capacity (MWh) values and some where the energy capacity is missing. You have not included these technologies in the settings parameter 'energy_storage_duration', which is used to fill missing energy capacity data.
+
+NOTE: This is not a comprehensive list of technologies that *should* be included in 'energy_storage_duration'. Technologies without any existing energy capacity data might also be missing.
+**************************
+
+2023-10-27 16:09:34 [    INFO] powergenome.generators:3234 Calculating plant O&M costs
+2023-10-27 16:09:34 [    INFO] powergenome.nrelatb:414 Adding fixed and variable O&M for existing plants
+2023-10-27 16:09:36 [    INFO] powergenome.generators:3252 After adding proposed generators, 25251 units with 1275689.0 MW capacity
+2023-10-27 16:09:36 [    INFO] powergenome.generators:3289 Creating technology clusters by region
+2023-10-27 16:09:40 [    INFO] powergenome.generators:3400 Finalizing generation clusters
+2023-10-27 16:09:40 [    INFO] powergenome.generators:3402 Results technologies are ['Batteries', 'Biomass', 'Conventional Hydroelectric', 'Conventional Steam Coal', 'Geothermal', 'Natural Gas Fired Combined Cycle', 'Natural Gas Fired Combustion Turbine', 'Natural Gas Internal Combustion Engine', 'Natural Gas Steam Turbine', 'Onshore Wind Turbine', 'Petroleum Liquids', 'Small Hydroelectric', 'Solar Photovoltaic', 'Hydroelectric Pumped Storage', 'Nuclear', 'Offshore Wind Turbine']
+2023-10-27 16:09:43 [    INFO] powergenome.generators:3495 
+ **************** 
+Distributed generation is being added as generating resources. The capacity of DG in each region is increased by 4.530000% to account for no distribution losses.
+
+2023-10-27 16:09:43 [ WARNING] powergenome.distributed_gen:168 No distributed generation for the regions {'DC'} was found in your distributed generation data for the scenario MidCase. This is an informational warning -- check your data file if you think there should be distributed generation data in this/these region(s).
+2023-10-27 16:09:44 [    INFO] powergenome.generators:247 Adding non-fuel startup costs
+2023-10-27 16:09:44 [    INFO] powergenome.generators:254 Changing non-fuel VOM costs from 2011 to 2020
+2023-10-27 16:09:44 [    INFO] powergenome.generators:267 Changing non-fuel startup costs from 2011 to 2020
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_1 ('CapRes_1')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_2 ('CapRes_2')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_3 ('CapRes_3')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_4 ('CapRes_4')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_5 ('CapRes_5')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_6 ('CapRes_6')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_7 ('CapRes_7')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_8 ('CapRes_8')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_9 ('CapRes_9')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_10 ('CapRes_10')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_1 ('ESR_1')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_2 ('ESR_2')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_3 ('ESR_3')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_4 ('ESR_4')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_5 ('ESR_5')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_6 ('ESR_6')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_7 ('ESR_7')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_8 ('ESR_8')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_9 ('ESR_9')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_10 ('ESR_10')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_11 ('ESR_11')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_12 ('ESR_12')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_13 ('ESR_13')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_14 ('ESR_14')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_15 ('ESR_15')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_16 ('ESR_16')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_2 ('MinCapTag_2')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_3 ('MinCapTag_3')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_4 ('MinCapTag_4')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_5 ('MinCapTag_5')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Source ('Retro1_Source')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Inv_Cost_per_MWyr ('Retro1_Inv_Cost_per_MWyr')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Source ('Retro2_Source')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Source ('Retro3_Source')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Inv_Cost_per_MWyr ('Retro2_Inv_Cost_per_MWyr')
+2023-10-27 16:09:44 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Inv_Cost_per_MWyr ('Retro3_Inv_Cost_per_MWyr')
+2023-10-27 16:09:46 [    INFO] powergenome.nrelatb:70 Loading NREL ATB data
+2023-10-27 16:09:46 [    INFO] powergenome.nrelatb:176 Using UtilityPV Market WACC for Battery storage.
+2023-10-27 16:09:46 [    INFO] powergenome.nrelatb:261 PV costs are already in AC units, not inflating the cost.
+2023-10-27 16:09:46 [    INFO] powergenome.nrelatb:1058 Creating new resources for each region.
+2023-10-27 16:09:55 [    INFO] powergenome.generators:247 Adding non-fuel startup costs
+2023-10-27 16:09:55 [    INFO] powergenome.generators:254 Changing non-fuel VOM costs from 2011 to 2020
+2023-10-27 16:09:55 [    INFO] powergenome.generators:267 Changing non-fuel startup costs from 2011 to 2020
+2023-10-27 16:09:56 [    INFO] powergenome.external_data:173 Inflating external interconnect annuity costs from 2017 to 2020
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:2469 Transmission investment costs are missing or zero for some resources and will not be included in the total investment costs.
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:2904 A demand response file is included in extra inputs but the parameter `flexible_demand_resources` is not in the settings file. No demand response resources will be included with the generators.
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_1 ('CapRes_1')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_2 ('CapRes_2')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_3 ('CapRes_3')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_4 ('CapRes_4')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_5 ('CapRes_5')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_6 ('CapRes_6')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_7 ('CapRes_7')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_8 ('CapRes_8')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_9 ('CapRes_9')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_10 ('CapRes_10')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_1 ('ESR_1')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_2 ('ESR_2')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_3 ('ESR_3')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_4 ('ESR_4')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_5 ('ESR_5')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_6 ('ESR_6')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_7 ('ESR_7')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_8 ('ESR_8')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_9 ('ESR_9')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_10 ('ESR_10')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_11 ('ESR_11')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_12 ('ESR_12')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_13 ('ESR_13')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_14 ('ESR_14')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_15 ('ESR_15')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_16 ('ESR_16')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_2 ('MinCapTag_2')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_3 ('MinCapTag_3')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_4 ('MinCapTag_4')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_5 ('MinCapTag_5')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Source ('Retro1_Source')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Inv_Cost_per_MWyr ('Retro1_Inv_Cost_per_MWyr')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Source ('Retro2_Source')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Source ('Retro3_Source')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Inv_Cost_per_MWyr ('Retro2_Inv_Cost_per_MWyr')
+2023-10-27 16:09:56 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Inv_Cost_per_MWyr ('Retro3_Inv_Cost_per_MWyr')
+2023-10-27 16:09:56 [    INFO] powergenome.generators:3676 Capacity of 1169976.8370000003 MW in final clusters
+2023-10-27 16:09:58 [    INFO] powergenome.GenX:936 0 resources have Min_Power larger than hourly generation.
+2023-10-27 16:09:58 [    INFO] powergenome.load_profiles:618 Loading load curves
+2023-10-27 16:09:58 [ WARNING] powergenome.load_profiles:637 
+            *****************************
+            Regional load data sources have not been specified. Defaulting to EFS load data.
+            Check your settings file, and please specify the preferred source for load data
+            (FERC, EFS, USER) either for each region or for the entire system with the setting
+            "regional_load_source".
+            *****************************
+            
+2023-10-27 16:09:58 [    INFO] powergenome.load_profiles:123 Loading load curves from PUDL
+2023-10-27 16:10:13 [    INFO] powergenome.load_profiles:187 Aggregating load curves in grouped regions
+2023-10-27 16:10:24 [ WARNING] powergenome.transmission:66 No transmission value column (e.g. firm vs non-firm) was specified in the settings. The column 'firm_ttc_mw' will be used as a default. This is a change from previous versions of PG, where 'nonfirm_ttc_mw' was used. Firm transmission capacity is lower or equal to non-firm capacity.
+2023-10-27 16:10:24 [    INFO] powergenome.transmission:81 Loading transmission constraints from PUDL
+2023-10-27 16:10:24 [ WARNING] powergenome.transmission:136 The user transmission capacity table duplicates values from the database. Database values will be discarded in favor of user values.
+2023-10-27 16:10:24 [    INFO] powergenome.transmission:165 Map and aggregate region names for transmission constraints
+2023-10-27 16:10:24 [    INFO] powergenome.transmission:186 Build a new transmission constraints dataframe with a single line between regions
+2023-10-27 16:10:26 [    INFO] powergenome.GenX:95 Only one zone was found in the emissions policy file. The same emission policies are being applied to all zones.
+2023-10-27 16:10:27 [    INFO] powergenome:261 Starting year 2040 scenario base_thin_8760
+
+2023-10-27 16:10:30 [    INFO] powergenome.generators:2817 Loading map of plants to IPM regions
+2023-10-27 16:10:32 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyCoal Integrated Gasification Combined Cycle changed capacity from 779.0 to 965.5
+********************************
+2023-10-27 16:10:32 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyConventional Hydroelectric changed capacity from 78222.4 to 78413.0
+********************************
+2023-10-27 16:10:32 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyNatural Gas Fired Combined Cycle changed capacity from 284907.7 to 288264.5
+********************************
+2023-10-27 16:10:32 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyNatural Gas Fired Combustion Turbine changed capacity from 138698.5 to 141214.1
+********************************
+2023-10-27 16:10:32 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyNatural Gas Steam Turbine changed capacity from 69963.6 to 70254.7
+********************************
+2023-10-27 16:10:32 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyPetroleum Liquids changed capacity from 25339.6 to 25397.0
+********************************
+2023-10-27 16:10:32 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologySolar Photovoltaic changed capacity from 24438.8 to 24536.9
+********************************
+2023-10-27 16:10:32 [    INFO] powergenome.generators:535 Changing retirement dates based on settings file
+2023-10-27 16:10:32 [    INFO] powergenome.generators:540 Starting retirement capacity is 289644.8 MW
+2023-10-27 16:10:32 [    INFO] powergenome.generators:562 Ending retirement capacity is 290009.0 MW
+2023-10-27 16:10:32 [    INFO] powergenome.generators:572 The retirement year for 162 plants, totaling 6823.5 MW, was changed based on settings file parameters
+2023-10-27 16:10:32 [    INFO] powergenome.generators:535 Changing retirement dates based on settings file
+2023-10-27 16:10:32 [    INFO] powergenome.generators:540 Starting retirement capacity is 290046.10000000003 MW
+2023-10-27 16:10:32 [    INFO] powergenome.generators:562 Ending retirement capacity is 290046.10000000003 MW
+2023-10-27 16:10:32 [    INFO] powergenome.generators:572 The retirement year for 162 plants, totaling 6823.5 MW, was changed based on settings file parameters
+2023-10-27 16:10:32 [    INFO] powergenome.generators:3066 Loading heat rate data for units and generator/fuel combinations
+2023-10-27 16:10:33 [    INFO] powergenome.generators:3088 Units model technologies are ['Small Hydroelectric', 'Conventional Hydroelectric', 'Biomass', 'Batteries', 'Solar Photovoltaic', 'Natural Gas Fired Combustion Turbine', 'Onshore Wind Turbine', 'Petroleum Liquids', 'Natural Gas Internal Combustion Engine', 'Other Natural Gas', 'Natural Gas Fired Combined Cycle', 'All Other', 'Geothermal', 'Natural Gas Steam Turbine', 'Offshore Wind Turbine', 'Petroleum Coke', 'Other Gases', 'Hydroelectric Pumped Storage', 'Flywheels', 'Solar Thermal without Energy Storage', 'Solar Thermal with Energy Storage', 'Conventional Steam Coal', 'Nuclear', 'Coal Integrated Gasification Combined Cycle', 'Natural Gas with Compressed Air Storage']
+2023-10-27 16:10:33 [    INFO] powergenome.generators:3094 Assigning technology/fuel heat rates where unit heat rates are not available
+2023-10-27 16:10:33 [    INFO] powergenome.generators:3143 Units model technologies are ['Small Hydroelectric', 'Conventional Hydroelectric', 'Biomass', 'Batteries', 'Solar Photovoltaic', 'Natural Gas Fired Combustion Turbine', 'Onshore Wind Turbine', 'Petroleum Liquids', 'Natural Gas Internal Combustion Engine', 'Other Natural Gas', 'Natural Gas Fired Combined Cycle', 'All Other', 'Geothermal', 'Natural Gas Steam Turbine', 'Offshore Wind Turbine', 'Petroleum Coke', 'Other Gases', 'Hydroelectric Pumped Storage', 'Flywheels', 'Solar Thermal without Energy Storage', 'Solar Thermal with Energy Storage', 'Conventional Steam Coal', 'Nuclear', 'Coal Integrated Gasification Combined Cycle', 'Natural Gas with Compressed Air Storage']
+2023-10-27 16:10:33 [    INFO] powergenome.generators:3148 Before adding proposed generators, 17602 units with 1045710.2000000001 MW capacity
+2023-10-27 16:10:33 [ WARNING] powergenome.generators:1652 Some generators do not have lon/lat data. Check the source file to determine if they should be included in results. 
+The affected generators account for 4.5 in balancing authorities: 
+['CISO']
+2023-10-27 16:10:33 [    INFO] powergenome.generators:1869 0 generators were added to the planned list based on settings
+2023-10-27 16:10:33 [ WARNING] powergenome.generators:1908 The EIA860 file has 1 proposed generator(s) without a technology description. The plant IDs are [66599], and they have a combined capcity of 0.3 MW.
+2023-10-27 16:10:33 [    INFO] powergenome.generators:577 No retirement dates changed based on the settings file
+2023-10-27 16:10:40 [    INFO] powergenome.generators:577 No retirement dates changed based on the settings file
+2023-10-27 16:10:40 [    INFO] powergenome.generators:3176 Proposed gen technologies are ['Batteries', 'Solar Photovoltaic', 'Onshore Wind Turbine', 'All Other', 'Natural Gas Fired Combustion Turbine', 'Natural Gas Fired Combined Cycle', 'Biomass', 'Natural Gas Internal Combustion Engine', 'Conventional Hydroelectric', 'Natural Gas Steam Turbine', 'Other Natural Gas', 'Petroleum Liquids', 'Nuclear', nan]
+2023-10-27 16:10:40 [    INFO] powergenome.generators:3180 73269.70000000001 MW proposed
+2023-10-27 16:10:40 [ WARNING] powergenome.generators:2569 
+
+**************************
+The storage technology(ies) ['Flywheels'] have some existing generators with energy capacity (MWh) values and some where the energy capacity is missing. You have not included these technologies in the settings parameter 'energy_storage_duration', which is used to fill missing energy capacity data.
+
+NOTE: This is not a comprehensive list of technologies that *should* be included in 'energy_storage_duration'. Technologies without any existing energy capacity data might also be missing.
+**************************
+
+2023-10-27 16:10:41 [    INFO] powergenome.generators:3234 Calculating plant O&M costs
+2023-10-27 16:10:41 [    INFO] powergenome.nrelatb:414 Adding fixed and variable O&M for existing plants
+2023-10-27 16:10:44 [    INFO] powergenome.generators:3252 After adding proposed generators, 25251 units with 1275689.0 MW capacity
+2023-10-27 16:10:44 [    INFO] powergenome.generators:3289 Creating technology clusters by region
+2023-10-27 16:10:47 [    INFO] powergenome.generators:3400 Finalizing generation clusters
+2023-10-27 16:10:47 [    INFO] powergenome.generators:3402 Results technologies are ['Biomass', 'Conventional Hydroelectric', 'Conventional Steam Coal', 'Geothermal', 'Natural Gas Fired Combined Cycle', 'Natural Gas Fired Combustion Turbine', 'Natural Gas Internal Combustion Engine', 'Natural Gas Steam Turbine', 'Onshore Wind Turbine', 'Petroleum Liquids', 'Small Hydroelectric', 'Solar Photovoltaic', 'Hydroelectric Pumped Storage', 'Batteries', 'Nuclear', 'Offshore Wind Turbine']
+2023-10-27 16:10:50 [    INFO] powergenome.generators:3495 
+ **************** 
+Distributed generation is being added as generating resources. The capacity of DG in each region is increased by 4.530000% to account for no distribution losses.
+
+2023-10-27 16:10:50 [ WARNING] powergenome.distributed_gen:168 No distributed generation for the regions {'DC'} was found in your distributed generation data for the scenario MidCase. This is an informational warning -- check your data file if you think there should be distributed generation data in this/these region(s).
+2023-10-27 16:10:51 [    INFO] powergenome.generators:247 Adding non-fuel startup costs
+2023-10-27 16:10:51 [    INFO] powergenome.generators:254 Changing non-fuel VOM costs from 2011 to 2020
+2023-10-27 16:10:51 [    INFO] powergenome.generators:267 Changing non-fuel startup costs from 2011 to 2020
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_1 ('CapRes_1')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_2 ('CapRes_2')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_3 ('CapRes_3')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_4 ('CapRes_4')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_5 ('CapRes_5')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_6 ('CapRes_6')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_7 ('CapRes_7')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_8 ('CapRes_8')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_9 ('CapRes_9')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_10 ('CapRes_10')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_1 ('ESR_1')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_2 ('ESR_2')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_3 ('ESR_3')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_4 ('ESR_4')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_5 ('ESR_5')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_6 ('ESR_6')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_7 ('ESR_7')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_8 ('ESR_8')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_9 ('ESR_9')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_10 ('ESR_10')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_11 ('ESR_11')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_12 ('ESR_12')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_13 ('ESR_13')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_14 ('ESR_14')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_15 ('ESR_15')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_16 ('ESR_16')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_2 ('MinCapTag_2')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_3 ('MinCapTag_3')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_4 ('MinCapTag_4')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_5 ('MinCapTag_5')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Source ('Retro1_Source')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Inv_Cost_per_MWyr ('Retro1_Inv_Cost_per_MWyr')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Source ('Retro2_Source')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Source ('Retro3_Source')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Inv_Cost_per_MWyr ('Retro2_Inv_Cost_per_MWyr')
+2023-10-27 16:10:51 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Inv_Cost_per_MWyr ('Retro3_Inv_Cost_per_MWyr')
+2023-10-27 16:10:53 [    INFO] powergenome.nrelatb:70 Loading NREL ATB data
+2023-10-27 16:10:53 [    INFO] powergenome.nrelatb:176 Using UtilityPV Market WACC for Battery storage.
+2023-10-27 16:10:53 [    INFO] powergenome.nrelatb:261 PV costs are already in AC units, not inflating the cost.
+2023-10-27 16:10:53 [    INFO] powergenome.nrelatb:1058 Creating new resources for each region.
+2023-10-27 16:11:04 [    INFO] powergenome.generators:247 Adding non-fuel startup costs
+2023-10-27 16:11:04 [    INFO] powergenome.generators:254 Changing non-fuel VOM costs from 2011 to 2020
+2023-10-27 16:11:04 [    INFO] powergenome.generators:267 Changing non-fuel startup costs from 2011 to 2020
+2023-10-27 16:11:04 [    INFO] powergenome.external_data:173 Inflating external interconnect annuity costs from 2017 to 2020
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:2469 Transmission investment costs are missing or zero for some resources and will not be included in the total investment costs.
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:2904 A demand response file is included in extra inputs but the parameter `flexible_demand_resources` is not in the settings file. No demand response resources will be included with the generators.
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_1 ('CapRes_1')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_2 ('CapRes_2')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_3 ('CapRes_3')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_4 ('CapRes_4')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_5 ('CapRes_5')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_6 ('CapRes_6')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_7 ('CapRes_7')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_8 ('CapRes_8')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_9 ('CapRes_9')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_10 ('CapRes_10')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_1 ('ESR_1')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_2 ('ESR_2')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_3 ('ESR_3')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_4 ('ESR_4')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_5 ('ESR_5')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_6 ('ESR_6')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_7 ('ESR_7')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_8 ('ESR_8')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_9 ('ESR_9')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_10 ('ESR_10')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_11 ('ESR_11')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_12 ('ESR_12')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_13 ('ESR_13')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_14 ('ESR_14')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_15 ('ESR_15')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_16 ('ESR_16')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_2 ('MinCapTag_2')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_3 ('MinCapTag_3')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_4 ('MinCapTag_4')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_5 ('MinCapTag_5')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Source ('Retro1_Source')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Inv_Cost_per_MWyr ('Retro1_Inv_Cost_per_MWyr')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Source ('Retro2_Source')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Source ('Retro3_Source')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Inv_Cost_per_MWyr ('Retro2_Inv_Cost_per_MWyr')
+2023-10-27 16:11:04 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Inv_Cost_per_MWyr ('Retro3_Inv_Cost_per_MWyr')
+2023-10-27 16:11:05 [    INFO] powergenome.generators:3676 Capacity of 1054437.0429999998 MW in final clusters
+2023-10-27 16:11:07 [    INFO] powergenome.GenX:936 0 resources have Min_Power larger than hourly generation.
+2023-10-27 16:11:07 [    INFO] powergenome.load_profiles:618 Loading load curves
+2023-10-27 16:11:07 [ WARNING] powergenome.load_profiles:637 
+            *****************************
+            Regional load data sources have not been specified. Defaulting to EFS load data.
+            Check your settings file, and please specify the preferred source for load data
+            (FERC, EFS, USER) either for each region or for the entire system with the setting
+            "regional_load_source".
+            *****************************
+            
+2023-10-27 16:11:07 [    INFO] powergenome.load_profiles:123 Loading load curves from PUDL
+2023-10-27 16:11:22 [    INFO] powergenome.load_profiles:187 Aggregating load curves in grouped regions
+2023-10-27 16:11:33 [ WARNING] powergenome.transmission:66 No transmission value column (e.g. firm vs non-firm) was specified in the settings. The column 'firm_ttc_mw' will be used as a default. This is a change from previous versions of PG, where 'nonfirm_ttc_mw' was used. Firm transmission capacity is lower or equal to non-firm capacity.
+2023-10-27 16:11:33 [    INFO] powergenome.transmission:81 Loading transmission constraints from PUDL
+2023-10-27 16:11:33 [ WARNING] powergenome.transmission:136 The user transmission capacity table duplicates values from the database. Database values will be discarded in favor of user values.
+2023-10-27 16:11:33 [    INFO] powergenome.transmission:165 Map and aggregate region names for transmission constraints
+2023-10-27 16:11:33 [    INFO] powergenome.transmission:186 Build a new transmission constraints dataframe with a single line between regions
+2023-10-27 16:11:35 [    INFO] powergenome.GenX:95 Only one zone was found in the emissions policy file. The same emission policies are being applied to all zones.
+2023-10-27 16:11:35 [    INFO] powergenome:261 Starting year 2050 scenario base_thin_8760
+
+2023-10-27 16:11:39 [    INFO] powergenome.generators:2817 Loading map of plants to IPM regions
+2023-10-27 16:11:41 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyCoal Integrated Gasification Combined Cycle changed capacity from 779.0 to 965.5
+********************************
+2023-10-27 16:11:41 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyConventional Hydroelectric changed capacity from 78222.4 to 78413.0
+********************************
+2023-10-27 16:11:41 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyNatural Gas Fired Combined Cycle changed capacity from 284907.7 to 288264.5
+********************************
+2023-10-27 16:11:41 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyNatural Gas Fired Combustion Turbine changed capacity from 138698.5 to 141214.1
+********************************
+2023-10-27 16:11:41 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyNatural Gas Steam Turbine changed capacity from 69963.6 to 70254.7
+********************************
+2023-10-27 16:11:41 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologyPetroleum Liquids changed capacity from 25339.6 to 25397.0
+********************************
+2023-10-27 16:11:41 [ WARNING] powergenome.generators:843 ********************************
+When adding plant entity/boiler info to generators and filling missing seasonal capacity values, technologySolar Photovoltaic changed capacity from 24438.8 to 24536.9
+********************************
+2023-10-27 16:11:41 [    INFO] powergenome.generators:535 Changing retirement dates based on settings file
+2023-10-27 16:11:41 [    INFO] powergenome.generators:540 Starting retirement capacity is 476966.0 MW
+2023-10-27 16:11:41 [    INFO] powergenome.generators:562 Ending retirement capacity is 477164.2 MW
+2023-10-27 16:11:41 [    INFO] powergenome.generators:572 The retirement year for 162 plants, totaling 6823.5 MW, was changed based on settings file parameters
+2023-10-27 16:11:41 [    INFO] powergenome.generators:535 Changing retirement dates based on settings file
+2023-10-27 16:11:41 [    INFO] powergenome.generators:540 Starting retirement capacity is 478469.3 MW
+2023-10-27 16:11:41 [    INFO] powergenome.generators:562 Ending retirement capacity is 478469.3 MW
+2023-10-27 16:11:41 [    INFO] powergenome.generators:572 The retirement year for 162 plants, totaling 6823.5 MW, was changed based on settings file parameters
+2023-10-27 16:11:41 [    INFO] powergenome.generators:3066 Loading heat rate data for units and generator/fuel combinations
+2023-10-27 16:11:42 [    INFO] powergenome.generators:3088 Units model technologies are ['Small Hydroelectric', 'Conventional Hydroelectric', 'Biomass', 'Batteries', 'Solar Photovoltaic', 'Natural Gas Fired Combustion Turbine', 'Onshore Wind Turbine', 'Petroleum Liquids', 'Natural Gas Internal Combustion Engine', 'Other Natural Gas', 'Natural Gas Fired Combined Cycle', 'All Other', 'Geothermal', 'Natural Gas Steam Turbine', 'Offshore Wind Turbine', 'Petroleum Coke', 'Other Gases', 'Hydroelectric Pumped Storage', 'Flywheels', 'Solar Thermal without Energy Storage', 'Solar Thermal with Energy Storage', 'Conventional Steam Coal', 'Nuclear', 'Coal Integrated Gasification Combined Cycle', 'Natural Gas with Compressed Air Storage']
+2023-10-27 16:11:42 [    INFO] powergenome.generators:3094 Assigning technology/fuel heat rates where unit heat rates are not available
+2023-10-27 16:11:42 [    INFO] powergenome.generators:3143 Units model technologies are ['Small Hydroelectric', 'Conventional Hydroelectric', 'Biomass', 'Batteries', 'Solar Photovoltaic', 'Natural Gas Fired Combustion Turbine', 'Onshore Wind Turbine', 'Petroleum Liquids', 'Natural Gas Internal Combustion Engine', 'Other Natural Gas', 'Natural Gas Fired Combined Cycle', 'All Other', 'Geothermal', 'Natural Gas Steam Turbine', 'Offshore Wind Turbine', 'Petroleum Coke', 'Other Gases', 'Hydroelectric Pumped Storage', 'Flywheels', 'Solar Thermal without Energy Storage', 'Solar Thermal with Energy Storage', 'Conventional Steam Coal', 'Nuclear', 'Coal Integrated Gasification Combined Cycle', 'Natural Gas with Compressed Air Storage']
+2023-10-27 16:11:42 [    INFO] powergenome.generators:3148 Before adding proposed generators, 17602 units with 1045710.2000000001 MW capacity
+2023-10-27 16:11:42 [ WARNING] powergenome.generators:1652 Some generators do not have lon/lat data. Check the source file to determine if they should be included in results. 
+The affected generators account for 4.5 in balancing authorities: 
+['CISO']
+2023-10-27 16:11:42 [    INFO] powergenome.generators:1869 0 generators were added to the planned list based on settings
+2023-10-27 16:11:42 [ WARNING] powergenome.generators:1908 The EIA860 file has 1 proposed generator(s) without a technology description. The plant IDs are [66599], and they have a combined capcity of 0.3 MW.
+2023-10-27 16:11:42 [    INFO] powergenome.generators:577 No retirement dates changed based on the settings file
+2023-10-27 16:11:49 [    INFO] powergenome.generators:577 No retirement dates changed based on the settings file
+2023-10-27 16:11:49 [    INFO] powergenome.generators:3176 Proposed gen technologies are ['Batteries', 'Solar Photovoltaic', 'Onshore Wind Turbine', 'All Other', 'Natural Gas Fired Combustion Turbine', 'Natural Gas Fired Combined Cycle', 'Biomass', 'Natural Gas Internal Combustion Engine', 'Conventional Hydroelectric', 'Natural Gas Steam Turbine', 'Other Natural Gas', 'Petroleum Liquids', 'Nuclear', nan]
+2023-10-27 16:11:49 [    INFO] powergenome.generators:3180 73269.70000000001 MW proposed
+2023-10-27 16:11:50 [ WARNING] powergenome.generators:2569 
+
+**************************
+The storage technology(ies) ['Flywheels'] have some existing generators with energy capacity (MWh) values and some where the energy capacity is missing. You have not included these technologies in the settings parameter 'energy_storage_duration', which is used to fill missing energy capacity data.
+
+NOTE: This is not a comprehensive list of technologies that *should* be included in 'energy_storage_duration'. Technologies without any existing energy capacity data might also be missing.
+**************************
+
+2023-10-27 16:11:51 [    INFO] powergenome.generators:3234 Calculating plant O&M costs
+2023-10-27 16:11:51 [    INFO] powergenome.nrelatb:414 Adding fixed and variable O&M for existing plants
+2023-10-27 16:11:53 [    INFO] powergenome.generators:3252 After adding proposed generators, 25251 units with 1275689.0 MW capacity
+2023-10-27 16:11:53 [    INFO] powergenome.generators:3289 Creating technology clusters by region
+2023-10-27 16:11:56 [    INFO] powergenome.generators:3400 Finalizing generation clusters
+2023-10-27 16:11:56 [    INFO] powergenome.generators:3402 Results technologies are ['Biomass', 'Conventional Hydroelectric', 'Conventional Steam Coal', 'Geothermal', 'Natural Gas Fired Combined Cycle', 'Natural Gas Fired Combustion Turbine', 'Natural Gas Internal Combustion Engine', 'Onshore Wind Turbine', 'Small Hydroelectric', 'Solar Photovoltaic', 'Hydroelectric Pumped Storage', 'Natural Gas Steam Turbine', 'Petroleum Liquids', 'Nuclear']
+2023-10-27 16:11:59 [    INFO] powergenome.generators:3495 
+ **************** 
+Distributed generation is being added as generating resources. The capacity of DG in each region is increased by 4.530000% to account for no distribution losses.
+
+2023-10-27 16:11:59 [ WARNING] powergenome.distributed_gen:168 No distributed generation for the regions {'DC'} was found in your distributed generation data for the scenario MidCase. This is an informational warning -- check your data file if you think there should be distributed generation data in this/these region(s).
+2023-10-27 16:12:00 [    INFO] powergenome.generators:247 Adding non-fuel startup costs
+2023-10-27 16:12:00 [    INFO] powergenome.generators:254 Changing non-fuel VOM costs from 2011 to 2020
+2023-10-27 16:12:00 [    INFO] powergenome.generators:267 Changing non-fuel startup costs from 2011 to 2020
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_1 ('CapRes_1')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_2 ('CapRes_2')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_3 ('CapRes_3')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_4 ('CapRes_4')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_5 ('CapRes_5')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_6 ('CapRes_6')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_7 ('CapRes_7')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_8 ('CapRes_8')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_9 ('CapRes_9')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_10 ('CapRes_10')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_1 ('ESR_1')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_2 ('ESR_2')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_3 ('ESR_3')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_4 ('ESR_4')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_5 ('ESR_5')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_6 ('ESR_6')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_7 ('ESR_7')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_8 ('ESR_8')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_9 ('ESR_9')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_10 ('ESR_10')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_11 ('ESR_11')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_12 ('ESR_12')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_13 ('ESR_13')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_14 ('ESR_14')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_15 ('ESR_15')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_16 ('ESR_16')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_2 ('MinCapTag_2')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_3 ('MinCapTag_3')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_4 ('MinCapTag_4')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_5 ('MinCapTag_5')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Source ('Retro1_Source')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Inv_Cost_per_MWyr ('Retro1_Inv_Cost_per_MWyr')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Source ('Retro2_Source')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Source ('Retro3_Source')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Inv_Cost_per_MWyr ('Retro2_Inv_Cost_per_MWyr')
+2023-10-27 16:12:00 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Inv_Cost_per_MWyr ('Retro3_Inv_Cost_per_MWyr')
+2023-10-27 16:12:02 [    INFO] powergenome.nrelatb:70 Loading NREL ATB data
+2023-10-27 16:12:02 [    INFO] powergenome.nrelatb:176 Using UtilityPV Market WACC for Battery storage.
+2023-10-27 16:12:02 [    INFO] powergenome.nrelatb:261 PV costs are already in AC units, not inflating the cost.
+2023-10-27 16:12:02 [    INFO] powergenome.nrelatb:1058 Creating new resources for each region.
+2023-10-27 16:12:11 [    INFO] powergenome.generators:247 Adding non-fuel startup costs
+2023-10-27 16:12:11 [    INFO] powergenome.generators:254 Changing non-fuel VOM costs from 2011 to 2020
+2023-10-27 16:12:11 [    INFO] powergenome.generators:267 Changing non-fuel startup costs from 2011 to 2020
+2023-10-27 16:12:11 [    INFO] powergenome.external_data:173 Inflating external interconnect annuity costs from 2017 to 2020
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:2469 Transmission investment costs are missing or zero for some resources and will not be included in the total investment costs.
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:2904 A demand response file is included in extra inputs but the parameter `flexible_demand_resources` is not in the settings file. No demand response resources will be included with the generators.
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_1 ('CapRes_1')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_2 ('CapRes_2')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_3 ('CapRes_3')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_4 ('CapRes_4')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_5 ('CapRes_5')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_6 ('CapRes_6')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_7 ('CapRes_7')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_8 ('CapRes_8')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_9 ('CapRes_9')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for CapRes_10 ('CapRes_10')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_1 ('ESR_1')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_2 ('ESR_2')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_3 ('ESR_3')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_4 ('ESR_4')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_5 ('ESR_5')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_6 ('ESR_6')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_7 ('ESR_7')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_8 ('ESR_8')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_9 ('ESR_9')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_10 ('ESR_10')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_11 ('ESR_11')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_12 ('ESR_12')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_13 ('ESR_13')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_14 ('ESR_14')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_15 ('ESR_15')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for ESR_16 ('ESR_16')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_1 ('MinCapTag_1')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_2 ('MinCapTag_2')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_3 ('MinCapTag_3')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_4 ('MinCapTag_4')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for MinCapTag_5 ('MinCapTag_5')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Source ('Retro1_Source')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for Retro1_Inv_Cost_per_MWyr ('Retro1_Inv_Cost_per_MWyr')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Source ('Retro2_Source')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Source ('Retro3_Source')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for Retro2_Inv_Cost_per_MWyr ('Retro2_Inv_Cost_per_MWyr')
+2023-10-27 16:12:11 [ WARNING] powergenome.generators:1435 No model tag values found for Retro3_Inv_Cost_per_MWyr ('Retro3_Inv_Cost_per_MWyr')
+2023-10-27 16:12:12 [    INFO] powergenome.generators:3676 Capacity of 829090.04 MW in final clusters
+2023-10-27 16:12:13 [    INFO] powergenome.GenX:936 0 resources have Min_Power larger than hourly generation.
+2023-10-27 16:12:13 [    INFO] powergenome.load_profiles:618 Loading load curves
+2023-10-27 16:12:13 [ WARNING] powergenome.load_profiles:637 
+            *****************************
+            Regional load data sources have not been specified. Defaulting to EFS load data.
+            Check your settings file, and please specify the preferred source for load data
+            (FERC, EFS, USER) either for each region or for the entire system with the setting
+            "regional_load_source".
+            *****************************
+            
+2023-10-27 16:12:13 [    INFO] powergenome.load_profiles:123 Loading load curves from PUDL
+2023-10-27 16:12:29 [    INFO] powergenome.load_profiles:187 Aggregating load curves in grouped regions
+2023-10-27 16:12:40 [ WARNING] powergenome.transmission:66 No transmission value column (e.g. firm vs non-firm) was specified in the settings. The column 'firm_ttc_mw' will be used as a default. This is a change from previous versions of PG, where 'nonfirm_ttc_mw' was used. Firm transmission capacity is lower or equal to non-firm capacity.
+2023-10-27 16:12:40 [    INFO] powergenome.transmission:81 Loading transmission constraints from PUDL
+2023-10-27 16:12:40 [ WARNING] powergenome.transmission:136 The user transmission capacity table duplicates values from the database. Database values will be discarded in favor of user values.
+2023-10-27 16:12:40 [    INFO] powergenome.transmission:165 Map and aggregate region names for transmission constraints
+2023-10-27 16:12:40 [    INFO] powergenome.transmission:186 Build a new transmission constraints dataframe with a single line between regions
+2023-10-27 16:12:42 [    INFO] powergenome.GenX:95 Only one zone was found in the emissions policy file. The same emission policies are being applied to all zones.
