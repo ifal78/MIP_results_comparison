@@ -91,7 +91,9 @@ def load_data(data_path: Path, fn: str) -> pd.DataFrame:
         df = fix_tx_line_names(df)
     if "zone" in df.columns:
         df["agg_zone"] = df["zone"].map(rev_region_map)
-
+    for col in ["value", "start_value", "end_value"]:
+        if col in df.columns:
+            df[col] = df[col].round(0)
     return df
 
 
