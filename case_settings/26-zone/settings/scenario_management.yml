@@ -12,6 +12,17 @@
 # case.
 settings_management:
   2025:
+    ccs:
+      no:
+        atb_new_gen:
+          - [NaturalGas, CCAvgCF, Moderate, 500]
+          - [NaturalGas, CTAvgCF, Moderate, 100]
+          - [LandbasedWind, Class3, Moderate, 1]
+          - [OffShoreWind, Class12, Moderate, 1]
+          - [OffShoreWind, Class3, Moderate, 1]
+          - [UtilityPV, Class1, Moderate, 1]
+          - [Battery, "*", Moderate, 1]
+          - [Nuclear, Nuclear, Moderate, 2000]
     carbon_slack:
       base:
         carbon_cost_dollar_per_tco2: 200
@@ -46,6 +57,8 @@ settings_management:
           h2cc:
             wacc_real: 0.05
     econ_retirement:
+      yes:
+        retirement_ages: ~
       no:
         model_tag_values:
           New_Build:
@@ -66,6 +79,8 @@ settings_management:
       none:
         emission_policies_fn: ~
     time_reduction:
+      all_hours:
+          reduce_time_domain: false
       none:
         time_domain_periods: 52 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
@@ -374,6 +389,17 @@ settings_management:
         aeo_fuel_scenarios:
           naturalgas: low_resource
   2030:
+    ccs:
+      no:
+        atb_new_gen:
+          - [NaturalGas, CCAvgCF, Moderate, 500]
+          - [NaturalGas, CTAvgCF, Moderate, 100]
+          - [LandbasedWind, Class3, Moderate, 1]
+          - [OffShoreWind, Class12, Moderate, 1]
+          - [OffShoreWind, Class3, Moderate, 1]
+          - [UtilityPV, Class1, Moderate, 1]
+          - [Battery, "*", Moderate, 1]
+          - [Nuclear, Nuclear, Moderate, 2000]
     carbon_slack:
       base:
         carbon_cost_dollar_per_tco2: 200
@@ -408,6 +434,8 @@ settings_management:
           h2cc:
             wacc_real: 0.05
     econ_retirement:
+      yes:
+        retirement_ages: ~
       no:
         model_tag_values:
           New_Build:
@@ -432,6 +460,8 @@ settings_management:
         model_year: [2030, 2040, 2050]
         model_first_planning_year: [2023, 2031, 2041]
     time_reduction:
+      all_hours:
+        reduce_time_domain: false
       none:
         time_domain_periods: 52 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
@@ -597,6 +627,8 @@ settings_management:
     flex_resource:
       IRA_MID:
         electrification_scenario: IRA_MID
+      IRA_CONSERVATIVE:
+        electrification_scenario: IRA_CONSERVATIVE
       none:
         flexible_demand_resources: ~
     hydrogen_gen:
@@ -822,6 +854,17 @@ settings_management:
         aeo_fuel_scenarios:
           naturalgas: low_resource
   2035:
+    ccs:
+      no:
+        atb_new_gen:
+          - [NaturalGas, CCAvgCF, Moderate, 500]
+          - [NaturalGas, CTAvgCF, Moderate, 100]
+          - [LandbasedWind, Class3, Moderate, 1]
+          - [OffShoreWind, Class12, Moderate, 1]
+          - [OffShoreWind, Class3, Moderate, 1]
+          - [UtilityPV, Class1, Moderate, 1]
+          - [Battery, "*", Moderate, 1]
+          - [Nuclear, Nuclear, Moderate, 2000]
     carbon_slack:
       base:
         carbon_cost_dollar_per_tco2: 200
@@ -856,6 +899,8 @@ settings_management:
           h2cc:
             wacc_real: 0.05
     econ_retirement:
+      yes:
+        retirement_ages: ~
       no:
         model_tag_values:
           New_Build:
@@ -880,6 +925,8 @@ settings_management:
         model_year: [2030, 2040, 2050]
         model_first_planning_year: [2023, 2031, 2041]
     time_reduction:
+      all_hours:
+          reduce_time_domain: false
       none:
         time_domain_periods: 52 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
@@ -1120,6 +1167,8 @@ settings_management:
     flex_resource:
       IRA_MID:
         electrification_scenario: IRA_MID
+      IRA_CONSERVATIVE:
+        electrification_scenario: IRA_CONSERVATIVE
       none:
         flexible_demand_resources: ~
     dac:
@@ -1266,6 +1315,17 @@ settings_management:
         aeo_fuel_scenarios:
           naturalgas: low_resource
   2040:
+    ccs:
+      no:
+        atb_new_gen:
+          - [NaturalGas, CCAvgCF, Moderate, 500]
+          - [NaturalGas, CTAvgCF, Moderate, 100]
+          - [LandbasedWind, Class3, Moderate, 1]
+          - [OffShoreWind, Class12, Moderate, 1]
+          - [OffShoreWind, Class3, Moderate, 1]
+          - [UtilityPV, Class1, Moderate, 1]
+          - [Battery, "*", Moderate, 1]
+          - [Nuclear, Nuclear, Moderate, 2000]
     carbon_slack:
       base:
         carbon_cost_dollar_per_tco2: 200
@@ -1300,6 +1360,8 @@ settings_management:
           h2cc:
             wacc_real: 0.05
     econ_retirement:
+      yes:
+        retirement_ages: ~
       no:
         model_tag_values:
           New_Build:
@@ -1324,6 +1386,8 @@ settings_management:
         model_year: [2030, 2040, 2050]
         model_first_planning_year: [2023, 2031, 2041]
     time_reduction:
+      all_hours:
+          reduce_time_domain: false
       none:
         time_domain_periods: 52 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
@@ -1714,6 +1778,17 @@ settings_management:
         aeo_fuel_scenarios:
           naturalgas: low_resource
   2045:
+    ccs:
+      no:
+        atb_new_gen:
+          - [NaturalGas, CCAvgCF, Moderate, 500]
+          - [NaturalGas, CTAvgCF, Moderate, 100]
+          - [LandbasedWind, Class3, Moderate, 1]
+          - [OffShoreWind, Class12, Moderate, 1]
+          - [OffShoreWind, Class3, Moderate, 1]
+          - [UtilityPV, Class1, Moderate, 1]
+          - [Battery, "*", Moderate, 1]
+          - [Nuclear, Nuclear, Moderate, 2000]
     carbon_slack:
       base:
         carbon_cost_dollar_per_tco2: 200
@@ -1748,6 +1823,8 @@ settings_management:
           h2cc:
             wacc_real: 0.05
     econ_retirement:
+      yes:
+        retirement_ages: ~
       no:
         model_tag_values:
           New_Build:
@@ -1772,6 +1849,8 @@ settings_management:
         model_year: [2030, 2040, 2050]
         model_first_planning_year: [2023, 2031, 2041]
     time_reduction:
+      all_hours:
+          reduce_time_domain: false
       none:
         time_domain_periods: 52 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
@@ -1933,6 +2012,8 @@ settings_management:
     flex_resource:
       IRA_MID:
         electrification_scenario: IRA_MID
+      IRA_CONSERVATIVE:
+        electrification_scenario: IRA_CONSERVATIVE
       none:
         flexible_demand_resources: ~
     hydrogen_gen:
@@ -2158,6 +2239,17 @@ settings_management:
         aeo_fuel_scenarios:
           naturalgas: low_resource
   2050:
+    ccs:
+      no:
+        atb_new_gen:
+          - [NaturalGas, CCAvgCF, Moderate, 500]
+          - [NaturalGas, CTAvgCF, Moderate, 100]
+          - [LandbasedWind, Class3, Moderate, 1]
+          - [OffShoreWind, Class12, Moderate, 1]
+          - [OffShoreWind, Class3, Moderate, 1]
+          - [UtilityPV, Class1, Moderate, 1]
+          - [Battery, "*", Moderate, 1]
+          - [Nuclear, Nuclear, Moderate, 2000]
     carbon_slack:
       base:
         carbon_cost_dollar_per_tco2: 200
@@ -2192,6 +2284,8 @@ settings_management:
           h2cc:
             wacc_real: 0.05
     econ_retirement:
+      yes:
+        retirement_ages: ~
       no:
         model_tag_values:
           New_Build:
@@ -2216,6 +2310,8 @@ settings_management:
         model_year: [2030, 2040, 2050]
         model_first_planning_year: [2023, 2031, 2041]
     time_reduction:
+      all_hours:
+          reduce_time_domain: false
       none:
         time_domain_periods: 52 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
