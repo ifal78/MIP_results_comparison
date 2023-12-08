@@ -1,0 +1,1530 @@
+model,zone,resource_name,tech_type,planning_year,case,timestep,unit,value
+GenX,BASN,BASN_batteries_1,Battery,2030,base_short_results_200,all,MWh,653998.1785419575
+GenX,BASN,BASN_biomass_1,Other,2030,base_short_results_200,all,MWh,162489.59999999913
+GenX,BASN,BASN_biomass_2,Other,2030,base_short_results_200,all,MWh,87360.0
+GenX,BASN,BASN_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,8114354.832893169
+GenX,BASN,BASN_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.3053054339284909
+GenX,BASN,BASN_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.1827868597054819
+GenX,BASN,BASN_geothermal_1,Geothermal,2030,base_short_results_200,all,MWh,3270335.7697492773
+GenX,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,5925523.613318744
+GenX,BASN,BASN_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,31140.74803614753
+GenX,BASN,BASN_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.4108961294896716
+GenX,BASN,BASN_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,0.3827685323849314
+GenX,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,4428.615092514795
+GenX,BASN,BASN_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,150.3576786675224
+GenX,BASN,BASN_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,3365662.688457724
+GenX,BASN,BASN_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.0430795275150978
+GenX,BASN,BASN_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,1547145.600000027
+GenX,BASN,BASN_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,16476316.76378022
+GenX,CANO,CANO_batteries_1,Battery,2030,base_short_results_200,all,MWh,2964727.4178307992
+GenX,CANO,CANO_biomass_1,Other,2030,base_short_results_200,all,MWh,744307.1999999863
+GenX,CANO,CANO_biomass_2,Other,2030,base_short_results_200,all,MWh,1172371.2000000067
+GenX,CANO,CANO_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,17819407.882008895
+GenX,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2030,base_short_results_200,all,MWh,4939491.7691258835
+GenX,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,1.5033551008730044
+GenX,CANO,CANO_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,19654516.13448822
+GenX,CANO,CANO_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.477631503878263
+GenX,CANO,CANO_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,0.4966940027848802
+GenX,CANO,CANO_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.7250706597384113
+GenX,CANO,CANO_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.3935472552175095
+GenX,CANO,CANO_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,2706661.9305404103
+GenX,CANO,CANO_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.1035000720463117
+GenX,CANO,CANO_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,1882608.0
+GenX,CANO,CANO_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,13065125.619534597
+GenX,CASO,CASO_batteries_1,Battery,2030,base_short_results_200,all,MWh,9644275.66443876
+GenX,CASO,CASO_biomass_1,Other,2030,base_short_results_200,all,MWh,912038.4000000068
+GenX,CASO,CASO_biomass_2,Other,2030,base_short_results_200,all,MWh,220147.2000000033
+GenX,CASO,CASO_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,2323664.7633777526
+GenX,CASO,CASO_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.2216480247646628
+GenX,CASO,CASO_geothermal_1,Geothermal,2030,base_short_results_200,all,MWh,156838.03642191496
+GenX,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2030,base_short_results_200,all,MWh,3572366.340704255
+GenX,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,0.6914521232786354
+GenX,CASO,CASO_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,18016997.406175464
+GenX,CASO,CASO_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.5022085566906531
+GenX,CASO,CASO_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,0.7320148450519474
+GenX,CASO,CASO_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,1.0641353802036393
+GenX,CASO,CASO_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.4491290712708525
+GenX,CASO,CASO_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,12915725.912848543
+GenX,CASO,CASO_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.0711664688420601
+GenX,CASO,CASO_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,635980.8000000127
+GenX,CASO,CASO_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,30356867.892786648
+GenX,FRCC,FRCC_batteries_1,Battery,2030,base_short_results_200,all,MWh,443275.2045810774
+GenX,FRCC,FRCC_biomass_1,Other,2030,base_short_results_200,all,MWh,605404.8000000095
+GenX,FRCC,FRCC_biomass_2,Other,2030,base_short_results_200,all,MWh,1050067.1999999874
+GenX,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,118232.29350370992
+GenX,FRCC,FRCC_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.3158608059878889
+GenX,FRCC,FRCC_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.2390162173868543
+GenX,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,1.1991940904100324
+GenX,FRCC,FRCC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,25598860.24033378
+GenX,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.4378801516716775
+GenX,FRCC,FRCC_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,0.5398459864805064
+GenX,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,1.0028285901688696
+GenX,FRCC,FRCC_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.4604547403834856
+GenX,FRCC,FRCC_nuclear_1,Nuclear,2030,base_short_results_200,all,MWh,28699964.57730047
+GenX,FRCC,FRCC_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.0948749021364925
+GenX,FRCC,FRCC_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,15279751.835069029
+GenX,ISNE,ISNE_batteries_1,Battery,2030,base_short_results_200,all,MWh,286593.3784965616
+GenX,ISNE,ISNE_biomass_1,Other,2030,base_short_results_200,all,MWh,929510.4000000072
+GenX,ISNE,ISNE_biomass_2,Other,2030,base_short_results_200,all,MWh,454272.0
+GenX,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,2053756.3734672803
+GenX,ISNE,ISNE_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,9597.321481740722
+GenX,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2030,base_short_results_200,all,MWh,2944854.431016042
+GenX,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,790410.7276895229
+GenX,ISNE,ISNE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,15152316.296050118
+GenX,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,13705.171998538748
+GenX,ISNE,ISNE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,81976.9551922958
+GenX,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,7749.802989600178
+GenX,ISNE,ISNE_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,3089.3654244045515
+GenX,ISNE,ISNE_nuclear_1,Nuclear,2030,base_short_results_200,all,MWh,23855314.33766927
+GenX,ISNE,ISNE_offshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,231137.6175023732
+GenX,ISNE,ISNE_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,2101316.5689740614
+GenX,ISNE,ISNE_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,14468.89373736242
+GenX,ISNE,ISNE_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,2220691.2000000197
+GenX,ISNE,ISNE_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,3983067.922084329
+GenX,MISC,MISC_batteries_1,Battery,2030,base_short_results_200,all,MWh,25779.924883706262
+GenX,MISC,MISC_biomass_1,Other,2030,base_short_results_200,all,MWh,672672.0
+GenX,MISC,MISC_biomass_2,Other,2030,base_short_results_200,all,MWh,20966.40000000044
+GenX,MISC,MISC_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,1323529.5102139174
+GenX,MISC,MISC_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.2679032031286749
+GenX,MISC,MISC_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.3260508518854712
+GenX,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2030,base_short_results_200,all,MWh,1061259.7694925205
+GenX,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,7840321.938499918
+GenX,MISC,MISC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,776176.8858621349
+GenX,MISC,MISC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.4424360047361153
+GenX,MISC,MISC_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,8664.547769559236
+GenX,MISC,MISC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,11777.90675250202
+GenX,MISC,MISC_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,9180.41467301231
+GenX,MISC,MISC_nuclear_1,Nuclear,2030,base_short_results_200,all,MWh,14481566.281741325
+GenX,MISC,MISC_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,12661929.579822645
+GenX,MISC,MISC_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.1282434803883283
+GenX,MISC,MISC_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,122304.0
+GenX,MISC,MISC_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,6101130.199937436
+GenX,MISE,MISE_batteries_1,Battery,2030,base_short_results_200,all,MWh,660.4144005477644
+GenX,MISE,MISE_biomass_1,Other,2030,base_short_results_200,all,MWh,509308.7999999956
+GenX,MISE,MISE_biomass_2,Other,2030,base_short_results_200,all,MWh,531148.8000000019
+GenX,MISE,MISE_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,83342.1431242393
+GenX,MISE,MISE_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.3229302871467993
+GenX,MISE,MISE_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.1910721722677131
+GenX,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2030,base_short_results_200,all,MWh,4167343.244019512
+GenX,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,6214540.209463582
+GenX,MISE,MISE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,160356.4892551072
+GenX,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,15679.60958305484
+GenX,MISE,MISE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,0.3694318389490534
+GenX,MISE,MISE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.3806401885041843
+GenX,MISE,MISE_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.1679245151347164
+GenX,MISE,MISE_nuclear_1,Nuclear,2030,base_short_results_200,all,MWh,8510101.143474912
+GenX,MISE,MISE_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,7207380.12217869
+GenX,MISE,MISE_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.1117084020966956
+GenX,MISE,MISE_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,105705.60000000164
+GenX,MISE,MISE_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,1840510.809708647
+GenX,MISS,MISS_batteries_1,Battery,2030,base_short_results_200,all,MWh,10887.41721280698
+GenX,MISS,MISS_biomass_1,Other,2030,base_short_results_200,all,MWh,50668.80000000083
+GenX,MISS,MISS_biomass_2,Other,2030,base_short_results_200,all,MWh,656073.6000000046
+GenX,MISS,MISS_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,1267015.5244865743
+GenX,MISS,MISS_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.2701557469719159
+GenX,MISS,MISS_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.1978412833900108
+GenX,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,36009902.41647363
+GenX,MISS,MISS_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,0.4222064279414426
+GenX,MISS,MISS_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.3825956877321065
+GenX,MISS,MISS_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,35456.93304839338
+GenX,MISS,MISS_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,5465.7657710591875
+GenX,MISS,MISS_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.1665932166555579
+GenX,MISS,MISS_natural_gas_steam_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,0.6356099172595561
+GenX,MISS,MISS_nuclear_1,Nuclear,2030,base_short_results_200,all,MWh,34469170.43326408
+GenX,MISS,MISS_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,1483011.64284744
+GenX,MISS,MISS_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.0799844353438341
+GenX,MISS,MISS_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,22713.59999999957
+GenX,MISS,MISS_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,3582634.727128603
+GenX,MISW,MISW_batteries_1,Battery,2030,base_short_results_200,all,MWh,28983.359155197748
+GenX,MISW,MISW_biomass_1,Other,2030,base_short_results_200,all,MWh,739939.1999999863
+GenX,MISW,MISW_biomass_2,Other,2030,base_short_results_200,all,MWh,147638.40000000084
+GenX,MISW,MISW_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,250835.8715926004
+GenX,MISW,MISW_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.3053534596017884
+GenX,MISW,MISW_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.0750181895477199
+GenX,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,936438.6748432912
+GenX,MISW,MISW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,16146794.409389492
+GenX,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.1813082911926636
+GenX,MISW,MISW_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,0.4554654358814899
+GenX,MISW,MISW_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base_short_results_200,all,MWh,441978.11346200935
+GenX,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,287763.3618071022
+GenX,MISW,MISW_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.258267966095567
+GenX,MISW,MISW_nuclear_1,Nuclear,2030,base_short_results_200,all,MWh,17836250.280376036
+GenX,MISW,MISW_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,45360396.430317216
+GenX,MISW,MISW_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.1339349813073896
+GenX,MISW,MISW_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,3670867.200000052
+GenX,MISW,MISW_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,4721332.731530838
+GenX,NWPP,NWPP_batteries_1,Battery,2030,base_short_results_200,all,MWh,67210.79646629038
+GenX,NWPP,NWPP_biomass_1,Other,2030,base_short_results_200,all,MWh,627244.8000000118
+GenX,NWPP,NWPP_biomass_2,Other,2030,base_short_results_200,all,MWh,443788.7999999984
+GenX,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,135329171.2414965
+GenX,NWPP,NWPP_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.1791401136093775
+GenX,NWPP,NWPP_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.2793740430640217
+GenX,NWPP,NWPP_geothermal_1,Geothermal,2030,base_short_results_200,all,MWh,131663.2250976388
+GenX,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2030,base_short_results_200,all,MWh,600862.2499067826
+GenX,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,79238.31111213288
+GenX,NWPP,NWPP_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,1612245.1632255262
+GenX,NWPP,NWPP_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.3473860526226088
+GenX,NWPP,NWPP_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,0.197610673833506
+GenX,NWPP,NWPP_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.74809824721626
+GenX,NWPP,NWPP_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.3070676828424147
+GenX,NWPP,NWPP_nuclear_1,Nuclear,2030,base_short_results_200,all,MWh,6440573.39795762
+GenX,NWPP,NWPP_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,19117861.443470094
+GenX,NWPP,NWPP_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.0942777971678192
+GenX,NWPP,NWPP_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,3648153.600000027
+GenX,NWPP,NWPP_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,2470439.070137743
+GenX,NYCW,NYCW_batteries_1,Battery,2030,base_short_results_200,all,MWh,29065.61938343313
+GenX,NYCW,NYCW_biomass_1,Other,2030,base_short_results_200,all,MWh,11356.799999999785
+GenX,NYCW,NYCW_biomass_2,Other,2030,base_short_results_200,all,MWh,89107.20000000116
+GenX,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,2876832.4662601594
+GenX,NYCW,NYCW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,1264757.3818204585
+GenX,NYCW,NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,6848.032892503405
+GenX,NYCW,NYCW_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,208340.8354915128
+GenX,NYCW,NYCW_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base_short_results_200,all,MWh,40525.33357685122
+GenX,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,10623.45776518514
+GenX,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.4003523013056105
+GenX,NYCW,NYCW_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.1263273194573256
+GenX,NYCW,NYCW_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,234113.17667696823
+GenX,NYUP,NYUP_batteries_1,Battery,2030,base_short_results_200,all,MWh,139817.0223188032
+GenX,NYUP,NYUP_biomass_1,Other,2030,base_short_results_200,all,MWh,701500.8000000139
+GenX,NYUP,NYUP_biomass_2,Other,2030,base_short_results_200,all,MWh,418454.40000000666
+GenX,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,18048979.600671567
+GenX,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2030,base_short_results_200,all,MWh,2381829.5225478136
+GenX,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,162657.98933412248
+GenX,NYUP,NYUP_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,7182802.423412187
+GenX,NYUP,NYUP_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,265.4495967272631
+GenX,NYUP,NYUP_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,8282.699082938054
+GenX,NYUP,NYUP_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,4388.451574381116
+GenX,NYUP,NYUP_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,7818.689514369367
+GenX,NYUP,NYUP_nuclear_1,Nuclear,2030,base_short_results_200,all,MWh,24127329.65605923
+GenX,NYUP,NYUP_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,5678757.746514262
+GenX,NYUP,NYUP_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.1157820446357209
+GenX,NYUP,NYUP_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,3296092.7999999467
+GenX,NYUP,NYUP_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,2571846.006069139
+GenX,PJMC,PJMC_batteries_1,Battery,2030,base_short_results_200,all,MWh,25740.219033432782
+GenX,PJMC,PJMC_biomass_1,Other,2030,base_short_results_200,all,MWh,154627.20000000272
+GenX,PJMC,PJMC_biomass_2,Other,2030,base_short_results_200,all,MWh,79497.60000000159
+GenX,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,26286.40891673032
+GenX,PJMC,PJMC_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.2057519307909976
+GenX,PJMC,PJMC_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.2404941300147156
+GenX,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,15093254.800791634
+GenX,PJMC,PJMC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,0.3552744127765456
+GenX,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,14464.63832604656
+GenX,PJMC,PJMC_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,168783.27506443392
+GenX,PJMC,PJMC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,38080.51053654643
+GenX,PJMC,PJMC_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,462.97401731108687
+GenX,PJMC,PJMC_nuclear_1,Nuclear,2030,base_short_results_200,all,MWh,46033444.819688976
+GenX,PJMC,PJMC_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,8542714.635820676
+GenX,PJMC,PJMC_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.1209500986739437
+GenX,PJMC,PJMC_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,81244.79999999957
+GenX,PJMC,PJMC_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,487051.1612098463
+GenX,PJMD,PJMD_batteries_1,Battery,2030,base_short_results_200,all,MWh,29941.42108350219
+GenX,PJMD,PJMD_biomass_1,Other,2030,base_short_results_200,all,MWh,431558.40000000666
+GenX,PJMD,PJMD_biomass_2,Other,2030,base_short_results_200,all,MWh,118809.60000000162
+GenX,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,651869.4660408373
+GenX,PJMD,PJMD_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.1607918142157748
+GenX,PJMD,PJMD_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.347448677891627
+GenX,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2030,base_short_results_200,all,MWh,5974039.5253849225
+GenX,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,14942835.069363646
+GenX,PJMD,PJMD_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,235124.30172179145
+GenX,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.4433993989308857
+GenX,PJMD,PJMD_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,2678.029187896422
+GenX,PJMD,PJMD_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base_short_results_200,all,MWh,27230.892527676257
+GenX,PJMD,PJMD_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,550.2190525358643
+GenX,PJMD,PJMD_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,2923.728935685577
+GenX,PJMD,PJMD_nuclear_1,Nuclear,2030,base_short_results_200,all,MWh,26932829.095914744
+GenX,PJMD,PJMD_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,234743.81793367176
+GenX,PJMD,PJMD_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.0982746535310889
+GenX,PJMD,PJMD_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,33196.80000000012
+GenX,PJMD,PJMD_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,8782984.06798956
+GenX,PJME,PJME_batteries_1,Battery,2030,base_short_results_200,all,MWh,47565.09873408061
+GenX,PJME,PJME_biomass_1,Other,2030,base_short_results_200,all,MWh,1090252.8000000063
+GenX,PJME,PJME_biomass_2,Other,2030,base_short_results_200,all,MWh,718972.8000000138
+GenX,PJME,PJME_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,2478664.5478939065
+GenX,PJME,PJME_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.3139479691093002
+GenX,PJME,PJME_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.1982888061073378
+GenX,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2030,base_short_results_200,all,MWh,3264394.204654324
+GenX,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,124003.36477322354
+GenX,PJME,PJME_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,92500155.4450425
+GenX,PJME,PJME_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,18596.963462297572
+GenX,PJME,PJME_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,0.3184772242939875
+GenX,PJME,PJME_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base_short_results_200,all,MWh,0.6615422464956664
+GenX,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,50842.59880278533
+GenX,PJME,PJME_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.356920808065281
+GenX,PJME,PJME_nuclear_1,Nuclear,2030,base_short_results_200,all,MWh,97860824.17637014
+GenX,PJME,PJME_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,2066209.4402914592
+GenX,PJME,PJME_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.0784414086660996
+GenX,PJME,PJME_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,460387.2000000035
+GenX,PJME,PJME_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,3519087.167131545
+GenX,PJMW,PJMW_batteries_1,Battery,2030,base_short_results_200,all,MWh,32085.973990361937
+GenX,PJMW,PJMW_biomass_1,Other,2030,base_short_results_200,all,MWh,167731.2000000035
+GenX,PJMW,PJMW_biomass_2,Other,2030,base_short_results_200,all,MWh,58531.19999999918
+GenX,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,2180047.4429121967
+GenX,PJMW,PJMW_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.3085673040945058
+GenX,PJMW,PJMW_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.2411591001530345
+GenX,PJMW,PJMW_conventional_steam_coal_3,Coal,2030,base_short_results_200,all,MWh,0.1283190316392473
+GenX,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2030,base_short_results_200,all,MWh,479808.7773751988
+GenX,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,40822484.01918872
+GenX,PJMW,PJMW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,762589.1167975133
+GenX,PJMW,PJMW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.4855633158544243
+GenX,PJMW,PJMW_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,0.4152422681929881
+GenX,PJMW,PJMW_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base_short_results_200,all,MWh,0.2018260657546255
+GenX,PJMW,PJMW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,9580.032095780003
+GenX,PJMW,PJMW_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,9039.627154944768
+GenX,PJMW,PJMW_nuclear_1,Nuclear,2030,base_short_results_200,all,MWh,46368144.11330421
+GenX,PJMW,PJMW_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,8985628.211889591
+GenX,PJMW,PJMW_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.1492629308114322
+GenX,PJMW,PJMW_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,1727107.2000000018
+GenX,PJMW,PJMW_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,6974276.951049597
+GenX,RMRG,RMRG_batteries_1,Battery,2030,base_short_results_200,all,MWh,136830.1419148943
+GenX,RMRG,RMRG_biomass_1,Other,2030,base_short_results_200,all,MWh,53289.60000000019
+GenX,RMRG,RMRG_biomass_2,Other,2030,base_short_results_200,all,MWh,30576.0
+GenX,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,1734834.8429731063
+GenX,RMRG,RMRG_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.275301265583548
+GenX,RMRG,RMRG_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.2178850318876944
+GenX,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2030,base_short_results_200,all,MWh,1417219.3081274957
+GenX,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,64260.74937200203
+GenX,RMRG,RMRG_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,380308.8468535341
+GenX,RMRG,RMRG_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.3535575937936922
+GenX,RMRG,RMRG_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,0.2270409302255475
+GenX,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,21906.095771386634
+GenX,RMRG,RMRG_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.0799565372785288
+GenX,RMRG,RMRG_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,26465946.592356104
+GenX,RMRG,RMRG_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.0737469548838823
+GenX,RMRG,RMRG_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,879715.1999999868
+GenX,RMRG,RMRG_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,4014810.9680510857
+GenX,SPPC,SPPC_batteries_1,Battery,2030,base_short_results_200,all,MWh,600.9288386942574
+GenX,SPPC,SPPC_biomass_1,Other,2030,base_short_results_200,all,MWh,22713.59999999957
+GenX,SPPC,SPPC_biomass_2,Other,2030,base_short_results_200,all,MWh,80371.2000000004
+GenX,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,51605.8157982489
+GenX,SPPC,SPPC_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.2445145805420104
+GenX,SPPC,SPPC_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.2767981038052302
+GenX,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,1115019.606225481
+GenX,SPPC,SPPC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,30824.560923970857
+GenX,SPPC,SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.351623490348201
+GenX,SPPC,SPPC_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,0.1371689412997759
+GenX,SPPC,SPPC_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base_short_results_200,all,MWh,0.3498372351266069
+GenX,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.3887970988296352
+GenX,SPPC,SPPC_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,210.2882194553225
+GenX,SPPC,SPPC_nuclear_1,Nuclear,2030,base_short_results_200,all,MWh,6882524.366751183
+GenX,SPPC,SPPC_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,15692213.26413198
+GenX,SPPC,SPPC_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.1061413955244013
+GenX,SPPC,SPPC_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,0.0
+GenX,SPPC,SPPC_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,110062.28038830684
+GenX,SPPN,SPPN_batteries_1,Battery,2030,base_short_results_200,all,MWh,4744.933828176914
+GenX,SPPN,SPPN_biomass_1,Other,2030,base_short_results_200,all,MWh,64646.40000000056
+GenX,SPPN,SPPN_biomass_2,Other,2030,base_short_results_200,all,MWh,138902.39999999997
+GenX,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,9564722.269510986
+GenX,SPPN,SPPN_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.2800488474164618
+GenX,SPPN,SPPN_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.1997005195529497
+GenX,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,136133.1081183151
+GenX,SPPN,SPPN_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,65819.57902677168
+GenX,SPPN,SPPN_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,35655.231401818906
+GenX,SPPN,SPPN_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,0.1074144982361906
+GenX,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,59385.59110567309
+GenX,SPPN,SPPN_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,1125.4007990017626
+GenX,SPPN,SPPN_nuclear_1,Nuclear,2030,base_short_results_200,all,MWh,4156689.7690813
+GenX,SPPN,SPPN_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,15448983.988591043
+GenX,SPPN,SPPN_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.1055920935359733
+GenX,SPPN,SPPN_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,542505.599999996
+GenX,SPPN,SPPN_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,135441.75685922013
+GenX,SPPS,SPPS_batteries_1,Battery,2030,base_short_results_200,all,MWh,161035.19084307077
+GenX,SPPS,SPPS_biomass_1,Other,2030,base_short_results_200,all,MWh,17472.0
+GenX,SPPS,SPPS_biomass_2,Other,2030,base_short_results_200,all,MWh,103084.7999999996
+GenX,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,2356456.635526372
+GenX,SPPS,SPPS_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.2493333585274004
+GenX,SPPS,SPPS_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.1595844858530648
+GenX,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2030,base_short_results_200,all,MWh,1095279.0722857122
+GenX,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,326301.36558723403
+GenX,SPPS,SPPS_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,11332649.183569994
+GenX,SPPS,SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.6402042125633975
+GenX,SPPS,SPPS_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,0.3533479669593751
+GenX,SPPS,SPPS_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base_short_results_200,all,MWh,2851.5602406079634
+GenX,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,34560.51443040596
+GenX,SPPS,SPPS_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,7862.024836548807
+GenX,SPPS,SPPS_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,45310547.484677
+GenX,SPPS,SPPS_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.095879018461027
+GenX,SPPS,SPPS_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,347692.80000000616
+GenX,SPPS,SPPS_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,472736.75736466097
+GenX,SRCA,SRCA_batteries_1,Battery,2030,base_short_results_200,all,MWh,126111.9583042301
+GenX,SRCA,SRCA_biomass_1,Other,2030,base_short_results_200,all,MWh,685776.0
+GenX,SRCA,SRCA_biomass_2,Other,2030,base_short_results_200,all,MWh,325852.8000000019
+GenX,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,1814088.7316489804
+GenX,SRCA,SRCA_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.3339763750581893
+GenX,SRCA,SRCA_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.2611907357355696
+GenX,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2030,base_short_results_200,all,MWh,5746486.662605761
+GenX,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,13728811.811764684
+GenX,SRCA,SRCA_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,24652.03955770525
+GenX,SRCA,SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,87234.32407793298
+GenX,SRCA,SRCA_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,25441.94827017333
+GenX,SRCA,SRCA_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,40165.439770631754
+GenX,SRCA,SRCA_nuclear_1,Nuclear,2030,base_short_results_200,all,MWh,93737104.19623984
+GenX,SRCA,SRCA_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.1091324859351309
+GenX,SRCA,SRCA_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,269068.7999999973
+GenX,SRCA,SRCA_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,13570605.059350671
+GenX,SRCE,SRCE_batteries_1,Battery,2030,base_short_results_200,all,MWh,93192.75442651055
+GenX,SRCE,SRCE_biomass_1,Other,2030,base_short_results_200,all,MWh,135408.0
+GenX,SRCE,SRCE_biomass_2,Other,2030,base_short_results_200,all,MWh,172972.79999999653
+GenX,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,15458302.849149134
+GenX,SRCE,SRCE_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.2555547280083418
+GenX,SRCE,SRCE_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.3219552364141058
+GenX,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2030,base_short_results_200,all,MWh,3533756.3464900795
+GenX,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,16502995.397175709
+GenX,SRCE,SRCE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,971981.0126452508
+GenX,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.3616104102266934
+GenX,SRCE,SRCE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,77275.17254837259
+GenX,SRCE,SRCE_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base_short_results_200,all,MWh,0.5184873105987916
+GenX,SRCE,SRCE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,240.1841505413998
+GenX,SRCE,SRCE_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,6380.669413515162
+GenX,SRCE,SRCE_nuclear_1,Nuclear,2030,base_short_results_200,all,MWh,59165015.4510753
+GenX,SRCE,SRCE_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,16324.763771898171
+GenX,SRCE,SRCE_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.0893976061844835
+GenX,SRCE,SRCE_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,397488.0
+GenX,SRCE,SRCE_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,3303733.9075980824
+GenX,SRSE,SRSE_batteries_1,Battery,2030,base_short_results_200,all,MWh,106304.16459272247
+GenX,SRSE,SRSE_biomass_1,Other,2030,base_short_results_200,all,MWh,473491.20000000374
+GenX,SRSE,SRSE_biomass_2,Other,2030,base_short_results_200,all,MWh,1938518.399999974
+GenX,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,5134054.934245043
+GenX,SRSE,SRSE_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.305619661706841
+GenX,SRSE,SRSE_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.1977988268628669
+GenX,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2030,base_short_results_200,all,MWh,3474290.577215412
+GenX,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,29652717.310848843
+GenX,SRSE,SRSE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,74537.15016500976
+GenX,SRSE,SRSE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.4357052534174906
+GenX,SRSE,SRSE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,0.6134567414265981
+GenX,SRSE,SRSE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,207.6914201635793
+GenX,SRSE,SRSE_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.7064564480131834
+GenX,SRSE,SRSE_nuclear_1,Nuclear,2030,base_short_results_200,all,MWh,61195018.50027937
+GenX,SRSE,SRSE_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.0810738110999878
+GenX,SRSE,SRSE_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,30576.0
+GenX,SRSE,SRSE_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,12855366.516139422
+GenX,SRSG,SRSG_batteries_1,Battery,2030,base_short_results_200,all,MWh,1418824.6466965566
+GenX,SRSG,SRSG_biomass_1,Other,2030,base_short_results_200,all,MWh,85612.79999999871
+GenX,SRSG,SRSG_biomass_2,Other,2030,base_short_results_200,all,MWh,223641.60000000108
+GenX,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,6996331.994226555
+GenX,SRSG,SRSG_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.2977180141841165
+GenX,SRSG,SRSG_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.2437838030409535
+GenX,SRSG,SRSG_geothermal_1,Geothermal,2030,base_short_results_200,all,MWh,991518.283535537
+GenX,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2030,base_short_results_200,all,MWh,488246.48845003656
+GenX,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,4405754.720455732
+GenX,SRSG,SRSG_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,976628.3221273888
+GenX,SRSG,SRSG_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.5800026522786804
+GenX,SRSG,SRSG_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,0.4002426036403768
+GenX,SRSG,SRSG_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.4425863139186156
+GenX,SRSG,SRSG_nuclear_1,Nuclear,2030,base_short_results_200,all,MWh,22773153.5985079
+GenX,SRSG,SRSG_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,9174543.195593558
+GenX,SRSG,SRSG_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.049911475010068
+GenX,SRSG,SRSG_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,544252.800000005
+GenX,SRSG,SRSG_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,15428581.880375506
+GenX,TRE,TRE_batteries_1,Battery,2030,base_short_results_200,all,MWh,1747935.719005762
+GenX,TRE,TRE_biomass_1,Other,2030,base_short_results_200,all,MWh,79497.60000000159
+GenX,TRE,TRE_biomass_2,Other,2030,base_short_results_200,all,MWh,175593.59999999698
+GenX,TRE,TRE_conventional_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,240562.75030157485
+GenX,TRE,TRE_conventional_steam_coal_1,Coal,2030,base_short_results_200,all,MWh,0.2942106122351391
+GenX,TRE,TRE_conventional_steam_coal_2,Coal,2030,base_short_results_200,all,MWh,0.2352721179790614
+GenX,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,21106178.724744268
+GenX,TRE,TRE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,301603.8955837202
+GenX,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.2299411378832731
+GenX,TRE,TRE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,0.2222933949166395
+GenX,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,108071.83595880627
+GenX,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.4543550512792288
+GenX,TRE,TRE_nuclear_1,Nuclear,2030,base_short_results_200,all,MWh,24831740.44421973
+GenX,TRE,TRE_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,28370178.312694628
+GenX,TRE,TRE_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.1344255200221959
+GenX,TRE,TRE_small_hydroelectric_1,Hydro,2030,base_short_results_200,all,MWh,172099.20000000347
+GenX,TRE,TRE_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,22593940.253578976
+GenX,TRE_WEST,TRE_WEST_batteries_1,Battery,2030,base_short_results_200,all,MWh,1255659.9144176382
+GenX,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_results_200,all,MWh,6298875.855920994
+GenX,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_results_200,all,MWh,0.4713880053138487
+GenX,TRE_WEST,TRE_WEST_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_results_200,all,MWh,0.2652457044247204
+GenX,TRE_WEST,TRE_WEST_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_results_200,all,MWh,0.4319288154102703
+GenX,TRE_WEST,TRE_WEST_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_results_200,all,MWh,1319.9831210811403
+GenX,TRE_WEST,TRE_WEST_onshore_wind_turbine_1,Wind,2030,base_short_results_200,all,MWh,57065913.24516675
+GenX,TRE_WEST,TRE_WEST_petroleum_liquids_1,Other,2030,base_short_results_200,all,MWh,0.1193958951749349
+GenX,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2030,base_short_results_200,all,MWh,16873389.34555217
+GenX,BASN,BASN_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,3490738.813152122
+GenX,CANO,CANO_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,11562924.283365056
+GenX,CASO,CASO_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,18582800.281294186
+GenX,FRCC,FRCC_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,10260005.984120054
+GenX,ISNE,ISNE_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,8033615.95894085
+GenX,MISC,MISC_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,2250517.388769319
+GenX,MISE,MISE_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,1810194.5795877485
+GenX,MISS,MISS_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,5993767.523405228
+GenX,MISW,MISW_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,4008712.4807585287
+GenX,NWPP,NWPP_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,3821561.684767132
+GenX,NYCW,NYCW_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,2539412.979443803
+GenX,NYUP,NYUP_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,1808029.2350660367
+GenX,PJMC,PJMC_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,2710391.1824985696
+GenX,PJMD,PJMD_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,3426419.448106128
+GenX,PJME,PJME_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,16105518.338145996
+GenX,PJMW,PJMW_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,4646153.685369957
+GenX,RMRG,RMRG_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,2368542.303298297
+GenX,SPPC,SPPC_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,622966.0154555346
+GenX,SPPN,SPPN_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,448302.75095495215
+GenX,SPPS,SPPS_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,2707446.2235353254
+GenX,SRCA,SRCA_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,6777436.334798442
+GenX,SRCE,SRCE_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,1333149.2223798174
+GenX,SRSE,SRSE_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,1744814.704768606
+GenX,SRSG,SRSG_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,5678596.400955906
+GenX,TRE,TRE_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,10825063.485710535
+GenX,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2030,base_short_results_200,all,MWh,468695.8453093802
+GenX,BASN,BASN_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,5.257936847283036
+GenX,BASN,BASN_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.3040227053241905
+GenX,BASN,BASN_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,4.581827990360653
+GenX,BASN,BASN_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,1.866015130984734
+GenX,BASN,BASN_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1809210908952749
+GenX,BASN,BASN_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.6274243115664715
+GenX,BASN,BASN_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,9326045.421707736
+GenX,BASN,BASN_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,26672895.973549735
+GenX,BASN,BASN_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,11648458.923519049
+GenX,BASN,BASN_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,3883384.6900815098
+GenX,BASN,BASN_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,13.256718060323063
+GenX,BASN,BASN_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,8.371437858305434
+GenX,BASN,BASN_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,18.49255531792462
+GenX,BASN,BASN_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,3735873.681430977
+GenX,BASN,BASN_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,4.173930048886647
+GenX,BASN,BASN_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,2276329.2839123644
+GenX,BASN,BASN_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,7.27932492661398
+GenX,BASN,BASN_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,4.56354664370229
+GenX,BASN,BASN_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,5.2499348681897695
+GenX,BASN,BASN_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,29.935552781980892
+GenX,BASN,BASN_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,4.04694900370041
+GenX,BASN,BASN_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,3.3515816065870614
+GenX,BASN,BASN_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,3.5154351035479277
+GenX,BASN,BASN_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,3.033495140543893
+GenX,BASN,BASN_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,2.3404037345124213
+GenX,BASN,BASN_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,4137657.178464867
+GenX,BASN,BASN_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,2.4042697674096085
+GenX,BASN,BASN_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,2.37460541618059
+GenX,BASN,BASN_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,3.0288787846166128
+GenX,BASN,BASN_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,2543899.9317603935
+GenX,BASN,BASN_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,30.180116704662264
+GenX,BASN,BASN_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,31.58081313342638
+GenX,BASN,BASN_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,11.131907582809625
+GenX,BASN,BASN_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,2944998.457567268
+GenX,BASN,BASN_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,15.395702612524946
+GenX,BASN,BASN_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,7764715.664523809
+GenX,BASN,BASN_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,5.781293130147256
+GenX,BASN,BASN_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,5624800.017408764
+GenX,BASN,BASN_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,5.3423010550691234
+GenX,BASN,BASN_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,6.746019704906775
+GenX,CANO,CANO_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,162823.0775887346
+GenX,CANO,CANO_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,4.143127657287292
+GenX,CANO,CANO_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.311960360759849
+GenX,CANO,CANO_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,4.02716739187307
+GenX,CANO,CANO_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,1.6733782890171205
+GenX,CANO,CANO_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1857683077689497
+GenX,CANO,CANO_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.7007915301633257
+GenX,CANO,CANO_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,1.2114049436103755
+GenX,CANO,CANO_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,2.555307955086709
+GenX,CANO,CANO_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,1669012.271833402
+GenX,CANO,CANO_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,1.870812845732353
+GenX,CANO,CANO_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,1.2591068651322022
+GenX,CANO,CANO_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,1.1414176596029126
+GenX,CANO,CANO_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,0.939159638529448
+GenX,CANO,CANO_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,4.992363920736137
+GenX,CANO,CANO_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,0.5732310120868508
+GenX,CANO,CANO_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,3.349895335783544
+GenX,CANO,CANO_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,1.007167726151056
+GenX,CANO,CANO_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,2.9235597740779653
+GenX,CANO,CANO_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,0.4952040399943025
+GenX,CANO,CANO_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,2.383815527653782
+GenX,CANO,CANO_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,0.877350682745159
+GenX,CANO,CANO_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,3.710750541806425
+GenX,CANO,CANO_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,1.877372299602219
+GenX,CANO,CANO_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,2.235036733963562
+GenX,CANO,CANO_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,0.5915655924763326
+GenX,CANO,CANO_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,0.4087071215566497
+GenX,CANO,CANO_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,1.6285034040779458
+GenX,CANO,CANO_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,0.3644969437011758
+GenX,CANO,CANO_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,1.2788002184779552
+GenX,CANO,CANO_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,0.5515195843803454
+GenX,CANO,CANO_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,32921588.487180483
+GenX,CANO,CANO_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,11718706.910153871
+GenX,CANO,CANO_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,22.647645979533248
+GenX,CANO,CANO_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,14.022342462253516
+GenX,CANO,CANO_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,6.665521240034869
+GenX,CANO,CANO_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,11.928465584785476
+GenX,CANO,CANO_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,4.8473936326302
+GenX,CANO,CANO_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,4.291611391200206
+GenX,CANO,CANO_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,2.670653299784383
+GenX,CANO,CANO_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,4.202664444377464
+GenX,CANO,CANO_offshorewind_class12_moderate_floating_1_1,Wind,2030,base_short_results_200,all,MWh,0.3436561473176416
+GenX,CANO,CANO_offshorewind_class12_moderate_floating_1_2,Wind,2030,base_short_results_200,all,MWh,0.4524910082948677
+GenX,CANO,CANO_offshorewind_class12_moderate_floating_1_3,Wind,2030,base_short_results_200,all,MWh,0.4670513966339523
+GenX,CANO,CANO_offshorewind_class12_moderate_floating_0_1,Wind,2030,base_short_results_200,all,MWh,0.2825783104983813
+GenX,CANO,CANO_offshorewind_class12_moderate_floating_0_2,Wind,2030,base_short_results_200,all,MWh,0.285747414838267
+GenX,CANO,CANO_offshorewind_class12_moderate_floating_0_3,Wind,2030,base_short_results_200,all,MWh,0.339937500063075
+GenX,CASO,CASO_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,71.50793057479248
+GenX,CASO,CASO_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,6.767551499579764
+GenX,CASO,CASO_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.3429451226350341
+GenX,CASO,CASO_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,3.91255315284774
+GenX,CASO,CASO_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,2.0615543597769164
+GenX,CASO,CASO_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1949692366222115
+GenX,CASO,CASO_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,1.053574730514471
+GenX,CASO,CASO_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,21.31415363469426
+GenX,CASO,CASO_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,471904.9060666121
+GenX,CASO,CASO_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,14230.969301010073
+GenX,CASO,CASO_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,4.817540562821144
+GenX,CASO,CASO_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,2.2041461664993385
+GenX,CASO,CASO_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,34.94412876576772
+GenX,CASO,CASO_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,1.6024368179573398
+GenX,CASO,CASO_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,2.293786184139941
+GenX,CASO,CASO_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,3.714086189976305
+GenX,CASO,CASO_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,2.9452881247998515
+GenX,CASO,CASO_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,1.860412027643604
+GenX,CASO,CASO_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,0.5291020034345099
+GenX,CASO,CASO_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,1.8376964673906877
+GenX,CASO,CASO_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,1.543176021468302
+GenX,CASO,CASO_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,0.5675098231451713
+GenX,CASO,CASO_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,2.6173143909790113
+GenX,CASO,CASO_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,1.149923782837666
+GenX,CASO,CASO_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,0.9670875880279992
+GenX,CASO,CASO_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,0.8582910631092686
+GenX,CASO,CASO_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,1.5002481679561106
+GenX,CASO,CASO_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,1.328957426968797
+GenX,CASO,CASO_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,0.9807929251011122
+GenX,CASO,CASO_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,0.2254575168227326
+GenX,CASO,CASO_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,0.8711062914201402
+GenX,CASO,CASO_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,23404156.884432428
+GenX,CASO,CASO_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,26078248.924229454
+GenX,CASO,CASO_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,16.576769630891388
+GenX,CASO,CASO_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,7.68178737887385
+GenX,CASO,CASO_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,2.8448572240491528
+GenX,CASO,CASO_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,3.9458781050402103
+GenX,CASO,CASO_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,1.8789769441766424
+GenX,CASO,CASO_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,2.280432603570952
+GenX,CASO,CASO_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,1.6427489825070407
+GenX,CASO,CASO_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,2.161120562793314
+GenX,CASO,CASO_offshorewind_class12_moderate_floating_1_1,Wind,2030,base_short_results_200,all,MWh,0.5653850577360492
+GenX,CASO,CASO_offshorewind_class12_moderate_floating_1_2,Wind,2030,base_short_results_200,all,MWh,0.5963482029374817
+GenX,CASO,CASO_offshorewind_class12_moderate_floating_1_3,Wind,2030,base_short_results_200,all,MWh,0.6593223226337711
+GenX,CASO,CASO_offshorewind_class12_moderate_floating_0_1,Wind,2030,base_short_results_200,all,MWh,0.4256104597106177
+GenX,CASO,CASO_offshorewind_class12_moderate_floating_0_2,Wind,2030,base_short_results_200,all,MWh,0.4135886586611484
+GenX,CASO,CASO_offshorewind_class12_moderate_floating_0_3,Wind,2030,base_short_results_200,all,MWh,0.4055674756578517
+GenX,FRCC,FRCC_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,85595315.50501165
+GenX,FRCC,FRCC_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,6.199297037664518
+GenX,FRCC,FRCC_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.3189378909984278
+GenX,FRCC,FRCC_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,7.016555180669273
+GenX,FRCC,FRCC_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,5.932148338622035
+GenX,FRCC,FRCC_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1860194790268297
+GenX,FRCC,FRCC_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.5769552142435588
+GenX,FRCC,FRCC_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,6202602.868159589
+GenX,FRCC,FRCC_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,1674280.942343634
+GenX,FRCC,FRCC_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,2074223.4452401744
+GenX,FRCC,FRCC_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,10.498404894220156
+GenX,FRCC,FRCC_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,3277736.4048409956
+GenX,FRCC,FRCC_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,1939943.0660644472
+GenX,FRCC,FRCC_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,6179934.3929701075
+GenX,FRCC,FRCC_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,4.620898111959404
+GenX,FRCC,FRCC_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,790248.35406455
+GenX,FRCC,FRCC_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,6755155.394377703
+GenX,FRCC,FRCC_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,3.1600256300802454
+GenX,FRCC,FRCC_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,4.795160671772339
+GenX,FRCC,FRCC_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,33988013.82080186
+GenX,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,28403169.06376251
+GenX,FRCC,FRCC_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,5.7529872561543245
+GenX,FRCC,FRCC_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,6.654891880092785
+GenX,FRCC,FRCC_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,3.171161032580358
+GenX,FRCC,FRCC_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,3.4274801159040935
+GenX,FRCC,FRCC_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,3.4643951568490268
+GenX,FRCC,FRCC_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,2.6337343803138524
+GenX,FRCC,FRCC_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,2.852081823930057
+GenX,FRCC,FRCC_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,5.223283325716613
+GenX,FRCC,FRCC_offshorewind_class3_moderate_fixed_0_1,Wind,2030,base_short_results_200,all,MWh,0.2650237302842175
+GenX,FRCC,FRCC_offshorewind_class3_moderate_fixed_0_2,Wind,2030,base_short_results_200,all,MWh,0.3236014823157859
+GenX,FRCC,FRCC_offshorewind_class3_moderate_fixed_0_3,Wind,2030,base_short_results_200,all,MWh,0.3428622347020243
+GenX,FRCC,FRCC_offshorewind_class12_moderate_floating_0_1,Wind,2030,base_short_results_200,all,MWh,0.2166568520457612
+GenX,FRCC,FRCC_offshorewind_class12_moderate_floating_0_2,Wind,2030,base_short_results_200,all,MWh,0.246204232428391
+GenX,FRCC,FRCC_offshorewind_class12_moderate_floating_0_3,Wind,2030,base_short_results_200,all,MWh,0.1904306783609894
+GenX,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,17086467.379201952
+GenX,ISNE,ISNE_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.6164279082937454
+GenX,ISNE,ISNE_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,12.402577208576096
+GenX,ISNE,ISNE_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,4.836050509266026
+GenX,ISNE,ISNE_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.2565752854749613
+GenX,ISNE,ISNE_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.9401198241987444
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,10401447.954210872
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,2241266.0071945535
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,18976249.11247072
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,5476364.515498407
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,12.945807180619706
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,5550698.667573405
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,370055.175005784
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,2567151.805905699
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,6.543584816729523
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,8.83067707659988
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,3.597479191545801
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,278734.06827807013
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,2.5353237279080756
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,5.100809163316432
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,9.333698592121287
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,3.420385036544375
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,1.881504126649728
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,2.4894499087883415
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,2.763793040152241
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,2.4285110523096147
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,1.5484383515260418
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,1.198706259371236
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,1.3527220818246577
+GenX,ISNE,ISNE_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,0.8050373225016465
+GenX,ISNE,ISNE_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,10883955.746866522
+GenX,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,16675826.468138238
+GenX,ISNE,ISNE_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,38.3063003607479
+GenX,ISNE,ISNE_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,4468400.955645186
+GenX,ISNE,ISNE_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,4.164987738912365
+GenX,ISNE,ISNE_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,3.677520863072603
+GenX,ISNE,ISNE_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,2.6909242048135695
+GenX,ISNE,ISNE_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,2.7893919541402137
+GenX,ISNE,ISNE_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,2.117759142647707
+GenX,ISNE,ISNE_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,2.3283965980003067
+GenX,ISNE,ISNE_offshorewind_class3_moderate_fixed_1_1,Wind,2030,base_short_results_200,all,MWh,1.9497956651638468
+GenX,ISNE,ISNE_offshorewind_class3_moderate_fixed_1_2,Wind,2030,base_short_results_200,all,MWh,1.7133964614118529
+GenX,ISNE,ISNE_offshorewind_class3_moderate_fixed_1_3,Wind,2030,base_short_results_200,all,MWh,1.6525739170794975
+GenX,ISNE,ISNE_offshorewind_class12_moderate_floating_1_1,Wind,2030,base_short_results_200,all,MWh,0.7321440103597515
+GenX,ISNE,ISNE_offshorewind_class12_moderate_floating_1_2,Wind,2030,base_short_results_200,all,MWh,0.6531830853183488
+GenX,ISNE,ISNE_offshorewind_class12_moderate_floating_1_3,Wind,2030,base_short_results_200,all,MWh,0.7345913161536191
+GenX,ISNE,ISNE_offshorewind_class3_moderate_fixed_0_1,Wind,2030,base_short_results_200,all,MWh,1.6619727135891968
+GenX,ISNE,ISNE_offshorewind_class3_moderate_fixed_0_2,Wind,2030,base_short_results_200,all,MWh,1.69453271726195
+GenX,ISNE,ISNE_offshorewind_class3_moderate_fixed_0_3,Wind,2030,base_short_results_200,all,MWh,1.6472728507375758
+GenX,ISNE,ISNE_offshorewind_class12_moderate_floating_0_1,Wind,2030,base_short_results_200,all,MWh,0.5350456404285368
+GenX,ISNE,ISNE_offshorewind_class12_moderate_floating_0_2,Wind,2030,base_short_results_200,all,MWh,0.5571506890804414
+GenX,ISNE,ISNE_offshorewind_class12_moderate_floating_0_3,Wind,2030,base_short_results_200,all,MWh,0.6282592881513951
+GenX,MISC,MISC_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,76.19057130669962
+GenX,MISC,MISC_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,5.2557196719424235
+GenX,MISC,MISC_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.4063815692525982
+GenX,MISC,MISC_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,7.5686855899933345
+GenX,MISC,MISC_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,1.8841005336889136
+GenX,MISC,MISC_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1763052983941981
+GenX,MISC,MISC_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.61983244186052
+GenX,MISC,MISC_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,60051203.547359005
+GenX,MISC,MISC_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,126.01198224869876
+GenX,MISC,MISC_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,16.87814740250224
+GenX,MISC,MISC_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,20.74555273981775
+GenX,MISC,MISC_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,10.312972021046996
+GenX,MISC,MISC_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,10.931229191929637
+GenX,MISC,MISC_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,7.986224684379633
+GenX,MISC,MISC_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,8.003430281315708
+GenX,MISC,MISC_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,6.631364407045011
+GenX,MISC,MISC_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,6.617116521603142
+GenX,MISC,MISC_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,9636136.570163207
+GenX,MISC,MISC_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,11802578.620349256
+GenX,MISC,MISC_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,4577886.527293038
+GenX,MISC,MISC_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,1500995.521097375
+GenX,MISC,MISC_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,7227433.218702577
+GenX,MISC,MISC_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,8209948.115511032
+GenX,MISC,MISC_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,8020544.671490379
+GenX,MISC,MISC_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,3203107.4317759173
+GenX,MISC,MISC_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,4595186.449778344
+GenX,MISC,MISC_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,10872784.169624832
+GenX,MISC,MISC_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,3416729.200660104
+GenX,MISC,MISC_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,7561131.576035902
+GenX,MISC,MISC_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,5400418.810749766
+GenX,MISC,MISC_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,35.73488768386224
+GenX,MISC,MISC_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,51.29059850638637
+GenX,MISC,MISC_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,179.32525305343663
+GenX,MISC,MISC_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,13.604074104501729
+GenX,MISC,MISC_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,15.168230336452329
+GenX,MISC,MISC_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,21.67871515592737
+GenX,MISC,MISC_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,16.194378461351576
+GenX,MISC,MISC_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,6.21777157044574
+GenX,MISC,MISC_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,2.77569085284947
+GenX,MISC,MISC_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,9.862514499942524
+GenX,MISC,MISC_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,5.188252264577857
+GenX,MISE,MISE_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,19212736.78574486
+GenX,MISE,MISE_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,6.7900663495942615
+GenX,MISE,MISE_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.4163767768863837
+GenX,MISE,MISE_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,6.497401096394106
+GenX,MISE,MISE_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,3.0099715235406763
+GenX,MISE,MISE_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1868495693253405
+GenX,MISE,MISE_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.6492488782490317
+GenX,MISE,MISE_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,2735914.107972436
+GenX,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,1651073.7395612148
+GenX,MISE,MISE_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,777233.9406382787
+GenX,MISE,MISE_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,1959173.4156085344
+GenX,MISE,MISE_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,2625727.074979353
+GenX,MISE,MISE_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,379679.573100489
+GenX,MISE,MISE_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,2445929.36289157
+GenX,MISE,MISE_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,1856686.4916507483
+GenX,MISE,MISE_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,32.218855187055155
+GenX,MISE,MISE_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,5.496532101481875
+GenX,MISE,MISE_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,153.2088012229826
+GenX,MISE,MISE_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,11.010927837654148
+GenX,MISE,MISE_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,19637469.36966203
+GenX,MISE,MISE_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,7865702.921295318
+GenX,MISE,MISE_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,8.696786793339092
+GenX,MISE,MISE_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,8.247076970203183
+GenX,MISE,MISE_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,5.638661234208103
+GenX,MISE,MISE_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,4.845711599657033
+GenX,MISE,MISE_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,4.431578365741991
+GenX,MISE,MISE_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,3.989534997971921
+GenX,MISE,MISE_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,3.8602745419178097
+GenX,MISE,MISE_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,3.443436681413601
+GenX,MISS,MISS_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,45.415246190778795
+GenX,MISS,MISS_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,4.979529174237669
+GenX,MISS,MISS_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.3299927007633606
+GenX,MISS,MISS_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,5.6849175868444215
+GenX,MISS,MISS_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,2.502585597847012
+GenX,MISS,MISS_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1733856445120429
+GenX,MISS,MISS_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.5226318191847533
+GenX,MISS,MISS_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,4630262.0319867935
+GenX,MISS,MISS_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,16176917.75571788
+GenX,MISS,MISS_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,6.378259849629056
+GenX,MISS,MISS_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,7.858511249106146
+GenX,MISS,MISS_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,6.674934564912538
+GenX,MISS,MISS_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,3.7392388618524617
+GenX,MISS,MISS_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,4.261672197124967
+GenX,MISS,MISS_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,4.280553798845297
+GenX,MISS,MISS_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,2.026137991147044
+GenX,MISS,MISS_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,1.440470945661458
+GenX,MISS,MISS_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,5674064.398671855
+GenX,MISS,MISS_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,548319.974895387
+GenX,MISS,MISS_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,5728894.757201226
+GenX,MISS,MISS_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,1058290.4389845205
+GenX,MISS,MISS_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,671.5725323381748
+GenX,MISS,MISS_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,2630521.3666836554
+GenX,MISS,MISS_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,4902482.026105127
+GenX,MISS,MISS_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,5.654891680850615
+GenX,MISS,MISS_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,7.5646666833721
+GenX,MISS,MISS_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,4.775536256256579
+GenX,MISS,MISS_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,9.534131536071524
+GenX,MISS,MISS_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,6.896271096115655
+GenX,MISS,MISS_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,5.242851843891467
+GenX,MISS,MISS_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,5.683003327988888
+GenX,MISS,MISS_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,3.799505375530523
+GenX,MISS,MISS_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,4.118239188330107
+GenX,MISS,MISS_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,2.9205839979952803
+GenX,MISS,MISS_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,3.1969737895868873
+GenX,MISS,MISS_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,2.7720788273919608
+GenX,MISS,MISS_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,3.3449709818529816
+GenX,MISS,MISS_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,1.1987346667596954
+GenX,MISS,MISS_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,2.084889473271487
+GenX,MISS,MISS_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,2.6216860503338117
+GenX,MISS,MISS_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,1.8343928824886997
+GenX,MISS,MISS_offshorewind_class3_moderate_fixed_0_1,Wind,2030,base_short_results_200,all,MWh,0.303811772861759
+GenX,MISS,MISS_offshorewind_class3_moderate_fixed_0_2,Wind,2030,base_short_results_200,all,MWh,0.3134760128202825
+GenX,MISS,MISS_offshorewind_class3_moderate_fixed_0_3,Wind,2030,base_short_results_200,all,MWh,0.28456205798905
+GenX,MISW,MISW_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,20455205.811417054
+GenX,MISW,MISW_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,7.166619769109067
+GenX,MISW,MISW_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.4956975180373505
+GenX,MISW,MISW_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,15.688055442982623
+GenX,MISW,MISW_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,2.1960592764446347
+GenX,MISW,MISW_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1914914092602955
+GenX,MISW,MISW_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.7631662961910827
+GenX,MISW,MISW_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,53407818.80585312
+GenX,MISW,MISW_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,38.96108168141827
+GenX,MISW,MISW_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,15.922960982844412
+GenX,MISW,MISW_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,106.35730249466098
+GenX,MISW,MISW_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,7.376951064741113
+GenX,MISW,MISW_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,10.775405222230312
+GenX,MISW,MISW_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,5.542034610566038
+GenX,MISW,MISW_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,4881205.705345047
+GenX,MISW,MISW_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,7.3442181289008
+GenX,MISW,MISW_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,8.15580590067546
+GenX,MISW,MISW_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,5.095754971895525
+GenX,MISW,MISW_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,15.855947331425307
+GenX,MISW,MISW_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,6.455511719570758
+GenX,MISW,MISW_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,5.904149971770788
+GenX,MISW,MISW_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,16.822891022910873
+GenX,MISW,MISW_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,3.9991769374804345
+GenX,MISW,MISW_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,4.973216152598214
+GenX,MISW,MISW_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,3.6915798767048775
+GenX,MISW,MISW_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,7.497987274304613
+GenX,MISW,MISW_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,4.84428343553711
+GenX,MISW,MISW_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,6.023305509813781
+GenX,MISW,MISW_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,2.8742965208880946
+GenX,MISW,MISW_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,4.501876442597663
+GenX,MISW,MISW_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,4.348275306060848
+GenX,MISW,MISW_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,43785128.44240444
+GenX,MISW,MISW_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,11521694.962378798
+GenX,MISW,MISW_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,222.62657780566332
+GenX,MISW,MISW_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,16.28609480319985
+GenX,MISW,MISW_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,8.374345388776398
+GenX,MISW,MISW_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,3.849314576910608
+GenX,MISW,MISW_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,5.928013221439275
+GenX,MISW,MISW_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,3.2691931551028928
+GenX,MISW,MISW_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,4.979359901863973
+GenX,MISW,MISW_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,2.8863412903556487
+GenX,NWPP,NWPP_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,3.5602064244226774
+GenX,NWPP,NWPP_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,2.1699259170573457
+GenX,NWPP,NWPP_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.2624266967173917
+GenX,NWPP,NWPP_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,3.8789983178119782
+GenX,NWPP,NWPP_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,1.5339978952952966
+GenX,NWPP,NWPP_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1660465248334204
+GenX,NWPP,NWPP_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.526496312946168
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,45.54662915881502
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,364.669173115522
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,15650416.528861834
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,13507062.148809817
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,6.106449031287624
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,5.465511440576448
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,11.911073595916877
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,4.487347068399868
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,3.4191291918348448
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,2.891344293392456
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,1618933.876035782
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,3.4094435786810893
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,2.890753366484209
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,2.305235051557727
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,1449383.1734317697
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,3.236138981944408
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,2.674580349678989
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,2.2788082662596505
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,8.52106772240726
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,2.546890306734967
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,2.306637783888382
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,2.273252548417611
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,10.23600436779449
+GenX,NWPP,NWPP_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,2.2916137580433107
+GenX,NWPP,NWPP_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,22053540.887121517
+GenX,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,20199758.97987841
+GenX,NWPP,NWPP_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,5.398853751981374
+GenX,NWPP,NWPP_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,9.016847245828156
+GenX,NWPP,NWPP_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,3.5783146341479424
+GenX,NWPP,NWPP_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,2.079143904576032
+GenX,NWPP,NWPP_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,2.9064768420012435
+GenX,NWPP,NWPP_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,1.720371800471013
+GenX,NWPP,NWPP_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,1.6201545389033487
+GenX,NWPP,NWPP_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,2.66346871199781
+GenX,NWPP,NWPP_offshorewind_class12_moderate_floating_1_1,Wind,2030,base_short_results_200,all,MWh,0.4297491893235873
+GenX,NWPP,NWPP_offshorewind_class12_moderate_floating_1_2,Wind,2030,base_short_results_200,all,MWh,0.4189687715394722
+GenX,NWPP,NWPP_offshorewind_class12_moderate_floating_1_3,Wind,2030,base_short_results_200,all,MWh,0.3474701753839834
+GenX,NWPP,NWPP_offshorewind_class12_moderate_floating_0_1,Wind,2030,base_short_results_200,all,MWh,0.2788285284637698
+GenX,NWPP,NWPP_offshorewind_class12_moderate_floating_0_2,Wind,2030,base_short_results_200,all,MWh,0.2779245223703275
+GenX,NWPP,NWPP_offshorewind_class12_moderate_floating_0_3,Wind,2030,base_short_results_200,all,MWh,0.2927143002757609
+GenX,NYCW,NYCW_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,8.339293647514232
+GenX,NYCW,NYCW_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.5423399974583214
+GenX,NYCW,NYCW_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,2.8587703247133476
+GenX,NYCW,NYCW_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,3.215231477656074
+GenX,NYCW,NYCW_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.2241856701348202
+GenX,NYCW,NYCW_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.7401377531944165
+GenX,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_1,Wind,2030,base_short_results_200,all,MWh,1.8854401389847637
+GenX,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_2,Wind,2030,base_short_results_200,all,MWh,1.902672815282971
+GenX,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_3,Wind,2030,base_short_results_200,all,MWh,1.9638719077376503
+GenX,NYCW,NYCW_offshorewind_class12_moderate_floating_1_1,Wind,2030,base_short_results_200,all,MWh,0.8817217716608908
+GenX,NYCW,NYCW_offshorewind_class12_moderate_floating_1_2,Wind,2030,base_short_results_200,all,MWh,0.8728689184624415
+GenX,NYCW,NYCW_offshorewind_class12_moderate_floating_1_3,Wind,2030,base_short_results_200,all,MWh,0.8622950484301946
+GenX,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_1,Wind,2030,base_short_results_200,all,MWh,1.7723993752813805
+GenX,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_2,Wind,2030,base_short_results_200,all,MWh,1.7780074595949864
+GenX,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_3,Wind,2030,base_short_results_200,all,MWh,1.8048885174365896
+GenX,NYCW,NYCW_offshorewind_class12_moderate_floating_0_1,Wind,2030,base_short_results_200,all,MWh,0.7699788821384175
+GenX,NYCW,NYCW_offshorewind_class12_moderate_floating_0_2,Wind,2030,base_short_results_200,all,MWh,0.7573234666001526
+GenX,NYCW,NYCW_offshorewind_class12_moderate_floating_0_3,Wind,2030,base_short_results_200,all,MWh,0.7566739972828873
+GenX,NYUP,NYUP_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,5.368168814736134
+GenX,NYUP,NYUP_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.439281776373737
+GenX,NYUP,NYUP_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,4.111893502495035
+GenX,NYUP,NYUP_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,3.0890653385938034
+GenX,NYUP,NYUP_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1992978135859291
+GenX,NYUP,NYUP_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.5782441615807767
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,7060305.747433382
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,26.488844306685273
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,2468607.9105733233
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,4.416237027516774
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,5837402.019161409
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,3.4392570085325005
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,2326387.5772882877
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,42.37250672184861
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,4920351.23649657
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,5.547216521079113
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,48.26502221813492
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,1.459306524123362
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,6.169110705704341
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,2.933954326452756
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,5.545229562977192
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,1.0790490145074374
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,3.0553242151584423
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,2.337356003230064
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,3.1959837018256643
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,1.568415786418738
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,1.113470249357282
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,1.79032518693125
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,0.7774897789251312
+GenX,NYUP,NYUP_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,1.3442401549777825
+GenX,NYUP,NYUP_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,10269673.587560434
+GenX,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,12377102.150146035
+GenX,NYUP,NYUP_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,199.0350365480237
+GenX,NYUP,NYUP_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,7.848023577415754
+GenX,NYUP,NYUP_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,13.65884604203568
+GenX,NYUP,NYUP_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,3.893700698931552
+GenX,NYUP,NYUP_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,7.3662977824322065
+GenX,NYUP,NYUP_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,4.241108991911283
+GenX,NYUP,NYUP_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,5.577143333306372
+GenX,NYUP,NYUP_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,4.304218202430868
+GenX,PJMC,PJMC_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,44.571950545782414
+GenX,PJMC,PJMC_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,4.710575558891552
+GenX,PJMC,PJMC_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.4373745790847693
+GenX,PJMC,PJMC_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,8.594403167839438
+GenX,PJMC,PJMC_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,1.8206850067500928
+GenX,PJMC,PJMC_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1892974987066671
+GenX,PJMC,PJMC_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.639318459921806
+GenX,PJMC,PJMC_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,10424730.713369686
+GenX,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,847092.4981361083
+GenX,PJMC,PJMC_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,16.358502345486574
+GenX,PJMC,PJMC_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,12.833104420418056
+GenX,PJMC,PJMC_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,10.308411903176196
+GenX,PJMC,PJMC_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,6.506995578845646
+GenX,PJMC,PJMC_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,9.03913356968657
+GenX,PJMC,PJMC_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,6.3013066737038494
+GenX,PJMC,PJMC_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,7.764379598067791
+GenX,PJMC,PJMC_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,5.038942794934301
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,37.88349437261441
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,11.515591643471971
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,67.89977672487419
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,29.74464345448487
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,6.369993064764992
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,6.721063810711731
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,7.576079483466067
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,27.065975501256133
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,5.149885649011522
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,28.771956031316208
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,4.214092108469142
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,7.161901337861327
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,7.210963633727169
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,13.497031174342764
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,5.453771987305114
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,11.568932251149612
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,8.306353755164519
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,2.3218947483236225
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,2.7048608514795984
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,6.638828521548121
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,5.719083462784912
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,2.688340408723269
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,1.015977668636384
+GenX,PJMC,PJMC_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,2.345837765460364
+GenX,PJMD,PJMD_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,4.948607699961579
+GenX,PJMD,PJMD_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.3975294903265075
+GenX,PJMD,PJMD_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,7.092093581886661
+GenX,PJMD,PJMD_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,4.828597314409968
+GenX,PJMD,PJMD_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.2066641444117299
+GenX,PJMD,PJMD_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.6998447115631258
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,2485914.065343898
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,1683030.72958993
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,2081210.4722785784
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,77194.50680510054
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,294663.0949255889
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,2110486.616826711
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,2274197.275981368
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,950912.7540160748
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,1299578.387753714
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,199043.929380702
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,2093709.760157762
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,1824861.3004754824
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,841351.8864595626
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,2862927.498029632
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,5.397479056868821
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,1331001.294597836
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,2.6029376678965495
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,613563.3062875415
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,11.823022690973632
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,1783156.7996090816
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,1.4417788401885685
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,4.095870832581748
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,0.8069641119628096
+GenX,PJMD,PJMD_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,0.4247587835299456
+GenX,PJMD,PJMD_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,49064071.50635752
+GenX,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,2162058.4028698993
+GenX,PJMD,PJMD_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,12.346560958526718
+GenX,PJMD,PJMD_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,20.720289952014227
+GenX,PJMD,PJMD_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,9.475844595311177
+GenX,PJMD,PJMD_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,7.048019966159923
+GenX,PJMD,PJMD_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,5.732798189780969
+GenX,PJMD,PJMD_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,6.701310081727067
+GenX,PJMD,PJMD_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,4.897843936749476
+GenX,PJMD,PJMD_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,4.255939970333189
+GenX,PJMD,PJMD_offshorewind_class3_moderate_fixed_1_1,Wind,2030,base_short_results_200,all,MWh,1.0448245555015998
+GenX,PJMD,PJMD_offshorewind_class3_moderate_fixed_1_2,Wind,2030,base_short_results_200,all,MWh,1.0647200893959792
+GenX,PJMD,PJMD_offshorewind_class3_moderate_fixed_1_3,Wind,2030,base_short_results_200,all,MWh,1.0626402848788068
+GenX,PJMD,PJMD_offshorewind_class3_moderate_fixed_0_1,Wind,2030,base_short_results_200,all,MWh,1.072762451411969
+GenX,PJMD,PJMD_offshorewind_class3_moderate_fixed_0_2,Wind,2030,base_short_results_200,all,MWh,1.0831212360740798
+GenX,PJMD,PJMD_offshorewind_class3_moderate_fixed_0_3,Wind,2030,base_short_results_200,all,MWh,1.1807664803300562
+GenX,PJMD,PJMD_offshorewind_class12_moderate_floating_0_1,Wind,2030,base_short_results_200,all,MWh,0.442473955460633
+GenX,PJMD,PJMD_offshorewind_class12_moderate_floating_0_2,Wind,2030,base_short_results_200,all,MWh,0.4692912514098932
+GenX,PJMD,PJMD_offshorewind_class12_moderate_floating_0_3,Wind,2030,base_short_results_200,all,MWh,0.488546937038087
+GenX,PJME,PJME_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,13.349914041177865
+GenX,PJME,PJME_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.5353971437166937
+GenX,PJME,PJME_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,5.345506548924026
+GenX,PJME,PJME_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,4.357528451122008
+GenX,PJME,PJME_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.2127336157924236
+GenX,PJME,PJME_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.7124493453405671
+GenX,PJME,PJME_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,6968483.940784657
+GenX,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,976464.6739689516
+GenX,PJME,PJME_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,3941739.3222826617
+GenX,PJME,PJME_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,3163885.195225376
+GenX,PJME,PJME_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,2808647.8576951697
+GenX,PJME,PJME_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,2972459.4803356063
+GenX,PJME,PJME_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,13650381.28635421
+GenX,PJME,PJME_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,35549020.11304675
+GenX,PJME,PJME_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,32737895.071845055
+GenX,PJME,PJME_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,5936705.695875876
+GenX,PJME,PJME_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,5.043475370272867
+GenX,PJME,PJME_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,5.5604540671136995
+GenX,PJME,PJME_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,3.1832835490023084
+GenX,PJME,PJME_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,2.9332762319754897
+GenX,PJME,PJME_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,2.2183258742932184
+GenX,PJME,PJME_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,2.202034534600391
+GenX,PJME,PJME_offshorewind_class3_moderate_fixed_1_1,Wind,2030,base_short_results_200,all,MWh,1.4507175966448322
+GenX,PJME,PJME_offshorewind_class3_moderate_fixed_1_2,Wind,2030,base_short_results_200,all,MWh,1.426325361815019
+GenX,PJME,PJME_offshorewind_class3_moderate_fixed_1_3,Wind,2030,base_short_results_200,all,MWh,1.089246662031636
+GenX,PJME,PJME_offshorewind_class12_moderate_floating_1_1,Wind,2030,base_short_results_200,all,MWh,0.7913185523859203
+GenX,PJME,PJME_offshorewind_class12_moderate_floating_1_2,Wind,2030,base_short_results_200,all,MWh,0.794343419122402
+GenX,PJME,PJME_offshorewind_class12_moderate_floating_1_3,Wind,2030,base_short_results_200,all,MWh,0.8051218076615247
+GenX,PJME,PJME_offshorewind_class3_moderate_fixed_0_1,Wind,2030,base_short_results_200,all,MWh,1.3737400134946234
+GenX,PJME,PJME_offshorewind_class3_moderate_fixed_0_2,Wind,2030,base_short_results_200,all,MWh,1.062696552907741
+GenX,PJME,PJME_offshorewind_class3_moderate_fixed_0_3,Wind,2030,base_short_results_200,all,MWh,1.0447434615135045
+GenX,PJME,PJME_offshorewind_class12_moderate_floating_0_1,Wind,2030,base_short_results_200,all,MWh,0.632146465399311
+GenX,PJME,PJME_offshorewind_class12_moderate_floating_0_2,Wind,2030,base_short_results_200,all,MWh,0.4393231566635757
+GenX,PJME,PJME_offshorewind_class12_moderate_floating_0_3,Wind,2030,base_short_results_200,all,MWh,0.4374010814669274
+GenX,PJMW,PJMW_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,72782563.87341785
+GenX,PJMW,PJMW_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,4.638668758602913
+GenX,PJMW,PJMW_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.4192166491512488
+GenX,PJMW,PJMW_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,6.284432801996608
+GenX,PJMW,PJMW_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,3.516876226694474
+GenX,PJMW,PJMW_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.185955773627214
+GenX,PJMW,PJMW_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.5828107974031972
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,4965596.638778638
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,5512409.48048722
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,3427699.839402239
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,2862466.126565994
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,4523698.166828417
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,3144779.391144842
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,4375081.948014571
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,2911272.29066493
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,7065493.801388237
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,1001223.0207454086
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,3331877.3928376366
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,1959308.2228309915
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,2928688.474898584
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,2963491.054950957
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,4805785.753122199
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,2001313.263210284
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,1.2980489247427585
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,3.4561163548087
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,32.83409453306965
+GenX,PJMW,PJMW_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,5.710815364306818
+GenX,PJMW,PJMW_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,81996436.11109294
+GenX,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,47.72269652758167
+GenX,PJMW,PJMW_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,12.118477184640582
+GenX,PJMW,PJMW_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,14.065590133794396
+GenX,PJMW,PJMW_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,8.029350192396723
+GenX,PJMW,PJMW_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,8.859188674231742
+GenX,PJMW,PJMW_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,4.650327105832656
+GenX,PJMW,PJMW_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,6.523414482412821
+GenX,PJMW,PJMW_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,3.2946011092698564
+GenX,PJMW,PJMW_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,5.312449268418412
+GenX,RMRG,RMRG_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,3.693498843915945
+GenX,RMRG,RMRG_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,2.206200601167048
+GenX,RMRG,RMRG_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.2541462528508125
+GenX,RMRG,RMRG_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,6.977201579606838
+GenX,RMRG,RMRG_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,1.4811041286894462
+GenX,RMRG,RMRG_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1549063228572646
+GenX,RMRG,RMRG_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.458802136171336
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,41094173.303267576
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,13272297.193512376
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,25395347.06477961
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,21933336.868167643
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,81.02126428109335
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,12314578.436875192
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,11205670.856154714
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,25328472.01708211
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,11.669743187786375
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,14.23402507753347
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,10.746956677156954
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,48.23184616837201
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,7.519644940514309
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,10.0602228288687
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,8.414091569633767
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,34.081151828678955
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,9.374973822104485
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,7.25052153242977
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,7.277042254201882
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,3.9550587927069225
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,7.771174360434624
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,6.6135858443558755
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,6.63514397606291
+GenX,RMRG,RMRG_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,3.767138075517875
+GenX,RMRG,RMRG_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,4253935.274757335
+GenX,RMRG,RMRG_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,20099041.300540753
+GenX,RMRG,RMRG_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,36.620201854800946
+GenX,RMRG,RMRG_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,16.055716611899005
+GenX,RMRG,RMRG_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,11.505512847272431
+GenX,RMRG,RMRG_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,13.515272942673976
+GenX,RMRG,RMRG_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,8.42399855689479
+GenX,RMRG,RMRG_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,38.69897517264454
+GenX,RMRG,RMRG_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,8.290068553880257
+GenX,RMRG,RMRG_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,6.501711385015708
+GenX,SPPC,SPPC_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,6.060243031674251
+GenX,SPPC,SPPC_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,3.2783597932290753
+GenX,SPPC,SPPC_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.3092337117614698
+GenX,SPPC,SPPC_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,7.569633473477907
+GenX,SPPC,SPPC_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,1.6906995926476802
+GenX,SPPC,SPPC_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1616206513230664
+GenX,SPPC,SPPC_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.5103230042314837
+GenX,SPPC,SPPC_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,8580973.433914362
+GenX,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,1134159.58390303
+GenX,SPPC,SPPC_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,26.61287944357446
+GenX,SPPC,SPPC_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,235.3920373965217
+GenX,SPPC,SPPC_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,21.504393432984443
+GenX,SPPC,SPPC_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,13.18876501760056
+GenX,SPPC,SPPC_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,13.079756697783788
+GenX,SPPC,SPPC_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,10.582733216306364
+GenX,SPPC,SPPC_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,10.706417203779363
+GenX,SPPC,SPPC_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,8.947041768036705
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,14670543.89841265
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,18820155.799557332
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,19052228.7828488
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,114.04232225022288
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,6640.100322404763
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,19.438320793871224
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,14.717041393938509
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,13.066791535936204
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,9.15088127742009
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,10.580889001874512
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,13.315228573231996
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,71.87398362304003
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,7.337866144246184
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,7.550606726338961
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,9.94088620143358
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,24.018378561147195
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,7.064532356807405
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,11.913606619411814
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,6.998909191188214
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,5.4819635063938055
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,1.1597821861079654
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,3.742888693558732
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,6.1981669023104855
+GenX,SPPC,SPPC_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,2.1872080197089168
+GenX,SPPN,SPPN_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,4.746517511402776
+GenX,SPPN,SPPN_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,3.4019134673370583
+GenX,SPPN,SPPN_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.3174761890199146
+GenX,SPPN,SPPN_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,8.061975814560883
+GenX,SPPN,SPPN_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,1.777152010144089
+GenX,SPPN,SPPN_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1619595799693343
+GenX,SPPN,SPPN_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.5302861256137585
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,17945518.23676065
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,50.80049842562155
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,3209225.646092112
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,19.15814409642286
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,15.791184427163705
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,3822561.346171302
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,22.381365769121512
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,26.68723010399068
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,9275060.577108707
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,10.877970402907003
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,17.37207287192322
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,9.302008108529304
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,11.688948404647252
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,9.916937905057155
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,40.2859734074328
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,9.964871376823387
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,27.268002797739587
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,7.947986501034446
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,9.72869270119588
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,6.4572080992025
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,8.971060557677237
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,7.68037544956666
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,35.477049239742875
+GenX,SPPN,SPPN_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,8.64602433892404
+GenX,SPPN,SPPN_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,18930794.07374815
+GenX,SPPN,SPPN_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,3058635.542947701
+GenX,SPPN,SPPN_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,110160.386957836
+GenX,SPPN,SPPN_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,1682722.3521225783
+GenX,SPPN,SPPN_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,40.319288335274095
+GenX,SPPN,SPPN_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,386195.5731422458
+GenX,SPPN,SPPN_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,23.76954945907309
+GenX,SPPN,SPPN_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,1707838.3256166806
+GenX,SPPN,SPPN_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,18.287870428030605
+GenX,SPPN,SPPN_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,2089964.0896116116
+GenX,SPPS,SPPS_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,8.64769100456051
+GenX,SPPS,SPPS_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,3.968089112406106
+GenX,SPPS,SPPS_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.3117236447503578
+GenX,SPPS,SPPS_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,7.0992170294275025
+GenX,SPPS,SPPS_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,1.7360415973884324
+GenX,SPPS,SPPS_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1582049688739271
+GenX,SPPS,SPPS_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.4801648924594439
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,39873799.69650482
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,26817350.264442716
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,30018661.88016484
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,7889170.7820046
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,87.49890157604415
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,9973749.86264501
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,19.533022860620537
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,22275028.62044062
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,42.761115391558505
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,28.05308103038095
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,13.684500385701194
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,18.071009502447733
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,15.580883523826378
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,16.452385756947507
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,11.058754808149626
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,32.052044208699655
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,15.792610693776346
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,7.129353324654825
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,16.11130415345121
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,6.784858020309458
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,13.431366636813385
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,6.31068123668812
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,9.347749613571848
+GenX,SPPS,SPPS_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,8.420732737245316
+GenX,SPPS,SPPS_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,25260871.753269173
+GenX,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,7916844.519060299
+GenX,SPPS,SPPS_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,11.605711558446256
+GenX,SPPS,SPPS_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,44.05271727310155
+GenX,SPPS,SPPS_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,10.197786768362796
+GenX,SPPS,SPPS_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,22.83061408506096
+GenX,SPPS,SPPS_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,10.13164429246549
+GenX,SPPS,SPPS_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,15.509907886589945
+GenX,SPPS,SPPS_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,11.629002212541534
+GenX,SPPS,SPPS_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,12.184922495317211
+GenX,SRCA,SRCA_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,28697356.02369074
+GenX,SRCA,SRCA_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,5.481439665511035
+GenX,SRCA,SRCA_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.3715299364366998
+GenX,SRCA,SRCA_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,6.251826432001978
+GenX,SRCA,SRCA_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,4.034749111763104
+GenX,SRCA,SRCA_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1908937442163936
+GenX,SRCA,SRCA_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.6482250407917134
+GenX,SRCA,SRCA_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,1613415.7494060004
+GenX,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,4148279.3895093887
+GenX,SRCA,SRCA_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,1437794.5855944506
+GenX,SRCA,SRCA_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,4892065.188605636
+GenX,SRCA,SRCA_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,1110216.431746454
+GenX,SRCA,SRCA_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,535996.2120086023
+GenX,SRCA,SRCA_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,2144257.3634319454
+GenX,SRCA,SRCA_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,2302855.3976895493
+GenX,SRCA,SRCA_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,1741266.2660342215
+GenX,SRCA,SRCA_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,1758117.3136043665
+GenX,SRCA,SRCA_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,47.69904194367063
+GenX,SRCA,SRCA_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,1402668.7560802866
+GenX,SRCA,SRCA_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,5.289823578622528
+GenX,SRCA,SRCA_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,0.9008405579940134
+GenX,SRCA,SRCA_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,0.3851573642993585
+GenX,SRCA,SRCA_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,7994519.365947481
+GenX,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,42955512.320239745
+GenX,SRCA,SRCA_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,17.09814408708216
+GenX,SRCA,SRCA_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,29.76321482361471
+GenX,SRCA,SRCA_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,7.554746949135214
+GenX,SRCA,SRCA_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,7.891328897694805
+GenX,SRCA,SRCA_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,5.146199833102873
+GenX,SRCA,SRCA_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,5.137574807206639
+GenX,SRCA,SRCA_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,3.8347917476442626
+GenX,SRCA,SRCA_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,4.5357632843750055
+GenX,SRCA,SRCA_offshorewind_class3_moderate_fixed_1_1,Wind,2030,base_short_results_200,all,MWh,0.8087148523273735
+GenX,SRCA,SRCA_offshorewind_class3_moderate_fixed_1_2,Wind,2030,base_short_results_200,all,MWh,0.8192209842460595
+GenX,SRCA,SRCA_offshorewind_class3_moderate_fixed_1_3,Wind,2030,base_short_results_200,all,MWh,0.8174594859212119
+GenX,SRCA,SRCA_offshorewind_class3_moderate_fixed_0_1,Wind,2030,base_short_results_200,all,MWh,0.7700434103808019
+GenX,SRCA,SRCA_offshorewind_class3_moderate_fixed_0_2,Wind,2030,base_short_results_200,all,MWh,0.7150058324849475
+GenX,SRCA,SRCA_offshorewind_class3_moderate_fixed_0_3,Wind,2030,base_short_results_200,all,MWh,0.6134584128812178
+GenX,SRCA,SRCA_offshorewind_class12_moderate_floating_0_1,Wind,2030,base_short_results_200,all,MWh,0.5707445033493671
+GenX,SRCA,SRCA_offshorewind_class12_moderate_floating_0_2,Wind,2030,base_short_results_200,all,MWh,0.5529314823997312
+GenX,SRCA,SRCA_offshorewind_class12_moderate_floating_0_3,Wind,2030,base_short_results_200,all,MWh,0.5674779344909078
+GenX,SRCE,SRCE_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,6869537.208367129
+GenX,SRCE,SRCE_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,5.171142930318865
+GenX,SRCE,SRCE_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.3308493727246767
+GenX,SRCE,SRCE_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,6.046595788573886
+GenX,SRCE,SRCE_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,2.540781728680281
+GenX,SRCE,SRCE_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1743384204217711
+GenX,SRCE,SRCE_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.5604722020914222
+GenX,SRCE,SRCE_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,13632588.60846737
+GenX,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,35250399.676573575
+GenX,SRCE,SRCE_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,28.969678894799184
+GenX,SRCE,SRCE_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,46.67812139756421
+GenX,SRCE,SRCE_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,19.58007198776114
+GenX,SRCE,SRCE_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,15.599127490034968
+GenX,SRCE,SRCE_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,11.0077899855274
+GenX,SRCE,SRCE_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,9.09551834127901
+GenX,SRCE,SRCE_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,8.392126202864135
+GenX,SRCE,SRCE_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,12.411729770608938
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,24141749.06384775
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,7213992.397071617
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,13603678.146615086
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,1373438.5284611292
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,14266702.392261105
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,25.27127245527977
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,9998685.296932952
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,80.18251984856741
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,8.307603092361283
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,13.29289747429207
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,7.5241911298698385
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,9.98122981863218
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,7.382709169974787
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,4.535201636542438
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,5.600653446720763
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,4.823824109818515
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,3.222323536885311
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,4.284487523544099
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,3.338067397497318
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,5.770784693999252
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,1.7924325166684285
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,2.7526908321150425
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,1.0481467513928702
+GenX,SRCE,SRCE_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,3.3267255738843913
+GenX,SRSE,SRSE_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,40304997.74807058
+GenX,SRSE,SRSE_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,5.126122390962933
+GenX,SRSE,SRSE_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.3142431675330999
+GenX,SRSE,SRSE_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,5.78722365706
+GenX,SRSE,SRSE_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,3.831564445877231
+GenX,SRSE,SRSE_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1839301311916914
+GenX,SRSE,SRSE_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.5701304737929482
+GenX,SRSE,SRSE_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,39392744.529299736
+GenX,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,26.340792165924203
+GenX,SRSE,SRSE_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,13588202.104243424
+GenX,SRSE,SRSE_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,8.854821989603357
+GenX,SRSE,SRSE_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,18.34891093125611
+GenX,SRSE,SRSE_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,6.106450408169458
+GenX,SRSE,SRSE_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,9.59387410630581
+GenX,SRSE,SRSE_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,4.4638536180579855
+GenX,SRSE,SRSE_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,6.8798799097781265
+GenX,SRSE,SRSE_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,3.7701380280065977
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,4.224718298104694
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,3726564.55696304
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,10.354233341280704
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,226.95536692405688
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,9.252241614861948
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,8.183229120481881
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,3229504.3626920413
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,1.3552842370795362
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,4.928936025701887
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,4.011001993582403
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,4.365736952316726
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,0.7048914109879212
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,2.791764510059979
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,3.1166664922393505
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,4.0216695851473165
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,3.4649596363762742
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,2.7571432541273064
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,2.4133860365928914
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,2.7471913828353434
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,0.5956557885944008
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,1.6106811052345913
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,1.7898361983341309
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,1.8970135590724129
+GenX,SRSE,SRSE_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,0.9430159270247868
+GenX,SRSE,SRSE_offshorewind_class3_moderate_fixed_0_1,Wind,2030,base_short_results_200,all,MWh,0.38930822408247
+GenX,SRSE,SRSE_offshorewind_class3_moderate_fixed_0_2,Wind,2030,base_short_results_200,all,MWh,0.3439867788590043
+GenX,SRSE,SRSE_offshorewind_class3_moderate_fixed_0_3,Wind,2030,base_short_results_200,all,MWh,0.3119500115914589
+GenX,SRSG,SRSG_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,4.8333890253049985
+GenX,SRSG,SRSG_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,6.888678548959795
+GenX,SRSG,SRSG_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.2922330668372667
+GenX,SRSG,SRSG_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,5.081125664906118
+GenX,SRSG,SRSG_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,2.237020575340668
+GenX,SRSG,SRSG_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.172583680871301
+GenX,SRSG,SRSG_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.8355501235678192
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,18755691.45268421
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,6.786403596566569
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,3086793.9469085205
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,224.26550893390137
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,3.2093759022153185
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,3.196747813483316
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,19.83125593628097
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,2.910774502519306
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,2.360771062125323
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,2.2885167805382274
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,9.143328498612613
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,2.478219142383483
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,2.1186401266177315
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,2.519383707926011
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,2.146300493807022
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,4.98318487631949
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,3.596477659356388
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,2.069877912101066
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,1.8559805367092832
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,1.8266838930320528
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,1.7410261525735882
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,2.0881490557020426
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,3.4023475889275643
+GenX,SRSG,SRSG_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,1.7837118901020546
+GenX,SRSG,SRSG_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,14.237616287492871
+GenX,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,30329173.264689103
+GenX,SRSG,SRSG_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,5.94543412520892
+GenX,SRSG,SRSG_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,7.511051830196574
+GenX,SRSG,SRSG_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,4.343310154657077
+GenX,SRSG,SRSG_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,23.219303169983053
+GenX,SRSG,SRSG_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,3.262207476576526
+GenX,SRSG,SRSG_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,5.075996411390677
+GenX,SRSG,SRSG_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,2.8687818488622416
+GenX,SRSG,SRSG_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,3.308532406257747
+GenX,TRE,TRE_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,11.502047925746496
+GenX,TRE,TRE_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,5.8367414036681255
+GenX,TRE,TRE_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.3246622529886208
+GenX,TRE,TRE_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,7.0600658741335085
+GenX,TRE,TRE_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,1.7279026740714645
+GenX,TRE,TRE_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1623410679974929
+GenX,TRE,TRE_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.530035604580688
+GenX,TRE,TRE_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,84944288.32806525
+GenX,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,6066088.179824732
+GenX,TRE,TRE_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,26205600.42587627
+GenX,TRE,TRE_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,19849330.74520402
+GenX,TRE,TRE_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,36.11260588027071
+GenX,TRE,TRE_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,21671685.125405308
+GenX,TRE,TRE_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,155.26944571999852
+GenX,TRE,TRE_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,7162115.59257146
+GenX,TRE,TRE_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,16045271.880421689
+GenX,TRE,TRE_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,13602200.734299123
+GenX,TRE,TRE_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,67.10779569067846
+GenX,TRE,TRE_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,34479020.57659766
+GenX,TRE,TRE_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,97.75113097537664
+GenX,TRE,TRE_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,52.536501601079515
+GenX,TRE,TRE_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,8554023.50193657
+GenX,TRE,TRE_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,24.566464477819412
+GenX,TRE,TRE_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,28.098571867292513
+GenX,TRE,TRE_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,279.81557140535614
+GenX,TRE,TRE_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,19.258169999707956
+GenX,TRE,TRE_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,69.18582643835492
+GenX,TRE,TRE_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,12.992106872965085
+GenX,TRE,TRE_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,10.668428380992548
+GenX,TRE,TRE_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,6.740694785506467
+GenX,TRE,TRE_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,9.23384081512596
+GenX,TRE,TRE_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,17518499.287981626
+GenX,TRE,TRE_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,3238161.7577226833
+GenX,TRE,TRE_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,25613025.81897468
+GenX,TRE,TRE_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,16.571771857523927
+GenX,TRE,TRE_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,17.195454692574746
+GenX,TRE,TRE_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,6752230.223414542
+GenX,TRE,TRE_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,14.261939149599437
+GenX,TRE,TRE_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,76.24358173157498
+GenX,TRE,TRE_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,11.830280543844994
+GenX,TRE,TRE_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,48.23920434801691
+GenX,TRE,TRE_offshorewind_class3_moderate_fixed_0_1,Wind,2030,base_short_results_200,all,MWh,0.3255766194531121
+GenX,TRE,TRE_offshorewind_class3_moderate_fixed_0_2,Wind,2030,base_short_results_200,all,MWh,0.334950276958741
+GenX,TRE,TRE_offshorewind_class3_moderate_fixed_0_3,Wind,2030,base_short_results_200,all,MWh,0.3549811419625508
+GenX,TRE,TRE_offshorewind_class12_moderate_floating_0_1,Wind,2030,base_short_results_200,all,MWh,0.1929547223640826
+GenX,TRE,TRE_offshorewind_class12_moderate_floating_0_2,Wind,2030,base_short_results_200,all,MWh,0.2338099312091555
+GenX,TRE,TRE_offshorewind_class12_moderate_floating_0_3,Wind,2030,base_short_results_200,all,MWh,0.2553591440971395
+GenX,TRE_WEST,TRE_WEST_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_results_200,all,MWh,4.457823296723889
+GenX,TRE_WEST,TRE_WEST_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,3.7028806923860342
+GenX,TRE_WEST,TRE_WEST_naturalgas_ctavgcf_moderate_0,Natural Gas,2030,base_short_results_200,all,MWh,0.2931211834724867
+GenX,TRE_WEST,TRE_WEST_battery_moderate_0,Battery,2030,base_short_results_200,all,MWh,6.9643984859831845
+GenX,TRE_WEST,TRE_WEST_nuclear_nuclear_moderate_0,Nuclear,2030,base_short_results_200,all,MWh,1.550030276142352
+GenX,TRE_WEST,TRE_WEST_hydrogen_ctavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.1548973934929489
+GenX,TRE_WEST,TRE_WEST_hydrogen_ccavgcf_moderate_0,Hydrogen,2030,base_short_results_200,all,MWh,0.4527460160484342
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_0,Wind,2030,base_short_results_200,all,MWh,17674891.25575142
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_1,Wind,2030,base_short_results_200,all,MWh,60.92894571171406
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_2,Wind,2030,base_short_results_200,all,MWh,26608309.063125
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_3,Wind,2030,base_short_results_200,all,MWh,9577621.843630696
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_4,Wind,2030,base_short_results_200,all,MWh,17236644.705944944
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_5,Wind,2030,base_short_results_200,all,MWh,26.253011020588623
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_6,Wind,2030,base_short_results_200,all,MWh,97.88643765652049
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_7,Wind,2030,base_short_results_200,all,MWh,12.545997657298292
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_8,Wind,2030,base_short_results_200,all,MWh,19.522843629813615
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_9,Wind,2030,base_short_results_200,all,MWh,16.194893567325906
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_10,Wind,2030,base_short_results_200,all,MWh,8.786354919521916
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_11,Wind,2030,base_short_results_200,all,MWh,87.13021459298044
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_12,Wind,2030,base_short_results_200,all,MWh,17.89067166494395
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_13,Wind,2030,base_short_results_200,all,MWh,7.083968014150423
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_14,Wind,2030,base_short_results_200,all,MWh,9.530675366581686
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_15,Wind,2030,base_short_results_200,all,MWh,10.940862447751694
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_16,Wind,2030,base_short_results_200,all,MWh,9.762020522179428
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_17,Wind,2030,base_short_results_200,all,MWh,6.62419240044531
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_18,Wind,2030,base_short_results_200,all,MWh,8.692850890704893
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_19,Wind,2030,base_short_results_200,all,MWh,10.096573126579646
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_20,Wind,2030,base_short_results_200,all,MWh,10.216092556910697
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_21,Wind,2030,base_short_results_200,all,MWh,9.479217336495118
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_22,Wind,2030,base_short_results_200,all,MWh,5.596288017520493
+GenX,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_23,Wind,2030,base_short_results_200,all,MWh,8.383168577651993
+GenX,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_0,Solar,2030,base_short_results_200,all,MWh,11.07549305693175
+GenX,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_1,Solar,2030,base_short_results_200,all,MWh,11.67718761252278
+GenX,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_2,Solar,2030,base_short_results_200,all,MWh,7.231693921392139
+GenX,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_3,Solar,2030,base_short_results_200,all,MWh,9.099506920129643
+GenX,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_4,Solar,2030,base_short_results_200,all,MWh,6.497942529915762
+GenX,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_5,Solar,2030,base_short_results_200,all,MWh,7.741373259444944
+GenX,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_6,Solar,2030,base_short_results_200,all,MWh,7.033362654688101
+GenX,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_7,Solar,2030,base_short_results_200,all,MWh,5.852052872936668
+GenX,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_8,Solar,2030,base_short_results_200,all,MWh,5.986148453117716
+GenX,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_9,Solar,2030,base_short_results_200,all,MWh,15.051351863363209
