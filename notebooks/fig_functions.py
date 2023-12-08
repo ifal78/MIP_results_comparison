@@ -83,6 +83,8 @@ def load_data(data_path: Path, fn: str) -> pd.DataFrame:
             # print(f.parts[-2])
             _df = pd.read_csv(f)
             df_list.append(_df)
+    if not df_list:
+        return pd.DataFrame()
     df = pd.concat(df_list, ignore_index=True)
     if "resource_name" in df.columns:
         df = tech_to_type(df)
@@ -104,7 +106,8 @@ def load_genx_operations_data(data_path: Path, fn: str) -> pd.DataFrame:
         model = f.parts[-3].split("_")[0]
         _df["model"] = model
         df_list.append(_df)
-
+    if not df_list:
+        return pd.DataFrame()
     df = pd.concat(df_list, ignore_index=True)
     return df
 
@@ -298,24 +301,41 @@ def chart_dispatch(data: pd.DataFrame) -> alt.Chart:
 
 def chart_wind_dispatch(data: pd.DataFrame) -> alt.Chart:
     selection = alt.selection_point(fields=["model"], bind="legend")
-    chart = (
-        alt.Chart(data)
-        .mark_line()
-        .encode(
-            x="hour",
-            y="value",
-            color="model",
-            strokeDash="cluster",
-            facet=alt.Facet("zone", columns=5),
-            opacity=alt.condition(selection, alt.value(1), alt.value(0.2)),
-        )
-        .properties(width=250, height=150)
-        .add_params(selection)
-    ).resolve_scale(y="independent")
+    if "cluster" in data.columns:
+        chart = (
+            alt.Chart(data)
+            .mark_line()
+            .encode(
+                x="hour",
+                y="value",
+                color="model",
+                strokeDash="cluster",
+                facet=alt.Facet("zone", columns=5),
+                opacity=alt.condition(selection, alt.value(1), alt.value(0.2)),
+            )
+            .properties(width=250, height=150)
+            .add_params(selection)
+        ).resolve_scale(y="independent")
+    else:
+        chart = (
+            alt.Chart(data)
+            .mark_line()
+            .encode(
+                x="hour",
+                y="value",
+                color="model",
+                facet=alt.Facet("zone", columns=5),
+                opacity=alt.condition(selection, alt.value(1), alt.value(0.2)),
+            )
+            .properties(width=250, height=150)
+            .add_params(selection)
+        ).resolve_scale(y="independent")
     return chart
 
 
 def chart_op_cost(op_costs: pd.DataFrame) -> alt.Chart:
+    if op_costs.empty:
+        return None
     base = (
         alt.Chart()
         .mark_bar()
@@ -348,6 +368,8 @@ def chart_op_cost(op_costs: pd.DataFrame) -> alt.Chart:
 
 
 def chart_op_nse(op_nse: pd.DataFrame) -> alt.Chart:
+    if op_nse.empty:
+        return None
     chart = (
         alt.Chart(op_nse[["Segment", "Total", "model"]].query("Segment == 'AnnualSum'"))
         .mark_bar()
