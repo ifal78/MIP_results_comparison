@@ -1,0 +1,18 @@
+project:
+  type: website
+
+website:
+  title: "MIP"
+  navbar:
+    left:
+      - blog.qmd
+      # - about.qmd
+      # - text: Cars
+      #   href: posts/other-notebook.ipynb
+      # - text: Analysis
+      #   href: posts/hello-penguins.ipynb
+
+# format:
+#   html:
+#     toc: true
+#     theme: lux

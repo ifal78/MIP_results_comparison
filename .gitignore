@@ -118,3 +118,7 @@ venv.bak/
 
 # extra_outputs files for GenX inputs
 **/extra_outputs/*
+/.quarto/
+
+# RStudio
+.Rproj.user
