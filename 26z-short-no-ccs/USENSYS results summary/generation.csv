@@ -1,0 +1,1322 @@
+model,zone,resource_name,tech_type,planning_year,case,unit,value
+USENSYS,BASN,BASN_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,482569
+USENSYS,BASN,BASN_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,715204
+USENSYS,BASN,BASN_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,702803
+USENSYS,BASN,BASN_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1340356
+USENSYS,BASN,BASN_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5836450
+USENSYS,BASN,BASN_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,154889
+USENSYS,BASN,BASN_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,122975
+USENSYS,BASN,BASN_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,79488
+USENSYS,BASN,BASN_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8812889
+USENSYS,BASN,BASN_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6085696
+USENSYS,BASN,BASN_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5071770
+USENSYS,BASN,BASN_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,432229
+USENSYS,BASN,BASN_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,80098
+USENSYS,BASN,BASN_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3866803
+USENSYS,BASN,BASN_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4522546
+USENSYS,BASN,BASN_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4502045
+USENSYS,BASN,BASN_geothermal_1,Geothermal,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3782688
+USENSYS,BASN,BASN_geothermal_1,Geothermal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2507232
+USENSYS,BASN,BASN_geothermal_1,Geothermal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,489216
+USENSYS,BASN,BASN_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,80052056
+USENSYS,BASN,BASN_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,131179202
+USENSYS,BASN,BASN_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,169078009
+USENSYS,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,16754584
+USENSYS,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12372369
+USENSYS,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4188797
+USENSYS,BASN,BASN_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2418
+USENSYS,BASN,BASN_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,369051
+USENSYS,BASN,BASN_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,263263
+USENSYS,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,42653
+USENSYS,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,89956
+USENSYS,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,40040
+USENSYS,BASN,BASN_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,811
+USENSYS,BASN,BASN_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2049
+USENSYS,BASN,BASN_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13078807
+USENSYS,BASN,BASN_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,28531742
+USENSYS,BASN,BASN_onshore_wind_turbine_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4099440
+USENSYS,BASN,BASN_onshore_wind_turbine_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3287973
+USENSYS,BASN,BASN_onshore_wind_turbine_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1175729
+USENSYS,BASN,BASN_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,98
+USENSYS,BASN,BASN_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1546272
+USENSYS,BASN,BASN_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1441440
+USENSYS,BASN,BASN_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1249248
+USENSYS,BASN,BASN_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,16772872
+USENSYS,BASN,BASN_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,16371589
+USENSYS,BASN,BASN_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8832224
+USENSYS,BASN,BASN_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1477203
+USENSYS,BASN,BASN_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,15523280
+USENSYS,BASN,BASN_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,37254521
+USENSYS,CANO,CANO_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2185597
+USENSYS,CANO,CANO_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1980410
+USENSYS,CANO,CANO_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2988942
+USENSYS,CANO,CANO_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2616166
+USENSYS,CANO,CANO_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1382103
+USENSYS,CANO,CANO_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,383939
+USENSYS,CANO,CANO_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,332982
+USENSYS,CANO,CANO_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,18521527
+USENSYS,CANO,CANO_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,18544067
+USENSYS,CANO,CANO_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,15092654
+USENSYS,CANO,CANO_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12231923
+USENSYS,CANO,CANO_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,14650855
+USENSYS,CANO,CANO_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,14000859
+USENSYS,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4057830
+USENSYS,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4737433
+USENSYS,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5044597
+USENSYS,CANO,CANO_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,31824514
+USENSYS,CANO,CANO_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,60469558
+USENSYS,CANO,CANO_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,62336413
+USENSYS,CANO,CANO_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,14258076
+USENSYS,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,14531918
+USENSYS,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,20641434
+USENSYS,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,27751414
+USENSYS,CANO,CANO_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,31248
+USENSYS,CANO,CANO_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,403520
+USENSYS,CANO,CANO_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,32109
+USENSYS,CANO,CANO_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,246554
+USENSYS,CANO,CANO_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,154
+USENSYS,CANO,CANO_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1752
+USENSYS,CANO,CANO_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,885527
+USENSYS,CANO,CANO_onshore_wind_turbine_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2938079
+USENSYS,CANO,CANO_onshore_wind_turbine_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1471431
+USENSYS,CANO,CANO_onshore_wind_turbine_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,130040
+USENSYS,CANO,CANO_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2114
+USENSYS,CANO,CANO_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1886976
+USENSYS,CANO,CANO_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1860768
+USENSYS,CANO,CANO_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1703520
+USENSYS,CANO,CANO_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13918714
+USENSYS,CANO,CANO_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13675543
+USENSYS,CANO,CANO_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5444009
+USENSYS,CANO,CANO_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,32580193
+USENSYS,CANO,CANO_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,42846824
+USENSYS,CANO,CANO_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,73699557
+USENSYS,CASO,CASO_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10592298
+USENSYS,CASO,CASO_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,119664
+USENSYS,CASO,CASO_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12896482
+USENSYS,CASO,CASO_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,46850118
+USENSYS,CASO,CASO_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,867490
+USENSYS,CASO,CASO_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,614836
+USENSYS,CASO,CASO_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,426790
+USENSYS,CASO,CASO_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2351202
+USENSYS,CASO,CASO_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2342761
+USENSYS,CASO,CASO_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2254428
+USENSYS,CASO,CASO_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1114
+USENSYS,CASO,CASO_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,19032937
+USENSYS,CASO,CASO_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,22796654
+USENSYS,CASO,CASO_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,21784233
+USENSYS,CASO,CASO_geothermal_1,Geothermal,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,209664
+USENSYS,CASO,CASO_geothermal_1,Geothermal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,209664
+USENSYS,CASO,CASO_geothermal_1,Geothermal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,209664
+USENSYS,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3517601
+USENSYS,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4288643
+USENSYS,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4301115
+USENSYS,CASO,CASO_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8801700
+USENSYS,CASO,CASO_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8461772
+USENSYS,CASO,CASO_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8461772
+USENSYS,CASO,CASO_landbasedwind_class3_moderate_2,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6430702
+USENSYS,CASO,CASO_landbasedwind_class3_moderate_2,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6289970
+USENSYS,CASO,CASO_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6289970
+USENSYS,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,25959521
+USENSYS,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,22216677
+USENSYS,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,22179723
+USENSYS,CASO,CASO_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1608
+USENSYS,CASO,CASO_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,921189
+USENSYS,CASO,CASO_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,823083
+USENSYS,CASO,CASO_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,65015
+USENSYS,CASO,CASO_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,65500
+USENSYS,CASO,CASO_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,78498
+USENSYS,CASO,CASO_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1269
+USENSYS,CASO,CASO_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,19459757
+USENSYS,CASO,CASO_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,37512223
+USENSYS,CASO,CASO_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,35952443
+USENSYS,CASO,CASO_nuclear_nuclear_moderate_0,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,27614355
+USENSYS,CASO,CASO_nuclear_nuclear_moderate_0,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,33982012
+USENSYS,CASO,CASO_onshore_wind_turbine_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,14430897
+USENSYS,CASO,CASO_onshore_wind_turbine_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12743174
+USENSYS,CASO,CASO_onshore_wind_turbine_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1530580
+USENSYS,CASO,CASO_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,112
+USENSYS,CASO,CASO_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,42
+USENSYS,CASO,CASO_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,637728
+USENSYS,CASO,CASO_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,637728
+USENSYS,CASO,CASO_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,628992
+USENSYS,CASO,CASO_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,31200298
+USENSYS,CASO,CASO_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,30805126
+USENSYS,CASO,CASO_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,14552810
+USENSYS,CASO,CASO_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,59079921
+USENSYS,CASO,CASO_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,85982833
+USENSYS,CASO,CASO_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,187037579
+USENSYS,FRCC,FRCC_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,372528
+USENSYS,FRCC,FRCC_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,432812
+USENSYS,FRCC,FRCC_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,451712
+USENSYS,FRCC,FRCC_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3784501
+USENSYS,FRCC,FRCC_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12119612
+USENSYS,FRCC,FRCC_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1228677
+USENSYS,FRCC,FRCC_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,851040
+USENSYS,FRCC,FRCC_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,565895
+USENSYS,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,117825
+USENSYS,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,118529
+USENSYS,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,118547
+USENSYS,FRCC,FRCC_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,259
+USENSYS,FRCC,FRCC_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,11149503
+USENSYS,FRCC,FRCC_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13338172
+USENSYS,FRCC,FRCC_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13204932
+USENSYS,FRCC,FRCC_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,18103504
+USENSYS,FRCC,FRCC_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17910556
+USENSYS,FRCC,FRCC_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17910556
+USENSYS,FRCC,FRCC_landbasedwind_class3_moderate_2,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17949179
+USENSYS,FRCC,FRCC_landbasedwind_class3_moderate_2,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17864040
+USENSYS,FRCC,FRCC_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17864040
+USENSYS,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,58537555
+USENSYS,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,55702107
+USENSYS,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,54487895
+USENSYS,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,366047
+USENSYS,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,561266
+USENSYS,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,583226
+USENSYS,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,81145
+USENSYS,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,96329
+USENSYS,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,91600
+USENSYS,FRCC,FRCC_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10640
+USENSYS,FRCC,FRCC_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12152
+USENSYS,FRCC,FRCC_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,11480
+USENSYS,FRCC,FRCC_nuclear_1,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,31592957
+USENSYS,FRCC,FRCC_nuclear_1,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,31329022
+USENSYS,FRCC,FRCC_nuclear_1,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,31168582
+USENSYS,FRCC,FRCC_nuclear_nuclear_moderate_0,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,74645734
+USENSYS,FRCC,FRCC_nuclear_nuclear_moderate_0,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,116761099
+USENSYS,FRCC,FRCC_nuclear_nuclear_moderate_0,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,153199683
+USENSYS,FRCC,FRCC_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,15375884
+USENSYS,FRCC,FRCC_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,15717179
+USENSYS,FRCC,FRCC_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9813512
+USENSYS,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,50808742
+USENSYS,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,87427603
+USENSYS,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,129413028
+USENSYS,ISNE,ISNE_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,302462
+USENSYS,ISNE,ISNE_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,263944
+USENSYS,ISNE,ISNE_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,241482
+USENSYS,ISNE,ISNE_battery_moderate_0,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,460297
+USENSYS,ISNE,ISNE_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3627622
+USENSYS,ISNE,ISNE_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6165769
+USENSYS,ISNE,ISNE_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,956129
+USENSYS,ISNE,ISNE_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,310634
+USENSYS,ISNE,ISNE_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,165709
+USENSYS,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2213971
+USENSYS,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1961604
+USENSYS,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1766690
+USENSYS,ISNE,ISNE_conventional_steam_coal_1,Coal,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,50412
+USENSYS,ISNE,ISNE_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8009817
+USENSYS,ISNE,ISNE_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9238782
+USENSYS,ISNE,ISNE_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9660935
+USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3676764
+USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3937637
+USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3878638
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,62268587
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,97033189
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,105832420
+USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10076105
+USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6495414
+USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6499821
+USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,199359
+USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,218446
+USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,193676
+USENSYS,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13374
+USENSYS,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,16701
+USENSYS,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,14716
+USENSYS,ISNE,ISNE_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4195
+USENSYS,ISNE,ISNE_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3982
+USENSYS,ISNE,ISNE_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2069
+USENSYS,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,26125454
+USENSYS,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,42537593
+USENSYS,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,44398433
+USENSYS,ISNE,ISNE_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,865586
+USENSYS,ISNE,ISNE_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,708722
+USENSYS,ISNE,ISNE_nuclear_1,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,25352922
+USENSYS,ISNE,ISNE_nuclear_1,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,22787707
+USENSYS,ISNE,ISNE_nuclear_1,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,22653130
+USENSYS,ISNE,ISNE_offshorewind_class3_moderate_fixed_0_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8275766
+USENSYS,ISNE,ISNE_offshorewind_class3_moderate_fixed_0_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8275766
+USENSYS,ISNE,ISNE_offshorewind_class3_moderate_fixed_0_2,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,442547
+USENSYS,ISNE,ISNE_offshorewind_class3_moderate_fixed_0_2,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8122827
+USENSYS,ISNE,ISNE_offshorewind_class3_moderate_fixed_1_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,140799
+USENSYS,ISNE,ISNE_offshorewind_class3_moderate_fixed_1_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1066607
+USENSYS,ISNE,ISNE_onshore_wind_turbine_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1979670
+USENSYS,ISNE,ISNE_onshore_wind_turbine_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1717019
+USENSYS,ISNE,ISNE_onshore_wind_turbine_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,55166
+USENSYS,ISNE,ISNE_petroleum_liquids_1,Other,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,29557
+USENSYS,ISNE,ISNE_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,32592
+USENSYS,ISNE,ISNE_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,18550
+USENSYS,ISNE,ISNE_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2218944
+USENSYS,ISNE,ISNE_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1983072
+USENSYS,ISNE,ISNE_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1729728
+USENSYS,ISNE,ISNE_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4097810
+USENSYS,ISNE,ISNE_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4148314
+USENSYS,ISNE,ISNE_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1794827
+USENSYS,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,16155040
+USENSYS,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,30580742
+USENSYS,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,44274308
+USENSYS,MISC,MISC_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,29070
+USENSYS,MISC,MISC_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,27338
+USENSYS,MISC,MISC_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,25103
+USENSYS,MISC,MISC_battery_moderate_0,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,296789
+USENSYS,MISC,MISC_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3767753
+USENSYS,MISC,MISC_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9765648
+USENSYS,MISC,MISC_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,396253
+USENSYS,MISC,MISC_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,374297
+USENSYS,MISC,MISC_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,261630
+USENSYS,MISC,MISC_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1501159
+USENSYS,MISC,MISC_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,920440
+USENSYS,MISC,MISC_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,920330
+USENSYS,MISC,MISC_conventional_steam_coal_1,Coal,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7584
+USENSYS,MISC,MISC_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,256781
+USENSYS,MISC,MISC_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,662655
+USENSYS,MISC,MISC_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2439973
+USENSYS,MISC,MISC_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5213568
+USENSYS,MISC,MISC_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7004306
+USENSYS,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1366472
+USENSYS,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1343461
+USENSYS,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1298519
+USENSYS,MISC,MISC_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,83130806
+USENSYS,MISC,MISC_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,87230475
+USENSYS,MISC,MISC_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,87230475
+USENSYS,MISC,MISC_landbasedwind_class3_moderate_2,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17809924
+USENSYS,MISC,MISC_landbasedwind_class3_moderate_2,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,33714220
+USENSYS,MISC,MISC_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,53219033
+USENSYS,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,11165205
+USENSYS,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7353574
+USENSYS,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4709680
+USENSYS,MISC,MISC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3742908
+USENSYS,MISC,MISC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3607761
+USENSYS,MISC,MISC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1352812
+USENSYS,MISC,MISC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,97519
+USENSYS,MISC,MISC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,42879
+USENSYS,MISC,MISC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,28840
+USENSYS,MISC,MISC_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,128286
+USENSYS,MISC,MISC_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13277
+USENSYS,MISC,MISC_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,30496
+USENSYS,MISC,MISC_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,25027303
+USENSYS,MISC,MISC_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,45532222
+USENSYS,MISC,MISC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,53939804
+USENSYS,MISC,MISC_nuclear_1,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17886396
+USENSYS,MISC,MISC_nuclear_1,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17225476
+USENSYS,MISC,MISC_nuclear_1,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,16584460
+USENSYS,MISC,MISC_onshore_wind_turbine_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12806588
+USENSYS,MISC,MISC_onshore_wind_turbine_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12020263
+USENSYS,MISC,MISC_onshore_wind_turbine_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3373917
+USENSYS,MISC,MISC_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5824
+USENSYS,MISC,MISC_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2520
+USENSYS,MISC,MISC_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,122304
+USENSYS,MISC,MISC_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,122304
+USENSYS,MISC,MISC_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,122304
+USENSYS,MISC,MISC_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6546650
+USENSYS,MISC,MISC_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6543035
+USENSYS,MISC,MISC_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6095101
+USENSYS,MISC,MISC_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,35080420
+USENSYS,MISC,MISC_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,67323537
+USENSYS,MISC,MISC_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,93552543
+USENSYS,MISE,MISE_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,800
+USENSYS,MISE,MISE_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,647
+USENSYS,MISE,MISE_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,494
+USENSYS,MISE,MISE_battery_moderate_0,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,94808
+USENSYS,MISE,MISE_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1868340
+USENSYS,MISE,MISE_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6660975
+USENSYS,MISE,MISE_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,779081
+USENSYS,MISE,MISE_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,479666
+USENSYS,MISE,MISE_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,224257
+USENSYS,MISE,MISE_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,279552
+USENSYS,MISE,MISE_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,336
+USENSYS,MISE,MISE_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5292
+USENSYS,MISE,MISE_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1901296
+USENSYS,MISE,MISE_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4374093
+USENSYS,MISE,MISE_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5408206
+USENSYS,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4913258
+USENSYS,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5320937
+USENSYS,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5094362
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10226890
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,11277539
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,11277539
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_2,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9506107
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_2,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10564045
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10564045
+USENSYS,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12515192
+USENSYS,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10460768
+USENSYS,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7240487
+USENSYS,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,824221
+USENSYS,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,981443
+USENSYS,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,960542
+USENSYS,MISE,MISE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1596
+USENSYS,MISE,MISE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,74911
+USENSYS,MISE,MISE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,47623
+USENSYS,MISE,MISE_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,686
+USENSYS,MISE,MISE_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1449
+USENSYS,MISE,MISE_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,15266176
+USENSYS,MISE,MISE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17327579
+USENSYS,MISE,MISE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17836361
+USENSYS,MISE,MISE_nuclear_1,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9715280
+USENSYS,MISE,MISE_nuclear_1,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9608041
+USENSYS,MISE,MISE_nuclear_1,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9569666
+USENSYS,MISE,MISE_nuclear_nuclear_moderate_0,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3850034
+USENSYS,MISE,MISE_nuclear_nuclear_moderate_0,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17455035
+USENSYS,MISE,MISE_nuclear_nuclear_moderate_0,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,30512309
+USENSYS,MISE,MISE_onshore_wind_turbine_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7241168
+USENSYS,MISE,MISE_onshore_wind_turbine_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7817963
+USENSYS,MISE,MISE_onshore_wind_turbine_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2375174
+USENSYS,MISE,MISE_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,609
+USENSYS,MISE,MISE_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,104832
+USENSYS,MISE,MISE_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,96096
+USENSYS,MISE,MISE_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,87360
+USENSYS,MISE,MISE_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1971240
+USENSYS,MISE,MISE_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1953763
+USENSYS,MISE,MISE_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1616151
+USENSYS,MISE,MISE_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,34369924
+USENSYS,MISE,MISE_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,43875061
+USENSYS,MISE,MISE_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,56692223
+USENSYS,MISS,MISS_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10715
+USENSYS,MISS,MISS_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12733
+USENSYS,MISS,MISS_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,11924
+USENSYS,MISS,MISS_battery_moderate_0,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,157243
+USENSYS,MISS,MISS_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2562007
+USENSYS,MISS,MISS_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7659305
+USENSYS,MISS,MISS_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,481043
+USENSYS,MISS,MISS_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,249993
+USENSYS,MISS,MISS_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,187023
+USENSYS,MISS,MISS_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1343747
+USENSYS,MISS,MISS_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1198109
+USENSYS,MISS,MISS_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1198009
+USENSYS,MISS,MISS_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,16471
+USENSYS,MISS,MISS_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8400
+USENSYS,MISS,MISS_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5987202
+USENSYS,MISS,MISS_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8311976
+USENSYS,MISS,MISS_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8999187
+USENSYS,MISS,MISS_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,36643452
+USENSYS,MISS,MISS_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,38488668
+USENSYS,MISS,MISS_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,38488668
+USENSYS,MISS,MISS_landbasedwind_class3_moderate_2,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13908837
+USENSYS,MISS,MISS_landbasedwind_class3_moderate_2,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,28287277
+USENSYS,MISS,MISS_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,34342579
+USENSYS,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,44120854
+USENSYS,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,48469360
+USENSYS,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,44812541
+USENSYS,MISS,MISS_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,518778
+USENSYS,MISS,MISS_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1211052
+USENSYS,MISS,MISS_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,879708
+USENSYS,MISS,MISS_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,46376
+USENSYS,MISS,MISS_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,82012
+USENSYS,MISS,MISS_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,87208
+USENSYS,MISS,MISS_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,229554
+USENSYS,MISS,MISS_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,154
+USENSYS,MISS,MISS_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2940
+USENSYS,MISS,MISS_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10953222
+USENSYS,MISS,MISS_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,23380577
+USENSYS,MISS,MISS_nuclear_1,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,44383418
+USENSYS,MISS,MISS_nuclear_1,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,43708535
+USENSYS,MISS,MISS_nuclear_1,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,43376695
+USENSYS,MISS,MISS_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,273
+USENSYS,MISS,MISS_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,56
+USENSYS,MISS,MISS_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,26208
+USENSYS,MISS,MISS_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,26208
+USENSYS,MISS,MISS_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,26208
+USENSYS,MISS,MISS_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3749829
+USENSYS,MISS,MISS_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3788406
+USENSYS,MISS,MISS_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3147225
+USENSYS,MISS,MISS_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,31832776
+USENSYS,MISS,MISS_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,49902950
+USENSYS,MISS,MISS_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,71346697
+USENSYS,MISW,MISW_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,28668
+USENSYS,MISW,MISW_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,23314
+USENSYS,MISW,MISW_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,19928
+USENSYS,MISW,MISW_battery_moderate_0,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1431721
+USENSYS,MISW,MISW_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6174699
+USENSYS,MISW,MISW_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,11831903
+USENSYS,MISW,MISW_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,490639
+USENSYS,MISW,MISW_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,365059
+USENSYS,MISW,MISW_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,218447
+USENSYS,MISW,MISW_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,292030
+USENSYS,MISW,MISW_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,242273
+USENSYS,MISW,MISW_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,198229
+USENSYS,MISW,MISW_conventional_steam_coal_1,Coal,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,56300
+USENSYS,MISW,MISW_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,829700
+USENSYS,MISW,MISW_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,637403
+USENSYS,MISW,MISW_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4284978
+USENSYS,MISW,MISW_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7288835
+USENSYS,MISW,MISW_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7958325
+USENSYS,MISW,MISW_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,100676046
+USENSYS,MISW,MISW_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,175829788
+USENSYS,MISW,MISW_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,232980518
+USENSYS,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,18074660
+USENSYS,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10310710
+USENSYS,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6386931
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1856718
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2118937
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,810420
+USENSYS,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,915694
+USENSYS,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,598863
+USENSYS,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,359100
+USENSYS,MISW,MISW_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4924
+USENSYS,MISW,MISW_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,19359
+USENSYS,MISW,MISW_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,15465
+USENSYS,MISW,MISW_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,30831913
+USENSYS,MISW,MISW_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,49370576
+USENSYS,MISW,MISW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,57543608
+USENSYS,MISW,MISW_nuclear_1,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,20669244
+USENSYS,MISW,MISW_nuclear_1,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,19710371
+USENSYS,MISW,MISW_nuclear_1,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,15310758
+USENSYS,MISW,MISW_onshore_wind_turbine_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,50314122
+USENSYS,MISW,MISW_onshore_wind_turbine_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,35607951
+USENSYS,MISW,MISW_onshore_wind_turbine_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7636650
+USENSYS,MISW,MISW_petroleum_liquids_1,Other,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13049
+USENSYS,MISW,MISW_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,31836
+USENSYS,MISW,MISW_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,11214
+USENSYS,MISW,MISW_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3669120
+USENSYS,MISW,MISW_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3092544
+USENSYS,MISW,MISW_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1921920
+USENSYS,MISW,MISW_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5653670
+USENSYS,MISW,MISW_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5479439
+USENSYS,MISW,MISW_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3312848
+USENSYS,MISW,MISW_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,33788949
+USENSYS,MISW,MISW_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,62589890
+USENSYS,MISW,MISW_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,99611104
+USENSYS,NWPP,NWPP_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10690
+USENSYS,NWPP,NWPP_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,28385
+USENSYS,NWPP,NWPP_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,53517
+USENSYS,NWPP,NWPP_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1172794
+USENSYS,NWPP,NWPP_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,467523
+USENSYS,NWPP,NWPP_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,343020
+USENSYS,NWPP,NWPP_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,245499
+USENSYS,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,137292276
+USENSYS,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,136756516
+USENSYS,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,125108802
+USENSYS,NWPP,NWPP_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,403445
+USENSYS,NWPP,NWPP_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,260476
+USENSYS,NWPP,NWPP_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4234606
+USENSYS,NWPP,NWPP_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5684745
+USENSYS,NWPP,NWPP_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5896622
+USENSYS,NWPP,NWPP_geothermal_1,Geothermal,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,192192
+USENSYS,NWPP,NWPP_geothermal_1,Geothermal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,192192
+USENSYS,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,718592
+USENSYS,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,784580
+USENSYS,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,803225
+USENSYS,NWPP,NWPP_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,47682567
+USENSYS,NWPP,NWPP_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,113620306
+USENSYS,NWPP,NWPP_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,171503213
+USENSYS,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10091410
+USENSYS,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4583690
+USENSYS,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3122580
+USENSYS,NWPP,NWPP_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,162190
+USENSYS,NWPP,NWPP_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,28826
+USENSYS,NWPP,NWPP_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,119560
+USENSYS,NWPP,NWPP_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,61323
+USENSYS,NWPP,NWPP_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1211
+USENSYS,NWPP,NWPP_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,621
+USENSYS,NWPP,NWPP_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17190678
+USENSYS,NWPP,NWPP_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,29816057
+USENSYS,NWPP,NWPP_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,443429
+USENSYS,NWPP,NWPP_nuclear_1,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5526715
+USENSYS,NWPP,NWPP_nuclear_1,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6318019
+USENSYS,NWPP,NWPP_nuclear_1,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6840917
+USENSYS,NWPP,NWPP_onshore_wind_turbine_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,18900669
+USENSYS,NWPP,NWPP_onshore_wind_turbine_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9683686
+USENSYS,NWPP,NWPP_onshore_wind_turbine_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1774172
+USENSYS,NWPP,NWPP_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1050
+USENSYS,NWPP,NWPP_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,126
+USENSYS,NWPP,NWPP_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3651648
+USENSYS,NWPP,NWPP_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3581760
+USENSYS,NWPP,NWPP_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3529344
+USENSYS,NWPP,NWPP_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3203965
+USENSYS,NWPP,NWPP_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3060483
+USENSYS,NWPP,NWPP_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1909204
+USENSYS,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4750949
+USENSYS,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,34313129
+USENSYS,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,69693216
+USENSYS,NYCW,NYCW_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,39158
+USENSYS,NYCW,NYCW_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,48204
+USENSYS,NYCW,NYCW_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,45740
+USENSYS,NYCW,NYCW_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,890893
+USENSYS,NYCW,NYCW_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1791852
+USENSYS,NYCW,NYCW_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,82165
+USENSYS,NYCW,NYCW_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7160
+USENSYS,NYCW,NYCW_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6856
+USENSYS,NYCW,NYCW_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2539058
+USENSYS,NYCW,NYCW_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3311590
+USENSYS,NYCW,NYCW_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4164812
+USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13239535
+USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7788016
+USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6876340
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,512116
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,484467
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,305022
+USENSYS,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,47949
+USENSYS,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,31305
+USENSYS,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,22348
+USENSYS,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8
+USENSYS,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1050
+USENSYS,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1769
+USENSYS,NYCW,NYCW_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9477408
+USENSYS,NYCW,NYCW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8717481
+USENSYS,NYCW,NYCW_nuclear_nuclear_moderate_0,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,53731005
+USENSYS,NYCW,NYCW_nuclear_nuclear_moderate_0,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,69956318
+USENSYS,NYCW,NYCW_nuclear_nuclear_moderate_0,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,85247096
+USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3075899
+USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3246480
+USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3246480
+USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5703133
+USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6024065
+USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6024065
+USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_2,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3087776
+USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_2,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3510035
+USENSYS,NYCW,NYCW_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10880
+USENSYS,NYCW,NYCW_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2141
+USENSYS,NYCW,NYCW_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,252567
+USENSYS,NYCW,NYCW_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,255018
+USENSYS,NYCW,NYCW_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,43334
+USENSYS,NYCW,NYCW_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9688
+USENSYS,NYCW,NYCW_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9789
+USENSYS,NYCW,NYCW_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9789
+USENSYS,NYUP,NYUP_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,89603
+USENSYS,NYUP,NYUP_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,126759
+USENSYS,NYUP,NYUP_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,133523
+USENSYS,NYUP,NYUP_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,682575
+USENSYS,NYUP,NYUP_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,295218
+USENSYS,NYUP,NYUP_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,101133
+USENSYS,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,18164515
+USENSYS,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,18146093
+USENSYS,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,18125128
+USENSYS,NYUP,NYUP_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1884558
+USENSYS,NYUP,NYUP_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2456804
+USENSYS,NYUP,NYUP_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3090311
+USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2861643
+USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3294638
+USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3651934
+USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,28761434
+USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,37695250
+USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,37695250
+USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5801706
+USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4256900
+USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6581690
+USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9263896
+USENSYS,NYUP,NYUP_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4060
+USENSYS,NYUP,NYUP_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17888
+USENSYS,NYUP,NYUP_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,20473
+USENSYS,NYUP,NYUP_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2242
+USENSYS,NYUP,NYUP_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7254
+USENSYS,NYUP,NYUP_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7592
+USENSYS,NYUP,NYUP_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,600
+USENSYS,NYUP,NYUP_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9256
+USENSYS,NYUP,NYUP_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7280
+USENSYS,NYUP,NYUP_nuclear_1,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,23926070
+USENSYS,NYUP,NYUP_nuclear_1,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,23120221
+USENSYS,NYUP,NYUP_nuclear_1,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,15518875
+USENSYS,NYUP,NYUP_onshore_wind_turbine_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5461453
+USENSYS,NYUP,NYUP_onshore_wind_turbine_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3835495
+USENSYS,NYUP,NYUP_onshore_wind_turbine_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2543987
+USENSYS,NYUP,NYUP_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,240
+USENSYS,NYUP,NYUP_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1184
+USENSYS,NYUP,NYUP_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3293472
+USENSYS,NYUP,NYUP_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3092544
+USENSYS,NYUP,NYUP_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2996448
+USENSYS,NYUP,NYUP_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2671121
+USENSYS,NYUP,NYUP_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2680404
+USENSYS,NYUP,NYUP_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1749836
+USENSYS,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2527699
+USENSYS,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12111244
+USENSYS,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,24227705
+USENSYS,PJMC,PJMC_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,31474
+USENSYS,PJMC,PJMC_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,29518
+USENSYS,PJMC,PJMC_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,26805
+USENSYS,PJMC,PJMC_battery_moderate_0,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,166859
+USENSYS,PJMC,PJMC_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2428979
+USENSYS,PJMC,PJMC_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6004028
+USENSYS,PJMC,PJMC_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,147157
+USENSYS,PJMC,PJMC_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,52162
+USENSYS,PJMC,PJMC_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,36022
+USENSYS,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,27060
+USENSYS,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,27573
+USENSYS,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,27686
+USENSYS,PJMC,PJMC_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1127
+USENSYS,PJMC,PJMC_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8687
+USENSYS,PJMC,PJMC_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2733242
+USENSYS,PJMC,PJMC_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3132705
+USENSYS,PJMC,PJMC_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3079276
+USENSYS,PJMC,PJMC_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,34016824
+USENSYS,PJMC,PJMC_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,37527800
+USENSYS,PJMC,PJMC_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,37527800
+USENSYS,PJMC,PJMC_landbasedwind_class3_moderate_2,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,21160110
+USENSYS,PJMC,PJMC_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,35887969
+USENSYS,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,14025650
+USENSYS,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10787554
+USENSYS,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7961216
+USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2770043
+USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3741172
+USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2765740
+USENSYS,PJMC,PJMC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,164627
+USENSYS,PJMC,PJMC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,151794
+USENSYS,PJMC,PJMC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,96957
+USENSYS,PJMC,PJMC_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1719
+USENSYS,PJMC,PJMC_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1778
+USENSYS,PJMC,PJMC_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1288
+USENSYS,PJMC,PJMC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4742277
+USENSYS,PJMC,PJMC_nuclear_1,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,51812372
+USENSYS,PJMC,PJMC_nuclear_1,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,48356503
+USENSYS,PJMC,PJMC_nuclear_1,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,45869932
+USENSYS,PJMC,PJMC_onshore_wind_turbine_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8534403
+USENSYS,PJMC,PJMC_onshore_wind_turbine_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5193468
+USENSYS,PJMC,PJMC_onshore_wind_turbine_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,943301
+USENSYS,PJMC,PJMC_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1400
+USENSYS,PJMC,PJMC_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2142
+USENSYS,PJMC,PJMC_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,78624
+USENSYS,PJMC,PJMC_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,78624
+USENSYS,PJMC,PJMC_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,78624
+USENSYS,PJMC,PJMC_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,568090
+USENSYS,PJMC,PJMC_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,553673
+USENSYS,PJMC,PJMC_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,418019
+USENSYS,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,11128874
+USENSYS,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,29342264
+USENSYS,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,39653080
+USENSYS,PJMD,PJMD_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,34961
+USENSYS,PJMD,PJMD_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,32271
+USENSYS,PJMD,PJMD_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,29269
+USENSYS,PJMD,PJMD_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1330581
+USENSYS,PJMD,PJMD_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6225123
+USENSYS,PJMD,PJMD_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,411927
+USENSYS,PJMD,PJMD_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,307704
+USENSYS,PJMD,PJMD_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,168459
+USENSYS,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,646239
+USENSYS,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,649918
+USENSYS,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,650041
+USENSYS,PJMD,PJMD_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,18167
+USENSYS,PJMD,PJMD_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,38556
+USENSYS,PJMD,PJMD_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3607638
+USENSYS,PJMD,PJMD_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5724578
+USENSYS,PJMD,PJMD_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6537725
+USENSYS,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6047570
+USENSYS,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7163793
+USENSYS,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7071683
+USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,16624646
+USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17013259
+USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17013259
+USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_2,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12664462
+USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_2,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13195517
+USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13195517
+USENSYS,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,19417333
+USENSYS,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,18786909
+USENSYS,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,16923595
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,569770
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1508808
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1178880
+USENSYS,PJMD,PJMD_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2000
+USENSYS,PJMD,PJMD_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2022
+USENSYS,PJMD,PJMD_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1750
+USENSYS,PJMD,PJMD_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12184
+USENSYS,PJMD,PJMD_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1586
+USENSYS,PJMD,PJMD_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1529
+USENSYS,PJMD,PJMD_nuclear_1,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,30596670
+USENSYS,PJMD,PJMD_nuclear_1,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,30562576
+USENSYS,PJMD,PJMD_nuclear_1,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,30133483
+USENSYS,PJMD,PJMD_nuclear_nuclear_moderate_0,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,14130549
+USENSYS,PJMD,PJMD_nuclear_nuclear_moderate_0,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,27540911
+USENSYS,PJMD,PJMD_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1225
+USENSYS,PJMD,PJMD_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,21
+USENSYS,PJMD,PJMD_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,34944
+USENSYS,PJMD,PJMD_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,34944
+USENSYS,PJMD,PJMD_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,34944
+USENSYS,PJMD,PJMD_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8714837
+USENSYS,PJMD,PJMD_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8880947
+USENSYS,PJMD,PJMD_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4574562
+USENSYS,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,30377881
+USENSYS,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,46525422
+USENSYS,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,62384623
+USENSYS,PJME,PJME_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,50091
+USENSYS,PJME,PJME_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,60790
+USENSYS,PJME,PJME_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,56186
+USENSYS,PJME,PJME_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7042663
+USENSYS,PJME,PJME_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,21355087
+USENSYS,PJME,PJME_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1427759
+USENSYS,PJME,PJME_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,633131
+USENSYS,PJME,PJME_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,162142
+USENSYS,PJME,PJME_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2370664
+USENSYS,PJME,PJME_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1746850
+USENSYS,PJME,PJME_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1747012
+USENSYS,PJME,PJME_conventional_steam_coal_1,Coal,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4367
+USENSYS,PJME,PJME_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,25153
+USENSYS,PJME,PJME_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,35628
+USENSYS,PJME,PJME_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,16160472
+USENSYS,PJME,PJME_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17043723
+USENSYS,PJME,PJME_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,16828079
+USENSYS,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3511276
+USENSYS,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4573709
+USENSYS,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4451496
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,11060619
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,11514910
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,11514910
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_2,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8718512
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_2,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9250516
+USENSYS,PJME,PJME_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9250516
+USENSYS,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,63955928
+USENSYS,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,71898260
+USENSYS,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,67102861
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,270950
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,593926
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,300593
+USENSYS,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,94514
+USENSYS,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,113383
+USENSYS,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,62444
+USENSYS,PJME,PJME_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,330
+USENSYS,PJME,PJME_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9420
+USENSYS,PJME,PJME_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9071
+USENSYS,PJME,PJME_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6214829
+USENSYS,PJME,PJME_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12659786
+USENSYS,PJME,PJME_nuclear_1,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,108544774
+USENSYS,PJME,PJME_nuclear_1,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,106559099
+USENSYS,PJME,PJME_nuclear_1,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,105594761
+USENSYS,PJME,PJME_nuclear_nuclear_moderate_0,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,21924350
+USENSYS,PJME,PJME_nuclear_nuclear_moderate_0,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,21538324
+USENSYS,PJME,PJME_nuclear_nuclear_moderate_0,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,36717231
+USENSYS,PJME,PJME_offshorewind_class3_moderate_fixed_1_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,35356229
+USENSYS,PJME,PJME_offshorewind_class3_moderate_fixed_1_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,42267578
+USENSYS,PJME,PJME_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10208
+USENSYS,PJME,PJME_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2496
+USENSYS,PJME,PJME_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,463008
+USENSYS,PJME,PJME_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,463008
+USENSYS,PJME,PJME_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,463008
+USENSYS,PJME,PJME_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3517030
+USENSYS,PJME,PJME_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3445893
+USENSYS,PJME,PJME_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1256638
+USENSYS,PJME,PJME_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,71217296
+USENSYS,PJME,PJME_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,113198941
+USENSYS,PJME,PJME_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,153386922
+USENSYS,PJMW,PJMW_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,41046
+USENSYS,PJMW,PJMW_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,37742
+USENSYS,PJMW,PJMW_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,35372
+USENSYS,PJMW,PJMW_battery_moderate_0,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4369549
+USENSYS,PJMW,PJMW_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12034538
+USENSYS,PJMW,PJMW_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,24755623
+USENSYS,PJMW,PJMW_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,166322
+USENSYS,PJMW,PJMW_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,150130
+USENSYS,PJMW,PJMW_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,74208
+USENSYS,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2224085
+USENSYS,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1676232
+USENSYS,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1676356
+USENSYS,PJMW,PJMW_conventional_steam_coal_1,Coal,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4446
+USENSYS,PJMW,PJMW_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,88865
+USENSYS,PJMW,PJMW_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,71799
+USENSYS,PJMW,PJMW_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4808495
+USENSYS,PJMW,PJMW_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10261129
+USENSYS,PJMW,PJMW_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12889300
+USENSYS,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,558656
+USENSYS,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,556789
+USENSYS,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,539107
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,36983716
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,38742983
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,38742983
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_2,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,28505692
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_2,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,30079837
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,30079837
+USENSYS,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,56653789
+USENSYS,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,47107716
+USENSYS,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,43048533
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3390536
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4307527
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3765307
+USENSYS,PJMW,PJMW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,89706
+USENSYS,PJMW,PJMW_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,74285
+USENSYS,PJMW,PJMW_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,56848
+USENSYS,PJMW,PJMW_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,41521
+USENSYS,PJMW,PJMW_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,25151
+USENSYS,PJMW,PJMW_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,23389
+USENSYS,PJMW,PJMW_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12269040
+USENSYS,PJMW,PJMW_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,20460738
+USENSYS,PJMW,PJMW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,18647060
+USENSYS,PJMW,PJMW_nuclear_1,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,52986728
+USENSYS,PJMW,PJMW_nuclear_1,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,52290824
+USENSYS,PJMW,PJMW_nuclear_1,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,52104975
+USENSYS,PJMW,PJMW_nuclear_nuclear_moderate_0,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,35784467
+USENSYS,PJMW,PJMW_nuclear_nuclear_moderate_0,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,88979138
+USENSYS,PJMW,PJMW_nuclear_nuclear_moderate_0,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,114943133
+USENSYS,PJMW,PJMW_onshore_wind_turbine_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8246650
+USENSYS,PJMW,PJMW_onshore_wind_turbine_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5490203
+USENSYS,PJMW,PJMW_onshore_wind_turbine_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1568615
+USENSYS,PJMW,PJMW_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2331
+USENSYS,PJMW,PJMW_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2310
+USENSYS,PJMW,PJMW_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1729728
+USENSYS,PJMW,PJMW_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1336608
+USENSYS,PJMW,PJMW_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1336608
+USENSYS,PJMW,PJMW_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7152873
+USENSYS,PJMW,PJMW_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7101505
+USENSYS,PJMW,PJMW_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6500332
+USENSYS,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,78091371
+USENSYS,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,105692932
+USENSYS,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,138961406
+USENSYS,RMRG,RMRG_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,137912
+USENSYS,RMRG,RMRG_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,126085
+USENSYS,RMRG,RMRG_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,116465
+USENSYS,RMRG,RMRG_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1980352
+USENSYS,RMRG,RMRG_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5367285
+USENSYS,RMRG,RMRG_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,43890
+USENSYS,RMRG,RMRG_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,33148
+USENSYS,RMRG,RMRG_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,21015
+USENSYS,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1901237
+USENSYS,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1749483
+USENSYS,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1546763
+USENSYS,RMRG,RMRG_conventional_steam_coal_1,Coal,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,22254
+USENSYS,RMRG,RMRG_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,594734
+USENSYS,RMRG,RMRG_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,360836
+USENSYS,RMRG,RMRG_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2860474
+USENSYS,RMRG,RMRG_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4052238
+USENSYS,RMRG,RMRG_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4710105
+USENSYS,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1772867
+USENSYS,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1767788
+USENSYS,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1688887
+USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,59805548
+USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,106085603
+USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,151608675
+USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5228791
+USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2861196
+USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1453827
+USENSYS,RMRG,RMRG_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,899739
+USENSYS,RMRG,RMRG_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,609892
+USENSYS,RMRG,RMRG_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,370825
+USENSYS,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,260843
+USENSYS,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,180670
+USENSYS,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,70231
+USENSYS,RMRG,RMRG_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4881140
+USENSYS,RMRG,RMRG_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,16615071
+USENSYS,RMRG,RMRG_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,20334226
+USENSYS,RMRG,RMRG_onshore_wind_turbine_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,28851622
+USENSYS,RMRG,RMRG_onshore_wind_turbine_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,23462284
+USENSYS,RMRG,RMRG_onshore_wind_turbine_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,11326822
+USENSYS,RMRG,RMRG_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,504
+USENSYS,RMRG,RMRG_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,882336
+USENSYS,RMRG,RMRG_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,856128
+USENSYS,RMRG,RMRG_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,742560
+USENSYS,RMRG,RMRG_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5167369
+USENSYS,RMRG,RMRG_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5041003
+USENSYS,RMRG,RMRG_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3416883
+USENSYS,RMRG,RMRG_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6728122
+USENSYS,RMRG,RMRG_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,16426316
+USENSYS,RMRG,RMRG_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,30310111
+USENSYS,SPPC,SPPC_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,672
+USENSYS,SPPC,SPPC_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,502
+USENSYS,SPPC,SPPC_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,428
+USENSYS,SPPC,SPPC_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1480465
+USENSYS,SPPC,SPPC_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4081860
+USENSYS,SPPC,SPPC_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,49449
+USENSYS,SPPC,SPPC_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,48828
+USENSYS,SPPC,SPPC_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12462
+USENSYS,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,67830
+USENSYS,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,66030
+USENSYS,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,65919
+USENSYS,SPPC,SPPC_conventional_steam_coal_1,Coal,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,30027
+USENSYS,SPPC,SPPC_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,195839
+USENSYS,SPPC,SPPC_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,235200
+USENSYS,SPPC,SPPC_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,719103
+USENSYS,SPPC,SPPC_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2079645
+USENSYS,SPPC,SPPC_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3319312
+USENSYS,SPPC,SPPC_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,52374767
+USENSYS,SPPC,SPPC_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,71605105
+USENSYS,SPPC,SPPC_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,92458597
+USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3470122
+USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2429935
+USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1556370
+USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,646218
+USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,562667
+USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,284496
+USENSYS,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,344408
+USENSYS,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,199485
+USENSYS,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,91763
+USENSYS,SPPC,SPPC_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,11525
+USENSYS,SPPC,SPPC_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7401
+USENSYS,SPPC,SPPC_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3963
+USENSYS,SPPC,SPPC_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3199524
+USENSYS,SPPC,SPPC_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10279946
+USENSYS,SPPC,SPPC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13107482
+USENSYS,SPPC,SPPC_nuclear_1,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8288402
+USENSYS,SPPC,SPPC_nuclear_1,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8172958
+USENSYS,SPPC,SPPC_nuclear_1,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7769842
+USENSYS,SPPC,SPPC_onshore_wind_turbine_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,18451945
+USENSYS,SPPC,SPPC_onshore_wind_turbine_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17478694
+USENSYS,SPPC,SPPC_onshore_wind_turbine_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4134776
+USENSYS,SPPC,SPPC_petroleum_liquids_1,Other,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,15
+USENSYS,SPPC,SPPC_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4620
+USENSYS,SPPC,SPPC_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1680
+USENSYS,SPPC,SPPC_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,167548
+USENSYS,SPPC,SPPC_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,165372
+USENSYS,SPPC,SPPC_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,46250
+USENSYS,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17011303
+USENSYS,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,24171102
+USENSYS,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,29123123
+USENSYS,SPPN,SPPN_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3957
+USENSYS,SPPN,SPPN_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3779
+USENSYS,SPPN,SPPN_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3585
+USENSYS,SPPN,SPPN_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1226035
+USENSYS,SPPN,SPPN_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,102163
+USENSYS,SPPN,SPPN_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,87146
+USENSYS,SPPN,SPPN_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,54786
+USENSYS,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10214364
+USENSYS,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9998112
+USENSYS,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9714256
+USENSYS,SPPN,SPPN_conventional_steam_coal_1,Coal,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10062
+USENSYS,SPPN,SPPN_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,231756
+USENSYS,SPPN,SPPN_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,254037
+USENSYS,SPPN,SPPN_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,545801
+USENSYS,SPPN,SPPN_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,979949
+USENSYS,SPPN,SPPN_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1335495
+USENSYS,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8363211
+USENSYS,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,30413288
+USENSYS,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,46930189
+USENSYS,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1155294
+USENSYS,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,677661
+USENSYS,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,453297
+USENSYS,SPPN,SPPN_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1449399
+USENSYS,SPPN,SPPN_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1144469
+USENSYS,SPPN,SPPN_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,646654
+USENSYS,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,584090
+USENSYS,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,374601
+USENSYS,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,225949
+USENSYS,SPPN,SPPN_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9733
+USENSYS,SPPN,SPPN_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6162
+USENSYS,SPPN,SPPN_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4127
+USENSYS,SPPN,SPPN_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2873304
+USENSYS,SPPN,SPPN_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7054475
+USENSYS,SPPN,SPPN_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10252679
+USENSYS,SPPN,SPPN_nuclear_1,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5120574
+USENSYS,SPPN,SPPN_nuclear_1,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4839126
+USENSYS,SPPN,SPPN_nuclear_1,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4718531
+USENSYS,SPPN,SPPN_onshore_wind_turbine_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,18965266
+USENSYS,SPPN,SPPN_onshore_wind_turbine_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17431067
+USENSYS,SPPN,SPPN_onshore_wind_turbine_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6545555
+USENSYS,SPPN,SPPN_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1344
+USENSYS,SPPN,SPPN_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,588
+USENSYS,SPPN,SPPN_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,541632
+USENSYS,SPPN,SPPN_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,384384
+USENSYS,SPPN,SPPN_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,225989
+USENSYS,SPPN,SPPN_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,218213
+USENSYS,SPPN,SPPN_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,163226
+USENSYS,SPPN,SPPN_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7656765
+USENSYS,SPPN,SPPN_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13453411
+USENSYS,SPPN,SPPN_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,18945164
+USENSYS,SPPS,SPPS_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,156827
+USENSYS,SPPS,SPPS_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,176576
+USENSYS,SPPS,SPPS_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,145930
+USENSYS,SPPS,SPPS_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1938655
+USENSYS,SPPS,SPPS_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,55892
+USENSYS,SPPS,SPPS_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,48490
+USENSYS,SPPS,SPPS_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,186
+USENSYS,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3018181
+USENSYS,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2822469
+USENSYS,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2643985
+USENSYS,SPPS,SPPS_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,43281
+USENSYS,SPPS,SPPS_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,116522
+USENSYS,SPPS,SPPS_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3116206
+USENSYS,SPPS,SPPS_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5866232
+USENSYS,SPPS,SPPS_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7078058
+USENSYS,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1427890
+USENSYS,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1530137
+USENSYS,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1598042
+USENSYS,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,96050573
+USENSYS,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,155857646
+USENSYS,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,242708803
+USENSYS,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,14898437
+USENSYS,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,15061749
+USENSYS,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13115314
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,440128
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1069963
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,829532
+USENSYS,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,150141
+USENSYS,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,292784
+USENSYS,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,262852
+USENSYS,SPPS,SPPS_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,38397
+USENSYS,SPPS,SPPS_onshore_wind_turbine_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,51364708
+USENSYS,SPPS,SPPS_onshore_wind_turbine_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,46725057
+USENSYS,SPPS,SPPS_onshore_wind_turbine_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,15418162
+USENSYS,SPPS,SPPS_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,840
+USENSYS,SPPS,SPPS_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,217
+USENSYS,SPPS,SPPS_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,349440
+USENSYS,SPPS,SPPS_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,349440
+USENSYS,SPPS,SPPS_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,270816
+USENSYS,SPPS,SPPS_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,737947
+USENSYS,SPPS,SPPS_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,736019
+USENSYS,SPPS,SPPS_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,140684
+USENSYS,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,20242497
+USENSYS,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,33687317
+USENSYS,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,46890892
+USENSYS,SRCA,SRCA_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,173452
+USENSYS,SRCA,SRCA_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,157852
+USENSYS,SRCA,SRCA_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,143566
+USENSYS,SRCA,SRCA_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4090841
+USENSYS,SRCA,SRCA_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,14226892
+USENSYS,SRCA,SRCA_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,734393
+USENSYS,SRCA,SRCA_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,407626
+USENSYS,SRCA,SRCA_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,231478
+USENSYS,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1753457
+USENSYS,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1761181
+USENSYS,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1485334
+USENSYS,SRCA,SRCA_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8165
+USENSYS,SRCA,SRCA_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,154602
+USENSYS,SRCA,SRCA_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6581622
+USENSYS,SRCA,SRCA_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,11876426
+USENSYS,SRCA,SRCA_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13658941
+USENSYS,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5942919
+USENSYS,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6476443
+USENSYS,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6517006
+USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,14680840
+USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,15228172
+USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,15228172
+USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_2,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,11529245
+USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_2,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12119001
+USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12119001
+USENSYS,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,20712178
+USENSYS,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,19351183
+USENSYS,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,15143189
+USENSYS,SRCA,SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1193469
+USENSYS,SRCA,SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2244087
+USENSYS,SRCA,SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1290779
+USENSYS,SRCA,SRCA_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,213998
+USENSYS,SRCA,SRCA_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,290790
+USENSYS,SRCA,SRCA_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,531
+USENSYS,SRCA,SRCA_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7728486
+USENSYS,SRCA,SRCA_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13855069
+USENSYS,SRCA,SRCA_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,18492435
+USENSYS,SRCA,SRCA_nuclear_1,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,101950288
+USENSYS,SRCA,SRCA_nuclear_1,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,101371898
+USENSYS,SRCA,SRCA_nuclear_1,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,100564573
+USENSYS,SRCA,SRCA_nuclear_nuclear_moderate_0,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,16894932
+USENSYS,SRCA,SRCA_nuclear_nuclear_moderate_0,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,43387552
+USENSYS,SRCA,SRCA_nuclear_nuclear_moderate_0,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,67526570
+USENSYS,SRCA,SRCA_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,966
+USENSYS,SRCA,SRCA_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,672
+USENSYS,SRCA,SRCA_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,270816
+USENSYS,SRCA,SRCA_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,253344
+USENSYS,SRCA,SRCA_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,174720
+USENSYS,SRCA,SRCA_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13170344
+USENSYS,SRCA,SRCA_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13501804
+USENSYS,SRCA,SRCA_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4837387
+USENSYS,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,42170049
+USENSYS,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,69554657
+USENSYS,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,113325650
+USENSYS,SRCE,SRCE_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,88476
+USENSYS,SRCE,SRCE_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,95068
+USENSYS,SRCE,SRCE_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,99914
+USENSYS,SRCE,SRCE_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2721914
+USENSYS,SRCE,SRCE_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10538157
+USENSYS,SRCE,SRCE_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,168754
+USENSYS,SRCE,SRCE_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,38272
+USENSYS,SRCE,SRCE_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,35199
+USENSYS,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,15185053
+USENSYS,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13100350
+USENSYS,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7333367
+USENSYS,SRCE,SRCE_conventional_steam_coal_1,Coal,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1600
+USENSYS,SRCE,SRCE_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,371321
+USENSYS,SRCE,SRCE_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,367199
+USENSYS,SRCE,SRCE_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1414359
+USENSYS,SRCE,SRCE_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4349129
+USENSYS,SRCE,SRCE_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7491133
+USENSYS,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4208373
+USENSYS,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4551453
+USENSYS,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4450430
+USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,95504211
+USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,131634626
+USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,139420308
+USENSYS,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,24904666
+USENSYS,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,19602359
+USENSYS,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,13553017
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1982533
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2842803
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1586553
+USENSYS,SRCE,SRCE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2280
+USENSYS,SRCE,SRCE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2541
+USENSYS,SRCE,SRCE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1881
+USENSYS,SRCE,SRCE_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,37509
+USENSYS,SRCE,SRCE_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,30287
+USENSYS,SRCE,SRCE_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,25827
+USENSYS,SRCE,SRCE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,14903402
+USENSYS,SRCE,SRCE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,31848780
+USENSYS,SRCE,SRCE_nuclear_1,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,63055255
+USENSYS,SRCE,SRCE_nuclear_1,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,60382364
+USENSYS,SRCE,SRCE_nuclear_1,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,59963872
+USENSYS,SRCE,SRCE_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1190
+USENSYS,SRCE,SRCE_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,401856
+USENSYS,SRCE,SRCE_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,358176
+USENSYS,SRCE,SRCE_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,244608
+USENSYS,SRCE,SRCE_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3489839
+USENSYS,SRCE,SRCE_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3536323
+USENSYS,SRCE,SRCE_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2993600
+USENSYS,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,38842519
+USENSYS,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,70284010
+USENSYS,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,101373884
+USENSYS,SRSE,SRSE_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,122988
+USENSYS,SRSE,SRSE_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,139421
+USENSYS,SRSE,SRSE_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,137300
+USENSYS,SRSE,SRSE_battery_moderate_0,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,156763
+USENSYS,SRSE,SRSE_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7842982
+USENSYS,SRSE,SRSE_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,21046216
+USENSYS,SRSE,SRSE_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1771029
+USENSYS,SRSE,SRSE_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1203430
+USENSYS,SRSE,SRSE_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,781672
+USENSYS,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5062608
+USENSYS,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4888819
+USENSYS,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4750926
+USENSYS,SRSE,SRSE_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3710
+USENSYS,SRSE,SRSE_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,29234
+USENSYS,SRSE,SRSE_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1812517
+USENSYS,SRSE,SRSE_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4023380
+USENSYS,SRSE,SRSE_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6054966
+USENSYS,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3975862
+USENSYS,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4535052
+USENSYS,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4141843
+USENSYS,SRSE,SRSE_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,56556038
+USENSYS,SRSE,SRSE_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,58401037
+USENSYS,SRSE,SRSE_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,58401037
+USENSYS,SRSE,SRSE_landbasedwind_class3_moderate_2,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8114221
+USENSYS,SRSE,SRSE_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,15084291
+USENSYS,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,59706986
+USENSYS,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,59737012
+USENSYS,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,54506380
+USENSYS,SRSE,SRSE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,936765
+USENSYS,SRSE,SRSE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2236199
+USENSYS,SRSE,SRSE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1760624
+USENSYS,SRSE,SRSE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,16240
+USENSYS,SRSE,SRSE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,27258
+USENSYS,SRSE,SRSE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,20468
+USENSYS,SRSE,SRSE_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,22961
+USENSYS,SRSE,SRSE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8487711
+USENSYS,SRSE,SRSE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12258522
+USENSYS,SRSE,SRSE_nuclear_1,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,67255621
+USENSYS,SRSE,SRSE_nuclear_1,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,66432991
+USENSYS,SRSE,SRSE_nuclear_1,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,65679885
+USENSYS,SRSE,SRSE_nuclear_nuclear_moderate_0,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,19937316
+USENSYS,SRSE,SRSE_nuclear_nuclear_moderate_0,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,45741065
+USENSYS,SRSE,SRSE_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,105
+USENSYS,SRSE,SRSE_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,34944
+USENSYS,SRSE,SRSE_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,34944
+USENSYS,SRSE,SRSE_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17472
+USENSYS,SRSE,SRSE_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12687595
+USENSYS,SRSE,SRSE_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12938130
+USENSYS,SRSE,SRSE_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8251481
+USENSYS,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,58003257
+USENSYS,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,100821616
+USENSYS,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,143604916
+USENSYS,SRSG,SRSG_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1157427
+USENSYS,SRSG,SRSG_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1493370
+USENSYS,SRSG,SRSG_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1377804
+USENSYS,SRSG,SRSG_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,463874
+USENSYS,SRSG,SRSG_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4754726
+USENSYS,SRSG,SRSG_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,193655
+USENSYS,SRSG,SRSG_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,152831
+USENSYS,SRSG,SRSG_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,51800
+USENSYS,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7231172
+USENSYS,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6388534
+USENSYS,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5060166
+USENSYS,SRSG,SRSG_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,260050
+USENSYS,SRSG,SRSG_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,417088
+USENSYS,SRSG,SRSG_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6039298
+USENSYS,SRSG,SRSG_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7125752
+USENSYS,SRSG,SRSG_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6976238
+USENSYS,SRSG,SRSG_geothermal_1,Geothermal,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1240512
+USENSYS,SRSG,SRSG_geothermal_1,Geothermal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,567840
+USENSYS,SRSG,SRSG_geothermal_1,Geothermal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,174720
+USENSYS,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,477867
+USENSYS,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,572424
+USENSYS,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,577139
+USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,53573088
+USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,82582869
+USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,119529662
+USENSYS,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,24696723
+USENSYS,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,22252649
+USENSYS,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17588494
+USENSYS,SRSG,SRSG_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,49510
+USENSYS,SRSG,SRSG_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1112716
+USENSYS,SRSG,SRSG_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1023693
+USENSYS,SRSG,SRSG_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1056
+USENSYS,SRSG,SRSG_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,80954
+USENSYS,SRSG,SRSG_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,27657
+USENSYS,SRSG,SRSG_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12670793
+USENSYS,SRSG,SRSG_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,26140024
+USENSYS,SRSG,SRSG_nuclear_1,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,28726049
+USENSYS,SRSG,SRSG_nuclear_1,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,30028383
+USENSYS,SRSG,SRSG_nuclear_1,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,28655998
+USENSYS,SRSG,SRSG_onshore_wind_turbine_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10356025
+USENSYS,SRSG,SRSG_onshore_wind_turbine_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,8914830
+USENSYS,SRSG,SRSG_onshore_wind_turbine_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4878484
+USENSYS,SRSG,SRSG_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,541632
+USENSYS,SRSG,SRSG_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,454272
+USENSYS,SRSG,SRSG_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,375648
+USENSYS,SRSG,SRSG_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,16151889
+USENSYS,SRSG,SRSG_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,16000094
+USENSYS,SRSG,SRSG_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6729173
+USENSYS,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12728804
+USENSYS,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,33082668
+USENSYS,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,67300158
+USENSYS,TRE_WEST,TRE_WEST_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,702229
+USENSYS,TRE_WEST,TRE_WEST_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,993299
+USENSYS,TRE_WEST,TRE_WEST_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,906156
+USENSYS,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,641672
+USENSYS,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,957326
+USENSYS,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1084882
+USENSYS,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,22540561
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1671777
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2513111
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4080810
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,6222
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,41315
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,45430
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2610
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,3771
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,4682
+USENSYS,TRE_WEST,TRE_WEST_onshore_wind_turbine_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,72596326
+USENSYS,TRE_WEST,TRE_WEST_onshore_wind_turbine_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,53248351
+USENSYS,TRE_WEST,TRE_WEST_onshore_wind_turbine_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,19654701
+USENSYS,TRE_WEST,TRE_WEST_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1176
+USENSYS,TRE_WEST,TRE_WEST_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1890
+USENSYS,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,20911366
+USENSYS,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,21034746
+USENSYS,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12617979
+USENSYS,TRE,TRE_batteries_1,Battery,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1696226
+USENSYS,TRE,TRE_batteries_1,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1697166
+USENSYS,TRE,TRE_batteries_1,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1680974
+USENSYS,TRE,TRE_battery_moderate_0,Battery,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1421196
+USENSYS,TRE,TRE_battery_moderate_0,Battery,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,10366754
+USENSYS,TRE,TRE_biomass_1,Biomass,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,112694
+USENSYS,TRE,TRE_biomass_1,Biomass,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,102109
+USENSYS,TRE,TRE_biomass_1,Biomass,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,87495
+USENSYS,TRE,TRE_conventional_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,424691
+USENSYS,TRE,TRE_conventional_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,381414
+USENSYS,TRE,TRE_conventional_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,193818
+USENSYS,TRE,TRE_conventional_steam_coal_1,Coal,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,12690
+USENSYS,TRE,TRE_conventional_steam_coal_1,Coal,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,338697
+USENSYS,TRE,TRE_conventional_steam_coal_1,Coal,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,466739
+USENSYS,TRE,TRE_distributed_generation_1,Distributed Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,11802099
+USENSYS,TRE,TRE_distributed_generation_1,Distributed Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,17649947
+USENSYS,TRE,TRE_distributed_generation_1,Distributed Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,19966745
+USENSYS,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,295805130
+USENSYS,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,435462231
+USENSYS,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,492369776
+USENSYS,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,58414712
+USENSYS,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,62691072
+USENSYS,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,49873285
+USENSYS,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1512320
+USENSYS,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2716051
+USENSYS,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,1877036
+USENSYS,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,524522
+USENSYS,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,899176
+USENSYS,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,654385
+USENSYS,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,29202
+USENSYS,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,81813
+USENSYS,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,33117
+USENSYS,TRE,TRE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,2700274
+USENSYS,TRE,TRE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,32007569
+USENSYS,TRE,TRE_nuclear_1,Nuclear,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,32322981
+USENSYS,TRE,TRE_nuclear_1,Nuclear,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,30484831
+USENSYS,TRE,TRE_nuclear_1,Nuclear,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,30184269
+USENSYS,TRE,TRE_onshore_wind_turbine_1,Wind,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,30550150
+USENSYS,TRE,TRE_onshore_wind_turbine_1,Wind,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,27063219
+USENSYS,TRE,TRE_onshore_wind_turbine_1,Wind,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,9488190
+USENSYS,TRE,TRE_petroleum_liquids_1,Other,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,792
+USENSYS,TRE,TRE_petroleum_liquids_1,Other,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,7497
+USENSYS,TRE,TRE_petroleum_liquids_1,Other,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,5768
+USENSYS,TRE,TRE_small_hydroelectric_1,Hydro,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,174720
+USENSYS,TRE,TRE_small_hydroelectric_1,Hydro,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,34944
+USENSYS,TRE,TRE_small_hydroelectric_1,Hydro,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,34944
+USENSYS,TRE,TRE_solar_photovoltaic_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,24002441
+USENSYS,TRE,TRE_solar_photovoltaic_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,23898515
+USENSYS,TRE,TRE_solar_photovoltaic_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,22189486
+USENSYS,TRE,TRE_utilitypv_class1_moderate_1,Solar,2030,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,57813329
+USENSYS,TRE,TRE_utilitypv_class1_moderate_1,Solar,2040,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,84121045
+USENSYS,TRE,TRE_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-ccs_w10_h168_1680w_myopic,MWh,128133925
