@@ -1057,98 +1057,106 @@ USENSYS,TRE,stg_TRE_conventional_hydroelectric_1,stg_TRE_conventional_hydroelect
 USENSYS,TRE,TRE_batteries_1,Battery,2040,26z-short-no-200_w10_h168_1680w_2030,MWh,4619,4619
 USENSYS,TRE,TRE_battery_moderate_0,Battery,2040,26z-short-no-200_w10_h168_1680w_2030,MWh,0,6033
 USENSYS,TRE_WEST,TRE_WEST_batteries_1,Battery,2040,26z-short-no-200_w10_h168_1680w_2030,MWh,3481,3481
-USENSYS,BASN,BASN_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,2693
-USENSYS,BASN,BASN_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,29169,39781
-USENSYS,BASN,BASN_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,6677,14379
-USENSYS,BASN,BASN_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,296
-USENSYS,BASN,BASN_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,4783,12836
-USENSYS,CANO,CANO_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,371
-USENSYS,CANO,CANO_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,14951
-USENSYS,CANO,CANO_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,4591
-USENSYS,CANO,CANO_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,21083,26163
-USENSYS,CASO,CASO_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1818,5893
-USENSYS,CASO,CASO_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,2956
-USENSYS,CASO,CASO_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,17114,26795
-USENSYS,CASO,CASO_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,21766,42831
-USENSYS,FRCC,FRCC_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,1949
-USENSYS,FRCC,FRCC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,12917
-USENSYS,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,38184,52556
-USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,19071,23333
-USENSYS,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,20690,21709
-USENSYS,ISNE,ISNE_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,9022,11932
-USENSYS,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,1967
-USENSYS,MISC,MISC_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,5641
-USENSYS,MISC,MISC_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2649,9168
-USENSYS,MISC,MISC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,14590,25788
-USENSYS,MISC,MISC_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,14318,18994
-USENSYS,MISE,MISE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,3199
-USENSYS,MISE,MISE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,6691,11211
-USENSYS,MISE,MISE_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,13144,19027
-USENSYS,MISS,MISS_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,861
-USENSYS,MISS,MISS_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,4700,6705
-USENSYS,MISS,MISS_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2025,10996
-USENSYS,MISS,MISS_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,15318,19855
-USENSYS,MISW,MISW_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,3343,9401
-USENSYS,MISW,MISW_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,29556,46023
-USENSYS,MISW,MISW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,21145,32556
-USENSYS,MISW,MISW_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,685
-USENSYS,MISW,MISW_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,7342,9350
-USENSYS,NWPP,NWPP_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,5378
-USENSYS,NWPP,NWPP_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,25256,37966
-USENSYS,NWPP,NWPP_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,9011,17367
-USENSYS,NWPP,NWPP_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,3746
-USENSYS,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2311,10463
-USENSYS,NYCW,NYCW_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,53,881
-USENSYS,NYCW,NYCW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,11509,13762
-USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,5210,8495
-USENSYS,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1283,3609
-USENSYS,PJMC,PJMC_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,197,3168
-USENSYS,PJMC,PJMC_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,8312,10842
-USENSYS,PJMC,PJMC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2392,5707
-USENSYS,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,8137,10129
-USENSYS,PJMD,PJMD_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,5464
-USENSYS,PJMD,PJMD_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2332,4279
-USENSYS,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,15146,24255
-USENSYS,PJME,PJME_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,536,8295
-USENSYS,PJME,PJME_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,14398,22041
-USENSYS,PJME,PJME_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,31120,46797
-USENSYS,PJMW,PJMW_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,9,10327
-USENSYS,PJMW,PJMW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,19760,27107
-USENSYS,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,34492,53566
-USENSYS,RMRG,RMRG_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,589,4266
-USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,19056,28568
-USENSYS,RMRG,RMRG_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,8801,14153
-USENSYS,RMRG,RMRG_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,3623
-USENSYS,RMRG,RMRG_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,3028,6901
-USENSYS,SPPC,SPPC_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,3546
-USENSYS,SPPC,SPPC_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,9270,14487
-USENSYS,SPPC,SPPC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,4028,8231
-USENSYS,SPPN,SPPN_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,1040
-USENSYS,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,4861,9280
-USENSYS,SPPN,SPPN_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,915,5992
-USENSYS,SPPS,SPPS_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,1205
-USENSYS,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,13841,27456
-USENSYS,SPPS,SPPS_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1263,6418
-USENSYS,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,10487,15848
-USENSYS,SRCA,SRCA_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,9436
-USENSYS,SRCA,SRCA_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,6460,16485
-USENSYS,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,23445,39531
-USENSYS,SRCE,SRCE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,6739
-USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,27725,33889
-USENSYS,SRCE,SRCE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,7273,16730
-USENSYS,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,20172,29088
-USENSYS,SRSE,SRSE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,7425
-USENSYS,SRSE,SRSE_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,24395,25719
-USENSYS,SRSE,SRSE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1807,16225
-USENSYS,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,31744,45032
-USENSYS,SRSG,SRSG_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,2852
-USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,16120,27073
-USENSYS,SRSG,SRSG_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,6855,15236
-USENSYS,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,13491,25596
-USENSYS,TRE,TRE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,6057
-USENSYS,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,68028,87278
-USENSYS,TRE,TRE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1557,20029
-USENSYS,TRE,TRE_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,24729,35129
+USENSYS,BASN,BASN_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2793,8024
+USENSYS,BASN,BASN_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,45616,59630
+USENSYS,BASN,BASN_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,3817,10030
+USENSYS,BASN,BASN_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,7271,16198
+USENSYS,CANO,CANO_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,15931,21253
+USENSYS,CANO,CANO_naturalgas_ccccsavgcf_conservative_0,CCS,2050,26z-short-no-200_w10_h168_1680w_2030,MW,3483,5970
+USENSYS,CANO,CANO_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,15705,24904
+USENSYS,CASO,CASO_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2083,10669
+USENSYS,CASO,CASO_naturalgas_ccccsavgcf_conservative_0,CCS,2050,26z-short-no-200_w10_h168_1680w_2030,MW,15356,21206
+USENSYS,CASO,CASO_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,21040,44381
+USENSYS,FRCC,FRCC_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,3545,10838
+USENSYS,FRCC,FRCC_naturalgas_ccccsavgcf_conservative_0,CCS,2050,26z-short-no-200_w10_h168_1680w_2030,MW,20037,24210
+USENSYS,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,41050,62084
+USENSYS,ISNE,ISNE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,3333,6053
+USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,28048,30510
+USENSYS,ISNE,ISNE_offshorewind_class3_moderate_fixed_0_2,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,896
+USENSYS,ISNE,ISNE_offshorewind_class3_moderate_fixed_1_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,192,1428
+USENSYS,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,13770,19357
+USENSYS,MISC,MISC_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2382,8780
+USENSYS,MISC,MISC_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,3089,8623
+USENSYS,MISC,MISC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,3020
+USENSYS,MISC,MISC_naturalgas_ccccsavgcf_conservative_0,CCS,2050,26z-short-no-200_w10_h168_1680w_2030,MW,15570,17885
+USENSYS,MISC,MISC_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,19763,27969
+USENSYS,MISE,MISE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,460,4539
+USENSYS,MISE,MISE_naturalgas_ccccsavgcf_conservative_0,CCS,2050,26z-short-no-200_w10_h168_1680w_2030,MW,7860,9888
+USENSYS,MISE,MISE_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,17393,23739
+USENSYS,MISS,MISS_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1133,2938
+USENSYS,MISS,MISS_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,3896,8995
+USENSYS,MISS,MISS_naturalgas_ccccsavgcf_conservative_0,CCS,2050,26z-short-no-200_w10_h168_1680w_2030,MW,10215,12433
+USENSYS,MISS,MISS_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,15657,22905
+USENSYS,MISW,MISW_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,7885,17585
+USENSYS,MISW,MISW_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,35108,48780
+USENSYS,MISW,MISW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,223,7469
+USENSYS,MISW,MISW_naturalgas_ccccsavgcf_conservative_0,CCS,2050,26z-short-no-200_w10_h168_1680w_2030,MW,17196,19251
+USENSYS,MISW,MISW_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,21075,31410
+USENSYS,NWPP,NWPP_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,6129
+USENSYS,NWPP,NWPP_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,28255,41524
+USENSYS,NWPP,NWPP_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,5136,12004
+USENSYS,NWPP,NWPP_naturalgas_ccccsavgcf_conservative_0,CCS,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2749,4651
+USENSYS,NWPP,NWPP_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,3680
+USENSYS,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,11425,25533
+USENSYS,NYCW,NYCW_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,888,1748
+USENSYS,NYCW,NYCW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1814,1856
+USENSYS,NYCW,NYCW_nuclear_nuclear_moderate_0,Nuclear,2050,26z-short-no-200_w10_h168_1680w_2030,MW,8096,9825
+USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_2,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,633,895
+USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,1962
+USENSYS,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,5724,11617
+USENSYS,PJMC,PJMC_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,636,3754
+USENSYS,PJMC,PJMC_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,826,4453
+USENSYS,PJMC,PJMC_naturalgas_ccccsavgcf_conservative_0,CCS,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2843,4583
+USENSYS,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,10603,13452
+USENSYS,PJMD,PJMD_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1379,6331
+USENSYS,PJMD,PJMD_nuclear_nuclear_moderate_0,Nuclear,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1086,2668
+USENSYS,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,21705,29606
+USENSYS,PJME,PJME_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,7813,20265
+USENSYS,PJME,PJME_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1498,3466
+USENSYS,PJME,PJME_nuclear_nuclear_moderate_0,Nuclear,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1319,2832
+USENSYS,PJME,PJME_offshorewind_class3_moderate_fixed_1_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,11135,13239
+USENSYS,PJME,PJME_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,52558,70048
+USENSYS,PJMW,PJMW_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2735,9499
+USENSYS,PJMW,PJMW_naturalgas_ccccsavgcf_conservative_0,CCS,2050,26z-short-no-200_w10_h168_1680w_2030,MW,24462,29024
+USENSYS,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,40921,57442
+USENSYS,RMRG,RMRG_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2696,8048
+USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,22635,33278
+USENSYS,RMRG,RMRG_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,4769,9744
+USENSYS,RMRG,RMRG_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,6255,12259
+USENSYS,SPPC,SPPC_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2005,5036
+USENSYS,SPPC,SPPC_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,14011,18812
+USENSYS,SPPC,SPPC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2192,4219
+USENSYS,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,10027,12308
+USENSYS,SPPN,SPPN_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,2131
+USENSYS,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,6578,10822
+USENSYS,SPPN,SPPN_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2840,4637
+USENSYS,SPPN,SPPN_naturalgas_ccccsavgcf_conservative_0,CCS,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,176
+USENSYS,SPPN,SPPN_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,5825,8372
+USENSYS,SPPS,SPPS_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,2930
+USENSYS,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,31745,48878
+USENSYS,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,15048,20903
+USENSYS,SRCA,SRCA_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1774,12261
+USENSYS,SRCA,SRCA_naturalgas_ccccsavgcf_conservative_0,CCS,2050,26z-short-no-200_w10_h168_1680w_2030,MW,10352,14494
+USENSYS,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,29724,49573
+USENSYS,SRCE,SRCE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,3096,13270
+USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,33447,39504
+USENSYS,SRCE,SRCE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,215
+USENSYS,SRCE,SRCE_naturalgas_ccccsavgcf_conservative_0,CCS,2050,26z-short-no-200_w10_h168_1680w_2030,MW,6090,10107
+USENSYS,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,29264,39200
+USENSYS,SRSE,SRSE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2584,9094
+USENSYS,SRSE,SRSE_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,4513
+USENSYS,SRSE,SRSE_naturalgas_ccccsavgcf_conservative_0,CCS,2050,26z-short-no-200_w10_h168_1680w_2030,MW,13030,17003
+USENSYS,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,38027,56095
+USENSYS,SRSG,SRSG_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,868,6200
+USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,30667,45932
+USENSYS,SRSG,SRSG_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,3847,8034
+USENSYS,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,14276,27335
+USENSYS,TRE,TRE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2665,12983
+USENSYS,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,91927,113402
+USENSYS,TRE,TRE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,6489
+USENSYS,TRE,TRE_naturalgas_ccccsavgcf_conservative_0,CCS,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2859,6216
+USENSYS,TRE,TRE_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,36796,52488
+USENSYS,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,0,2087
 USENSYS,BASN,BASN_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,936,936
 USENSYS,BASN,BASN_biomass_1,Biomass,2050,26z-short-no-200_w10_h168_1680w_2030,MW,16,16
 USENSYS,BASN,BASN_conventional_hydroelectric_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1478,1478
@@ -1180,6 +1188,7 @@ USENSYS,CASO,CASO_distributed_generation_1,Distributed Solar,2050,26z-short-no-2
 USENSYS,CASO,CASO_geothermal_1,Geothermal,2050,26z-short-no-200_w10_h168_1680w_2030,MW,24,24
 USENSYS,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1665,1665
 USENSYS,CASO,CASO_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,3032,3032
+USENSYS,CASO,CASO_landbasedwind_class3_moderate_2,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2956,2956
 USENSYS,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,8798,8798
 USENSYS,CASO,CASO_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,5357,5357
 USENSYS,CASO,CASO_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,49,49
@@ -1202,7 +1211,6 @@ USENSYS,FRCC,FRCC_nuclear_1,Nuclear,2050,26z-short-no-200_w10_h168_1680w_2030,MW
 USENSYS,FRCC,FRCC_petroleum_liquids_1,Other,2050,26z-short-no-200_w10_h168_1680w_2030,MW,4,4
 USENSYS,FRCC,FRCC_solar_photovoltaic_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,5878,5878
 USENSYS,ISNE,ISNE_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,366,366
-USENSYS,ISNE,ISNE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,276,276
 USENSYS,ISNE,ISNE_biomass_1,Biomass,2050,26z-short-no-200_w10_h168_1680w_2030,MW,31,31
 USENSYS,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MW,465,465
 USENSYS,ISNE,ISNE_distributed_generation_1,Distributed Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,5940,5940
@@ -1211,7 +1219,10 @@ USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-
 USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1753,1753
 USENSYS,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,52,52
 USENSYS,ISNE,ISNE_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,10,10
+USENSYS,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,19975,19975
+USENSYS,ISNE,ISNE_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,3878,3878
 USENSYS,ISNE,ISNE_nuclear_1,Nuclear,2050,26z-short-no-200_w10_h168_1680w_2030,MW,3348,3348
+USENSYS,ISNE,ISNE_offshorewind_class3_moderate_fixed_0_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1939,1939
 USENSYS,ISNE,ISNE_onshore_wind_turbine_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,40,40
 USENSYS,ISNE,ISNE_petroleum_liquids_1,Other,2050,26z-short-no-200_w10_h168_1680w_2030,MW,392,392
 USENSYS,ISNE,ISNE_small_hydroelectric_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MW,198,198
@@ -1297,6 +1308,8 @@ USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-
 USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2030,2030
 USENSYS,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,37,37
 USENSYS,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,15,15
+USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,832,832
+USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1864,1864
 USENSYS,NYCW,NYCW_petroleum_liquids_1,Other,2050,26z-short-no-200_w10_h168_1680w_2030,MW,54,54
 USENSYS,NYCW,NYCW_solar_photovoltaic_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,27,27
 USENSYS,NYCW,NYCW_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,4,4
@@ -1305,6 +1318,7 @@ USENSYS,NYUP,NYUP_biomass_1,Biomass,2050,26z-short-no-200_w10_h168_1680w_2030,MW
 USENSYS,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MW,3439,3439
 USENSYS,NYUP,NYUP_distributed_generation_1,Distributed Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1760,1760
 USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1405,1405
+USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,10304,10304
 USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,7953,7953
 USENSYS,NYUP,NYUP_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,52,52
 USENSYS,NYUP,NYUP_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,18,18
@@ -1319,6 +1333,7 @@ USENSYS,PJMC,PJMC_biomass_1,Biomass,2050,26z-short-no-200_w10_h168_1680w_2030,MW
 USENSYS,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MW,10,10
 USENSYS,PJMC,PJMC_conventional_steam_coal_1,Coal,2050,26z-short-no-200_w10_h168_1680w_2030,MW,42,42
 USENSYS,PJMC,PJMC_distributed_generation_1,Distributed Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2181,2181
+USENSYS,PJMC,PJMC_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,10842,10842
 USENSYS,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,5034,5034
 USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,6322,6322
 USENSYS,PJMC,PJMC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,105,105
@@ -1386,6 +1401,7 @@ USENSYS,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10
 USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,3478,3478
 USENSYS,RMRG,RMRG_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2555,2555
 USENSYS,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,243,243
+USENSYS,RMRG,RMRG_naturalgas_ccccsavgcf_conservative_0,CCS,2050,26z-short-no-200_w10_h168_1680w_2030,MW,3260,3260
 USENSYS,RMRG,RMRG_onshore_wind_turbine_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,4287,4287
 USENSYS,RMRG,RMRG_small_hydroelectric_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MW,85,85
 USENSYS,RMRG,RMRG_solar_photovoltaic_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1539,1539
@@ -1398,11 +1414,11 @@ USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-
 USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2412,2412
 USENSYS,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,308,308
 USENSYS,SPPC,SPPC_natural_gas_steam_turbine_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,6,6
+USENSYS,SPPC,SPPC_naturalgas_ccccsavgcf_conservative_0,CCS,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1967,1967
 USENSYS,SPPC,SPPC_nuclear_1,Nuclear,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1255,1255
 USENSYS,SPPC,SPPC_onshore_wind_turbine_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1765,1765
 USENSYS,SPPC,SPPC_petroleum_liquids_1,Other,2050,26z-short-no-200_w10_h168_1680w_2030,MW,40,40
 USENSYS,SPPC,SPPC_solar_photovoltaic_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,28,28
-USENSYS,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,7118,7118
 USENSYS,SPPN,SPPN_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,5,5
 USENSYS,SPPN,SPPN_biomass_1,Biomass,2050,26z-short-no-200_w10_h168_1680w_2030,MW,14,14
 USENSYS,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2395,2395
@@ -1416,7 +1432,6 @@ USENSYS,SPPN,SPPN_nuclear_1,Nuclear,2050,26z-short-no-200_w10_h168_1680w_2030,MW
 USENSYS,SPPN,SPPN_onshore_wind_turbine_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2542,2542
 USENSYS,SPPN,SPPN_petroleum_liquids_1,Other,2050,26z-short-no-200_w10_h168_1680w_2030,MW,14,14
 USENSYS,SPPN,SPPN_solar_photovoltaic_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,94,94
-USENSYS,SPPN,SPPN_utilitypv_class1_moderate_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,4134,4134
 USENSYS,SPPS,SPPS_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MW,222,222
 USENSYS,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1810,1810
 USENSYS,SPPS,SPPS_conventional_steam_coal_1,Coal,2050,26z-short-no-200_w10_h168_1680w_2030,MW,970,970
@@ -1463,6 +1478,7 @@ USENSYS,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2050,26z-short-no-200_w10_h
 USENSYS,SRSE,SRSE_conventional_steam_coal_1,Coal,2050,26z-short-no-200_w10_h168_1680w_2030,MW,2257,2257
 USENSYS,SRSE,SRSE_distributed_generation_1,Distributed Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,3111,3111
 USENSYS,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MW,1896,1896
+USENSYS,SRSE,SRSE_landbasedwind_class3_moderate_1,Wind,2050,26z-short-no-200_w10_h168_1680w_2030,MW,25719,25719
 USENSYS,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,21457,21457
 USENSYS,SRSE,SRSE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,6804,6804
 USENSYS,SRSE,SRSE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,26z-short-no-200_w10_h168_1680w_2030,MW,17,17
@@ -1507,66 +1523,65 @@ USENSYS,TRE_WEST,TRE_WEST_onshore_wind_turbine_1,Wind,2050,26z-short-no-200_w10_
 USENSYS,TRE_WEST,TRE_WEST_petroleum_liquids_1,Other,2050,26z-short-no-200_w10_h168_1680w_2030,MW,54,54
 USENSYS,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2050,26z-short-no-200_w10_h168_1680w_2030,MW,5922,5922
 USENSYS,BASN,BASN_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,2196,2196
-USENSYS,BASN,BASN_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,0,5855
+USENSYS,BASN,BASN_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,4715,20708
 USENSYS,CANO,CANO_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,10703,10703
-USENSYS,CANO,CANO_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,0,403
 USENSYS,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,35292,35292
-USENSYS,CASO,CASO_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,3220,14101
+USENSYS,CASO,CASO_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,6236,44324
 USENSYS,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,25808,25808
 USENSYS,FRCC,FRCC_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,1129,1129
-USENSYS,FRCC,FRCC_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,0,2593
+USENSYS,FRCC,FRCC_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,8982,33197
 USENSYS,ISNE,ISNE_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,757,757
-USENSYS,ISNE,ISNE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,300,899
+USENSYS,ISNE,ISNE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,10707,23550
 USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,27404,27404
 USENSYS,MISC,MISC_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,60,60
-USENSYS,MISC,MISC_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,0,7689
+USENSYS,MISC,MISC_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,5661,20549
 USENSYS,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,7300,7300
 USENSYS,MISE,MISE_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,2,2
-USENSYS,MISE,MISE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,0,6955
+USENSYS,MISE,MISE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,1000,11067
 USENSYS,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,31728,31728
 USENSYS,MISS,MISS_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,30,30
-USENSYS,MISS,MISS_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,0,936
+USENSYS,MISS,MISS_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,2509,7410
 USENSYS,MISW,MISW_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,63,63
-USENSYS,MISW,MISW_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,3634,17184
+USENSYS,MISW,MISW_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,15253,38493
 USENSYS,NWPP,NWPP_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,331,331
-USENSYS,NWPP,NWPP_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,0,6619
+USENSYS,NWPP,NWPP_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,0,7426
 USENSYS,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,4867,4867
 USENSYS,NYCW,NYCW_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,117,117
-USENSYS,NYCW,NYCW_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,116,1933
+USENSYS,NYCW,NYCW_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,1932,4705
 USENSYS,NYUP,NYUP_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,394,394
 USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,21779,21779
 USENSYS,PJMC,PJMC_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,60,60
-USENSYS,PJMC,PJMC_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,213,4251
+USENSYS,PJMC,PJMC_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,2534,10124
 USENSYS,PJMD,PJMD_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,75,75
-USENSYS,PJMD,PJMD_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,0,10569
+USENSYS,PJMD,PJMD_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,4498,22472
 USENSYS,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,46546,46546
 USENSYS,PJME,PJME_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,132,132
-USENSYS,PJME,PJME_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,582,16802
+USENSYS,PJME,PJME_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,21602,62783
 USENSYS,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,30566,30566
 USENSYS,PJMW,PJMW_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,84,84
-USENSYS,PJMW,PJMW_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,11,21280
+USENSYS,PJMW,PJMW_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,7675,26551
 USENSYS,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,3689,3689
 USENSYS,RMRG,RMRG_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,364,364
-USENSYS,RMRG,RMRG_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,845,8060
+USENSYS,RMRG,RMRG_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,7147,21200
 USENSYS,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,9002,9002
 USENSYS,SPPC,SPPC_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,2,2
-USENSYS,SPPC,SPPC_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,0,7708
+USENSYS,SPPC,SPPC_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,4360,13969
 USENSYS,SPPN,SPPN_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,13,13
-USENSYS,SPPN,SPPN_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,0,2261
+USENSYS,SPPN,SPPN_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,0,6232
 USENSYS,SPPS,SPPS_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,446,446
-USENSYS,SPPS,SPPS_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,0,1310
+USENSYS,SPPS,SPPS_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,0,6570
 USENSYS,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,7347,7347
 USENSYS,SRCA,SRCA_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,300,300
-USENSYS,SRCA,SRCA_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,0,15751
+USENSYS,SRCA,SRCA_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,4057,26003
 USENSYS,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,43338,43338
 USENSYS,SRCE,SRCE_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,245,245
-USENSYS,SRCE,SRCE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,0,10523
+USENSYS,SRCE,SRCE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,6731,31636
 USENSYS,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,26099,26099
 USENSYS,SRSE,SRSE_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,309,309
-USENSYS,SRSE,SRSE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,0,8070
+USENSYS,SRSE,SRSE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,7817,27056
 USENSYS,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,29391,29391
 USENSYS,SRSG,SRSG_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,4194,4194
-USENSYS,SRSG,SRSG_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,0,7623
+USENSYS,SRSG,SRSG_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,2831,17993
 USENSYS,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,3353,3353
 USENSYS,BASN,stg_BASN_conventional_hydroelectric_1,stg_BASN_conventional_hydroelectric_1,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,1478,1478
 USENSYS,CANO,stg_CANO_conventional_hydroelectric_1,stg_CANO_conventional_hydroelectric_1,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,5620,5620
@@ -1592,5 +1607,5 @@ USENSYS,SRSE,stg_SRSE_conventional_hydroelectric_1,stg_SRSE_conventional_hydroel
 USENSYS,SRSG,stg_SRSG_conventional_hydroelectric_1,stg_SRSG_conventional_hydroelectric_1,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,1931,1931
 USENSYS,TRE,stg_TRE_conventional_hydroelectric_1,stg_TRE_conventional_hydroelectric_1,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,224,224
 USENSYS,TRE,TRE_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,4619,4619
-USENSYS,TRE,TRE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,0,8485
+USENSYS,TRE,TRE_battery_moderate_0,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,6032,35409
 USENSYS,TRE_WEST,TRE_WEST_batteries_1,Battery,2050,26z-short-no-200_w10_h168_1680w_2030,MWh,3481,3481
