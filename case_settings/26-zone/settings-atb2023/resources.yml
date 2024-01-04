@@ -67,6 +67,9 @@ retirement_ages: # TAYLOR - https://www.nrel.gov/docs/fy22osti/80641.pdf (pdf pa
   Hydrogen_CTAvgCF_Moderate: 50
   Hydrogen_CCAvgCF_Moderate: 40
 
+# Include units with planned/age-based retirements when determining clusters across periods
+cluster_with_retired_gens: true
+
 # ** Any technologies not included in num_clusters will be omitted **
 num_clusters:
   Conventional Steam Coal: 2
