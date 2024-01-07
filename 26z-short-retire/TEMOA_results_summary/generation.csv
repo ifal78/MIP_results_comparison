@@ -1,0 +1,1858 @@
+model,zone,resource_name,tech_type,planning_year,case,timestep,unit,value
+TEMOA,BASN,BASN_batteries_1,Battery,2030,base_short_200_retire,all,MWh,769694
+TEMOA,BASN,BASN_biomass_1,Other,2030,base_short_200_retire,all,MWh,147724
+TEMOA,BASN,BASN_biomass_2,Other,2030,base_short_200_retire,all,MWh,77981.3
+TEMOA,BASN,BASN_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,7.87634e+06
+TEMOA,BASN,BASN_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,3.2257e+06
+TEMOA,BASN,BASN_geothermal_1,Geothermal,2030,base_short_200_retire,all,MWh,4.2325e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_0,Wind,2030,base_short_200_retire,all,MWh,9.32386e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_1,Wind,2030,base_short_200_retire,all,MWh,2.67723e+07
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_19,Wind,2030,base_short_200_retire,all,MWh,10.4184
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,1.15751e+07
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_23,Wind,2030,base_short_200_retire,all,MWh,2.54553e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_3,Wind,2030,base_short_200_retire,all,MWh,3.89425e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_7,Wind,2030,base_short_200_retire,all,MWh,3.74553e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_9,Wind,2030,base_short_200_retire,all,MWh,2.27347e+06
+TEMOA,BASN,BASN_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_200_retire,all,MWh,9.05568e+06
+TEMOA,BASN,BASN_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,3.53198e+06
+TEMOA,BASN,BASN_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,1.62171e+06
+TEMOA,BASN,BASN_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,1.56074e+07
+TEMOA,BASN,BASN_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,1.66421e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,8.35912e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_3,Solar,2030,base_short_200_retire,all,MWh,2.93841e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_5,Solar,2030,base_short_200_retire,all,MWh,7.68907e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_7,Solar,2030,base_short_200_retire,all,MWh,654.903
+TEMOA,CANO,CANO_batteries_1,Battery,2030,base_short_200_retire,all,MWh,3.49747e+06
+TEMOA,CANO,CANO_biomass_1,Other,2030,base_short_200_retire,all,MWh,632448
+TEMOA,CANO,CANO_biomass_2,Other,2030,base_short_200_retire,all,MWh,1.11126e+06
+TEMOA,CANO,CANO_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,1.786e+07
+TEMOA,CANO,CANO_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,1.07461e+07
+TEMOA,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2030,base_short_200_retire,all,MWh,6.10654e+06
+TEMOA,CANO,CANO_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,1.68189e+06
+TEMOA,CANO,CANO_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_200_retire,all,MWh,9.34748e+06
+TEMOA,CANO,CANO_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,2.94507e+06
+TEMOA,CANO,CANO_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,1.92895e+06
+TEMOA,CANO,CANO_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,1.31901e+07
+TEMOA,CANO,CANO_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,2.7159e+07
+TEMOA,CANO,CANO_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,1.224e+07
+TEMOA,CASO,CASO_batteries_1,Battery,2030,base_short_200_retire,all,MWh,1.07348e+07
+TEMOA,CASO,CASO_biomass_1,Other,2030,base_short_200_retire,all,MWh,841223
+TEMOA,CASO,CASO_biomass_2,Other,2030,base_short_200_retire,all,MWh,115309
+TEMOA,CASO,CASO_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,2.18945e+06
+TEMOA,CASO,CASO_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,1.74316e+07
+TEMOA,CASO,CASO_geothermal_1,Geothermal,2030,base_short_200_retire,all,MWh,186862
+TEMOA,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2030,base_short_200_retire,all,MWh,4.33489e+06
+TEMOA,CASO,CASO_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,10979.4
+TEMOA,CASO,CASO_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_200_retire,all,MWh,2.96623e+06
+TEMOA,CASO,CASO_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_200_retire,all,MWh,322702
+TEMOA,CASO,CASO_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,1.3114e+07
+TEMOA,CASO,CASO_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,569966
+TEMOA,CASO,CASO_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,2.98689e+07
+TEMOA,CASO,CASO_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,2.35539e+07
+TEMOA,CASO,CASO_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,1.12835e+07
+TEMOA,FRCC,FRCC_batteries_1,Battery,2030,base_short_200_retire,all,MWh,464123
+TEMOA,FRCC,FRCC_biomass_1,Other,2030,base_short_200_retire,all,MWh,461739
+TEMOA,FRCC,FRCC_biomass_2,Other,2030,base_short_200_retire,all,MWh,977348
+TEMOA,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,118896
+TEMOA,FRCC,FRCC_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,1.049e+07
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_0,Wind,2030,base_short_200_retire,all,MWh,6.25785e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_1,Wind,2030,base_short_200_retire,all,MWh,1.68714e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,2.09109e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_3,Wind,2030,base_short_200_retire,all,MWh,1.30693e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_4,Wind,2030,base_short_200_retire,all,MWh,3.30478e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_5,Wind,2030,base_short_200_retire,all,MWh,1.95493e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_6,Wind,2030,base_short_200_retire,all,MWh,6.23715e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_8,Wind,2030,base_short_200_retire,all,MWh,796581
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_9,Wind,2030,base_short_200_retire,all,MWh,6.81443e+06
+TEMOA,FRCC,FRCC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_200_retire,all,MWh,2.59994e+07
+TEMOA,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_200_retire,all,MWh,12344.4
+TEMOA,FRCC,FRCC_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_200_retire,all,MWh,7.53017e+07
+TEMOA,FRCC,FRCC_nuclear_1,Nuclear,2030,base_short_200_retire,all,MWh,2.87647e+07
+TEMOA,FRCC,FRCC_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,1.53369e+07
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,2.62656e+07
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,2.90195e+07
+TEMOA,ISNE,ISNE_batteries_1,Battery,2030,base_short_200_retire,all,MWh,302919
+TEMOA,ISNE,ISNE_biomass_1,Other,2030,base_short_200_retire,all,MWh,662357
+TEMOA,ISNE,ISNE_biomass_2,Other,2030,base_short_200_retire,all,MWh,1.50436e+06
+TEMOA,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,2.02846e+06
+TEMOA,ISNE,ISNE_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,7.89294e+06
+TEMOA,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2030,base_short_200_retire,all,MWh,3.6348e+06
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_0,Wind,2030,base_short_200_retire,all,MWh,1.05284e+07
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2030,base_short_200_retire,all,MWh,2.26858e+06
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_11,Wind,2030,base_short_200_retire,all,MWh,283477
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,1.92734e+07
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_3,Wind,2030,base_short_200_retire,all,MWh,5.54917e+06
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_5,Wind,2030,base_short_200_retire,all,MWh,560182
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_6,Wind,2030,base_short_200_retire,all,MWh,376567
+TEMOA,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_200_retire,all,MWh,593402
+TEMOA,ISNE,ISNE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_200_retire,all,MWh,9.85607e+06
+TEMOA,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_200_retire,all,MWh,28183.5
+TEMOA,ISNE,ISNE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_200_retire,all,MWh,101287
+TEMOA,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_200_retire,all,MWh,6025.12
+TEMOA,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,base_short_200_retire,all,MWh,2.07479e+07
+TEMOA,ISNE,ISNE_nuclear_1,Nuclear,2030,base_short_200_retire,all,MWh,2.48678e+07
+TEMOA,ISNE,ISNE_offshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,249148
+TEMOA,ISNE,ISNE_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,2.22862e+06
+TEMOA,ISNE,ISNE_petroleum_liquids_1,Other,2030,base_short_200_retire,all,MWh,18833.4
+TEMOA,ISNE,ISNE_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,2.23531e+06
+TEMOA,ISNE,ISNE_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,4.05921e+06
+TEMOA,ISNE,ISNE_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,1.1114e+07
+TEMOA,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,1.70199e+07
+TEMOA,MISC,MISC_batteries_1,Battery,2030,base_short_200_retire,all,MWh,24759.4
+TEMOA,MISC,MISC_biomass_1,Other,2030,base_short_200_retire,all,MWh,543379
+TEMOA,MISC,MISC_biomass_2,Other,2030,base_short_200_retire,all,MWh,10468.5
+TEMOA,MISC,MISC_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,1.32785e+06
+TEMOA,MISC,MISC_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,2.203e+06
+TEMOA,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2030,base_short_200_retire,all,MWh,1.25494e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_0,Wind,2030,base_short_200_retire,all,MWh,9.70556e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_1,Wind,2030,base_short_200_retire,all,MWh,1.18791e+07
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_10,Wind,2030,base_short_200_retire,all,MWh,3.43018e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_12,Wind,2030,base_short_200_retire,all,MWh,5.31278e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,4.60132e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_3,Wind,2030,base_short_200_retire,all,MWh,1.5068e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_4,Wind,2030,base_short_200_retire,all,MWh,7.27018e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_5,Wind,2030,base_short_200_retire,all,MWh,8.26587e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_6,Wind,2030,base_short_200_retire,all,MWh,8.0837e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_7,Wind,2030,base_short_200_retire,all,MWh,3.2176e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_8,Wind,2030,base_short_200_retire,all,MWh,4.61817e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_9,Wind,2030,base_short_200_retire,all,MWh,33.9448
+TEMOA,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_200_retire,all,MWh,511172
+TEMOA,MISC,MISC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_200_retire,all,MWh,6.91274e+06
+TEMOA,MISC,MISC_nuclear_1,Nuclear,2030,base_short_200_retire,all,MWh,1.42955e+07
+TEMOA,MISC,MISC_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,1.26166e+07
+TEMOA,MISC,MISC_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,110126
+TEMOA,MISC,MISC_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,6.17936e+06
+TEMOA,MISC,MISC_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,4.92445e+07
+TEMOA,MISC,MISC_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,5.16822e+06
+TEMOA,MISE,MISE_batteries_1,Battery,2030,base_short_200_retire,all,MWh,145.033
+TEMOA,MISE,MISE_biomass_1,Other,2030,base_short_200_retire,all,MWh,433019
+TEMOA,MISE,MISE_biomass_2,Other,2030,base_short_200_retire,all,MWh,415207
+TEMOA,MISE,MISE_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,82567.1
+TEMOA,MISE,MISE_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,1.76464e+06
+TEMOA,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2030,base_short_200_retire,all,MWh,4.9499e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_0,Wind,2030,base_short_200_retire,all,MWh,2.74371e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2030,base_short_200_retire,all,MWh,1.65542e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,780317
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_3,Wind,2030,base_short_200_retire,all,MWh,1.96469e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_4,Wind,2030,base_short_200_retire,all,MWh,2.63272e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_5,Wind,2030,base_short_200_retire,all,MWh,381910
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_6,Wind,2030,base_short_200_retire,all,MWh,2.45223e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_7,Wind,2030,base_short_200_retire,all,MWh,1.86225e+06
+TEMOA,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_200_retire,all,MWh,4.82459e+06
+TEMOA,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_200_retire,all,MWh,78165.2
+TEMOA,MISE,MISE_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_200_retire,all,MWh,9.5277e+06
+TEMOA,MISE,MISE_nuclear_1,Nuclear,2030,base_short_200_retire,all,MWh,7.79281e+06
+TEMOA,MISE,MISE_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,7.15742e+06
+TEMOA,MISE,MISE_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,109751
+TEMOA,MISE,MISE_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,1.87353e+06
+TEMOA,MISE,MISE_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,7.93879e+06
+TEMOA,MISE,MISE_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,2.26423e+07
+TEMOA,MISS,MISS_batteries_1,Battery,2030,base_short_200_retire,all,MWh,11817.5
+TEMOA,MISS,MISS_biomass_1,Other,2030,base_short_200_retire,all,MWh,45849.9
+TEMOA,MISS,MISS_biomass_2,Other,2030,base_short_200_retire,all,MWh,621996
+TEMOA,MISS,MISS_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,1.24509e+06
+TEMOA,MISS,MISS_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,5.74898e+06
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_0,Wind,2030,base_short_200_retire,all,MWh,5.69725e+06
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_1,Wind,2030,base_short_200_retire,all,MWh,550732
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,5.75366e+06
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_3,Wind,2030,base_short_200_retire,all,MWh,1.06198e+06
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_5,Wind,2030,base_short_200_retire,all,MWh,949639
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_6,Wind,2030,base_short_200_retire,all,MWh,10.0245
+TEMOA,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_200_retire,all,MWh,3.93188e+07
+TEMOA,MISS,MISS_nuclear_1,Nuclear,2030,base_short_200_retire,all,MWh,3.29289e+07
+TEMOA,MISS,MISS_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,1.55687e+06
+TEMOA,MISS,MISS_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,17898
+TEMOA,MISS,MISS_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,3.54393e+06
+TEMOA,MISS,MISS_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,1.44123e+07
+TEMOA,MISW,MISW_batteries_1,Battery,2030,base_short_200_retire,all,MWh,26802.3
+TEMOA,MISW,MISW_biomass_1,Other,2030,base_short_200_retire,all,MWh,505575
+TEMOA,MISW,MISW_biomass_2,Other,2030,base_short_200_retire,all,MWh,106564
+TEMOA,MISW,MISW_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,254204
+TEMOA,MISW,MISW_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,3.95443e+06
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_0,Wind,2030,base_short_200_retire,all,MWh,5.38974e+07
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_3,Wind,2030,base_short_200_retire,all,MWh,3.67714e+06
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_7,Wind,2030,base_short_200_retire,all,MWh,548821
+TEMOA,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_200_retire,all,MWh,507170
+TEMOA,MISW,MISW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_200_retire,all,MWh,1.892e+07
+TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_200_retire,all,MWh,14520
+TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_200_retire,all,MWh,397779
+TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base_short_200_retire,all,MWh,725.743
+TEMOA,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_200_retire,all,MWh,138534
+TEMOA,MISW,MISW_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_200_retire,all,MWh,8.27036e+06
+TEMOA,MISW,MISW_nuclear_1,Nuclear,2030,base_short_200_retire,all,MWh,1.83132e+07
+TEMOA,MISW,MISW_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,4.52026e+07
+TEMOA,MISW,MISW_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,2.16856e+06
+TEMOA,MISW,MISW_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,5.20608e+06
+TEMOA,MISW,MISW_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,4.39661e+07
+TEMOA,MISW,MISW_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,1.16517e+07
+TEMOA,MISW,MISW_utilitypv_class1_moderate_2,Solar,2030,base_short_200_retire,all,MWh,230033
+TEMOA,NWPP,NWPP_batteries_1,Battery,2030,base_short_200_retire,all,MWh,120166
+TEMOA,NWPP,NWPP_biomass_2,Other,2030,base_short_200_retire,all,MWh,544501
+TEMOA,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,1.25375e+08
+TEMOA,NWPP,NWPP_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,3.57644e+06
+TEMOA,NWPP,NWPP_geothermal_1,Geothermal,2030,base_short_200_retire,all,MWh,159466
+TEMOA,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2030,base_short_200_retire,all,MWh,879874
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_1,Wind,2030,base_short_200_retire,all,MWh,9.37171e+06
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_14,Wind,2030,base_short_200_retire,all,MWh,53.7118
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,1.9107e+07
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_3,Wind,2030,base_short_200_retire,all,MWh,1.35884e+07
+TEMOA,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_200_retire,all,MWh,249052
+TEMOA,NWPP,NWPP_nuclear_1,Nuclear,2030,base_short_200_retire,all,MWh,6.6613e+06
+TEMOA,NWPP,NWPP_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,1.89518e+07
+TEMOA,NWPP,NWPP_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,3.22013e+06
+TEMOA,NWPP,NWPP_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,2.76919e+06
+TEMOA,NWPP,NWPP_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,2.25066e+07
+TEMOA,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,1.68675e+07
+TEMOA,NYCW,NYCW_batteries_1,Battery,2030,base_short_200_retire,all,MWh,35520.8
+TEMOA,NYCW,NYCW_biomass_1,Other,2030,base_short_200_retire,all,MWh,5318.2
+TEMOA,NYCW,NYCW_biomass_2,Other,2030,base_short_200_retire,all,MWh,87652.3
+TEMOA,NYCW,NYCW_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,2.50908e+06
+TEMOA,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_200_retire,all,MWh,2.1931e+06
+TEMOA,NYCW,NYCW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_200_retire,all,MWh,1.1559e+06
+TEMOA,NYCW,NYCW_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_200_retire,all,MWh,112704
+TEMOA,NYCW,NYCW_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base_short_200_retire,all,MWh,120575
+TEMOA,NYCW,NYCW_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,247791
+TEMOA,NYUP,NYUP_batteries_1,Battery,2030,base_short_200_retire,all,MWh,151811
+TEMOA,NYUP,NYUP_biomass_1,Other,2030,base_short_200_retire,all,MWh,420647
+TEMOA,NYUP,NYUP_biomass_2,Other,2030,base_short_200_retire,all,MWh,263558
+TEMOA,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,1.47867e+07
+TEMOA,NYUP,NYUP_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,1.80213e+06
+TEMOA,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2030,base_short_200_retire,all,MWh,3.00264e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_0,Wind,2030,base_short_200_retire,all,MWh,7.11584e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_10,Wind,2030,base_short_200_retire,all,MWh,1.71236e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,2.49026e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_4,Wind,2030,base_short_200_retire,all,MWh,5.88382e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_6,Wind,2030,base_short_200_retire,all,MWh,2.34506e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_7,Wind,2030,base_short_200_retire,all,MWh,432.123
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_8,Wind,2030,base_short_200_retire,all,MWh,4.95854e+06
+TEMOA,NYUP,NYUP_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_200_retire,all,MWh,2.06435e+07
+TEMOA,NYUP,NYUP_nuclear_1,Nuclear,2030,base_short_200_retire,all,MWh,2.47667e+07
+TEMOA,NYUP,NYUP_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,5.66577e+06
+TEMOA,NYUP,NYUP_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,2.20349e+06
+TEMOA,NYUP,NYUP_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,2.60515e+06
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,1.24999e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,1.25151e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_2,Solar,2030,base_short_200_retire,all,MWh,1.89855e+06
+TEMOA,PJMC,PJMC_batteries_1,Battery,2030,base_short_200_retire,all,MWh,24086.1
+TEMOA,PJMC,PJMC_biomass_1,Other,2030,base_short_200_retire,all,MWh,76439.1
+TEMOA,PJMC,PJMC_biomass_2,Other,2030,base_short_200_retire,all,MWh,151599
+TEMOA,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,22071.6
+TEMOA,PJMC,PJMC_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,2.62579e+06
+TEMOA,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_200_retire,all,MWh,2.02953e+07
+TEMOA,PJMC,PJMC_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_200_retire,all,MWh,335074
+TEMOA,PJMC,PJMC_nuclear_1,Nuclear,2030,base_short_200_retire,all,MWh,7.34389e+07
+TEMOA,PJMC,PJMC_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,8.52539e+06
+TEMOA,PJMC,PJMC_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,74785.2
+TEMOA,PJMC,PJMC_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,531546
+TEMOA,PJMD,PJMD_batteries_1,Battery,2030,base_short_200_retire,all,MWh,28967
+TEMOA,PJMD,PJMD_biomass_1,Other,2030,base_short_200_retire,all,MWh,363494
+TEMOA,PJMD,PJMD_biomass_2,Other,2030,base_short_200_retire,all,MWh,18769.3
+TEMOA,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,631898
+TEMOA,PJMD,PJMD_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,3.43976e+06
+TEMOA,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2030,base_short_200_retire,all,MWh,6.98948e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_0,Wind,2030,base_short_200_retire,all,MWh,2.5053e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_1,Wind,2030,base_short_200_retire,all,MWh,1.69193e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_10,Wind,2030,base_short_200_retire,all,MWh,2.10408e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_11,Wind,2030,base_short_200_retire,all,MWh,1.83349e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_13,Wind,2030,base_short_200_retire,all,MWh,2.88135e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_15,Wind,2030,base_short_200_retire,all,MWh,1.33766e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_17,Wind,2030,base_short_200_retire,all,MWh,617024
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,2.09519e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_3,Wind,2030,base_short_200_retire,all,MWh,76680.2
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_5,Wind,2030,base_short_200_retire,all,MWh,2.12107e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_6,Wind,2030,base_short_200_retire,all,MWh,2.29064e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_7,Wind,2030,base_short_200_retire,all,MWh,954862
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_8,Wind,2030,base_short_200_retire,all,MWh,1.30694e+06
+TEMOA,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_200_retire,all,MWh,1.03481e+07
+TEMOA,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_200_retire,all,MWh,34005.8
+TEMOA,PJMD,PJMD_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base_short_200_retire,all,MWh,202339
+TEMOA,PJMD,PJMD_nuclear_1,Nuclear,2030,base_short_200_retire,all,MWh,2.78113e+07
+TEMOA,PJMD,PJMD_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,249487
+TEMOA,PJMD,PJMD_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,27643.3
+TEMOA,PJMD,PJMD_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,8.83278e+06
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,5.31798e+07
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,2.18584e+06
+TEMOA,PJME,PJME_batteries_1,Battery,2030,base_short_200_retire,all,MWh,47113.6
+TEMOA,PJME,PJME_biomass_1,Other,2030,base_short_200_retire,all,MWh,633824
+TEMOA,PJME,PJME_biomass_2,Other,2030,base_short_200_retire,all,MWh,931667
+TEMOA,PJME,PJME_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,2.43546e+06
+TEMOA,PJME,PJME_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,1.60229e+07
+TEMOA,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2030,base_short_200_retire,all,MWh,4.20447e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_0,Wind,2030,base_short_200_retire,all,MWh,7.02209e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2030,base_short_200_retire,all,MWh,985863
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,3.97581e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_3,Wind,2030,base_short_200_retire,all,MWh,3.19208e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_5,Wind,2030,base_short_200_retire,all,MWh,2.99889e+06
+TEMOA,PJME,PJME_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_200_retire,all,MWh,9.74272e+07
+TEMOA,PJME,PJME_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base_short_200_retire,all,MWh,162325
+TEMOA,PJME,PJME_nuclear_1,Nuclear,2030,base_short_200_retire,all,MWh,9.82417e+07
+TEMOA,PJME,PJME_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,2.13114e+06
+TEMOA,PJME,PJME_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,501072
+TEMOA,PJME,PJME_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,3.53085e+06
+TEMOA,PJME,PJME_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,1.37734e+07
+TEMOA,PJME,PJME_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,3.5751e+07
+TEMOA,PJME,PJME_utilitypv_class1_moderate_3,Solar,2030,base_short_200_retire,all,MWh,3.12605e+06
+TEMOA,PJMW,PJMW_batteries_1,Battery,2030,base_short_200_retire,all,MWh,24864.3
+TEMOA,PJMW,PJMW_biomass_1,Other,2030,base_short_200_retire,all,MWh,204953
+TEMOA,PJMW,PJMW_biomass_2,Other,2030,base_short_200_retire,all,MWh,50032.4
+TEMOA,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,2.18084e+06
+TEMOA,PJMW,PJMW_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,4.57851e+06
+TEMOA,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2030,base_short_200_retire,all,MWh,571020
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_0,Wind,2030,base_short_200_retire,all,MWh,4.99351e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2030,base_short_200_retire,all,MWh,5.54325e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_10,Wind,2030,base_short_200_retire,all,MWh,3.34886e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_11,Wind,2030,base_short_200_retire,all,MWh,1.96888e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_12,Wind,2030,base_short_200_retire,all,MWh,2.94404e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_13,Wind,2030,base_short_200_retire,all,MWh,2.978e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_14,Wind,2030,base_short_200_retire,all,MWh,4.83239e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_15,Wind,2030,base_short_200_retire,all,MWh,2.0111e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,3.44536e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_3,Wind,2030,base_short_200_retire,all,MWh,2.8764e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_4,Wind,2030,base_short_200_retire,all,MWh,4.54807e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_5,Wind,2030,base_short_200_retire,all,MWh,3.16153e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_6,Wind,2030,base_short_200_retire,all,MWh,4.39818e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_7,Wind,2030,base_short_200_retire,all,MWh,2.92552e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_8,Wind,2030,base_short_200_retire,all,MWh,7.10777e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_9,Wind,2030,base_short_200_retire,all,MWh,1.00674e+06
+TEMOA,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_200_retire,all,MWh,5.09402e+07
+TEMOA,PJMW,PJMW_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_200_retire,all,MWh,68454.6
+TEMOA,PJMW,PJMW_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_200_retire,all,MWh,9.94449e+07
+TEMOA,PJMW,PJMW_nuclear_1,Nuclear,2030,base_short_200_retire,all,MWh,4.66487e+07
+TEMOA,PJMW,PJMW_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,8.96361e+06
+TEMOA,PJMW,PJMW_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,1.10818e+06
+TEMOA,PJMW,PJMW_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,7.01891e+06
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,8.23042e+07
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,21650.5
+TEMOA,RMRG,RMRG_batteries_1,Battery,2030,base_short_200_retire,all,MWh,148851
+TEMOA,RMRG,RMRG_biomass_1,Other,2030,base_short_200_retire,all,MWh,79272.3
+TEMOA,RMRG,RMRG_biomass_2,Other,2030,base_short_200_retire,all,MWh,43782.4
+TEMOA,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,1.71716e+06
+TEMOA,RMRG,RMRG_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,2.31474e+06
+TEMOA,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2030,base_short_200_retire,all,MWh,1.60184e+06
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_0,Wind,2030,base_short_200_retire,all,MWh,4.11084e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2030,base_short_200_retire,all,MWh,1.3254e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,2.55353e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_3,Wind,2030,base_short_200_retire,all,MWh,2.18721e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_4,Wind,2030,base_short_200_retire,all,MWh,1.8771e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_5,Wind,2030,base_short_200_retire,all,MWh,1.21749e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_6,Wind,2030,base_short_200_retire,all,MWh,1.11399e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_7,Wind,2030,base_short_200_retire,all,MWh,2.87781e+07
+TEMOA,RMRG,RMRG_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_200_retire,all,MWh,319490
+TEMOA,RMRG,RMRG_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,2.58685e+07
+TEMOA,RMRG,RMRG_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,810937
+TEMOA,RMRG,RMRG_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,4.44304e+06
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,1.46246e+07
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,2.01849e+07
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_7,Solar,2030,base_short_200_retire,all,MWh,81012.2
+TEMOA,SPPC,SPPC_batteries_1,Battery,2030,base_short_200_retire,all,MWh,119.008
+TEMOA,SPPC,SPPC_biomass_1,Other,2030,base_short_200_retire,all,MWh,12520
+TEMOA,SPPC,SPPC_biomass_2,Other,2030,base_short_200_retire,all,MWh,60996.7
+TEMOA,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,43363.5
+TEMOA,SPPC,SPPC_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,636566
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_0,Wind,2030,base_short_200_retire,all,MWh,1.44557e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_1,Wind,2030,base_short_200_retire,all,MWh,1.86238e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,2.03438e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_3,Wind,2030,base_short_200_retire,all,MWh,1303.12
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_4,Wind,2030,base_short_200_retire,all,MWh,9.96973e+06
+TEMOA,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_200_retire,all,MWh,1.17991e+06
+TEMOA,SPPC,SPPC_nuclear_1,Nuclear,2030,base_short_200_retire,all,MWh,7.55093e+06
+TEMOA,SPPC,SPPC_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,1.56374e+07
+TEMOA,SPPC,SPPC_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,142449
+TEMOA,SPPC,SPPC_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,1.28294e+06
+TEMOA,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,1.1393e+06
+TEMOA,SPPC,SPPC_utilitypv_class1_moderate_3,Solar,2030,base_short_200_retire,all,MWh,9.78336e+06
+TEMOA,SPPN,SPPN_batteries_1,Battery,2030,base_short_200_retire,all,MWh,4055.58
+TEMOA,SPPN,SPPN_biomass_1,Other,2030,base_short_200_retire,all,MWh,22449.3
+TEMOA,SPPN,SPPN_biomass_2,Other,2030,base_short_200_retire,all,MWh,58590.2
+TEMOA,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,8.95626e+06
+TEMOA,SPPN,SPPN_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,460736
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_0,Wind,2030,base_short_200_retire,all,MWh,1.77894e+07
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2030,base_short_200_retire,all,MWh,3.49445e+06
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_14,Wind,2030,base_short_200_retire,all,MWh,1514.65
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,3.19221e+06
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_5,Wind,2030,base_short_200_retire,all,MWh,3.79523e+06
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_8,Wind,2030,base_short_200_retire,all,MWh,9.24278e+06
+TEMOA,SPPN,SPPN_nuclear_1,Nuclear,2030,base_short_200_retire,all,MWh,4.42719e+06
+TEMOA,SPPN,SPPN_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,1.55898e+07
+TEMOA,SPPN,SPPN_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,511314
+TEMOA,SPPN,SPPN_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,185953
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,1.91106e+07
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,3.07233e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_2,Solar,2030,base_short_200_retire,all,MWh,7.73897e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_3,Solar,2030,base_short_200_retire,all,MWh,1.687e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_5,Solar,2030,base_short_200_retire,all,MWh,389957
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_7,Solar,2030,base_short_200_retire,all,MWh,1.71192e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_9,Solar,2030,base_short_200_retire,all,MWh,2.0953e+06
+TEMOA,SPPS,SPPS_batteries_1,Battery,2030,base_short_200_retire,all,MWh,162756
+TEMOA,SPPS,SPPS_biomass_1,Other,2030,base_short_200_retire,all,MWh,12688.6
+TEMOA,SPPS,SPPS_biomass_2,Other,2030,base_short_200_retire,all,MWh,107971
+TEMOA,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,1.97452e+06
+TEMOA,SPPS,SPPS_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,2.75727e+06
+TEMOA,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2030,base_short_200_retire,all,MWh,1.28481e+06
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_0,Wind,2030,base_short_200_retire,all,MWh,3.97725e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2030,base_short_200_retire,all,MWh,2.67602e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,2.99924e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_3,Wind,2030,base_short_200_retire,all,MWh,7.73979e+06
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_4,Wind,2030,base_short_200_retire,all,MWh,2.46644e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_5,Wind,2030,base_short_200_retire,all,MWh,9.79717e+06
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_7,Wind,2030,base_short_200_retire,all,MWh,2.20621e+07
+TEMOA,SPPS,SPPS_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_200_retire,all,MWh,1.78494e+07
+TEMOA,SPPS,SPPS_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,4.51176e+07
+TEMOA,SPPS,SPPS_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,339402
+TEMOA,SPPS,SPPS_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,633546
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,1.53624e+07
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,7.95742e+06
+TEMOA,SRCA,SRCA_batteries_1,Battery,2030,base_short_200_retire,all,MWh,126693
+TEMOA,SRCA,SRCA_biomass_1,Other,2030,base_short_200_retire,all,MWh,655475
+TEMOA,SRCA,SRCA_biomass_2,Other,2030,base_short_200_retire,all,MWh,311422
+TEMOA,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,1.80665e+06
+TEMOA,SRCA,SRCA_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,6.69634e+06
+TEMOA,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2030,base_short_200_retire,all,MWh,7.03572e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_0,Wind,2030,base_short_200_retire,all,MWh,1.61265e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2030,base_short_200_retire,all,MWh,4.15174e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,1.4389e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_3,Wind,2030,base_short_200_retire,all,MWh,4.90267e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_4,Wind,2030,base_short_200_retire,all,MWh,1.11015e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_5,Wind,2030,base_short_200_retire,all,MWh,536224
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_6,Wind,2030,base_short_200_retire,all,MWh,2.1455e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_7,Wind,2030,base_short_200_retire,all,MWh,2.30529e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_8,Wind,2030,base_short_200_retire,all,MWh,1.7423e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_9,Wind,2030,base_short_200_retire,all,MWh,1.75925e+06
+TEMOA,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_200_retire,all,MWh,9.10062e+06
+TEMOA,SRCA,SRCA_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_200_retire,all,MWh,132446
+TEMOA,SRCA,SRCA_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_200_retire,all,MWh,2.55978e+07
+TEMOA,SRCA,SRCA_nuclear_1,Nuclear,2030,base_short_200_retire,all,MWh,9.19913e+07
+TEMOA,SRCA,SRCA_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,310257
+TEMOA,SRCA,SRCA_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,1.35743e+07
+TEMOA,SRCA,SRCA_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,8.81452e+06
+TEMOA,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,4.30687e+07
+TEMOA,SRCE,SRCE_batteries_1,Battery,2030,base_short_200_retire,all,MWh,98717
+TEMOA,SRCE,SRCE_biomass_1,Other,2030,base_short_200_retire,all,MWh,140765
+TEMOA,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,1.41139e+07
+TEMOA,SRCE,SRCE_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,1.32803e+06
+TEMOA,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2030,base_short_200_retire,all,MWh,4.26922e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_0,Wind,2030,base_short_200_retire,all,MWh,2.43117e+07
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2030,base_short_200_retire,all,MWh,7.26171e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,1.36814e+07
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_3,Wind,2030,base_short_200_retire,all,MWh,1.37734e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_4,Wind,2030,base_short_200_retire,all,MWh,1.43253e+07
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_6,Wind,2030,base_short_200_retire,all,MWh,1.40453e+07
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_7,Wind,2030,base_short_200_retire,all,MWh,215690
+TEMOA,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_200_retire,all,MWh,1.52084e+07
+TEMOA,SRCE,SRCE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_200_retire,all,MWh,1.37341e+06
+TEMOA,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_200_retire,all,MWh,375369
+TEMOA,SRCE,SRCE_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_200_retire,all,MWh,8.17559e+06
+TEMOA,SRCE,SRCE_nuclear_1,Nuclear,2030,base_short_200_retire,all,MWh,6.00765e+07
+TEMOA,SRCE,SRCE_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,397942
+TEMOA,SRCE,SRCE_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,3.30601e+06
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,7.88614e+06
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,3.55862e+07
+TEMOA,SRSE,SRSE_batteries_1,Battery,2030,base_short_200_retire,all,MWh,119539
+TEMOA,SRSE,SRSE_biomass_1,Other,2030,base_short_200_retire,all,MWh,1.68894e+06
+TEMOA,SRSE,SRSE_biomass_2,Other,2030,base_short_200_retire,all,MWh,343703
+TEMOA,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,5.14878e+06
+TEMOA,SRSE,SRSE_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,1.7681e+06
+TEMOA,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2030,base_short_200_retire,all,MWh,4.36175e+06
+TEMOA,SRSE,SRSE_landbasedwind_class3_moderate_1,Wind,2030,base_short_200_retire,all,MWh,3.74225e+06
+TEMOA,SRSE,SRSE_landbasedwind_class3_moderate_6,Wind,2030,base_short_200_retire,all,MWh,2.17457e+06
+TEMOA,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_200_retire,all,MWh,2.98237e+07
+TEMOA,SRSE,SRSE_naturalgas_ccccsavgcf_conservative_0,CCS,2030,base_short_200_retire,all,MWh,3.17713e+07
+TEMOA,SRSE,SRSE_nuclear_1,Nuclear,2030,base_short_200_retire,all,MWh,6.39581e+07
+TEMOA,SRSE,SRSE_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,26397.5
+TEMOA,SRSE,SRSE_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,1.28917e+07
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,3.96014e+07
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_2,Solar,2030,base_short_200_retire,all,MWh,6.4512e+06
+TEMOA,SRSG,SRSG_batteries_1,Battery,2030,base_short_200_retire,all,MWh,1.52673e+06
+TEMOA,SRSG,SRSG_biomass_1,Other,2030,base_short_200_retire,all,MWh,73621.8
+TEMOA,SRSG,SRSG_biomass_2,Other,2030,base_short_200_retire,all,MWh,195283
+TEMOA,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,6.88364e+06
+TEMOA,SRSG,SRSG_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,5.20946e+06
+TEMOA,SRSG,SRSG_geothermal_1,Geothermal,2030,base_short_200_retire,all,MWh,1.52806e+06
+TEMOA,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2030,base_short_200_retire,all,MWh,615589
+TEMOA,SRSG,SRSG_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,3.09288e+06
+TEMOA,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_200_retire,all,MWh,1.37252e+06
+TEMOA,SRSG,SRSG_nuclear_1,Nuclear,2030,base_short_200_retire,all,MWh,2.34297e+07
+TEMOA,SRSG,SRSG_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,9.20916e+06
+TEMOA,SRSG,SRSG_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,528362
+TEMOA,SRSG,SRSG_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,1.47156e+07
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,3.03764e+07
+TEMOA,TRE_WEST,TRE_batteries_1,Battery,2030,base_short_200_retire,all,MWh,1.21031e+06
+TEMOA,TRE_WEST,TRE_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,536166
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_0,Wind,2030,base_short_200_retire,all,MWh,1.73597e+07
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_1,Wind,2030,base_short_200_retire,all,MWh,2186.49
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_11,Wind,2030,base_short_200_retire,all,MWh,3498.26
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,2.69756e+07
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_3,Wind,2030,base_short_200_retire,all,MWh,9.39879e+06
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_4,Wind,2030,base_short_200_retire,all,MWh,2.78041e+07
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_6,Wind,2030,base_short_200_retire,all,MWh,2.39327e+06
+TEMOA,TRE_WEST,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_200_retire,all,MWh,8.44292e+06
+TEMOA,TRE_WEST,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_200_retire,all,MWh,60.9
+TEMOA,TRE_WEST,TRE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_200_retire,all,MWh,25267.1
+TEMOA,TRE_WEST,TRE_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,5.72394e+07
+TEMOA,TRE_WEST,TRE_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,1.82507e+07
+TEMOA,TRE,TRE_batteries_1,Battery,2030,base_short_200_retire,all,MWh,1.68787e+06
+TEMOA,TRE,TRE_biomass_1,Other,2030,base_short_200_retire,all,MWh,71678
+TEMOA,TRE,TRE_biomass_2,Other,2030,base_short_200_retire,all,MWh,223961
+TEMOA,TRE,TRE_conventional_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,178029
+TEMOA,TRE,TRE_distributed_generation_1,Distributed Solar,2030,base_short_200_retire,all,MWh,1.0732e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_0,Wind,2030,base_short_200_retire,all,MWh,8.54734e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2030,base_short_200_retire,all,MWh,5.97608e+06
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_11,Wind,2030,base_short_200_retire,all,MWh,3.43433e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_14,Wind,2030,base_short_200_retire,all,MWh,8.45433e+06
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_17,Wind,2030,base_short_200_retire,all,MWh,1.17316e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_19,Wind,2030,base_short_200_retire,all,MWh,1102.21
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_2,Wind,2030,base_short_200_retire,all,MWh,2.63542e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_3,Wind,2030,base_short_200_retire,all,MWh,1.96368e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_5,Wind,2030,base_short_200_retire,all,MWh,2.15914e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_6,Wind,2030,base_short_200_retire,all,MWh,2322.37
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_7,Wind,2030,base_short_200_retire,all,MWh,7.07296e+06
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_8,Wind,2030,base_short_200_retire,all,MWh,1.58542e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_9,Wind,2030,base_short_200_retire,all,MWh,6.86578e+06
+TEMOA,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_200_retire,all,MWh,2.13871e+07
+TEMOA,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_200_retire,all,MWh,360629
+TEMOA,TRE,TRE_nuclear_1,Nuclear,2030,base_short_200_retire,all,MWh,2.58701e+07
+TEMOA,TRE,TRE_onshore_wind_turbine_1,Wind,2030,base_short_200_retire,all,MWh,2.81647e+07
+TEMOA,TRE,TRE_small_hydroelectric_1,Hydro,2030,base_short_200_retire,all,MWh,136002
+TEMOA,TRE,TRE_solar_photovoltaic_1,Solar,2030,base_short_200_retire,all,MWh,2.21615e+07
+TEMOA,TRE,TRE_utilitypv_class1_moderate_0,Solar,2030,base_short_200_retire,all,MWh,1.78965e+07
+TEMOA,TRE,TRE_utilitypv_class1_moderate_1,Solar,2030,base_short_200_retire,all,MWh,418.738
+TEMOA,TRE,TRE_utilitypv_class1_moderate_2,Solar,2030,base_short_200_retire,all,MWh,2121.47
+TEMOA,FRCC,unserved_load,nan,2030,base_short_200_retire,all,MWh,3563.54
+TEMOA,ISNE,unserved_load,nan,2030,base_short_200_retire,all,MWh,13613.7
+TEMOA,BASN,BASN_batteries_1,Battery,2040,base_short_200_retire,all,MWh,806672
+TEMOA,BASN,BASN_battery_moderate_0_2hour,Battery,2040,base_short_200_retire,all,MWh,109.227
+TEMOA,BASN,BASN_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,1.16393e+07
+TEMOA,BASN,BASN_battery_moderate_0_6hour,Battery,2040,base_short_200_retire,all,MWh,2.42119e+06
+TEMOA,BASN,BASN_biomass_1,Other,2040,base_short_200_retire,all,MWh,147728
+TEMOA,BASN,BASN_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,5.60923e+06
+TEMOA,BASN,BASN_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,4.06174e+06
+TEMOA,BASN,BASN_geothermal_1,Geothermal,2040,base_short_200_retire,all,MWh,2.78657e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,9.60111e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,2.89271e+07
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_13,Wind,2040,base_short_200_retire,all,MWh,4.69964e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_19,Wind,2040,base_short_200_retire,all,MWh,4.20478e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,1.24073e+07
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_23,Wind,2040,base_short_200_retire,all,MWh,2.6053e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,4.2181e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_4,Wind,2040,base_short_200_retire,all,MWh,1.47223e+07
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_6,Wind,2040,base_short_200_retire,all,MWh,1.02873e+07
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_7,Wind,2040,base_short_200_retire,all,MWh,3.81271e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_9,Wind,2040,base_short_200_retire,all,MWh,2.31131e+06
+TEMOA,BASN,BASN_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_200_retire,all,MWh,2.59613e+06
+TEMOA,BASN,BASN_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,2.64574e+06
+TEMOA,BASN,BASN_small_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,1.51215e+06
+TEMOA,BASN,BASN_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,1.60275e+07
+TEMOA,BASN,BASN_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,4.15345e+07
+TEMOA,BASN,BASN_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,8.92674e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_3,Solar,2040,base_short_200_retire,all,MWh,3.07265e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_5,Solar,2040,base_short_200_retire,all,MWh,8.13438e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_7,Solar,2040,base_short_200_retire,all,MWh,1.09369e+07
+TEMOA,CANO,CANO_batteries_1,Battery,2040,base_short_200_retire,all,MWh,3.85529e+06
+TEMOA,CANO,CANO_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,931110
+TEMOA,CANO,CANO_battery_moderate_0_6hour,Battery,2040,base_short_200_retire,all,MWh,5.16761e+06
+TEMOA,CANO,CANO_biomass_1,Other,2040,base_short_200_retire,all,MWh,632447
+TEMOA,CANO,CANO_biomass_2,Other,2040,base_short_200_retire,all,MWh,1.11126e+06
+TEMOA,CANO,CANO_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,1.8074e+07
+TEMOA,CANO,CANO_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,1.3982e+07
+TEMOA,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2040,base_short_200_retire,all,MWh,7.41265e+06
+TEMOA,CANO,CANO_landbasedwind_class3_moderate_15,Wind,2040,base_short_200_retire,all,MWh,2038.66
+TEMOA,CANO,CANO_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,1.74185e+06
+TEMOA,CANO,CANO_landbasedwind_class3_moderate_7,Wind,2040,base_short_200_retire,all,MWh,994524
+TEMOA,CANO,CANO_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_200_retire,all,MWh,8.09397e+06
+TEMOA,CANO,CANO_naturalgas_ccccsavgcf_conservative_0,CCS,2040,base_short_200_retire,all,MWh,1.68139e+07
+TEMOA,CANO,CANO_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,1.41754e+06
+TEMOA,CANO,CANO_small_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,1.89137e+06
+TEMOA,CANO,CANO_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,1.37098e+07
+TEMOA,CANO,CANO_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,3.78896e+07
+TEMOA,CANO,CANO_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,1.26334e+07
+TEMOA,CANO,CANO_utilitypv_class1_moderate_2,Solar,2040,base_short_200_retire,all,MWh,2.19714e+07
+TEMOA,CASO,CASO_batteries_1,Battery,2040,base_short_200_retire,all,MWh,111880
+TEMOA,CASO,CASO_battery_moderate_0_2hour,Battery,2040,base_short_200_retire,all,MWh,76.3395
+TEMOA,CASO,CASO_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,9.95605e+06
+TEMOA,CASO,CASO_battery_moderate_0_6hour,Battery,2040,base_short_200_retire,all,MWh,7.21277e+06
+TEMOA,CASO,CASO_biomass_1,Other,2040,base_short_200_retire,all,MWh,552454
+TEMOA,CASO,CASO_biomass_2,Other,2040,base_short_200_retire,all,MWh,115218
+TEMOA,CASO,CASO_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,2.24482e+06
+TEMOA,CASO,CASO_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,2.26066e+07
+TEMOA,CASO,CASO_geothermal_1,Geothermal,2040,base_short_200_retire,all,MWh,187414
+TEMOA,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2040,base_short_200_retire,all,MWh,5.06139e+06
+TEMOA,CASO,CASO_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,1.54236e+06
+TEMOA,CASO,CASO_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,512433
+TEMOA,CASO,CASO_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,54003.9
+TEMOA,CASO,CASO_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,30.9004
+TEMOA,CASO,CASO_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_200_retire,all,MWh,2.36089e+06
+TEMOA,CASO,CASO_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_200_retire,all,MWh,427420
+TEMOA,CASO,CASO_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,1.12875e+07
+TEMOA,CASO,CASO_small_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,569136
+TEMOA,CASO,CASO_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,3.09809e+07
+TEMOA,CASO,CASO_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,2.45262e+07
+TEMOA,CASO,CASO_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,2.69819e+07
+TEMOA,CASO,CASO_utilitypv_class1_moderate_2,Solar,2040,base_short_200_retire,all,MWh,1.22567e+07
+TEMOA,FRCC,FRCC_batteries_1,Battery,2040,base_short_200_retire,all,MWh,473175
+TEMOA,FRCC,FRCC_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,3.21821e+06
+TEMOA,FRCC,FRCC_battery_moderate_0_6hour,Battery,2040,base_short_200_retire,all,MWh,1.61555e+07
+TEMOA,FRCC,FRCC_biomass_1,Other,2040,base_short_200_retire,all,MWh,461738
+TEMOA,FRCC,FRCC_biomass_2,Other,2040,base_short_200_retire,all,MWh,787554
+TEMOA,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,111489
+TEMOA,FRCC,FRCC_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,1.31207e+07
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,6.52955e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,1.55217e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,2.01016e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,5.08903e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_4,Wind,2040,base_short_200_retire,all,MWh,3.14322e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_5,Wind,2040,base_short_200_retire,all,MWh,1.80926e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_6,Wind,2040,base_short_200_retire,all,MWh,5.67952e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_7,Wind,2040,base_short_200_retire,all,MWh,3.67444e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_8,Wind,2040,base_short_200_retire,all,MWh,755266
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_9,Wind,2040,base_short_200_retire,all,MWh,6.4169e+06
+TEMOA,FRCC,FRCC_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_200_retire,all,MWh,1.32352e+07
+TEMOA,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_200_retire,all,MWh,19485.4
+TEMOA,FRCC,FRCC_naturalgas_ccccsavgcf_conservative_0,CCS,2040,base_short_200_retire,all,MWh,6.75039e+07
+TEMOA,FRCC,FRCC_nuclear_1,Nuclear,2040,base_short_200_retire,all,MWh,2.84031e+07
+TEMOA,FRCC,FRCC_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,1.56048e+07
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,5.26098e+07
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,2.99553e+07
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_2,Solar,2040,base_short_200_retire,all,MWh,4.34493e+06
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_3,Solar,2040,base_short_200_retire,all,MWh,2.09018e+07
+TEMOA,ISNE,ISNE_batteries_1,Battery,2040,base_short_200_retire,all,MWh,291199
+TEMOA,ISNE,ISNE_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,2.26506e+07
+TEMOA,ISNE,ISNE_biomass_1,Other,2040,base_short_200_retire,all,MWh,662357
+TEMOA,ISNE,ISNE_biomass_2,Other,2040,base_short_200_retire,all,MWh,803360
+TEMOA,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,1.74751e+06
+TEMOA,ISNE,ISNE_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,9.31818e+06
+TEMOA,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2040,base_short_200_retire,all,MWh,3.85193e+06
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,1.03609e+07
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,2.31152e+06
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_11,Wind,2040,base_short_200_retire,all,MWh,322224
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_14,Wind,2040,base_short_200_retire,all,MWh,224034
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,1.87973e+07
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,5.49166e+06
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_4,Wind,2040,base_short_200_retire,all,MWh,1.34431e+07
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_5,Wind,2040,base_short_200_retire,all,MWh,5.45603e+06
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_6,Wind,2040,base_short_200_retire,all,MWh,401224
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_7,Wind,2040,base_short_200_retire,all,MWh,1.25849e+07
+TEMOA,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_200_retire,all,MWh,934405
+TEMOA,ISNE,ISNE_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_200_retire,all,MWh,5.93952e+06
+TEMOA,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_200_retire,all,MWh,30797.5
+TEMOA,ISNE,ISNE_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_200_retire,all,MWh,125354
+TEMOA,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_short_200_retire,all,MWh,10933.9
+TEMOA,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_short_200_retire,all,MWh,2.78461e+07
+TEMOA,ISNE,ISNE_nuclear_1,Nuclear,2040,base_short_200_retire,all,MWh,2.37776e+07
+TEMOA,ISNE,ISNE_offshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,248211
+TEMOA,ISNE,ISNE_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,1.58435e+06
+TEMOA,ISNE,ISNE_petroleum_liquids_1,Other,2040,base_short_200_retire,all,MWh,16522.8
+TEMOA,ISNE,ISNE_small_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,2.02727e+06
+TEMOA,ISNE,ISNE_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,4.12483e+06
+TEMOA,ISNE,ISNE_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,1.16402e+07
+TEMOA,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,1.76184e+07
+TEMOA,ISNE,ISNE_utilitypv_class1_moderate_2,Solar,2040,base_short_200_retire,all,MWh,2.54481e+07
+TEMOA,ISNE,ISNE_utilitypv_class1_moderate_3,Solar,2040,base_short_200_retire,all,MWh,4.79698e+06
+TEMOA,MISC,MISC_batteries_1,Battery,2040,base_short_200_retire,all,MWh,25531.5
+TEMOA,MISC,MISC_battery_moderate_0_2hour,Battery,2040,base_short_200_retire,all,MWh,1461.16
+TEMOA,MISC,MISC_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,1.28068e+07
+TEMOA,MISC,MISC_battery_moderate_0_6hour,Battery,2040,base_short_200_retire,all,MWh,598.637
+TEMOA,MISC,MISC_biomass_1,Other,2040,base_short_200_retire,all,MWh,526962
+TEMOA,MISC,MISC_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,771189
+TEMOA,MISC,MISC_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,5.29692e+06
+TEMOA,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2040,base_short_200_retire,all,MWh,1.33339e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,9.13056e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,1.12938e+07
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_10,Wind,2040,base_short_200_retire,all,MWh,3.32351e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_11,Wind,2040,base_short_200_retire,all,MWh,7.33649e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_12,Wind,2040,base_short_200_retire,all,MWh,5.3367e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_15,Wind,2040,base_short_200_retire,all,MWh,79863.4
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,4.50163e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,1.50939e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_4,Wind,2040,base_short_200_retire,all,MWh,7.08233e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_5,Wind,2040,base_short_200_retire,all,MWh,8.11365e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_6,Wind,2040,base_short_200_retire,all,MWh,7.5923e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_7,Wind,2040,base_short_200_retire,all,MWh,3.2985e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_8,Wind,2040,base_short_200_retire,all,MWh,4.55103e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_9,Wind,2040,base_short_200_retire,all,MWh,8.27744e+06
+TEMOA,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_200_retire,all,MWh,296379
+TEMOA,MISC,MISC_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_200_retire,all,MWh,4.52381e+06
+TEMOA,MISC,MISC_naturalgas_ccccsavgcf_conservative_0,CCS,2040,base_short_200_retire,all,MWh,2.63613e+07
+TEMOA,MISC,MISC_nuclear_1,Nuclear,2040,base_short_200_retire,all,MWh,1.40395e+07
+TEMOA,MISC,MISC_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,9.67969e+06
+TEMOA,MISC,MISC_small_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,109794
+TEMOA,MISC,MISC_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,6.41929e+06
+TEMOA,MISC,MISC_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,6.24117e+07
+TEMOA,MISC,MISC_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,5.46223e+06
+TEMOA,MISE,MISE_battery_moderate_0_2hour,Battery,2040,base_short_200_retire,all,MWh,331158
+TEMOA,MISE,MISE_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,6.01858e+06
+TEMOA,MISE,MISE_biomass_1,Other,2040,base_short_200_retire,all,MWh,433017
+TEMOA,MISE,MISE_biomass_2,Other,2040,base_short_200_retire,all,MWh,415207
+TEMOA,MISE,MISE_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,123883
+TEMOA,MISE,MISE_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,4.67824e+06
+TEMOA,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2040,base_short_200_retire,all,MWh,5.62246e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,2.49923e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,1.57975e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_10,Wind,2040,base_short_200_retire,all,MWh,1.68965e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,702076
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,1.75522e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_4,Wind,2040,base_short_200_retire,all,MWh,2.37071e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_5,Wind,2040,base_short_200_retire,all,MWh,399259
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_6,Wind,2040,base_short_200_retire,all,MWh,2.36851e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_7,Wind,2040,base_short_200_retire,all,MWh,1.71844e+06
+TEMOA,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_200_retire,all,MWh,2.61924e+06
+TEMOA,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_200_retire,all,MWh,136259
+TEMOA,MISE,MISE_naturalgas_ccccsavgcf_conservative_0,CCS,2040,base_short_200_retire,all,MWh,1.9544e+07
+TEMOA,MISE,MISE_nuclear_1,Nuclear,2040,base_short_200_retire,all,MWh,7.84764e+06
+TEMOA,MISE,MISE_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,5.65311e+06
+TEMOA,MISE,MISE_small_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,108979
+TEMOA,MISE,MISE_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,1.95103e+06
+TEMOA,MISE,MISE_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,2.09022e+07
+TEMOA,MISE,MISE_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,2.38465e+07
+TEMOA,MISE,MISE_utilitypv_class1_moderate_2,Solar,2040,base_short_200_retire,all,MWh,5.81445e+06
+TEMOA,MISS,MISS_batteries_1,Battery,2040,base_short_200_retire,all,MWh,10584.7
+TEMOA,MISS,MISS_battery_moderate_0_2hour,Battery,2040,base_short_200_retire,all,MWh,5667.53
+TEMOA,MISS,MISS_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,8.81138e+06
+TEMOA,MISS,MISS_battery_moderate_0_6hour,Battery,2040,base_short_200_retire,all,MWh,313.207
+TEMOA,MISS,MISS_biomass_2,Other,2040,base_short_200_retire,all,MWh,621995
+TEMOA,MISS,MISS_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,928602
+TEMOA,MISS,MISS_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,7.94922e+06
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,4.9475e+06
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,565140
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_10,Wind,2040,base_short_200_retire,all,MWh,272263
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,5.09973e+06
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,1.01045e+06
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_5,Wind,2040,base_short_200_retire,all,MWh,3.03032e+06
+TEMOA,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_200_retire,all,MWh,1.71851e+07
+TEMOA,MISS,MISS_nuclear_1,Nuclear,2040,base_short_200_retire,all,MWh,3.13686e+07
+TEMOA,MISS,MISS_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,1.55986e+06
+TEMOA,MISS,MISS_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,3.56175e+06
+TEMOA,MISS,MISS_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,4.84188e+06
+TEMOA,MISS,MISS_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,1.68807e+07
+TEMOA,MISW,MISW_batteries_1,Battery,2040,base_short_200_retire,all,MWh,26552.1
+TEMOA,MISW,MISW_battery_moderate_0_2hour,Battery,2040,base_short_200_retire,all,MWh,1.30184e+06
+TEMOA,MISW,MISW_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,1.97489e+07
+TEMOA,MISW,MISW_battery_moderate_0_6hour,Battery,2040,base_short_200_retire,all,MWh,648.856
+TEMOA,MISW,MISW_biomass_1,Other,2040,base_short_200_retire,all,MWh,505575
+TEMOA,MISW,MISW_biomass_2,Other,2040,base_short_200_retire,all,MWh,106809
+TEMOA,MISW,MISW_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,205119
+TEMOA,MISW,MISW_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,7.12502e+06
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,5.72802e+07
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,2.51511e+07
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,3.04687e+06
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,3.71092e+06
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_7,Wind,2040,base_short_200_retire,all,MWh,1.54151e+07
+TEMOA,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_200_retire,all,MWh,271926
+TEMOA,MISW,MISW_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_200_retire,all,MWh,9.44662e+06
+TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_200_retire,all,MWh,17705.8
+TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_200_retire,all,MWh,320624
+TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,base_short_200_retire,all,MWh,362.872
+TEMOA,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_short_200_retire,all,MWh,145407
+TEMOA,MISW,MISW_naturalgas_ccccsavgcf_conservative_0,CCS,2040,base_short_200_retire,all,MWh,3.92786e+07
+TEMOA,MISW,MISW_nuclear_1,Nuclear,2040,base_short_200_retire,all,MWh,1.79482e+07
+TEMOA,MISW,MISW_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,3.28206e+07
+TEMOA,MISW,MISW_small_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,1.85763e+06
+TEMOA,MISW,MISW_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,5.11017e+06
+TEMOA,MISW,MISW_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,4.44421e+07
+TEMOA,MISW,MISW_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,1.17886e+07
+TEMOA,MISW,MISW_utilitypv_class1_moderate_2,Solar,2040,base_short_200_retire,all,MWh,3.56753e+07
+TEMOA,MISW,MISW_utilitypv_class1_moderate_3,Solar,2040,base_short_200_retire,all,MWh,1.94967e+07
+TEMOA,NWPP,NWPP_batteries_1,Battery,2040,base_short_200_retire,all,MWh,121420
+TEMOA,NWPP,NWPP_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,1.13029e+07
+TEMOA,NWPP,NWPP_battery_moderate_0_6hour,Battery,2040,base_short_200_retire,all,MWh,410.296
+TEMOA,NWPP,NWPP_biomass_2,Other,2040,base_short_200_retire,all,MWh,544501
+TEMOA,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,1.24547e+08
+TEMOA,NWPP,NWPP_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,5.46975e+06
+TEMOA,NWPP,NWPP_geothermal_1,Geothermal,2040,base_short_200_retire,all,MWh,157606
+TEMOA,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2040,base_short_200_retire,all,MWh,987734
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,9.05183e+06
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,2.09406e+07
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_10,Wind,2040,base_short_200_retire,all,MWh,1.66447e+06
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_14,Wind,2040,base_short_200_retire,all,MWh,1.47659e+06
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_18,Wind,2040,base_short_200_retire,all,MWh,354098
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,1.92414e+07
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_22,Wind,2040,base_short_200_retire,all,MWh,1.72924e+06
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,1.38755e+07
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_5,Wind,2040,base_short_200_retire,all,MWh,8.03294e+06
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_6,Wind,2040,base_short_200_retire,all,MWh,2.26523e+06
+TEMOA,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_200_retire,all,MWh,489733
+TEMOA,NWPP,NWPP_nuclear_1,Nuclear,2040,base_short_200_retire,all,MWh,6.4192e+06
+TEMOA,NWPP,NWPP_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,8.98047e+06
+TEMOA,NWPP,NWPP_small_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,3.16926e+06
+TEMOA,NWPP,NWPP_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,2.92799e+06
+TEMOA,NWPP,NWPP_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,2.40666e+07
+TEMOA,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,2.16916e+07
+TEMOA,NWPP,NWPP_utilitypv_class1_moderate_3,Solar,2040,base_short_200_retire,all,MWh,2.6534e+07
+TEMOA,NYCW,NYCW_batteries_1,Battery,2040,base_short_200_retire,all,MWh,40055.3
+TEMOA,NYCW,NYCW_battery_moderate_0_2hour,Battery,2040,base_short_200_retire,all,MWh,162725
+TEMOA,NYCW,NYCW_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,2.5571e+06
+TEMOA,NYCW,NYCW_biomass_2,Other,2040,base_short_200_retire,all,MWh,87682.6
+TEMOA,NYCW,NYCW_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,3.34714e+06
+TEMOA,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_200_retire,all,MWh,778454
+TEMOA,NYCW,NYCW_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_200_retire,all,MWh,946800
+TEMOA,NYCW,NYCW_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_200_retire,all,MWh,115535
+TEMOA,NYCW,NYCW_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,base_short_200_retire,all,MWh,209651
+TEMOA,NYCW,NYCW_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,246603
+TEMOA,NYUP,NYUP_batteries_1,Battery,2040,base_short_200_retire,all,MWh,155242
+TEMOA,NYUP,NYUP_battery_moderate_0_2hour,Battery,2040,base_short_200_retire,all,MWh,93597.5
+TEMOA,NYUP,NYUP_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,1.43092e+06
+TEMOA,NYUP,NYUP_biomass_1,Other,2040,base_short_200_retire,all,MWh,420645
+TEMOA,NYUP,NYUP_biomass_2,Other,2040,base_short_200_retire,all,MWh,263558
+TEMOA,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,1.48221e+07
+TEMOA,NYUP,NYUP_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,2.40009e+06
+TEMOA,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2040,base_short_200_retire,all,MWh,3.48253e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,7.26225e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,2.57915e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_10,Wind,2040,base_short_200_retire,all,MWh,3.40726e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_12,Wind,2040,base_short_200_retire,all,MWh,4.12367e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_14,Wind,2040,base_short_200_retire,all,MWh,5.28633e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,2.60459e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_4,Wind,2040,base_short_200_retire,all,MWh,6.06756e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_6,Wind,2040,base_short_200_retire,all,MWh,2.43256e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_7,Wind,2040,base_short_200_retire,all,MWh,1.98093e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_8,Wind,2040,base_short_200_retire,all,MWh,5.0918e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_9,Wind,2040,base_short_200_retire,all,MWh,3.13932e+06
+TEMOA,NYUP,NYUP_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_200_retire,all,MWh,8.39292e+06
+TEMOA,NYUP,NYUP_nuclear_1,Nuclear,2040,base_short_200_retire,all,MWh,2.34661e+07
+TEMOA,NYUP,NYUP_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,3.4818e+06
+TEMOA,NYUP,NYUP_small_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,2.07011e+06
+TEMOA,NYUP,NYUP_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,2.71142e+06
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,1.31283e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,1.33007e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_2,Solar,2040,base_short_200_retire,all,MWh,2.01866e+07
+TEMOA,PJMC,PJMC_batteries_1,Battery,2040,base_short_200_retire,all,MWh,25513.9
+TEMOA,PJMC,PJMC_battery_moderate_0_2hour,Battery,2040,base_short_200_retire,all,MWh,759.062
+TEMOA,PJMC,PJMC_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,4.52854e+06
+TEMOA,PJMC,PJMC_battery_moderate_0_6hour,Battery,2040,base_short_200_retire,all,MWh,1900.17
+TEMOA,PJMC,PJMC_biomass_2,Other,2040,base_short_200_retire,all,MWh,151601
+TEMOA,PJMC,PJMC_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,3.19018e+06
+TEMOA,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_200_retire,all,MWh,1.19724e+07
+TEMOA,PJMC,PJMC_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_200_retire,all,MWh,562716
+TEMOA,PJMC,PJMC_nuclear_1,Nuclear,2040,base_short_200_retire,all,MWh,7.6999e+07
+TEMOA,PJMC,PJMC_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,4.1754e+06
+TEMOA,PJMC,PJMC_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,527469
+TEMOA,PJMC,PJMC_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,2.1389e+07
+TEMOA,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,901902
+TEMOA,PJMD,PJMD_batteries_1,Battery,2040,base_short_200_retire,all,MWh,29030.7
+TEMOA,PJMD,PJMD_battery_moderate_0_2hour,Battery,2040,base_short_200_retire,all,MWh,88.336
+TEMOA,PJMD,PJMD_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,1.51603e+07
+TEMOA,PJMD,PJMD_battery_moderate_0_6hour,Battery,2040,base_short_200_retire,all,MWh,53448.8
+TEMOA,PJMD,PJMD_biomass_1,Other,2040,base_short_200_retire,all,MWh,363493
+TEMOA,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,572030
+TEMOA,PJMD,PJMD_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,5.78895e+06
+TEMOA,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2040,base_short_200_retire,all,MWh,8.26884e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,2.56379e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,1.7478e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_10,Wind,2040,base_short_200_retire,all,MWh,2.11538e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_11,Wind,2040,base_short_200_retire,all,MWh,1.87458e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_12,Wind,2040,base_short_200_retire,all,MWh,858305
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_13,Wind,2040,base_short_200_retire,all,MWh,2.92579e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_15,Wind,2040,base_short_200_retire,all,MWh,1.3411e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_17,Wind,2040,base_short_200_retire,all,MWh,638025
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_19,Wind,2040,base_short_200_retire,all,MWh,1.78829e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,2.18397e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,101176
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_4,Wind,2040,base_short_200_retire,all,MWh,324117
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_5,Wind,2040,base_short_200_retire,all,MWh,2.16008e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_6,Wind,2040,base_short_200_retire,all,MWh,2.39178e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_7,Wind,2040,base_short_200_retire,all,MWh,997257
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_8,Wind,2040,base_short_200_retire,all,MWh,1.34277e+06
+TEMOA,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_200_retire,all,MWh,4.93103e+06
+TEMOA,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_200_retire,all,MWh,22321.1
+TEMOA,PJMD,PJMD_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,base_short_200_retire,all,MWh,185223
+TEMOA,PJMD,PJMD_nuclear_1,Nuclear,2040,base_short_200_retire,all,MWh,2.7161e+07
+TEMOA,PJMD,PJMD_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,240240
+TEMOA,PJMD,PJMD_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,9.12397e+06
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,5.49534e+07
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,2.26552e+06
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_2,Solar,2040,base_short_200_retire,all,MWh,1.93333e+06
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_3,Solar,2040,base_short_200_retire,all,MWh,3.277e+07
+TEMOA,PJME,PJME_batteries_1,Battery,2040,base_short_200_retire,all,MWh,54193.4
+TEMOA,PJME,PJME_battery_moderate_0_2hour,Battery,2040,base_short_200_retire,all,MWh,6.89328e+06
+TEMOA,PJME,PJME_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,1.20742e+07
+TEMOA,PJME,PJME_biomass_1,Other,2040,base_short_200_retire,all,MWh,576960
+TEMOA,PJME,PJME_biomass_2,Other,2040,base_short_200_retire,all,MWh,931667
+TEMOA,PJME,PJME_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,1.59498e+06
+TEMOA,PJME,PJME_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,1.74566e+07
+TEMOA,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2040,base_short_200_retire,all,MWh,5.13134e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,7.21013e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,1.00427e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,4.04661e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,3.31584e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_4,Wind,2040,base_short_200_retire,all,MWh,2.91333e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_5,Wind,2040,base_short_200_retire,all,MWh,3.14813e+06
+TEMOA,PJME,PJME_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_200_retire,all,MWh,4.39253e+07
+TEMOA,PJME,PJME_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,base_short_200_retire,all,MWh,179684
+TEMOA,PJME,PJME_nuclear_1,Nuclear,2040,base_short_200_retire,all,MWh,9.47074e+07
+TEMOA,PJME,PJME_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,937397
+TEMOA,PJME,PJME_small_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,497471
+TEMOA,PJME,PJME_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,3.45201e+06
+TEMOA,PJME,PJME_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,1.41147e+07
+TEMOA,PJME,PJME_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,3.70166e+07
+TEMOA,PJME,PJME_utilitypv_class1_moderate_2,Solar,2040,base_short_200_retire,all,MWh,3.38361e+07
+TEMOA,PJME,PJME_utilitypv_class1_moderate_3,Solar,2040,base_short_200_retire,all,MWh,1.76311e+07
+TEMOA,PJMW,PJMW_batteries_1,Battery,2040,base_short_200_retire,all,MWh,25301.1
+TEMOA,PJMW,PJMW_battery_moderate_0_2hour,Battery,2040,base_short_200_retire,all,MWh,1020.09
+TEMOA,PJMW,PJMW_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,529827
+TEMOA,PJMW,PJMW_biomass_1,Other,2040,base_short_200_retire,all,MWh,204953
+TEMOA,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,1.51292e+06
+TEMOA,PJMW,PJMW_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,1.07144e+07
+TEMOA,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2040,base_short_200_retire,all,MWh,622267
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,5.0274e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,4.98816e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_10,Wind,2040,base_short_200_retire,all,MWh,3.19065e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_11,Wind,2040,base_short_200_retire,all,MWh,1.9309e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_12,Wind,2040,base_short_200_retire,all,MWh,2.79393e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_13,Wind,2040,base_short_200_retire,all,MWh,2.8699e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_14,Wind,2040,base_short_200_retire,all,MWh,4.49424e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_15,Wind,2040,base_short_200_retire,all,MWh,1.97102e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_18,Wind,2040,base_short_200_retire,all,MWh,4.00194e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,3.55226e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,2.58189e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_4,Wind,2040,base_short_200_retire,all,MWh,4.35969e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_5,Wind,2040,base_short_200_retire,all,MWh,3.17229e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_6,Wind,2040,base_short_200_retire,all,MWh,4.15051e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_7,Wind,2040,base_short_200_retire,all,MWh,2.77047e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_8,Wind,2040,base_short_200_retire,all,MWh,6.81047e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_9,Wind,2040,base_short_200_retire,all,MWh,1.00995e+06
+TEMOA,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_200_retire,all,MWh,3.84556e+07
+TEMOA,PJMW,PJMW_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_200_retire,all,MWh,81281.7
+TEMOA,PJMW,PJMW_naturalgas_ccccsavgcf_conservative_0,CCS,2040,base_short_200_retire,all,MWh,2.16935e+08
+TEMOA,PJMW,PJMW_nuclear_1,Nuclear,2040,base_short_200_retire,all,MWh,4.66458e+07
+TEMOA,PJMW,PJMW_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,5.16883e+06
+TEMOA,PJMW,PJMW_small_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,860553
+TEMOA,PJMW,PJMW_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,7.12453e+06
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,8.33778e+07
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,2.91816e+07
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_2,Solar,2040,base_short_200_retire,all,MWh,1.20794e+07
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_3,Solar,2040,base_short_200_retire,all,MWh,3125.58
+TEMOA,RMRG,RMRG_batteries_1,Battery,2040,base_short_200_retire,all,MWh,145259
+TEMOA,RMRG,RMRG_battery_moderate_0_2hour,Battery,2040,base_short_200_retire,all,MWh,456916
+TEMOA,RMRG,RMRG_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,278116
+TEMOA,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,1.63704e+06
+TEMOA,RMRG,RMRG_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,3.35144e+06
+TEMOA,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2040,base_short_200_retire,all,MWh,1.77877e+06
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,4.26397e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,1.3568e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_10,Wind,2040,base_short_200_retire,all,MWh,3.1962e+06
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_11,Wind,2040,base_short_200_retire,all,MWh,5.63585e+06
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_15,Wind,2040,base_short_200_retire,all,MWh,2.91075e+06
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,2.59901e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,2.2844e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_4,Wind,2040,base_short_200_retire,all,MWh,4.10328e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_5,Wind,2040,base_short_200_retire,all,MWh,1.30042e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_6,Wind,2040,base_short_200_retire,all,MWh,1.14042e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_7,Wind,2040,base_short_200_retire,all,MWh,3.09057e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_8,Wind,2040,base_short_200_retire,all,MWh,2.06066e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_9,Wind,2040,base_short_200_retire,all,MWh,1.32099e+06
+TEMOA,RMRG,RMRG_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_200_retire,all,MWh,455031
+TEMOA,RMRG,RMRG_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,2.11317e+07
+TEMOA,RMRG,RMRG_small_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,792729
+TEMOA,RMRG,RMRG_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,4.47909e+06
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,1.50357e+07
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,2.09358e+07
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_2,Solar,2040,base_short_200_retire,all,MWh,1.23547e+07
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_7,Solar,2040,base_short_200_retire,all,MWh,4.29127e+06
+TEMOA,SPPC,SPPC_battery_moderate_0_2hour,Battery,2040,base_short_200_retire,all,MWh,15399.4
+TEMOA,SPPC,SPPC_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,460748
+TEMOA,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,34162.8
+TEMOA,SPPC,SPPC_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,1.90711e+06
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,1.59841e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,2.09015e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_11,Wind,2040,base_short_200_retire,all,MWh,4.26092e+06
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,2.26511e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,1.31932e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_4,Wind,2040,base_short_200_retire,all,MWh,1.25668e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_5,Wind,2040,base_short_200_retire,all,MWh,58788.9
+TEMOA,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_200_retire,all,MWh,487613
+TEMOA,SPPC,SPPC_nuclear_1,Nuclear,2040,base_short_200_retire,all,MWh,7.05558e+06
+TEMOA,SPPC,SPPC_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,1.52301e+07
+TEMOA,SPPC,SPPC_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,140506
+TEMOA,SPPC,SPPC_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,1.58023e+07
+TEMOA,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,1.17002e+06
+TEMOA,SPPC,SPPC_utilitypv_class1_moderate_3,Solar,2040,base_short_200_retire,all,MWh,1.01e+07
+TEMOA,SPPN,SPPN_battery_moderate_0_2hour,Battery,2040,base_short_200_retire,all,MWh,1695.46
+TEMOA,SPPN,SPPN_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,4.21955e+06
+TEMOA,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,9.01599e+06
+TEMOA,SPPN,SPPN_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,884160
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,1.90207e+07
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,3.68897e+06
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_14,Wind,2040,base_short_200_retire,all,MWh,1.11585e+07
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,3.31281e+06
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_5,Wind,2040,base_short_200_retire,all,MWh,3.93948e+06
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_8,Wind,2040,base_short_200_retire,all,MWh,9.83709e+06
+TEMOA,SPPN,SPPN_nuclear_1,Nuclear,2040,base_short_200_retire,all,MWh,4.17504e+06
+TEMOA,SPPN,SPPN_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,1.54358e+07
+TEMOA,SPPN,SPPN_small_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,508887
+TEMOA,SPPN,SPPN_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,179049
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,1.93348e+07
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,3.07442e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_2,Solar,2040,base_short_200_retire,all,MWh,7.97037e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_3,Solar,2040,base_short_200_retire,all,MWh,1.7413e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_5,Solar,2040,base_short_200_retire,all,MWh,413024
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_7,Solar,2040,base_short_200_retire,all,MWh,1.7734e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_9,Solar,2040,base_short_200_retire,all,MWh,2.18969e+06
+TEMOA,SPPS,SPPS_batteries_1,Battery,2040,base_short_200_retire,all,MWh,171619
+TEMOA,SPPS,SPPS_biomass_2,Other,2040,base_short_200_retire,all,MWh,107581
+TEMOA,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,1.62866e+06
+TEMOA,SPPS,SPPS_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,5.39364e+06
+TEMOA,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2040,base_short_200_retire,all,MWh,1.33114e+06
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,4.45788e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,2.89961e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_10,Wind,2040,base_short_200_retire,all,MWh,1.47307e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_15,Wind,2040,base_short_200_retire,all,MWh,1.78366e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,3.31868e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,8.36344e+06
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_4,Wind,2040,base_short_200_retire,all,MWh,5.75592e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_5,Wind,2040,base_short_200_retire,all,MWh,1.05205e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_6,Wind,2040,base_short_200_retire,all,MWh,1.78851e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_7,Wind,2040,base_short_200_retire,all,MWh,2.40197e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_8,Wind,2040,base_short_200_retire,all,MWh,2.8111e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_9,Wind,2040,base_short_200_retire,all,MWh,3.65737e+07
+TEMOA,SPPS,SPPS_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_200_retire,all,MWh,8.58638e+06
+TEMOA,SPPS,SPPS_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,4.05718e+07
+TEMOA,SPPS,SPPS_small_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,338554
+TEMOA,SPPS,SPPS_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,628973
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,2.56871e+07
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,8.07817e+06
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_3,Solar,2040,base_short_200_retire,all,MWh,2.13704e+07
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_5,Solar,2040,base_short_200_retire,all,MWh,8.64454e+06
+TEMOA,SRCA,SRCA_batteries_1,Battery,2040,base_short_200_retire,all,MWh,129743
+TEMOA,SRCA,SRCA_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,1.92131e+06
+TEMOA,SRCA,SRCA_battery_moderate_0_6hour,Battery,2040,base_short_200_retire,all,MWh,7.89435e+06
+TEMOA,SRCA,SRCA_biomass_1,Other,2040,base_short_200_retire,all,MWh,655474
+TEMOA,SRCA,SRCA_biomass_2,Other,2040,base_short_200_retire,all,MWh,311422
+TEMOA,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,1.7142e+06
+TEMOA,SRCA,SRCA_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,1.19849e+07
+TEMOA,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2040,base_short_200_retire,all,MWh,8.07022e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,1.6277e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,4.12922e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_10,Wind,2040,base_short_200_retire,all,MWh,2.31657e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_11,Wind,2040,base_short_200_retire,all,MWh,1.35495e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,1.39825e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,4.64431e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_4,Wind,2040,base_short_200_retire,all,MWh,1.13008e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_5,Wind,2040,base_short_200_retire,all,MWh,524096
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_6,Wind,2040,base_short_200_retire,all,MWh,2.07788e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_7,Wind,2040,base_short_200_retire,all,MWh,2.21945e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_8,Wind,2040,base_short_200_retire,all,MWh,1.65962e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_9,Wind,2040,base_short_200_retire,all,MWh,1.70671e+06
+TEMOA,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_200_retire,all,MWh,5.62748e+06
+TEMOA,SRCA,SRCA_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_200_retire,all,MWh,251027
+TEMOA,SRCA,SRCA_naturalgas_ccccsavgcf_conservative_0,CCS,2040,base_short_200_retire,all,MWh,3.11857e+07
+TEMOA,SRCA,SRCA_nuclear_1,Nuclear,2040,base_short_200_retire,all,MWh,9.04696e+07
+TEMOA,SRCA,SRCA_small_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,310082
+TEMOA,SRCA,SRCA_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,1.36331e+07
+TEMOA,SRCA,SRCA_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,2.37381e+07
+TEMOA,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,4.34698e+07
+TEMOA,SRCA,SRCA_utilitypv_class1_moderate_3,Solar,2040,base_short_200_retire,all,MWh,2.85917e+07
+TEMOA,SRCE,SRCE_batteries_1,Battery,2040,base_short_200_retire,all,MWh,100527
+TEMOA,SRCE,SRCE_battery_moderate_0_2hour,Battery,2040,base_short_200_retire,all,MWh,974.128
+TEMOA,SRCE,SRCE_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,8.04256e+06
+TEMOA,SRCE,SRCE_battery_moderate_0_6hour,Battery,2040,base_short_200_retire,all,MWh,424.592
+TEMOA,SRCE,SRCE_biomass_1,Other,2040,base_short_200_retire,all,MWh,140767
+TEMOA,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,1.24704e+07
+TEMOA,SRCE,SRCE_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,4.28893e+06
+TEMOA,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2040,base_short_200_retire,all,MWh,4.61637e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,2.33624e+07
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,6.93056e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_14,Wind,2040,base_short_200_retire,all,MWh,1.17562e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,1.32513e+07
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,1.35093e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_4,Wind,2040,base_short_200_retire,all,MWh,1.39743e+07
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_5,Wind,2040,base_short_200_retire,all,MWh,7.75906e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_6,Wind,2040,base_short_200_retire,all,MWh,1.95563e+07
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_7,Wind,2040,base_short_200_retire,all,MWh,1.46237e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_8,Wind,2040,base_short_200_retire,all,MWh,2.40243e+06
+TEMOA,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_200_retire,all,MWh,7.95615e+06
+TEMOA,SRCE,SRCE_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_200_retire,all,MWh,710469
+TEMOA,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_200_retire,all,MWh,348749
+TEMOA,SRCE,SRCE_naturalgas_ccccsavgcf_conservative_0,CCS,2040,base_short_200_retire,all,MWh,1.60199e+07
+TEMOA,SRCE,SRCE_nuclear_1,Nuclear,2040,base_short_200_retire,all,MWh,6.00641e+07
+TEMOA,SRCE,SRCE_small_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,394324
+TEMOA,SRCE,SRCE_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,3.44253e+06
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,2.85692e+07
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,3.6622e+07
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_2,Solar,2040,base_short_200_retire,all,MWh,2.5061e+07
+TEMOA,SRSE,SRSE_batteries_1,Battery,2040,base_short_200_retire,all,MWh,128605
+TEMOA,SRSE,SRSE_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,1.07087e+07
+TEMOA,SRSE,SRSE_battery_moderate_0_6hour,Battery,2040,base_short_200_retire,all,MWh,1.13446e+07
+TEMOA,SRSE,SRSE_biomass_1,Other,2040,base_short_200_retire,all,MWh,1.14763e+06
+TEMOA,SRSE,SRSE_biomass_2,Other,2040,base_short_200_retire,all,MWh,343703
+TEMOA,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,4.99633e+06
+TEMOA,SRSE,SRSE_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,3.9019e+06
+TEMOA,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2040,base_short_200_retire,all,MWh,5.33317e+06
+TEMOA,SRSE,SRSE_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,3.75198e+06
+TEMOA,SRSE,SRSE_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,2.08155e+06
+TEMOA,SRSE,SRSE_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,3.82092e+06
+TEMOA,SRSE,SRSE_landbasedwind_class3_moderate_6,Wind,2040,base_short_200_retire,all,MWh,3.22697e+06
+TEMOA,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_200_retire,all,MWh,1.47382e+07
+TEMOA,SRSE,SRSE_naturalgas_ccccsavgcf_conservative_0,CCS,2040,base_short_200_retire,all,MWh,3.09579e+07
+TEMOA,SRSE,SRSE_nuclear_1,Nuclear,2040,base_short_200_retire,all,MWh,6.32149e+07
+TEMOA,SRSE,SRSE_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,1.27981e+07
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,3.98531e+07
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,1.97904e+07
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_2,Solar,2040,base_short_200_retire,all,MWh,3.88061e+07
+TEMOA,SRSG,SRSG_batteries_1,Battery,2040,base_short_200_retire,all,MWh,1.55178e+06
+TEMOA,SRSG,SRSG_battery_moderate_0_2hour,Battery,2040,base_short_200_retire,all,MWh,76.3119
+TEMOA,SRSG,SRSG_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,7.28898e+06
+TEMOA,SRSG,SRSG_battery_moderate_0_6hour,Battery,2040,base_short_200_retire,all,MWh,3.71763e+06
+TEMOA,SRSG,SRSG_biomass_2,Other,2040,base_short_200_retire,all,MWh,195283
+TEMOA,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,6.22097e+06
+TEMOA,SRSG,SRSG_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,6.67241e+06
+TEMOA,SRSG,SRSG_geothermal_1,Geothermal,2040,base_short_200_retire,all,MWh,696383
+TEMOA,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2040,base_short_200_retire,all,MWh,665539
+TEMOA,SRSG,SRSG_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,1.38154e+07
+TEMOA,SRSG,SRSG_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,3.11066e+06
+TEMOA,SRSG,SRSG_landbasedwind_class3_moderate_6,Wind,2040,base_short_200_retire,all,MWh,2.85199e+06
+TEMOA,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_200_retire,all,MWh,2.32468e+06
+TEMOA,SRSG,SRSG_nuclear_1,Nuclear,2040,base_short_200_retire,all,MWh,2.24367e+07
+TEMOA,SRSG,SRSG_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,8.08061e+06
+TEMOA,SRSG,SRSG_small_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,437428
+TEMOA,SRSG,SRSG_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,1.50753e+07
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,3.17107e+07
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,3.04476e+07
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_5,Solar,2040,base_short_200_retire,all,MWh,1.02304e+06
+TEMOA,TRE_WEST,TRE_batteries_1,Battery,2040,base_short_200_retire,all,MWh,1.26641e+06
+TEMOA,TRE_WEST,TRE_battery_moderate_0_2hour,Battery,2040,base_short_200_retire,all,MWh,303.002
+TEMOA,TRE_WEST,TRE_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,214.49
+TEMOA,TRE_WEST,TRE_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,807529
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,1.74703e+07
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,8.85661e+06
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_11,Wind,2040,base_short_200_retire,all,MWh,1.52681e+07
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_16,Wind,2040,base_short_200_retire,all,MWh,987769
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,2.63693e+07
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_20,Wind,2040,base_short_200_retire,all,MWh,1.4157e+07
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,9.37371e+06
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_4,Wind,2040,base_short_200_retire,all,MWh,2.68352e+07
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_6,Wind,2040,base_short_200_retire,all,MWh,1.4514e+07
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_9,Wind,2040,base_short_200_retire,all,MWh,1.74841e+07
+TEMOA,TRE_WEST,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_200_retire,all,MWh,4.36883e+06
+TEMOA,TRE_WEST,TRE_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_200_retire,all,MWh,11791.9
+TEMOA,TRE_WEST,TRE_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,4.26442e+07
+TEMOA,TRE_WEST,TRE_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,1.91083e+07
+TEMOA,TRE_WEST,TRE_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,6.62476e+06
+TEMOA,TRE_WEST,TRE_utilitypv_class1_moderate_9,Solar,2040,base_short_200_retire,all,MWh,660128
+TEMOA,TRE,TRE_batteries_1,Battery,2040,base_short_200_retire,all,MWh,1.70535e+06
+TEMOA,TRE,TRE_battery_moderate_0_2hour,Battery,2040,base_short_200_retire,all,MWh,498.313
+TEMOA,TRE,TRE_battery_moderate_0_4hour,Battery,2040,base_short_200_retire,all,MWh,1.36664e+07
+TEMOA,TRE,TRE_biomass_2,Other,2040,base_short_200_retire,all,MWh,223961
+TEMOA,TRE,TRE_conventional_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,167415
+TEMOA,TRE,TRE_distributed_generation_1,Distributed Solar,2040,base_short_200_retire,all,MWh,1.62672e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_0,Wind,2040,base_short_200_retire,all,MWh,7.92081e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2040,base_short_200_retire,all,MWh,5.56341e+06
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_10,Wind,2040,base_short_200_retire,all,MWh,2.63773e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_11,Wind,2040,base_short_200_retire,all,MWh,3.18218e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_12,Wind,2040,base_short_200_retire,all,MWh,4.40778e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_14,Wind,2040,base_short_200_retire,all,MWh,7.86418e+06
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_17,Wind,2040,base_short_200_retire,all,MWh,2.57685e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_19,Wind,2040,base_short_200_retire,all,MWh,3.37973e+06
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_2,Wind,2040,base_short_200_retire,all,MWh,2.5252e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_3,Wind,2040,base_short_200_retire,all,MWh,1.86104e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_5,Wind,2040,base_short_200_retire,all,MWh,2.03068e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_6,Wind,2040,base_short_200_retire,all,MWh,2.54936e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_7,Wind,2040,base_short_200_retire,all,MWh,6.55665e+06
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_8,Wind,2040,base_short_200_retire,all,MWh,1.48616e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_9,Wind,2040,base_short_200_retire,all,MWh,1.71622e+07
+TEMOA,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_200_retire,all,MWh,8.44051e+06
+TEMOA,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_200_retire,all,MWh,391706
+TEMOA,TRE,TRE_nuclear_1,Nuclear,2040,base_short_200_retire,all,MWh,2.61505e+07
+TEMOA,TRE,TRE_onshore_wind_turbine_1,Wind,2040,base_short_200_retire,all,MWh,2.21613e+07
+TEMOA,TRE,TRE_small_hydroelectric_1,Hydro,2040,base_short_200_retire,all,MWh,135520
+TEMOA,TRE,TRE_solar_photovoltaic_1,Solar,2040,base_short_200_retire,all,MWh,2.2319e+07
+TEMOA,TRE,TRE_utilitypv_class1_moderate_0,Solar,2040,base_short_200_retire,all,MWh,1.80251e+07
+TEMOA,TRE,TRE_utilitypv_class1_moderate_1,Solar,2040,base_short_200_retire,all,MWh,2.4101e+07
+TEMOA,TRE,TRE_utilitypv_class1_moderate_2,Solar,2040,base_short_200_retire,all,MWh,4.1484e+06
+TEMOA,BASN,BASN_batteries_1,Battery,2050,base_short_200_retire,all,MWh,697295
+TEMOA,BASN,BASN_battery_moderate_0_2hour,Battery,2050,base_short_200_retire,all,MWh,847.544
+TEMOA,BASN,BASN_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,2.04757e+07
+TEMOA,BASN,BASN_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,5.89436e+06
+TEMOA,BASN,BASN_biomass_1,Other,2050,base_short_200_retire,all,MWh,147724
+TEMOA,BASN,BASN_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,4.80372e+06
+TEMOA,BASN,BASN_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,4.01659e+06
+TEMOA,BASN,BASN_geothermal_1,Geothermal,2050,base_short_200_retire,all,MWh,540075
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,9.8712e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,3.02761e+07
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_13,Wind,2050,base_short_200_retire,all,MWh,4.90392e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_19,Wind,2050,base_short_200_retire,all,MWh,4.30322e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,1.28874e+07
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_23,Wind,2050,base_short_200_retire,all,MWh,2.69939e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,4.33284e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_4,Wind,2050,base_short_200_retire,all,MWh,1.54473e+07
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,1.09953e+07
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_6,Wind,2050,base_short_200_retire,all,MWh,1.07593e+07
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_7,Wind,2050,base_short_200_retire,all,MWh,3.96846e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_9,Wind,2050,base_short_200_retire,all,MWh,2.43386e+06
+TEMOA,BASN,BASN_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_200_retire,all,MWh,2.68686e+06
+TEMOA,BASN,BASN_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,986137
+TEMOA,BASN,BASN_small_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,1.31689e+06
+TEMOA,BASN,BASN_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,8.54573e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,4.15911e+07
+TEMOA,BASN,BASN_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,9.07158e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,1.5912e+07
+TEMOA,BASN,BASN_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,3.16688e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_4,Solar,2050,base_short_200_retire,all,MWh,4.22403e+07
+TEMOA,BASN,BASN_utilitypv_class1_moderate_5,Solar,2050,base_short_200_retire,all,MWh,8.31071e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_7,Solar,2050,base_short_200_retire,all,MWh,1.12236e+07
+TEMOA,CANO,CANO_batteries_1,Battery,2050,base_short_200_retire,all,MWh,3.78954e+06
+TEMOA,CANO,CANO_battery_moderate_0_2hour,Battery,2050,base_short_200_retire,all,MWh,20.9461
+TEMOA,CANO,CANO_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,980111
+TEMOA,CANO,CANO_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,1.60834e+07
+TEMOA,CANO,CANO_biomass_1,Other,2050,base_short_200_retire,all,MWh,632446
+TEMOA,CANO,CANO_biomass_2,Other,2050,base_short_200_retire,all,MWh,1.11126e+06
+TEMOA,CANO,CANO_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,1.54006e+07
+TEMOA,CANO,CANO_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,1.38128e+07
+TEMOA,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2050,base_short_200_retire,all,MWh,7.42664e+06
+TEMOA,CANO,CANO_landbasedwind_class3_moderate_15,Wind,2050,base_short_200_retire,all,MWh,2.06985e+06
+TEMOA,CANO,CANO_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,1.93286e+06
+TEMOA,CANO,CANO_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,467769
+TEMOA,CANO,CANO_landbasedwind_class3_moderate_7,Wind,2050,base_short_200_retire,all,MWh,1.15073e+06
+TEMOA,CANO,CANO_landbasedwind_class3_moderate_9,Wind,2050,base_short_200_retire,all,MWh,3.05206e+06
+TEMOA,CANO,CANO_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_200_retire,all,MWh,5.77503e+06
+TEMOA,CANO,CANO_naturalgas_ccccsavgcf_conservative_0,CCS,2050,base_short_200_retire,all,MWh,1.93914e+07
+TEMOA,CANO,CANO_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,131201
+TEMOA,CANO,CANO_small_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,1.74363e+06
+TEMOA,CANO,CANO_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,5.4657e+06
+TEMOA,CANO,CANO_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,3.87147e+07
+TEMOA,CANO,CANO_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,1.30413e+07
+TEMOA,CANO,CANO_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,2.64188e+07
+TEMOA,CANO,CANO_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,2.51795e+07
+TEMOA,CANO,CANO_utilitypv_class1_moderate_4,Solar,2050,base_short_200_retire,all,MWh,6.44962e+06
+TEMOA,CANO,CANO_utilitypv_class1_moderate_5,Solar,2050,base_short_200_retire,all,MWh,8.73703e+06
+TEMOA,CASO,CASO_batteries_1,Battery,2050,base_short_200_retire,all,MWh,100593
+TEMOA,CASO,CASO_battery_moderate_0_2hour,Battery,2050,base_short_200_retire,all,MWh,1180.42
+TEMOA,CASO,CASO_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,1.79169e+07
+TEMOA,CASO,CASO_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,1.00261e+07
+TEMOA,CASO,CASO_biomass_1,Other,2050,base_short_200_retire,all,MWh,552455
+TEMOA,CASO,CASO_biomass_2,Other,2050,base_short_200_retire,all,MWh,115310
+TEMOA,CASO,CASO_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,2.30075e+06
+TEMOA,CASO,CASO_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,2.23152e+07
+TEMOA,CASO,CASO_geothermal_1,Geothermal,2050,base_short_200_retire,all,MWh,194406
+TEMOA,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2050,base_short_200_retire,all,MWh,4.53089e+06
+TEMOA,CASO,CASO_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,1.70359e+06
+TEMOA,CASO,CASO_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,575595
+TEMOA,CASO,CASO_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,103541
+TEMOA,CASO,CASO_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,487467
+TEMOA,CASO,CASO_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,794155
+TEMOA,CASO,CASO_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_200_retire,all,MWh,2.57047e+06
+TEMOA,CASO,CASO_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_200_retire,all,MWh,728853
+TEMOA,CASO,CASO_naturalgas_ccccsavgcf_conservative_0,CCS,2050,base_short_200_retire,all,MWh,1.45408e+07
+TEMOA,CASO,CASO_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,1.41399e+06
+TEMOA,CASO,CASO_small_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,561009
+TEMOA,CASO,CASO_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,1.47742e+07
+TEMOA,CASO,CASO_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,2.51118e+07
+TEMOA,CASO,CASO_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,2.77785e+07
+TEMOA,CASO,CASO_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,1.9236e+07
+TEMOA,CASO,CASO_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,3.3906e+07
+TEMOA,FRCC,FRCC_batteries_1,Battery,2050,base_short_200_retire,all,MWh,396915
+TEMOA,FRCC,FRCC_battery_moderate_0_2hour,Battery,2050,base_short_200_retire,all,MWh,887.104
+TEMOA,FRCC,FRCC_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,2.53003e+07
+TEMOA,FRCC,FRCC_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,1.67523e+07
+TEMOA,FRCC,FRCC_battery_moderate_0_8hour,Battery,2050,base_short_200_retire,all,MWh,348.955
+TEMOA,FRCC,FRCC_biomass_1,Other,2050,base_short_200_retire,all,MWh,461738
+TEMOA,FRCC,FRCC_biomass_2,Other,2050,base_short_200_retire,all,MWh,673999
+TEMOA,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,107747
+TEMOA,FRCC,FRCC_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,1.34507e+07
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,6.16488e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,1.57275e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,1.9523e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,4.71935e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_4,Wind,2050,base_short_200_retire,all,MWh,3.14849e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,1.83593e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_6,Wind,2050,base_short_200_retire,all,MWh,5.70952e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_7,Wind,2050,base_short_200_retire,all,MWh,3.32597e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_8,Wind,2050,base_short_200_retire,all,MWh,747703
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_9,Wind,2050,base_short_200_retire,all,MWh,6.39393e+06
+TEMOA,FRCC,FRCC_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_200_retire,all,MWh,1.15786e+07
+TEMOA,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_200_retire,all,MWh,135665
+TEMOA,FRCC,FRCC_naturalgas_ccccsavgcf_conservative_0,CCS,2050,base_short_200_retire,all,MWh,6.11455e+07
+TEMOA,FRCC,FRCC_nuclear_1,Nuclear,2050,base_short_200_retire,all,MWh,2.75089e+07
+TEMOA,FRCC,FRCC_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,9.90093e+06
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,5.44197e+07
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,3.0863e+07
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,6.40549e+07
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,2.1777e+07
+TEMOA,ISNE,ISNE_batteries_1,Battery,2050,base_short_200_retire,all,MWh,214557
+TEMOA,ISNE,ISNE_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,2.26974e+07
+TEMOA,ISNE,ISNE_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,69.9114
+TEMOA,ISNE,ISNE_biomass_1,Other,2050,base_short_200_retire,all,MWh,662356
+TEMOA,ISNE,ISNE_biomass_2,Other,2050,base_short_200_retire,all,MWh,440411
+TEMOA,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,1.5775e+06
+TEMOA,ISNE,ISNE_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,9.82971e+06
+TEMOA,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2050,base_short_200_retire,all,MWh,4.25123e+06
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,1.01822e+07
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,2.27466e+06
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_11,Wind,2050,base_short_200_retire,all,MWh,342883
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_14,Wind,2050,base_short_200_retire,all,MWh,244239
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,1.84289e+07
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,5.40862e+06
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_4,Wind,2050,base_short_200_retire,all,MWh,1.31853e+07
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,5.35242e+06
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_6,Wind,2050,base_short_200_retire,all,MWh,414318
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_7,Wind,2050,base_short_200_retire,all,MWh,1.2354e+07
+TEMOA,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_200_retire,all,MWh,840390
+TEMOA,ISNE,ISNE_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_200_retire,all,MWh,5.91057e+06
+TEMOA,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_200_retire,all,MWh,44212.7
+TEMOA,ISNE,ISNE_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_200_retire,all,MWh,237494
+TEMOA,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_short_200_retire,all,MWh,10506.6
+TEMOA,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_200_retire,all,MWh,3.51765e+07
+TEMOA,ISNE,ISNE_nuclear_1,Nuclear,2050,base_short_200_retire,all,MWh,2.40648e+07
+TEMOA,ISNE,ISNE_offshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,247769
+TEMOA,ISNE,ISNE_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,1.62756e+06
+TEMOA,ISNE,ISNE_petroleum_liquids_1,Other,2050,base_short_200_retire,all,MWh,17705.7
+TEMOA,ISNE,ISNE_small_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,1.74842e+06
+TEMOA,ISNE,ISNE_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,1.77665e+06
+TEMOA,ISNE,ISNE_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,1.2066e+07
+TEMOA,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,1.81736e+07
+TEMOA,ISNE,ISNE_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,2.61622e+07
+TEMOA,ISNE,ISNE_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,4.94099e+06
+TEMOA,MISC,MISC_batteries_1,Battery,2050,base_short_200_retire,all,MWh,20510.6
+TEMOA,MISC,MISC_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,1.30056e+07
+TEMOA,MISC,MISC_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,5.42127e+06
+TEMOA,MISC,MISC_biomass_1,Other,2050,base_short_200_retire,all,MWh,526963
+TEMOA,MISC,MISC_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,776927
+TEMOA,MISC,MISC_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,7.48668e+06
+TEMOA,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2050,base_short_200_retire,all,MWh,1.34487e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,9.04006e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,1.12174e+07
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_10,Wind,2050,base_short_200_retire,all,MWh,3.26712e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_11,Wind,2050,base_short_200_retire,all,MWh,7.20724e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_12,Wind,2050,base_short_200_retire,all,MWh,5.21845e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_15,Wind,2050,base_short_200_retire,all,MWh,5.23872e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,4.48586e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,1.50315e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_4,Wind,2050,base_short_200_retire,all,MWh,6.94366e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,7.9796e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_6,Wind,2050,base_short_200_retire,all,MWh,7.52048e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_7,Wind,2050,base_short_200_retire,all,MWh,3.24609e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_8,Wind,2050,base_short_200_retire,all,MWh,4.45087e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_9,Wind,2050,base_short_200_retire,all,MWh,8.10708e+06
+TEMOA,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_200_retire,all,MWh,330125
+TEMOA,MISC,MISC_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_200_retire,all,MWh,3.1433e+06
+TEMOA,MISC,MISC_naturalgas_ccccsavgcf_conservative_0,CCS,2050,base_short_200_retire,all,MWh,7.73849e+07
+TEMOA,MISC,MISC_nuclear_1,Nuclear,2050,base_short_200_retire,all,MWh,1.43719e+07
+TEMOA,MISC,MISC_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,2.5562e+06
+TEMOA,MISC,MISC_small_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,109675
+TEMOA,MISC,MISC_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,6.13112e+06
+TEMOA,MISC,MISC_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,6.49711e+07
+TEMOA,MISC,MISC_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,5.70509e+06
+TEMOA,MISC,MISC_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,3.34336e+06
+TEMOA,MISE,MISE_battery_moderate_0_2hour,Battery,2050,base_short_200_retire,all,MWh,328764
+TEMOA,MISE,MISE_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,6.15987e+06
+TEMOA,MISE,MISE_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,3.86361e+06
+TEMOA,MISE,MISE_biomass_1,Other,2050,base_short_200_retire,all,MWh,433018
+TEMOA,MISE,MISE_biomass_2,Other,2050,base_short_200_retire,all,MWh,415207
+TEMOA,MISE,MISE_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,123155
+TEMOA,MISE,MISE_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,5.88368e+06
+TEMOA,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2050,base_short_200_retire,all,MWh,5.85538e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,2.56604e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,1.63731e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_10,Wind,2050,base_short_200_retire,all,MWh,1.73385e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,743053
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,1.83798e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_4,Wind,2050,base_short_200_retire,all,MWh,2.4781e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,444474
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_6,Wind,2050,base_short_200_retire,all,MWh,2.43858e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_7,Wind,2050,base_short_200_retire,all,MWh,1.82139e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_8,Wind,2050,base_short_200_retire,all,MWh,931462
+TEMOA,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_200_retire,all,MWh,1.76499e+06
+TEMOA,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_200_retire,all,MWh,216356
+TEMOA,MISE,MISE_naturalgas_ccccsavgcf_conservative_0,CCS,2050,base_short_200_retire,all,MWh,2.42778e+07
+TEMOA,MISE,MISE_nuclear_1,Nuclear,2050,base_short_200_retire,all,MWh,7.84135e+06
+TEMOA,MISE,MISE_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,1.76357e+06
+TEMOA,MISE,MISE_small_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,108856
+TEMOA,MISE,MISE_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,1.63106e+06
+TEMOA,MISE,MISE_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,2.15123e+07
+TEMOA,MISE,MISE_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,2.47536e+07
+TEMOA,MISE,MISE_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,2.24837e+07
+TEMOA,MISS,MISS_batteries_1,Battery,2050,base_short_200_retire,all,MWh,8953.4
+TEMOA,MISS,MISS_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,1.05192e+07
+TEMOA,MISS,MISS_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,21191.2
+TEMOA,MISS,MISS_biomass_2,Other,2050,base_short_200_retire,all,MWh,621995
+TEMOA,MISS,MISS_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,888306
+TEMOA,MISS,MISS_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,9.03385e+06
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,4.7208e+06
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,566065
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_10,Wind,2050,base_short_200_retire,all,MWh,271071
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,4.7389e+06
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,977597
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,2.85734e+06
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_6,Wind,2050,base_short_200_retire,all,MWh,1386.46
+TEMOA,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_200_retire,all,MWh,1.34028e+07
+TEMOA,MISS,MISS_nuclear_1,Nuclear,2050,base_short_200_retire,all,MWh,3.11513e+07
+TEMOA,MISS,MISS_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,1.55433e+06
+TEMOA,MISS,MISS_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,3.05975e+06
+TEMOA,MISS,MISS_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,5.09085e+06
+TEMOA,MISS,MISS_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,1.76838e+07
+TEMOA,MISW,MISW_batteries_1,Battery,2050,base_short_200_retire,all,MWh,20037.8
+TEMOA,MISW,MISW_battery_moderate_0_2hour,Battery,2050,base_short_200_retire,all,MWh,1.29951e+06
+TEMOA,MISW,MISW_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,2.5601e+07
+TEMOA,MISW,MISW_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,4.88423e+06
+TEMOA,MISW,MISW_biomass_1,Other,2050,base_short_200_retire,all,MWh,505575
+TEMOA,MISW,MISW_biomass_2,Other,2050,base_short_200_retire,all,MWh,106806
+TEMOA,MISW,MISW_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,173632
+TEMOA,MISW,MISW_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,8.03569e+06
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,6.02468e+07
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,2.70856e+07
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,3.2511e+07
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,4.04652e+06
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_7,Wind,2050,base_short_200_retire,all,MWh,1.64266e+07
+TEMOA,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_200_retire,all,MWh,310932
+TEMOA,MISW,MISW_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_200_retire,all,MWh,1.03197e+07
+TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_200_retire,all,MWh,31568.5
+TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_200_retire,all,MWh,303458
+TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,base_short_200_retire,all,MWh,1451.47
+TEMOA,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_short_200_retire,all,MWh,154349
+TEMOA,MISW,MISW_naturalgas_ccccsavgcf_conservative_0,CCS,2050,base_short_200_retire,all,MWh,5.4889e+07
+TEMOA,MISW,MISW_nuclear_1,Nuclear,2050,base_short_200_retire,all,MWh,1.43038e+07
+TEMOA,MISW,MISW_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,7.28442e+06
+TEMOA,MISW,MISW_small_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,1.19255e+06
+TEMOA,MISW,MISW_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,3.15844e+06
+TEMOA,MISW,MISW_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,4.62549e+07
+TEMOA,MISW,MISW_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,1.24322e+07
+TEMOA,MISW,MISW_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,3.6652e+07
+TEMOA,MISW,MISW_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,2.02234e+07
+TEMOA,MISW,MISW_utilitypv_class1_moderate_4,Solar,2050,base_short_200_retire,all,MWh,2.80794e+07
+TEMOA,NWPP,NWPP_batteries_1,Battery,2050,base_short_200_retire,all,MWh,108745
+TEMOA,NWPP,NWPP_battery_moderate_0_2hour,Battery,2050,base_short_200_retire,all,MWh,1.17167e+06
+TEMOA,NWPP,NWPP_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,2.19674e+07
+TEMOA,NWPP,NWPP_biomass_2,Other,2050,base_short_200_retire,all,MWh,544501
+TEMOA,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,1.16967e+08
+TEMOA,NWPP,NWPP_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,5.83766e+06
+TEMOA,NWPP,NWPP_geothermal_1,Geothermal,2050,base_short_200_retire,all,MWh,166449
+TEMOA,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2050,base_short_200_retire,all,MWh,872950
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,9.37055e+06
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,2.11617e+07
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_10,Wind,2050,base_short_200_retire,all,MWh,1.74791e+06
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_14,Wind,2050,base_short_200_retire,all,MWh,1.56831e+06
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_18,Wind,2050,base_short_200_retire,all,MWh,1.94238e+06
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,1.96734e+07
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_22,Wind,2050,base_short_200_retire,all,MWh,1.80389e+06
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,1.40604e+07
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,8.29997e+06
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_6,Wind,2050,base_short_200_retire,all,MWh,2.39817e+06
+TEMOA,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_200_retire,all,MWh,602410
+TEMOA,NWPP,NWPP_naturalgas_ccccsavgcf_conservative_0,CCS,2050,base_short_200_retire,all,MWh,1.63346e+07
+TEMOA,NWPP,NWPP_nuclear_1,Nuclear,2050,base_short_200_retire,all,MWh,6.73742e+06
+TEMOA,NWPP,NWPP_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,1.62492e+06
+TEMOA,NWPP,NWPP_small_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,3.10836e+06
+TEMOA,NWPP,NWPP_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,1.88725e+06
+TEMOA,NWPP,NWPP_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,2.5054e+07
+TEMOA,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,2.25921e+07
+TEMOA,NWPP,NWPP_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,1.53271e+07
+TEMOA,NWPP,NWPP_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,2.73651e+07
+TEMOA,NWPP,NWPP_utilitypv_class1_moderate_4,Solar,2050,base_short_200_retire,all,MWh,2.44207e+07
+TEMOA,NYCW,NYCW_batteries_1,Battery,2050,base_short_200_retire,all,MWh,34683.6
+TEMOA,NYCW,NYCW_battery_moderate_0_2hour,Battery,2050,base_short_200_retire,all,MWh,171445
+TEMOA,NYCW,NYCW_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,5.05433e+06
+TEMOA,NYCW,NYCW_biomass_2,Other,2050,base_short_200_retire,all,MWh,87682.6
+TEMOA,NYCW,NYCW_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,4.29591e+06
+TEMOA,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_200_retire,all,MWh,951617
+TEMOA,NYCW,NYCW_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_200_retire,all,MWh,1.17267e+06
+TEMOA,NYCW,NYCW_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_200_retire,all,MWh,192398
+TEMOA,NYCW,NYCW_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,base_short_200_retire,all,MWh,238555
+TEMOA,NYCW,NYCW_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,251553
+TEMOA,NYUP,NYUP_batteries_1,Battery,2050,base_short_200_retire,all,MWh,138394
+TEMOA,NYUP,NYUP_battery_moderate_0_2hour,Battery,2050,base_short_200_retire,all,MWh,96210.6
+TEMOA,NYUP,NYUP_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,8.46316e+06
+TEMOA,NYUP,NYUP_biomass_1,Other,2050,base_short_200_retire,all,MWh,420646
+TEMOA,NYUP,NYUP_biomass_2,Other,2050,base_short_200_retire,all,MWh,263558
+TEMOA,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,1.47782e+07
+TEMOA,NYUP,NYUP_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,3.03156e+06
+TEMOA,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2050,base_short_200_retire,all,MWh,3.87926e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,7.18714e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,2.56341e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_10,Wind,2050,base_short_200_retire,all,MWh,3.3658e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_12,Wind,2050,base_short_200_retire,all,MWh,4.12605e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_14,Wind,2050,base_short_200_retire,all,MWh,5.26999e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,2.59179e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_4,Wind,2050,base_short_200_retire,all,MWh,6.0083e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_6,Wind,2050,base_short_200_retire,all,MWh,2.43241e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_7,Wind,2050,base_short_200_retire,all,MWh,1.97271e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_8,Wind,2050,base_short_200_retire,all,MWh,5.06911e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_9,Wind,2050,base_short_200_retire,all,MWh,3.06581e+06
+TEMOA,NYUP,NYUP_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_200_retire,all,MWh,7.30485e+06
+TEMOA,NYUP,NYUP_nuclear_1,Nuclear,2050,base_short_200_retire,all,MWh,1.51702e+07
+TEMOA,NYUP,NYUP_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,2.25683e+06
+TEMOA,NYUP,NYUP_small_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,1.98416e+06
+TEMOA,NYUP,NYUP_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,1.79303e+06
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,1.35808e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,1.38767e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,2.58087e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,1.31443e+06
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_4,Solar,2050,base_short_200_retire,all,MWh,2.14195e+07
+TEMOA,PJMC,PJMC_batteries_1,Battery,2050,base_short_200_retire,all,MWh,20640.6
+TEMOA,PJMC,PJMC_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,4.63144e+06
+TEMOA,PJMC,PJMC_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,4.13206e+06
+TEMOA,PJMC,PJMC_biomass_2,Other,2050,base_short_200_retire,all,MWh,151599
+TEMOA,PJMC,PJMC_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,3.21536e+06
+TEMOA,PJMC,PJMC_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,3.81703e+06
+TEMOA,PJMC,PJMC_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,3.24213e+06
+TEMOA,PJMC,PJMC_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,2.74671e+06
+TEMOA,PJMC,PJMC_landbasedwind_class3_moderate_9,Wind,2050,base_short_200_retire,all,MWh,1.6978e+06
+TEMOA,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_200_retire,all,MWh,9.93143e+06
+TEMOA,PJMC,PJMC_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_200_retire,all,MWh,552263
+TEMOA,PJMC,PJMC_nuclear_1,Nuclear,2050,base_short_200_retire,all,MWh,6.78844e+07
+TEMOA,PJMC,PJMC_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,748597
+TEMOA,PJMC,PJMC_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,403467
+TEMOA,PJMC,PJMC_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,2.22834e+07
+TEMOA,PJMC,PJMC_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,943302
+TEMOA,PJMC,PJMC_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,1.84707e+07
+TEMOA,PJMC,PJMC_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,4.67137e+06
+TEMOA,PJMD,PJMD_batteries_1,Battery,2050,base_short_200_retire,all,MWh,25763.6
+TEMOA,PJMD,PJMD_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,1.51304e+07
+TEMOA,PJMD,PJMD_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,9.28156e+06
+TEMOA,PJMD,PJMD_biomass_1,Other,2050,base_short_200_retire,all,MWh,363493
+TEMOA,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,588126
+TEMOA,PJMD,PJMD_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,6.60622e+06
+TEMOA,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2050,base_short_200_retire,all,MWh,8.94935e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,2.56633e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,1.76355e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_10,Wind,2050,base_short_200_retire,all,MWh,2.06988e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_11,Wind,2050,base_short_200_retire,all,MWh,1.84145e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_12,Wind,2050,base_short_200_retire,all,MWh,840422
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_13,Wind,2050,base_short_200_retire,all,MWh,2.88664e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_15,Wind,2050,base_short_200_retire,all,MWh,1.3311e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_17,Wind,2050,base_short_200_retire,all,MWh,655291
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_19,Wind,2050,base_short_200_retire,all,MWh,1.74658e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,2.20836e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,130051
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_4,Wind,2050,base_short_200_retire,all,MWh,344764
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,2.12926e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_6,Wind,2050,base_short_200_retire,all,MWh,2.40535e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_7,Wind,2050,base_short_200_retire,all,MWh,1.01531e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_8,Wind,2050,base_short_200_retire,all,MWh,1.35733e+06
+TEMOA,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_200_retire,all,MWh,4.69456e+06
+TEMOA,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_200_retire,all,MWh,56103.7
+TEMOA,PJMD,PJMD_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,base_short_200_retire,all,MWh,261641
+TEMOA,PJMD,PJMD_nuclear_1,Nuclear,2050,base_short_200_retire,all,MWh,2.66438e+07
+TEMOA,PJMD,PJMD_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,1.7762e+06
+TEMOA,PJMD,PJMD_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,4.72534e+06
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,5.64363e+07
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,2.33742e+06
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,2.49276e+07
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,3.35866e+07
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_4,Solar,2050,base_short_200_retire,all,MWh,1.36393e+07
+TEMOA,PJME,PJME_batteries_1,Battery,2050,base_short_200_retire,all,MWh,46653.3
+TEMOA,PJME,PJME_battery_moderate_0_2hour,Battery,2050,base_short_200_retire,all,MWh,6.68801e+06
+TEMOA,PJME,PJME_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,1.44952e+07
+TEMOA,PJME,PJME_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,672.987
+TEMOA,PJME,PJME_biomass_1,Other,2050,base_short_200_retire,all,MWh,576961
+TEMOA,PJME,PJME_biomass_2,Other,2050,base_short_200_retire,all,MWh,931667
+TEMOA,PJME,PJME_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,1.53638e+06
+TEMOA,PJME,PJME_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,1.74175e+07
+TEMOA,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2050,base_short_200_retire,all,MWh,5.59211e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,7.13734e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,1.02076e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,4.00226e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,3.25297e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_4,Wind,2050,base_short_200_retire,all,MWh,2.84225e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,3.07594e+06
+TEMOA,PJME,PJME_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_200_retire,all,MWh,3.2233e+07
+TEMOA,PJME,PJME_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,base_short_200_retire,all,MWh,345209
+TEMOA,PJME,PJME_nuclear_1,Nuclear,2050,base_short_200_retire,all,MWh,9.33994e+07
+TEMOA,PJME,PJME_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,5.01524e+06
+TEMOA,PJME,PJME_small_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,496898
+TEMOA,PJME,PJME_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,1.24575e+06
+TEMOA,PJME,PJME_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,1.44962e+07
+TEMOA,PJME,PJME_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,3.8178e+07
+TEMOA,PJME,PJME_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,3.48288e+07
+TEMOA,PJME,PJME_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,1.80466e+07
+TEMOA,PJMW,PJMW_batteries_1,Battery,2050,base_short_200_retire,all,MWh,22571.7
+TEMOA,PJMW,PJMW_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,551359
+TEMOA,PJMW,PJMW_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,2.22471e+07
+TEMOA,PJMW,PJMW_biomass_1,Other,2050,base_short_200_retire,all,MWh,204953
+TEMOA,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,1.49275e+06
+TEMOA,PJMW,PJMW_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,1.38025e+07
+TEMOA,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2050,base_short_200_retire,all,MWh,694367
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,5.03872e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,4.98983e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_10,Wind,2050,base_short_200_retire,all,MWh,3.11066e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_11,Wind,2050,base_short_200_retire,all,MWh,1.92941e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_12,Wind,2050,base_short_200_retire,all,MWh,2.71605e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_13,Wind,2050,base_short_200_retire,all,MWh,2.8268e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_14,Wind,2050,base_short_200_retire,all,MWh,4.34645e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_15,Wind,2050,base_short_200_retire,all,MWh,1.94409e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_18,Wind,2050,base_short_200_retire,all,MWh,3.88132e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,3.58542e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,2.57089e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_4,Wind,2050,base_short_200_retire,all,MWh,4.26422e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,3.17011e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_6,Wind,2050,base_short_200_retire,all,MWh,4.08474e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_7,Wind,2050,base_short_200_retire,all,MWh,2.78121e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_8,Wind,2050,base_short_200_retire,all,MWh,6.63728e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_9,Wind,2050,base_short_200_retire,all,MWh,1.02315e+06
+TEMOA,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_200_retire,all,MWh,3.31208e+07
+TEMOA,PJMW,PJMW_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_200_retire,all,MWh,365088
+TEMOA,PJMW,PJMW_naturalgas_ccccsavgcf_conservative_0,CCS,2050,base_short_200_retire,all,MWh,2.20276e+08
+TEMOA,PJMW,PJMW_nuclear_1,Nuclear,2050,base_short_200_retire,all,MWh,4.57513e+07
+TEMOA,PJMW,PJMW_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,1.40321e+06
+TEMOA,PJMW,PJMW_small_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,861775
+TEMOA,PJMW,PJMW_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,6.66781e+06
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,8.69288e+07
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,3.01546e+07
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,7.80253e+07
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,2.62313e+07
+TEMOA,RMRG,RMRG_batteries_1,Battery,2050,base_short_200_retire,all,MWh,119451
+TEMOA,RMRG,RMRG_battery_moderate_0_2hour,Battery,2050,base_short_200_retire,all,MWh,475899
+TEMOA,RMRG,RMRG_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,1.29956e+07
+TEMOA,RMRG,RMRG_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,5390.17
+TEMOA,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,1.53265e+06
+TEMOA,RMRG,RMRG_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,4.07742e+06
+TEMOA,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2050,base_short_200_retire,all,MWh,1.76271e+06
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,4.34491e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,1.41691e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_10,Wind,2050,base_short_200_retire,all,MWh,1.53188e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_11,Wind,2050,base_short_200_retire,all,MWh,5.69974e+06
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_14,Wind,2050,base_short_200_retire,all,MWh,939.423
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_15,Wind,2050,base_short_200_retire,all,MWh,3.02044e+06
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,2.62029e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,2.36525e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_4,Wind,2050,base_short_200_retire,all,MWh,4.14914e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,1.34176e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_6,Wind,2050,base_short_200_retire,all,MWh,1.15081e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_7,Wind,2050,base_short_200_retire,all,MWh,3.14322e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_8,Wind,2050,base_short_200_retire,all,MWh,5.25946e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_9,Wind,2050,base_short_200_retire,all,MWh,2.03397e+07
+TEMOA,RMRG,RMRG_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_200_retire,all,MWh,554693
+TEMOA,RMRG,RMRG_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,1.01175e+07
+TEMOA,RMRG,RMRG_small_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,687444
+TEMOA,RMRG,RMRG_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,3.20006e+06
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,1.59723e+07
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,2.22559e+07
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,2.9921e+07
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,17399.3
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_5,Solar,2050,base_short_200_retire,all,MWh,804.991
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_7,Solar,2050,base_short_200_retire,all,MWh,4.55555e+06
+TEMOA,SPPC,SPPC_battery_moderate_0_2hour,Battery,2050,base_short_200_retire,all,MWh,15667.9
+TEMOA,SPPC,SPPC_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,540840
+TEMOA,SPPC,SPPC_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,2.64386e+06
+TEMOA,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,34639.8
+TEMOA,SPPC,SPPC_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,3.38464e+06
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,1.58609e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,2.13887e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_11,Wind,2050,base_short_200_retire,all,MWh,4.22203e+06
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,2.29051e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,1.34734e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_4,Wind,2050,base_short_200_retire,all,MWh,1.24418e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,4.36057e+06
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_7,Wind,2050,base_short_200_retire,all,MWh,65.1856
+TEMOA,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_200_retire,all,MWh,545447
+TEMOA,SPPC,SPPC_nuclear_1,Nuclear,2050,base_short_200_retire,all,MWh,7.10766e+06
+TEMOA,SPPC,SPPC_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,3.39023e+06
+TEMOA,SPPC,SPPC_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,149986
+TEMOA,SPPC,SPPC_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,2.46729e+07
+TEMOA,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,1.28418e+06
+TEMOA,SPPC,SPPC_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,1.06801e+07
+TEMOA,SPPN,SPPN_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,4.37045e+06
+TEMOA,SPPN,SPPN_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,5.09838e+06
+TEMOA,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,8.91465e+06
+TEMOA,SPPN,SPPN_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,1.29102e+06
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,1.9219e+07
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,6.94124e+06
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_14,Wind,2050,base_short_200_retire,all,MWh,1.151e+07
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_16,Wind,2050,base_short_200_retire,all,MWh,7.67007e+06
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,3.53553e+06
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_22,Wind,2050,base_short_200_retire,all,MWh,715.397
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,1524.34
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,4.07529e+06
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_8,Wind,2050,base_short_200_retire,all,MWh,1.00259e+07
+TEMOA,SPPN,SPPN_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,5.80197e+06
+TEMOA,SPPN,SPPN_small_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,510028
+TEMOA,SPPN,SPPN_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,145013
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,2.03434e+07
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,3.31647e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,2.11934e+07
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,1.89363e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_4,Solar,2050,base_short_200_retire,all,MWh,5.4331e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_5,Solar,2050,base_short_200_retire,all,MWh,472731
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_7,Solar,2050,base_short_200_retire,all,MWh,1.92422e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_9,Solar,2050,base_short_200_retire,all,MWh,2.34721e+06
+TEMOA,SPPS,SPPS_batteries_1,Battery,2050,base_short_200_retire,all,MWh,154273
+TEMOA,SPPS,SPPS_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,4.16459e+06
+TEMOA,SPPS,SPPS_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,1914.23
+TEMOA,SPPS,SPPS_biomass_2,Other,2050,base_short_200_retire,all,MWh,107577
+TEMOA,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,1.51278e+06
+TEMOA,SPPS,SPPS_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,6.7734e+06
+TEMOA,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2050,base_short_200_retire,all,MWh,1.34733e+06
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,4.53052e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,2.91305e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_10,Wind,2050,base_short_200_retire,all,MWh,1.51502e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_11,Wind,2050,base_short_200_retire,all,MWh,2.99421e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_12,Wind,2050,base_short_200_retire,all,MWh,1.67509e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_13,Wind,2050,base_short_200_retire,all,MWh,9.08363e+06
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_15,Wind,2050,base_short_200_retire,all,MWh,3.04083e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,3.35362e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,8.33725e+06
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_4,Wind,2050,base_short_200_retire,all,MWh,5.86678e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,1.04184e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_6,Wind,2050,base_short_200_retire,all,MWh,1.83699e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_7,Wind,2050,base_short_200_retire,all,MWh,2.42605e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_8,Wind,2050,base_short_200_retire,all,MWh,2.84551e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_9,Wind,2050,base_short_200_retire,all,MWh,3.72442e+07
+TEMOA,SPPS,SPPS_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_200_retire,all,MWh,6.18914e+06
+TEMOA,SPPS,SPPS_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,1.26235e+07
+TEMOA,SPPS,SPPS_small_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,338995
+TEMOA,SPPS,SPPS_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,121338
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,2.68206e+07
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,8.43697e+06
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,2.24021e+07
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_5,Solar,2050,base_short_200_retire,all,MWh,2.33654e+07
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_7,Solar,2050,base_short_200_retire,all,MWh,3.35092e+07
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_9,Solar,2050,base_short_200_retire,all,MWh,1.01095e+07
+TEMOA,SRCA,SRCA_batteries_1,Battery,2050,base_short_200_retire,all,MWh,109137
+TEMOA,SRCA,SRCA_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,1.26247e+07
+TEMOA,SRCA,SRCA_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,9.60123e+06
+TEMOA,SRCA,SRCA_biomass_1,Other,2050,base_short_200_retire,all,MWh,655475
+TEMOA,SRCA,SRCA_biomass_2,Other,2050,base_short_200_retire,all,MWh,311422
+TEMOA,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,1.39587e+06
+TEMOA,SRCA,SRCA_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,1.37386e+07
+TEMOA,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2050,base_short_200_retire,all,MWh,8.36012e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,1.65616e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,4.08869e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_10,Wind,2050,base_short_200_retire,all,MWh,2.2194e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_11,Wind,2050,base_short_200_retire,all,MWh,1.29721e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,1.4139e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,4.64919e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_4,Wind,2050,base_short_200_retire,all,MWh,1.14483e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,537256
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_6,Wind,2050,base_short_200_retire,all,MWh,2.03508e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_7,Wind,2050,base_short_200_retire,all,MWh,2.23211e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_8,Wind,2050,base_short_200_retire,all,MWh,1.66098e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_9,Wind,2050,base_short_200_retire,all,MWh,1.69766e+06
+TEMOA,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_200_retire,all,MWh,5.48035e+06
+TEMOA,SRCA,SRCA_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_200_retire,all,MWh,461611
+TEMOA,SRCA,SRCA_naturalgas_ccccsavgcf_conservative_0,CCS,2050,base_short_200_retire,all,MWh,3.97684e+07
+TEMOA,SRCA,SRCA_nuclear_1,Nuclear,2050,base_short_200_retire,all,MWh,9.04067e+07
+TEMOA,SRCA,SRCA_small_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,308133
+TEMOA,SRCA,SRCA_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,4.88129e+06
+TEMOA,SRCA,SRCA_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,2.42257e+07
+TEMOA,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,4.43867e+07
+TEMOA,SRCA,SRCA_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,2.99879e+07
+TEMOA,SRCA,SRCA_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,3.87972e+07
+TEMOA,SRCA,SRCA_utilitypv_class1_moderate_5,Solar,2050,base_short_200_retire,all,MWh,4.30525e+06
+TEMOA,SRCE,SRCE_batteries_1,Battery,2050,base_short_200_retire,all,MWh,86743.3
+TEMOA,SRCE,SRCE_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,1.72837e+07
+TEMOA,SRCE,SRCE_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,5.77386e+06
+TEMOA,SRCE,SRCE_biomass_1,Other,2050,base_short_200_retire,all,MWh,140765
+TEMOA,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,6.61763e+06
+TEMOA,SRCE,SRCE_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,7.6843e+06
+TEMOA,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2050,base_short_200_retire,all,MWh,4.59149e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,2.21531e+07
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,6.67198e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_14,Wind,2050,base_short_200_retire,all,MWh,1.14942e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,1.25759e+07
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,1.32471e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_4,Wind,2050,base_short_200_retire,all,MWh,1.3306e+07
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,7.42375e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_6,Wind,2050,base_short_200_retire,all,MWh,1.85124e+07
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_7,Wind,2050,base_short_200_retire,all,MWh,1.41285e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_8,Wind,2050,base_short_200_retire,all,MWh,2.33382e+06
+TEMOA,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_200_retire,all,MWh,6.43605e+06
+TEMOA,SRCE,SRCE_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_200_retire,all,MWh,733081
+TEMOA,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_200_retire,all,MWh,461556
+TEMOA,SRCE,SRCE_naturalgas_ccccsavgcf_conservative_0,CCS,2050,base_short_200_retire,all,MWh,2.4639e+07
+TEMOA,SRCE,SRCE_nuclear_1,Nuclear,2050,base_short_200_retire,all,MWh,5.84706e+07
+TEMOA,SRCE,SRCE_small_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,396545
+TEMOA,SRCE,SRCE_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,3.02311e+06
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,2.98099e+07
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,3.85364e+07
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,3.27176e+07
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,3.52017e+07
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_4,Solar,2050,base_short_200_retire,all,MWh,3.61991e+06
+TEMOA,SRSE,SRSE_batteries_1,Battery,2050,base_short_200_retire,all,MWh,105364
+TEMOA,SRSE,SRSE_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,1.0927e+07
+TEMOA,SRSE,SRSE_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,2.52212e+07
+TEMOA,SRSE,SRSE_biomass_1,Other,2050,base_short_200_retire,all,MWh,835701
+TEMOA,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,4.54137e+06
+TEMOA,SRSE,SRSE_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,6.15498e+06
+TEMOA,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2050,base_short_200_retire,all,MWh,5.03452e+06
+TEMOA,SRSE,SRSE_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,3.76167e+06
+TEMOA,SRSE,SRSE_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,1.98323e+06
+TEMOA,SRSE,SRSE_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,3.69439e+06
+TEMOA,SRSE,SRSE_landbasedwind_class3_moderate_6,Wind,2050,base_short_200_retire,all,MWh,3.20163e+06
+TEMOA,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_200_retire,all,MWh,1.30667e+07
+TEMOA,SRSE,SRSE_naturalgas_ccccsavgcf_conservative_0,CCS,2050,base_short_200_retire,all,MWh,3.81696e+07
+TEMOA,SRSE,SRSE_nuclear_1,Nuclear,2050,base_short_200_retire,all,MWh,6.22647e+07
+TEMOA,SRSE,SRSE_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,8.24595e+06
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,4.0924e+07
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,2.44692e+07
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,3.98592e+07
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_4,Solar,2050,base_short_200_retire,all,MWh,3.55859e+07
+TEMOA,SRSG,SRSG_batteries_1,Battery,2050,base_short_200_retire,all,MWh,1.30391e+06
+TEMOA,SRSG,SRSG_battery_moderate_0_2hour,Battery,2050,base_short_200_retire,all,MWh,34.1569
+TEMOA,SRSG,SRSG_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,7.74461e+06
+TEMOA,SRSG,SRSG_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,1.82923e+07
+TEMOA,SRSG,SRSG_biomass_2,Other,2050,base_short_200_retire,all,MWh,195283
+TEMOA,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,4.96751e+06
+TEMOA,SRSG,SRSG_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,6.47924e+06
+TEMOA,SRSG,SRSG_geothermal_1,Geothermal,2050,base_short_200_retire,all,MWh,711598
+TEMOA,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2050,base_short_200_retire,all,MWh,596008
+TEMOA,SRSG,SRSG_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,1.97917e+07
+TEMOA,SRSG,SRSG_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,3.22553e+06
+TEMOA,SRSG,SRSG_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,6.57251e+06
+TEMOA,SRSG,SRSG_landbasedwind_class3_moderate_6,Wind,2050,base_short_200_retire,all,MWh,4.88743e+06
+TEMOA,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_200_retire,all,MWh,2.6236e+06
+TEMOA,SRSG,SRSG_nuclear_1,Nuclear,2050,base_short_200_retire,all,MWh,2.23644e+07
+TEMOA,SRSG,SRSG_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,4.63725e+06
+TEMOA,SRSG,SRSG_small_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,438296
+TEMOA,SRSG,SRSG_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,6.40636e+06
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,4.33526e+07
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,3.17054e+07
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,3.56861e+07
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_5,Solar,2050,base_short_200_retire,all,MWh,1.10583e+06
+TEMOA,TRE_WEST,TRE_batteries_1,Battery,2050,base_short_200_retire,all,MWh,1.21663e+06
+TEMOA,TRE_WEST,TRE_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,3.39559e+06
+TEMOA,TRE_WEST,TRE_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,155.378
+TEMOA,TRE_WEST,TRE_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,954576
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,1.78597e+07
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,8.89568e+06
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_11,Wind,2050,base_short_200_retire,all,MWh,1.57168e+07
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_12,Wind,2050,base_short_200_retire,all,MWh,1.95367e+07
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_14,Wind,2050,base_short_200_retire,all,MWh,1.36816e+07
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_16,Wind,2050,base_short_200_retire,all,MWh,1.48836e+07
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,2.63813e+07
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_20,Wind,2050,base_short_200_retire,all,MWh,1.47306e+07
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,9.3967e+06
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_4,Wind,2050,base_short_200_retire,all,MWh,2.71719e+07
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,1.25928e+07
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_6,Wind,2050,base_short_200_retire,all,MWh,1.45677e+07
+TEMOA,TRE_WEST,TRE_landbasedwind_class3_moderate_9,Wind,2050,base_short_200_retire,all,MWh,1.80249e+07
+TEMOA,TRE_WEST,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_200_retire,all,MWh,3.60807e+06
+TEMOA,TRE_WEST,TRE_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_200_retire,all,MWh,25239.1
+TEMOA,TRE_WEST,TRE_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,1.56245e+07
+TEMOA,TRE_WEST,TRE_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,1.17309e+07
+TEMOA,TRE_WEST,TRE_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,7.81272e+06
+TEMOA,TRE_WEST,TRE_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,1.4718e+07
+TEMOA,TRE_WEST,TRE_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,932131
+TEMOA,TRE_WEST,TRE_utilitypv_class1_moderate_3,Solar,2050,base_short_200_retire,all,MWh,1.33304e+07
+TEMOA,TRE_WEST,TRE_utilitypv_class1_moderate_9,Solar,2050,base_short_200_retire,all,MWh,708151
+TEMOA,TRE,TRE_batteries_1,Battery,2050,base_short_200_retire,all,MWh,1.56744e+06
+TEMOA,TRE,TRE_battery_moderate_0_4hour,Battery,2050,base_short_200_retire,all,MWh,2.24666e+07
+TEMOA,TRE,TRE_battery_moderate_0_6hour,Battery,2050,base_short_200_retire,all,MWh,1065.33
+TEMOA,TRE,TRE_biomass_2,Other,2050,base_short_200_retire,all,MWh,223961
+TEMOA,TRE,TRE_conventional_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,100611
+TEMOA,TRE,TRE_distributed_generation_1,Distributed Solar,2050,base_short_200_retire,all,MWh,1.93025e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_0,Wind,2050,base_short_200_retire,all,MWh,7.91711e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2050,base_short_200_retire,all,MWh,5.5792e+06
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_10,Wind,2050,base_short_200_retire,all,MWh,4.83484e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_11,Wind,2050,base_short_200_retire,all,MWh,3.24101e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_12,Wind,2050,base_short_200_retire,all,MWh,4.39951e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_14,Wind,2050,base_short_200_retire,all,MWh,7.87823e+06
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_17,Wind,2050,base_short_200_retire,all,MWh,2.58782e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_19,Wind,2050,base_short_200_retire,all,MWh,3.38269e+06
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_2,Wind,2050,base_short_200_retire,all,MWh,2.54841e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_20,Wind,2050,base_short_200_retire,all,MWh,4957.9
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_3,Wind,2050,base_short_200_retire,all,MWh,1.85908e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_4,Wind,2050,base_short_200_retire,all,MWh,6.28358e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_5,Wind,2050,base_short_200_retire,all,MWh,2.02164e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_6,Wind,2050,base_short_200_retire,all,MWh,2.57756e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_7,Wind,2050,base_short_200_retire,all,MWh,6.57051e+06
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_8,Wind,2050,base_short_200_retire,all,MWh,1.48203e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_9,Wind,2050,base_short_200_retire,all,MWh,1.70717e+07
+TEMOA,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_200_retire,all,MWh,7.92885e+06
+TEMOA,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_200_retire,all,MWh,496407
+TEMOA,TRE,TRE_naturalgas_ccccsavgcf_conservative_0,CCS,2050,base_short_200_retire,all,MWh,1427.36
+TEMOA,TRE,TRE_nuclear_1,Nuclear,2050,base_short_200_retire,all,MWh,2.652e+07
+TEMOA,TRE,TRE_onshore_wind_turbine_1,Wind,2050,base_short_200_retire,all,MWh,7.77529e+06
+TEMOA,TRE,TRE_small_hydroelectric_1,Hydro,2050,base_short_200_retire,all,MWh,135553
+TEMOA,TRE,TRE_solar_photovoltaic_1,Solar,2050,base_short_200_retire,all,MWh,2.11577e+07
+TEMOA,TRE,TRE_utilitypv_class1_moderate_0,Solar,2050,base_short_200_retire,all,MWh,1.85585e+07
+TEMOA,TRE,TRE_utilitypv_class1_moderate_1,Solar,2050,base_short_200_retire,all,MWh,2.48871e+07
+TEMOA,TRE,TRE_utilitypv_class1_moderate_2,Solar,2050,base_short_200_retire,all,MWh,2.65465e+07
+TEMOA,TRE,TRE_utilitypv_class1_moderate_5,Solar,2050,base_short_200_retire,all,MWh,1.45256e+07
+TEMOA,TRE,TRE_utilitypv_class1_moderate_7,Solar,2050,base_short_200_retire,all,MWh,7.51729e+06
