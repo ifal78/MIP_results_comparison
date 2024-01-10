@@ -195,7 +195,7 @@ def chart_total_gen(gen: pd.DataFrame, cap: pd.DataFrame = None) -> alt.Chart:
         _gen["end_value"].fillna(0, inplace=True)
         _gen["potential_gen"] = _gen["end_value"] * 8760
         data = _gen.groupby(["tech_type", "model", "planning_year"], as_index=False)[
-            "value", "potential_gen"
+            ["value", "potential_gen"]
         ].sum()
         data["capacity_factor"] = (data["value"] / data["potential_gen"]).round(3)
         _tooltips = [
@@ -247,7 +247,7 @@ def chart_regional_gen(gen: pd.DataFrame, cap: pd.DataFrame = None) -> alt.Chart
         _gen["potential_gen"] = _gen["end_value"] * 8760
         data = _gen.groupby(
             ["agg_zone", "tech_type", "model", "planning_year"], as_index=False
-        )["value", "potential_gen"].sum()
+        )[["value", "potential_gen"]].sum()
         data["capacity_factor"] = (data["value"] / data["potential_gen"]).round(3)
         _tooltips = [
             alt.Tooltip("tech_type", title="Technology"),
