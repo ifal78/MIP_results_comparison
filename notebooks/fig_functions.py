@@ -177,10 +177,41 @@ def chart_regional_cap(cap: pd.DataFrame) -> alt.Chart:
     return chart
 
 
-def chart_total_gen(gen: pd.DataFrame) -> alt.Chart:
-    data = gen.groupby(["tech_type", "model", "planning_year"], as_index=False)[
-        "value"
-    ].sum()
+def chart_total_gen(gen: pd.DataFrame, cap: pd.DataFrame = None) -> alt.Chart:
+    if cap is not None:
+        _cap = (
+            cap.query("unit=='MW'")
+            .groupby(
+                ["tech_type", "resource_name", "model", "planning_year"], as_index=False
+            )["end_value"]
+            .sum()
+        )
+        _gen = pd.merge(
+            gen,
+            _cap,
+            on=["tech_type", "resource_name", "model", "planning_year"],
+            how="left",
+        )
+        _gen["end_value"].fillna(0, inplace=True)
+        _gen["potential_gen"] = _gen["end_value"] * 8760
+        data = _gen.groupby(["tech_type", "model", "planning_year"], as_index=False)[
+            "value", "potential_gen"
+        ].sum()
+        data["capacity_factor"] = (data["value"] / data["potential_gen"]).round(3)
+        _tooltips = [
+            alt.Tooltip("tech_type", title="Technology"),
+            alt.Tooltip("value", title="Generation (MWh)", format=",.0f"),
+            alt.Tooltip("capacity_factor", title="Capacity Factor"),
+        ]
+
+    else:
+        data = gen.groupby(["tech_type", "model", "planning_year"], as_index=False)[
+            "value"
+        ].sum()
+        _tooltips = [
+            alt.Tooltip("tech_type", title="Technology"),
+            alt.Tooltip("value", title="Generation (MWh)", format=",.0f"),
+        ]
     chart = (
         alt.Chart(data)
         .mark_bar()
@@ -190,20 +221,48 @@ def chart_total_gen(gen: pd.DataFrame) -> alt.Chart:
             color=alt.Color("tech_type").scale(scheme="tableau20"),
             # column="zone",
             row="planning_year:O",
-            tooltip=[
-                alt.Tooltip("tech_type", title="Technology"),
-                alt.Tooltip("value", title="Generation (MWh)", format=",.0f"),
-            ],
+            tooltip=_tooltips,
         )
         .properties(width=350, height=250)
     )
     return chart
 
 
-def chart_regional_gen(gen: pd.DataFrame) -> alt.Chart:
-    data = gen.groupby(
-        ["agg_zone", "tech_type", "model", "planning_year"], as_index=False
-    )["value"].sum()
+def chart_regional_gen(gen: pd.DataFrame, cap: pd.DataFrame = None) -> alt.Chart:
+    if cap is not None:
+        _cap = (
+            cap.query("unit=='MW'")
+            .groupby(
+                ["tech_type", "resource_name", "model", "planning_year"], as_index=False
+            )["end_value"]
+            .sum()
+        )
+        _gen = pd.merge(
+            gen,
+            _cap,
+            on=["tech_type", "resource_name", "model", "planning_year"],
+            how="left",
+        )
+        _gen["end_value"].fillna(0, inplace=True)
+        _gen["potential_gen"] = _gen["end_value"] * 8760
+        data = _gen.groupby(
+            ["agg_zone", "tech_type", "model", "planning_year"], as_index=False
+        )["value", "potential_gen"].sum()
+        data["capacity_factor"] = (data["value"] / data["potential_gen"]).round(3)
+        _tooltips = [
+            alt.Tooltip("tech_type", title="Technology"),
+            alt.Tooltip("value", title="Generation (MWh)", format=",.0f"),
+            alt.Tooltip("capacity_factor", title="Capacity Factor"),
+        ]
+    else:
+        data = gen.groupby(
+            ["agg_zone", "tech_type", "model", "planning_year"], as_index=False
+        )["value"].sum()
+        _tooltips = [
+            alt.Tooltip("tech_type", title="Technology"),
+            alt.Tooltip("value", title="Generation (MWh)", format=",.0f"),
+        ]
+
     chart = (
         alt.Chart(data)
         .mark_bar()
@@ -213,10 +272,7 @@ def chart_regional_gen(gen: pd.DataFrame) -> alt.Chart:
             color=alt.Color("tech_type").scale(scheme="tableau20"),
             column="agg_zone",
             row="planning_year:O",
-            tooltip=[
-                alt.Tooltip("tech_type", title="Technology"),
-                alt.Tooltip("value", title="Generation (MWh)", format=",.0f"),
-            ],
+            tooltip=_tooltips,
         )
         .properties(width=150, height=250)
     )

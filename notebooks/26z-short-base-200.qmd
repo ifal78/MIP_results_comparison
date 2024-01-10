@@ -122,14 +122,14 @@ chart
 #### Column {.tabset}
 ```{python}
 # | title: Total Generation
-chart = chart_total_gen(gen)
+chart = chart_total_gen(gen, cap)
 chart
 ```
 
 
 ```{python}
 # | title: Regional Generation
-chart = chart_regional_gen(gen)
+chart = chart_regional_gen(gen, cap)
 chart
 ```
 
