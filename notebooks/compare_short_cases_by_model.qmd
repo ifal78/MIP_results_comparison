@@ -1,0 +1,93 @@
+---
+title: "Compare short scenario results"
+format: dashboard
+#   dashboard:
+#     scrolling: false
+jupyter: python3
+---
+
+```{python}
+# | output: false
+# %load_ext autoreload
+# %autoreload 2
+import os
+from typing import Dict, List
+import pandas as pd
+import altair as alt
+from pathlib import Path
+
+from fig_functions import (
+    fix_tx_line_names,
+    load_genx_operations_data,
+    load_data,
+    chart_total_cap,
+    chart_regional_cap,
+    chart_total_gen,
+    chart_regional_gen,
+    chart_tx_expansion,
+    chart_emissions,
+    chart_dispatch,
+    chart_wind_dispatch,
+    chart_op_cost,
+    chart_op_nse,
+)
+
+
+alt.renderers.enable("html")
+alt.data_transformers.disable_max_rows()
+
+cwd = Path.cwd()
+# data_path = cwd.parent
+
+data_folders = list(cwd.parent.glob("*-short-*"))
+
+cap_list = []
+gen_list = []
+emiss_list = []
+for folder in data_folders:
+    case_id = folder.stem.split("-short-")[-1]
+    cap_data = load_data(folder, "resource_capacity.csv")
+    cap_data["case"] = case_id
+    cap_list.append(cap_data)
+
+    gen_data = load_data(folder, "generation.csv")
+    gen_data["case"] = case_id
+    gen_list.append(gen_data)
+
+    emiss_data = load_data(folder, "emissions.csv")
+    emiss_data["case"] = case_id
+    emiss_list.append(emiss_data)
+
+cap = pd.concat(cap_list, ignore_index=True)
+gen = pd.concat(gen_list, ignore_index=True)
+emiss = pd.concat(emiss_list, ignore_index=True)
+
+
+```
+
+# Capacity
+
+## Row
+
+#### Column {.tabset}
+
+```{python}
+# | title: GenX
+chart = chart_total_cap(cap.query("model=='GenX'"), "case")
+chart
+```
+```{python}
+# | title: TEMOA
+chart = chart_total_cap(cap.query("model=='TEMOA'"), "case")
+chart
+```
+```{python}
+# | title: SWITCH
+chart = chart_total_cap(cap.query("model=='SWITCH'"), "case")
+chart
+```
+```{python}
+# | title: USENSYS
+chart = chart_total_cap(cap.query("model=='USENSYS'"), "case")
+chart
+```
