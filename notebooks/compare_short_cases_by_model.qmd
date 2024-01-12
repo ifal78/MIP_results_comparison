@@ -41,11 +41,14 @@ from fig_functions import (
     chart_op_cost,
     chart_op_nse,
 )
+
 data_folders = list(cwd.parent.glob("*-short-*"))
 
 cap_list = []
 gen_list = []
 emiss_list = []
+tx_list = []
+tx_exp_list = []
 for folder in data_folders:
     case_id = folder.stem.split("-short-")[-1]
     cap_data = load_data(folder, "resource_capacity.csv")
@@ -60,9 +63,30 @@ for folder in data_folders:
     emiss_data["case"] = case_id
     emiss_list.append(emiss_data)
 
+    tx_data = load_data(folder, "transmission.csv")
+    tx_data["case"] = case_id
+    tx_list.append(tx_data)
+
+    tx_exp_data = load_data(folder, "transmission_expansion.csv")
+    tx_exp_data["case"] = case_id
+    tx_exp_list.append(tx_exp_data)
+
 cap = pd.concat(cap_list, ignore_index=True)
 gen = pd.concat(gen_list, ignore_index=True)
 emiss = pd.concat(emiss_list, ignore_index=True)
+tx = pd.concat(tx_list, ignore_index=True)
+tx_exp = pd.concat(tx_exp_list, ignore_index=True)
+
+tx["start_region"] = tx["line_name"].str.split("_to_").str[0]
+tx["dest_region"] = tx["line_name"].str.split("_to_").str[1]
+
+first_year = tx["planning_year"].min()
+starting_tx = tx.loc[tx["planning_year"] == first_year, :]
+starting_tx = starting_tx.rename(columns={"start_value": "value"})
+starting_tx["planning_year"] = 2023
+
+tx_exp["start_region"] = tx_exp["line_name"].str.split("_to_").str[0]
+tx_exp["dest_region"] = tx_exp["line_name"].str.split("_to_").str[1]
 
 
 ```
@@ -150,5 +174,34 @@ chart
 ```{python}
 # | title: USENSYS
 chart = chart_emissions(emiss.query("model=='USENSYS'"), "case")
+chart
+```
+
+
+# Transmission
+
+## Row
+
+#### Column {.tabset}
+
+```{python}
+# | title: GenX
+tx_all = pd.concat([starting_tx, tx_exp])
+chart = chart_tx_expansion(tx_all.query("model=='GenX'"), "case")
+chart
+```
+```{python}
+# | title: TEMOA
+chart = chart_tx_expansion(tx_all.query("model=='TEMOA'"), "case")
+chart
+```
+```{python}
+# | title: SWITCH
+chart = chart_tx_expansion(tx_all.query("model=='SWITCH'"), "case")
+chart
+```
+```{python}
+# | title: USENSYS
+chart = chart_tx_expansion(tx_all.query("model=='USENSYS'"), "case")
 chart
 ```

@@ -290,13 +290,20 @@ def chart_regional_gen(gen: pd.DataFrame, cap: pd.DataFrame = None) -> alt.Chart
     return chart
 
 
-def chart_tx_expansion(data: pd.DataFrame) -> alt.Chart:
+def chart_tx_expansion(data: pd.DataFrame, x_var="model") -> alt.Chart:
+    _tooltip = [
+        alt.Tooltip("sum(value)", format=",.0f"),
+    ]
+    if x_var == "case":
+        _tooltip.append(
+            alt.Tooltip("case"),
+        )
     chart = (
         alt.Chart(data)
         .mark_bar()
         .encode(
             # xOffset="model:N",
-            x="model",
+            x=x_var,
             y=alt.Y("sum(value)").title("Total transmission expansion (MW)"),
             color="model:N",
             opacity=alt.Opacity("planning_year:O", sort="descending"),
@@ -306,7 +313,7 @@ def chart_tx_expansion(data: pd.DataFrame) -> alt.Chart:
                 "planning_year",
                 sort="ascending",
             ),
-            tooltip=alt.Tooltip("sum(value)", format=",.0f"),
+            tooltip=_tooltip,
         )
         .properties(
             height=200,
