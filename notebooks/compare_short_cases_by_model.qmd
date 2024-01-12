@@ -60,6 +60,7 @@ for folder in data_folders:
     gen_list.append(gen_data)
 
     emiss_data = load_data(folder, "emissions.csv")
+    emiss_data.loc[emiss_data["unit"] == "kg", "value"] /= 1000
     emiss_data["case"] = case_id
     emiss_list.append(emiss_data)
 
