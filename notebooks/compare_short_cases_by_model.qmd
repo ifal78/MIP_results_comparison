@@ -52,6 +52,7 @@ tx_exp_list = []
 for folder in data_folders:
     case_id = folder.stem.split("-short-")[-1]
     cap_data = load_data(folder, "resource_capacity.csv")
+    cap_data = cap_data.query("unit=='MW' and not tech_type.isna()")
     cap_data["case"] = case_id
     cap_list.append(cap_data)
 
