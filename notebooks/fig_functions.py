@@ -179,24 +179,32 @@ def chart_regional_cap(
     return chart
 
 
-def chart_total_gen(gen: pd.DataFrame, cap: pd.DataFrame = None) -> alt.Chart:
+def chart_total_gen(
+    gen: pd.DataFrame, cap: pd.DataFrame = None, x_var="model"
+) -> alt.Chart:
+    merge_by = ["tech_type", "resource_name", x_var, "planning_year"]
+    group_by = ["tech_type", x_var, "planning_year"]
     if cap is not None:
         _cap = (
             cap.query("unit=='MW'")
             .groupby(
-                ["tech_type", "resource_name", "model", "planning_year"], as_index=False
+                merge_by,
+                # ["tech_type", "resource_name", "model", "planning_year"],
+                as_index=False,
             )["end_value"]
             .sum()
         )
         _gen = pd.merge(
             gen,
             _cap,
-            on=["tech_type", "resource_name", "model", "planning_year"],
+            # on=["tech_type", "resource_name", "model", "planning_year"],
+            on=merge_by,
             how="left",
         )
         _gen["end_value"].fillna(0, inplace=True)
         _gen["potential_gen"] = _gen["end_value"] * 8760
-        data = _gen.groupby(["tech_type", "model", "planning_year"], as_index=False)[
+
+        data = _gen.groupby(group_by, as_index=False)[
             ["value", "potential_gen", "end_value"]
         ].sum()
         data["capacity_factor"] = (data["value"] / data["potential_gen"]).round(3)
@@ -219,7 +227,7 @@ def chart_total_gen(gen: pd.DataFrame, cap: pd.DataFrame = None) -> alt.Chart:
         alt.Chart(data)
         .mark_bar()
         .encode(
-            x="model",
+            x=x_var,
             y=alt.Y("value").title("Generation (MWh)"),
             color=alt.Color("tech_type").scale(scheme="tableau20"),
             # column="zone",
@@ -308,12 +316,12 @@ def chart_tx_expansion(data: pd.DataFrame) -> alt.Chart:
     return chart
 
 
-def chart_emissions(emiss: pd.DataFrame) -> alt.Chart:
+def chart_emissions(emiss: pd.DataFrame, x_var="model") -> alt.Chart:
     base = (
         alt.Chart()
         .mark_bar()
         .encode(
-            x="model",
+            x=x_var,
             y=alt.Y("value").title("CO2 emissions (tonnes)"),
             color=alt.Color("zone").scale(scheme="tableau20"),
             # column="agg_zone",
@@ -326,9 +334,7 @@ def chart_emissions(emiss: pd.DataFrame) -> alt.Chart:
     text = (
         alt.Chart()
         .mark_text(dy=-5)
-        .encode(
-            x="model", y="sum(value):Q", text=alt.Text("sum(value):Q", format=".2e")
-        )
+        .encode(x=x_var, y="sum(value):Q", text=alt.Text("sum(value):Q", format=".2e"))
     )  # .properties(width=350, height=250)
 
     chart = (
