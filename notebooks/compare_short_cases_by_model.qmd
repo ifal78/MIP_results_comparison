@@ -16,6 +16,16 @@ import pandas as pd
 import altair as alt
 from pathlib import Path
 
+
+alt.renderers.enable("html")
+alt.data_transformers.disable_max_rows()
+
+cwd = Path.cwd()
+print(cwd)
+# data_path = cwd.parent
+```
+```{python}
+# | output: false
 from fig_functions import (
     fix_tx_line_names,
     load_genx_operations_data,
@@ -31,14 +41,6 @@ from fig_functions import (
     chart_op_cost,
     chart_op_nse,
 )
-
-
-alt.renderers.enable("html")
-alt.data_transformers.disable_max_rows()
-
-cwd = Path.cwd()
-# data_path = cwd.parent
-
 data_folders = list(cwd.parent.glob("*-short-*"))
 
 cap_list = []
@@ -89,5 +91,64 @@ chart
 ```{python}
 # | title: USENSYS
 chart = chart_total_cap(cap.query("model=='USENSYS'"), "case")
+chart
+```
+
+
+# Generation
+
+## Row
+
+#### Column {.tabset}
+
+```{python}
+# | title: GenX
+chart = chart_total_gen(gen.query("model=='GenX'"), cap.query("model=='GenX'"), "case")
+chart
+```
+```{python}
+# | title: TEMOA
+chart = chart_total_gen(
+    gen.query("model=='TEMOA'"), cap.query("model=='TEMOA'"), "case"
+)
+chart
+```
+```{python}
+# | title: SWITCH
+chart = chart_total_gen(gen.query("model=='SWITCH'"), cap.query("model=='SWITCH'"), "case")
+chart
+```
+```{python}
+# | title: USENSYS
+chart = chart_total_gen(
+    gen.query("model=='USENSYS'"), cap.query("model=='USENSYS'"), "case"
+)
+chart
+```
+
+# Emissions
+
+## Row
+
+#### Column {.tabset}
+
+```{python}
+# | title: GenX
+chart = chart_emissions(emiss.query("model=='GenX'"), "case")
+chart
+```
+```{python}
+# | title: TEMOA
+chart = chart_emissions(emiss.query("model=='TEMOA'"), "case")
+chart
+```
+```{python}
+# | title: SWITCH
+chart = chart_emissions(emiss.query("model=='SWITCH'"), "case")
+chart
+```
+```{python}
+# | title: USENSYS
+chart = chart_emissions(emiss.query("model=='USENSYS'"), "case")
 chart
 ```
