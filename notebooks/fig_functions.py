@@ -306,7 +306,14 @@ def chart_regional_gen(gen: pd.DataFrame, cap: pd.DataFrame = None) -> alt.Chart
     return chart
 
 
-def chart_tx_expansion(data: pd.DataFrame, x_var="model") -> alt.Chart:
+def chart_tx_expansion(
+    data: pd.DataFrame,
+    x_var="model",
+    facet_col="line_name",
+    n_cols=10,
+    col_var=None,
+    row_var=None,
+) -> alt.Chart:
     _tooltip = [
         alt.Tooltip("sum(value)", format=",.0f"),
     ]
@@ -323,7 +330,7 @@ def chart_tx_expansion(data: pd.DataFrame, x_var="model") -> alt.Chart:
             y=alt.Y("sum(value)").title("Total transmission expansion (MW)"),
             color="model:N",
             opacity=alt.Opacity("planning_year:O", sort="descending"),
-            facet=alt.Facet("line_name", columns=10),
+            # facet=alt.Facet("line_name", columns=n_cols),
             order=alt.Order(
                 # Sort the segments of the bars by this field
                 "planning_year",
@@ -336,6 +343,12 @@ def chart_tx_expansion(data: pd.DataFrame, x_var="model") -> alt.Chart:
             width=alt.Step(20),
         )
     )
+    if facet_col is not None:
+        chart = chart.encode(facet=alt.Facet(facet_col, columns=n_cols))
+    if col_var is not None:
+        chart = chart.encode(column=col_var)
+    if row_var is not None:
+        chart = chart.encode(row=row_var)
     return chart
 
 

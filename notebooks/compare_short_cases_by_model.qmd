@@ -114,8 +114,15 @@ chart = chart_emissions(emiss, "case", "model")
 chart
 ```
 
-# Transmission
+# Transmission view 1
 
+```{python}
+tx_all = pd.concat([starting_tx, tx_exp])
+chart = chart_tx_expansion(tx_all, x_var="case", facet_col=None, col_var="line_name", row_var="model")
+chart
+```
+
+# Transmission view 2
 ## Row
 
 #### Column {.tabset}
