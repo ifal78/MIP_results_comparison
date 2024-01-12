@@ -1,14 +1,15 @@
 ---
-title: "26 zone thin no CO2 cap"
+title: "26 zone thin high CO2 cost"
 format: dashboard
 #   dashboard:
 #     scrolling: false
 jupyter: python3
+draft: true
 ---
 
 ```{python}
 #| output: false
-folder = "26z-thin-debug-noCO2Cap"
+folder = "26z-thin-debug-highCCScost"
 import os
 from typing import Dict, List
 
