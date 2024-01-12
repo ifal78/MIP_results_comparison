@@ -94,90 +94,24 @@ tx_exp["dest_region"] = tx_exp["line_name"].str.split("_to_").str[1]
 
 # Capacity
 
-## Row
-
-#### Column {.tabset}
-
 ```{python}
-# | title: GenX
-chart = chart_total_cap(cap.query("model=='GenX'"), "case")
+chart = chart_total_cap(cap, "case", "model")
 chart
 ```
-```{python}
-# | title: TEMOA
-chart = chart_total_cap(cap.query("model=='TEMOA'"), "case")
-chart
-```
-```{python}
-# | title: SWITCH
-chart = chart_total_cap(cap.query("model=='SWITCH'"), "case")
-chart
-```
-```{python}
-# | title: USENSYS
-chart = chart_total_cap(cap.query("model=='USENSYS'"), "case")
-chart
-```
-
 
 # Generation
 
-## Row
-
-#### Column {.tabset}
-
 ```{python}
-# | title: GenX
-chart = chart_total_gen(gen.query("model=='GenX'"), cap.query("model=='GenX'"), "case")
-chart
-```
-```{python}
-# | title: TEMOA
-chart = chart_total_gen(
-    gen.query("model=='TEMOA'"), cap.query("model=='TEMOA'"), "case"
-)
-chart
-```
-```{python}
-# | title: SWITCH
-chart = chart_total_gen(gen.query("model=='SWITCH'"), cap.query("model=='SWITCH'"), "case")
-chart
-```
-```{python}
-# | title: USENSYS
-chart = chart_total_gen(
-    gen.query("model=='USENSYS'"), cap.query("model=='USENSYS'"), "case"
-)
+chart = chart_total_gen(gen, cap, "case", "model")
 chart
 ```
 
 # Emissions
 
-## Row
-
-#### Column {.tabset}
-
 ```{python}
-# | title: GenX
-chart = chart_emissions(emiss.query("model=='GenX'"), "case")
+chart = chart_emissions(emiss, "case", "model")
 chart
 ```
-```{python}
-# | title: TEMOA
-chart = chart_emissions(emiss.query("model=='TEMOA'"), "case")
-chart
-```
-```{python}
-# | title: SWITCH
-chart = chart_emissions(emiss.query("model=='SWITCH'"), "case")
-chart
-```
-```{python}
-# | title: USENSYS
-chart = chart_emissions(emiss.query("model=='USENSYS'"), "case")
-chart
-```
-
 
 # Transmission
 

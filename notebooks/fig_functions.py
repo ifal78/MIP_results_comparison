@@ -133,8 +133,16 @@ def fix_tx_line_names(df: pd.DataFrame) -> pd.DataFrame:
 def chart_total_cap(
     cap: pd.DataFrame,
     x_var="model",
+    col_var=None,
 ) -> alt.Chart:
     group_by = ["tech_type", x_var, "planning_year"]
+    _tooltips = [
+        alt.Tooltip("tech_type", title="Technology"),
+        alt.Tooltip("end_value", title="Capacity (MW)", format=",.0f"),
+    ]
+    if col_var is not None:
+        group_by.append(col_var)
+        _tooltips.append(alt.Tooltip(col_var))
     cap_data = cap.groupby(group_by, as_index=False)["end_value"].sum()
 
     chart = (
@@ -146,13 +154,12 @@ def chart_total_cap(
             color=alt.Color("tech_type").scale(scheme="tableau20"),
             # column="zone",
             row="planning_year:O",
-            tooltip=[
-                alt.Tooltip("tech_type", title="Technology"),
-                alt.Tooltip("end_value", title="Capacity (MW)", format=",.0f"),
-            ],
+            tooltip=_tooltips,
         )
         .properties(width=350, height=250)
     )
+    if col_var is not None:
+        chart = chart.encode(column=col_var)
     return chart
 
 
@@ -180,10 +187,21 @@ def chart_regional_cap(
 
 
 def chart_total_gen(
-    gen: pd.DataFrame, cap: pd.DataFrame = None, x_var="model"
+    gen: pd.DataFrame,
+    cap: pd.DataFrame = None,
+    x_var="model",
+    col_var=None,
 ) -> alt.Chart:
     merge_by = ["tech_type", "resource_name", x_var, "planning_year"]
     group_by = ["tech_type", x_var, "planning_year"]
+    _tooltips = [
+        alt.Tooltip("tech_type", title="Technology"),
+        alt.Tooltip("value", title="Generation (MWh)", format=",.0f"),
+    ]
+    if col_var is not None:
+        group_by.append(col_var)
+        merge_by.append(col_var)
+        _tooltips.append(alt.Tooltip(col_var))
     if cap is not None:
         _cap = (
             cap.query("unit=='MW'")
@@ -208,21 +226,17 @@ def chart_total_gen(
             ["value", "potential_gen", "end_value"]
         ].sum()
         data["capacity_factor"] = (data["value"] / data["potential_gen"]).round(3)
-        _tooltips = [
-            alt.Tooltip("tech_type", title="Technology"),
-            alt.Tooltip("value", title="Generation (MWh)", format=",.0f"),
-            alt.Tooltip("capacity_factor", title="Capacity Factor"),
-            alt.Tooltip("end_value", title="Capacity (MW)", format=",.0f"),
-        ]
+        _tooltips.extend(
+            [
+                alt.Tooltip("capacity_factor", title="Capacity Factor"),
+                alt.Tooltip("end_value", title="Capacity (MW)", format=",.0f"),
+            ]
+        )
 
     else:
         data = gen.groupby(["tech_type", "model", "planning_year"], as_index=False)[
             "value"
         ].sum()
-        _tooltips = [
-            alt.Tooltip("tech_type", title="Technology"),
-            alt.Tooltip("value", title="Generation (MWh)", format=",.0f"),
-        ]
     chart = (
         alt.Chart(data)
         .mark_bar()
@@ -236,6 +250,8 @@ def chart_total_gen(
         )
         .properties(width=350, height=250)
     )
+    if col_var is not None:
+        chart = chart.encode(column=col_var)
     return chart
 
 
@@ -323,7 +339,14 @@ def chart_tx_expansion(data: pd.DataFrame, x_var="model") -> alt.Chart:
     return chart
 
 
-def chart_emissions(emiss: pd.DataFrame, x_var="model") -> alt.Chart:
+def chart_emissions(
+    emiss: pd.DataFrame,
+    x_var="model",
+    col_var=None,
+) -> alt.Chart:
+    _tooltips = [alt.Tooltip("value", format=",.0f"), alt.Tooltip("zone")]
+    if col_var is not None:
+        _tooltips.append(alt.Tooltip(col_var))
     base = (
         alt.Chart()
         .mark_bar()
@@ -333,7 +356,7 @@ def chart_emissions(emiss: pd.DataFrame, x_var="model") -> alt.Chart:
             color=alt.Color("zone").scale(scheme="tableau20"),
             # column="agg_zone",
             # row="planning_year:O",
-            tooltip=alt.Tooltip("value", format=",.0f"),
+            tooltip=_tooltips,
         )
         # .properties(width=350, height=250)
         # .resolve_scale(y="independent")
@@ -344,11 +367,18 @@ def chart_emissions(emiss: pd.DataFrame, x_var="model") -> alt.Chart:
         .encode(x=x_var, y="sum(value):Q", text=alt.Text("sum(value):Q", format=".2e"))
     )  # .properties(width=350, height=250)
 
-    chart = (
-        alt.layer(base, text, data=emiss)
-        .properties(width=350, height=250)
-        .facet(row="planning_year:O")
-    )
+    if col_var is None:
+        chart = (
+            alt.layer(base, text, data=emiss)
+            .properties(width=350, height=250)
+            .facet(row="planning_year:O")
+        )
+    else:
+        chart = (
+            alt.layer(base, text, data=emiss)
+            .properties(width=350, height=250)
+            .facet(row="planning_year:O", column=col_var)
+        )
     return chart
 
 
