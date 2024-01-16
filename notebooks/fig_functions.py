@@ -234,9 +234,7 @@ def chart_total_gen(
         )
 
     else:
-        data = gen.groupby(["tech_type", "model", "planning_year"], as_index=False)[
-            "value"
-        ].sum()
+        data = gen.groupby(group_by, as_index=False)["value"].sum()
     chart = (
         alt.Chart(data)
         .mark_bar()
