@@ -1,0 +1,184 @@
+---
+title: "Compare short cases against base $200"
+format: dashboard
+#   dashboard:
+#     scrolling: false
+jupyter: python3
+---
+
+```{python}
+# | output: false
+# %load_ext autoreload
+# %autoreload 2
+import os
+from typing import Dict, List
+import pandas as pd
+import altair as alt
+from pathlib import Path
+
+
+alt.renderers.enable("html")
+alt.data_transformers.disable_max_rows()
+
+cwd = Path.cwd()
+print(cwd)
+# data_path = cwd.parent
+```
+```{python}
+# | output: false
+from fig_functions import (
+    fix_tx_line_names,
+    load_genx_operations_data,
+    load_data,
+    chart_total_cap,
+    chart_regional_cap,
+    chart_total_gen,
+    chart_regional_gen,
+    chart_tx_expansion,
+    chart_emissions,
+    chart_dispatch,
+    chart_wind_dispatch,
+    chart_op_cost,
+    chart_op_nse,
+)
+
+data_folders = list(cwd.parent.glob("*-short-*"))
+
+cap_list = []
+gen_list = []
+emiss_list = []
+tx_list = []
+tx_exp_list = []
+for folder in data_folders:
+    case_id = folder.stem.split("-short-")[-1]
+    cap_data = load_data(folder, "resource_capacity.csv")
+    cap_data = cap_data.query("unit=='MW' and not tech_type.isna()")
+    cap_data["case"] = case_id
+    cap_list.append(cap_data)
+
+    gen_data = load_data(folder, "generation.csv")
+    gen_data["case"] = case_id
+    gen_list.append(gen_data)
+
+    emiss_data = load_data(folder, "emissions.csv")
+    emiss_data.loc[emiss_data["unit"] == "kg", "value"] /= 1000
+    emiss_data["case"] = case_id
+    emiss_list.append(emiss_data)
+
+    tx_data = load_data(folder, "transmission.csv")
+    tx_data["case"] = case_id
+    tx_list.append(tx_data)
+
+    tx_exp_data = load_data(folder, "transmission_expansion.csv")
+    tx_exp_data["case"] = case_id
+    tx_exp_list.append(tx_exp_data)
+
+cap = pd.concat(cap_list, ignore_index=True)
+gen = pd.concat(gen_list, ignore_index=True)
+emiss = pd.concat(emiss_list, ignore_index=True)
+tx = pd.concat(tx_list, ignore_index=True)
+tx_exp = pd.concat(tx_exp_list, ignore_index=True)
+
+tx["start_region"] = tx["line_name"].str.split("_to_").str[0]
+tx["dest_region"] = tx["line_name"].str.split("_to_").str[1]
+
+first_year = tx["planning_year"].min()
+starting_tx = tx.loc[tx["planning_year"] == first_year, :]
+starting_tx = starting_tx.rename(columns={"start_value": "value"})
+starting_tx["planning_year"] = 2023
+
+tx_exp["start_region"] = tx_exp["line_name"].str.split("_to_").str[0]
+tx_exp["dest_region"] = tx_exp["line_name"].str.split("_to_").str[1]
+
+
+
+
+```
+
+```{python}
+# | output: false
+def change_from_base_case(df: pd.DataFrame, value_col: str, base_case: str = "base-200"):
+    group_cols = ["case", "model", "planning_year", "zone", "tech_type", "resource_name", "line_name"]
+    group_cols = [c for c in group_cols if c in df.columns]
+    # cap.set_index()
+    df = df.groupby(group_cols
+        ,
+        as_index=False,
+    )[value_col].sum()
+    base_df = df.query("case == @base_case")
+    base_df = base_df.set_index(
+        group_cols[1:]
+    )
+    df_list = []
+    for case, _df in df.groupby("case"):
+        _df = _df.set_index(
+            group_cols[1:]
+        )
+        # if case != base_case:
+        _df[value_col] -= base_df[value_col]
+        df_list.append(_df)
+        _df["case"] = case
+    return pd.concat(df_list).reset_index()
+
+
+```
+
+# Capacity
+
+```{python}
+_cap = change_from_base_case(cap, "end_value")
+chart = chart_total_cap(_cap, "case", "model")
+chart
+```
+
+# Generation
+
+```{python}
+_gen = change_from_base_case(gen, "value")
+chart = chart_total_gen(_gen, None, "case", "model")
+chart
+```
+
+# Emissions
+
+```{python}
+_emiss = change_from_base_case(emiss, "value")
+chart = chart_emissions(_emiss, "case", "model")
+chart
+```
+
+# Transmission view 1
+
+```{python}
+tx_all = pd.concat([starting_tx, tx_exp])
+_tx_all = change_from_base_case(tx_all, "value")
+chart = chart_tx_expansion(_tx_all, x_var="case", facet_col=None, col_var="line_name", row_var="model")
+chart
+```
+
+# Transmission view 2
+## Row
+
+#### Column {.tabset}
+
+```{python}
+# | title: GenX
+tx_all = pd.concat([starting_tx, tx_exp])
+chart = chart_tx_expansion(_tx_all.query("model=='GenX'"), "case")
+chart
+```
+```{python}
+# | title: TEMOA
+chart = chart_tx_expansion(_tx_all.query("model=='TEMOA'"), "case")
+chart
+```
+```{python}
+# | title: SWITCH
+chart = chart_tx_expansion(_tx_all.query("model=='SWITCH'"), "case")
+chart
+```
+```{python}
+# | title: USENSYS
+chart = chart_tx_expansion(_tx_all.query("model=='USENSYS'"), "case")
+chart
+```
