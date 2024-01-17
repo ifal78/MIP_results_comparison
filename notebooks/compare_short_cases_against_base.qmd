@@ -75,6 +75,9 @@ for folder in data_folders:
 
 cap = pd.concat(cap_list, ignore_index=True)
 gen = pd.concat(gen_list, ignore_index=True)
+for hour in [2, 4, 6, 8]:
+    cap["resource_name"] = cap["resource_name"].str.replace(f"_{hour}hour", "")
+    gen["resource_name"] = gen["resource_name"].str.replace(f"_{hour}hour", "")
 emiss = pd.concat(emiss_list, ignore_index=True)
 tx = pd.concat(tx_list, ignore_index=True)
 tx_exp = pd.concat(tx_exp_list, ignore_index=True)
