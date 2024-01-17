@@ -447,6 +447,12 @@ def chart_wind_dispatch(data: pd.DataFrame) -> alt.Chart:
 
 
 def chart_op_cost(op_costs: pd.DataFrame) -> alt.Chart:
+    _tooltip = [alt.Tooltip("Total", format=",.0f")]
+    chart_cols = ["Costs", "Total", "model"]
+    if "percent_total" in op_costs.columns:
+        _tooltip.append(alt.Tooltip("percent_total:Q", format=".1%"))
+        chart_cols.append("percent_total")
+
     if op_costs.empty:
         return None
     base = (
@@ -457,7 +463,7 @@ def chart_op_cost(op_costs: pd.DataFrame) -> alt.Chart:
             x="model:N",
             y=alt.Y("Total").title("Costs"),
             color="Costs:N",
-            tooltip=alt.Tooltip("Total", format=",.0f"),
+            tooltip=_tooltip,
         )
     )
 
@@ -472,9 +478,7 @@ def chart_op_cost(op_costs: pd.DataFrame) -> alt.Chart:
     chart = alt.layer(
         base,
         text,
-        data=op_costs[["Costs", "Total", "model"]].query(
-            "Total>0 and Costs != 'cTotal'"
-        ),
+        data=op_costs[chart_cols].query("Total>0 and Costs != 'cTotal'"),
     ).properties(width=250, height=250)
 
     return chart
