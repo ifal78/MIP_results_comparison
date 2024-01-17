@@ -109,7 +109,44 @@ def load_genx_operations_data(data_path: Path, fn: str) -> pd.DataFrame:
     if not df_list:
         return pd.DataFrame()
     df = pd.concat(df_list, ignore_index=True)
+    df = add_genx_op_network_cost(df, data_path).pipe(calc_op_percent_total)
     return df
+
+
+def calc_op_percent_total(op_costs: pd.DataFrame) -> pd.DataFrame:
+    df_list = []
+    for _, _df in op_costs.groupby("model"):
+        _df["percent_total"] = _df["Total"] / _df["Total"].sum()
+        df_list.append(_df)
+    return pd.concat(df_list)
+
+
+def add_genx_op_network_cost(
+    op_costs: pd.DataFrame,
+    data_path: Path,
+    original_network_fn: str = "original_network.csv",
+    final_network_fn: str = "Network.csv",
+) -> pd.DataFrame:
+    read_cols = [
+        "Network_Lines",
+        "Line_Max_Flow_MW",
+        "Line_Reinforcement_Cost_per_MWyr",
+    ]
+    for f in data_path.rglob(original_network_fn):
+        original_df = pd.read_csv(f, usecols=read_cols).set_index("Network_Lines")
+        final_df = pd.read_csv(
+            f.parent / final_network_fn, usecols=read_cols
+        ).set_index("Network_Lines")
+        model = f.parts[-2].split("_")[0]
+        new_tx_cost = (
+            (final_df["Line_Max_Flow_MW"] - original_df["Line_Max_Flow_MW"])
+            * original_df["Line_Reinforcement_Cost_per_MWyr"]
+        ).sum()
+        op_costs.loc[
+            (op_costs["model"] == model) & (op_costs["Costs"] == "cNetworkExp"), "Total"
+        ] = new_tx_cost
+
+    return op_costs
 
 
 def reverse_line_name(s: str) -> str:
