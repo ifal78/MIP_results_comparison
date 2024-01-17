@@ -97,23 +97,54 @@ tx_exp["dest_region"] = tx_exp["line_name"].str.split("_to_").str[1]
 
 ```{python}
 # | output: false
-def change_from_base_case(df: pd.DataFrame, value_col: str, base_case: str = "base-200"):
-    group_cols = ["case", "model", "planning_year", "zone", "tech_type", "resource_name", "line_name"]
+
+
+def reindex_data(df: pd.DataFrame, idx_cols, value_col: str) -> pd.DataFrame:
+    df = df.set_index(idx_cols)
+    full_set = df.query("model=='GenX'")
+
+    df_list = []
+    for model, _df in df.groupby("model"):
+        _df = _df.reindex(index=full_set.index, fill_value=0)
+        _df["model"] = model
+        df_list.append(_df)
+
+    reindex = pd.concat(df_list).reset_index()
+
+    df_list = []
+    for _, _df in reindex.groupby(["model", "case"]):
+        if _df[value_col].sum() != 0:
+            df_list.append(_df)
+
+    return pd.concat(df_list)
+
+
+def change_from_base_case(
+    df: pd.DataFrame, value_col: str, base_case: str = "base-200"
+):
+    group_cols = [
+        "case",
+        "model",
+        "planning_year",
+        "zone",
+        "tech_type",
+        "resource_name",
+        "line_name",
+    ]
     group_cols = [c for c in group_cols if c in df.columns]
     # cap.set_index()
-    df = df.groupby(group_cols
-        ,
+    df = df.groupby(
+        group_cols,
         as_index=False,
     )[value_col].sum()
-    base_df = df.query("case == @base_case")
-    base_df = base_df.set_index(
-        group_cols[1:]
+    df = reindex_data(
+        df, idx_cols=[group_cols[0]] + group_cols[2:], value_col=value_col
     )
+    base_df = df.query("case == @base_case")
+    base_df = base_df.set_index(group_cols[1:])
     df_list = []
     for case, _df in df.groupby("case"):
-        _df = _df.set_index(
-            group_cols[1:]
-        )
+        _df = _df.set_index(group_cols[1:])
         # if case != base_case:
         _df[value_col] -= base_df[value_col]
         df_list.append(_df)
