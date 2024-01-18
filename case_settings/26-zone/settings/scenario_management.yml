@@ -274,21 +274,21 @@ settings_management:
           MinCapTag_4:
             description: ISNE_offshorewind
             min_mw: 745
-          MinCapTag_6:
-            description: NY_storage
-            min_mw: 0
-          MinCapTag_7:
-            description: PJME_storage
-            min_mw: 0
-          MinCapTag_8:
-            description: PJMD_storage
-            min_mw: 0
-          MinCapTag_9:
-            description: ISNE_storage
-            min_mw: 1300
-          MinCapTag_10:
-            description: BASN_storage
-            min_mw: 0
+          # MinCapTag_6:
+          #   description: NY_storage
+          #   min_mw: 0
+          # MinCapTag_7:
+          #   description: PJME_storage
+          #   min_mw: 0
+          # MinCapTag_8:
+          #   description: PJMD_storage
+          #   min_mw: 0
+          # MinCapTag_9:
+          #   description: ISNE_storage
+          #   min_mw: 1300
+          # MinCapTag_10:
+          #   description: BASN_storage
+          #   min_mw: 0
     limitedtransmission:
       no:
         tx_expansion_per_period: 10
@@ -739,21 +739,21 @@ settings_management:
           MinCapTag_5:
             description: SRCA_offshorewind
             min_mw: 2800
-          MinCapTag_6:
-            description: NY_storage
-            min_mw: 6000
-          MinCapTag_7:
-            description: PJME_storage
-            min_mw: 2000
-          MinCapTag_8:
-            description: PJMD_storage
-            min_mw: 0
-          MinCapTag_9:
-            description: ISNE_storage
-            min_mw: 2400
-          MinCapTag_10:
-            description: BASN_storage
-            min_mw: 1000
+          # MinCapTag_6:
+          #   description: NY_storage
+          #   min_mw: 6000
+          # MinCapTag_7:
+          #   description: PJME_storage
+          #   min_mw: 2000
+          # MinCapTag_8:
+          #   description: PJMD_storage
+          #   min_mw: 0
+          # MinCapTag_9:
+          #   description: ISNE_storage
+          #   min_mw: 2400
+          # MinCapTag_10:
+          #   description: BASN_storage
+          #   min_mw: 1000
     limitedtransmission:
       no:
         tx_expansion_per_period: 10
@@ -1200,21 +1200,21 @@ settings_management:
           MinCapTag_5:
             description: SRCA_offshorewind
             min_mw: 2800
-          MinCapTag_6:
-            description: NY_storage
-            min_mw: 6000
-          MinCapTag_7:
-            description: PJME_storage
-            min_mw: 2000
-          MinCapTag_8:
-            description: PJMD_storage
-            min_mw: 3100
-          MinCapTag_9:
-            description: ISNE_storage
-            min_mw: 2400
-          MinCapTag_10:
-            description: BASN_storage
-            min_mw: 1000
+          # MinCapTag_6:
+          #   description: NY_storage
+          #   min_mw: 6000
+          # MinCapTag_7:
+          #   description: PJME_storage
+          #   min_mw: 2000
+          # MinCapTag_8:
+          #   description: PJMD_storage
+          #   min_mw: 3100
+          # MinCapTag_9:
+          #   description: ISNE_storage
+          #   min_mw: 2400
+          # MinCapTag_10:
+          #   description: BASN_storage
+          #   min_mw: 1000
     limitedtransmission:
       no:
         tx_expansion_per_period: 10
@@ -1663,21 +1663,21 @@ settings_management:
           MinCapTag_5:
             description: SRCA_offshorewind
             min_mw: 8000
-          MinCapTag_6:
-            description: NY_storage
-            min_mw: 6000
-          MinCapTag_7:
-            description: PJME_storage
-            min_mw: 2000
-          MinCapTag_8:
-            description: PJMD_storage
-            min_mw: 3100
-          MinCapTag_9:
-            description: ISNE_storage
-            min_mw: 2400
-          MinCapTag_10:
-            description: BASN_storage
-            min_mw: 1000
+          # MinCapTag_6:
+          #   description: NY_storage
+          #   min_mw: 6000
+          # MinCapTag_7:
+          #   description: PJME_storage
+          #   min_mw: 2000
+          # MinCapTag_8:
+          #   description: PJMD_storage
+          #   min_mw: 3100
+          # MinCapTag_9:
+          #   description: ISNE_storage
+          #   min_mw: 2400
+          # MinCapTag_10:
+          #   description: BASN_storage
+          #   min_mw: 1000
     limitedtransmission:
       no:
         tx_expansion_per_period: 10
@@ -2124,21 +2124,21 @@ settings_management:
           MinCapTag_5:
             description: SRCA_offshorewind
             min_mw: 8000
-          MinCapTag_6:
-            description: NY_storage
-            min_mw: 6000
-          MinCapTag_7:
-            description: PJME_storage
-            min_mw: 2000
-          MinCapTag_8:
-            description: PJMD_storage
-            min_mw: 3100
-          MinCapTag_9:
-            description: ISNE_storage
-            min_mw: 2400
-          MinCapTag_10:
-            description: BASN_storage
-            min_mw: 1000
+          # MinCapTag_6:
+          #   description: NY_storage
+          #   min_mw: 6000
+          # MinCapTag_7:
+          #   description: PJME_storage
+          #   min_mw: 2000
+          # MinCapTag_8:
+          #   description: PJMD_storage
+          #   min_mw: 3100
+          # MinCapTag_9:
+          #   description: ISNE_storage
+          #   min_mw: 2400
+          # MinCapTag_10:
+          #   description: BASN_storage
+          #   min_mw: 1000
     limitedtransmission:
       no:
         tx_expansion_per_period: 10
@@ -2587,21 +2587,21 @@ settings_management:
           MinCapTag_5:
             description: SRCA_offshorewind
             min_mw: 8000
-          MinCapTag_6:
-            description: NY_storage
-            min_mw: 6000
-          MinCapTag_7:
-            description: PJME_storage
-            min_mw: 2000
-          MinCapTag_8:
-            description: PJMD_storage
-            min_mw: 3100
-          MinCapTag_9:
-            description: ISNE_storage
-            min_mw: 2400
-          MinCapTag_10:
-            description: BASN_storage
-            min_mw: 1000
+          # MinCapTag_6:
+          #   description: NY_storage
+          #   min_mw: 6000
+          # MinCapTag_7:
+          #   description: PJME_storage
+          #   min_mw: 2000
+          # MinCapTag_8:
+          #   description: PJMD_storage
+          #   min_mw: 3100
+          # MinCapTag_9:
+          #   description: ISNE_storage
+          #   min_mw: 2400
+          # MinCapTag_10:
+          #   description: BASN_storage
+          #   min_mw: 1000
     limitedtransmission:
       no:
         tx_expansion_per_period: 10
