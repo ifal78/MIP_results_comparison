@@ -49,6 +49,7 @@ gen_list = []
 emiss_list = []
 tx_list = []
 tx_exp_list = []
+op_cost_list = []
 for folder in data_folders:
     case_id = folder.stem.split("-short-")[-1]
     cap_data = load_data(folder, "resource_capacity.csv")
@@ -73,11 +74,16 @@ for folder in data_folders:
     tx_exp_data["case"] = case_id
     tx_exp_list.append(tx_exp_data)
 
+    op_cost_data = load_genx_operations_data(folder, "costs.csv")
+    op_cost_data["case"] = case_id
+    op_cost_list.append(op_cost_data)
+
 cap = pd.concat(cap_list, ignore_index=True)
 gen = pd.concat(gen_list, ignore_index=True)
 emiss = pd.concat(emiss_list, ignore_index=True)
 tx = pd.concat(tx_list, ignore_index=True)
 tx_exp = pd.concat(tx_exp_list, ignore_index=True)
+op_costs = pd.concat(op_cost_list, ignore_index=True)
 
 tx["start_region"] = tx["line_name"].str.split("_to_").str[0]
 tx["dest_region"] = tx["line_name"].str.split("_to_").str[1]
@@ -115,10 +121,20 @@ chart
 ```
 
 # Transmission view 1
+## Row
+
+#### Column {.tabset}
 
 ```{python}
+# | title: Expansion by line
 tx_all = pd.concat([starting_tx, tx_exp])
 chart = chart_tx_expansion(tx_all, x_var="case", facet_col=None, col_var="line_name", row_var="model")
+chart
+```
+
+```{python}
+# | title: Total expansion
+chart = chart_tx_expansion(tx_all, x_var="case", facet_col=None, col_var="model")
 chart
 ```
 
@@ -146,5 +162,16 @@ chart
 ```{python}
 # | title: USENSYS
 chart = chart_tx_expansion(tx_all.query("model=='USENSYS'"), "case")
+chart
+```
+
+
+# Operational Results
+## Row {.tabset}
+
+```{python}
+# | title: Operational costs
+# op_costs = load_genx_operations_data(data_path, "costs.csv")
+chart = chart_op_cost(op_costs, "case", "model")
 chart
 ```

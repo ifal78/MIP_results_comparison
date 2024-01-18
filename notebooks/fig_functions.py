@@ -1,5 +1,6 @@
 import os
 from typing import Dict, List
+import numpy as np
 
 import pandas as pd
 import altair as alt
@@ -109,7 +110,8 @@ def load_genx_operations_data(data_path: Path, fn: str) -> pd.DataFrame:
     if not df_list:
         return pd.DataFrame()
     df = pd.concat(df_list, ignore_index=True)
-    df = add_genx_op_network_cost(df, data_path).pipe(calc_op_percent_total)
+    if fn == "costs.csv":
+        df = add_genx_op_network_cost(df, data_path).pipe(calc_op_percent_total)
     return df
 
 
@@ -380,6 +382,15 @@ def chart_tx_expansion(
     )
     if facet_col is not None:
         chart = chart.encode(facet=alt.Facet(facet_col, columns=n_cols))
+    elif col_var is None and row_var is None:
+        text = (
+            alt.Chart()
+            .mark_text(dy=-5)
+            .encode(
+                x=x_var, y="sum(value):Q", text=alt.Text("sum(value):Q", format=".1e")
+            )
+        )
+        chart = alt.layer(chart, text, data=data).properties(width=alt.Step(40))
     if col_var is not None:
         chart = chart.encode(column=col_var)
     if row_var is not None:
@@ -483,13 +494,21 @@ def chart_wind_dispatch(data: pd.DataFrame) -> alt.Chart:
     return chart
 
 
-def chart_op_cost(op_costs: pd.DataFrame) -> alt.Chart:
+def chart_op_cost(
+    op_costs: pd.DataFrame,
+    x_var="model",
+    col_var=None,
+) -> alt.Chart:
     _tooltip = [alt.Tooltip("Total", format=",.0f")]
-    chart_cols = ["Costs", "Total", "model"]
+    chart_cols = ["Costs", "Total", x_var]
+
     if "percent_total" in op_costs.columns:
         _tooltip.append(alt.Tooltip("percent_total:Q", format=".1%"))
         chart_cols.append("percent_total")
-
+    if col_var is not None:
+        _tooltip.append(alt.Tooltip(col_var))
+        _tooltip.append(alt.Tooltip("Costs"))
+        chart_cols.append(col_var)
     if op_costs.empty:
         return None
     base = (
@@ -497,7 +516,7 @@ def chart_op_cost(op_costs: pd.DataFrame) -> alt.Chart:
         .mark_bar()
         .encode(
             # xOffset="model:N",
-            x="model:N",
+            x=x_var,
             y=alt.Y("Total").title("Costs"),
             color="Costs:N",
             tooltip=_tooltip,
@@ -507,9 +526,7 @@ def chart_op_cost(op_costs: pd.DataFrame) -> alt.Chart:
     text = (
         alt.Chart()
         .mark_text(dy=-5)
-        .encode(
-            x="model", y="sum(Total):Q", text=alt.Text("sum(Total):Q", format=".2e")
-        )
+        .encode(x=x_var, y="sum(Total):Q", text=alt.Text("sum(Total):Q", format=".2e"))
     )
 
     chart = alt.layer(
@@ -517,6 +534,9 @@ def chart_op_cost(op_costs: pd.DataFrame) -> alt.Chart:
         text,
         data=op_costs[chart_cols].query("Total>0 and Costs != 'cTotal'"),
     ).properties(width=250, height=250)
+
+    if col_var is not None:
+        chart = chart.facet(column=col_var)
 
     return chart
 

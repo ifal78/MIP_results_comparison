@@ -182,11 +182,22 @@ chart
 ```
 
 # Transmission view 1
+## Row
 
+#### Column {.tabset}
 ```{python}
+# | title: Expansion by line
 tx_all = pd.concat([starting_tx, tx_exp])
 _tx_all = change_from_base_case(tx_all, "value")
 chart = chart_tx_expansion(_tx_all, x_var="case", facet_col=None, col_var="line_name", row_var="model")
+chart
+```
+
+```{python}
+# | title: Total expansion
+# tx_all = pd.concat([starting_tx, tx_exp])
+# _tx_all = change_from_base_case(tx_all, "value")
+chart = chart_tx_expansion(_tx_all, x_var="case", facet_col=None, col_var="model")
 chart
 ```
 

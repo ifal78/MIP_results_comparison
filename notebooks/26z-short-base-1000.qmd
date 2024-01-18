@@ -130,10 +130,17 @@ chart
 
 # Transmission Expansion
 ## Row
+#### Column {.tabset}
 ```{python}
-# | title: Transmission expansion
+# | title: Expansion by line
 data = pd.concat([starting_tx, tx_exp])
 chart = chart_tx_expansion(data)
+chart
+```
+```{python}
+# | title: Total expansion
+data = pd.concat([starting_tx, tx_exp])
+chart = chart_tx_expansion(data, facet_col=None)
 chart
 ```
 
