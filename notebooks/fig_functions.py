@@ -100,11 +100,18 @@ def load_data(data_path: Path, fn: str) -> pd.DataFrame:
     return df
 
 
-def load_genx_operations_data(data_path: Path, fn: str) -> pd.DataFrame:
+def load_genx_operations_data(
+    data_path: Path, fn: str, period_dict={"p1": 2030, "p2": 2040, "p3": 2050}
+) -> pd.DataFrame:
     df_list = []
     for f in data_path.rglob(fn):
+        model_part = -3
         _df = pd.read_csv(f)
-        model = f.parts[-3].split("_")[0]
+        if "Results_p" in str(f):
+            period = period_dict[f.parent.stem.split("_")[-1]]
+            _df["planning_year"] = period
+            model_part = -4
+        model = f.parts[model_part].split("_")[0]
         _df["model"] = model
         df_list.append(_df)
     if not df_list:
@@ -115,9 +122,11 @@ def load_genx_operations_data(data_path: Path, fn: str) -> pd.DataFrame:
     return df
 
 
-def calc_op_percent_total(op_costs: pd.DataFrame) -> pd.DataFrame:
+def calc_op_percent_total(op_costs: pd.DataFrame, group_by=["model"]) -> pd.DataFrame:
+    if "planning_year" in op_costs.columns:
+        group_by.append("planning_year")
     df_list = []
-    for _, _df in op_costs.groupby("model"):
+    for _, _df in op_costs.query("Costs != 'cTotal'").groupby(group_by):
         _df["percent_total"] = _df["Total"] / _df["Total"].sum()
         df_list.append(_df)
     return pd.concat(df_list)
@@ -128,6 +137,7 @@ def add_genx_op_network_cost(
     data_path: Path,
     original_network_fn: str = "original_network.csv",
     final_network_fn: str = "Network.csv",
+    period_dict={"p1": 2030, "p2": 2040, "p3": 2050},
 ) -> pd.DataFrame:
     read_cols = [
         "Network_Lines",
@@ -135,18 +145,32 @@ def add_genx_op_network_cost(
         "Line_Reinforcement_Cost_per_MWyr",
     ]
     for f in data_path.rglob(original_network_fn):
+        model_part = -2
         original_df = pd.read_csv(f, usecols=read_cols).set_index("Network_Lines")
+        if "Inputs_p" in str(f):
+            model_part = -4
+            period = period_dict[f.parent.stem.split("_")[-1]]
+
         final_df = pd.read_csv(
             f.parent / final_network_fn, usecols=read_cols
         ).set_index("Network_Lines")
-        model = f.parts[-2].split("_")[0]
+        model = f.parts[model_part].split("_")[0]
         new_tx_cost = (
             (final_df["Line_Max_Flow_MW"] - original_df["Line_Max_Flow_MW"])
             * original_df["Line_Reinforcement_Cost_per_MWyr"]
         ).sum()
-        op_costs.loc[
-            (op_costs["model"] == model) & (op_costs["Costs"] == "cNetworkExp"), "Total"
-        ] = new_tx_cost
+        if "Inputs_p" in str(f):
+            op_costs.loc[
+                (op_costs["model"] == model)
+                & (op_costs["Costs"] == "cNetworkExp")
+                & (op_costs["planning_year"] == period),
+                "Total",
+            ] = new_tx_cost
+        else:
+            op_costs.loc[
+                (op_costs["model"] == model) & (op_costs["Costs"] == "cNetworkExp"),
+                "Total",
+            ] = new_tx_cost
 
     return op_costs
 
@@ -499,6 +523,8 @@ def chart_op_cost(
     x_var="model",
     col_var=None,
 ) -> alt.Chart:
+    if "planning_year" in op_costs.columns:
+        col_var = "planning_year"
     _tooltip = [alt.Tooltip("Total", format=",.0f")]
     chart_cols = ["Costs", "Total", x_var]
 
@@ -541,20 +567,32 @@ def chart_op_cost(
     return chart
 
 
-def chart_op_nse(op_nse: pd.DataFrame) -> alt.Chart:
+def chart_op_nse(
+    op_nse: pd.DataFrame,
+    x_var="model",
+    col_var=None,
+) -> alt.Chart:
+    cols = ["Segment", "Total", "model"]
+    if "planning_year" in op_nse:
+        col_var = "planning_year"
+    if col_var is not None:
+        cols.append(col_var)
     if op_nse.empty:
         return None
+
     chart = (
-        alt.Chart(op_nse[["Segment", "Total", "model"]].query("Segment == 'AnnualSum'"))
+        alt.Chart(op_nse[cols].query("Segment == 'AnnualSum'"))
         .mark_bar()
         .encode(
             # xOffset="model:N",
-            x="model:N",
+            x=x_var,
             y=alt.Y("Total").title("Annual non-served MWh"),
             color="model:N",
             tooltip=alt.Tooltip("Total", format=",.0f"),
         )
         .properties(width=250, height=250)
     )
+    if col_var is not None:
+        chart = chart.facet(column=col_var)
 
     return chart
