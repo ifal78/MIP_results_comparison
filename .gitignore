@@ -124,6 +124,10 @@ venv.bak/
 .Rproj.user
 
 # GenX operational results. Only keep the costs and nse files used for charts
-**/Results/*
-!**/Results/costs.csv
-!**/Results/nse.csv
+**/Results_p1/*.csv
+**/Results_p2/*.csv
+**/Results_p3/*.csv
+**/Results/*.csv
+
+!**/costs.csv
+!**/nse.csv
