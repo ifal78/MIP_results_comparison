@@ -122,11 +122,12 @@ def load_genx_operations_data(
     return df
 
 
-def calc_op_percent_total(op_costs: pd.DataFrame, group_by=["model"]) -> pd.DataFrame:
-    if "planning_year" in op_costs.columns:
-        group_by.append("planning_year")
+def calc_op_percent_total(
+    op_costs: pd.DataFrame, group_by=["model", "planning_year"]
+) -> pd.DataFrame:
+    by = [c for c in group_by if c in op_costs.columns]
     df_list = []
-    for _, _df in op_costs.query("Costs != 'cTotal'").groupby(group_by):
+    for _, _df in op_costs.query("Costs != 'cTotal'").groupby(by):
         _df["percent_total"] = _df["Total"] / _df["Total"].sum()
         df_list.append(_df)
     return pd.concat(df_list)
