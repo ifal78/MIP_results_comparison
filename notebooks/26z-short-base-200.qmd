@@ -7,7 +7,9 @@ jupyter: python3
 ---
 
 ```{python}
-#| output: false
+# | output: false
+%load_ext autoreload
+%autoreload 2
 folder = "26z-short-base-200"
 import os
 from typing import Dict, List
@@ -28,7 +30,8 @@ from fig_functions import (
     chart_dispatch,
     chart_wind_dispatch,
     chart_op_cost,
-    chart_op_nse
+    chart_op_nse,
+    chart_op_emiss,
 )
 
 alt.renderers.enable("html")
@@ -39,7 +42,6 @@ data_path = cwd.parent / folder
 
 cwd = Path.cwd()
 data_path = cwd.parent / folder
-
 
 
 fig_num = 0
@@ -234,5 +236,38 @@ chart
 # | title: Operational NSE
 op_nse = load_genx_operations_data(data_path, "nse.csv")
 chart = chart_op_nse(op_nse)
+chart
+```
+
+```{python}
+# | title: Generation
+op_gen_cap = load_genx_operations_data(data_path, "capacityfactor.csv").query(
+    "~tech_type.str.contains('Other')"
+)
+op_gen = op_gen_cap[
+    ["tech_type", "planning_year", "model", "AnnualSum", "resource_name"]
+].rename(columns={"AnnualSum": "value"})
+op_cap = op_gen_cap[
+    ["tech_type", "planning_year", "model", "Capacity", "resource_name"]
+].rename(columns={"Capacity": "end_value"})
+op_cap["unit"] = "MW"
+
+
+chart = chart_total_gen(op_gen, op_cap)
+chart
+```
+
+```{python}
+# | title: Emissions by tech
+op_emiss = load_genx_operations_data(
+    data_path, "emissions_plant.csv", hourly_data=True
+).query("~tech_type.str.contains('Other')")
+chart = chart_op_emiss(op_emiss, col_var="planning_year", color="tech_type")
+chart
+```
+
+```{python}
+# | title: Emissions by zone
+chart = chart_op_emiss(op_emiss, col_var="planning_year", color="zone")
 chart
 ```

@@ -101,16 +101,28 @@ def load_data(data_path: Path, fn: str) -> pd.DataFrame:
 
 
 def load_genx_operations_data(
-    data_path: Path, fn: str, period_dict={"p1": 2030, "p2": 2040, "p3": 2050}
+    data_path: Path,
+    fn: str,
+    period_dict={"p1": 2030, "p2": 2040, "p3": 2050},
+    hourly_data: bool = False,
 ) -> pd.DataFrame:
     df_list = []
+    nrows = None
+    if hourly_data:
+        nrows = 5
     for f in data_path.rglob(fn):
         model_part = -3
-        _df = pd.read_csv(f)
+        _df = pd.read_csv(f, nrows=nrows)
+        if hourly_data:
+            _df = total_from_op_hourly_data(_df)
         if "Results_p" in str(f):
             period = period_dict[f.parent.stem.split("_")[-1]]
             _df["planning_year"] = period
             model_part = -4
+        elif "Inputs_p" in str(f):
+            period = period_dict[f.parents[1].stem.split("_")[-1]]
+            _df["planning_year"] = period
+            model_part = -5
         model = f.parts[model_part].split("_")[0]
         _df["model"] = model
         df_list.append(_df)
@@ -119,7 +131,22 @@ def load_genx_operations_data(
     df = pd.concat(df_list, ignore_index=True)
     if fn == "costs.csv":
         df = add_genx_op_network_cost(df, data_path).pipe(calc_op_percent_total)
+    if "Resource" in df.columns:
+        df = df.rename(columns={"Resource": "resource_name"}).pipe(tech_to_type)
+        df["zone"] = df["resource_name"].str.split("_").str[0]
+        df.loc[df["resource_name"].str.contains("TRE_WEST"), "zone"] = "TRE_WEST"
     return df
+
+
+def total_from_op_hourly_data(df: pd.DataFrame) -> pd.DataFrame:
+    data = pd.DataFrame(
+        {
+            "Resource": df.columns[1:-1],
+            "value": df.iloc[1, 1:-1],
+        }
+    ).reset_index(drop=True)
+
+    return data
 
 
 def calc_op_percent_total(
@@ -523,8 +550,9 @@ def chart_op_cost(
     op_costs: pd.DataFrame,
     x_var="model",
     col_var=None,
+    row_var=None,
 ) -> alt.Chart:
-    if "planning_year" in op_costs.columns:
+    if col_var is None and "planning_year" in op_costs.columns:
         col_var = "planning_year"
     _tooltip = [alt.Tooltip("Total", format=",.0f")]
     chart_cols = ["Costs", "Total", x_var]
@@ -536,6 +564,8 @@ def chart_op_cost(
         _tooltip.append(alt.Tooltip(col_var))
         _tooltip.append(alt.Tooltip("Costs"))
         chart_cols.append(col_var)
+    if row_var is not None:
+        _tooltip.append(alt.Tooltip(row_var))
     if op_costs.empty:
         return None
     base = (
@@ -562,8 +592,14 @@ def chart_op_cost(
         data=op_costs[chart_cols].query("Total>0 and Costs != 'cTotal'"),
     ).properties(width=250, height=250)
 
-    if col_var is not None:
+    if row_var is None and col_var is None:
+        return chart
+    elif row_var is None and col_var is not None:
         chart = chart.facet(column=col_var)
+    elif col_var is None and row_var is not None:
+        chart = chart.facet(row=row_var)
+    else:
+        chart = chart.facet(row=row_var, column=col_var)
 
     return chart
 
@@ -595,5 +631,69 @@ def chart_op_nse(
     )
     if col_var is not None:
         chart = chart.facet(column=col_var)
+
+    return chart
+
+
+def chart_op_emiss(
+    op_emiss: pd.DataFrame,
+    x_var="model",
+    color="tech_type",
+    col_var=None,
+    row_var=None,
+) -> alt.Chart:
+    if col_var is None and "planning_year" in op_emiss.columns:
+        col_var = "planning_year"
+    _tooltip = [
+        alt.Tooltip("value", format=",.0f", title="Emissions"),
+        alt.Tooltip(color),
+    ]
+    by = [color, x_var]
+
+    color_scale = "category10"
+    if op_emiss[color].nunique() > 10:
+        color_scale = "tableau20"
+    print(color_scale)
+    if col_var is not None:
+        _tooltip.append(alt.Tooltip(col_var))
+        by.append(col_var)
+    if row_var is not None:
+        _tooltip.append(alt.Tooltip(row_var))
+        by.append(row_var)
+    if op_emiss.empty:
+        return None
+    data = op_emiss.groupby(by, as_index=False)["value"].sum().query("value>0")
+    base = (
+        alt.Chart()
+        .mark_bar()
+        .encode(
+            # xOffset="model:N",
+            x=x_var,
+            y=alt.Y("value").title("Emissions (tonnes)"),
+            color=alt.Color(color).scale(scheme=color_scale),
+            tooltip=_tooltip,
+        )
+    )
+
+    text = (
+        alt.Chart()
+        .mark_text(dy=-5)
+        .encode(x=x_var, y="sum(value):Q", text=alt.Text("sum(value):Q", format=".2e"))
+    )
+
+    chart = alt.layer(
+        base,
+        text,
+        data=data,
+    ).properties(width=250, height=250)
+
+    if row_var is None and col_var is None:
+        return chart
+    elif row_var is None and col_var is not None:
+        chart = chart.facet(column=col_var)
+    elif col_var is None and row_var is not None:
+        chart = chart.facet(row=row_var)
+    else:
+        chart = chart.facet(row=row_var, column=col_var)
 
     return chart
