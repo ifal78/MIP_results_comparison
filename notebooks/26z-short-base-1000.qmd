@@ -237,7 +237,6 @@ chart
 # | title: Generation
 try:
     op_gen_cap = load_genx_operations_data(data_path, "capacityfactor.csv").query(
-    op_gen_cap = load_genx_operations_data(data_path, "capacityfactor.csv").query(
         "~tech_type.str.contains('Other')"
     )
     op_gen = op_gen_cap[
@@ -247,7 +246,6 @@ try:
         ["tech_type", "planning_year", "model", "Capacity", "resource_name"]
     ].rename(columns={"Capacity": "end_value"})
     op_cap["unit"] = "MW"
-
 
     chart = chart_total_gen(op_gen, op_cap)
     chart
