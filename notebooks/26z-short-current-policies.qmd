@@ -239,33 +239,43 @@ chart
 
 ```{python}
 # | title: Generation
-op_gen_cap = load_genx_operations_data(data_path, "capacityfactor.csv").query(
-    "~tech_type.str.contains('Other')"
-)
-op_gen = op_gen_cap[
-    ["tech_type", "planning_year", "model", "AnnualSum", "resource_name"]
-].rename(columns={"AnnualSum": "value"})
-op_cap = op_gen_cap[
-    ["tech_type", "planning_year", "model", "Capacity", "resource_name"]
-].rename(columns={"Capacity": "end_value"})
-op_cap["unit"] = "MW"
+try:
+    op_gen_cap = load_genx_operations_data(data_path, "capacityfactor.csv").query(
+    op_gen_cap = load_genx_operations_data(data_path, "capacityfactor.csv").query(
+        "~tech_type.str.contains('Other')"
+    )
+    op_gen = op_gen_cap[
+        ["tech_type", "planning_year", "model", "AnnualSum", "resource_name"]
+    ].rename(columns={"AnnualSum": "value"})
+    op_cap = op_gen_cap[
+        ["tech_type", "planning_year", "model", "Capacity", "resource_name"]
+    ].rename(columns={"Capacity": "end_value"})
+    op_cap["unit"] = "MW"
 
 
-chart = chart_total_gen(op_gen, op_cap)
-chart
+    chart = chart_total_gen(op_gen, op_cap)
+    chart
+except:
+    pass
 ```
 
 ```{python}
 # | title: Emissions by tech
-op_emiss = load_genx_operations_data(
-    data_path, "emissions_plant.csv", hourly_data=True
-).query("~tech_type.str.contains('Other')")
-chart = chart_op_emiss(op_emiss, col_var="planning_year", color="tech_type")
-chart
+try:
+    op_emiss = load_genx_operations_data(
+        data_path, "emissions_plant.csv", hourly_data=True
+    ).query("~tech_type.str.contains('Other')")
+    chart = chart_op_emiss(op_emiss, col_var="planning_year", color="tech_type")
+    chart
+except:
+    pass
 ```
 
 ```{python}
 # | title: Emissions by zone
-chart = chart_op_emiss(op_emiss, col_var="planning_year", color="zone")
-chart
+try:
+    chart = chart_op_emiss(op_emiss, col_var="planning_year", color="zone")
+    chart
+except:
+    pass
 ```
