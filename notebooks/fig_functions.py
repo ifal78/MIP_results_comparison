@@ -724,7 +724,9 @@ def chart_tx_map(tx_exp: pd.DataFrame, gdf: gpd.GeoDataFrame) -> alt.Chart:
             .project(type="albersUsa")
         )
         lines = (
-            alt.Chart(tx_exp.query("planning_year >= 2025 and model==@model"))
+            alt.Chart(
+                tx_exp.query("planning_year >= 2025 and model==@model and value > 0")
+            )
             .mark_rule()
             .encode(
                 latitude="lat1",
@@ -733,6 +735,7 @@ def chart_tx_map(tx_exp: pd.DataFrame, gdf: gpd.GeoDataFrame) -> alt.Chart:
                 longitude2="lon2",
                 strokeWidth="sum(value)",
                 color=alt.Color("sum(value):Q").scale(scheme="plasma"),
+                tooltip=[alt.Tooltip("line_name"), alt.Tooltip("sum(value)")],
             )
             .project(type="albersUsa")
         )
