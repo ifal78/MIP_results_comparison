@@ -87,6 +87,9 @@ settings_management:
       20_weeks:
         time_domain_periods: 20 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
+      15_weeks:
+        time_domain_periods: 15 # The number of periods/clusters
+        time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
       10_weeks:
         time_domain_periods: 10 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
@@ -467,6 +470,9 @@ settings_management:
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
       20_weeks:
         time_domain_periods: 20 # The number of periods/clusters
+        time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
+      15_weeks:
+        time_domain_periods: 15 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
       10_weeks:
         time_domain_periods: 10 # The number of periods/clusters
@@ -933,6 +939,9 @@ settings_management:
       20_weeks:
         time_domain_periods: 20 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
+      15_weeks:
+        time_domain_periods: 15 # The number of periods/clusters
+        time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
       10_weeks:
         time_domain_periods: 10 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
@@ -1393,6 +1402,9 @@ settings_management:
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
       20_weeks:
         time_domain_periods: 20 # The number of periods/clusters
+        time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
+      15_weeks:
+        time_domain_periods: 15 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
       10_weeks:
         time_domain_periods: 10 # The number of periods/clusters
@@ -1857,6 +1869,9 @@ settings_management:
       20_weeks:
         time_domain_periods: 20 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
+      15_weeks:
+        time_domain_periods: 15 # The number of periods/clusters
+        time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
       10_weeks:
         time_domain_periods: 10 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
@@ -2317,6 +2332,9 @@ settings_management:
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
       20_weeks:
         time_domain_periods: 20 # The number of periods/clusters
+        time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
+      15_weeks:
+        time_domain_periods: 15 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
       10_weeks:
         time_domain_periods: 10 # The number of periods/clusters
