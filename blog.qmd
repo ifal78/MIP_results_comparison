@@ -2,8 +2,8 @@
 title: Results
 listing: 
     contents: notebooks 
-    sort: "date desc" 
-    type: default 
+    sort: "title desc"
+    type: table 
     categories: true 
     sort-ui: false 
     filter-ui: true 
