@@ -566,6 +566,7 @@ def chart_op_cost(
         chart_cols.append(col_var)
     if row_var is not None:
         _tooltip.append(alt.Tooltip(row_var))
+        chart_cols.append(row_var)
     if op_costs.empty:
         return None
     base = (

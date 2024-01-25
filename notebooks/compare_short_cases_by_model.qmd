@@ -172,6 +172,6 @@ chart
 ```{python}
 # | title: Operational costs
 # op_costs = load_genx_operations_data(data_path, "costs.csv")
-chart = chart_op_cost(op_costs, "case", "model")
+chart = chart_op_cost(op_costs, "case", "model", "planning_year")
 chart
 ```
