@@ -3,6 +3,7 @@ from typing import Dict, List
 import numpy as np
 
 import pandas as pd
+import geopandas as gpd
 import altair as alt
 from pathlib import Path
 
@@ -698,3 +699,44 @@ def chart_op_emiss(
         chart = chart.facet(row=row_var, column=col_var)
 
     return chart
+
+
+gdf = gpd.read_file("conus_26z_latlon_simple.geojson")
+gdf = gdf.rename(columns={"model_region": "zone"})
+gdf["lat"] = gdf.geometry.centroid.y
+gdf["lon"] = gdf.geometry.centroid.x
+
+
+def chart_tx_map(tx_exp: pd.DataFrame, gdf: gpd.GeoDataFrame) -> alt.Chart:
+    tx_exp["lat1"] = tx_exp["start_region"].map(gdf.set_index("zone")["lat"])
+    tx_exp["lon1"] = tx_exp["start_region"].map(gdf.set_index("zone")["lon"])
+    tx_exp["lat2"] = tx_exp["dest_region"].map(gdf.set_index("zone")["lat"])
+    tx_exp["lon2"] = tx_exp["dest_region"].map(gdf.set_index("zone")["lon"])
+
+    model_figs = []
+    for model in tx_exp.model.unique():
+        background = (
+            alt.Chart(gdf, title=f"{model}")
+            .mark_geoshape(
+                stroke="white",
+                fill="lightgray",
+            )
+            .project(type="albersUsa")
+        )
+        lines = (
+            alt.Chart(tx_exp.query("planning_year >= 2025 and model==@model"))
+            .mark_rule()
+            .encode(
+                latitude="lat1",
+                longitude="lon1",
+                latitude2="lat2",
+                longitude2="lon2",
+                strokeWidth="sum(value)",
+                color=alt.Color("sum(value):Q").scale(scheme="plasma"),
+            )
+            .project(type="albersUsa")
+        )
+
+        model_figs.append(background + lines)
+
+    return alt.vconcat(alt.hconcat(*model_figs[:2]), alt.hconcat(*model_figs[2:]))

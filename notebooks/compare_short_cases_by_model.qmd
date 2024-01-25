@@ -8,8 +8,8 @@ jupyter: python3
 
 ```{python}
 # | output: false
-# %load_ext autoreload
-# %autoreload 2
+%load_ext autoreload
+%autoreload 2
 import os
 from typing import Dict, List
 import pandas as pd

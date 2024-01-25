@@ -145,6 +145,13 @@ data = pd.concat([starting_tx, tx_exp])
 chart = chart_tx_expansion(data, facet_col=None)
 chart
 ```
+```{python}
+# | title: Total expansion map
+from fig_functions import chart_tx_map, gdf
+
+chart = chart_tx_map(tx_exp, gdf)
+chart
+```
 
 # Emissions
 ```{python}
