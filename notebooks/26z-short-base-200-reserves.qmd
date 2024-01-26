@@ -1,0 +1,288 @@
+---
+title: "26 zone short base $200 reserves"
+format: dashboard
+#   dashboard:
+#     scrolling: false
+jupyter: python3
+categories:
+    - Short
+    - Base
+    - CO2 cap
+    - Capacity reserves
+---
+
+```{python}
+# | output: false
+folder = "26z-short-reserves"
+import os
+from typing import Dict, List
+
+import pandas as pd
+import altair as alt
+from pathlib import Path
+from fig_functions import (
+    fix_tx_line_names,
+    load_genx_operations_data,
+    load_data,
+    chart_total_cap,
+    chart_regional_cap,
+    chart_total_gen,
+    chart_regional_gen,
+    chart_tx_expansion,
+    chart_emissions,
+    chart_dispatch,
+    chart_wind_dispatch,
+    chart_op_cost,
+    chart_op_nse,
+    chart_op_emiss,
+)
+
+alt.renderers.enable("html")
+alt.data_transformers.disable_max_rows()
+
+cwd = Path.cwd()
+data_path = cwd.parent / folder
+
+
+fig_num = 0
+
+cap = load_data(data_path, "resource_capacity.csv")
+cap = cap.query("unit=='MW' and not tech_type.isna()")
+cap["additions"] = cap["end_value"] - cap["start_value"]
+
+gen = load_data(data_path, "generation.csv")
+
+tx = load_data(data_path, "transmission.csv")
+
+
+tx["start_region"] = tx["line_name"].str.split("_to_").str[0]
+tx["dest_region"] = tx["line_name"].str.split("_to_").str[1]
+
+first_year = tx["planning_year"].min()
+starting_tx = tx.loc[tx["planning_year"] == first_year, :]
+starting_tx = starting_tx.rename(columns={"start_value": "value"})
+starting_tx["planning_year"] = 2023
+
+tx_exp = load_data(data_path, "transmission_expansion.csv")
+tx_exp["start_region"] = tx_exp["line_name"].str.split("_to_").str[0]
+tx_exp["dest_region"] = tx_exp["line_name"].str.split("_to_").str[1]
+
+emiss = load_data(data_path, "emissions.csv")
+
+emiss.loc[emiss["unit"] == "kg", "value"] /= 1000
+
+
+dispatch = load_data(data_path, "dispatch.csv")
+
+dispatch = dispatch.groupby(
+    [
+        "planning_year",
+        "model",
+        "agg_zone",
+        "zone",
+        "tech_type",
+        "resource_name",
+        "hour",
+    ],
+    as_index=False,
+)["value"].sum()
+group_cols = ["planning_year", "model", "agg_zone", "zone", "tech_type"]
+hours = dispatch["hour"].unique()
+index_cols = ["resource_name"]
+df_list = []
+for _, _df in dispatch.groupby(group_cols):
+    multi_index = pd.MultiIndex.from_product(
+        [_df[col].unique() for col in index_cols] + [hours],
+        names=index_cols + ["hour"],
+    )
+    _df = _df.set_index(index_cols + ["hour"])
+    _df = _df.reindex(index=multi_index, fill_value=0)
+    _df = _df.reset_index()
+    for val, col in zip(_, group_cols):
+        _df[col] = val
+    df_list.append(_df)
+
+dispatch = pd.concat(df_list, ignore_index=True)
+```
+
+# Capacity and Generation
+
+## Row
+
+#### Column {.tabset}
+```{python}
+# | title: Total Capacity
+chart = chart_total_cap(cap)
+chart
+```
+```{python}
+# | title: Regional Capacity
+chart = chart_regional_cap(cap)
+chart
+```
+
+#### Column {.tabset}
+```{python}
+# | title: Total Generation
+chart = chart_total_gen(gen, cap)
+chart
+```
+
+
+```{python}
+# | title: Regional Generation
+chart = chart_regional_gen(gen, cap)
+chart
+```
+
+# Transmission Expansion
+## Row
+#### Column {.tabset}
+```{python}
+# | title: Expansion by line
+data = pd.concat([starting_tx, tx_exp])
+chart = chart_tx_expansion(data)
+chart
+```
+```{python}
+# | title: Total expansion
+data = pd.concat([starting_tx, tx_exp])
+chart = chart_tx_expansion(data, facet_col=None)
+chart
+```
+```{python}
+# | title: Total expansion map
+from fig_functions import chart_tx_map, gdf
+
+chart = chart_tx_map(tx_exp, gdf)
+chart
+```
+
+# Emissions
+```{python}
+# | title: Emissions
+chart = chart_emissions(emiss)
+chart
+```
+
+# Dispatch
+
+## Row {.tabset}
+
+```{python}
+# | title: 2030 Dispatch
+data = dispatch.query("planning_year==2030").groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)[
+    "value"
+].sum()
+chart = chart_dispatch(data)
+chart
+```
+
+```{python}
+# | title: 2040 Dispatch
+data = dispatch.query("planning_year==2040").groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)[
+    "value"
+].sum()
+chart = chart_dispatch(data)
+chart
+```
+
+```{python}
+# | title: 2050 Dispatch
+data = dispatch.query("planning_year==2050").groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)[
+    "value"
+].sum()
+chart = chart_dispatch(data)
+chart
+```
+```{python}
+# | title: 2030 Wind Dispatch
+wind_dispatch = dispatch.query("resource_name.str.contains('landbasedwind')")
+wind_dispatch["cluster"] = wind_dispatch["resource_name"].str.split("_").str[-1]
+if wind_dispatch["cluster"].nunique() <= 3:
+    by = ["model", "tech_type", "cluster", "zone", "hour"]
+else:
+    by = ["model", "tech_type", "zone", "hour"]
+
+data = wind_dispatch.query("planning_year==2030").groupby(by, as_index=False)[
+    "value"
+].sum()
+chart = chart_wind_dispatch(data)
+chart
+```
+
+```{python}
+# | title: 2040 Wind Dispatch
+data = wind_dispatch.query("planning_year==2040").groupby(by, as_index=False)[
+    "value"
+].sum()
+chart = chart_wind_dispatch(data)
+chart
+```
+
+```{python}
+# | title: 2050 Wind Dispatch
+data = wind_dispatch.query("planning_year==2050").groupby(by, as_index=False)[
+    "value"
+].sum()
+chart = chart_wind_dispatch(data)
+chart
+```
+
+# Operational Results
+## Row {.tabset}
+
+```{python}
+# | title: Operational costs
+op_costs = load_genx_operations_data(data_path, "costs.csv")
+chart = chart_op_cost(op_costs)
+chart
+```
+
+```{python}
+# | title: Operational NSE
+op_nse = load_genx_operations_data(data_path, "nse.csv")
+chart = chart_op_nse(op_nse)
+chart
+```
+
+```{python}
+# | title: Generation
+try:
+    op_gen_cap = load_genx_operations_data(data_path, "capacityfactor.csv").query(
+        "~tech_type.str.contains('Other')"
+    )
+    op_gen = op_gen_cap[
+        ["tech_type", "planning_year", "model", "AnnualSum", "resource_name"]
+    ].rename(columns={"AnnualSum": "value"})
+    op_cap = op_gen_cap[
+        ["tech_type", "planning_year", "model", "Capacity", "resource_name"]
+    ].rename(columns={"Capacity": "end_value"})
+    op_cap["unit"] = "MW"
+
+    chart = chart_total_gen(op_gen, op_cap)
+    chart
+except:
+    pass
+```
+
+```{python}
+# | title: Emissions by tech
+try:
+    op_emiss = load_genx_operations_data(
+        data_path, "emissions_plant.csv", hourly_data=True
+    ).query("~tech_type.str.contains('Other')")
+    chart = chart_op_emiss(op_emiss, col_var="planning_year", color="tech_type")
+    chart
+except:
+    pass
+```
+
+```{python}
+# | title: Emissions by zone
+try:
+    chart = chart_op_emiss(op_emiss, col_var="planning_year", color="zone")
+    chart
+except:
+    pass
+```
