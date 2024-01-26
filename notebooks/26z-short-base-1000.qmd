@@ -239,7 +239,7 @@ chart
 
 ```{python}
 # | title: Operational NSE
-op_nse = load_genx_operations_data(data_path, "nse.csv")
+op_nse = load_genx_operations_data(data_path, "nse.csv", hourly_data=True)
 chart = chart_op_nse(op_nse)
 chart
 ```
