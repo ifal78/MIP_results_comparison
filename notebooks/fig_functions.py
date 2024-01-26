@@ -111,11 +111,19 @@ def load_genx_operations_data(
     nrows = None
     if hourly_data:
         nrows = 5
-    for f in data_path.rglob(fn):
+    files = list(data_path.rglob(fn))
+    if not files:
+        return pd.DataFrame()
+    for f in files:
         model_part = -3
         _df = pd.read_csv(f, nrows=nrows)
         if hourly_data:
-            _df = total_from_op_hourly_data(_df)
+            if fn == "nse.csv":
+                _df = total_from_nse_hourly_data(_df)
+            elif "Resource" in _df.columns:
+                _df = total_from_resource_op_hourly_data(_df)
+            else:
+                raise ValueError(f"There is no hourly data function for file {fn}")
         if "Results_p" in str(f):
             period = period_dict[f.parent.stem.split("_")[-1]]
             _df["planning_year"] = period
@@ -139,7 +147,7 @@ def load_genx_operations_data(
     return df
 
 
-def total_from_op_hourly_data(df: pd.DataFrame) -> pd.DataFrame:
+def total_from_resource_op_hourly_data(df: pd.DataFrame) -> pd.DataFrame:
     data = pd.DataFrame(
         {
             "Resource": df.columns[1:-1],
@@ -147,6 +155,16 @@ def total_from_op_hourly_data(df: pd.DataFrame) -> pd.DataFrame:
         }
     ).reset_index(drop=True)
 
+    return data
+
+
+def total_from_nse_hourly_data(df: pd.DataFrame) -> pd.DataFrame:
+    data = pd.DataFrame(
+        {
+            "zone": df.iloc[0, 1:-1],
+            "value": df.iloc[1, 1:-1],
+        }
+    ).reset_index(drop=True)
     return data
 
 
@@ -283,6 +301,7 @@ def chart_total_gen(
     cap: pd.DataFrame = None,
     x_var="model",
     col_var=None,
+    row_var=None,
 ) -> alt.Chart:
     merge_by = ["tech_type", "resource_name", x_var, "planning_year"]
     group_by = ["tech_type", x_var, "planning_year"]
@@ -294,6 +313,12 @@ def chart_total_gen(
         group_by.append(col_var)
         merge_by.append(col_var)
         _tooltips.append(alt.Tooltip(col_var))
+    if row_var is not None:
+        _tooltips.append(alt.Tooltip(row_var))
+        merge_by.append(row_var)
+        group_by.append(row_var)
+    merge_by = list(set(merge_by))
+    group_by = list(set(group_by))
     if cap is not None:
         _cap = (
             cap.query("unit=='MW'")
@@ -342,6 +367,8 @@ def chart_total_gen(
     )
     if col_var is not None:
         chart = chart.encode(column=col_var)
+    if row_var is not None:
+        chart = chart.encode(row=row_var)
     return chart
 
 
@@ -584,15 +611,19 @@ def chart_op_cost(
 
     text = (
         alt.Chart()
-        .mark_text(dy=-5)
-        .encode(x=x_var, y="sum(Total):Q", text=alt.Text("sum(Total):Q", format=".2e"))
+        .mark_text(dy=-5, fontSize=9)
+        .encode(
+            x=x_var,
+            y="sum(Total):Q",
+            text=alt.Text("sum(Total):Q", format=".2e"),
+        )
     )
 
     chart = alt.layer(
         base,
         text,
-        data=op_costs[chart_cols].query("Total>0 and Costs != 'cTotal'"),
-    ).properties(width=250, height=250)
+        data=op_costs[chart_cols].query("Total!=0 and Costs != 'cTotal'"),
+    ).properties(width=alt.Step(40), height=250)
 
     if row_var is None and col_var is None:
         return chart
@@ -607,32 +638,34 @@ def chart_op_cost(
 
 
 def chart_op_nse(
-    op_nse: pd.DataFrame,
-    x_var="model",
-    col_var=None,
+    op_nse: pd.DataFrame, x_var="model", col_var=None, row_var=None
 ) -> alt.Chart:
     cols = ["Segment", "Total", "model"]
-    if "planning_year" in op_nse:
+    if "planning_year" in op_nse and row_var != "planning_year":
         col_var = "planning_year"
     if col_var is not None:
         cols.append(col_var)
+    if row_var is not None:
+        cols.append(row_var)
     if op_nse.empty:
         return None
 
     chart = (
-        alt.Chart(op_nse[cols].query("Segment == 'AnnualSum'"))
+        alt.Chart(op_nse)
         .mark_bar()
         .encode(
             # xOffset="model:N",
             x=x_var,
-            y=alt.Y("Total").title("Annual non-served MWh"),
+            y=alt.Y("sum(value)").title("Annual non-served MWh"),
             color="model:N",
-            tooltip=alt.Tooltip("Total", format=",.0f"),
+            tooltip=alt.Tooltip("sum(value)", format=",.0f", title="NSE"),
         )
-        .properties(width=250, height=250)
+        .properties(width=alt.Step(40), height=250)
     )
     if col_var is not None:
-        chart = chart.facet(column=col_var)
+        chart = chart.encode(column=col_var)
+    if row_var is not None:
+        chart = chart.encode(row=row_var)
 
     return chart
 
@@ -644,7 +677,11 @@ def chart_op_emiss(
     col_var=None,
     row_var=None,
 ) -> alt.Chart:
-    if col_var is None and "planning_year" in op_emiss.columns:
+    if (
+        col_var is None
+        and "planning_year" in op_emiss.columns
+        and row_var != "planning_year"
+    ):
         col_var = "planning_year"
     _tooltip = [
         alt.Tooltip("value", format=",.0f", title="Emissions"),
@@ -655,7 +692,6 @@ def chart_op_emiss(
     color_scale = "category10"
     if op_emiss[color].nunique() > 10:
         color_scale = "tableau20"
-    print(color_scale)
     if col_var is not None:
         _tooltip.append(alt.Tooltip(col_var))
         by.append(col_var)
@@ -664,6 +700,7 @@ def chart_op_emiss(
         by.append(row_var)
     if op_emiss.empty:
         return None
+    by = list(set(by))
     data = op_emiss.groupby(by, as_index=False)["value"].sum().query("value>0")
     base = (
         alt.Chart()
@@ -679,7 +716,7 @@ def chart_op_emiss(
 
     text = (
         alt.Chart()
-        .mark_text(dy=-5)
+        .mark_text(dy=-5, fontSize=9)
         .encode(x=x_var, y="sum(value):Q", text=alt.Text("sum(value):Q", format=".2e"))
     )
 
@@ -687,7 +724,7 @@ def chart_op_emiss(
         base,
         text,
         data=data,
-    ).properties(width=250, height=250)
+    ).properties(width=alt.Step(40), height=250)
 
     if row_var is None and col_var is None:
         return chart
