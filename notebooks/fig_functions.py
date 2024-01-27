@@ -46,10 +46,33 @@ TECH_MAP = {
     "hydrogen": "Hydrogen",
 }
 
+EXISTING_TECH_MAP = {
+    "batteries": "Battery",
+    "biomass_": "Other",
+    "conventional_hydroelectric": "Hydro",
+    "conventional_steam_coal": "Coal",
+    "geothermal": "Geothermal",
+    "natural_gas_fired_combined_cycle": "Natural Gas CC",
+    "natural_gas_fired_combustion_turbine": "Natural Gas CT",
+    "natural_gas_internal_combustion_engine": "Natural Gas Other",
+    "natural_gas_steam_turbine": "Natural Gas Other",
+    "onshore_wind_turbine": "Wind",
+    "petroleum_liquids": "Other",
+    "small_hydroelectric": "Hydro",
+    "solar_photovoltaic": "Solar",
+    "hydroelectric_pumped_storage": "Hydro",
+    "nuclear_1": "Nuclear",
+    "offshore_wind_turbine": "Wind",
+    "distributed_generation": "Distributed Solar",
+}
+
 
 def tech_to_type(df: pd.DataFrame) -> pd.DataFrame:
+    df["existing"] = False
     for tech, type in TECH_MAP.items():
         df.loc[df["resource_name"].str.contains(tech), "tech_type"] = type
+    for tech in EXISTING_TECH_MAP.keys():
+        df.loc[df["resource_name"].str.contains(tech), "existing"] = True
 
     return df
 

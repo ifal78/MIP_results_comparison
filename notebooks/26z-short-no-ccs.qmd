@@ -16,6 +16,7 @@ categories:
 folder = "26z-short-no-ccs"
 import os
 from typing import Dict, List
+from IPython.display import Markdown, display
 
 import pandas as pd
 import altair as alt
@@ -133,6 +134,43 @@ chart
 # | title: Regional Generation
 chart = chart_regional_gen(gen, cap)
 chart
+```
+# Capacity Tables
+
+## Row
+
+#### Column {.tabset}
+```{python}
+# | title: Total Start Existing Capacity
+ex_cap_sum = (
+    cap.query("existing==True and unit=='MW'")
+    .groupby(["model", "planning_year", "tech_type"], as_index=False)["start_value"]
+    .sum()
+    .pivot(columns="model", index=[ "tech_type", "planning_year"])
+    .reset_index()
+)
+cols = ex_cap_sum.columns
+ex_cap_sum.columns = list(cols.get_level_values(0)[:2]) + list(
+    cols.get_level_values(1)[2:]
+)
+
+display(Markdown(ex_cap_sum.to_markdown(index=False)))
+```
+```{python}
+# | title: Total End Existing Capacity
+ex_cap_sum = (
+    cap.query("existing==True and unit=='MW'")
+    .groupby(["model", "planning_year", "tech_type"], as_index=False)["end_value"]
+    .sum()
+    .pivot(columns="model", index=["tech_type", "planning_year"])
+    .reset_index()
+)
+cols = ex_cap_sum.columns
+ex_cap_sum.columns = list(cols.get_level_values(0)[:2]) + list(
+    cols.get_level_values(1)[2:]
+)
+
+display(Markdown(ex_cap_sum.to_markdown(index=False)))
 ```
 
 # Transmission Expansion
