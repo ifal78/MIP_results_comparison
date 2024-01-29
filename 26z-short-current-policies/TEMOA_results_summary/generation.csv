@@ -1,0 +1,1572 @@
+model,zone,resource_name,tech_type,planning_year,case,timestep,unit,value
+TEMOA,BASN,BASN_conventional_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,8.28144e+06
+TEMOA,BASN,BASN_conventional_steam_coal_2,Coal,2030,base_short_current_policies,all,MWh,2.15277e+07
+TEMOA,BASN,BASN_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,3.47993e+06
+TEMOA,BASN,BASN_geothermal_1,Geothermal,2030,base_short_current_policies,all,MWh,3.22004e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_0,Wind,2030,base_short_current_policies,all,MWh,9.93293e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_7,Wind,2030,base_short_current_policies,all,MWh,4.02637e+06
+TEMOA,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,421241
+TEMOA,BASN,BASN_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,2.88415e+07
+TEMOA,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_current_policies,all,MWh,55325.9
+TEMOA,BASN,BASN_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,2.72145e+06
+TEMOA,BASN,BASN_small_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,1.5638e+06
+TEMOA,BASN,BASN_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,5.25187e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,3.29845e+07
+TEMOA,BASN,BASN_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,9.28113e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_3,Solar,2030,base_short_current_policies,all,MWh,3.31907e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_5,Solar,2030,base_short_current_policies,all,MWh,8.50257e+06
+TEMOA,CANO,CANO_batteries_1,Battery,2030,base_short_current_policies,all,MWh,691122
+TEMOA,CANO,CANO_biomass_2,Other,2030,base_short_current_policies,all,MWh,924897
+TEMOA,CANO,CANO_conventional_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,1.86009e+07
+TEMOA,CANO,CANO_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,1.14577e+07
+TEMOA,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2030,base_short_current_policies,all,MWh,3.9585e+06
+TEMOA,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,1.67477e+06
+TEMOA,CANO,CANO_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,3.63653e+07
+TEMOA,CANO,CANO_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,2.77862e+06
+TEMOA,CANO,CANO_small_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,1.85801e+06
+TEMOA,CANO,CANO_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,5.6635e+06
+TEMOA,CANO,CANO_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,3.86382e+07
+TEMOA,CANO,CANO_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,9.20813e+06
+TEMOA,CASO,CASO_batteries_1,Battery,2030,base_short_current_policies,all,MWh,897347
+TEMOA,CASO,CASO_conventional_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,2.39571e+06
+TEMOA,CASO,CASO_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,1.83128e+07
+TEMOA,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2030,base_short_current_policies,all,MWh,3.60571e+06
+TEMOA,CASO,CASO_landbasedwind_class3_moderate_2,Wind,2030,base_short_current_policies,all,MWh,13179.8
+TEMOA,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,667846
+TEMOA,CASO,CASO_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,9.03525e+06
+TEMOA,CASO,CASO_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_current_policies,all,MWh,526206
+TEMOA,CASO,CASO_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,1.15992e+07
+TEMOA,CASO,CASO_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,1.17525e+07
+TEMOA,CASO,CASO_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,2.4646e+07
+TEMOA,FRCC,FRCC_batteries_1,Battery,2030,base_short_current_policies,all,MWh,224772
+TEMOA,FRCC,FRCC_conventional_steam_coal_1,Coal,2030,base_short_current_policies,all,MWh,2.26273e+07
+TEMOA,FRCC,FRCC_conventional_steam_coal_2,Coal,2030,base_short_current_policies,all,MWh,4.70423e+06
+TEMOA,FRCC,FRCC_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,1.07029e+07
+TEMOA,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,9.45539e+07
+TEMOA,FRCC,FRCC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,690820
+TEMOA,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_current_policies,all,MWh,208507
+TEMOA,FRCC,FRCC_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_current_policies,all,MWh,1241.37
+TEMOA,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_current_policies,all,MWh,37503.4
+TEMOA,FRCC,FRCC_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_current_policies,all,MWh,48629.4
+TEMOA,FRCC,FRCC_nuclear_1,Nuclear,2030,base_short_current_policies,all,MWh,2.98369e+07
+TEMOA,FRCC,FRCC_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,1.42511e+06
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,4.14335e+07
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,2.93241e+07
+TEMOA,ISNE,ISNE_battery_moderate_0_4hour,Battery,2030,base_short_current_policies,all,MWh,171.492
+TEMOA,ISNE,ISNE_biomass_1,Other,2030,base_short_current_policies,all,MWh,1.31794e+06
+TEMOA,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,1.97218e+06
+TEMOA,ISNE,ISNE_conventional_steam_coal_1,Coal,2030,base_short_current_policies,all,MWh,2.69193e+06
+TEMOA,ISNE,ISNE_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,7.76995e+06
+TEMOA,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2030,base_short_current_policies,all,MWh,3.28235e+06
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_0,Wind,2030,base_short_current_policies,all,MWh,1.06937e+07
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2030,base_short_current_policies,all,MWh,2.32976e+06
+TEMOA,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,751847
+TEMOA,ISNE,ISNE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,1.64114e+07
+TEMOA,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_current_policies,all,MWh,10990.3
+TEMOA,ISNE,ISNE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_current_policies,all,MWh,53909.8
+TEMOA,ISNE,ISNE_nuclear_1,Nuclear,2030,base_short_current_policies,all,MWh,2.49658e+07
+TEMOA,ISNE,ISNE_offshorewind_class3_moderate_fixed_0_1,Wind,2030,base_short_current_policies,all,MWh,5.24433e+06
+TEMOA,ISNE,ISNE_offshorewind_class3_moderate_fixed_0_2,Wind,2030,base_short_current_policies,all,MWh,5.44649e+06
+TEMOA,ISNE,ISNE_offshorewind_class3_moderate_fixed_1_1,Wind,2030,base_short_current_policies,all,MWh,1.50858e+07
+TEMOA,ISNE,ISNE_offshorewind_class3_moderate_fixed_1_2,Wind,2030,base_short_current_policies,all,MWh,1.01194e+07
+TEMOA,ISNE,ISNE_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,1.9433e+06
+TEMOA,ISNE,ISNE_petroleum_liquids_1,Other,2030,base_short_current_policies,all,MWh,11845.5
+TEMOA,ISNE,ISNE_small_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,2.13974e+06
+TEMOA,ISNE,ISNE_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,914134
+TEMOA,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,7.43683e+06
+TEMOA,MISC,MISC_conventional_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,1.40718e+06
+TEMOA,MISC,MISC_conventional_steam_coal_1,Coal,2030,base_short_current_policies,all,MWh,7.92542e+07
+TEMOA,MISC,MISC_conventional_steam_coal_2,Coal,2030,base_short_current_policies,all,MWh,1.29048e+07
+TEMOA,MISC,MISC_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,2.43991e+06
+TEMOA,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2030,base_short_current_policies,all,MWh,721018
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_0,Wind,2030,base_short_current_policies,all,MWh,1.00772e+07
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_1,Wind,2030,base_short_current_policies,all,MWh,1.22994e+07
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_11,Wind,2030,base_short_current_policies,all,MWh,7.93638e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_2,Wind,2030,base_short_current_policies,all,MWh,4.83526e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_3,Wind,2030,base_short_current_policies,all,MWh,1.6234e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_4,Wind,2030,base_short_current_policies,all,MWh,7.5834e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_5,Wind,2030,base_short_current_policies,all,MWh,8.60269e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_6,Wind,2030,base_short_current_policies,all,MWh,8.41823e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_7,Wind,2030,base_short_current_policies,all,MWh,3.39567e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_8,Wind,2030,base_short_current_policies,all,MWh,4.85803e+06
+TEMOA,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,1.51163e+06
+TEMOA,MISC,MISC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,1.08074e+07
+TEMOA,MISC,MISC_nuclear_1,Nuclear,2030,base_short_current_policies,all,MWh,1.89237e+07
+TEMOA,MISC,MISC_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,5.48348e+06
+TEMOA,MISC,MISC_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,292994
+TEMOA,MISC,MISC_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,3.48679e+07
+TEMOA,MISE,MISE_conventional_steam_coal_2,Coal,2030,base_short_current_policies,all,MWh,2.47421e+07
+TEMOA,MISE,MISE_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,1.87728e+06
+TEMOA,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2030,base_short_current_policies,all,MWh,2.92085e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_0,Wind,2030,base_short_current_policies,all,MWh,2.82168e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2030,base_short_current_policies,all,MWh,1.70915e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_2,Wind,2030,base_short_current_policies,all,MWh,814332
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_4,Wind,2030,base_short_current_policies,all,MWh,73851.8
+TEMOA,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,322594
+TEMOA,MISE,MISE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,1.40406e+07
+TEMOA,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_current_policies,all,MWh,470546
+TEMOA,MISE,MISE_nuclear_1,Nuclear,2030,base_short_current_policies,all,MWh,9.44774e+06
+TEMOA,MISE,MISE_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,3.82721e+06
+TEMOA,MISE,MISE_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,2.96583e+06
+TEMOA,MISE,MISE_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,2.29361e+07
+TEMOA,MISS,MISS_conventional_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,1.21728e+06
+TEMOA,MISS,MISS_conventional_steam_coal_1,Coal,2030,base_short_current_policies,all,MWh,3.46192e+07
+TEMOA,MISS,MISS_conventional_steam_coal_2,Coal,2030,base_short_current_policies,all,MWh,5.26063e+06
+TEMOA,MISS,MISS_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,6.11188e+06
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_0,Wind,2030,base_short_current_policies,all,MWh,1373.4
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_1,Wind,2030,base_short_current_policies,all,MWh,585820
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_2,Wind,2030,base_short_current_policies,all,MWh,5.91825e+06
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_3,Wind,2030,base_short_current_policies,all,MWh,1.1199e+06
+TEMOA,MISS,MISS_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,2.94071e+07
+TEMOA,MISS,MISS_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_current_policies,all,MWh,2880.36
+TEMOA,MISS,MISS_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_current_policies,all,MWh,10706
+TEMOA,MISS,MISS_natural_gas_steam_turbine_2,Natural Gas,2030,base_short_current_policies,all,MWh,181411
+TEMOA,MISS,MISS_nuclear_1,Nuclear,2030,base_short_current_policies,all,MWh,4.3019e+07
+TEMOA,MISS,MISS_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,319684
+TEMOA,MISS,MISS_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,4.87608e+06
+TEMOA,MISS,MISS_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,1.66819e+07
+TEMOA,MISS,MISS_utilitypv_class1_moderate_3,Solar,2030,base_short_current_policies,all,MWh,8.55761e+06
+TEMOA,MISW,MISW_conventional_steam_coal_1,Coal,2030,base_short_current_policies,all,MWh,6.96296e+07
+TEMOA,MISW,MISW_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,4.39422e+06
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_3,Wind,2030,base_short_current_policies,all,MWh,852298
+TEMOA,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,872879
+TEMOA,MISW,MISW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,2.16118e+07
+TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_current_policies,all,MWh,150955
+TEMOA,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_current_policies,all,MWh,69669.6
+TEMOA,MISW,MISW_nuclear_1,Nuclear,2030,base_short_current_policies,all,MWh,2.3812e+07
+TEMOA,MISW,MISW_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,2.72339e+07
+TEMOA,MISW,MISW_small_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,2.23411e+06
+TEMOA,MISW,MISW_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,778189
+TEMOA,MISW,MISW_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,4.54682e+07
+TEMOA,MISW,MISW_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,1.23433e+07
+TEMOA,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,1.25692e+08
+TEMOA,NWPP,NWPP_conventional_steam_coal_1,Coal,2030,base_short_current_policies,all,MWh,1.01547e+07
+TEMOA,NWPP,NWPP_conventional_steam_coal_2,Coal,2030,base_short_current_policies,all,MWh,850009
+TEMOA,NWPP,NWPP_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,3.98894e+06
+TEMOA,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2030,base_short_current_policies,all,MWh,676930
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_3,Wind,2030,base_short_current_policies,all,MWh,1.42329e+07
+TEMOA,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,1.92648e+06
+TEMOA,NWPP,NWPP_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,1.06962e+07
+TEMOA,NWPP,NWPP_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_current_policies,all,MWh,103031
+TEMOA,NWPP,NWPP_nuclear_1,Nuclear,2030,base_short_current_policies,all,MWh,8.72235e+06
+TEMOA,NWPP,NWPP_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,1.56694e+07
+TEMOA,NWPP,NWPP_small_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,3.25208e+06
+TEMOA,NWPP,NWPP_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,278316
+TEMOA,NWPP,NWPP_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,2.38565e+07
+TEMOA,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,2.42469e+06
+TEMOA,NYCW,NYCW_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,2.55955e+06
+TEMOA,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,7.23468e+06
+TEMOA,NYCW,NYCW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,9.04559e+06
+TEMOA,NYCW,NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_current_policies,all,MWh,403668
+TEMOA,NYCW,NYCW_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_current_policies,all,MWh,103778
+TEMOA,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_1,Wind,2030,base_short_current_policies,all,MWh,2.16524e+06
+TEMOA,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_2,Wind,2030,base_short_current_policies,all,MWh,1.99677e+06
+TEMOA,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_1,Wind,2030,base_short_current_policies,all,MWh,5.72684e+06
+TEMOA,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_2,Wind,2030,base_short_current_policies,all,MWh,5.52852e+06
+TEMOA,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_3,Wind,2030,base_short_current_policies,all,MWh,1.26394e+06
+TEMOA,NYCW,NYCW_petroleum_liquids_1,Other,2030,base_short_current_policies,all,MWh,4195.63
+TEMOA,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,1.40887e+07
+TEMOA,NYUP,NYUP_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,1.82448e+06
+TEMOA,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2030,base_short_current_policies,all,MWh,2.9744e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_0,Wind,2030,base_short_current_policies,all,MWh,7.22883e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_2,Wind,2030,base_short_current_policies,all,MWh,2.55019e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_4,Wind,2030,base_short_current_policies,all,MWh,5.99008e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_6,Wind,2030,base_short_current_policies,all,MWh,2.40151e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_8,Wind,2030,base_short_current_policies,all,MWh,21.2227
+TEMOA,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,582440
+TEMOA,NYUP,NYUP_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,1.46332e+07
+TEMOA,NYUP,NYUP_nuclear_1,Nuclear,2030,base_short_current_policies,all,MWh,2.39752e+07
+TEMOA,NYUP,NYUP_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,2.99877e+06
+TEMOA,NYUP,NYUP_small_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,2.08514e+06
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,1.26562e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,1.26641e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_2,Solar,2030,base_short_current_policies,all,MWh,2.38217e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_3,Solar,2030,base_short_current_policies,all,MWh,1.22223e+06
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_4,Solar,2030,base_short_current_policies,all,MWh,1.70837e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_5,Solar,2030,base_short_current_policies,all,MWh,348202
+TEMOA,PJMC,PJMC_conventional_steam_coal_1,Coal,2030,base_short_current_policies,all,MWh,6.94875e+06
+TEMOA,PJMC,PJMC_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,2.75072e+06
+TEMOA,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,7.19376e+06
+TEMOA,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_current_policies,all,MWh,345427
+TEMOA,PJMC,PJMC_nuclear_1,Nuclear,2030,base_short_current_policies,all,MWh,8.76082e+07
+TEMOA,PJMC,PJMC_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,5.36667e+06
+TEMOA,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,659535
+TEMOA,PJMD,PJMD_conventional_steam_coal_1,Coal,2030,base_short_current_policies,all,MWh,1.81229e+06
+TEMOA,PJMD,PJMD_conventional_steam_coal_2,Coal,2030,base_short_current_policies,all,MWh,1.83255e+06
+TEMOA,PJMD,PJMD_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,3.59645e+06
+TEMOA,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2030,base_short_current_policies,all,MWh,4.0616e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_2,Wind,2030,base_short_current_policies,all,MWh,2.14881e+06
+TEMOA,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,3.50754e+06
+TEMOA,PJMD,PJMD_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,137829
+TEMOA,PJMD,PJMD_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base_short_current_policies,all,MWh,16954.1
+TEMOA,PJMD,PJMD_nuclear_1,Nuclear,2030,base_short_current_policies,all,MWh,3.02872e+07
+TEMOA,PJMD,PJMD_offshorewind_class3_moderate_fixed_0_1,Wind,2030,base_short_current_policies,all,MWh,2.53392e+06
+TEMOA,PJMD,PJMD_offshorewind_class3_moderate_fixed_1_1,Wind,2030,base_short_current_policies,all,MWh,5.62444e+06
+TEMOA,PJMD,PJMD_offshorewind_class3_moderate_fixed_1_2,Wind,2030,base_short_current_policies,all,MWh,923919
+TEMOA,PJMD,PJMD_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,244853
+TEMOA,PJMD,PJMD_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,1.08668e+06
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,4.76521e+07
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,2.27152e+06
+TEMOA,PJME,PJME_biomass_1,Other,2030,base_short_current_policies,all,MWh,981759
+TEMOA,PJME,PJME_conventional_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,2.45749e+06
+TEMOA,PJME,PJME_conventional_steam_coal_1,Coal,2030,base_short_current_policies,all,MWh,4.14446e+07
+TEMOA,PJME,PJME_conventional_steam_coal_2,Coal,2030,base_short_current_policies,all,MWh,170698
+TEMOA,PJME,PJME_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,1.61831e+07
+TEMOA,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2030,base_short_current_policies,all,MWh,1.43626e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_0,Wind,2030,base_short_current_policies,all,MWh,7.07332e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2030,base_short_current_policies,all,MWh,1.0072e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_3,Wind,2030,base_short_current_policies,all,MWh,3.22924e+06
+TEMOA,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,124661
+TEMOA,PJME,PJME_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,1.15489e+08
+TEMOA,PJME,PJME_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_current_policies,all,MWh,5948.33
+TEMOA,PJME,PJME_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_current_policies,all,MWh,115752
+TEMOA,PJME,PJME_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base_short_current_policies,all,MWh,21721.8
+TEMOA,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_current_policies,all,MWh,12640.4
+TEMOA,PJME,PJME_nuclear_1,Nuclear,2030,base_short_current_policies,all,MWh,1.0557e+08
+TEMOA,PJME,PJME_offshorewind_class3_moderate_fixed_1_1,Wind,2030,base_short_current_policies,all,MWh,2.00671e+07
+TEMOA,PJME,PJME_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,2.1569e+06
+TEMOA,PJME,PJME_petroleum_liquids_1,Other,2030,base_short_current_policies,all,MWh,2163.5
+TEMOA,PJME,PJME_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,1.4836e+06
+TEMOA,PJME,PJME_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,1.38487e+07
+TEMOA,PJME,PJME_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,2.72161e+06
+TEMOA,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,2.18815e+06
+TEMOA,PJMW,PJMW_conventional_steam_coal_1,Coal,2030,base_short_current_policies,all,MWh,1.53397e+07
+TEMOA,PJMW,PJMW_conventional_steam_coal_2,Coal,2030,base_short_current_policies,all,MWh,1.08276e+08
+TEMOA,PJMW,PJMW_conventional_steam_coal_3,Coal,2030,base_short_current_policies,all,MWh,548241
+TEMOA,PJMW,PJMW_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,4.76826e+06
+TEMOA,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2030,base_short_current_policies,all,MWh,331998
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_0,Wind,2030,base_short_current_policies,all,MWh,5.09508e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2030,base_short_current_policies,all,MWh,5.65678e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_2,Wind,2030,base_short_current_policies,all,MWh,3.52351e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_3,Wind,2030,base_short_current_policies,all,MWh,2.95261e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_4,Wind,2030,base_short_current_policies,all,MWh,4.65122e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_5,Wind,2030,base_short_current_policies,all,MWh,3.23946e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_6,Wind,2030,base_short_current_policies,all,MWh,4.49635e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_7,Wind,2030,base_short_current_policies,all,MWh,3.00423e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_9,Wind,2030,base_short_current_policies,all,MWh,1.04438e+06
+TEMOA,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,820793
+TEMOA,PJMW,PJMW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,3.295e+07
+TEMOA,PJMW,PJMW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_current_policies,all,MWh,27021.1
+TEMOA,PJMW,PJMW_nuclear_1,Nuclear,2030,base_short_current_policies,all,MWh,5.17064e+07
+TEMOA,PJMW,PJMW_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,6.22225e+06
+TEMOA,PJMW,PJMW_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,239900
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,8.2548e+07
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,742.665
+TEMOA,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,1.84577e+06
+TEMOA,RMRG,RMRG_conventional_steam_coal_1,Coal,2030,base_short_current_policies,all,MWh,2.57391e+06
+TEMOA,RMRG,RMRG_conventional_steam_coal_2,Coal,2030,base_short_current_policies,all,MWh,2.98634e+07
+TEMOA,RMRG,RMRG_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,2.46669e+06
+TEMOA,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2030,base_short_current_policies,all,MWh,1.52127e+06
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_0,Wind,2030,base_short_current_policies,all,MWh,4.45743e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2030,base_short_current_policies,all,MWh,1.47624e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_3,Wind,2030,base_short_current_policies,all,MWh,2.41618e+07
+TEMOA,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,25888.7
+TEMOA,RMRG,RMRG_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,1.40933e+06
+TEMOA,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_current_policies,all,MWh,5647.53
+TEMOA,RMRG,RMRG_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,1.00711e+07
+TEMOA,RMRG,RMRG_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,784847
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,1.24752e+07
+TEMOA,SPPC,SPPC_conventional_steam_coal_1,Coal,2030,base_short_current_policies,all,MWh,1.30842e+07
+TEMOA,SPPC,SPPC_conventional_steam_coal_2,Coal,2030,base_short_current_policies,all,MWh,2.93933e+07
+TEMOA,SPPC,SPPC_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,704294
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_0,Wind,2030,base_short_current_policies,all,MWh,1.57365e+07
+TEMOA,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,920444
+TEMOA,SPPC,SPPC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,8844.01
+TEMOA,SPPC,SPPC_nuclear_1,Nuclear,2030,base_short_current_policies,all,MWh,9.45994e+06
+TEMOA,SPPC,SPPC_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,8.74397e+06
+TEMOA,SPPC,SPPC_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,6.86583e+06
+TEMOA,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,1.2642e+06
+TEMOA,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,9.67e+06
+TEMOA,SPPN,SPPN_conventional_steam_coal_1,Coal,2030,base_short_current_policies,all,MWh,2.47033e+06
+TEMOA,SPPN,SPPN_conventional_steam_coal_2,Coal,2030,base_short_current_policies,all,MWh,2.93228e+07
+TEMOA,SPPN,SPPN_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,525844
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_0,Wind,2030,base_short_current_policies,all,MWh,1.93392e+07
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2030,base_short_current_policies,all,MWh,8137.92
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_2,Wind,2030,base_short_current_policies,all,MWh,3.57716e+06
+TEMOA,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,123776
+TEMOA,SPPN,SPPN_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,90862.1
+TEMOA,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_current_policies,all,MWh,4512.51
+TEMOA,SPPN,SPPN_nuclear_1,Nuclear,2030,base_short_current_policies,all,MWh,5.81687e+06
+TEMOA,SPPN,SPPN_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,6.07059e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,3.46798e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,3.40449e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_3,Solar,2030,base_short_current_policies,all,MWh,1.88862e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_5,Solar,2030,base_short_current_policies,all,MWh,449545
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_7,Solar,2030,base_short_current_policies,all,MWh,1.91374e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_9,Solar,2030,base_short_current_policies,all,MWh,2.33132e+06
+TEMOA,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,2.40233e+06
+TEMOA,SPPS,SPPS_conventional_steam_coal_1,Coal,2030,base_short_current_policies,all,MWh,2.06514e+07
+TEMOA,SPPS,SPPS_conventional_steam_coal_2,Coal,2030,base_short_current_policies,all,MWh,1.6532e+06
+TEMOA,SPPS,SPPS_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,2.92219e+06
+TEMOA,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2030,base_short_current_policies,all,MWh,1.01893e+06
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_0,Wind,2030,base_short_current_policies,all,MWh,2.77266e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2030,base_short_current_policies,all,MWh,2.91052e+07
+TEMOA,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,2.04793e+07
+TEMOA,SPPS,SPPS_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,210570
+TEMOA,SPPS,SPPS_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_current_policies,all,MWh,4706.67
+TEMOA,SPPS,SPPS_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,base_short_current_policies,all,MWh,33149.8
+TEMOA,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_current_policies,all,MWh,16647.1
+TEMOA,SPPS,SPPS_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_current_policies,all,MWh,14941.3
+TEMOA,SPPS,SPPS_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,2.29688e+07
+TEMOA,SPPS,SPPS_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,409888
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,1.94805e+07
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,8.66335e+06
+TEMOA,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,1.74913e+06
+TEMOA,SRCA,SRCA_conventional_steam_coal_1,Coal,2030,base_short_current_policies,all,MWh,6.39953e+07
+TEMOA,SRCA,SRCA_conventional_steam_coal_2,Coal,2030,base_short_current_policies,all,MWh,4.10047e+06
+TEMOA,SRCA,SRCA_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,6.85598e+06
+TEMOA,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2030,base_short_current_policies,all,MWh,2.98565e+06
+TEMOA,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,5.17235e+06
+TEMOA,SRCA,SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_current_policies,all,MWh,24398.4
+TEMOA,SRCA,SRCA_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_current_policies,all,MWh,10756.2
+TEMOA,SRCA,SRCA_nuclear_1,Nuclear,2030,base_short_current_policies,all,MWh,9.87643e+07
+TEMOA,SRCA,SRCA_offshorewind_class3_moderate_fixed_0_1,Wind,2030,base_short_current_policies,all,MWh,9.57197e+06
+TEMOA,SRCA,SRCA_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,4.51933e+06
+TEMOA,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,4.32226e+07
+TEMOA,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,1.40808e+07
+TEMOA,SRCE,SRCE_conventional_steam_coal_1,Coal,2030,base_short_current_policies,all,MWh,1.39011e+07
+TEMOA,SRCE,SRCE_conventional_steam_coal_2,Coal,2030,base_short_current_policies,all,MWh,4.10418e+07
+TEMOA,SRCE,SRCE_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,1.43927e+06
+TEMOA,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2030,base_short_current_policies,all,MWh,2.70091e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_0,Wind,2030,base_short_current_policies,all,MWh,2.4643e+07
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2030,base_short_current_policies,all,MWh,7.44809e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_3,Wind,2030,base_short_current_policies,all,MWh,1.43508e+06
+TEMOA,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,2.32836e+07
+TEMOA,SRCE,SRCE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,1.96214e+06
+TEMOA,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_current_policies,all,MWh,71967.4
+TEMOA,SRCE,SRCE_nuclear_1,Nuclear,2030,base_short_current_policies,all,MWh,6.97966e+07
+TEMOA,SRCE,SRCE_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,316536
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,8.98387e+06
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,3.59087e+07
+TEMOA,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,5.2059e+06
+TEMOA,SRSE,SRSE_conventional_steam_coal_1,Coal,2030,base_short_current_policies,all,MWh,6.28109e+07
+TEMOA,SRSE,SRSE_conventional_steam_coal_2,Coal,2030,base_short_current_policies,all,MWh,151369
+TEMOA,SRSE,SRSE_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,1.86643e+06
+TEMOA,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2030,base_short_current_policies,all,MWh,2.01336e+06
+TEMOA,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,4.54424e+07
+TEMOA,SRSE,SRSE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,34502.2
+TEMOA,SRSE,SRSE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_current_policies,all,MWh,3366.24
+TEMOA,SRSE,SRSE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_current_policies,all,MWh,2367.9
+TEMOA,SRSE,SRSE_nuclear_1,Nuclear,2030,base_short_current_policies,all,MWh,6.64571e+07
+TEMOA,SRSE,SRSE_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,2.30889e+06
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,3.97958e+07
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_2,Solar,2030,base_short_current_policies,all,MWh,2.69484e+07
+TEMOA,SRSG,SRSG_batteries_1,Battery,2030,base_short_current_policies,all,MWh,170734
+TEMOA,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,7.36083e+06
+TEMOA,SRSG,SRSG_conventional_steam_coal_1,Coal,2030,base_short_current_policies,all,MWh,2.20915e+07
+TEMOA,SRSG,SRSG_conventional_steam_coal_2,Coal,2030,base_short_current_policies,all,MWh,5.35712e+06
+TEMOA,SRSG,SRSG_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,5.6618e+06
+TEMOA,SRSG,SRSG_geothermal_1,Geothermal,2030,base_short_current_policies,all,MWh,1.39695e+06
+TEMOA,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2030,base_short_current_policies,all,MWh,486804
+TEMOA,SRSG,SRSG_landbasedwind_class3_moderate_2,Wind,2030,base_short_current_policies,all,MWh,3.32508e+06
+TEMOA,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,1.01808e+07
+TEMOA,SRSG,SRSG_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,173594
+TEMOA,SRSG,SRSG_nuclear_1,Nuclear,2030,base_short_current_policies,all,MWh,2.92813e+07
+TEMOA,SRSG,SRSG_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,4.78572e+06
+TEMOA,SRSG,SRSG_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,6.1533e+06
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,2.64749e+06
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,3.18124e+07
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_5,Solar,2030,base_short_current_policies,all,MWh,1.13794e+06
+TEMOA,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,580407
+TEMOA,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_0,Wind,2030,base_short_current_policies,all,MWh,2.09446e+07
+TEMOA,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_1,Wind,2030,base_short_current_policies,all,MWh,1.09177e+07
+TEMOA,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_2,Wind,2030,base_short_current_policies,all,MWh,3.16445e+07
+TEMOA,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_3,Wind,2030,base_short_current_policies,all,MWh,1.142e+07
+TEMOA,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_4,Wind,2030,base_short_current_policies,all,MWh,4.02168e+06
+TEMOA,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,6.09406e+06
+TEMOA,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,7096.51
+TEMOA,TRE_WEST,TRE_WEST_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_current_policies,all,MWh,5761.07
+TEMOA,TRE_WEST,TRE_WEST_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,3.08368e+07
+TEMOA,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,1.8803e+06
+TEMOA,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,5616.03
+TEMOA,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_1,Solar,2030,base_short_current_policies,all,MWh,1.32742e+07
+TEMOA,TRE,TRE_batteries_1,Battery,2030,base_short_current_policies,all,MWh,289843
+TEMOA,TRE,TRE_conventional_hydroelectric_1,Hydro,2030,base_short_current_policies,all,MWh,255727
+TEMOA,TRE,TRE_conventional_steam_coal_1,Coal,2030,base_short_current_policies,all,MWh,2.88698e+07
+TEMOA,TRE,TRE_conventional_steam_coal_2,Coal,2030,base_short_current_policies,all,MWh,2.7498e+07
+TEMOA,TRE,TRE_distributed_generation_1,Distributed Solar,2030,base_short_current_policies,all,MWh,1.12304e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_0,Wind,2030,base_short_current_policies,all,MWh,9.06792e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2030,base_short_current_policies,all,MWh,7.04299e+06
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_2,Wind,2030,base_short_current_policies,all,MWh,2.93389e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_3,Wind,2030,base_short_current_policies,all,MWh,2.25157e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_5,Wind,2030,base_short_current_policies,all,MWh,1.17666e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_7,Wind,2030,base_short_current_policies,all,MWh,8.25471e+06
+TEMOA,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,base_short_current_policies,all,MWh,6.45606e+07
+TEMOA,TRE,TRE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,base_short_current_policies,all,MWh,194535
+TEMOA,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,base_short_current_policies,all,MWh,1161.57
+TEMOA,TRE,TRE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,base_short_current_policies,all,MWh,25985.9
+TEMOA,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,base_short_current_policies,all,MWh,62017.1
+TEMOA,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2030,base_short_current_policies,all,MWh,4946.76
+TEMOA,TRE,TRE_nuclear_1,Nuclear,2030,base_short_current_policies,all,MWh,3.34593e+07
+TEMOA,TRE,TRE_onshore_wind_turbine_1,Wind,2030,base_short_current_policies,all,MWh,1.22635e+07
+TEMOA,TRE,TRE_solar_photovoltaic_1,Solar,2030,base_short_current_policies,all,MWh,493287
+TEMOA,TRE,TRE_utilitypv_class1_moderate_0,Solar,2030,base_short_current_policies,all,MWh,1.93782e+07
+TEMOA,ISNE,unserved_load,Other,2030,base_short_current_policies,all,MWh,50307.8
+TEMOA,NYCW,unserved_load,Other,2030,base_short_current_policies,all,MWh,6693.85
+TEMOA,BASN,BASN_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,415951
+TEMOA,BASN,BASN_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,1.37792e+07
+TEMOA,BASN,BASN_battery_moderate_0_6hour,Battery,2040,base_short_current_policies,all,MWh,2416.03
+TEMOA,BASN,BASN_conventional_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,5.54613e+06
+TEMOA,BASN,BASN_conventional_steam_coal_2,Coal,2040,base_short_current_policies,all,MWh,1.36741e+07
+TEMOA,BASN,BASN_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,3.7296e+06
+TEMOA,BASN,BASN_geothermal_1,Geothermal,2040,base_short_current_policies,all,MWh,1.58987e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_0,Wind,2040,base_short_current_policies,all,MWh,1.01651e+07
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,2.99372e+07
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,1.30808e+07
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_3,Wind,2040,base_short_current_policies,all,MWh,4.5235e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_7,Wind,2040,base_short_current_policies,all,MWh,4.1073e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_9,Wind,2040,base_short_current_policies,all,MWh,2.55483e+06
+TEMOA,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,209317
+TEMOA,BASN,BASN_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,2.03729e+07
+TEMOA,BASN,BASN_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,80639.9
+TEMOA,BASN,BASN_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,10218.4
+TEMOA,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_short_current_policies,all,MWh,44605.5
+TEMOA,BASN,BASN_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,1.63038e+06
+TEMOA,BASN,BASN_small_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,1.45012e+06
+TEMOA,BASN,BASN_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,4.43494e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,4.3127e+07
+TEMOA,BASN,BASN_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,9.60888e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_2,Solar,2040,base_short_current_policies,all,MWh,1.06173e+07
+TEMOA,BASN,BASN_utilitypv_class1_moderate_3,Solar,2040,base_short_current_policies,all,MWh,3.40668e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_5,Solar,2040,base_short_current_policies,all,MWh,8.75721e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_7,Solar,2040,base_short_current_policies,all,MWh,1.16999e+07
+TEMOA,CANO,CANO_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,5.36664e+06
+TEMOA,CANO,CANO_battery_moderate_0_6hour,Battery,2040,base_short_current_policies,all,MWh,22761.8
+TEMOA,CANO,CANO_conventional_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,1.78862e+07
+TEMOA,CANO,CANO_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,1.28263e+07
+TEMOA,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2040,base_short_current_policies,all,MWh,4.89627e+06
+TEMOA,CANO,CANO_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,1.8404e+06
+TEMOA,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,2.67908e+06
+TEMOA,CANO,CANO_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,3.82021e+07
+TEMOA,CANO,CANO_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,236198
+TEMOA,CANO,CANO_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,94745.8
+TEMOA,CANO,CANO_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_short_current_policies,all,MWh,68941.1
+TEMOA,CANO,CANO_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,1.17823e+06
+TEMOA,CANO,CANO_small_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,1.83072e+06
+TEMOA,CANO,CANO_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,5.11531e+06
+TEMOA,CANO,CANO_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,3.94189e+07
+TEMOA,CANO,CANO_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,1.3389e+07
+TEMOA,CANO,CANO_utilitypv_class1_moderate_2,Solar,2040,base_short_current_policies,all,MWh,1881.45
+TEMOA,CANO,CANO_utilitypv_class1_moderate_3,Solar,2040,base_short_current_policies,all,MWh,2.55233e+07
+TEMOA,CASO,CASO_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,95.0746
+TEMOA,CASO,CASO_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,1.96587e+07
+TEMOA,CASO,CASO_battery_moderate_0_6hour,Battery,2040,base_short_current_policies,all,MWh,365.33
+TEMOA,CASO,CASO_conventional_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,2.38304e+06
+TEMOA,CASO,CASO_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,2.14413e+07
+TEMOA,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2040,base_short_current_policies,all,MWh,4.34667e+06
+TEMOA,CASO,CASO_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,59780.3
+TEMOA,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,904914
+TEMOA,CASO,CASO_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,1.56483e+07
+TEMOA,CASO,CASO_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,818892
+TEMOA,CASO,CASO_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,99788.9
+TEMOA,CASO,CASO_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,9.61769e+06
+TEMOA,CASO,CASO_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,1.10559e+07
+TEMOA,CASO,CASO_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,2.52695e+07
+TEMOA,CASO,CASO_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,2.81121e+07
+TEMOA,CASO,CASO_utilitypv_class1_moderate_2,Solar,2040,base_short_current_policies,all,MWh,1.9684e+07
+TEMOA,CASO,CASO_utilitypv_class1_moderate_3,Solar,2040,base_short_current_policies,all,MWh,944996
+TEMOA,FRCC,FRCC_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,6.23232e+06
+TEMOA,FRCC,FRCC_conventional_steam_coal_1,Coal,2040,base_short_current_policies,all,MWh,1.86414e+07
+TEMOA,FRCC,FRCC_conventional_steam_coal_2,Coal,2040,base_short_current_policies,all,MWh,3.01881e+06
+TEMOA,FRCC,FRCC_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,1.21102e+07
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_0,Wind,2040,base_short_current_policies,all,MWh,6.61645e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,1.58777e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,2.0521e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_4,Wind,2040,base_short_current_policies,all,MWh,3.19264e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_5,Wind,2040,base_short_current_policies,all,MWh,1.84665e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_6,Wind,2040,base_short_current_policies,all,MWh,5.74241e+06
+TEMOA,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,1.09313e+08
+TEMOA,FRCC,FRCC_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,2.71052e+06
+TEMOA,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,2.31058e+06
+TEMOA,FRCC,FRCC_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,10521.8
+TEMOA,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_short_current_policies,all,MWh,187534
+TEMOA,FRCC,FRCC_natural_gas_steam_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,240823
+TEMOA,FRCC,FRCC_nuclear_1,Nuclear,2040,base_short_current_policies,all,MWh,2.82605e+07
+TEMOA,FRCC,FRCC_petroleum_liquids_1,Other,2040,base_short_current_policies,all,MWh,1063.91
+TEMOA,FRCC,FRCC_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,1.16483e+06
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,5.28348e+07
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,3.01145e+07
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_2,Solar,2040,base_short_current_policies,all,MWh,7.77666e+06
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_3,Solar,2040,base_short_current_policies,all,MWh,2.09733e+07
+TEMOA,ISNE,ISNE_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,1.81835e+07
+TEMOA,ISNE,ISNE_battery_moderate_0_6hour,Battery,2040,base_short_current_policies,all,MWh,5.05001e+06
+TEMOA,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,1.75811e+06
+TEMOA,ISNE,ISNE_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,9.32268e+06
+TEMOA,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2040,base_short_current_policies,all,MWh,2.54901e+06
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_0,Wind,2040,base_short_current_policies,all,MWh,1.04644e+07
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,2.37702e+06
+TEMOA,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,2.34866e+06
+TEMOA,ISNE,ISNE_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,2.0935e+07
+TEMOA,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,17592.9
+TEMOA,ISNE,ISNE_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,135692
+TEMOA,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_short_current_policies,all,MWh,3.93301e+07
+TEMOA,ISNE,ISNE_nuclear_1,Nuclear,2040,base_short_current_policies,all,MWh,2.36835e+07
+TEMOA,ISNE,ISNE_offshorewind_class3_moderate_fixed_0_1,Wind,2040,base_short_current_policies,all,MWh,5.33078e+06
+TEMOA,ISNE,ISNE_offshorewind_class3_moderate_fixed_0_2,Wind,2040,base_short_current_policies,all,MWh,5.57953e+06
+TEMOA,ISNE,ISNE_offshorewind_class3_moderate_fixed_0_3,Wind,2040,base_short_current_policies,all,MWh,5.02425e+06
+TEMOA,ISNE,ISNE_offshorewind_class3_moderate_fixed_1_1,Wind,2040,base_short_current_policies,all,MWh,1.51834e+07
+TEMOA,ISNE,ISNE_offshorewind_class3_moderate_fixed_1_2,Wind,2040,base_short_current_policies,all,MWh,1.44012e+07
+TEMOA,ISNE,ISNE_offshorewind_class3_moderate_fixed_1_3,Wind,2040,base_short_current_policies,all,MWh,1.06378e+07
+TEMOA,ISNE,ISNE_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,1.30889e+06
+TEMOA,ISNE,ISNE_petroleum_liquids_1,Other,2040,base_short_current_policies,all,MWh,12090.7
+TEMOA,ISNE,ISNE_small_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,1.90959e+06
+TEMOA,ISNE,ISNE_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,941034
+TEMOA,ISNE,ISNE_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,1.1777e+07
+TEMOA,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,1.77658e+07
+TEMOA,ISNE,ISNE_utilitypv_class1_moderate_3,Solar,2040,base_short_current_policies,all,MWh,3.19148e+06
+TEMOA,MISC,MISC_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,621205
+TEMOA,MISC,MISC_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,778502
+TEMOA,MISC,MISC_conventional_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,784621
+TEMOA,MISC,MISC_conventional_steam_coal_1,Coal,2040,base_short_current_policies,all,MWh,3.83579e+07
+TEMOA,MISC,MISC_conventional_steam_coal_2,Coal,2040,base_short_current_policies,all,MWh,8.60905e+06
+TEMOA,MISC,MISC_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,5.02078e+06
+TEMOA,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2040,base_short_current_policies,all,MWh,1.24206e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_0,Wind,2040,base_short_current_policies,all,MWh,9.36346e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,1.15437e+07
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_11,Wind,2040,base_short_current_policies,all,MWh,7.5472e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_12,Wind,2040,base_short_current_policies,all,MWh,5.52783e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,4.6882e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_3,Wind,2040,base_short_current_policies,all,MWh,1.60288e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_4,Wind,2040,base_short_current_policies,all,MWh,7.28923e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_5,Wind,2040,base_short_current_policies,all,MWh,8.32686e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_6,Wind,2040,base_short_current_policies,all,MWh,7.81184e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_7,Wind,2040,base_short_current_policies,all,MWh,3.44526e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_8,Wind,2040,base_short_current_policies,all,MWh,4.72329e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_9,Wind,2040,base_short_current_policies,all,MWh,1.09673e+07
+TEMOA,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,3.52234e+06
+TEMOA,MISC,MISC_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,1.23395e+07
+TEMOA,MISC,MISC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,1.35542e+06
+TEMOA,MISC,MISC_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,30694.2
+TEMOA,MISC,MISC_nuclear_1,Nuclear,2040,base_short_current_policies,all,MWh,1.68096e+07
+TEMOA,MISC,MISC_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,2.7248e+06
+TEMOA,MISC,MISC_petroleum_liquids_1,Other,2040,base_short_current_policies,all,MWh,6285.85
+TEMOA,MISC,MISC_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,262926
+TEMOA,MISC,MISC_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,6.24931e+07
+TEMOA,MISC,MISC_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,5.55913e+06
+TEMOA,MISE,MISE_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,538961
+TEMOA,MISE,MISE_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,364.223
+TEMOA,MISE,MISE_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,4.62841e+06
+TEMOA,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2040,base_short_current_policies,all,MWh,4.99422e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_0,Wind,2040,base_short_current_policies,all,MWh,2.54185e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,1.61141e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,722340
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_3,Wind,2040,base_short_current_policies,all,MWh,1.79494e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_4,Wind,2040,base_short_current_policies,all,MWh,2.41318e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_5,Wind,2040,base_short_current_policies,all,MWh,413247
+TEMOA,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,571171
+TEMOA,MISE,MISE_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,1.35127e+07
+TEMOA,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,2.01904e+06
+TEMOA,MISE,MISE_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,52524.4
+TEMOA,MISE,MISE_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_short_current_policies,all,MWh,4.01798e+07
+TEMOA,MISE,MISE_nuclear_1,Nuclear,2040,base_short_current_policies,all,MWh,8.80958e+06
+TEMOA,MISE,MISE_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,2.75603e+06
+TEMOA,MISE,MISE_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,2.10714e+07
+TEMOA,MISE,MISE_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,2.3956e+07
+TEMOA,MISE,MISE_utilitypv_class1_moderate_2,Solar,2040,base_short_current_policies,all,MWh,102726
+TEMOA,MISS,MISS_conventional_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,848882
+TEMOA,MISS,MISS_conventional_steam_coal_1,Coal,2040,base_short_current_policies,all,MWh,3.06595e+07
+TEMOA,MISS,MISS_conventional_steam_coal_2,Coal,2040,base_short_current_policies,all,MWh,4.6241e+06
+TEMOA,MISS,MISS_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,7.47143e+06
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,605599
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,5.25352e+06
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_3,Wind,2040,base_short_current_policies,all,MWh,1.07721e+06
+TEMOA,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,24925
+TEMOA,MISS,MISS_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,3.66032e+07
+TEMOA,MISS,MISS_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,58469.6
+TEMOA,MISS,MISS_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,401306
+TEMOA,MISS,MISS_nuclear_1,Nuclear,2040,base_short_current_policies,all,MWh,3.86915e+07
+TEMOA,MISS,MISS_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,280962
+TEMOA,MISS,MISS_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,4.92987e+06
+TEMOA,MISS,MISS_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,1.71948e+07
+TEMOA,MISS,MISS_utilitypv_class1_moderate_3,Solar,2040,base_short_current_policies,all,MWh,8.24873e+06
+TEMOA,MISW,MISW_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,182615
+TEMOA,MISW,MISW_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,2.20875e+07
+TEMOA,MISW,MISW_conventional_steam_coal_1,Coal,2040,base_short_current_policies,all,MWh,5.08872e+07
+TEMOA,MISW,MISW_conventional_steam_coal_2,Coal,2040,base_short_current_policies,all,MWh,10564.9
+TEMOA,MISW,MISW_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,6.80861e+06
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_0,Wind,2040,base_short_current_policies,all,MWh,5.84483e+07
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,2.6137e+07
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,1.04102e+07
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_3,Wind,2040,base_short_current_policies,all,MWh,4.06382e+06
+TEMOA,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,1.7773e+06
+TEMOA,MISW,MISW_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,2.10979e+07
+TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,86363.6
+TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,1.64136e+06
+TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,base_short_current_policies,all,MWh,3409.33
+TEMOA,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_short_current_policies,all,MWh,323050
+TEMOA,MISW,MISW_natural_gas_steam_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,4045.62
+TEMOA,MISW,MISW_nuclear_1,Nuclear,2040,base_short_current_policies,all,MWh,2.12824e+07
+TEMOA,MISW,MISW_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,1.09745e+07
+TEMOA,MISW,MISW_petroleum_liquids_1,Other,2040,base_short_current_policies,all,MWh,18925.1
+TEMOA,MISW,MISW_small_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,1.83331e+06
+TEMOA,MISW,MISW_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,675263
+TEMOA,MISW,MISW_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,4.53898e+07
+TEMOA,MISW,MISW_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,1.23324e+07
+TEMOA,MISW,MISW_utilitypv_class1_moderate_2,Solar,2040,base_short_current_policies,all,MWh,3.36749e+07
+TEMOA,MISW,MISW_utilitypv_class1_moderate_3,Solar,2040,base_short_current_policies,all,MWh,2.01244e+07
+TEMOA,NWPP,NWPP_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,7.97825e+06
+TEMOA,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,1.19533e+08
+TEMOA,NWPP,NWPP_conventional_steam_coal_1,Coal,2040,base_short_current_policies,all,MWh,9.68249e+06
+TEMOA,NWPP,NWPP_conventional_steam_coal_2,Coal,2040,base_short_current_policies,all,MWh,738927
+TEMOA,NWPP,NWPP_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,5.45745e+06
+TEMOA,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2040,base_short_current_policies,all,MWh,834860
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_0,Wind,2040,base_short_current_policies,all,MWh,9.47225e+06
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,2.19334e+07
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_10,Wind,2040,base_short_current_policies,all,MWh,1.7937e+06
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_14,Wind,2040,base_short_current_policies,all,MWh,1.59603e+06
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,1.99504e+07
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_3,Wind,2040,base_short_current_policies,all,MWh,1.44921e+07
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_6,Wind,2040,base_short_current_policies,all,MWh,2.4519e+06
+TEMOA,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,2.62314e+06
+TEMOA,NWPP,NWPP_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,1.33104e+07
+TEMOA,NWPP,NWPP_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,40683.2
+TEMOA,NWPP,NWPP_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_short_current_policies,all,MWh,179821
+TEMOA,NWPP,NWPP_nuclear_1,Nuclear,2040,base_short_current_policies,all,MWh,8.05776e+06
+TEMOA,NWPP,NWPP_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,5.01976e+06
+TEMOA,NWPP,NWPP_small_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,3.20315e+06
+TEMOA,NWPP,NWPP_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,266811
+TEMOA,NWPP,NWPP_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,2.5018e+07
+TEMOA,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,2.28851e+07
+TEMOA,NWPP,NWPP_utilitypv_class1_moderate_3,Solar,2040,base_short_current_policies,all,MWh,2.14059e+07
+TEMOA,NYCW,NYCW_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,1.3676e+06
+TEMOA,NYCW,NYCW_battery_moderate_0_6hour,Battery,2040,base_short_current_policies,all,MWh,2.29312e+06
+TEMOA,NYCW,NYCW_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,3.43784e+06
+TEMOA,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,6.66738e+06
+TEMOA,NYCW,NYCW_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,1.06094e+07
+TEMOA,NYCW,NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,1.31096e+06
+TEMOA,NYCW,NYCW_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,727473
+TEMOA,NYCW,NYCW_offshorewind_class12_moderate_floating_1_1,Wind,2040,base_short_current_policies,all,MWh,8.45226e+06
+TEMOA,NYCW,NYCW_offshorewind_class12_moderate_floating_1_2,Wind,2040,base_short_current_policies,all,MWh,3.06519e+06
+TEMOA,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_1,Wind,2040,base_short_current_policies,all,MWh,2.25969e+06
+TEMOA,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_2,Wind,2040,base_short_current_policies,all,MWh,2.05688e+06
+TEMOA,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_3,Wind,2040,base_short_current_policies,all,MWh,2.14665e+06
+TEMOA,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_1,Wind,2040,base_short_current_policies,all,MWh,5.93118e+06
+TEMOA,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_2,Wind,2040,base_short_current_policies,all,MWh,5.70815e+06
+TEMOA,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_3,Wind,2040,base_short_current_policies,all,MWh,5.86291e+06
+TEMOA,NYCW,NYCW_petroleum_liquids_1,Other,2040,base_short_current_policies,all,MWh,5454.68
+TEMOA,NYUP,NYUP_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,5.53776e+06
+TEMOA,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,1.45311e+07
+TEMOA,NYUP,NYUP_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,2.3321e+06
+TEMOA,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2040,base_short_current_policies,all,MWh,3.55298e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_0,Wind,2040,base_short_current_policies,all,MWh,7.3628e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,2.64419e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_10,Wind,2040,base_short_current_policies,all,MWh,3.51139e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,2.68266e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_4,Wind,2040,base_short_current_policies,all,MWh,6.17846e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_6,Wind,2040,base_short_current_policies,all,MWh,2.50657e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_7,Wind,2040,base_short_current_policies,all,MWh,2.0424e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_8,Wind,2040,base_short_current_policies,all,MWh,5.19705e+06
+TEMOA,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,2.11163e+06
+TEMOA,NYUP,NYUP_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,1.59841e+07
+TEMOA,NYUP,NYUP_nuclear_1,Nuclear,2040,base_short_current_policies,all,MWh,2.4768e+07
+TEMOA,NYUP,NYUP_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,875772
+TEMOA,NYUP,NYUP_small_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,1.93808e+06
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,1.3277e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,1.34582e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_2,Solar,2040,base_short_current_policies,all,MWh,2.51826e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_3,Solar,2040,base_short_current_policies,all,MWh,1.31326e+06
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_4,Solar,2040,base_short_current_policies,all,MWh,2.62286e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_5,Solar,2040,base_short_current_policies,all,MWh,377771
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_6,Solar,2040,base_short_current_policies,all,MWh,2.95208e+06
+TEMOA,PJMC,PJMC_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,555.88
+TEMOA,PJMC,PJMC_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,3.14891e+06
+TEMOA,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,9.34299e+06
+TEMOA,PJMC,PJMC_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,23405.2
+TEMOA,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,3.47322e+06
+TEMOA,PJMC,PJMC_nuclear_1,Nuclear,2040,base_short_current_policies,all,MWh,8.17272e+07
+TEMOA,PJMC,PJMC_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,1.31484e+06
+TEMOA,PJMC,PJMC_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,1.69415e+07
+TEMOA,PJMD,PJMD_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,3.21424e+06
+TEMOA,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,589020
+TEMOA,PJMD,PJMD_conventional_steam_coal_1,Coal,2040,base_short_current_policies,all,MWh,2.4539e+06
+TEMOA,PJMD,PJMD_conventional_steam_coal_2,Coal,2040,base_short_current_policies,all,MWh,2.43464e+06
+TEMOA,PJMD,PJMD_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,5.6295e+06
+TEMOA,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2040,base_short_current_policies,all,MWh,7.12625e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_0,Wind,2040,base_short_current_policies,all,MWh,2.62531e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_10,Wind,2040,base_short_current_policies,all,MWh,2.16124e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_11,Wind,2040,base_short_current_policies,all,MWh,1.91706e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_13,Wind,2040,base_short_current_policies,all,MWh,2.9881e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_15,Wind,2040,base_short_current_policies,all,MWh,1.37571e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,2.23014e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_3,Wind,2040,base_short_current_policies,all,MWh,107351
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_5,Wind,2040,base_short_current_policies,all,MWh,2.20724e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_7,Wind,2040,base_short_current_policies,all,MWh,1.02509e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_8,Wind,2040,base_short_current_policies,all,MWh,1.37746e+06
+TEMOA,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,1.1804e+07
+TEMOA,PJMD,PJMD_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,660828
+TEMOA,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,125920
+TEMOA,PJMD,PJMD_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,10248.1
+TEMOA,PJMD,PJMD_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,base_short_current_policies,all,MWh,359746
+TEMOA,PJMD,PJMD_nuclear_1,Nuclear,2040,base_short_current_policies,all,MWh,2.74394e+07
+TEMOA,PJMD,PJMD_offshorewind_class3_moderate_fixed_0_1,Wind,2040,base_short_current_policies,all,MWh,1.11459e+07
+TEMOA,PJMD,PJMD_offshorewind_class3_moderate_fixed_1_1,Wind,2040,base_short_current_policies,all,MWh,5.55454e+06
+TEMOA,PJMD,PJMD_offshorewind_class3_moderate_fixed_1_2,Wind,2040,base_short_current_policies,all,MWh,885173
+TEMOA,PJMD,PJMD_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,225648
+TEMOA,PJMD,PJMD_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,1.04381e+06
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,5.51483e+07
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,2.34531e+06
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_3,Solar,2040,base_short_current_policies,all,MWh,2.79828e+07
+TEMOA,PJME,PJME_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,925.632
+TEMOA,PJME,PJME_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,5.19097e+06
+TEMOA,PJME,PJME_conventional_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,1.618e+06
+TEMOA,PJME,PJME_conventional_steam_coal_1,Coal,2040,base_short_current_policies,all,MWh,1.18242e+07
+TEMOA,PJME,PJME_conventional_steam_coal_2,Coal,2040,base_short_current_policies,all,MWh,1.64614e+06
+TEMOA,PJME,PJME_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,1.72987e+07
+TEMOA,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2040,base_short_current_policies,all,MWh,4.48807e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_0,Wind,2040,base_short_current_policies,all,MWh,7.28451e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,1.03456e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,4.11191e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_3,Wind,2040,base_short_current_policies,all,MWh,3.37855e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_5,Wind,2040,base_short_current_policies,all,MWh,3.20874e+06
+TEMOA,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,1.39501e+06
+TEMOA,PJME,PJME_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,1.13897e+08
+TEMOA,PJME,PJME_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,100911
+TEMOA,PJME,PJME_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,1.28017e+06
+TEMOA,PJME,PJME_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,base_short_current_policies,all,MWh,264181
+TEMOA,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_short_current_policies,all,MWh,171776
+TEMOA,PJME,PJME_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_short_current_policies,all,MWh,1.65889e+07
+TEMOA,PJME,PJME_nuclear_1,Nuclear,2040,base_short_current_policies,all,MWh,9.70394e+07
+TEMOA,PJME,PJME_offshorewind_class3_moderate_fixed_1_1,Wind,2040,base_short_current_policies,all,MWh,3.4504e+07
+TEMOA,PJME,PJME_offshorewind_class3_moderate_fixed_1_2,Wind,2040,base_short_current_policies,all,MWh,1.16862e+07
+TEMOA,PJME,PJME_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,941287
+TEMOA,PJME,PJME_petroleum_liquids_1,Other,2040,base_short_current_policies,all,MWh,4181.6
+TEMOA,PJME,PJME_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,1.3718e+06
+TEMOA,PJME,PJME_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,1.4228e+07
+TEMOA,PJME,PJME_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,3.71619e+07
+TEMOA,PJMW,PJMW_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,8.66584e+06
+TEMOA,PJMW,PJMW_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,1.18269e+07
+TEMOA,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,1.47267e+06
+TEMOA,PJMW,PJMW_conventional_steam_coal_1,Coal,2040,base_short_current_policies,all,MWh,1.06254e+06
+TEMOA,PJMW,PJMW_conventional_steam_coal_2,Coal,2040,base_short_current_policies,all,MWh,3.21388e+07
+TEMOA,PJMW,PJMW_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,1.04531e+07
+TEMOA,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2040,base_short_current_policies,all,MWh,583695
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_0,Wind,2040,base_short_current_policies,all,MWh,5.0955e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,5.06003e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_10,Wind,2040,base_short_current_policies,all,MWh,3.24971e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_11,Wind,2040,base_short_current_policies,all,MWh,1.98084e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_13,Wind,2040,base_short_current_policies,all,MWh,2.92926e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_15,Wind,2040,base_short_current_policies,all,MWh,2.02166e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,3.61609e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_3,Wind,2040,base_short_current_policies,all,MWh,2.63165e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_4,Wind,2040,base_short_current_policies,all,MWh,4.4248e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_5,Wind,2040,base_short_current_policies,all,MWh,3.22625e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_6,Wind,2040,base_short_current_policies,all,MWh,4.21279e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_7,Wind,2040,base_short_current_policies,all,MWh,2.82333e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_8,Wind,2040,base_short_current_policies,all,MWh,6.88799e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_9,Wind,2040,base_short_current_policies,all,MWh,1.03945e+06
+TEMOA,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,1.68023e+06
+TEMOA,PJMW,PJMW_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,4.00129e+07
+TEMOA,PJMW,PJMW_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,2.64812e+06
+TEMOA,PJMW,PJMW_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,base_short_current_policies,all,MWh,81146.2
+TEMOA,PJMW,PJMW_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,base_short_current_policies,all,MWh,2.41815e+07
+TEMOA,PJMW,PJMW_nuclear_1,Nuclear,2040,base_short_current_policies,all,MWh,4.75812e+07
+TEMOA,PJMW,PJMW_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,2.50611e+06
+TEMOA,PJMW,PJMW_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,209360
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,8.35449e+07
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,2.93343e+07
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_2,Solar,2040,base_short_current_policies,all,MWh,3.28007e+07
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_3,Solar,2040,base_short_current_policies,all,MWh,3.58621e+07
+TEMOA,RMRG,RMRG_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,5.96086e+06
+TEMOA,RMRG,RMRG_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,428649
+TEMOA,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,1.66319e+06
+TEMOA,RMRG,RMRG_conventional_steam_coal_1,Coal,2040,base_short_current_policies,all,MWh,1.84992e+06
+TEMOA,RMRG,RMRG_conventional_steam_coal_2,Coal,2040,base_short_current_policies,all,MWh,1.962e+07
+TEMOA,RMRG,RMRG_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,3.04139e+06
+TEMOA,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2040,base_short_current_policies,all,MWh,1.81077e+06
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_0,Wind,2040,base_short_current_policies,all,MWh,4.48815e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,1.47018e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,2.77938e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_3,Wind,2040,base_short_current_policies,all,MWh,2.43916e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_5,Wind,2040,base_short_current_policies,all,MWh,1.41334e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_6,Wind,2040,base_short_current_policies,all,MWh,1.25243e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_7,Wind,2040,base_short_current_policies,all,MWh,738.975
+TEMOA,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,526735
+TEMOA,RMRG,RMRG_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,2.01283e+06
+TEMOA,RMRG,RMRG_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,3654.13
+TEMOA,RMRG,RMRG_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,65344.5
+TEMOA,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_short_current_policies,all,MWh,88771.4
+TEMOA,RMRG,RMRG_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,3.81668e+06
+TEMOA,RMRG,RMRG_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,627606
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,1.55067e+07
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,2.13927e+07
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_7,Solar,2040,base_short_current_policies,all,MWh,947589
+TEMOA,SPPC,SPPC_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,2980.3
+TEMOA,SPPC,SPPC_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,3.12462e+06
+TEMOA,SPPC,SPPC_conventional_steam_coal_1,Coal,2040,base_short_current_policies,all,MWh,6.21014e+06
+TEMOA,SPPC,SPPC_conventional_steam_coal_2,Coal,2040,base_short_current_policies,all,MWh,2.29824e+07
+TEMOA,SPPC,SPPC_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,1.80053e+06
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_0,Wind,2040,base_short_current_policies,all,MWh,1.68344e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,2.1895e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_11,Wind,2040,base_short_current_policies,all,MWh,4.62942e+06
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,2.378e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_3,Wind,2040,base_short_current_policies,all,MWh,1.40392e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_4,Wind,2040,base_short_current_policies,all,MWh,1.34273e+07
+TEMOA,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,1.55913e+06
+TEMOA,SPPC,SPPC_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,146304
+TEMOA,SPPC,SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,141807
+TEMOA,SPPC,SPPC_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,base_short_current_policies,all,MWh,9738.33
+TEMOA,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_short_current_policies,all,MWh,34138.1
+TEMOA,SPPC,SPPC_nuclear_1,Nuclear,2040,base_short_current_policies,all,MWh,8.31395e+06
+TEMOA,SPPC,SPPC_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,5.77752e+06
+TEMOA,SPPC,SPPC_petroleum_liquids_1,Other,2040,base_short_current_policies,all,MWh,2055.77
+TEMOA,SPPC,SPPC_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,2.61727e+07
+TEMOA,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,1.20906e+06
+TEMOA,SPPN,SPPN_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,1279.54
+TEMOA,SPPN,SPPN_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,7376.41
+TEMOA,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,8.74465e+06
+TEMOA,SPPN,SPPN_conventional_steam_coal_1,Coal,2040,base_short_current_policies,all,MWh,2.1105e+06
+TEMOA,SPPN,SPPN_conventional_steam_coal_2,Coal,2040,base_short_current_policies,all,MWh,2.01249e+07
+TEMOA,SPPN,SPPN_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,873492
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_0,Wind,2040,base_short_current_policies,all,MWh,2.00513e+07
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,7.67273e+06
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,3.73374e+06
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_3,Wind,2040,base_short_current_policies,all,MWh,1.52637e+06
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_5,Wind,2040,base_short_current_policies,all,MWh,1.91562e+06
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_6,Wind,2040,base_short_current_policies,all,MWh,1728.06
+TEMOA,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,297063
+TEMOA,SPPN,SPPN_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,268702
+TEMOA,SPPN,SPPN_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,9230.67
+TEMOA,SPPN,SPPN_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,141691
+TEMOA,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_short_current_policies,all,MWh,60905.5
+TEMOA,SPPN,SPPN_nuclear_1,Nuclear,2040,base_short_current_policies,all,MWh,5.05012e+06
+TEMOA,SPPN,SPPN_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,3.74483e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,8.76274e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,3.36834e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_3,Solar,2040,base_short_current_policies,all,MWh,1.92918e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_5,Solar,2040,base_short_current_policies,all,MWh,455312
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_7,Solar,2040,base_short_current_policies,all,MWh,1.95515e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_9,Solar,2040,base_short_current_policies,all,MWh,2.3819e+06
+TEMOA,SPPS,SPPS_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,1.97149e+06
+TEMOA,SPPS,SPPS_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,1586.54
+TEMOA,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,1.64969e+06
+TEMOA,SPPS,SPPS_conventional_steam_coal_1,Coal,2040,base_short_current_policies,all,MWh,1.08974e+07
+TEMOA,SPPS,SPPS_conventional_steam_coal_2,Coal,2040,base_short_current_policies,all,MWh,7.4018e+06
+TEMOA,SPPS,SPPS_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,4.8571e+06
+TEMOA,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2040,base_short_current_policies,all,MWh,1.27592e+06
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_0,Wind,2040,base_short_current_policies,all,MWh,4.69742e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,3.11253e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_11,Wind,2040,base_short_current_policies,all,MWh,1.39744e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,3.52912e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_3,Wind,2040,base_short_current_policies,all,MWh,9.32728e+06
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_4,Wind,2040,base_short_current_policies,all,MWh,6.18146e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_5,Wind,2040,base_short_current_policies,all,MWh,1.16675e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_6,Wind,2040,base_short_current_policies,all,MWh,1.9442e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_7,Wind,2040,base_short_current_policies,all,MWh,2.59132e+07
+TEMOA,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,2.07196e+07
+TEMOA,SPPS,SPPS_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,996263
+TEMOA,SPPS,SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,28575.1
+TEMOA,SPPS,SPPS_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,58724.4
+TEMOA,SPPS,SPPS_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,base_short_current_policies,all,MWh,408531
+TEMOA,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_short_current_policies,all,MWh,200005
+TEMOA,SPPS,SPPS_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,1.45253e+07
+TEMOA,SPPS,SPPS_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,352465
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,2.5797e+07
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,8.03241e+06
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_3,Solar,2040,base_short_current_policies,all,MWh,1.95732e+07
+TEMOA,SRCA,SRCA_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,2.36373e+06
+TEMOA,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,1.65306e+06
+TEMOA,SRCA,SRCA_conventional_steam_coal_1,Coal,2040,base_short_current_policies,all,MWh,2.06325e+07
+TEMOA,SRCA,SRCA_conventional_steam_coal_2,Coal,2040,base_short_current_policies,all,MWh,6.41529e+06
+TEMOA,SRCA,SRCA_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,1.13709e+07
+TEMOA,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2040,base_short_current_policies,all,MWh,6.10987e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_0,Wind,2040,base_short_current_policies,all,MWh,1.66285e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,4.18758e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,1.42748e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_3,Wind,2040,base_short_current_policies,all,MWh,4.70076e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_4,Wind,2040,base_short_current_policies,all,MWh,1.15759e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_5,Wind,2040,base_short_current_policies,all,MWh,539429
+TEMOA,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,1.88589e+07
+TEMOA,SRCA,SRCA_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,3139.48
+TEMOA,SRCA,SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,2.15376e+06
+TEMOA,SRCA,SRCA_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,12102.4
+TEMOA,SRCA,SRCA_natural_gas_steam_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,321031
+TEMOA,SRCA,SRCA_nuclear_1,Nuclear,2040,base_short_current_policies,all,MWh,8.89736e+07
+TEMOA,SRCA,SRCA_offshorewind_class3_moderate_fixed_0_1,Wind,2040,base_short_current_policies,all,MWh,2.89398e+07
+TEMOA,SRCA,SRCA_petroleum_liquids_1,Other,2040,base_short_current_policies,all,MWh,1894.32
+TEMOA,SRCA,SRCA_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,4.13638e+06
+TEMOA,SRCA,SRCA_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,2.39988e+07
+TEMOA,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,4.36694e+07
+TEMOA,SRCA,SRCA_utilitypv_class1_moderate_3,Solar,2040,base_short_current_policies,all,MWh,1.93829e+07
+TEMOA,SRCE,SRCE_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,375442
+TEMOA,SRCE,SRCE_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,5.23251e+06
+TEMOA,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,1.23003e+07
+TEMOA,SRCE,SRCE_conventional_steam_coal_1,Coal,2040,base_short_current_policies,all,MWh,2.71221e+06
+TEMOA,SRCE,SRCE_conventional_steam_coal_2,Coal,2040,base_short_current_policies,all,MWh,2.53458e+07
+TEMOA,SRCE,SRCE_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,4.02767e+06
+TEMOA,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2040,base_short_current_policies,all,MWh,4.13944e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_0,Wind,2040,base_short_current_policies,all,MWh,2.36638e+07
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,7.11737e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,1.34971e+07
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_3,Wind,2040,base_short_current_policies,all,MWh,1.41481e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_4,Wind,2040,base_short_current_policies,all,MWh,2.09105e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_7,Wind,2040,base_short_current_policies,all,MWh,1.5324e+06
+TEMOA,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,2.99592e+07
+TEMOA,SRCE,SRCE_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,3.74016e+06
+TEMOA,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,746372
+TEMOA,SRCE,SRCE_natural_gas_fired_combustion_turbine_3,Natural Gas,2040,base_short_current_policies,all,MWh,40121.9
+TEMOA,SRCE,SRCE_nuclear_1,Nuclear,2040,base_short_current_policies,all,MWh,6.41801e+07
+TEMOA,SRCE,SRCE_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,291995
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,2.88444e+07
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,3.69182e+07
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_2,Solar,2040,base_short_current_policies,all,MWh,3.17853e+07
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_3,Solar,2040,base_short_current_policies,all,MWh,1.07573e+06
+TEMOA,SRSE,SRSE_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,772763
+TEMOA,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,5.00886e+06
+TEMOA,SRSE,SRSE_conventional_steam_coal_1,Coal,2040,base_short_current_policies,all,MWh,3.00351e+07
+TEMOA,SRSE,SRSE_conventional_steam_coal_2,Coal,2040,base_short_current_policies,all,MWh,1.06655e+06
+TEMOA,SRSE,SRSE_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,3.70846e+06
+TEMOA,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2040,base_short_current_policies,all,MWh,3.71607e+06
+TEMOA,SRSE,SRSE_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,3.80942e+06
+TEMOA,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,6.68239e+07
+TEMOA,SRSE,SRSE_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,1.20499e+06
+TEMOA,SRSE,SRSE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,70885.1
+TEMOA,SRSE,SRSE_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,697824
+TEMOA,SRSE,SRSE_nuclear_1,Nuclear,2040,base_short_current_policies,all,MWh,6.32899e+07
+TEMOA,SRSE,SRSE_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,2.04518e+06
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,4.00501e+07
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,2.37041e+07
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_2,Solar,2040,base_short_current_policies,all,MWh,3.89923e+07
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_4,Solar,2040,base_short_current_policies,all,MWh,1.07001e+06
+TEMOA,SRSG,SRSG_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,771.671
+TEMOA,SRSG,SRSG_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,1.14684e+07
+TEMOA,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,6.26385e+06
+TEMOA,SRSG,SRSG_conventional_steam_coal_1,Coal,2040,base_short_current_policies,all,MWh,5.59395e+06
+TEMOA,SRSG,SRSG_conventional_steam_coal_2,Coal,2040,base_short_current_policies,all,MWh,2.961e+06
+TEMOA,SRSG,SRSG_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,5.90972e+06
+TEMOA,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2040,base_short_current_policies,all,MWh,598123
+TEMOA,SRSG,SRSG_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,3.31674e+06
+TEMOA,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,1.2149e+07
+TEMOA,SRSG,SRSG_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,530742
+TEMOA,SRSG,SRSG_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,198621
+TEMOA,SRSG,SRSG_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,15023.7
+TEMOA,SRSG,SRSG_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_short_current_policies,all,MWh,13228.3
+TEMOA,SRSG,SRSG_nuclear_1,Nuclear,2040,base_short_current_policies,all,MWh,2.76853e+07
+TEMOA,SRSG,SRSG_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,3.28974e+06
+TEMOA,SRSG,SRSG_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,5.08031e+06
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,4.30423e+07
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,3.12355e+07
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_3,Solar,2040,base_short_current_policies,all,MWh,1.84437e+07
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_5,Solar,2040,base_short_current_policies,all,MWh,1.08564e+06
+TEMOA,TRE_WEST,TRE_WEST_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,3.82708e+06
+TEMOA,TRE_WEST,TRE_WEST_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,2220.12
+TEMOA,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,723107
+TEMOA,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_0,Wind,2040,base_short_current_policies,all,MWh,2.04292e+07
+TEMOA,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,1.04679e+07
+TEMOA,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,3.03014e+07
+TEMOA,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_3,Wind,2040,base_short_current_policies,all,MWh,1.10207e+07
+TEMOA,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_4,Wind,2040,base_short_current_policies,all,MWh,3.07259e+07
+TEMOA,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_6,Wind,2040,base_short_current_policies,all,MWh,1719.97
+TEMOA,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,5.97275e+06
+TEMOA,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,143416
+TEMOA,TRE_WEST,TRE_WEST_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,28804.4
+TEMOA,TRE_WEST,TRE_WEST_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,1.45334e+07
+TEMOA,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,1.6028e+06
+TEMOA,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,7.65001e+06
+TEMOA,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,1.43786e+07
+TEMOA,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_9,Solar,2040,base_short_current_policies,all,MWh,712129
+TEMOA,TRE,TRE_battery_moderate_0_2hour,Battery,2040,base_short_current_policies,all,MWh,4.03466e+06
+TEMOA,TRE,TRE_battery_moderate_0_4hour,Battery,2040,base_short_current_policies,all,MWh,763.26
+TEMOA,TRE,TRE_conventional_hydroelectric_1,Hydro,2040,base_short_current_policies,all,MWh,197043
+TEMOA,TRE,TRE_conventional_steam_coal_1,Coal,2040,base_short_current_policies,all,MWh,2.92268e+07
+TEMOA,TRE,TRE_conventional_steam_coal_2,Coal,2040,base_short_current_policies,all,MWh,2.8837e+07
+TEMOA,TRE,TRE_distributed_generation_1,Distributed Solar,2040,base_short_current_policies,all,MWh,1.41326e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_0,Wind,2040,base_short_current_policies,all,MWh,8.39096e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2040,base_short_current_policies,all,MWh,6.3728e+06
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_14,Wind,2040,base_short_current_policies,all,MWh,22280.7
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_2,Wind,2040,base_short_current_policies,all,MWh,2.77371e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_3,Wind,2040,base_short_current_policies,all,MWh,2.07323e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_5,Wind,2040,base_short_current_policies,all,MWh,2.23148e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_6,Wind,2040,base_short_current_policies,all,MWh,2.03785e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_7,Wind,2040,base_short_current_policies,all,MWh,7.49502e+06
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_8,Wind,2040,base_short_current_policies,all,MWh,1.6404e+07
+TEMOA,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2040,base_short_current_policies,all,MWh,5.94367e+07
+TEMOA,TRE,TRE_natural_gas_fired_combined_cycle_2,Natural Gas,2040,base_short_current_policies,all,MWh,2.2465e+06
+TEMOA,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,45874.6
+TEMOA,TRE,TRE_natural_gas_fired_combustion_turbine_2,Natural Gas,2040,base_short_current_policies,all,MWh,328696
+TEMOA,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2040,base_short_current_policies,all,MWh,305190
+TEMOA,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2040,base_short_current_policies,all,MWh,91849.6
+TEMOA,TRE,TRE_nuclear_1,Nuclear,2040,base_short_current_policies,all,MWh,3.35045e+07
+TEMOA,TRE,TRE_onshore_wind_turbine_1,Wind,2040,base_short_current_policies,all,MWh,7.43914e+06
+TEMOA,TRE,TRE_solar_photovoltaic_1,Solar,2040,base_short_current_policies,all,MWh,400444
+TEMOA,TRE,TRE_utilitypv_class1_moderate_0,Solar,2040,base_short_current_policies,all,MWh,1.80098e+07
+TEMOA,TRE,TRE_utilitypv_class1_moderate_1,Solar,2040,base_short_current_policies,all,MWh,2.40988e+07
+TEMOA,TRE,TRE_utilitypv_class1_moderate_2,Solar,2040,base_short_current_policies,all,MWh,2.60039e+07
+TEMOA,TRE,TRE_utilitypv_class1_moderate_5,Solar,2040,base_short_current_policies,all,MWh,1.42398e+07
+TEMOA,TRE,TRE_utilitypv_class1_moderate_7,Solar,2040,base_short_current_policies,all,MWh,2.69263e+06
+TEMOA,FRCC,unserved_load,Other,2040,base_short_current_policies,all,MWh,3687.35
+TEMOA,ISNE,unserved_load,Other,2040,base_short_current_policies,all,MWh,136161
+TEMOA,MISE,unserved_load,Other,2040,base_short_current_policies,all,MWh,809.368
+TEMOA,NYCW,unserved_load,Other,2040,base_short_current_policies,all,MWh,12829.1
+TEMOA,NYUP,unserved_load,Other,2040,base_short_current_policies,all,MWh,7083.16
+TEMOA,PJMD,unserved_load,Other,2040,base_short_current_policies,all,MWh,1045.95
+TEMOA,PJME,unserved_load,Other,2040,base_short_current_policies,all,MWh,12886.1
+TEMOA,PJMW,unserved_load,Other,2040,base_short_current_policies,all,MWh,188.504
+TEMOA,SRCA,unserved_load,Other,2040,base_short_current_policies,all,MWh,294.706
+TEMOA,SRSE,unserved_load,Other,2040,base_short_current_policies,all,MWh,308.147
+TEMOA,BASN,BASN_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,747155
+TEMOA,BASN,BASN_battery_moderate_0_4hour,Battery,2050,base_short_current_policies,all,MWh,1.33905e+07
+TEMOA,BASN,BASN_conventional_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,4.97382e+06
+TEMOA,BASN,BASN_conventional_steam_coal_2,Coal,2050,base_short_current_policies,all,MWh,5.58711e+06
+TEMOA,BASN,BASN_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,4.49475e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_0,Wind,2050,base_short_current_policies,all,MWh,1.02919e+07
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,3.17085e+07
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,1.34463e+07
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_3,Wind,2050,base_short_current_policies,all,MWh,4.51574e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_7,Wind,2050,base_short_current_policies,all,MWh,3.91752e+06
+TEMOA,BASN,BASN_landbasedwind_class3_moderate_9,Wind,2050,base_short_current_policies,all,MWh,2.42544e+06
+TEMOA,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,119833
+TEMOA,BASN,BASN_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,1.11765e+07
+TEMOA,BASN,BASN_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,48772.6
+TEMOA,BASN,BASN_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_current_policies,all,MWh,8520.96
+TEMOA,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_short_current_policies,all,MWh,31746.1
+TEMOA,BASN,BASN_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,4.35668e+07
+TEMOA,BASN,BASN_small_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,1.26497e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,4.26628e+07
+TEMOA,BASN,BASN_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,1.03573e+07
+TEMOA,BASN,BASN_utilitypv_class1_moderate_2,Solar,2050,base_short_current_policies,all,MWh,1.40883e+07
+TEMOA,BASN,BASN_utilitypv_class1_moderate_3,Solar,2050,base_short_current_policies,all,MWh,3.4409e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_5,Solar,2050,base_short_current_policies,all,MWh,8.73128e+06
+TEMOA,BASN,BASN_utilitypv_class1_moderate_7,Solar,2050,base_short_current_policies,all,MWh,1.16614e+07
+TEMOA,CANO,CANO_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,4.68403e+06
+TEMOA,CANO,CANO_battery_moderate_0_4hour,Battery,2050,base_short_current_policies,all,MWh,5.34277e+06
+TEMOA,CANO,CANO_battery_moderate_0_6hour,Battery,2050,base_short_current_policies,all,MWh,22941
+TEMOA,CANO,CANO_conventional_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,1.66062e+07
+TEMOA,CANO,CANO_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,1.46272e+07
+TEMOA,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2050,base_short_current_policies,all,MWh,3.24564e+06
+TEMOA,CANO,CANO_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,2.00321e+06
+TEMOA,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,1.22367e+06
+TEMOA,CANO,CANO_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,3.10056e+07
+TEMOA,CANO,CANO_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,223730
+TEMOA,CANO,CANO_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_current_policies,all,MWh,75773.8
+TEMOA,CANO,CANO_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_short_current_policies,all,MWh,53560.5
+TEMOA,CANO,CANO_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,1.49224e+07
+TEMOA,CANO,CANO_small_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,1.69992e+06
+TEMOA,CANO,CANO_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,4.09811e+07
+TEMOA,CANO,CANO_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,1.39255e+07
+TEMOA,CANO,CANO_utilitypv_class1_moderate_2,Solar,2050,base_short_current_policies,all,MWh,2.54441e+07
+TEMOA,CANO,CANO_utilitypv_class1_moderate_3,Solar,2050,base_short_current_policies,all,MWh,2.65266e+07
+TEMOA,CASO,CASO_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,643320
+TEMOA,CASO,CASO_battery_moderate_0_4hour,Battery,2050,base_short_current_policies,all,MWh,1.96649e+07
+TEMOA,CASO,CASO_conventional_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,2.52434e+06
+TEMOA,CASO,CASO_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,2.31405e+07
+TEMOA,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2050,base_short_current_policies,all,MWh,2.75163e+06
+TEMOA,CASO,CASO_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,132046
+TEMOA,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,488818
+TEMOA,CASO,CASO_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,9.84811e+06
+TEMOA,CASO,CASO_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,776154
+TEMOA,CASO,CASO_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_current_policies,all,MWh,112418
+TEMOA,CASO,CASO_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,7.31509e+07
+TEMOA,CASO,CASO_onshore_wind_turbine_1,Wind,2050,base_short_current_policies,all,MWh,406197
+TEMOA,CASO,CASO_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,2.59518e+07
+TEMOA,CASO,CASO_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,2.92287e+07
+TEMOA,CASO,CASO_utilitypv_class1_moderate_2,Solar,2050,base_short_current_policies,all,MWh,2.01353e+07
+TEMOA,CASO,CASO_utilitypv_class1_moderate_3,Solar,2050,base_short_current_policies,all,MWh,3.49355e+07
+TEMOA,FRCC,FRCC_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,4.68667e+06
+TEMOA,FRCC,FRCC_conventional_steam_coal_1,Coal,2050,base_short_current_policies,all,MWh,3.73713e+06
+TEMOA,FRCC,FRCC_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,1.33514e+07
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_0,Wind,2050,base_short_current_policies,all,MWh,6.48541e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,1.40853e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,1.75786e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_4,Wind,2050,base_short_current_policies,all,MWh,2.70565e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_5,Wind,2050,base_short_current_policies,all,MWh,1.64103e+06
+TEMOA,FRCC,FRCC_landbasedwind_class3_moderate_6,Wind,2050,base_short_current_policies,all,MWh,5.08347e+06
+TEMOA,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,5.50155e+07
+TEMOA,FRCC,FRCC_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,1.48027e+06
+TEMOA,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,863265
+TEMOA,FRCC,FRCC_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_current_policies,all,MWh,7086.22
+TEMOA,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_short_current_policies,all,MWh,89737.3
+TEMOA,FRCC,FRCC_natural_gas_steam_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,99521.9
+TEMOA,FRCC,FRCC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,1.34108e+08
+TEMOA,FRCC,FRCC_nuclear_1,Nuclear,2050,base_short_current_policies,all,MWh,3.08356e+07
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,5.42966e+07
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,3.09209e+07
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_2,Solar,2050,base_short_current_policies,all,MWh,8.02938e+06
+TEMOA,FRCC,FRCC_utilitypv_class1_moderate_3,Solar,2050,base_short_current_policies,all,MWh,2.1454e+07
+TEMOA,ISNE,ISNE_battery_moderate_0_4hour,Battery,2050,base_short_current_policies,all,MWh,1.76489e+07
+TEMOA,ISNE,ISNE_battery_moderate_0_6hour,Battery,2050,base_short_current_policies,all,MWh,4.95326e+06
+TEMOA,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,1.57184e+06
+TEMOA,ISNE,ISNE_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,8.92095e+06
+TEMOA,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2050,base_short_current_policies,all,MWh,1.85115e+06
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_0,Wind,2050,base_short_current_policies,all,MWh,1.02899e+07
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,1.85404e+06
+TEMOA,ISNE,ISNE_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,1.05974e+07
+TEMOA,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,1.10248e+06
+TEMOA,ISNE,ISNE_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,1.1599e+07
+TEMOA,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,19777.6
+TEMOA,ISNE,ISNE_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_current_policies,all,MWh,53350.6
+TEMOA,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,3.76975e+07
+TEMOA,ISNE,ISNE_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,787960
+TEMOA,ISNE,ISNE_nuclear_1,Nuclear,2050,base_short_current_policies,all,MWh,2.632e+07
+TEMOA,ISNE,ISNE_offshorewind_class3_moderate_fixed_0_1,Wind,2050,base_short_current_policies,all,MWh,4.42103e+06
+TEMOA,ISNE,ISNE_offshorewind_class3_moderate_fixed_0_2,Wind,2050,base_short_current_policies,all,MWh,4.51314e+06
+TEMOA,ISNE,ISNE_offshorewind_class3_moderate_fixed_0_3,Wind,2050,base_short_current_policies,all,MWh,4.00928e+06
+TEMOA,ISNE,ISNE_offshorewind_class3_moderate_fixed_1_1,Wind,2050,base_short_current_policies,all,MWh,1.27542e+07
+TEMOA,ISNE,ISNE_offshorewind_class3_moderate_fixed_1_2,Wind,2050,base_short_current_policies,all,MWh,1.23492e+07
+TEMOA,ISNE,ISNE_offshorewind_class3_moderate_fixed_1_3,Wind,2050,base_short_current_policies,all,MWh,9.09508e+06
+TEMOA,ISNE,ISNE_petroleum_liquids_1,Other,2050,base_short_current_policies,all,MWh,7458.54
+TEMOA,ISNE,ISNE_small_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,1.67129e+06
+TEMOA,ISNE,ISNE_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,1.11965e+07
+TEMOA,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,1.65557e+07
+TEMOA,ISNE,ISNE_utilitypv_class1_moderate_2,Solar,2050,base_short_current_policies,all,MWh,1.37203e+07
+TEMOA,ISNE,ISNE_utilitypv_class1_moderate_3,Solar,2050,base_short_current_policies,all,MWh,4.43429e+06
+TEMOA,MISC,MISC_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,553755
+TEMOA,MISC,MISC_battery_moderate_0_4hour,Battery,2050,base_short_current_policies,all,MWh,727671
+TEMOA,MISC,MISC_conventional_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,866894
+TEMOA,MISC,MISC_conventional_steam_coal_1,Coal,2050,base_short_current_policies,all,MWh,1.79784e+07
+TEMOA,MISC,MISC_conventional_steam_coal_2,Coal,2050,base_short_current_policies,all,MWh,894591
+TEMOA,MISC,MISC_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,7.62884e+06
+TEMOA,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2050,base_short_current_policies,all,MWh,792812
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_0,Wind,2050,base_short_current_policies,all,MWh,9.35442e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,1.14148e+07
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_11,Wind,2050,base_short_current_policies,all,MWh,7.76402e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_12,Wind,2050,base_short_current_policies,all,MWh,5.62055e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,4.58999e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_3,Wind,2050,base_short_current_policies,all,MWh,1.59494e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_4,Wind,2050,base_short_current_policies,all,MWh,7.4312e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_5,Wind,2050,base_short_current_policies,all,MWh,8.12266e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_6,Wind,2050,base_short_current_policies,all,MWh,7.97046e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_7,Wind,2050,base_short_current_policies,all,MWh,3.16132e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_8,Wind,2050,base_short_current_policies,all,MWh,4.80056e+06
+TEMOA,MISC,MISC_landbasedwind_class3_moderate_9,Wind,2050,base_short_current_policies,all,MWh,1.05917e+07
+TEMOA,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,2.29915e+06
+TEMOA,MISC,MISC_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,8.91589e+06
+TEMOA,MISC,MISC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,668237
+TEMOA,MISC,MISC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,1.72343e+08
+TEMOA,MISC,MISC_nuclear_1,Nuclear,2050,base_short_current_policies,all,MWh,1.92253e+07
+TEMOA,MISC,MISC_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,6.06575e+07
+TEMOA,MISC,MISC_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,5.49465e+06
+TEMOA,MISE,MISE_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,553839
+TEMOA,MISE,MISE_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,5.75876e+06
+TEMOA,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2050,base_short_current_policies,all,MWh,3.54953e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_0,Wind,2050,base_short_current_policies,all,MWh,2.77149e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,1.87468e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,749939
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_3,Wind,2050,base_short_current_policies,all,MWh,1.96431e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_4,Wind,2050,base_short_current_policies,all,MWh,2.59369e+06
+TEMOA,MISE,MISE_landbasedwind_class3_moderate_5,Wind,2050,base_short_current_policies,all,MWh,414698
+TEMOA,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,264715
+TEMOA,MISE,MISE_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,4.09591e+06
+TEMOA,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,978392
+TEMOA,MISE,MISE_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_current_policies,all,MWh,20858
+TEMOA,MISE,MISE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,9.6448e+07
+TEMOA,MISE,MISE_nuclear_1,Nuclear,2050,base_short_current_policies,all,MWh,9.53792e+06
+TEMOA,MISE,MISE_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,1.97611e+07
+TEMOA,MISE,MISE_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,2.24862e+07
+TEMOA,MISE,MISE_utilitypv_class1_moderate_2,Solar,2050,base_short_current_policies,all,MWh,98111
+TEMOA,MISS,MISS_conventional_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,963671
+TEMOA,MISS,MISS_conventional_steam_coal_1,Coal,2050,base_short_current_policies,all,MWh,5.70998e+06
+TEMOA,MISS,MISS_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,9.50142e+06
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,756598
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,5.29728e+06
+TEMOA,MISS,MISS_landbasedwind_class3_moderate_3,Wind,2050,base_short_current_policies,all,MWh,1.15322e+06
+TEMOA,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,23076.2
+TEMOA,MISS,MISS_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,2.80481e+07
+TEMOA,MISS,MISS_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,43559.3
+TEMOA,MISS,MISS_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_current_policies,all,MWh,424925
+TEMOA,MISS,MISS_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,9.28002e+07
+TEMOA,MISS,MISS_nuclear_1,Nuclear,2050,base_short_current_policies,all,MWh,4.40455e+07
+TEMOA,MISS,MISS_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,5.30274e+06
+TEMOA,MISS,MISS_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,1.81194e+07
+TEMOA,MISS,MISS_utilitypv_class1_moderate_3,Solar,2050,base_short_current_policies,all,MWh,9.0274e+06
+TEMOA,MISW,MISW_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,2.21059e+06
+TEMOA,MISW,MISW_battery_moderate_0_4hour,Battery,2050,base_short_current_policies,all,MWh,1.83366e+07
+TEMOA,MISW,MISW_conventional_steam_coal_1,Coal,2050,base_short_current_policies,all,MWh,2.15817e+07
+TEMOA,MISW,MISW_conventional_steam_coal_2,Coal,2050,base_short_current_policies,all,MWh,8173.39
+TEMOA,MISW,MISW_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,8.27024e+06
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_0,Wind,2050,base_short_current_policies,all,MWh,6.26898e+07
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,2.79726e+07
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,1.14171e+07
+TEMOA,MISW,MISW_landbasedwind_class3_moderate_3,Wind,2050,base_short_current_policies,all,MWh,4.39758e+06
+TEMOA,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,1.24144e+06
+TEMOA,MISW,MISW_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,1.3141e+07
+TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,66417.1
+TEMOA,MISW,MISW_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_current_policies,all,MWh,583771
+TEMOA,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_short_current_policies,all,MWh,135423
+TEMOA,MISW,MISW_natural_gas_steam_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,3423.39
+TEMOA,MISW,MISW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,1.53842e+08
+TEMOA,MISW,MISW_nuclear_1,Nuclear,2050,base_short_current_policies,all,MWh,1.91745e+07
+TEMOA,MISW,MISW_small_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,1.24271e+06
+TEMOA,MISW,MISW_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,4.27731e+07
+TEMOA,MISW,MISW_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,1.25152e+07
+TEMOA,MISW,MISW_utilitypv_class1_moderate_2,Solar,2050,base_short_current_policies,all,MWh,3.2216e+07
+TEMOA,MISW,MISW_utilitypv_class1_moderate_3,Solar,2050,base_short_current_policies,all,MWh,1.83924e+07
+TEMOA,NWPP,NWPP_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,685915
+TEMOA,NWPP,NWPP_battery_moderate_0_4hour,Battery,2050,base_short_current_policies,all,MWh,6.81492e+06
+TEMOA,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,1.11529e+08
+TEMOA,NWPP,NWPP_conventional_steam_coal_1,Coal,2050,base_short_current_policies,all,MWh,6.11245e+06
+TEMOA,NWPP,NWPP_conventional_steam_coal_2,Coal,2050,base_short_current_policies,all,MWh,1.0491e+06
+TEMOA,NWPP,NWPP_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,7.06997e+06
+TEMOA,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2050,base_short_current_policies,all,MWh,417402
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_0,Wind,2050,base_short_current_policies,all,MWh,1.03957e+07
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,2.18398e+07
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_10,Wind,2050,base_short_current_policies,all,MWh,1.97429e+06
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_14,Wind,2050,base_short_current_policies,all,MWh,1.81118e+06
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,2.19417e+07
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_3,Wind,2050,base_short_current_policies,all,MWh,1.42733e+07
+TEMOA,NWPP,NWPP_landbasedwind_class3_moderate_6,Wind,2050,base_short_current_policies,all,MWh,2.73472e+06
+TEMOA,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,705791
+TEMOA,NWPP,NWPP_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,3.4377e+06
+TEMOA,NWPP,NWPP_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,17612.1
+TEMOA,NWPP,NWPP_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_short_current_policies,all,MWh,66672.2
+TEMOA,NWPP,NWPP_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,1.00893e+08
+TEMOA,NWPP,NWPP_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,261379
+TEMOA,NWPP,NWPP_nuclear_1,Nuclear,2050,base_short_current_policies,all,MWh,9.41856e+06
+TEMOA,NWPP,NWPP_small_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,3.21003e+06
+TEMOA,NWPP,NWPP_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,2.63781e+07
+TEMOA,NWPP,NWPP_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,2.4546e+07
+TEMOA,NWPP,NWPP_utilitypv_class1_moderate_3,Solar,2050,base_short_current_policies,all,MWh,2.97924e+07
+TEMOA,NYCW,NYCW_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,184.242
+TEMOA,NYCW,NYCW_battery_moderate_0_4hour,Battery,2050,base_short_current_policies,all,MWh,2.94816e+06
+TEMOA,NYCW,NYCW_battery_moderate_0_6hour,Battery,2050,base_short_current_policies,all,MWh,2.35952e+06
+TEMOA,NYCW,NYCW_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,3.81188e+06
+TEMOA,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,4.13882e+06
+TEMOA,NYCW,NYCW_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,6.19772e+06
+TEMOA,NYCW,NYCW_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,618066
+TEMOA,NYCW,NYCW_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_current_policies,all,MWh,350484
+TEMOA,NYCW,NYCW_offshorewind_class12_moderate_floating_1_1,Wind,2050,base_short_current_policies,all,MWh,6.70111e+06
+TEMOA,NYCW,NYCW_offshorewind_class12_moderate_floating_1_2,Wind,2050,base_short_current_policies,all,MWh,2.45571e+06
+TEMOA,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_1,Wind,2050,base_short_current_policies,all,MWh,1.80021e+06
+TEMOA,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_2,Wind,2050,base_short_current_policies,all,MWh,1.64528e+06
+TEMOA,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_3,Wind,2050,base_short_current_policies,all,MWh,1.74545e+06
+TEMOA,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_1,Wind,2050,base_short_current_policies,all,MWh,4.73093e+06
+TEMOA,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_2,Wind,2050,base_short_current_policies,all,MWh,4.52756e+06
+TEMOA,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_3,Wind,2050,base_short_current_policies,all,MWh,4.73045e+06
+TEMOA,NYUP,NYUP_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,1.0269e+07
+TEMOA,NYUP,NYUP_battery_moderate_0_4hour,Battery,2050,base_short_current_policies,all,MWh,6.01707e+06
+TEMOA,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,1.47803e+07
+TEMOA,NYUP,NYUP_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,2.77262e+06
+TEMOA,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2050,base_short_current_policies,all,MWh,2.90473e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_0,Wind,2050,base_short_current_policies,all,MWh,6.47557e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,2.32816e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_10,Wind,2050,base_short_current_policies,all,MWh,3.04833e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_12,Wind,2050,base_short_current_policies,all,MWh,3.57914e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,2.36164e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_4,Wind,2050,base_short_current_policies,all,MWh,5.33762e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_6,Wind,2050,base_short_current_policies,all,MWh,2.21972e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_7,Wind,2050,base_short_current_policies,all,MWh,1.78871e+06
+TEMOA,NYUP,NYUP_landbasedwind_class3_moderate_8,Wind,2050,base_short_current_policies,all,MWh,4.5902e+06
+TEMOA,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,1.02841e+06
+TEMOA,NYUP,NYUP_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,1.04676e+07
+TEMOA,NYUP,NYUP_nuclear_1,Nuclear,2050,base_short_current_policies,all,MWh,1.76809e+07
+TEMOA,NYUP,NYUP_small_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,1.91559e+06
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,1.24331e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,1.31948e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_2,Solar,2050,base_short_current_policies,all,MWh,2.51129e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_3,Solar,2050,base_short_current_policies,all,MWh,1.29996e+06
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_4,Solar,2050,base_short_current_policies,all,MWh,2.60497e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_5,Solar,2050,base_short_current_policies,all,MWh,389071
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_6,Solar,2050,base_short_current_policies,all,MWh,2.33224e+07
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_7,Solar,2050,base_short_current_policies,all,MWh,2.41788e+06
+TEMOA,NYUP,NYUP_utilitypv_class1_moderate_8,Solar,2050,base_short_current_policies,all,MWh,1.37929e+07
+TEMOA,PJMC,PJMC_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,5.70842e+06
+TEMOA,PJMC,PJMC_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,3.17804e+06
+TEMOA,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,6.80591e+06
+TEMOA,PJMC,PJMC_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,22846.3
+TEMOA,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,1.55766e+06
+TEMOA,PJMC,PJMC_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,1.39378e+07
+TEMOA,PJMC,PJMC_nuclear_1,Nuclear,2050,base_short_current_policies,all,MWh,8.50658e+07
+TEMOA,PJMC,PJMC_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,1.59521e+07
+TEMOA,PJMD,PJMD_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,4.67766e+06
+TEMOA,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,653843
+TEMOA,PJMD,PJMD_conventional_steam_coal_1,Coal,2050,base_short_current_policies,all,MWh,972739
+TEMOA,PJMD,PJMD_conventional_steam_coal_2,Coal,2050,base_short_current_policies,all,MWh,974367
+TEMOA,PJMD,PJMD_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,5.88984e+06
+TEMOA,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2050,base_short_current_policies,all,MWh,5.16245e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_0,Wind,2050,base_short_current_policies,all,MWh,2.29793e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_10,Wind,2050,base_short_current_policies,all,MWh,1.8512e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_11,Wind,2050,base_short_current_policies,all,MWh,1.62115e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_13,Wind,2050,base_short_current_policies,all,MWh,2.46609e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_15,Wind,2050,base_short_current_policies,all,MWh,1.1371e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,1.9228e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_3,Wind,2050,base_short_current_policies,all,MWh,87248.4
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_5,Wind,2050,base_short_current_policies,all,MWh,1.98614e+06
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_7,Wind,2050,base_short_current_policies,all,MWh,953668
+TEMOA,PJMD,PJMD_landbasedwind_class3_moderate_8,Wind,2050,base_short_current_policies,all,MWh,1.24764e+06
+TEMOA,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,4.42983e+06
+TEMOA,PJMD,PJMD_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,216804
+TEMOA,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,146726
+TEMOA,PJMD,PJMD_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,base_short_current_policies,all,MWh,109876
+TEMOA,PJMD,PJMD_nuclear_1,Nuclear,2050,base_short_current_policies,all,MWh,3.05545e+07
+TEMOA,PJMD,PJMD_offshorewind_class3_moderate_fixed_0_1,Wind,2050,base_short_current_policies,all,MWh,1.21978e+07
+TEMOA,PJMD,PJMD_offshorewind_class3_moderate_fixed_1_1,Wind,2050,base_short_current_policies,all,MWh,5.96489e+06
+TEMOA,PJMD,PJMD_offshorewind_class3_moderate_fixed_1_2,Wind,2050,base_short_current_policies,all,MWh,965498
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,4.79271e+07
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,2.07604e+06
+TEMOA,PJMD,PJMD_utilitypv_class1_moderate_3,Solar,2050,base_short_current_policies,all,MWh,2.42337e+07
+TEMOA,PJME,PJME_battery_moderate_0_4hour,Battery,2050,base_short_current_policies,all,MWh,5.05606e+06
+TEMOA,PJME,PJME_conventional_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,1.53612e+06
+TEMOA,PJME,PJME_conventional_steam_coal_1,Coal,2050,base_short_current_policies,all,MWh,6.07326e+06
+TEMOA,PJME,PJME_conventional_steam_coal_2,Coal,2050,base_short_current_policies,all,MWh,587379
+TEMOA,PJME,PJME_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,1.5798e+07
+TEMOA,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2050,base_short_current_policies,all,MWh,3.08352e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_0,Wind,2050,base_short_current_policies,all,MWh,6.36608e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,843281
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,3.37323e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_3,Wind,2050,base_short_current_policies,all,MWh,2.70548e+06
+TEMOA,PJME,PJME_landbasedwind_class3_moderate_5,Wind,2050,base_short_current_policies,all,MWh,2.52755e+06
+TEMOA,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,487634
+TEMOA,PJME,PJME_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,8.27557e+07
+TEMOA,PJME,PJME_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,12874.8
+TEMOA,PJME,PJME_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_current_policies,all,MWh,537487
+TEMOA,PJME,PJME_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,base_short_current_policies,all,MWh,60287.7
+TEMOA,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_short_current_policies,all,MWh,60597.1
+TEMOA,PJME,PJME_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,1.33433e+08
+TEMOA,PJME,PJME_nuclear_1,Nuclear,2050,base_short_current_policies,all,MWh,1.05304e+08
+TEMOA,PJME,PJME_offshorewind_class3_moderate_fixed_1_1,Wind,2050,base_short_current_policies,all,MWh,2.89266e+07
+TEMOA,PJME,PJME_offshorewind_class3_moderate_fixed_1_2,Wind,2050,base_short_current_policies,all,MWh,1.00324e+07
+TEMOA,PJME,PJME_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,1.27387e+07
+TEMOA,PJME,PJME_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,3.50541e+07
+TEMOA,PJMW,PJMW_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,8.21269e+06
+TEMOA,PJMW,PJMW_battery_moderate_0_4hour,Battery,2050,base_short_current_policies,all,MWh,1.16385e+07
+TEMOA,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,1.58347e+06
+TEMOA,PJMW,PJMW_conventional_steam_coal_1,Coal,2050,base_short_current_policies,all,MWh,971798
+TEMOA,PJMW,PJMW_conventional_steam_coal_2,Coal,2050,base_short_current_policies,all,MWh,1.55708e+07
+TEMOA,PJMW,PJMW_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,1.34176e+07
+TEMOA,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2050,base_short_current_policies,all,MWh,406674
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_0,Wind,2050,base_short_current_policies,all,MWh,4.79173e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,5.11833e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_10,Wind,2050,base_short_current_policies,all,MWh,3.07327e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_11,Wind,2050,base_short_current_policies,all,MWh,1.90156e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_13,Wind,2050,base_short_current_policies,all,MWh,2.80509e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_15,Wind,2050,base_short_current_policies,all,MWh,1.85272e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,3.3864e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_3,Wind,2050,base_short_current_policies,all,MWh,2.6011e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_4,Wind,2050,base_short_current_policies,all,MWh,4.12197e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_5,Wind,2050,base_short_current_policies,all,MWh,3.00874e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_6,Wind,2050,base_short_current_policies,all,MWh,3.96255e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_7,Wind,2050,base_short_current_policies,all,MWh,2.70947e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_8,Wind,2050,base_short_current_policies,all,MWh,6.55016e+06
+TEMOA,PJMW,PJMW_landbasedwind_class3_moderate_9,Wind,2050,base_short_current_policies,all,MWh,930639
+TEMOA,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,1.45697e+06
+TEMOA,PJMW,PJMW_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,2.76177e+07
+TEMOA,PJMW,PJMW_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,1.39412e+06
+TEMOA,PJMW,PJMW_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,base_short_current_policies,all,MWh,15126
+TEMOA,PJMW,PJMW_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,2.05846e+08
+TEMOA,PJMW,PJMW_nuclear_1,Nuclear,2050,base_short_current_policies,all,MWh,5.21737e+07
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,8.22418e+07
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,2.89983e+07
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_2,Solar,2050,base_short_current_policies,all,MWh,3.24062e+07
+TEMOA,PJMW,PJMW_utilitypv_class1_moderate_3,Solar,2050,base_short_current_policies,all,MWh,3.57541e+07
+TEMOA,RMRG,RMRG_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,5.64428e+06
+TEMOA,RMRG,RMRG_battery_moderate_0_4hour,Battery,2050,base_short_current_policies,all,MWh,379525
+TEMOA,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,1.65192e+06
+TEMOA,RMRG,RMRG_conventional_steam_coal_1,Coal,2050,base_short_current_policies,all,MWh,2.8068e+06
+TEMOA,RMRG,RMRG_conventional_steam_coal_2,Coal,2050,base_short_current_policies,all,MWh,9.34052e+06
+TEMOA,RMRG,RMRG_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,4.17313e+06
+TEMOA,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2050,base_short_current_policies,all,MWh,1.10356e+06
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_0,Wind,2050,base_short_current_policies,all,MWh,4.18856e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,1.45926e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,2.47089e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_3,Wind,2050,base_short_current_policies,all,MWh,2.38415e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_5,Wind,2050,base_short_current_policies,all,MWh,1.40495e+07
+TEMOA,RMRG,RMRG_landbasedwind_class3_moderate_6,Wind,2050,base_short_current_policies,all,MWh,1.13406e+07
+TEMOA,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,452519
+TEMOA,RMRG,RMRG_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,1.56133e+06
+TEMOA,RMRG,RMRG_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_current_policies,all,MWh,51991.9
+TEMOA,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_short_current_policies,all,MWh,69943.3
+TEMOA,RMRG,RMRG_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,1.13063e+07
+TEMOA,RMRG,RMRG_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,26751.8
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,1.54925e+07
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,2.11194e+07
+TEMOA,RMRG,RMRG_utilitypv_class1_moderate_7,Solar,2050,base_short_current_policies,all,MWh,930867
+TEMOA,SPPC,SPPC_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,840142
+TEMOA,SPPC,SPPC_battery_moderate_0_4hour,Battery,2050,base_short_current_policies,all,MWh,2.73315e+06
+TEMOA,SPPC,SPPC_conventional_steam_coal_1,Coal,2050,base_short_current_policies,all,MWh,2.18293e+06
+TEMOA,SPPC,SPPC_conventional_steam_coal_2,Coal,2050,base_short_current_policies,all,MWh,6.75844e+06
+TEMOA,SPPC,SPPC_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,3.39729e+06
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_0,Wind,2050,base_short_current_policies,all,MWh,1.62271e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,2.33891e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_11,Wind,2050,base_short_current_policies,all,MWh,4.26625e+06
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,2.49763e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_3,Wind,2050,base_short_current_policies,all,MWh,1.48373e+07
+TEMOA,SPPC,SPPC_landbasedwind_class3_moderate_4,Wind,2050,base_short_current_policies,all,MWh,1.25635e+07
+TEMOA,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,1.23204e+06
+TEMOA,SPPC,SPPC_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,111142
+TEMOA,SPPC,SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,110849
+TEMOA,SPPC,SPPC_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,base_short_current_policies,all,MWh,6342.72
+TEMOA,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_short_current_policies,all,MWh,32899.4
+TEMOA,SPPC,SPPC_nuclear_1,Nuclear,2050,base_short_current_policies,all,MWh,9.83652e+06
+TEMOA,SPPC,SPPC_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,2.65794e+07
+TEMOA,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,1.22412e+06
+TEMOA,SPPN,SPPN_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,1.47903e+06
+TEMOA,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,9.41499e+06
+TEMOA,SPPN,SPPN_conventional_steam_coal_1,Coal,2050,base_short_current_policies,all,MWh,1.54564e+06
+TEMOA,SPPN,SPPN_conventional_steam_coal_2,Coal,2050,base_short_current_policies,all,MWh,9.05955e+06
+TEMOA,SPPN,SPPN_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,1.38036e+06
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_0,Wind,2050,base_short_current_policies,all,MWh,2.12443e+07
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,8.25387e+06
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,3.89851e+06
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_3,Wind,2050,base_short_current_policies,all,MWh,1.69656e+06
+TEMOA,SPPN,SPPN_landbasedwind_class3_moderate_5,Wind,2050,base_short_current_policies,all,MWh,2.02522e+06
+TEMOA,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,219190
+TEMOA,SPPN,SPPN_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,230978
+TEMOA,SPPN,SPPN_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,7384.58
+TEMOA,SPPN,SPPN_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_current_policies,all,MWh,122684
+TEMOA,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_short_current_policies,all,MWh,33520.9
+TEMOA,SPPN,SPPN_nuclear_1,Nuclear,2050,base_short_current_policies,all,MWh,6.05955e+06
+TEMOA,SPPN,SPPN_onshore_wind_turbine_1,Wind,2050,base_short_current_policies,all,MWh,364424
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,9.00109e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,3.41133e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_3,Solar,2050,base_short_current_policies,all,MWh,1.89922e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_5,Solar,2050,base_short_current_policies,all,MWh,425707
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_7,Solar,2050,base_short_current_policies,all,MWh,1.8527e+06
+TEMOA,SPPN,SPPN_utilitypv_class1_moderate_9,Solar,2050,base_short_current_policies,all,MWh,2.26544e+06
+TEMOA,SPPS,SPPS_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,1.72106e+06
+TEMOA,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,2.00569e+06
+TEMOA,SPPS,SPPS_conventional_steam_coal_1,Coal,2050,base_short_current_policies,all,MWh,4.81623e+06
+TEMOA,SPPS,SPPS_conventional_steam_coal_2,Coal,2050,base_short_current_policies,all,MWh,795942
+TEMOA,SPPS,SPPS_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,6.76249e+06
+TEMOA,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2050,base_short_current_policies,all,MWh,789001
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_0,Wind,2050,base_short_current_policies,all,MWh,5.33418e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,3.58455e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_11,Wind,2050,base_short_current_policies,all,MWh,1.51781e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,4.00143e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_3,Wind,2050,base_short_current_policies,all,MWh,1.10538e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_4,Wind,2050,base_short_current_policies,all,MWh,6.85279e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_5,Wind,2050,base_short_current_policies,all,MWh,1.37927e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_6,Wind,2050,base_short_current_policies,all,MWh,2.17194e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_7,Wind,2050,base_short_current_policies,all,MWh,2.99645e+07
+TEMOA,SPPS,SPPS_landbasedwind_class3_moderate_8,Wind,2050,base_short_current_policies,all,MWh,1.66877e+06
+TEMOA,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,1.65901e+07
+TEMOA,SPPS,SPPS_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,668884
+TEMOA,SPPS,SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,37537.4
+TEMOA,SPPS,SPPS_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_current_policies,all,MWh,70232.2
+TEMOA,SPPS,SPPS_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,base_short_current_policies,all,MWh,416129
+TEMOA,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_short_current_policies,all,MWh,204072
+TEMOA,SPPS,SPPS_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,5.59225e+06
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,2.70338e+07
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,8.77398e+06
+TEMOA,SPPS,SPPS_utilitypv_class1_moderate_3,Solar,2050,base_short_current_policies,all,MWh,2.06476e+07
+TEMOA,SRCA,SRCA_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,7.68791e+06
+TEMOA,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,1.41617e+06
+TEMOA,SRCA,SRCA_conventional_steam_coal_1,Coal,2050,base_short_current_policies,all,MWh,1.98042e+07
+TEMOA,SRCA,SRCA_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,1.33096e+07
+TEMOA,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2050,base_short_current_policies,all,MWh,2.92951e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_0,Wind,2050,base_short_current_policies,all,MWh,1.74035e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,4.07856e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,1.41416e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_3,Wind,2050,base_short_current_policies,all,MWh,4.43471e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_4,Wind,2050,base_short_current_policies,all,MWh,1.06141e+06
+TEMOA,SRCA,SRCA_landbasedwind_class3_moderate_5,Wind,2050,base_short_current_policies,all,MWh,530494
+TEMOA,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,1.14217e+07
+TEMOA,SRCA,SRCA_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,3645.82
+TEMOA,SRCA,SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,821184
+TEMOA,SRCA,SRCA_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_current_policies,all,MWh,13823.4
+TEMOA,SRCA,SRCA_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,5.06465e+07
+TEMOA,SRCA,SRCA_nuclear_1,Nuclear,2050,base_short_current_policies,all,MWh,9.98397e+07
+TEMOA,SRCA,SRCA_offshorewind_class3_moderate_fixed_0_1,Wind,2050,base_short_current_policies,all,MWh,2.85627e+07
+TEMOA,SRCA,SRCA_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,2.33365e+07
+TEMOA,SRCA,SRCA_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,4.05195e+07
+TEMOA,SRCA,SRCA_utilitypv_class1_moderate_3,Solar,2050,base_short_current_policies,all,MWh,1.80284e+07
+TEMOA,SRCE,SRCE_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,4.97418e+06
+TEMOA,SRCE,SRCE_battery_moderate_0_4hour,Battery,2050,base_short_current_policies,all,MWh,5.00981e+06
+TEMOA,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,6.10903e+06
+TEMOA,SRCE,SRCE_conventional_steam_coal_1,Coal,2050,base_short_current_policies,all,MWh,2.97756e+06
+TEMOA,SRCE,SRCE_conventional_steam_coal_2,Coal,2050,base_short_current_policies,all,MWh,1.05886e+07
+TEMOA,SRCE,SRCE_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,8.38733e+06
+TEMOA,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2050,base_short_current_policies,all,MWh,2.87401e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_0,Wind,2050,base_short_current_policies,all,MWh,2.6298e+07
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,7.98962e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,1.48124e+07
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_3,Wind,2050,base_short_current_policies,all,MWh,1.72504e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_4,Wind,2050,base_short_current_policies,all,MWh,2.27761e+06
+TEMOA,SRCE,SRCE_landbasedwind_class3_moderate_7,Wind,2050,base_short_current_policies,all,MWh,1.42286e+06
+TEMOA,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,1.83937e+07
+TEMOA,SRCE,SRCE_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,2.52793e+06
+TEMOA,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,404540
+TEMOA,SRCE,SRCE_natural_gas_fired_combustion_turbine_3,Natural Gas,2050,base_short_current_policies,all,MWh,25123.5
+TEMOA,SRCE,SRCE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,3.16829e+07
+TEMOA,SRCE,SRCE_nuclear_1,Nuclear,2050,base_short_current_policies,all,MWh,7.03794e+07
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,3.01951e+07
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,3.79198e+07
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_2,Solar,2050,base_short_current_policies,all,MWh,3.30834e+07
+TEMOA,SRCE,SRCE_utilitypv_class1_moderate_3,Solar,2050,base_short_current_policies,all,MWh,1.14742e+06
+TEMOA,SRSE,SRSE_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,1.81958e+06
+TEMOA,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,4.35017e+06
+TEMOA,SRSE,SRSE_conventional_steam_coal_1,Coal,2050,base_short_current_policies,all,MWh,1.04432e+07
+TEMOA,SRSE,SRSE_conventional_steam_coal_2,Coal,2050,base_short_current_policies,all,MWh,715400
+TEMOA,SRSE,SRSE_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,6.43973e+06
+TEMOA,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2050,base_short_current_policies,all,MWh,2.22303e+06
+TEMOA,SRSE,SRSE_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,3.05825e+06
+TEMOA,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,3.93742e+07
+TEMOA,SRSE,SRSE_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,700353
+TEMOA,SRSE,SRSE_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_current_policies,all,MWh,370415
+TEMOA,SRSE,SRSE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,7.42342e+07
+TEMOA,SRSE,SRSE_nuclear_1,Nuclear,2050,base_short_current_policies,all,MWh,6.69716e+07
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,4.07751e+07
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,2.56158e+07
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_2,Solar,2050,base_short_current_policies,all,MWh,4.04503e+07
+TEMOA,SRSE,SRSE_utilitypv_class1_moderate_4,Solar,2050,base_short_current_policies,all,MWh,1.13138e+06
+TEMOA,SRSG,SRSG_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,796812
+TEMOA,SRSG,SRSG_battery_moderate_0_4hour,Battery,2050,base_short_current_policies,all,MWh,1.11211e+07
+TEMOA,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,4.97366e+06
+TEMOA,SRSG,SRSG_conventional_steam_coal_1,Coal,2050,base_short_current_policies,all,MWh,6.66593e+06
+TEMOA,SRSG,SRSG_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,6.53386e+06
+TEMOA,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2050,base_short_current_policies,all,MWh,463664
+TEMOA,SRSG,SRSG_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,3.70808e+06
+TEMOA,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,6.91053e+06
+TEMOA,SRSG,SRSG_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,337046
+TEMOA,SRSG,SRSG_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,284922
+TEMOA,SRSG,SRSG_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_current_policies,all,MWh,13220.9
+TEMOA,SRSG,SRSG_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_short_current_policies,all,MWh,13984.6
+TEMOA,SRSG,SRSG_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,1.02022e+07
+TEMOA,SRSG,SRSG_nuclear_1,Nuclear,2050,base_short_current_policies,all,MWh,3.10206e+07
+TEMOA,SRSG,SRSG_onshore_wind_turbine_1,Wind,2050,base_short_current_policies,all,MWh,757177
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,4.41519e+07
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,3.24349e+07
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_3,Solar,2050,base_short_current_policies,all,MWh,3.07747e+07
+TEMOA,SRSG,SRSG_utilitypv_class1_moderate_5,Solar,2050,base_short_current_policies,all,MWh,1.20112e+06
+TEMOA,TRE_WEST,TRE_WEST_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,3.06117e+06
+TEMOA,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,1.02281e+06
+TEMOA,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_0,Wind,2050,base_short_current_policies,all,MWh,2.17952e+07
+TEMOA,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,1.14111e+07
+TEMOA,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,3.25423e+07
+TEMOA,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_3,Wind,2050,base_short_current_policies,all,MWh,1.18856e+07
+TEMOA,TRE_WEST,TRE_WEST_landbasedwind_class3_moderate_4,Wind,2050,base_short_current_policies,all,MWh,3.34469e+07
+TEMOA,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,3.83805e+06
+TEMOA,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,26130.2
+TEMOA,TRE_WEST,TRE_WEST_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_current_policies,all,MWh,39079.1
+TEMOA,TRE_WEST,TRE_WEST_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,2.50173e+07
+TEMOA,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,8.24898e+06
+TEMOA,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,1.57875e+07
+TEMOA,TRE_WEST,TRE_WEST_utilitypv_class1_moderate_9,Solar,2050,base_short_current_policies,all,MWh,681373
+TEMOA,TRE,TRE_battery_moderate_0_2hour,Battery,2050,base_short_current_policies,all,MWh,3.16852e+06
+TEMOA,TRE,TRE_conventional_hydroelectric_1,Hydro,2050,base_short_current_policies,all,MWh,157374
+TEMOA,TRE,TRE_conventional_steam_coal_1,Coal,2050,base_short_current_policies,all,MWh,2.89011e+07
+TEMOA,TRE,TRE_conventional_steam_coal_2,Coal,2050,base_short_current_policies,all,MWh,1.92922e+06
+TEMOA,TRE,TRE_distributed_generation_1,Distributed Solar,2050,base_short_current_policies,all,MWh,1.91804e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_0,Wind,2050,base_short_current_policies,all,MWh,9.45071e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2050,base_short_current_policies,all,MWh,7.47942e+06
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_2,Wind,2050,base_short_current_policies,all,MWh,3.01659e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_3,Wind,2050,base_short_current_policies,all,MWh,2.38937e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_5,Wind,2050,base_short_current_policies,all,MWh,2.53543e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_6,Wind,2050,base_short_current_policies,all,MWh,2.33866e+07
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_7,Wind,2050,base_short_current_policies,all,MWh,8.32588e+06
+TEMOA,TRE,TRE_landbasedwind_class3_moderate_8,Wind,2050,base_short_current_policies,all,MWh,1.80192e+07
+TEMOA,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2050,base_short_current_policies,all,MWh,3.84418e+07
+TEMOA,TRE,TRE_natural_gas_fired_combined_cycle_2,Natural Gas,2050,base_short_current_policies,all,MWh,1.79928e+06
+TEMOA,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,34234.4
+TEMOA,TRE,TRE_natural_gas_fired_combustion_turbine_2,Natural Gas,2050,base_short_current_policies,all,MWh,366741
+TEMOA,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2050,base_short_current_policies,all,MWh,236686
+TEMOA,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2050,base_short_current_policies,all,MWh,63250.3
+TEMOA,TRE,TRE_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,base_short_current_policies,all,MWh,1.12481e+08
+TEMOA,TRE,TRE_nuclear_1,Nuclear,2050,base_short_current_policies,all,MWh,3.8778e+07
+TEMOA,TRE,TRE_utilitypv_class1_moderate_0,Solar,2050,base_short_current_policies,all,MWh,1.97908e+07
+TEMOA,TRE,TRE_utilitypv_class1_moderate_1,Solar,2050,base_short_current_policies,all,MWh,2.62364e+07
+TEMOA,TRE,TRE_utilitypv_class1_moderate_2,Solar,2050,base_short_current_policies,all,MWh,2.86244e+07
+TEMOA,TRE,TRE_utilitypv_class1_moderate_5,Solar,2050,base_short_current_policies,all,MWh,1.56334e+07
+TEMOA,TRE,TRE_utilitypv_class1_moderate_7,Solar,2050,base_short_current_policies,all,MWh,2.87787e+06
+TEMOA,FRCC,unserved_load,Other,2050,base_short_current_policies,all,MWh,3268.25
+TEMOA,ISNE,unserved_load,Other,2050,base_short_current_policies,all,MWh,124882
+TEMOA,MISC,unserved_load,Other,2050,base_short_current_policies,all,MWh,503.72
+TEMOA,MISE,unserved_load,Other,2050,base_short_current_policies,all,MWh,792.752
+TEMOA,MISW,unserved_load,Other,2050,base_short_current_policies,all,MWh,639.044
+TEMOA,NYCW,unserved_load,Other,2050,base_short_current_policies,all,MWh,6058.32
+TEMOA,NYUP,unserved_load,Other,2050,base_short_current_policies,all,MWh,2668.85
+TEMOA,PJMC,unserved_load,Other,2050,base_short_current_policies,all,MWh,604.898
+TEMOA,PJMD,unserved_load,Other,2050,base_short_current_policies,all,MWh,1400.51
+TEMOA,PJME,unserved_load,Other,2050,base_short_current_policies,all,MWh,3233.95
+TEMOA,PJMW,unserved_load,Other,2050,base_short_current_policies,all,MWh,696.038
+TEMOA,SRCA,unserved_load,Other,2050,base_short_current_policies,all,MWh,974.374
+TEMOA,SRCE,unserved_load,Other,2050,base_short_current_policies,all,MWh,672.736
+TEMOA,SRSE,unserved_load,Other,2050,base_short_current_policies,all,MWh,2212.8
