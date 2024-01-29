@@ -171,6 +171,31 @@ ex_cap_sum.columns = list(cols.get_level_values(0)[:2]) + list(
 
 display(Markdown(ex_cap_sum.to_markdown(index=False)))
 ```
+```{python}
+# | title: Regional End Existing Capacity
+ex_reg_cap_sum = (
+    cap.query("existing==True and unit=='MW'")
+    .groupby(
+        ["agg_zone", "model", "planning_year", "tech_type", "resource_name"],
+        as_index=False,
+    )["end_value"]
+    .sum()
+    .pivot(
+        columns="model",
+        index=["agg_zone", "tech_type", "resource_name", "planning_year"],
+    )
+    .fillna(0)
+    .reset_index()
+)
+cols = ex_reg_cap_sum.columns
+ex_reg_cap_sum.columns = list(cols.get_level_values(0)[:4]) + list(
+    cols.get_level_values(1)[4:]
+)
+from itables import init_notebook_mode
+
+init_notebook_mode(all_interactive=True, connected=True)
+ex_reg_cap_sum
+```
 # Transmission Expansion
 ## Row
 #### Column {.tabset}
