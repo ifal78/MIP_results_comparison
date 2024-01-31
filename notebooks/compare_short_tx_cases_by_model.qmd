@@ -1,5 +1,5 @@
 ---
-title: "Compare short scenario results"
+title: "Compare short tx scenario results"
 format: dashboard
 #   dashboard:
 #     scrolling: false
@@ -7,6 +7,7 @@ jupyter: python3
 categories:
     - Short
     - Comparison
+    - Transmission
 ---
 
 ```{python}
@@ -46,7 +47,9 @@ from fig_functions import (
     chart_op_emiss,
 )
 
-data_folders = list(cwd.parent.glob("*-short-*"))
+data_folders = list(cwd.parent.glob("*-short-base-tx-*")) + list(
+    cwd.parent.glob("26z-short-base-200")
+)
 
 cap_list = []
 gen_list = []

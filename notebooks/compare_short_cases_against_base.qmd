@@ -82,13 +82,16 @@ for folder in data_folders:
     tx_exp_data["case"] = case_id
     tx_exp_list.append(tx_exp_data)
 
-    op_cost_data = load_genx_operations_data(folder, "costs.csv")
-    op_cost_data["case"] = case_id
-    op_cost_list.append(op_cost_data)
+    try:
+        op_cost_data = load_genx_operations_data(folder, "costs.csv")
+        op_cost_data["case"] = case_id
+        op_cost_list.append(op_cost_data)
 
-    op_nse_data = load_genx_operations_data(folder, "nse.csv", hourly_data=True)
-    op_nse_data["case"] = case_id
-    op_nse_list.append(op_nse_data)
+        op_nse_data = load_genx_operations_data(folder, "nse.csv", hourly_data=True)
+        op_nse_data["case"] = case_id
+        op_nse_list.append(op_nse_data)
+    except:
+        pass
 
     op_gen_cap_data = load_genx_operations_data(folder, "capacityfactor.csv")
     if not op_gen_cap_data.empty:

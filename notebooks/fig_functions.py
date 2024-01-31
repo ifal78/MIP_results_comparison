@@ -6,6 +6,12 @@ import pandas as pd
 import geopandas as gpd
 import altair as alt
 from pathlib import Path
+from joblib import Parallel, delayed
+
+try:
+    pd.options.mode.copy_on_write = True
+except:
+    pass
 
 region_map = {
     "WECC": ["BASN", "CANO", "CASO", "NWPP", "SRSG", "RMRG"],
@@ -66,13 +72,28 @@ EXISTING_TECH_MAP = {
     "distributed_generation": "Distributed Solar",
 }
 
+_TECH_MAP = {}
+for k, v in TECH_MAP.items():
+    if k in EXISTING_TECH_MAP.keys():
+        _TECH_MAP[k] = (v, True)
+    else:
+        _TECH_MAP[k] = (v, False)
+
 
 def tech_to_type(df: pd.DataFrame) -> pd.DataFrame:
-    df["existing"] = False
-    for tech, type in TECH_MAP.items():
-        df.loc[df["resource_name"].str.contains(tech), "tech_type"] = type
-    for tech in EXISTING_TECH_MAP.keys():
-        df.loc[df["resource_name"].str.contains(tech), "existing"] = True
+    df.loc[:, "existing"] = False
+    df.loc[:, "tech_type"] = "Not Specified"
+    for tech, (t, ex) in _TECH_MAP.items():
+        df.loc[df["resource_name"].str.contains(tech), ["tech_type", "existing"]] = [
+            t,
+            ex,
+        ]
+    df.loc[df["resource_name"] == "unserved_load", "tech_type"] = "Other"
+
+    # for tech, type in TECH_MAP.items():
+    #     df.loc[df["resource_name"].str.contains(tech), "tech_type"] = type
+    # for tech in EXISTING_TECH_MAP.keys():
+    #     df.loc[df["resource_name"].str.contains(tech), "existing"] = True
 
     return df
 
@@ -103,6 +124,7 @@ rev_region_map = reverse_dict_of_lists(region_map)
 
 def load_data(data_path: Path, fn: str) -> pd.DataFrame:
     df_list = []
+    fn = f"{fn.split('.')[0]}.*"
     for f in data_path.rglob(fn):
         if not ("output" in f.parts[-2] or "Results" in f.parts[-2]):
             # print(f.parts[-2])
@@ -117,10 +139,10 @@ def load_data(data_path: Path, fn: str) -> pd.DataFrame:
     if "line_name" in df.columns:
         df = fix_tx_line_names(df)
     if "zone" in df.columns:
-        df["agg_zone"] = df["zone"].map(rev_region_map)
+        df.loc[:, "agg_zone"] = df.loc[:, "zone"].map(rev_region_map)
     for col in ["value", "start_value", "end_value"]:
         if col in df.columns:
-            df[col] = df[col].round(0)
+            df.loc[:, col] = df[col].round(0)
     return df
 
 
@@ -137,37 +159,74 @@ def load_genx_operations_data(
     files = list(data_path.rglob(fn))
     if not files:
         return pd.DataFrame()
-    for f in files:
-        model_part = -3
-        _df = pd.read_csv(f, nrows=nrows)
-        if hourly_data:
-            if fn == "nse.csv":
-                _df = total_from_nse_hourly_data(_df)
-            elif "Resource" in _df.columns:
-                _df = total_from_resource_op_hourly_data(_df)
-            else:
-                raise ValueError(f"There is no hourly data function for file {fn}")
-        if "Results_p" in str(f):
-            period = period_dict[f.parent.stem.split("_")[-1]]
-            _df["planning_year"] = period
-            model_part = -4
-        elif "Inputs_p" in str(f):
-            period = period_dict[f.parents[1].stem.split("_")[-1]]
-            _df["planning_year"] = period
-            model_part = -5
-        model = f.parts[model_part].split("_")[0]
-        _df["model"] = model
-        df_list.append(_df)
+    df_list = Parallel(n_jobs=1)(
+        delayed(_load_op_data)(f, hourly_data, nrows, period_dict) for f in files
+    )
+    # model_part = -3
+    # _df = pd.read_csv(f, nrows=nrows)  # , dtype_backend="pyarrow")
+    # if hourly_data:
+    #     if fn == "nse.csv":
+    #         _df = total_from_nse_hourly_data(_df)
+    #     elif "Resource" in _df.columns:
+    #         _df = total_from_resource_op_hourly_data(_df)
+    #     else:
+    #         raise ValueError(f"There is no hourly data function for file {fn}")
+    # if "Results_p" in str(f):
+    #     period = period_dict[f.parent.stem.split("_")[-1]]
+    #     _df.loc[:, "planning_year"] = period
+    #     model_part = -4
+    # elif "Inputs_p" in str(f):
+    #     period = period_dict[f.parents[1].stem.split("_")[-1]]
+    #     _df.loc[:, "planning_year"] = period
+    #     model_part = -5
+    # model = f.parts[model_part].split("_")[0]
+    # _df.loc[:, "model"] = model
+    # df_list.append(_df)
     if not df_list:
         return pd.DataFrame()
     df = pd.concat(df_list, ignore_index=True)
     if fn == "costs.csv":
-        df = add_genx_op_network_cost(df, data_path).pipe(calc_op_percent_total)
+        try:
+            df = add_genx_op_network_cost(df, data_path).pipe(calc_op_percent_total)
+        except FileNotFoundError:
+            pass
     if "Resource" in df.columns:
         df = df.rename(columns={"Resource": "resource_name"}).pipe(tech_to_type)
-        df["zone"] = df["resource_name"].str.split("_").str[0]
+        try:
+            df.loc[:, "zone"] = df["resource_name"].str.split("_").list[0]
+        except AttributeError:
+            df.loc[:, "zone"] = df["resource_name"].str.split("_").str[0]
         df.loc[df["resource_name"].str.contains("TRE_WEST"), "zone"] = "TRE_WEST"
     return df
+
+
+def _load_op_data(
+    f: Path,
+    hourly_data: bool,
+    nrows=None,
+    period_dict={"p1": 2030, "p2": 2040, "p3": 2050},
+) -> pd.DataFrame:
+    fn = f.name
+    model_part = -3
+    _df = pd.read_csv(f, nrows=nrows)  # , dtype_backend="pyarrow")
+    if hourly_data:
+        if fn == "nse.csv":
+            _df = total_from_nse_hourly_data(_df)
+        elif "Resource" in _df.columns:
+            _df = total_from_resource_op_hourly_data(_df)
+        else:
+            raise ValueError(f"There is no hourly data function for file {fn}")
+    if "Results_p" in str(f):
+        period = period_dict[f.parent.stem.split("_")[-1]]
+        _df.loc[:, "planning_year"] = period
+        model_part = -4
+    elif "Inputs_p" in str(f):
+        period = period_dict[f.parents[1].stem.split("_")[-1]]
+        _df.loc[:, "planning_year"] = period
+        model_part = -5
+    model = f.parts[model_part].split("_")[0]
+    _df.loc[:, "model"] = model
+    return _df
 
 
 def total_from_resource_op_hourly_data(df: pd.DataFrame) -> pd.DataFrame:
@@ -197,7 +256,7 @@ def calc_op_percent_total(
     by = [c for c in group_by if c in op_costs.columns]
     df_list = []
     for _, _df in op_costs.query("Costs != 'cTotal'").groupby(by):
-        _df["percent_total"] = _df["Total"] / _df["Total"].sum()
+        _df.loc[:, "percent_total"] = _df["Total"] / _df["Total"].sum()
         df_list.append(_df)
     return pd.concat(df_list)
 
@@ -256,7 +315,7 @@ def fix_tx_line_names(df: pd.DataFrame) -> pd.DataFrame:
     reversed_lines = line_count.query("model < @median_count")
 
     for idx, row in reversed_lines.iterrows():
-        df["line_name"] = df["line_name"].str.replace(
+        df.loc[:, "line_name"] = df["line_name"].str.replace(
             row["line_name"], reverse_line_name(row["line_name"])
         )
 
@@ -264,18 +323,19 @@ def fix_tx_line_names(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def chart_total_cap(
-    cap: pd.DataFrame,
-    x_var="model",
-    col_var=None,
+    cap: pd.DataFrame, x_var="model", col_var=None, row_var="planning_year"
 ) -> alt.Chart:
-    group_by = ["tech_type", x_var, "planning_year"]
+    group_by = ["tech_type", x_var, row_var]
     _tooltips = [
         alt.Tooltip("tech_type", title="Technology"),
         alt.Tooltip("end_value", title="Capacity (MW)", format=",.0f"),
+        alt.Tooltip(x_var),
     ]
     if col_var is not None:
         group_by.append(col_var)
         _tooltips.append(alt.Tooltip(col_var))
+    if row_var is not None:
+        _tooltips.append(alt.Tooltip(row_var))
     cap_data = cap.groupby(group_by, as_index=False)["end_value"].sum()
 
     chart = (
@@ -286,7 +346,7 @@ def chart_total_cap(
             y=alt.Y("sum(end_value)").title("Capacity (MW)"),
             color=alt.Color("tech_type").scale(scheme="tableau20"),
             # column="zone",
-            row="planning_year:O",
+            row=row_var,
             tooltip=_tooltips,
         )
         .properties(width=350, height=250)
@@ -457,6 +517,26 @@ def chart_tx_expansion(
     _tooltip = [
         alt.Tooltip("sum(value)", format=",.0f"),
     ]
+    if col_var is None or row_var is None:
+        first_year = data["planning_year"].min()
+        idx_cols = [c for c in [x_var, facet_col, col_var, row_var] if c is not None]
+        data = data.set_index(idx_cols)
+        first_data = data.query("planning_year == @first_year")
+        df_list = []
+        for year in data["planning_year"].unique():
+            _df = data.query("planning_year == @year")
+            if year == first_year:
+                _df["line_growth"] = 0
+                # df_list.append(_df)
+            else:
+                try:
+                    _df["line_growth"] = (_df["value"] / first_data["value"]).fillna(0)
+                except:
+                    _df["line_growth"] = 0
+            df_list.append(_df)
+        data = pd.concat(df_list).reset_index()
+        _tooltip.append(alt.Tooltip("line_growth", format=".1%"))
+
     if x_var == "case":
         _tooltip.append(
             alt.Tooltip("case"),
@@ -763,11 +843,11 @@ def chart_op_emiss(
 
 gdf = gpd.read_file("conus_26z_latlon_simple.geojson")
 gdf = gdf.rename(columns={"model_region": "zone"})
-gdf["lat"] = gdf.geometry.centroid.y
-gdf["lon"] = gdf.geometry.centroid.x
 
 
 def chart_tx_map(tx_exp: pd.DataFrame, gdf: gpd.GeoDataFrame) -> alt.Chart:
+    gdf["lat"] = gdf.geometry.centroid.y
+    gdf["lon"] = gdf.geometry.centroid.x
     tx_exp["lat1"] = tx_exp["start_region"].map(gdf.set_index("zone")["lat"])
     tx_exp["lon1"] = tx_exp["start_region"].map(gdf.set_index("zone")["lon"])
     tx_exp["lat2"] = tx_exp["dest_region"].map(gdf.set_index("zone")["lat"])
