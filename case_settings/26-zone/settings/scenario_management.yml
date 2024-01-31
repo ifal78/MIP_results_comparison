@@ -299,6 +299,18 @@ settings_management:
       yes:
         tx_expansion_per_period: 0.077 # 1.5% for 5 years
         tx_expansion_mw_per_period: 400
+      yes_15:
+        tx_expansion_per_period: 0.15 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_50:
+        tx_expansion_per_period: 0.5 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_100:
+        tx_expansion_per_period: 1 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_200:
+        tx_expansion_per_period: 2 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
     renewable_battery_capex_ccs:
       renewable_mid_noccs:
         atb_new_gen:
@@ -767,6 +779,18 @@ settings_management:
       yes:
         tx_expansion_per_period: 0.077 # 1.5% for 5 years
         tx_expansion_mw_per_period: 400
+      yes_15:
+        tx_expansion_per_period: 0.15 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_50:
+        tx_expansion_per_period: 0.5 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_100:
+        tx_expansion_per_period: 1 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_200:
+        tx_expansion_per_period: 2 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
     renewable_battery_capex_ccs:
       renewable_mid_noccs:
         atb_new_gen:
@@ -1230,6 +1254,18 @@ settings_management:
         tx_expansion_mw_per_period: 10000
       yes:
         tx_expansion_per_period: 0.077 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_15:
+        tx_expansion_per_period: 0.15 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_50:
+        tx_expansion_per_period: 0.5 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_100:
+        tx_expansion_per_period: 1 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_200:
+        tx_expansion_per_period: 2 # 1.5% for 5 years
         tx_expansion_mw_per_period: 400
     renewable_battery_capex_ccs:
       renewable_mid_noccs:
@@ -1697,6 +1733,18 @@ settings_management:
       yes:
         tx_expansion_per_period: 0.077 # 1.5% for 5 years
         tx_expansion_mw_per_period: 400
+      yes_15:
+        tx_expansion_per_period: 0.15 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_50:
+        tx_expansion_per_period: 0.5 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_100:
+        tx_expansion_per_period: 1 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_200:
+        tx_expansion_per_period: 2 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
     renewable_battery_capex_ccs:
       renewable_mid_noccs:
         atb_new_gen:
@@ -2160,6 +2208,18 @@ settings_management:
         tx_expansion_mw_per_period: 10000
       yes:
         tx_expansion_per_period: 0.077 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_15:
+        tx_expansion_per_period: 0.15 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_50:
+        tx_expansion_per_period: 0.5 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_100:
+        tx_expansion_per_period: 1 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_200:
+        tx_expansion_per_period: 2 # 1.5% for 5 years
         tx_expansion_mw_per_period: 400
     renewable_battery_capex_ccs:
       renewable_mid_noccs:
@@ -2626,6 +2686,18 @@ settings_management:
         tx_expansion_mw_per_period: 10000
       yes:
         tx_expansion_per_period: 0.077 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_15:
+        tx_expansion_per_period: 0.15 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_50:
+        tx_expansion_per_period: 0.5 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_100:
+        tx_expansion_per_period: 1 # 1.5% for 5 years
+        tx_expansion_mw_per_period: 400
+      yes_200:
+        tx_expansion_per_period: 2 # 1.5% for 5 years
         tx_expansion_mw_per_period: 400
     renewable_battery_capex_ccs:
       renewable_mid_noccs:
