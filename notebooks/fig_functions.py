@@ -193,9 +193,9 @@ def load_genx_operations_data(
     if "Resource" in df.columns:
         df = df.rename(columns={"Resource": "resource_name"}).pipe(tech_to_type)
         try:
-            df.loc[:, "zone"] = df["resource_name"].str.split("_").list[0]
-        except AttributeError:
             df.loc[:, "zone"] = df["resource_name"].str.split("_").str[0]
+        except:
+            df.loc[:, "zone"] = df["resource_name"].str.split("_").list[0]
         df.loc[df["resource_name"].str.contains("TRE_WEST"), "zone"] = "TRE_WEST"
     return df
 
