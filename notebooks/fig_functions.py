@@ -779,6 +779,7 @@ def chart_op_emiss(
     color="tech_type",
     col_var=None,
     row_var=None,
+    order=None,
 ) -> alt.Chart:
     if (
         col_var is None
@@ -810,7 +811,7 @@ def chart_op_emiss(
         .mark_bar()
         .encode(
             # xOffset="model:N",
-            x=x_var,
+            x=alt.X(x_var).sort(order=order),
             y=alt.Y("value").title("Emissions (tonnes)"),
             color=alt.Color(color).scale(scheme=color_scale),
             tooltip=_tooltip,
@@ -883,3 +884,51 @@ def chart_tx_map(tx_exp: pd.DataFrame, gdf: gpd.GeoDataFrame) -> alt.Chart:
         model_figs.append(background + lines)
 
     return alt.vconcat(alt.hconcat(*model_figs[:2]), alt.hconcat(*model_figs[2:]))
+
+
+def chart_tx_scenario_map(
+    tx_exp: pd.DataFrame, gdf: gpd.GeoDataFrame, order=list
+) -> alt.Chart:
+    gdf["lat"] = gdf.geometry.centroid.y
+    gdf["lon"] = gdf.geometry.centroid.x
+    tx_exp["lat1"] = tx_exp["start_region"].map(gdf.set_index("zone")["lat"])
+    tx_exp["lon1"] = tx_exp["start_region"].map(gdf.set_index("zone")["lon"])
+    tx_exp["lat2"] = tx_exp["dest_region"].map(gdf.set_index("zone")["lat"])
+    tx_exp["lon2"] = tx_exp["dest_region"].map(gdf.set_index("zone")["lon"])
+
+    model_figs = []
+    for model in tx_exp.model.unique():
+        scenario_figs = []
+        for scenario in order:
+            background = (
+                alt.Chart(gdf, title=f"{model}_{scenario}")
+                .mark_geoshape(
+                    stroke="white",
+                    fill="lightgray",
+                )
+                .project(type="albersUsa")
+            )
+            lines = (
+                alt.Chart(
+                    tx_exp.query(
+                        "planning_year >= 2025 and model==@model and value > 0 and case == @scenario"
+                    )
+                )
+                .mark_rule()
+                .encode(
+                    latitude="lat1",
+                    longitude="lon1",
+                    latitude2="lat2",
+                    longitude2="lon2",
+                    strokeWidth="sum(value)",
+                    color=alt.Color("sum(value):Q").scale(scheme="plasma"),
+                    tooltip=[alt.Tooltip("line_name"), alt.Tooltip("sum(value)")],
+                )
+                .project(type="albersUsa")
+            )
+
+            scenario_figs.append(background + lines)
+
+        model_figs.append(alt.hconcat(*scenario_figs))
+
+    return alt.vconcat(*model_figs)

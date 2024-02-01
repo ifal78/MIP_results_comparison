@@ -210,6 +210,22 @@ chart = chart_tx_expansion(tx_all, x_var="case", facet_col=None, col_var="model"
 chart
 ```
 
+```{python}
+# | title: Total expansion map
+from fig_functions import chart_tx_scenario_map, gdf
+
+order = [
+    "base-200",
+    "base-tx-0",
+    "base-tx-15",
+    "base-tx-50",
+    "base-tx-100",
+    "base-tx-200",
+]
+chart = chart_tx_scenario_map(tx_exp, gdf, order)
+chart
+```
+
 # Transmission view 2
 ## Row
 
