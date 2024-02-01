@@ -50,6 +50,14 @@ from fig_functions import (
 data_folders = list(cwd.parent.glob("*-short-base-tx-*")) + list(
     cwd.parent.glob("26z-short-base-200")
 )
+order = [
+    "base-200",
+    "base-tx-0",
+    "base-tx-15",
+    "base-tx-50",
+    "base-tx-100",
+    "base-tx-200",
+]
 
 cap_list = []
 gen_list = []
@@ -164,14 +172,14 @@ tx_exp["dest_region"] = tx_exp["line_name"].str.split("_to_").str[1]
 
 ```{python}
 # | title: Total Capacity
-chart = chart_total_cap(cap, "case", "model")
+chart = chart_total_cap(cap, "case", "model", order=order)
 chart
 ```
 
 ```{python}
 # | title: Regional Capacity
 chart = chart_total_cap(
-    cap.query("planning_year==2050"), x_var="case", row_var="model", col_var="agg_zone"
+    cap.query("planning_year==2050"), x_var="case", row_var="model", col_var="agg_zone", order=order
 )
 chart
 ```
@@ -179,14 +187,14 @@ chart
 # Generation
 
 ```{python}
-chart = chart_total_gen(gen, cap, "case", "model")
+chart = chart_total_gen(gen, cap, "case", "model", order=order)
 chart
 ```
 
 # Emissions
 
 ```{python}
-chart = chart_emissions(emiss, "case", "model")
+chart = chart_emissions(emiss, "case", "model", order=order)
 chart
 ```
 
@@ -199,14 +207,14 @@ chart
 # | title: Expansion by line
 tx_all = pd.concat([starting_tx, tx_exp])
 chart = chart_tx_expansion(
-    tx_all, x_var="case", facet_col=None, col_var="line_name", row_var="model"
+    tx_all, x_var="case", facet_col=None, col_var="line_name", row_var="model", order=order
 )
 chart
 ```
 
 ```{python}
 # | title: Total expansion
-chart = chart_tx_expansion(tx_all, x_var="case", facet_col=None, col_var="model")
+chart = chart_tx_expansion(tx_all, x_var="case", facet_col=None, col_var="model", order=order)
 chart
 ```
 
@@ -214,14 +222,6 @@ chart
 # | title: Total expansion map
 from fig_functions import chart_tx_scenario_map, gdf
 
-order = [
-    "base-200",
-    "base-tx-0",
-    "base-tx-15",
-    "base-tx-50",
-    "base-tx-100",
-    "base-tx-200",
-]
 chart = chart_tx_scenario_map(tx_exp, gdf, order)
 chart
 ```
@@ -234,22 +234,22 @@ chart
 ```{python}
 # | title: GenX
 tx_all = pd.concat([starting_tx, tx_exp])
-chart = chart_tx_expansion(tx_all.query("model=='GenX'"), "case")
+chart = chart_tx_expansion(tx_all.query("model=='GenX'"), "case", order=order)
 chart
 ```
 ```{python}
 # | title: TEMOA
-chart = chart_tx_expansion(tx_all.query("model=='TEMOA'"), "case")
+chart = chart_tx_expansion(tx_all.query("model=='TEMOA'"), "case", order=order)
 chart
 ```
 ```{python}
 # | title: SWITCH
-chart = chart_tx_expansion(tx_all.query("model=='SWITCH'"), "case")
+chart = chart_tx_expansion(tx_all.query("model=='SWITCH'"), "case", order=order)
 chart
 ```
 ```{python}
 # | title: USENSYS
-chart = chart_tx_expansion(tx_all.query("model=='USENSYS'"), "case")
+chart = chart_tx_expansion(tx_all.query("model=='USENSYS'"), "case", order=order)
 chart
 ```
 
@@ -259,31 +259,43 @@ chart
 
 ```{python}
 # | title: Operational costs
-chart = chart_op_cost(op_costs, "case", "model", "planning_year")
+chart = chart_op_cost(op_costs, "case", "model", "planning_year", order=order)
 chart
 ```
 ```{python}
 # | title: Operational NSE
-chart = chart_op_nse(op_nse, x_var="case", col_var="model", row_var="planning_year")
+chart = chart_op_nse(op_nse, x_var="case", col_var="model", row_var="planning_year", order=order)
 chart
 ```
 
 ```{python}
 # | title: Generation
-chart = chart_total_gen(op_gen, op_cap, "case", "model", "planning_year")
+chart = chart_total_gen(op_gen, op_cap, "case", "model", "planning_year", order=order)
 chart
 ```
 
 ```{python}
 # | title: Emissions by tech
 chart = chart_op_emiss(
-    op_emiss, x_var="case", col_var="model", row_var="planning_year", color="tech_type"
+    op_emiss,
+    x_var="case",
+    col_var="model",
+    row_var="planning_year",
+    color="tech_type",
+    order=order,
 )
 chart
 ```
 
 ```{python}
 # | title: Emissions by zone
-chart = chart_op_emiss(op_emiss, x_var="case", col_var="model", row_var="planning_year", color="zone")
+chart = chart_op_emiss(
+    op_emiss,
+    x_var="case",
+    col_var="model",
+    row_var="planning_year",
+    color="zone",
+    order=order,
+)
 chart
 ```

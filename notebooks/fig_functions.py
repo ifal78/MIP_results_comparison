@@ -323,7 +323,7 @@ def fix_tx_line_names(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def chart_total_cap(
-    cap: pd.DataFrame, x_var="model", col_var=None, row_var="planning_year"
+    cap: pd.DataFrame, x_var="model", col_var=None, row_var="planning_year", order=None
 ) -> alt.Chart:
     group_by = ["tech_type", x_var, row_var]
     _tooltips = [
@@ -342,7 +342,7 @@ def chart_total_cap(
         alt.Chart(cap_data)
         .mark_bar()
         .encode(
-            x=x_var,
+            x=alt.X(x_var).sort(order),
             y=alt.Y("sum(end_value)").title("Capacity (MW)"),
             color=alt.Color("tech_type").scale(scheme="tableau20"),
             # column="zone",
@@ -357,7 +357,9 @@ def chart_total_cap(
 
 
 def chart_regional_cap(
-    cap: pd.DataFrame, group_by=["agg_zone", "tech_type", "model", "planning_year"]
+    cap: pd.DataFrame,
+    group_by=["agg_zone", "tech_type", "model", "planning_year"],
+    order=None,
 ) -> alt.Chart:
     data = cap.groupby(group_by, as_index=False)["end_value"].sum()
     chart = (
@@ -385,6 +387,7 @@ def chart_total_gen(
     x_var="model",
     col_var=None,
     row_var=None,
+    order=None,
 ) -> alt.Chart:
     merge_by = ["tech_type", "resource_name", x_var, "planning_year"]
     group_by = ["tech_type", x_var, "planning_year"]
@@ -439,7 +442,7 @@ def chart_total_gen(
         alt.Chart(data)
         .mark_bar()
         .encode(
-            x=x_var,
+            x=alt.X(x_var).sort(order),
             y=alt.Y("value").title("Generation (MWh)"),
             color=alt.Color("tech_type").scale(scheme="tableau20"),
             # column="zone",
@@ -513,6 +516,7 @@ def chart_tx_expansion(
     n_cols=10,
     col_var=None,
     row_var=None,
+    order=None,
 ) -> alt.Chart:
     _tooltip = [
         alt.Tooltip("sum(value)", format=",.0f"),
@@ -546,7 +550,7 @@ def chart_tx_expansion(
         .mark_bar()
         .encode(
             # xOffset="model:N",
-            x=x_var,
+            x=alt.X(x_var).sort(order),
             y=alt.Y("sum(value)").title("Total transmission expansion (MW)"),
             color="model:N",
             opacity=alt.Opacity("planning_year:O", sort="descending"),
@@ -570,7 +574,9 @@ def chart_tx_expansion(
             alt.Chart()
             .mark_text(dy=-5)
             .encode(
-                x=x_var, y="sum(value):Q", text=alt.Text("sum(value):Q", format=".1e")
+                x=alt.X(x_var).sort(order),
+                y="sum(value):Q",
+                text=alt.Text("sum(value):Q", format=".1e"),
             )
         )
         chart = alt.layer(chart, text, data=data).properties(width=alt.Step(40))
@@ -582,9 +588,7 @@ def chart_tx_expansion(
 
 
 def chart_emissions(
-    emiss: pd.DataFrame,
-    x_var="model",
-    col_var=None,
+    emiss: pd.DataFrame, x_var="model", col_var=None, order=None
 ) -> alt.Chart:
     _tooltips = [alt.Tooltip("value", format=",.0f"), alt.Tooltip("zone")]
     if col_var is not None:
@@ -593,7 +597,7 @@ def chart_emissions(
         alt.Chart()
         .mark_bar()
         .encode(
-            x=x_var,
+            x=alt.X(x_var).sort(order),
             y=alt.Y("value").title("CO2 emissions (tonnes)"),
             color=alt.Color("zone").scale(scheme="tableau20"),
             # column="agg_zone",
@@ -606,7 +610,11 @@ def chart_emissions(
     text = (
         alt.Chart()
         .mark_text(dy=-5)
-        .encode(x=x_var, y="sum(value):Q", text=alt.Text("sum(value):Q", format=".2e"))
+        .encode(
+            x=alt.X(x_var).sort(order),
+            y="sum(value):Q",
+            text=alt.Text("sum(value):Q", format=".2e"),
+        )
     )  # .properties(width=350, height=250)
 
     if col_var is None:
@@ -678,10 +686,7 @@ def chart_wind_dispatch(data: pd.DataFrame) -> alt.Chart:
 
 
 def chart_op_cost(
-    op_costs: pd.DataFrame,
-    x_var="model",
-    col_var=None,
-    row_var=None,
+    op_costs: pd.DataFrame, x_var="model", col_var=None, row_var=None, order=None
 ) -> alt.Chart:
     if col_var is None and "planning_year" in op_costs.columns:
         col_var = "planning_year"
@@ -705,7 +710,7 @@ def chart_op_cost(
         .mark_bar()
         .encode(
             # xOffset="model:N",
-            x=x_var,
+            x=alt.X(x_var).sort(order),
             y=alt.Y("Total").title("Costs"),
             color="Costs:N",
             tooltip=_tooltip,
@@ -716,7 +721,7 @@ def chart_op_cost(
         alt.Chart()
         .mark_text(dy=-5, fontSize=9)
         .encode(
-            x=x_var,
+            x=alt.X(x_var).sort(order),
             y="sum(Total):Q",
             text=alt.Text("sum(Total):Q", format=".2e"),
         )
@@ -741,7 +746,7 @@ def chart_op_cost(
 
 
 def chart_op_nse(
-    op_nse: pd.DataFrame, x_var="model", col_var=None, row_var=None
+    op_nse: pd.DataFrame, x_var="model", col_var=None, row_var=None, order=None
 ) -> alt.Chart:
     cols = ["Segment", "Total", "model"]
     if "planning_year" in op_nse and row_var != "planning_year":
@@ -758,7 +763,7 @@ def chart_op_nse(
         .mark_bar()
         .encode(
             # xOffset="model:N",
-            x=x_var,
+            x=alt.X(x_var).sort(order),
             y=alt.Y("sum(value)").title("Annual non-served MWh"),
             color="model:N",
             tooltip=alt.Tooltip("sum(value)", format=",.0f", title="NSE"),
@@ -811,7 +816,7 @@ def chart_op_emiss(
         .mark_bar()
         .encode(
             # xOffset="model:N",
-            x=alt.X(x_var).sort(order=order),
+            x=alt.X(x_var).sort(order),
             y=alt.Y("value").title("Emissions (tonnes)"),
             color=alt.Color(color).scale(scheme=color_scale),
             tooltip=_tooltip,
@@ -821,7 +826,11 @@ def chart_op_emiss(
     text = (
         alt.Chart()
         .mark_text(dy=-5, fontSize=9)
-        .encode(x=x_var, y="sum(value):Q", text=alt.Text("sum(value):Q", format=".2e"))
+        .encode(
+            x=alt.X(x_var).sort(order),
+            y="sum(value):Q",
+            text=alt.Text("sum(value):Q", format=".2e"),
+        )
     )
 
     chart = alt.layer(
