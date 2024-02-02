@@ -1,533 +1,529 @@
 model,zone,resource_name,tech_type,planning_year,case,unit,value
-USENSYS,BASN,BASN_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,733707
-USENSYS,BASN,BASN_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,149872
-USENSYS,BASN,BASN_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,53330
-USENSYS,BASN,BASN_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,8869427
-USENSYS,BASN,BASN_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,398346
-USENSYS,BASN,BASN_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,24429922
+USENSYS,BASN,BASN_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,709034
+USENSYS,BASN,BASN_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,150879
+USENSYS,BASN,BASN_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,53238
+USENSYS,BASN,BASN_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,8763227
+USENSYS,BASN,BASN_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,397623
+USENSYS,BASN,BASN_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,24311761
 USENSYS,BASN,BASN_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,3875746
 USENSYS,BASN,BASN_geothermal_1,Geothermal,2030,26z-short-current-policies_w10_h168_1680w,MWh,3782688
 USENSYS,BASN,BASN_landbasedwind_class3_moderate_0,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,9906425
 USENSYS,BASN,BASN_landbasedwind_class3_moderate_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,12317825
-USENSYS,BASN,BASN_landbasedwind_class3_moderate_3,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,123373
+USENSYS,BASN,BASN_landbasedwind_class3_moderate_3,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,1874004
 USENSYS,BASN,BASN_landbasedwind_class3_moderate_7,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,4015548
 USENSYS,BASN,BASN_landbasedwind_class3_moderate_9,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2467305
-USENSYS,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,786613
-USENSYS,BASN,BASN_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,30213700
-USENSYS,BASN,BASN_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,81260
-USENSYS,BASN,BASN_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,40477
-USENSYS,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,132685
+USENSYS,BASN,BASN_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,663308
+USENSYS,BASN,BASN_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,29107785
+USENSYS,BASN,BASN_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,52462
+USENSYS,BASN,BASN_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,40120
+USENSYS,BASN,BASN_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,114715
 USENSYS,BASN,BASN_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,3845553
 USENSYS,BASN,BASN_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,1546272
 USENSYS,BASN,BASN_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,16793745
-USENSYS,CANO,CANO_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,3441177
-USENSYS,CANO,CANO_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,989842
-USENSYS,CANO,CANO_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,457200
-USENSYS,CANO,CANO_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,18973497
+USENSYS,BASN,BASN_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,700502
+USENSYS,CANO,CANO_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,3168990
+USENSYS,CANO,CANO_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,1078834
+USENSYS,CANO,CANO_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,310491
+USENSYS,CANO,CANO_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,18646052
 USENSYS,CANO,CANO_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,12297592
-USENSYS,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,4522218
-USENSYS,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2345238
-USENSYS,CANO,CANO_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,36950979
-USENSYS,CANO,CANO_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,6250
+USENSYS,CANO,CANO_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,2424241
+USENSYS,CANO,CANO_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,3100433
+USENSYS,CANO,CANO_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,43325019
+USENSYS,CANO,CANO_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,9191
 USENSYS,CANO,CANO_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,3066964
 USENSYS,CANO,CANO_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,1886976
 USENSYS,CANO,CANO_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,14217799
-USENSYS,CANO,CANO_utilitypv_class1_moderate_0,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,23500561
-USENSYS,CANO,CANO_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,13068277
-USENSYS,CASO,CASO_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,11229443
-USENSYS,CASO,CASO_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,869252
-USENSYS,CASO,CASO_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,119296
-USENSYS,CASO,CASO_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,2534069
+USENSYS,CANO,CANO_utilitypv_class1_moderate_0,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,16918901
+USENSYS,CANO,CANO_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,7145114
+USENSYS,CASO,CASO_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,11155595
+USENSYS,CASO,CASO_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,906984
+USENSYS,CASO,CASO_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,122624
+USENSYS,CASO,CASO_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,2446195
 USENSYS,CASO,CASO_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,19135149
 USENSYS,CASO,CASO_geothermal_1,Geothermal,2030,26z-short-current-policies_w10_h168_1680w,MWh,209664
-USENSYS,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,3353572
-USENSYS,CASO,CASO_landbasedwind_class3_moderate_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,516359
+USENSYS,CASO,CASO_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,2957212
 USENSYS,CASO,CASO_landbasedwind_class3_moderate_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,17108
-USENSYS,CASO,CASO_landbasedwind_class3_moderate_3,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,396868
-USENSYS,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,7806576
-USENSYS,CASO,CASO_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,47193792
-USENSYS,CASO,CASO_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,1556537
-USENSYS,CASO,CASO_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,10030791
-USENSYS,CASO,CASO_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,242647
-USENSYS,CASO,CASO_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,5704
-USENSYS,CASO,CASO_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,811992
+USENSYS,CASO,CASO_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,7950487
+USENSYS,CASO,CASO_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,48391943
+USENSYS,CASO,CASO_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,1604528
+USENSYS,CASO,CASO_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,9334266
+USENSYS,CASO,CASO_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,245668
+USENSYS,CASO,CASO_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,5718
+USENSYS,CASO,CASO_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,3607159
 USENSYS,CASO,CASO_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,13447313
-USENSYS,CASO,CASO_petroleum_liquids_1,Other,2030,26z-short-current-policies_w10_h168_1680w,MWh,238
 USENSYS,CASO,CASO_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,637728
 USENSYS,CASO,CASO_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,30986088
 USENSYS,CASO,CASO_utilitypv_class1_moderate_0,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,24579950
-USENSYS,CASO,CASO_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,12956387
-USENSYS,FRCC,FRCC_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,256772
-USENSYS,FRCC,FRCC_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,285035
-USENSYS,FRCC,FRCC_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,961694
-USENSYS,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,123012
-USENSYS,FRCC,FRCC_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,26401695
-USENSYS,FRCC,FRCC_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,5356482
+USENSYS,CASO,CASO_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,8492159
+USENSYS,FRCC,FRCC_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,256146
+USENSYS,FRCC,FRCC_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,285157
+USENSYS,FRCC,FRCC_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,960760
+USENSYS,FRCC,FRCC_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,122880
+USENSYS,FRCC,FRCC_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,26398943
+USENSYS,FRCC,FRCC_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,5353697
 USENSYS,FRCC,FRCC_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,10791771
 USENSYS,FRCC,FRCC_landbasedwind_class3_moderate_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,1727259
 USENSYS,FRCC,FRCC_landbasedwind_class3_moderate_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2131182
 USENSYS,FRCC,FRCC_landbasedwind_class3_moderate_4,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,3372896
 USENSYS,FRCC,FRCC_landbasedwind_class3_moderate_5,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2000613
-USENSYS,FRCC,FRCC_landbasedwind_class3_moderate_6,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,6338732
-USENSYS,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,533640
-USENSYS,FRCC,FRCC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,123185315
-USENSYS,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,285173
-USENSYS,FRCC,FRCC_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,59482
-USENSYS,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,117554
-USENSYS,FRCC,FRCC_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,18648
-USENSYS,FRCC,FRCC_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,32578769
+USENSYS,FRCC,FRCC_landbasedwind_class3_moderate_6,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,6339065
+USENSYS,FRCC,FRCC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,533866
+USENSYS,FRCC,FRCC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,123194561
+USENSYS,FRCC,FRCC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,285088
+USENSYS,FRCC,FRCC_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,59486
+USENSYS,FRCC,FRCC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,117618
+USENSYS,FRCC,FRCC_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,18437
+USENSYS,FRCC,FRCC_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,32578355
 USENSYS,FRCC,FRCC_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,15608089
-USENSYS,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,27916523
-USENSYS,ISNE,ISNE_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,331567
-USENSYS,ISNE,ISNE_battery_moderate_0,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,33949
-USENSYS,ISNE,ISNE_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,130581
-USENSYS,ISNE,ISNE_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,814931
-USENSYS,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,2150502
-USENSYS,ISNE,ISNE_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,2553921
+USENSYS,FRCC,FRCC_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,27922758
+USENSYS,ISNE,ISNE_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,313850
+USENSYS,ISNE,ISNE_battery_moderate_0,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,552629
+USENSYS,ISNE,ISNE_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,131119
+USENSYS,ISNE,ISNE_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,810736
+USENSYS,ISNE,ISNE_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,2078789
+USENSYS,ISNE,ISNE_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,2618085
 USENSYS,ISNE,ISNE_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,8140165
-USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,2629989
+USENSYS,ISNE,ISNE_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,2535881
 USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_0,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,10667959
 USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2324447
 USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,19460051
 USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_3,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,5659362
 USENSYS,ISNE,ISNE_landbasedwind_class3_moderate_6,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,391522
-USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,913640
-USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,13767283
-USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,45654
-USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,241529
-USENSYS,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,16131
-USENSYS,ISNE,ISNE_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,22767
-USENSYS,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,27734024
-USENSYS,ISNE,ISNE_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,27627395
+USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,947459
+USENSYS,ISNE,ISNE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,15546019
+USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,44080
+USENSYS,ISNE,ISNE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,228825
+USENSYS,ISNE,ISNE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,18696
+USENSYS,ISNE,ISNE_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,27587
+USENSYS,ISNE,ISNE_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,24716959
+USENSYS,ISNE,ISNE_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,27295625
 USENSYS,ISNE,ISNE_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2306527
 USENSYS,ISNE,ISNE_petroleum_liquids_1,Other,2030,26z-short-current-policies_w10_h168_1680w,MWh,32969
 USENSYS,ISNE,ISNE_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,2218944
 USENSYS,ISNE,ISNE_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,4180359
-USENSYS,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,9822277
-USENSYS,MISC,MISC_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,31941
-USENSYS,MISC,MISC_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,582260
-USENSYS,MISC,MISC_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,5728
-USENSYS,MISC,MISC_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,1437720
-USENSYS,MISC,MISC_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,87869945
-USENSYS,MISC,MISC_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,14854873
+USENSYS,ISNE,ISNE_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,9829568
+USENSYS,MISC,MISC_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,31854
+USENSYS,MISC,MISC_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,577704
+USENSYS,MISC,MISC_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,5796
+USENSYS,MISC,MISC_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,1424124
+USENSYS,MISC,MISC_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,88801100
+USENSYS,MISC,MISC_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,15382809
 USENSYS,MISC,MISC_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,2442411
-USENSYS,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,964003
-USENSYS,MISC,MISC_landbasedwind_class3_moderate_0,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,9688367
+USENSYS,MISC,MISC_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,941802
+USENSYS,MISC,MISC_landbasedwind_class3_moderate_0,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,10051772
 USENSYS,MISC,MISC_landbasedwind_class3_moderate_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,12269676
 USENSYS,MISC,MISC_landbasedwind_class3_moderate_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,4822998
 USENSYS,MISC,MISC_landbasedwind_class3_moderate_3,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,1619613
-USENSYS,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,1190760
-USENSYS,MISC,MISC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,13499873
-USENSYS,MISC,MISC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,430604
-USENSYS,MISC,MISC_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,449198
-USENSYS,MISC,MISC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,78840
-USENSYS,MISC,MISC_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,187429
-USENSYS,MISC,MISC_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,20471258
+USENSYS,MISC,MISC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,1173080
+USENSYS,MISC,MISC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,13833011
+USENSYS,MISC,MISC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,392833
+USENSYS,MISC,MISC_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,392128
+USENSYS,MISC,MISC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,76372
+USENSYS,MISC,MISC_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,182190
+USENSYS,MISC,MISC_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,20483227
 USENSYS,MISC,MISC_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,13041012
 USENSYS,MISC,MISC_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,122304
 USENSYS,MISC,MISC_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,6478265
-USENSYS,MISE,MISE_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,479
-USENSYS,MISE,MISE_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,529114
-USENSYS,MISE,MISE_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,333678
-USENSYS,MISE,MISE_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,279552
-USENSYS,MISE,MISE_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,26746867
+USENSYS,MISE,MISE_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,457
+USENSYS,MISE,MISE_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,527843
+USENSYS,MISE,MISE_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,334443
+USENSYS,MISE,MISE_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,87215
+USENSYS,MISE,MISE_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,26739964
 USENSYS,MISE,MISE_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,1880449
-USENSYS,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,1645367
+USENSYS,MISE,MISE_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,1661343
 USENSYS,MISE,MISE_landbasedwind_class3_moderate_0,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2815536
 USENSYS,MISE,MISE_landbasedwind_class3_moderate_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,1705019
-USENSYS,MISE,MISE_landbasedwind_class3_moderate_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,812628
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,812956
 USENSYS,MISE,MISE_landbasedwind_class3_moderate_3,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2025290
-USENSYS,MISE,MISE_landbasedwind_class3_moderate_4,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2703622
-USENSYS,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,32646326
-USENSYS,MISE,MISE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,979375
-USENSYS,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,206784
-USENSYS,MISE,MISE_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,36681
-USENSYS,MISE,MISE_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,10139142
+USENSYS,MISE,MISE_landbasedwind_class3_moderate_4,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2703696
+USENSYS,MISE,MISE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,32746478
+USENSYS,MISE,MISE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,990197
+USENSYS,MISE,MISE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,209784
+USENSYS,MISE,MISE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,62
+USENSYS,MISE,MISE_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,36756
+USENSYS,MISE,MISE_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,10139322
 USENSYS,MISE,MISE_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,7293032
 USENSYS,MISE,MISE_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,104832
 USENSYS,MISE,MISE_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,1957659
-USENSYS,MISE,MISE_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,8277342
-USENSYS,MISS,MISS_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,4204
-USENSYS,MISS,MISS_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,49950
-USENSYS,MISS,MISS_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,645355
-USENSYS,MISS,MISS_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,1375559
-USENSYS,MISS,MISS_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,43573269
-USENSYS,MISS,MISS_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,6429973
+USENSYS,MISE,MISE_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,8194480
+USENSYS,MISS,MISS_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,4282
+USENSYS,MISS,MISS_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,49974
+USENSYS,MISS,MISS_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,644855
+USENSYS,MISS,MISS_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,1375512
+USENSYS,MISS,MISS_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,43555363
+USENSYS,MISS,MISS_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,6468764
 USENSYS,MISS,MISS_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,6109632
-USENSYS,MISS,MISS_landbasedwind_class3_moderate_0,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,4768644
+USENSYS,MISS,MISS_landbasedwind_class3_moderate_0,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,4637578
 USENSYS,MISS,MISS_landbasedwind_class3_moderate_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,584592
 USENSYS,MISS,MISS_landbasedwind_class3_moderate_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,5903562
 USENSYS,MISS,MISS_landbasedwind_class3_moderate_3,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,1117177
-USENSYS,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,53727521
-USENSYS,MISS,MISS_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,81848
-USENSYS,MISS,MISS_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,12458
-USENSYS,MISS,MISS_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,23005
-USENSYS,MISS,MISS_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,47379062
+USENSYS,MISS,MISS_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,53818306
+USENSYS,MISS,MISS_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,85942
+USENSYS,MISS,MISS_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,14477
+USENSYS,MISS,MISS_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,23716
+USENSYS,MISS,MISS_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,47379358
 USENSYS,MISS,MISS_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,26208
 USENSYS,MISS,MISS_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,3719942
-USENSYS,MISS,MISS_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,11871227
-USENSYS,MISW,MISW_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,39942
-USENSYS,MISW,MISW_battery_moderate_0,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,406438
-USENSYS,MISW,MISW_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,507251
-USENSYS,MISW,MISW_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,34158
-USENSYS,MISW,MISW_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,277545
-USENSYS,MISW,MISW_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,91705271
+USENSYS,MISS,MISS_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,11968899
+USENSYS,MISW,MISW_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,39337
+USENSYS,MISW,MISW_battery_moderate_0,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,384629
+USENSYS,MISW,MISW_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,516865
+USENSYS,MISW,MISW_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,32576
+USENSYS,MISW,MISW_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,274647
+USENSYS,MISW,MISW_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,92541704
 USENSYS,MISW,MISW_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,41278
 USENSYS,MISW,MISW_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,4422309
-USENSYS,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,3220674
-USENSYS,MISW,MISW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,31888729
-USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,46890
-USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2634691
+USENSYS,MISW,MISW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2989078
+USENSYS,MISW,MISW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,31401432
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,45656
+USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2457426
 USENSYS,MISW,MISW_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,7102
-USENSYS,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,1404940
-USENSYS,MISW,MISW_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,26180
-USENSYS,MISW,MISW_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,25285274
+USENSYS,MISW,MISW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,1274314
+USENSYS,MISW,MISW_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,27278
+USENSYS,MISW,MISW_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,25340030
 USENSYS,MISW,MISW_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,47241193
 USENSYS,MISW,MISW_petroleum_liquids_1,Other,2030,26z-short-current-policies_w10_h168_1680w,MWh,20122
 USENSYS,MISW,MISW_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,3887520
 USENSYS,MISW,MISW_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,5587445
-USENSYS,MISW,MISW_utilitypv_class1_moderate_0,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,5323134
-USENSYS,MISW,MISW_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,1753732
-USENSYS,NWPP,NWPP_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,6326
-USENSYS,NWPP,NWPP_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,138921
+USENSYS,MISW,MISW_utilitypv_class1_moderate_0,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,6825427
+USENSYS,MISW,MISW_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,2205639
+USENSYS,NWPP,NWPP_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,6324
+USENSYS,NWPP,NWPP_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,134914
 USENSYS,NWPP,NWPP_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,330212
-USENSYS,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,139649109
-USENSYS,NWPP,NWPP_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,9376736
-USENSYS,NWPP,NWPP_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,804053
+USENSYS,NWPP,NWPP_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,135268619
+USENSYS,NWPP,NWPP_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,9461401
+USENSYS,NWPP,NWPP_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,804627
 USENSYS,NWPP,NWPP_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,4272655
 USENSYS,NWPP,NWPP_geothermal_1,Geothermal,2030,26z-short-current-policies_w10_h168_1680w,MWh,192192
-USENSYS,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,71604
+USENSYS,NWPP,NWPP_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,71587
 USENSYS,NWPP,NWPP_landbasedwind_class3_moderate_3,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,14455466
-USENSYS,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,3807198
-USENSYS,NWPP,NWPP_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,15631596
-USENSYS,NWPP,NWPP_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,7092
-USENSYS,NWPP,NWPP_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,4925
+USENSYS,NWPP,NWPP_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,3756863
+USENSYS,NWPP,NWPP_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,15848193
+USENSYS,NWPP,NWPP_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,8100
+USENSYS,NWPP,NWPP_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,4942
 USENSYS,NWPP,NWPP_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,7915264
 USENSYS,NWPP,NWPP_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,19922421
 USENSYS,NWPP,NWPP_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,3651648
 USENSYS,NWPP,NWPP_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,3151137
-USENSYS,NYCW,NYCW_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,47153
-USENSYS,NYCW,NYCW_battery_moderate_0,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,1719823
-USENSYS,NYCW,NYCW_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,95754
+USENSYS,NYCW,NYCW_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,46429
+USENSYS,NYCW,NYCW_battery_moderate_0,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,914592
+USENSYS,NYCW,NYCW_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,96895
 USENSYS,NYCW,NYCW_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,2554328
-USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,4259171
-USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,9984391
-USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,714184
-USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,1544899
-USENSYS,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,97415
-USENSYS,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,22845
-USENSYS,NYCW,NYCW_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,21551651
-USENSYS,NYCW,NYCW_offshorewind_class12_moderate_floating_0_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,3798956
-USENSYS,NYCW,NYCW_offshorewind_class12_moderate_floating_0_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,3244736
+USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,4959058
+USENSYS,NYCW,NYCW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,9751104
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,585410
+USENSYS,NYCW,NYCW_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,1478248
+USENSYS,NYCW,NYCW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,91936
+USENSYS,NYCW,NYCW_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,13430
+USENSYS,NYCW,NYCW_naturalgas_ccavgcf_moderate_0,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,25514468
+USENSYS,NYCW,NYCW_offshorewind_class12_moderate_floating_0_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2414741
 USENSYS,NYCW,NYCW_offshorewind_class12_moderate_floating_0_3,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,3352958
-USENSYS,NYCW,NYCW_offshorewind_class12_moderate_floating_1_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,4366622
-USENSYS,NYCW,NYCW_offshorewind_class12_moderate_floating_1_3,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,8186422
 USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2160199
 USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,1992227
-USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_3,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2111037
+USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_0_3,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2111073
 USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,5712815
 USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,5516143
 USENSYS,NYCW,NYCW_offshorewind_class3_moderate_fixed_1_3,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,5793359
-USENSYS,NYCW,NYCW_petroleum_liquids_1,Other,2030,26z-short-current-policies_w10_h168_1680w,MWh,67349
+USENSYS,NYCW,NYCW_petroleum_liquids_1,Other,2030,26z-short-current-policies_w10_h168_1680w,MWh,50523
 USENSYS,NYCW,NYCW_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,258011
-USENSYS,NYUP,NYUP_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,114786
-USENSYS,NYUP,NYUP_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,591432
-USENSYS,NYUP,NYUP_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,216793
-USENSYS,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,18424209
+USENSYS,NYUP,NYUP_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,124378
+USENSYS,NYUP,NYUP_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,652308
+USENSYS,NYUP,NYUP_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,199754
+USENSYS,NYUP,NYUP_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,17013822
 USENSYS,NYUP,NYUP_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,1895883
-USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,2569565
+USENSYS,NYUP,NYUP_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,2966662
 USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_0,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,7212399
-USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,1381702
+USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2597461
+USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_10,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,3390988
 USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2543651
 USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_4,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,5975497
 USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_6,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2395084
-USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,36387
-USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,5919629
-USENSYS,NYUP,NYUP_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,3976
-USENSYS,NYUP,NYUP_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,1976
-USENSYS,NYUP,NYUP_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,55185
-USENSYS,NYUP,NYUP_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,22195732
+USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_7,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,1959368
+USENSYS,NYUP,NYUP_landbasedwind_class3_moderate_8,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,5039524
+USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,73736
+USENSYS,NYUP,NYUP_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,5990911
+USENSYS,NYUP,NYUP_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,6345
+USENSYS,NYUP,NYUP_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,6264
+USENSYS,NYUP,NYUP_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,39548
+USENSYS,NYUP,NYUP_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,17646673
 USENSYS,NYUP,NYUP_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,5757959
 USENSYS,NYUP,NYUP_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,3293472
 USENSYS,NYUP,NYUP_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,2691710
 USENSYS,NYUP,NYUP_utilitypv_class1_moderate_0,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,12662611
-USENSYS,PJMC,PJMC_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,58797
-USENSYS,PJMC,PJMC_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,40137
-USENSYS,PJMC,PJMC_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,130464
-USENSYS,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,27008
-USENSYS,PJMC,PJMC_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,1685960
-USENSYS,PJMC,PJMC_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,72425
+USENSYS,NYUP,NYUP_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,6827221
+USENSYS,PJMC,PJMC_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,36541
+USENSYS,PJMC,PJMC_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,26910
+USENSYS,PJMC,PJMC_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,129285
+USENSYS,PJMC,PJMC_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,26596
+USENSYS,PJMC,PJMC_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,5682584
+USENSYS,PJMC,PJMC_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,245171
 USENSYS,PJMC,PJMC_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,2746584
-USENSYS,PJMC,PJMC_landbasedwind_class3_moderate_0,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,4320514
-USENSYS,PJMC,PJMC_landbasedwind_class3_moderate_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,1239928
-USENSYS,PJMC,PJMC_landbasedwind_class3_moderate_15,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,3166191
-USENSYS,PJMC,PJMC_landbasedwind_class3_moderate_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,3568427
-USENSYS,PJMC,PJMC_landbasedwind_class3_moderate_3,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,3077166
-USENSYS,PJMC,PJMC_landbasedwind_class3_moderate_7,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,476505
-USENSYS,PJMC,PJMC_landbasedwind_class3_moderate_9,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,3286197
-USENSYS,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,6965707
-USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,52650
-USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,430865
-USENSYS,PJMC,PJMC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,84196
-USENSYS,PJMC,PJMC_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,1346
-USENSYS,PJMC,PJMC_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,80166216
+USENSYS,PJMC,PJMC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,14178080
+USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,46636
+USENSYS,PJMC,PJMC_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,353322
+USENSYS,PJMC,PJMC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,86531
+USENSYS,PJMC,PJMC_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,3347
+USENSYS,PJMC,PJMC_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,91408998
 USENSYS,PJMC,PJMC_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,8586415
 USENSYS,PJMC,PJMC_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,78624
 USENSYS,PJMC,PJMC_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,559856
-USENSYS,PJMC,PJMC_utilitypv_class1_moderate_0,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,12888416
-USENSYS,PJMD,PJMD_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,32400
-USENSYS,PJMD,PJMD_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,364617
-USENSYS,PJMD,PJMD_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,16113
-USENSYS,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,660396
-USENSYS,PJMD,PJMD_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,6983284
+USENSYS,PJMD,PJMD_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,31643
+USENSYS,PJMD,PJMD_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,361811
+USENSYS,PJMD,PJMD_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,16200
+USENSYS,PJMD,PJMD_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,660524
+USENSYS,PJMD,PJMD_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,6953140
 USENSYS,PJMD,PJMD_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,3591500
-USENSYS,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,3570216
+USENSYS,PJMD,PJMD_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,3795746
 USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_0,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2565689
-USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_10,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,1844800
+USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_10,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2142658
 USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_11,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,1869690
-USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2143499
+USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2144453
 USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_5,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2160996
 USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_6,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2346879
 USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_7,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,978026
-USENSYS,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,24554074
-USENSYS,PJMD,PJMD_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,642206
-USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2385
-USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,9614
-USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,132098
-USENSYS,PJMD,PJMD_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2130
-USENSYS,PJMD,PJMD_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,25464
-USENSYS,PJMD,PJMD_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,32315044
+USENSYS,PJMD,PJMD_landbasedwind_class3_moderate_8,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,810878
+USENSYS,PJMD,PJMD_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,24118608
+USENSYS,PJMD,PJMD_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,627738
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,10561
+USENSYS,PJMD,PJMD_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,105741
+USENSYS,PJMD,PJMD_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2036
+USENSYS,PJMD,PJMD_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,27247
+USENSYS,PJMD,PJMD_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,32253324
+USENSYS,PJMD,PJMD_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,258409
 USENSYS,PJMD,PJMD_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,34944
 USENSYS,PJMD,PJMD_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,8990412
-USENSYS,PJMD,PJMD_utilitypv_class1_moderate_0,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,12566184
+USENSYS,PJMD,PJMD_utilitypv_class1_moderate_0,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,18241140
 USENSYS,PJMD,PJMD_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,2265394
-USENSYS,PJME,PJME_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,73220
-USENSYS,PJME,PJME_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,621929
-USENSYS,PJME,PJME_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,716987
-USENSYS,PJME,PJME_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,2539842
-USENSYS,PJME,PJME_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,26052186
-USENSYS,PJME,PJME_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,126410
+USENSYS,PJME,PJME_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,39373
+USENSYS,PJME,PJME_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,662697
+USENSYS,PJME,PJME_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,291350
+USENSYS,PJME,PJME_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,2540043
+USENSYS,PJME,PJME_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,35575564
+USENSYS,PJME,PJME_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,14669
 USENSYS,PJME,PJME_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,16146370
-USENSYS,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,3916917
+USENSYS,PJME,PJME_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,951271
 USENSYS,PJME,PJME_landbasedwind_class3_moderate_0,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,7056339
 USENSYS,PJME,PJME_landbasedwind_class3_moderate_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,1005305
 USENSYS,PJME,PJME_landbasedwind_class3_moderate_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,4008701
 USENSYS,PJME,PJME_landbasedwind_class3_moderate_3,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,3221617
-USENSYS,PJME,PJME_landbasedwind_class3_moderate_4,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2865263
 USENSYS,PJME,PJME_landbasedwind_class3_moderate_5,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,3026425
-USENSYS,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,421023
-USENSYS,PJME,PJME_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,75582045
-USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,54532
-USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,153136
-USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,900261
-USENSYS,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,181608
-USENSYS,PJME,PJME_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,4670
-USENSYS,PJME,PJME_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,106715820
+USENSYS,PJME,PJME_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,87286
+USENSYS,PJME,PJME_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,98475015
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,24447
+USENSYS,PJME,PJME_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,153931
+USENSYS,PJME,PJME_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,58717
+USENSYS,PJME,PJME_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,90
+USENSYS,PJME,PJME_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,111449624
+USENSYS,PJME,PJME_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2155853
 USENSYS,PJME,PJME_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,463008
 USENSYS,PJME,PJME_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,3576197
 USENSYS,PJME,PJME_utilitypv_class1_moderate_0,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,13812153
-USENSYS,PJME,PJME_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,35724580
-USENSYS,PJME,PJME_utilitypv_class1_moderate_2,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,8131986
-USENSYS,PJME,PJME_utilitypv_class1_moderate_3,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,17343569
-USENSYS,PJMW,PJMW_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,24032
-USENSYS,PJMW,PJMW_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,167293
-USENSYS,PJMW,PJMW_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,42137
-USENSYS,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,2242165
-USENSYS,PJMW,PJMW_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,2928333
-USENSYS,PJMW,PJMW_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,144536692
-USENSYS,PJMW,PJMW_conventional_steam_coal_3,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,434183
+USENSYS,PJME,PJME_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,12243955
+USENSYS,PJMW,PJMW_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,24476
+USENSYS,PJMW,PJMW_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,166682
+USENSYS,PJMW,PJMW_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,41475
+USENSYS,PJMW,PJMW_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,2235016
+USENSYS,PJMW,PJMW_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,2528067
+USENSYS,PJMW,PJMW_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,137584451
+USENSYS,PJMW,PJMW_conventional_steam_coal_3,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,371941
 USENSYS,PJMW,PJMW_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,4764263
-USENSYS,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,219193
+USENSYS,PJMW,PJMW_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,232779
 USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_0,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,5082949
-USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,5642817
-USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_15,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,386372
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,5642381
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_10,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,3427949
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_11,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2025050
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_15,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2071091
 USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,3514345
 USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_3,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2945407
 USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_4,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,4641591
-USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_5,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,3233303
-USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_6,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,4486384
-USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_7,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2996527
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_5,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,3232246
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_6,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,4486184
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_7,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,2996520
+USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_8,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,7224542
 USENSYS,PJMW,PJMW_landbasedwind_class3_moderate_9,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,1042821
-USENSYS,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,70401726
-USENSYS,PJMW,PJMW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,692275
-USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,79479
-USENSYS,PJMW,PJMW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,17987
-USENSYS,PJMW,PJMW_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,22823
-USENSYS,PJMW,PJMW_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,55180812
+USENSYS,PJMW,PJMW_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,58239478
+USENSYS,PJMW,PJMW_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,570494
+USENSYS,PJMW,PJMW_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,93100
+USENSYS,PJMW,PJMW_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,16914
+USENSYS,PJMW,PJMW_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,12877
+USENSYS,PJMW,PJMW_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,55076991
 USENSYS,PJMW,PJMW_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,9105376
 USENSYS,PJMW,PJMW_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,1729728
 USENSYS,PJMW,PJMW_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,7166707
-USENSYS,RMRG,RMRG_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,206982
-USENSYS,RMRG,RMRG_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,33054
-USENSYS,RMRG,RMRG_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,20415
-USENSYS,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,1921491
-USENSYS,RMRG,RMRG_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,36902244
-USENSYS,RMRG,RMRG_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,6642608
+USENSYS,PJMW,PJMW_utilitypv_class1_moderate_0,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,11436882
+USENSYS,RMRG,RMRG_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,206410
+USENSYS,RMRG,RMRG_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,33729
+USENSYS,RMRG,RMRG_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,21831
+USENSYS,RMRG,RMRG_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,1880163
+USENSYS,RMRG,RMRG_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,36864218
+USENSYS,RMRG,RMRG_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,6658200
 USENSYS,RMRG,RMRG_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,2833222
-USENSYS,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,1538798
+USENSYS,RMRG,RMRG_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,1523786
 USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,14722607
-USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,514024
-USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2865793
-USENSYS,RMRG,RMRG_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,100805
-USENSYS,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,182270
+USENSYS,RMRG,RMRG_landbasedwind_class3_moderate_3,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,182862
+USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,502681
+USENSYS,RMRG,RMRG_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2813563
+USENSYS,RMRG,RMRG_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,99228
+USENSYS,RMRG,RMRG_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,184384
 USENSYS,RMRG,RMRG_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,28445899
 USENSYS,RMRG,RMRG_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,882336
 USENSYS,RMRG,RMRG_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,5077313
-USENSYS,SPPC,SPPC_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,1186
-USENSYS,SPPC,SPPC_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,18869
-USENSYS,SPPC,SPPC_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,53987
-USENSYS,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,57597
-USENSYS,SPPC,SPPC_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,14783361
-USENSYS,SPPC,SPPC_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,32666459
+USENSYS,SPPC,SPPC_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,1109
+USENSYS,SPPC,SPPC_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,18956
+USENSYS,SPPC,SPPC_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,53850
+USENSYS,SPPC,SPPC_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,56395
+USENSYS,SPPC,SPPC_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,14782012
+USENSYS,SPPC,SPPC_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,32682443
 USENSYS,SPPC,SPPC_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,730287
-USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2649115
-USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,243274
-USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,45130
-USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,111971
-USENSYS,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,254986
-USENSYS,SPPC,SPPC_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,11315
-USENSYS,SPPC,SPPC_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,10454316
+USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2623261
+USENSYS,SPPC,SPPC_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,237154
+USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,41165
+USENSYS,SPPC,SPPC_natural_gas_fired_combustion_turbine_3,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,100973
+USENSYS,SPPC,SPPC_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,252269
+USENSYS,SPPC,SPPC_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,10974
+USENSYS,SPPC,SPPC_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,10465574
 USENSYS,SPPC,SPPC_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,17082068
 USENSYS,SPPC,SPPC_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,164474
-USENSYS,SPPC,SPPC_utilitypv_class1_moderate_0,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,290884
+USENSYS,SPPC,SPPC_utilitypv_class1_moderate_0,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,474655
 USENSYS,SPPC,SPPC_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,1261000
-USENSYS,SPPN,SPPN_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,5868
-USENSYS,SPPN,SPPN_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,36127
-USENSYS,SPPN,SPPN_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,91451
-USENSYS,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,10377082
-USENSYS,SPPN,SPPN_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,24598536
-USENSYS,SPPN,SPPN_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,1547479
+USENSYS,SPPN,SPPN_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,5752
+USENSYS,SPPN,SPPN_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,36211
+USENSYS,SPPN,SPPN_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,92848
+USENSYS,SPPN,SPPN_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,10134351
+USENSYS,SPPN,SPPN_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,24546459
+USENSYS,SPPN,SPPN_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,1561646
 USENSYS,SPPN,SPPN_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,545120
-USENSYS,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,219599
-USENSYS,SPPN,SPPN_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,149837
-USENSYS,SPPN,SPPN_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,50397
-USENSYS,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,152276
-USENSYS,SPPN,SPPN_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,6199
-USENSYS,SPPN,SPPN_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,6211114
+USENSYS,SPPN,SPPN_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,223878
+USENSYS,SPPN,SPPN_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,145385
+USENSYS,SPPN,SPPN_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,49414
+USENSYS,SPPN,SPPN_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,135144
+USENSYS,SPPN,SPPN_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,5998
+USENSYS,SPPN,SPPN_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,6218425
 USENSYS,SPPN,SPPN_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,17033709
 USENSYS,SPPN,SPPN_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,541632
 USENSYS,SPPN,SPPN_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,220524
-USENSYS,SPPS,SPPS_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,171730
-USENSYS,SPPS,SPPS_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,14628
-USENSYS,SPPS,SPPS_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,90208
-USENSYS,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,2754340
-USENSYS,SPPS,SPPS_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,27217501
-USENSYS,SPPS,SPPS_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,6142024
+USENSYS,SPPS,SPPS_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,171273
+USENSYS,SPPS,SPPS_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,14584
+USENSYS,SPPS,SPPS_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,90156
+USENSYS,SPPS,SPPS_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,2635645
+USENSYS,SPPS,SPPS_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,27235759
+USENSYS,SPPS,SPPS_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,6130693
 USENSYS,SPPS,SPPS_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,3169829
-USENSYS,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,701210
-USENSYS,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,805334
-USENSYS,SPPS,SPPS_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,25865972
-USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,40667
-USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,45536
-USENSYS,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,126406
-USENSYS,SPPS,SPPS_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,330274
+USENSYS,SPPS,SPPS_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,694355
+USENSYS,SPPS,SPPS_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,816941
+USENSYS,SPPS,SPPS_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,25895815
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,40879
+USENSYS,SPPS,SPPS_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,44674
+USENSYS,SPPS,SPPS_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,126260
+USENSYS,SPPS,SPPS_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,332496
 USENSYS,SPPS,SPPS_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,47918409
 USENSYS,SPPS,SPPS_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,349440
 USENSYS,SPPS,SPPS_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,729342
-USENSYS,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,8657118
-USENSYS,SRCA,SRCA_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,142806
-USENSYS,SRCA,SRCA_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,562642
-USENSYS,SRCA,SRCA_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,21950
-USENSYS,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,1821098
-USENSYS,SRCA,SRCA_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,85953008
-USENSYS,SRCA,SRCA_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,1240745
+USENSYS,SPPS,SPPS_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,8657136
+USENSYS,SRCA,SRCA_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,143457
+USENSYS,SRCA,SRCA_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,563574
+USENSYS,SRCA,SRCA_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,19506
+USENSYS,SRCA,SRCA_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,1820972
+USENSYS,SRCA,SRCA_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,85789699
+USENSYS,SRCA,SRCA_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,1236898
 USENSYS,SRCA,SRCA_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,6842720
-USENSYS,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,5268617
+USENSYS,SRCA,SRCA_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,5256669
 USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_0,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,1640894
-USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,4197223
+USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,4197229
 USENSYS,SRCA,SRCA_landbasedwind_class3_moderate_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,1458455
-USENSYS,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,11707927
-USENSYS,SRCA,SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,13233
-USENSYS,SRCA,SRCA_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,38136
-USENSYS,SRCA,SRCA_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,15968
-USENSYS,SRCA,SRCA_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,105640375
+USENSYS,SRCA,SRCA_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,11788449
+USENSYS,SRCA,SRCA_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,12609
+USENSYS,SRCA,SRCA_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,35733
+USENSYS,SRCA,SRCA_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,15297
+USENSYS,SRCA,SRCA_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,105632547
 USENSYS,SRCA,SRCA_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,270816
 USENSYS,SRCA,SRCA_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,13675251
-USENSYS,SRCE,SRCE_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,67773
-USENSYS,SRCE,SRCE_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,124542
-USENSYS,SRCE,SRCE_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,616
-USENSYS,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,15861644
-USENSYS,SRCE,SRCE_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,12371525
-USENSYS,SRCE,SRCE_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,51661849
+USENSYS,SRCE,SRCE_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,69137
+USENSYS,SRCE,SRCE_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,124346
+USENSYS,SRCE,SRCE_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,540
+USENSYS,SRCE,SRCE_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,15854521
+USENSYS,SRCE,SRCE_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,12376683
+USENSYS,SRCE,SRCE_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,51616690
 USENSYS,SRCE,SRCE_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,1440828
-USENSYS,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,1810618
-USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_0,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,21028111
+USENSYS,SRCE,SRCE_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,1852334
+USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_0,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,20751139
 USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,7430508
 USENSYS,SRCE,SRCE_landbasedwind_class3_moderate_3,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,1432080
-USENSYS,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,25832267
-USENSYS,SRCE,SRCE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,817104
-USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,12980
-USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2104
-USENSYS,SRCE,SRCE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,360
-USENSYS,SRCE,SRCE_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,152718
-USENSYS,SRCE,SRCE_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,74287134
+USENSYS,SRCE,SRCE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,25665627
+USENSYS,SRCE,SRCE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,807510
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,13306
+USENSYS,SRCE,SRCE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2952
+USENSYS,SRCE,SRCE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,366
+USENSYS,SRCE,SRCE_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,152521
+USENSYS,SRCE,SRCE_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,74285280
+USENSYS,SRCE,SRCE_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,20120
 USENSYS,SRCE,SRCE_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,401856
 USENSYS,SRCE,SRCE_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,3449723
-USENSYS,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,9440751
-USENSYS,SRSE,SRSE_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,65949
-USENSYS,SRSE,SRSE_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,1706344
-USENSYS,SRSE,SRSE_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,6709
-USENSYS,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,5192264
-USENSYS,SRSE,SRSE_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,79852368
-USENSYS,SRSE,SRSE_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,4331719
+USENSYS,SRCE,SRCE_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,9844279
+USENSYS,SRSE,SRSE_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,65290
+USENSYS,SRSE,SRSE_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,1706518
+USENSYS,SRSE,SRSE_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,6683
+USENSYS,SRSE,SRSE_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,5192295
+USENSYS,SRSE,SRSE_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,79832478
+USENSYS,SRSE,SRSE_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,4334811
 USENSYS,SRSE,SRSE_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,1868545
-USENSYS,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,1319389
-USENSYS,SRSE,SRSE_landbasedwind_class3_moderate_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,1885011
-USENSYS,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,49102758
-USENSYS,SRSE,SRSE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,103941
-USENSYS,SRSE,SRSE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,10579
-USENSYS,SRSE,SRSE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,19910
-USENSYS,SRSE,SRSE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,3003
-USENSYS,SRSE,SRSE_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,3539
-USENSYS,SRSE,SRSE_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,70331976
+USENSYS,SRSE,SRSE_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,1323678
+USENSYS,SRSE,SRSE_landbasedwind_class3_moderate_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,1882607
+USENSYS,SRSE,SRSE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,49103004
+USENSYS,SRSE,SRSE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,102478
+USENSYS,SRSE,SRSE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,10157
+USENSYS,SRSE,SRSE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,20358
+USENSYS,SRSE,SRSE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,3045
+USENSYS,SRSE,SRSE_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,3510
+USENSYS,SRSE,SRSE_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,70329432
 USENSYS,SRSE,SRSE_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,34944
 USENSYS,SRSE,SRSE_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,13041484
-USENSYS,SRSE,SRSE_utilitypv_class1_moderate_0,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,26604682
-USENSYS,SRSG,SRSG_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,1089370
-USENSYS,SRSG,SRSG_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,78800
-USENSYS,SRSG,SRSG_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,194950
-USENSYS,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,7469970
-USENSYS,SRSG,SRSG_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,26569053
-USENSYS,SRSG,SRSG_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,6857815
+USENSYS,SRSE,SRSE_utilitypv_class1_moderate_0,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,26638188
+USENSYS,SRSG,SRSG_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,1080201
+USENSYS,SRSG,SRSG_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,77709
+USENSYS,SRSG,SRSG_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,193224
+USENSYS,SRSG,SRSG_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,7421658
+USENSYS,SRSG,SRSG_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,26538392
+USENSYS,SRSG,SRSG_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,6851614
 USENSYS,SRSG,SRSG_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,6069762
 USENSYS,SRSG,SRSG_geothermal_1,Geothermal,2030,26z-short-current-policies_w10_h168_1680w,MWh,1240512
-USENSYS,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,321966
+USENSYS,SRSG,SRSG_hydroelectric_pumped_storage_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,334064
 USENSYS,SRSG,SRSG_landbasedwind_class3_moderate_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,3316019
-USENSYS,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,35748574
-USENSYS,SRSG,SRSG_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2572830
-USENSYS,SRSG,SRSG_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,622523
-USENSYS,SRSG,SRSG_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,40817
-USENSYS,SRSG,SRSG_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,34429782
+USENSYS,SRSG,SRSG_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,35126166
+USENSYS,SRSG,SRSG_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2544828
+USENSYS,SRSG,SRSG_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,604588
+USENSYS,SRSG,SRSG_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,37485
+USENSYS,SRSG,SRSG_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,34466696
 USENSYS,SRSG,SRSG_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,9688682
 USENSYS,SRSG,SRSG_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,541632
 USENSYS,SRSG,SRSG_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,15788603
-USENSYS,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,5030891
-USENSYS,TRE_WEST,TRE_WEST_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,799620
+USENSYS,SRSG,SRSG_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,6290117
+USENSYS,TRE_WEST,TRE_WEST_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,799776
 USENSYS,TRE_WEST,TRE_WEST_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,658141
-USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2696367
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2701369
 USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,1184
-USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2976
-USENSYS,TRE_WEST,TRE_WEST_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2628
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,3360
+USENSYS,TRE_WEST,TRE_WEST_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,2610
 USENSYS,TRE_WEST,TRE_WEST_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,68738155
 USENSYS,TRE_WEST,TRE_WEST_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,20618269
-USENSYS,TRE,TRE_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,2115310
-USENSYS,TRE,TRE_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,52752
-USENSYS,TRE,TRE_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,107716
-USENSYS,TRE,TRE_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,267371
-USENSYS,TRE,TRE_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,37735058
-USENSYS,TRE,TRE_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,37635605
+USENSYS,TRE,TRE_batteries_1,Battery,2030,26z-short-current-policies_w10_h168_1680w,MWh,2112243
+USENSYS,TRE,TRE_biomass_1,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,52731
+USENSYS,TRE,TRE_biomass_2,Biomass,2030,26z-short-current-policies_w10_h168_1680w,MWh,107720
+USENSYS,TRE,TRE_conventional_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,265482
+USENSYS,TRE,TRE_conventional_steam_coal_1,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,37733610
+USENSYS,TRE,TRE_conventional_steam_coal_2,Coal,2030,26z-short-current-policies_w10_h168_1680w,MWh,37636443
 USENSYS,TRE,TRE_distributed_generation_1,Distributed Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,12104113
 USENSYS,TRE,TRE_landbasedwind_class3_moderate_0,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,78179285
 USENSYS,TRE,TRE_landbasedwind_class3_moderate_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,7069248
 USENSYS,TRE,TRE_landbasedwind_class3_moderate_2,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,29334569
-USENSYS,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,121240415
-USENSYS,TRE,TRE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,4363962
-USENSYS,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,1195982
-USENSYS,TRE,TRE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,26740
-USENSYS,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,1240014
-USENSYS,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,367851
-USENSYS,TRE,TRE_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,43903308
+USENSYS,TRE,TRE_natural_gas_fired_combined_cycle_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,121205672
+USENSYS,TRE,TRE_natural_gas_fired_combined_cycle_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,4364024
+USENSYS,TRE,TRE_natural_gas_fired_combustion_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,1197322
+USENSYS,TRE,TRE_natural_gas_fired_combustion_turbine_2,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,26683
+USENSYS,TRE,TRE_natural_gas_internal_combustion_engine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,1240013
+USENSYS,TRE,TRE_natural_gas_steam_turbine_1,Natural Gas,2030,26z-short-current-policies_w10_h168_1680w,MWh,367628
+USENSYS,TRE,TRE_nuclear_1,Nuclear,2030,26z-short-current-policies_w10_h168_1680w,MWh,43900569
 USENSYS,TRE,TRE_onshore_wind_turbine_1,Wind,2030,26z-short-current-policies_w10_h168_1680w,MWh,31088659
 USENSYS,TRE,TRE_small_hydroelectric_1,Hydro,2030,26z-short-current-policies_w10_h168_1680w,MWh,174720
 USENSYS,TRE,TRE_solar_photovoltaic_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,23808007
-USENSYS,TRE,TRE_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,4119205
+USENSYS,TRE,TRE_utilitypv_class1_moderate_1,Solar,2030,26z-short-current-policies_w10_h168_1680w,MWh,4169851
