@@ -1,5 +1,8 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "!more_figures_n_checks.qmd"
 
 website:
   title: "MIP"
