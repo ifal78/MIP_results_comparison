@@ -1,11 +1,13 @@
 ---
 title: "More figures"
 author: "@olugovoy"
-format: pdf
+format: html
 params:
   # case: "26z-short-base-50"
   # case: "26z-short-base-1000"
   case: "26z-short-no-ccs"
+  save_csv: false
+  save_png: false
 ---
 
 ```{r}
@@ -13,6 +15,18 @@ library(tidyverse)
 library(data.table)
 library(dtplyr)
 source("R/functions.R")
+```
+
+
+```{r, eval=FALSE}
+# run/source the whole file
+quarto::quarto_render(
+  input = "more_figures_n_checks.qmd", 
+  execute_params = list(
+    # case = "26z-short-base-50"
+    case = "26z-short-base-1000"
+  )
+)
 ```
 
 ## Capacity factors
@@ -130,7 +144,9 @@ capacity_factors_mean_sorted |>
 capacity_factors_mean_sorted |> 
   filter(grepl("solar|photo", tech_type, ignore.case = T))
 
-fwrite(capacity_factors_mean_sorted, fp(scen_name, "capacity_factors_mean.csv"))
+if (params$save_csv)
+  fwrite(capacity_factors_mean_sorted, 
+         fp(scen_name, "capacity_factors_mean.csv"))
 
 ```
 
@@ -146,6 +162,7 @@ a <- ggplot(capacity_factors_mean_sorted) +
   # theme(axis.text.x = element_blank(),
         # axis.ticks.x = element_blank())  
 
+if (params$save_png)
   ggsave(paste("99_capacity_factors_mean.png", sep = "_"), a,
          width = 8, height = 12, scale = 1.25, path = scen_name)
 
@@ -161,8 +178,9 @@ for (i in unique(capacity_factors_mean_sorted$tech_type)) {
     labs(x = "resource index", y = "mean capacity factor", 
          title = i) +
     theme_bw()
-  ggsave(paste("99", i, "capacity_factors_mean.png", sep = "_"), 
-         width = 6, height = 4, scale = 1.2, path = scen_name)
+  if (params$save_png)
+    ggsave(paste("99", i, "capacity_factors_mean.png", sep = "_"), 
+           width = 6, height = 4, scale = 1.2, path = scen_name)
 }
 
   
@@ -202,19 +220,139 @@ a <- filter(capacity_factors, resource_name %in% sample(resource_names, 7)) |>
   labs(x = "days: 1-3 (2030), 4-6 (2040), 7-9 (2050)",
        y = "hour (0-23)")
 
-ggsave(paste("99_capacity_factors_rasters_sample.png", sep = "_"), a,
-       width = 8, height = 12, scale = 1.25, path = scen_name)
-
+if (params$save_png)
+  ggsave(paste("99_capacity_factors_rasters_sample.png", sep = "_"), a,
+         width = 8, height = 12, scale = 1.25, path = scen_name)
 
 ```
 
-```{r, eval=FALSE}
-quarto::quarto_render(
-  input = "more_figures_n_checks.qmd", 
-  execute_params = list(
-    # case = "26z-short-base-50"
-    case = "26z-short-base-1000"
+## Shiny app
+(run chunks above to create data, then run the shiny-app chunk below)
+```{r shiny, eval=FALSE}
+library(shiny)
+library(shinydashboard)
+library(shinyWidgets)
+
+# UI
+ui <- dashboardPage(
+  # Header
+  dashboardHeader(title = "MIP Dashboard"),
+  dashboardSidebar(
+    sidebarMenu(
+      menuItem("Capacity Factors", tabName = "capacity_factors", 
+               icon = icon("bar-chart"))
+    )
+  ),
+  # Body
+  dashboardBody(
+    # all tabs
+    tabItems(
+
+      # Capacity Factors (raster)
+      tabItem(
+        tabName = "capacity_factors",
+        fluidRow(
+          fluidRow(
+            column(
+              width = 2,
+              pickerInput(
+                "caseInput",
+                "Case:",
+                choices = unique(capacity_factors$case),
+                selected = unique(capacity_factors$case),
+                multiple = FALSE
+              )
+            ),
+            column(
+              width = 2,
+              pickerInput(
+                inputId = "yearInput",
+                label = "Select Year:",
+                choices = unique(capacity_factors$planning_year),
+                options = list(`actions-box` = TRUE),
+                selected = unique(capacity_factors$planning_year),
+                multiple = TRUE
+              )
+            ),
+            column(
+              width = 2,
+              pickerInput(
+                "zoneInput", "Zone:",
+                choices = unique(capacity_factors$zone),
+                options = list(`actions-box` = TRUE),
+                selected = unique(capacity_factors$zone),
+                multiple = TRUE
+              )
+            ),
+            column(
+              width = 2,
+              pickerInput(
+                "modelInput", "Model:",
+                choices = unique(capacity_factors$model),
+                options = list(`actions-box` = TRUE),
+                selected = unique(capacity_factors$model),
+                multiple = TRUE
+              )
+            ),
+            column(
+              width = 2,
+              pickerInput(
+                "resourceInput", "Resource:",
+                options = list(`actions-box` = TRUE, `live-search` = TRUE),
+                choices = unique(capacity_factors$resource_name),
+                selected = sample(unique(capacity_factors$resource_name), 6),
+                multiple = TRUE
+              )
+            )
+          ),
+          box(plotOutput("cf_raster"), width = 12),
+        )
+        # more tab items
+      )
+    )
   )
 )
+
+server <- function(input, output) {
+  
+  observe({
+    print(paste("Case Input:", input$caseInput))
+    print(paste("Year Input:", input$yearInput))
+    print("Zone Input:"); print(input$zoneInput)
+    print("Resource Input:"); print(input$resourceInput)
+    print("Model Input:"); print(input$modelInput)
+    # print(filteredMap())
+  })
+  
+  filtered_cf <- reactive({
+    req(input$caseInput, 
+        input$modelInput, 
+        input$yearInput,
+        input$zoneInput,
+        input$resourceInput)
+
+    cf_filtered <- capacity_factors |>
+      filter(case %in% input$caseInput) |>
+      filter(planning_year %in% input$yearInput) |>
+      filter(zone %in% input$zoneInput) |>
+      filter(model %in% input$modelInput) |>
+      filter(resource_name %in% input$resourceInput)
+    cf_filtered
+  }) 
+  
+  output$cf_raster <- renderPlot({
+    ggplot(filtered_cf()) +
+      geom_raster(aes(as.factor(year_yday), hour24, fill = cf_end)) +
+      facet_grid(resource_name~model) +
+      scale_fill_viridis_c(option = "H") +
+      theme_bw() +
+      labs(x = "days: 1-3 (2030), 4-6 (2040), 7-9 (2050)",
+           y = "hour (0-23)")
+    })
+  
+}
+
+shinyApp(ui, server)
+
 ```
 
