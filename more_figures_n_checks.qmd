@@ -1,0 +1,220 @@
+---
+title: "More figures"
+author: "@olugovoy"
+format: pdf
+params:
+  # case: "26z-short-base-50"
+  # case: "26z-short-base-1000"
+  case: "26z-short-no-ccs"
+---
+
+```{r}
+library(tidyverse)
+library(data.table)
+library(dtplyr)
+source("R/functions.R")
+```
+
+## Capacity factors
+```{r}
+# scen_name <- "26z-short-base-1000"
+scen_name <- params$case
+mod_dirs <- fModDirs(scen_name)
+mod_names <- fModNames(mod_dirs)
+
+ll <- read_mip_tables(scen_name, mod_dirs, tab = "^resource.capacity.csv$")
+lapply(ll, colnames)
+lapply(ll, anyDuplicated)
+
+resources <- rbindlist(ll, use.names = T, fill = T) |> 
+  select(-tech_type)
+ii <- duplicated(resources); summary(ii)
+resources[ii,]
+# aggregate vintages (Switch, Temoa?)
+id_cols <- resources |>
+  select(model:unit) |>
+  colnames()
+resources <- resources |>
+  # select(-tech_type) |>
+  group_by(across(any_of(id_cols))) |>
+  summarise(
+    start_value = sum(start_value, na.rm = T),
+    end_value = sum(end_value, na.rm = T),
+    .groups = "drop"
+  ) |>
+  as.data.table()
+resources
+
+ll <- read_mip_tables(scen_name, mod_dirs, tab = "^dispatch.csv$")
+lapply(ll, colnames)
+lapply(ll, anyDuplicated)
+
+dispatch <- rbindlist(ll, use.names = T, fill = T) |>
+  select(-matches("week|date|tech_type|unit"))
+ii <- duplicated(dispatch); summary(ii)
+dispatch[ii,]
+
+ii <- dispatch |> select(-value) |> duplicated(); summary(ii)
+dispatch[ii,]
+dispatch$model[ii] |> unique()
+resources$unit |> unique()
+
+# unique(dispatch)
+id_cols <- dispatch |>
+  select(-value) |>
+  colnames()
+dispatch <- dispatch |>
+  # select(-tech_type) |>
+  group_by(across(any_of(id_cols))) |>
+  summarise(
+    value = sum(value, na.rm = T),
+    .groups = "drop"
+  ) |>
+  as.data.table()
+ii <- dispatch |> select(-value) |> duplicated(); summary(ii)
+dispatch[ii,]
+dispatch$hour |> range()
+
+capacity_factors <- dispatch |> 
+  # filter(value > 0) |>
+  left_join(filter(resources, unit != "MWh"), relationship = "many-to-one") |>
+  mutate(
+    cf_end = value / end_value,
+    # hour24 = (hour/24)),
+    day = floor(hour/24) + 1,
+    year_yday = day + (planning_year - 2030) / 10
+    ) |>
+  filter(cf_end >= 0.01 | cf_end <= -.01)
+capacity_factors$hour %% 24 |> summary()
+capacity_factors$hour24 <- capacity_factors$hour %% 24
+capacity_factors$hour24 |> summary()
+capacity_factors$year_yday |> unique()
+
+capacity_factors_mean <- capacity_factors |> 
+  filter(!(value < 0 & grepl("USENSYS", model, ignore.case = T))) |> # drop charging
+  group_by(case, model, resource_name, zone, planning_year) |>
+  summarise(cf_end = mean(cf_end, na.rm = T) |> round(3), .groups = "drop") |>
+  pivot_wider(names_from = model, values_from = cf_end)
+
+a <- capacity_factors_mean |>
+  add_tech_type()
+a$tech_type |> unique()
+
+capacity_factors_mean_bytype <- capacity_factors |> 
+  add_tech_type() |>
+  group_by(case, model, tech_type, zone, planning_year) |>
+  summarise(cf_end = mean(cf_end, na.rm = T) |> round(2), .groups = "drop") |>
+  pivot_wider(names_from = model, values_from = cf_end) |>
+  as.data.table()
+capacity_factors_mean_bytype
+```
+
+find anomalies
+```{r}
+capacity_factors_mean_sorted <- capacity_factors_mean |>
+  add_tech_type() |>
+  pivot_longer(cols = GenX:USENSYS, names_to = "model", values_to = "cf", 
+               values_drop_na = T) |>
+  group_by(tech_type, planning_year, model) |>
+  arrange(desc(cf)) |>
+  mutate(idx = 1:n()) |>
+  ungroup() |>
+  as.data.table()
+
+capacity_factors_mean_sorted |> 
+  filter(!grepl("storage|battery", tech_type, ignore.case = T))
+
+capacity_factors_mean_sorted |> 
+  filter(grepl("wind", tech_type, ignore.case = T))
+
+capacity_factors_mean_sorted |> 
+  filter(grepl("solar|photo", tech_type, ignore.case = T))
+
+fwrite(capacity_factors_mean_sorted, fp(scen_name, "capacity_factors_mean.csv"))
+
+```
+
+figure
+```{r}
+a <- ggplot(capacity_factors_mean_sorted) +
+  geom_point(aes(x = (idx), y = cf, color = model, shape = model)) +
+  geom_hline(yintercept = c(0, 1), col = "red", linetype = 3) +
+  scale_color_viridis_d(option = "H") +
+  # scale_x_continuous(trans = "sqrt") +
+  facet_grid(tech_type~planning_year, scales = "free") +
+  theme_bw() 
+  # theme(axis.text.x = element_blank(),
+        # axis.ticks.x = element_blank())  
+
+  ggsave(paste("99_capacity_factors_mean.png", sep = "_"), a,
+         width = 8, height = 12, scale = 1.25, path = scen_name)
+
+
+for (i in unique(capacity_factors_mean_sorted$tech_type)) {
+  cat(i, "\n")
+  a <- ggplot(filter(capacity_factors_mean_sorted, tech_type %in% i)) +
+    geom_point(aes(x = as.integer(as.factor(resource_name)), y = cf, 
+                   color = model, shape = model)) +
+  geom_hline(yintercept = c(0, 1), col = "red", linetype = 3) +
+    scale_color_viridis_d(option = "H") +
+    facet_wrap(~planning_year) +
+    labs(x = "resource index", y = "mean capacity factor", 
+         title = i) +
+    theme_bw()
+  ggsave(paste("99", i, "capacity_factors_mean.png", sep = "_"), 
+         width = 6, height = 4, scale = 1.2, path = scen_name)
+}
+
+  
+# ggplot(capacity_factors_mean_sorted) +
+#   geom_point(aes(x = idx, y = cf, color = model)) +
+#   scale_color_viridis_d(option = "H") +
+#   facet_wrap(planning_year)
+# 
+# plot(capacity_factors_mean_sorted$cf)
+
+```
+
+
+## Rasters
+```{r, eval=T}
+resource_names <- unique(capacity_factors$resource_name)
+
+resource_solar <- resource_names[grepl("solar|pv_", resource_names, ignore.case = T)]
+resource_solar |> length()
+
+resource_gas <- resource_names[grepl("gas", resource_names, ignore.case = T)]
+resource_gas |> length()
+
+resource_coal <- resource_names[grepl("coal", resource_names, ignore.case = T)]
+resource_coal |> length()
+
+resource_wind <- resource_names[grepl("wind", resource_names, ignore.case = T)]
+resource_wind |> length()
+
+set.seed(100)
+a <- filter(capacity_factors, resource_name %in% sample(resource_names, 7)) |>
+  ggplot() +
+  geom_raster(aes(as.factor(year_yday), hour24, fill = cf_end)) +
+  facet_grid(resource_name~model) +
+  scale_fill_viridis_c(option = "H") +
+  theme_bw() +
+  labs(x = "days: 1-3 (2030), 4-6 (2040), 7-9 (2050)",
+       y = "hour (0-23)")
+
+ggsave(paste("99_capacity_factors_rasters_sample.png", sep = "_"), a,
+       width = 8, height = 12, scale = 1.25, path = scen_name)
+
+
+```
+
+```{r, eval=FALSE}
+quarto::quarto_render(
+  input = "more_figures_n_checks.qmd", 
+  execute_params = list(
+    # case = "26z-short-base-50"
+    case = "26z-short-base-1000"
+  )
+)
+```
+
