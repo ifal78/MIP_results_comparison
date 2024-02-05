@@ -1,13 +1,12 @@
 ---
 title: "More figures"
-author: "@olugovoy"
 format: html
 params:
-  # case: "26z-short-base-50"
+  case: "26z-short-base-50"
   # case: "26z-short-base-1000"
-  case: "26z-short-no-ccs"
-  save_csv: false
-  save_png: false
+  # case: "26z-short-no-ccs"
+  save_csv: true
+  save_png: true
 ---
 
 ```{r}
@@ -121,6 +120,20 @@ capacity_factors_mean_bytype <- capacity_factors |>
   pivot_wider(names_from = model, values_from = cf_end) |>
   as.data.table()
 capacity_factors_mean_bytype
+
+int_seq <- seq(0, 1, .1)
+int_lab <- c(
+  "-Inf < cf < 0",
+  paste0(int_seq[-length(int_seq)], " < cf <= ", c(int_seq[-1])),
+  "1 < cf < Inf"
+)
+
+capacity_factors <- capacity_factors |>
+  mutate(
+    interval = cut(cf_end, c(-Inf, int_seq, Inf), labels = int_lab, 
+                   ordered_result = T)
+  )
+
 ```
 
 find anomalies
@@ -264,7 +277,7 @@ ui <- dashboardPage(
               )
             ),
             column(
-              width = 2,
+              width = 1,
               pickerInput(
                 inputId = "yearInput",
                 label = "Select Year:",
@@ -275,7 +288,7 @@ ui <- dashboardPage(
               )
             ),
             column(
-              width = 2,
+              width = 1,
               pickerInput(
                 "zoneInput", "Zone:",
                 choices = unique(capacity_factors$zone),
@@ -295,7 +308,7 @@ ui <- dashboardPage(
               )
             ),
             column(
-              width = 2,
+              width = 4,
               pickerInput(
                 "resourceInput", "Resource:",
                 options = list(`actions-box` = TRUE, `live-search` = TRUE),
@@ -303,7 +316,17 @@ ui <- dashboardPage(
                 selected = sample(unique(capacity_factors$resource_name), 6),
                 multiple = TRUE
               )
-            )
+            ),
+            column(
+              width = 2,
+              pickerInput(
+                "intervalInput", "CF Intervals:",
+                choices = unique(capacity_factors$interval),
+                options = list(`actions-box` = TRUE),
+                selected = unique(capacity_factors$interval),
+                multiple = TRUE
+              )
+            )            
           ),
           box(plotOutput("cf_raster"), width = 12),
         )
@@ -320,6 +343,7 @@ server <- function(input, output) {
     print(paste("Year Input:", input$yearInput))
     print("Zone Input:"); print(input$zoneInput)
     print("Resource Input:"); print(input$resourceInput)
+    print("Interval Input:"); print(input$intervalInput)
     print("Model Input:"); print(input$modelInput)
     # print(filteredMap())
   })
@@ -329,6 +353,7 @@ server <- function(input, output) {
         input$modelInput, 
         input$yearInput,
         input$zoneInput,
+        input$intervalInput,
         input$resourceInput)
 
     cf_filtered <- capacity_factors |>
@@ -336,6 +361,7 @@ server <- function(input, output) {
       filter(planning_year %in% input$yearInput) |>
       filter(zone %in% input$zoneInput) |>
       filter(model %in% input$modelInput) |>
+      filter(interval %in% input$intervalInput) |>
       filter(resource_name %in% input$resourceInput)
     cf_filtered
   }) 
