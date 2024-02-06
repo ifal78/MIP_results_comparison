@@ -941,3 +941,104 @@ def chart_tx_scenario_map(
         model_figs.append(alt.hconcat(*scenario_figs))
 
     return alt.vconcat(*model_figs)
+
+
+def chart_cap_factor_scatter(
+    cap: pd.DataFrame,
+    gen: pd.DataFrame,
+    dispatch: pd.DataFrame,
+    color="model",
+    col_var=None,
+    row_var=None,
+) -> alt.Chart:
+    gen = gen.query("value >=0")
+    cap = cap.query("end_value >= 10")
+    merge_by = ["tech_type", "resource_name", "planning_year", "model"]
+    group_by = ["tech_type", "resource_name", "planning_year", "model"]
+    _tooltips = [
+        alt.Tooltip("resource_name"),
+        # alt.Tooltip("tech_type", title="Technology"),
+        alt.Tooltip("value", title="Generation (MWh)", format=",.0f"),
+        alt.Tooltip(color),
+    ]
+    if col_var is not None:
+        group_by.append(col_var)
+        merge_by.append(col_var)
+        _tooltips.append(alt.Tooltip(col_var))
+    if row_var is not None:
+        _tooltips.append(alt.Tooltip(row_var))
+        merge_by.append(row_var)
+        group_by.append(row_var)
+    merge_by = list(set(merge_by))
+    group_by = list(set(group_by))
+
+    _cap = (
+        cap.query("unit=='MW'")
+        .groupby(
+            merge_by,
+            # ["tech_type", "resource_name", "model", "planning_year"],
+            as_index=False,
+        )["end_value"]
+        .sum()
+    )
+    _gen = pd.merge(
+        gen,
+        _cap,
+        # on=["tech_type", "resource_name", "model", "planning_year"],
+        on=merge_by,
+        how="left",
+    )
+    _gen["end_value"].fillna(0, inplace=True)
+    _gen["potential_gen"] = _gen["end_value"] * 8760
+
+    data = _gen.groupby(group_by, as_index=False)[
+        ["value", "potential_gen", "end_value"]
+    ].sum()
+    data["capacity_factor"] = (data["value"] / data["potential_gen"]).round(3)
+    _tooltips.extend(
+        [
+            alt.Tooltip("capacity_factor", title="Capacity Factor"),
+            alt.Tooltip("end_value", title="Capacity (MW)", format=",.0f"),
+        ]
+    )
+    selection = alt.selection_point(fields=["model"], bind="legend")
+    selector = alt.selection_point(
+        fields=["resource_name"]
+    )  # , "model", "planning_year"
+    chart = (
+        alt.Chart(data)
+        .mark_point()
+        .encode(
+            x=alt.X("end_value").title("Capacity (MW)").scale(type="log"),
+            y="capacity_factor",
+            color=color,
+            shape=color,
+            tooltip=_tooltips,
+            opacity=alt.condition(selection, alt.value(1), alt.value(0.2)),
+        )
+        .add_params(selection, selector)
+        .properties(width=300, height=250)
+    )
+    if col_var is not None:
+        chart = chart.encode(column=col_var)
+    if row_var is not None:
+        chart = chart.encode(row=row_var)
+
+    timeseries = (
+        alt.Chart(
+            dispatch.groupby(
+                ["model", "planning_year", "resource_name", "hour"], as_index=False
+            )["value"].sum()
+        )
+        .mark_line()
+        .encode(x="hour", y="value", color=alt.Color(color).legend(None))
+        .transform_filter(selector)
+    )
+    if col_var is not None:
+        timeseries = timeseries.encode(column=col_var)
+    if row_var is not None:
+        timeseries = timeseries.encode(row=row_var)
+
+    chart = alt.vconcat(chart, timeseries)
+
+    return chart  # | timeseries

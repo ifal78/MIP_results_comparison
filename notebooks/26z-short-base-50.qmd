@@ -12,6 +12,8 @@ categories:
 
 ```{python}
 # | output: false
+%load_ext autoreload
+%autoreload 2
 folder = "26z-short-base-50"
 import os
 from typing import Dict, List
@@ -290,6 +292,97 @@ chart = chart_wind_dispatch(data)
 chart
 ```
 
+# Capacity Factors
+## Row {.tabset}
+```{python}
+# | title: Battery
+from fig_functions import chart_cap_factor_scatter
+
+chart = chart_cap_factor_scatter(
+    cap.query("tech_type=='Battery'"),
+    gen.query("tech_type=='Battery'"),
+    dispatch.query("tech_type=='Battery'"),
+    col_var="planning_year",
+)
+chart
+```
+
+```{python}
+# | title: Solar
+from fig_functions import chart_cap_factor_scatter
+
+chart = chart_cap_factor_scatter(
+    cap.query("tech_type=='Solar'"),
+    gen.query("tech_type=='Solar'"),
+    dispatch.query("tech_type=='Solar'"),
+    col_var="planning_year",
+)
+chart
+```
+
+```{python}
+# | title: Wind
+from fig_functions import chart_cap_factor_scatter
+
+chart = chart_cap_factor_scatter(
+    cap.query("tech_type=='Wind'"),
+    gen.query("tech_type=='Wind'"),
+    dispatch.query("tech_type=='Wind'"),
+    col_var="planning_year",
+)
+chart
+```
+
+```{python}
+# | title: Coal
+from fig_functions import chart_cap_factor_scatter
+
+chart = chart_cap_factor_scatter(
+    cap.query("tech_type=='Coal'"),
+    gen.query("tech_type=='Coal'"),
+    dispatch.query("tech_type=='Coal'"),
+    col_var="planning_year",
+)
+chart
+```
+
+```{python}
+# | title: Natural Gas CC
+from fig_functions import chart_cap_factor_scatter
+
+chart = chart_cap_factor_scatter(
+    cap.query("tech_type=='Natural Gas CC'"),
+    gen.query("tech_type=='Natural Gas CC'"),
+    dispatch.query("tech_type=='Natural Gas CC'"),
+    col_var="planning_year",
+)
+chart
+```
+
+```{python}
+# | title: Natural Gas CT
+from fig_functions import chart_cap_factor_scatter
+
+chart = chart_cap_factor_scatter(
+    cap.query("tech_type=='Natural Gas CT'"),
+    gen.query("tech_type=='Natural Gas CT'"),
+    dispatch.query("tech_type=='Natural Gas CT'"),
+    col_var="planning_year",
+)
+chart
+```
+```{python}
+# | title: Hydro
+from fig_functions import chart_cap_factor_scatter
+
+chart = chart_cap_factor_scatter(
+    cap.query("tech_type=='Hydro'"),
+    gen.query("tech_type=='Hydro'"),
+    dispatch.query("tech_type=='Hydro'"),
+    col_var="planning_year",
+)
+chart
+```
 # Operational Results
 ## Row {.tabset}
 
