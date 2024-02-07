@@ -961,6 +961,14 @@ def chart_cap_factor_scatter(
             cap["resource_name"] = cap["resource_name"].str.replace(k, v)
             if dispatch is not None:
                 dispatch["resource_name"] = dispatch["resource_name"].str.replace(k, v)
+
+    for hour in [2, 4, 6, 8]:
+        cap["resource_name"] = cap["resource_name"].str.replace(f"_{hour}hour", "")
+        gen["resource_name"] = gen["resource_name"].str.replace(f"_{hour}hour", "")
+        if dispatch is not None:
+            dispatch["resource_name"] = dispatch["resource_name"].str.replace(
+                f"_{hour}hour", ""
+            )
     gen = gen.query("value >=0")
     cap = cap.query("end_value >= 50")
     merge_by = ["tech_type", "resource_name", "planning_year", "model"]
@@ -1010,7 +1018,7 @@ def chart_cap_factor_scatter(
             alt.Tooltip("end_value", title="Capacity (MW)", format=",.0f"),
         ]
     )
-    selection = alt.selection_point(fields=["model"], bind="legend")
+    # selection = alt.selection_point(fields=["model"], bind="legend")
     selector = alt.selection_point(fields=["id"])  # , "model", "planning_year"
     data["end_value"] = data["end_value"].astype(int)
     if frac:
@@ -1028,10 +1036,11 @@ def chart_cap_factor_scatter(
             color=color,
             shape=color,
             tooltip=_tooltips,
-            opacity=alt.condition(selection, alt.value(1), alt.value(0.2)),
+            opacity=alt.condition(selector, alt.value(1), alt.value(0.2)),
         )
-        .add_params(selection, selector)
+        .add_params(selector)
         .properties(width=300, height=250)
+        # .transform_filter(selector)
     )
     if col_var is not None:
         chart = chart.encode(column=col_var)
