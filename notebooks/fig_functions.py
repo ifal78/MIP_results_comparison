@@ -1040,6 +1040,7 @@ def chart_cap_factor_scatter(
         )
         .add_params(selector)
         .properties(width=300, height=250)
+        .interactive()
         # .transform_filter(selector)
     )
     if col_var is not None:
@@ -1069,6 +1070,7 @@ def chart_cap_factor_scatter(
             )
             # .add_params(selection, selector)
             .transform_filter(selector)
+            .interactive()
         )
         if col_var is not None:
             timeseries = timeseries.encode(column=col_var)
