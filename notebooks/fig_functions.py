@@ -953,7 +953,14 @@ def chart_cap_factor_scatter(
     col_var=None,
     row_var=None,
     frac=None,
+    name_str_replace=None,
 ) -> alt.Chart:
+    if name_str_replace is not None:
+        for k, v in name_str_replace.items():
+            gen["resource_name"] = gen["resource_name"].str.replace(k, v)
+            cap["resource_name"] = cap["resource_name"].str.replace(k, v)
+            if dispatch is not None:
+                dispatch["resource_name"] = dispatch["resource_name"].str.replace(k, v)
     gen = gen.query("value >=0")
     cap = cap.query("end_value >= 50")
     merge_by = ["tech_type", "resource_name", "planning_year", "model"]
@@ -1004,12 +1011,14 @@ def chart_cap_factor_scatter(
         ]
     )
     selection = alt.selection_point(fields=["model"], bind="legend")
-    selector = alt.selection_point(
-        fields=["resource_name"]
-    )  # , "model", "planning_year"
+    selector = alt.selection_point(fields=["id"])  # , "model", "planning_year"
     data["end_value"] = data["end_value"].astype(int)
     if frac:
-        data = data.sample(frac=frac)
+        resources = data.sample(frac=frac)["resource_name"].unique()
+        data = data.loc[data["resource_name"].isin(resources)]
+
+    name_id_map = {name: idx for idx, name in enumerate(data["resource_name"].unique())}
+    data["id"] = data["resource_name"].map(name_id_map)
     chart = (
         alt.Chart(data)
         .mark_point()
@@ -1032,17 +1041,24 @@ def chart_cap_factor_scatter(
         _dispatch = dispatch.groupby(
             ["model", "planning_year", "resource_name", "hour"], as_index=False
         )["value"].sum()
-        _dispatch = _dispatch.query("value > 5")
+        # _dispatch = _dispatch.query("value > 5")
         _dispatch = _dispatch.loc[
             _dispatch["resource_name"].isin(data["resource_name"].unique())
         ]
         _dispatch["value"] = _dispatch["value"].astype(int)
+        _dispatch["id"] = _dispatch["resource_name"].map(name_id_map)
+        _dispatch = _dispatch.drop(columns=["resource_name"])
         timeseries = (
             alt.Chart(_dispatch)
             .mark_line()
             .encode(
-                x="hour", y="value:Q", color=alt.Color(color), tooltip=["resource_name"]
+                x="hour",
+                y=alt.Y("value:Q", impute=alt.ImputeParams(value=None)),
+                color=alt.Color(color),
+                # opacity=alt.condition(selector, alt.value(1), alt.value(0)),
+                # tooltip=["resource_name"],
             )
+            # .add_params(selection, selector)
             .transform_filter(selector)
         )
         if col_var is not None:
