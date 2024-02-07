@@ -969,8 +969,7 @@ def chart_cap_factor_scatter(
             dispatch["resource_name"] = dispatch["resource_name"].str.replace(
                 f"_{hour}hour", ""
             )
-    gen = gen.query("value >=0")
-    cap = cap.query("end_value >= 50")
+
     merge_by = ["tech_type", "resource_name", "planning_year", "model"]
     group_by = ["resource_name", "planning_year", "model"]
     _tooltips = [
@@ -997,6 +996,7 @@ def chart_cap_factor_scatter(
         )["end_value"]
         .sum()
     )
+    _cap = _cap.query("end_value >= 50")
     _gen = pd.merge(
         gen,
         _cap,
@@ -1004,6 +1004,7 @@ def chart_cap_factor_scatter(
         on=merge_by,
         how="left",
     )
+    _gen = _gen.query("value >= 0")
     _gen.fillna({"end_value": 0}, inplace=True)
     _gen["potential_gen"] = _gen["end_value"] * 8760
 
