@@ -1,9 +1,16 @@
 
-read_mip_tables <- function(scen_name, mod_dirs, tab = "^resource.capacity.csv$") {
+read_mip_tables <- function(scen_name, mod_dirs, tab = "^resource.capacity.csv(.gz)?$") {
   ll <- lapply(mod_dirs, function(d) {
     f <- list.files(fp(scen_name, d), pattern = tab)
-    cat(d, f, "\n")
-    x <- fread(fp(scen_name, d, f))
+    fname <- fp(scen_name, d, f)
+    if (length(fname) > 1) {
+      f_time <- file.info(fname)$mtime
+      ii <- f_time == max(f_time)
+      message("Ignoring:\n", paste(basename(fname[!ii]), sep = "\n"))
+      fname <- fname[ii]
+    }
+    cat(d, fname, "\n")
+    x <- fread(fname)
     dval <- duplicated(x)
     if (any(dval)) message(sum(dval), " duplicated values")
     x <- x[!dval,]
