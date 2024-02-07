@@ -304,7 +304,7 @@ from fig_functions import chart_cap_factor_scatter
 chart = chart_cap_factor_scatter(
     cap.query("tech_type=='Battery'"),
     gen.query("tech_type=='Battery'"),
-    dispatch.query("tech_type=='Battery'"),
+    # dispatch.query("tech_type=='Battery'"),
     col_var="planning_year",
 )
 chart
@@ -317,8 +317,9 @@ from fig_functions import chart_cap_factor_scatter
 chart = chart_cap_factor_scatter(
     cap.query("tech_type=='Solar'"),
     gen.query("tech_type=='Solar'"),
-    dispatch.query("tech_type=='Solar'"),
+    # dispatch.query("tech_type=='Solar'"),
     col_var="planning_year",
+    frac=0.5,
 )
 chart
 ```
@@ -330,21 +331,9 @@ from fig_functions import chart_cap_factor_scatter
 chart = chart_cap_factor_scatter(
     cap.query("tech_type=='Wind'"),
     gen.query("tech_type=='Wind'"),
-    dispatch.query("tech_type=='Wind'"),
+    # dispatch.query("tech_type=='Wind'"),
     col_var="planning_year",
-)
-chart
-```
-
-```{python}
-# | title: Coal
-from fig_functions import chart_cap_factor_scatter
-
-chart = chart_cap_factor_scatter(
-    cap.query("tech_type=='Coal'"),
-    gen.query("tech_type=='Coal'"),
-    dispatch.query("tech_type=='Coal'"),
-    col_var="planning_year",
+    frac=0.1,
 )
 chart
 ```
@@ -356,7 +345,7 @@ from fig_functions import chart_cap_factor_scatter
 chart = chart_cap_factor_scatter(
     cap.query("tech_type=='Natural Gas CC'"),
     gen.query("tech_type=='Natural Gas CC'"),
-    dispatch.query("tech_type=='Natural Gas CC'"),
+    # dispatch.query("tech_type=='Natural Gas CC'"),
     col_var="planning_year",
 )
 chart
@@ -369,7 +358,7 @@ from fig_functions import chart_cap_factor_scatter
 chart = chart_cap_factor_scatter(
     cap.query("tech_type=='Natural Gas CT'"),
     gen.query("tech_type=='Natural Gas CT'"),
-    dispatch.query("tech_type=='Natural Gas CT'"),
+    # dispatch.query("tech_type=='Natural Gas CT'"),
     col_var="planning_year",
 )
 chart
@@ -379,10 +368,11 @@ chart
 from fig_functions import chart_cap_factor_scatter
 
 chart = chart_cap_factor_scatter(
-    cap.query("tech_type=='Hydro'"),
-    gen.query("tech_type=='Hydro'"),
-    dispatch.query("tech_type=='Hydro'"),
+    cap.query("tech_type=='Hydro' and ~resource_name.str.contains('small')"),
+    gen.query("tech_type=='Hydro' and ~resource_name.str.contains('small')"),
+    dispatch.query("tech_type=='Hydro' and ~resource_name.str.contains('small')"),
     col_var="planning_year",
+    frac=0.5,
 )
 chart
 ```

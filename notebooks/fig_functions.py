@@ -8,6 +8,8 @@ import altair as alt
 from pathlib import Path
 from joblib import Parallel, delayed
 
+# alt.data_transformers.enable("vegafusion")
+
 try:
     pd.options.mode.copy_on_write = True
 except:
@@ -256,7 +258,7 @@ def calc_op_percent_total(
     by = [c for c in group_by if c in op_costs.columns]
     df_list = []
     for _, _df in op_costs.query("Costs != 'cTotal'").groupby(by):
-        _df.loc[:, "percent_total"] = _df["Total"] / _df["Total"].sum()
+        _df.loc[:, "percent_total"] = (_df["Total"] / _df["Total"].sum()).round(3)
         df_list.append(_df)
     return pd.concat(df_list)
 
@@ -422,7 +424,7 @@ def chart_total_gen(
             on=merge_by,
             how="left",
         )
-        _gen["end_value"].fillna(0, inplace=True)
+        _gen.fillna({"end_value": 0}, inplace=True)
         _gen["potential_gen"] = _gen["end_value"] * 8760
 
         data = _gen.groupby(group_by, as_index=False)[
@@ -473,7 +475,7 @@ def chart_regional_gen(gen: pd.DataFrame, cap: pd.DataFrame = None) -> alt.Chart
             on=["tech_type", "resource_name", "model", "planning_year"],
             how="left",
         )
-        _gen["end_value"].fillna(0, inplace=True)
+        _gen.fillna({"end_value": 0}, inplace=True)
         _gen["potential_gen"] = _gen["end_value"] * 8760
         data = _gen.groupby(
             ["agg_zone", "tech_type", "model", "planning_year"], as_index=False
@@ -946,19 +948,18 @@ def chart_tx_scenario_map(
 def chart_cap_factor_scatter(
     cap: pd.DataFrame,
     gen: pd.DataFrame,
-    dispatch: pd.DataFrame,
+    dispatch: pd.DataFrame = None,
     color="model",
     col_var=None,
     row_var=None,
+    frac=None,
 ) -> alt.Chart:
     gen = gen.query("value >=0")
-    cap = cap.query("end_value >= 10")
+    cap = cap.query("end_value >= 50")
     merge_by = ["tech_type", "resource_name", "planning_year", "model"]
-    group_by = ["tech_type", "resource_name", "planning_year", "model"]
+    group_by = ["resource_name", "planning_year", "model"]
     _tooltips = [
         alt.Tooltip("resource_name"),
-        # alt.Tooltip("tech_type", title="Technology"),
-        alt.Tooltip("value", title="Generation (MWh)", format=",.0f"),
         alt.Tooltip(color),
     ]
     if col_var is not None:
@@ -988,13 +989,14 @@ def chart_cap_factor_scatter(
         on=merge_by,
         how="left",
     )
-    _gen["end_value"].fillna(0, inplace=True)
+    _gen.fillna({"end_value": 0}, inplace=True)
     _gen["potential_gen"] = _gen["end_value"] * 8760
 
     data = _gen.groupby(group_by, as_index=False)[
         ["value", "potential_gen", "end_value"]
     ].sum()
     data["capacity_factor"] = (data["value"] / data["potential_gen"]).round(3)
+    data = data.query("end_value >= 50").drop(columns=["potential_gen", "value"])
     _tooltips.extend(
         [
             alt.Tooltip("capacity_factor", title="Capacity Factor"),
@@ -1005,6 +1007,9 @@ def chart_cap_factor_scatter(
     selector = alt.selection_point(
         fields=["resource_name"]
     )  # , "model", "planning_year"
+    data["end_value"] = data["end_value"].astype(int)
+    if frac:
+        data = data.sample(frac=frac)
     chart = (
         alt.Chart(data)
         .mark_point()
@@ -1023,22 +1028,28 @@ def chart_cap_factor_scatter(
         chart = chart.encode(column=col_var)
     if row_var is not None:
         chart = chart.encode(row=row_var)
-
-    timeseries = (
-        alt.Chart(
-            dispatch.groupby(
-                ["model", "planning_year", "resource_name", "hour"], as_index=False
-            )["value"].sum()
+    if dispatch is not None:
+        _dispatch = dispatch.groupby(
+            ["model", "planning_year", "resource_name", "hour"], as_index=False
+        )["value"].sum()
+        _dispatch = _dispatch.query("value > 5")
+        _dispatch = _dispatch.loc[
+            _dispatch["resource_name"].isin(data["resource_name"].unique())
+        ]
+        _dispatch["value"] = _dispatch["value"].astype(int)
+        timeseries = (
+            alt.Chart(_dispatch)
+            .mark_line()
+            .encode(
+                x="hour", y="value:Q", color=alt.Color(color), tooltip=["resource_name"]
+            )
+            .transform_filter(selector)
         )
-        .mark_line()
-        .encode(x="hour", y="value", color=alt.Color(color).legend(None))
-        .transform_filter(selector)
-    )
-    if col_var is not None:
-        timeseries = timeseries.encode(column=col_var)
-    if row_var is not None:
-        timeseries = timeseries.encode(row=row_var)
+        if col_var is not None:
+            timeseries = timeseries.encode(column=col_var)
+        if row_var is not None:
+            timeseries = timeseries.encode(row=row_var)
 
-    chart = alt.vconcat(chart, timeseries)
+        chart = alt.vconcat(chart, timeseries)
 
     return chart  # | timeseries
