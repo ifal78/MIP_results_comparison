@@ -338,7 +338,7 @@ chart = chart_cap_factor_scatter(
     gen.query("tech_type=='Wind'"),
     dispatch.query("tech_type=='Wind'"),
     col_var="planning_year",
-    frac=0.02,
+    frac=0.1,
 )
 chart
 ```
@@ -364,8 +364,9 @@ from fig_functions import chart_cap_factor_scatter
 chart = chart_cap_factor_scatter(
     cap.query("tech_type=='Natural Gas CT'"),
     gen.query("tech_type=='Natural Gas CT'"),
-    # dispatch.query("tech_type=='Natural Gas CT'"),
+    dispatch.query("tech_type=='Natural Gas CT'"),
     col_var="planning_year",
+    frac=0.25,
 )
 chart
 ```
