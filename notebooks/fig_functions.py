@@ -635,16 +635,25 @@ def chart_emissions(
 
 
 def chart_dispatch(data: pd.DataFrame) -> alt.Chart:
+    data = data.rename(
+        columns={
+            "model": "m",
+            "tech_type": "tt",
+            "agg_zone": "az",
+            "hour": "h",
+            "value": "v",
+        }
+    )
     selection = alt.selection_point(fields=["model"], bind="legend")
     chart = (
         alt.Chart(data)
         .mark_line()
         .encode(
-            x="hour",
-            y="value",
-            color="model",
-            row="tech_type",
-            column="agg_zone",
+            x=alt.X("h").title("Hour"),
+            y=alt.Y("v").title("Dispatch (MW)"),
+            color=alt.Color("m").legend(title="Model"),
+            row=alt.Row("tt").title("Tech Type"),
+            column=alt.Column("az").title("Agg Zone"),
             opacity=alt.condition(selection, alt.value(1), alt.value(0.2)),
         )
         .properties(width=250, height=150)
@@ -654,17 +663,27 @@ def chart_dispatch(data: pd.DataFrame) -> alt.Chart:
 
 
 def chart_wind_dispatch(data: pd.DataFrame) -> alt.Chart:
+    data = data.rename(
+        columns={
+            "model": "m",
+            "tech_type": "tt",
+            "zone": "z",
+            "hour": "h",
+            "value": "v",
+        }
+    )
+    data = data.drop(columns=["tech_type"], errors="ignore")
     selection = alt.selection_point(fields=["model"], bind="legend")
     if "cluster" in data.columns:
         chart = (
             alt.Chart(data)
             .mark_line()
             .encode(
-                x="hour",
-                y="value",
-                color="model",
+                x=alt.X("h").title("Hour"),
+                y=alt.Y("v").title("Dispatch (MW)"),
+                color=alt.Color("m").legend(title="Model"),
                 strokeDash="cluster",
-                facet=alt.Facet("zone", columns=5),
+                facet=alt.Facet("z", columns=5).title("Zone"),
                 opacity=alt.condition(selection, alt.value(1), alt.value(0.2)),
             )
             .properties(width=250, height=150)
@@ -675,10 +694,10 @@ def chart_wind_dispatch(data: pd.DataFrame) -> alt.Chart:
             alt.Chart(data)
             .mark_line()
             .encode(
-                x="hour",
-                y="value",
-                color="model",
-                facet=alt.Facet("zone", columns=5),
+                x=alt.X("h").title("Hour"),
+                y=alt.Y("v").title("Dispatch (MW)"),
+                color=alt.Color("m").legend(title="Model"),
+                facet=alt.Facet("z", columns=5).title("Zone"),
                 opacity=alt.condition(selection, alt.value(1), alt.value(0.2)),
             )
             .properties(width=250, height=150)
@@ -973,13 +992,13 @@ def chart_cap_factor_scatter(
     merge_by = ["tech_type", "resource_name", "planning_year", "model"]
     group_by = ["resource_name", "planning_year", "model"]
     _tooltips = [
-        alt.Tooltip("resource_name"),
+        alt.Tooltip("name").title("Resource"),
         alt.Tooltip(color),
     ]
     if col_var is not None:
         group_by.append(col_var)
         merge_by.append(col_var)
-        _tooltips.append(alt.Tooltip(col_var))
+        # _tooltips.append(alt.Tooltip(col_var))
     if row_var is not None:
         _tooltips.append(alt.Tooltip(row_var))
         merge_by.append(row_var)
@@ -1013,12 +1032,7 @@ def chart_cap_factor_scatter(
     ].sum()
     data["capacity_factor"] = (data["value"] / data["potential_gen"]).round(3)
     data = data.query("end_value >= 50").drop(columns=["potential_gen", "value"])
-    _tooltips.extend(
-        [
-            alt.Tooltip("capacity_factor", title="Capacity Factor"),
-            alt.Tooltip("end_value", title="Capacity (MW)", format=",.0f"),
-        ]
-    )
+
     # selection = alt.selection_point(fields=["model"], bind="legend")
     selector = alt.selection_point(fields=["id"])  # , "model", "planning_year"
     data["end_value"] = data["end_value"].astype(int)
@@ -1028,12 +1042,26 @@ def chart_cap_factor_scatter(
 
     name_id_map = {name: idx for idx, name in enumerate(data["resource_name"].unique())}
     data["id"] = data["resource_name"].map(name_id_map)
+    data = data.rename(
+        columns={
+            "planning_year": "y",
+            "resource_name": "name",
+            "capacity_factor": "cf",
+            "end_value": "v",
+        }
+    )
+    _tooltips.extend(
+        [
+            alt.Tooltip("cf", title="Capacity Factor"),
+            alt.Tooltip("v", title="Capacity (MW)", format=",.0f"),
+        ]
+    )
     chart = (
         alt.Chart(data)
         .mark_point()
         .encode(
-            x=alt.X("end_value").title("Capacity (MW)").scale(type="log"),
-            y="capacity_factor",
+            x=alt.X("v").title("Capacity (MW)").scale(type="log"),
+            y=alt.Y("cf").title("Capacity Factor"),
             color=color,
             shape=color,
             tooltip=_tooltips,
@@ -1045,26 +1073,36 @@ def chart_cap_factor_scatter(
         # .transform_filter(selector)
     )
     if col_var is not None:
-        chart = chart.encode(column=col_var)
+        if col_var == "planning_year":
+            chart = chart.encode(column=alt.Column("y").title("Planning Year"))
+        else:
+            chart = chart.encode(column=col_var)
     if row_var is not None:
         chart = chart.encode(row=row_var)
     if dispatch is not None:
-        _dispatch = dispatch.groupby(
+        hours = list(range(120))[::2]
+        _dispatch = dispatch.query("hour.isin(@hours)")
+        _dispatch = _dispatch.groupby(
             ["model", "planning_year", "resource_name", "hour"], as_index=False
         )["value"].sum()
         # _dispatch = _dispatch.query("value > 5")
         _dispatch = _dispatch.loc[
-            _dispatch["resource_name"].isin(data["resource_name"].unique())
+            _dispatch["resource_name"].isin(data["name"].unique())
         ]
         _dispatch["value"] = _dispatch["value"].astype(int)
         _dispatch["id"] = _dispatch["resource_name"].map(name_id_map)
         _dispatch = _dispatch.drop(columns=["resource_name"])
+        _dispatch = _dispatch.rename(
+            columns={"planning_year": "y", "hour": "h", "value": "v"}
+        )
         timeseries = (
             alt.Chart(_dispatch)
             .mark_line()
             .encode(
-                x="hour",
-                y=alt.Y("value:Q", impute=alt.ImputeParams(value=None)),
+                x=alt.X("h").title("Hour"),
+                y=alt.Y("v:Q", impute=alt.ImputeParams(value=None)).title(
+                    "Dispatch (MW)"
+                ),
                 color=alt.Color(color),
                 # opacity=alt.condition(selector, alt.value(1), alt.value(0)),
                 # tooltip=["resource_name"],
@@ -1074,7 +1112,13 @@ def chart_cap_factor_scatter(
             .interactive()
         )
         if col_var is not None:
-            timeseries = timeseries.encode(column=col_var)
+
+            if col_var == "planning_year":
+                timeseries = timeseries.encode(
+                    column=alt.Column("y").title("Planning Year")
+                )
+            else:
+                timeseries = timeseries.encode(column=col_var)
         if row_var is not None:
             timeseries = timeseries.encode(row=row_var)
 
