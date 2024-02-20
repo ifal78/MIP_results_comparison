@@ -388,7 +388,7 @@ def chart_total_gen(
     cap: pd.DataFrame = None,
     x_var="model",
     col_var=None,
-    row_var=None,
+    row_var="planning_year",
     order=None,
 ) -> alt.Chart:
     merge_by = ["tech_type", "resource_name", x_var, "planning_year"]
@@ -440,23 +440,48 @@ def chart_total_gen(
 
     else:
         data = gen.groupby(group_by, as_index=False)["value"].sum()
+
+    if (Path.cwd() / "annual_demand.csv").exists():
+        demand = pd.read_csv(Path.cwd() / "annual_demand.csv")
+        demand.loc[:, "agg_zone"] = demand.loc[:, "zone"].map(rev_region_map)
+        data = pd.merge(
+            data,
+            demand.groupby(["planning_year"], as_index=False)["annual_demand"].sum(),
+            on=["planning_year"],
+        )
+    else:
+        demand = None
     chart = (
-        alt.Chart(data)
+        alt.Chart()  # data)
         .mark_bar()
         .encode(
             x=alt.X(x_var).sort(order),
             y=alt.Y("value").title("Generation (MWh)"),
             color=alt.Color("tech_type").scale(scheme="tableau20"),
             # column="zone",
-            row="planning_year:O",
+            # row="planning_year:O",
             tooltip=_tooltips,
         )
         .properties(width=350, height=250)
     )
-    if col_var is not None:
-        chart = chart.encode(column=col_var)
-    if row_var is not None:
-        chart = chart.encode(row=row_var)
+    if demand is not None:
+        line = (
+            alt.Chart()
+            .mark_rule()
+            .encode(
+                y=alt.Y("annual_demand"),
+            )  # column="agg_zone", row="planning_year")
+            # .properties(width=150, height=250)
+        )
+        chart = alt.layer(chart, line, data=data)  # .facet(
+        #     column="agg_zone", row="planning_year"
+        # )
+    if col_var is not None and row_var is not None:
+        chart = chart.facet(column=col_var, row=row_var)
+    elif row_var is not None:
+        chart = chart.facet(row=row_var)
+    elif col_var is not None:
+        chart = chart.facet(column=col_var)
     return chart
 
 
@@ -494,20 +519,45 @@ def chart_regional_gen(gen: pd.DataFrame, cap: pd.DataFrame = None) -> alt.Chart
             alt.Tooltip("tech_type", title="Technology"),
             alt.Tooltip("value", title="Generation (MWh)", format=",.0f"),
         ]
-
+    if (Path.cwd() / "annual_demand.csv").exists():
+        demand = pd.read_csv(Path.cwd() / "annual_demand.csv")
+        demand.loc[:, "agg_zone"] = demand.loc[:, "zone"].map(rev_region_map)
+        data = pd.merge(
+            data,
+            demand.groupby(["agg_zone", "planning_year"], as_index=False)[
+                "annual_demand"
+            ].sum(),
+            on=["agg_zone", "planning_year"],
+        )
+    else:
+        demand = None
     chart = (
-        alt.Chart(data)
+        alt.Chart()
         .mark_bar()
         .encode(
             x="model",
             y=alt.Y("value").title("Generation (MWh)"),
             color=alt.Color("tech_type").scale(scheme="tableau20"),
-            column="agg_zone",
-            row="planning_year:O",
+            # column="agg_zone",
+            # row="planning_year:O",
             tooltip=_tooltips,
         )
         .properties(width=150, height=250)
     )
+
+    if demand is not None:
+        line = (
+            alt.Chart()
+            .mark_rule()
+            .encode(
+                y=alt.Y("annual_demand"),
+            )  # column="agg_zone", row="planning_year")
+            .properties(width=150, height=250)
+        )
+        chart = alt.layer(chart, line, data=data).facet(
+            column="agg_zone", row="planning_year"
+        )
+    # chart = chart.encode(column="agg_zone:N", row="planning_year:O")
     return chart
 
 
