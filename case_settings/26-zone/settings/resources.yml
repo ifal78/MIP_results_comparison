@@ -404,9 +404,6 @@ new_gen_not_available:
   # WECC_SNV:
   #   - OffShoreWind
 
-# RESOURCE_GROUPS: "/Users/gs5183/Documents/resource-clustering/national_emm_split_ercot_corrected/output/cpas"
-RESOURCE_GROUPS: "/Users/matthias/Library/CloudStorage/GoogleDrive-mfripp@hawaii.edu/My Drive/Shared/Rangrang/Switch-USA-PG/pg_data/"
-
 clustering_n_jobs: 4
 renewables_clusters:
   - region: all

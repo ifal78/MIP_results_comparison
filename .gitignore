@@ -128,8 +128,12 @@ venv.bak/
 **/Results_p2/*.csv
 **/Results_p3/*.csv
 **/Results/*.csv
+**/Results/*.csv.gz
 
 !**/costs.csv
 !**/nse.csv
 !**/capacityfactor.csv
 !**/emissions_plant.csv
+
+# User-specific env.yml settings file
+env.yml
