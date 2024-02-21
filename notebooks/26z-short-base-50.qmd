@@ -234,9 +234,11 @@ chart
 
 ```{python}
 # | title: 2030 Dispatch
-data = dispatch.query("planning_year==2030").groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)[
-    "value"
-].sum()
+data = (
+    dispatch.query("planning_year==2030")
+    .groupby(["model", "tech_type", "agg_zone", "hour"], as_index=False)["value"]
+    .sum()
+)
 chart = chart_dispatch(data)
 chart
 ```
@@ -422,5 +424,13 @@ chart
 ```{python}
 # | title: Emissions by zone
 chart = chart_op_emiss(op_emiss, col_var="planning_year", color="zone")
+chart
+```
+
+```{python}
+# | title: Power cost
+from fig_functions import chart_cost_mwh
+
+chart = chart_cost_mwh(op_costs, col_var="planning_year")
 chart
 ```

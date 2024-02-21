@@ -1175,3 +1175,60 @@ def chart_cap_factor_scatter(
         chart = alt.vconcat(chart, timeseries)
 
     return chart  # | timeseries
+
+
+def chart_cost_mwh(
+    op_costs: pd.DataFrame, x_var="model", col_var=None, row_var=None, order=None
+) -> alt.Chart:
+
+    if (Path.cwd() / "annual_demand.csv").exists():
+        demand = pd.read_csv(Path.cwd() / "annual_demand.csv")
+        # demand.loc[:, "agg_zone"] = demand.loc[:, "zone"].map(rev_region_map)
+        op_group = ["planning_year", "model"]
+        if "case" in op_costs.columns:
+            op_group.append("case")
+        data = pd.merge(
+            op_costs.groupby(op_group, as_index=False)["Total"].sum(),
+            demand.groupby(["planning_year"], as_index=False)["annual_demand"].sum(),
+            on=["planning_year"],
+        )
+        data["cost_mwh"] = data["Total"] / data["annual_demand"]
+    else:
+        demand = None
+
+    base = (
+        alt.Chart()
+        .mark_bar()
+        .encode(
+            x=alt.X(x_var).sort(order),
+            y="cost_mwh",
+            # column="planning_year"
+        )
+    )
+
+    text = (
+        alt.Chart()
+        .mark_text(dy=-5, fontSize=9)
+        .encode(
+            x=alt.X(x_var).sort(order),
+            y="cost_mwh",
+            text=alt.Text("cost_mwh", format=".1f"),
+        )
+    )
+
+    chart = alt.layer(
+        base,
+        text,
+        data=data,
+    ).properties(width=alt.Step(40), height=250)
+
+    if row_var is None and col_var is None:
+        return chart
+    elif row_var is None and col_var is not None:
+        chart = chart.facet(column=col_var)
+    elif col_var is None and row_var is not None:
+        chart = chart.facet(row=row_var)
+    else:
+        chart = chart.facet(row=row_var, column=col_var)
+
+    return chart

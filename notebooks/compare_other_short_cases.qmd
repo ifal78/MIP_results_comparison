@@ -296,3 +296,11 @@ chart = chart_op_emiss(
 )
 chart
 ```
+
+```{python}
+# | title: Power cost
+from fig_functions import chart_cost_mwh
+
+chart = chart_cost_mwh(op_costs, "case", "model", "planning_year", order=order)
+chart
+```
