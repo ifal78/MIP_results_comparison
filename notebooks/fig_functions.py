@@ -329,9 +329,15 @@ def title_case(s: str) -> str:
 
 
 def chart_total_cap(
-    cap: pd.DataFrame, x_var="model", col_var=None, row_var="planning_year", order=None
+    cap: pd.DataFrame,
+    x_var="model",
+    col_var=None,
+    row_var="planning_year",
+    order=None,
+    width=350,
+    height=250,
 ) -> alt.Chart:
-    group_by = ["tech_type", x_var, row_var]
+    group_by = ["tech_type", x_var]
     _tooltips = [
         alt.Tooltip("tech_type", title="Technology"),
         alt.Tooltip("end_value", title="Capacity (GW)", format=",.0f"),
@@ -341,6 +347,7 @@ def chart_total_cap(
         group_by.append(col_var)
         _tooltips.append(alt.Tooltip(col_var))
     if row_var is not None:
+        group_by.append(row_var)
         _tooltips.append(alt.Tooltip(row_var))
     cap_data = cap.groupby(group_by, as_index=False)["end_value"].sum()
     cap_data["end_value"] /= 1000
@@ -354,17 +361,23 @@ def chart_total_cap(
             .scale(scheme="tableau20")
             .title(title_case("tech_type")),
             # column="zone",
-            row=alt.Row(row_var)
-            .title(title_case(row_var))
-            .header(labelFontSize=15, titleFontSize=20),
+            # row=alt.Row(row_var)
+            # .title(title_case(row_var))
+            # .header(labelFontSize=15, titleFontSize=20),
             tooltip=_tooltips,
         )
-        .properties(width=350, height=250)
+        .properties(width=width, height=height)
     )
     if col_var is not None:
         chart = chart.encode(
             column=alt.Column(col_var)
             .title(title_case(col_var))
+            .header(titleFontSize=20, labelFontSize=15)
+        )
+    if row_var is not None:
+        chart = chart.encode(
+            row=alt.Row(row_var)
+            .title(title_case(row_var))
             .header(titleFontSize=20, labelFontSize=15)
         )
     chart = chart.configure_axis(labelFontSize=15, titleFontSize=15).configure_legend(
@@ -418,6 +431,8 @@ def chart_total_gen(
     col_var=None,
     row_var="planning_year",
     order=None,
+    width=350,
+    height=250,
 ) -> alt.Chart:
     merge_by = ["tech_type", "resource_name", x_var, "planning_year"]
     group_by = ["tech_type", x_var, "planning_year"]
@@ -494,7 +509,7 @@ def chart_total_gen(
             # row="planning_year:O",
             tooltip=_tooltips,
         )
-        .properties(width=350, height=250)
+        .properties(width=width, height=height)
     )
     if demand is not None:
         line = (

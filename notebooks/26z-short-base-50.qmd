@@ -118,6 +118,11 @@ chart = chart_total_cap(cap)
 chart
 ```
 ```{python}
+# | title: Total Capacity (wide)
+chart = chart_total_cap(cap, row_var=None, col_var="planning_year", width=250)
+chart
+```
+```{python}
 # | title: Regional Capacity
 chart = chart_regional_cap(cap)
 chart
@@ -127,6 +132,11 @@ chart
 ```{python}
 # | title: Total Generation
 chart = chart_total_gen(gen, cap)
+chart
+```
+```{python}
+# | title: Total Generation (wide)
+chart = chart_total_gen(gen, cap, row_var=None, col_var="planning_year", width=250)
 chart
 ```
 
