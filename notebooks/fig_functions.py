@@ -1147,7 +1147,7 @@ def chart_tx_map(tx_exp: pd.DataFrame, gdf: gpd.GeoDataFrame) -> alt.Chart:
                 fill="lightgray",
             )
             .project(type="albersUsa")
-            .properties(height=300, width=300)
+            .properties(height=325, width=400)
         )
         lines = (
             alt.Chart(
@@ -1172,11 +1172,13 @@ def chart_tx_map(tx_exp: pd.DataFrame, gdf: gpd.GeoDataFrame) -> alt.Chart:
         )
 
         model_figs.append(background + lines)
-    chart = alt.vconcat(alt.hconcat(*model_figs[:2]), alt.hconcat(*model_figs[2:]))
+    chart = alt.vconcat(
+        alt.hconcat(*model_figs[:2]), alt.hconcat(*model_figs[2:])
+    ).configure_concat(spacing=-50)
     chart = (
         chart.configure_axis(labelFontSize=15, titleFontSize=15)
         .configure_legend(titleFontSize=20, labelFontSize=18)
-        .configure_title(fontSize=20, dy=50)
+        .configure_title(fontSize=20, dy=35)
     )
     return chart
 
@@ -1202,6 +1204,7 @@ def chart_tx_scenario_map(
                     fill="lightgray",
                 )
                 .project(type="albersUsa")
+                .properties(height=325, width=400)
             )
             lines = (
                 alt.Chart(
@@ -1231,7 +1234,7 @@ def chart_tx_scenario_map(
 
         model_figs.append(alt.hconcat(*scenario_figs))
     chart = alt.vconcat(*model_figs)
-    chart = chart.configure_title(fontSize=20, dy=50).configure_legend(
+    chart = chart.configure_title(fontSize=20, dy=35).configure_legend(
         titleFontSize=20, labelFontSize=18
     )
     return chart
