@@ -342,7 +342,7 @@ except:
 ```{python}
 # | title: Emissions by zone
 try:
-    chart = chart_op_emiss(op_emiss, col_var="planning_year", color="zone")
+    chart = chart_op_emiss(op_emiss, col_var="planning_year", color="Region")
     chart
 except:
     pass

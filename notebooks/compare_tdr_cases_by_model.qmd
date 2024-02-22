@@ -300,7 +300,7 @@ chart = chart_op_emiss(
     x_var="case",
     col_var="model",
     row_var="planning_year",
-    color="zone",
+    color="Region",
     order=order,
 )
 chart
