@@ -747,7 +747,7 @@ def chart_tx_expansion(
 
 
 def chart_emissions(
-    emiss: pd.DataFrame, x_var="model", col_var=None, order=None
+    emiss: pd.DataFrame, x_var="model", col_var=None, order=None, co2_limit=True
 ) -> alt.Chart:
     _tooltips = [
         alt.Tooltip("sum(value)", format=",.0f", title="Million Tonnes"),
@@ -764,6 +764,9 @@ def chart_emissions(
     if order is None:
         order = sorted(data[x_var].unique())
     data["value"] /= 1e6
+    data["limit"] = 0
+    data.loc[data["planning_year"] == 2030, "limit"] = 186
+    data.loc[data["planning_year"] == 2040, "limit"] = 86.7
     base = (
         alt.Chart()
         .mark_bar()
@@ -787,10 +790,21 @@ def chart_emissions(
             text=alt.Text("sum(value):Q", format=".0f"),
         )
     )  # .properties(width=350, height=250)
-
+    if co2_limit:
+        size = 2
+    else:
+        size = 0
+    line = (
+        alt.Chart()
+        .mark_rule(size=size)
+        .encode(
+            y=alt.Y("limit"),
+        )  # column="agg_zone", row="planning_year")
+        # .properties(width=150, height=250)
+    )
     if col_var is None:
         chart = (
-            alt.layer(base, text, data=data)
+            alt.layer(base, text, line, data=data)
             .properties(width=350, height=250)
             .facet(
                 row=alt.Row("planning_year:O")
@@ -800,7 +814,7 @@ def chart_emissions(
         )
     else:
         chart = (
-            alt.layer(base, text, data=data)
+            alt.layer(base, text, line, data=data)
             .properties(width=350, height=250)
             .facet(
                 row=alt.Row("planning_year:O")

@@ -237,7 +237,7 @@ chart
 # Emissions
 ```{python}
 # | title: Emissions
-chart = chart_emissions(emiss)
+chart = chart_emissions(emiss, co2_limit=False)
 chart
 ```
 
