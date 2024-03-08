@@ -47,26 +47,55 @@ settings_management:
             wacc_real: 0.05
     econ_retirement:
       yes:
-        retirement_ages: ~
-      no:
+        retirement_ages:
+          Conventional Hydroelectric: 1500 # TD update
+          Small Hydroelectric: 1500 # TD update
+          Conventional Steam Coal: 500 # TD update
+          Natural Gas Fired Combined Cycle: 500 # TD update
+          Natural Gas Fired Combustion Turbine: 500 # TD update
+          Petroleum Liquids: 500
+          Natural Gas Internal Combustion Engine: 500 # TD update
+          Nuclear: 500 # TD update
+          Onshore Wind Turbine: 500 # TD checked/no change
+          Hydroelectric Pumped Storage: 1500 # TD update
+          Natural Gas Steam Turbine: 500 # oil-gas-steam, nat gas combustion turbine is also 50
+          Solar Photovoltaic: 500 # TD update
+          Solar Thermal without Energy Storage: 500 # CSP in SWITCH
+          Geothermal: 500 # TD update
+          Municipal Solid Waste: 500
+          Landfill Gas: 500
+          Batteries: 500 # TD update
+          Wood/Wood Waste Biomass: 500 # TD update
+          Petroleum Coke: 500
+          All Other: 500
+          Natural Gas with Compressed Air Storage: 500 # assuming nat gas cs&ccs
+          Coal Integrated Gasification Combined Cycle: 500 # TD update
+          Other Waste Biomass: 500 # assuming biopower
+          Other Gases: 500 # asuming oil-gas-steam
+          Other Natural Gas: 500 # assuming oil-gas-steam
+          Solar Thermal with Energy Storage: 500 # solar items in table are 30
+          Flywheels: 500
+          Offshore Wind Turbine: 500 # TD checked/no change
+          Biomass: 500
         model_tag_values:
-          New_Build:
-            Conventional Steam Coal: -1
-            Natural Gas Fired Combined Cycle: -1
-            Natural Gas Fired Combustion Turbine: -1
-            Natural Gas Internal Combustion Engine: -1
-            Natural Gas Steam Turbine: -1
-            Nuclear: -1
-            Petroleum Liquids: -1
-            Distributed_Generation: -1
-            Onshore Wind Turbine: -1
-            Offshore Wind Turbine: -1
-            Solar Photovoltaic: -1
-            Batteries: -1
-            Nuclear_Nuclear: 1
+          Can_Retire:
+            Conventional Steam Coal: 1
+            Natural Gas Fired Combined Cycle: 1
+            Natural Gas Fired Combustion Turbine: 1
+            Natural Gas Internal Combustion Engine: 1
+            Natural Gas Steam Turbine: 1
+            Nuclear: 0
+            Petroleum Liquids: 1
+            Distributed_Generation: 1
+            Onshore Wind Turbine: 1
+            Offshore Wind Turbine: 1
+            Solar Photovoltaic: 1
+            Batteries: 1
     policies:
       none:
         emission_policies_fn: ~
+      existing:  
+        emission_policies_fn: conus_net_zero_emission_limits.csv
     time_reduction:
       all_hours:
           reduce_time_domain: false
@@ -345,20 +374,997 @@ settings_management:
           - [Battery, "*", Conservative, 1]
     ira:
       yes:
+        renewables_clusters:
+          - region: all
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            filter:
+              - feature: lcoe
+                max: 80
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: BASN
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 100000
+            filter:
+              - feature: lcoe
+                max: 75
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: CANO
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            filter:
+              - feature: lcoe
+                max: 90
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: CASO
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            filter:
+              - feature: lcoe
+                max: 90
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: FRCC
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            # filter:
+            #   - feature: lcoe
+            #     max: 150
+            bin:
+              - feature: lcoe
+                q: 4
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 3
+                # mw_per_cluster: 15000
+                method: agg
+          - region: MISE
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            # filter:
+            #   - feature: lcoe
+            #     max: 150
+            bin:
+              - feature: lcoe
+                q: 4
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 3
+                # mw_per_cluster: 15000
+                method: agg
+          - region: MISW
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 200000
+            filter:
+              - feature: lcoe
+                max: 45
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: NWPP
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 100000
+            # filter:
+            #   - feature: lcoe
+            #     max: 45
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: NYUP
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 40000
+            # filter:
+            #   - feature: lcoe
+            #     max: 45
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: PJMD
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 20000
+            # filter:
+            #   - feature: lcoe
+            #     max: 135
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: PJME
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            # filter:
+            #   - feature: lcoe
+            #     max: 150
+            bin:
+              - feature: lcoe
+                q: 3
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 2
+                # mw_per_cluster: 15000
+                method: agg
+          - region: PJMW
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            # filter:
+            #   - feature: lcoe
+            #     max: 150
+            bin:
+              - feature: lcoe
+                q: 5
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: RMRG
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 150000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: SPPN
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 50000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: SPPS
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 175000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: SRCA
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 20000
+            # filter:
+            #   - feature: lcoe
+            #     max: 125
+            bin:
+              - feature: lcoe
+                q: 5
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 3
+                # mw_per_cluster: 15000
+                method: agg
+          - region: SRSG
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 100000
+            # filter:
+            #   - feature: lcoe
+            #     max: 125
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: TRE
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 200000
+            # filter:
+            #   - feature: lcoe
+            #     max: 125
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: TRE_WEST
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 100000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+
+          - region: all
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 100000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: BASN
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 100000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: FRCC
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 200000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: MISS
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 50000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: MISC
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: MISW
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 125000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: NYUP
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 60000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: PJMC
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 50000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: PJMD
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 125000
+            # filter:
+            #   - feature: lcoe
+            #     max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: PJME
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 125000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: PJMW
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 250000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: RMRG
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 75000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SPPC
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 60000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SPPN
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 50000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SPPS
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 75000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: SRCA
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            # filter:
+            #   - feature: lcoe
+            #     max: 30
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SRCE
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            # filter:
+            #   - feature: lcoe
+            #     max: 30
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SRSE
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            # filter:
+            #   - feature: lcoe
+            #     max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: SRSG
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: TRE_WEST
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 50000
+            # filter:
+            #   - feature: lcoe
+            #     max: 30
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+
+          - region: all
+            technology: offshorewind
+            turbine_type: fixed
+            pref_site: 1
+            filter:
+              - feature: lcoe
+                max: 150
+            bin:
+              - feature: interconnect_capex_mw
+                q: 3
+                weights: "mw"
+          - region: all
+            technology: offshorewind
+            turbine_type: floating
+            pref_site: 1
+            filter:
+              - feature: lcoe
+                max: 150
+                weights: "mw"
+            bin:
+              - feature: interconnect_capex_mw
+                q: 3
+                weights: "mw"
+          - region: all
+            technology: offshorewind
+            turbine_type: fixed
+            pref_site: 0
+            filter:
+              - feature: lcoe
+                max: 150
+            bin:
+              - feature: interconnect_capex_mw
+                q: 3
+                weights: "mw"
+          - region: all
+            technology: offshorewind
+            turbine_type: floating
+            pref_site: 0
+            filter:
+              - feature: lcoe
+                max: 150
+            bin:
+              - feature: interconnect_capex_mw
+                q: 3
+                weights: "mw"
         atb_modifiers:
           Offwind:
-            capex_mw: [mul, 0.5316]
+            capex_mw: [mul, 0.63]
           Offwind_floating:
-            capex_mw: [mul, 0.5316]
+            capex_mw: [mul, 0.63]
           upv:
             Var_OM_Cost_per_MWh: [sub, 12.28]
           Landwind:
             Var_OM_Cost_per_MWh: [sub, 13.08]
           bat:
-            capex_mw: [mul, 0.5316]
-            capex_mwh: [mul, 0.5316]
+            capex_mw: [mul, 0.63]
+            capex_mwh: [mul, 0.63]
           nuclear:
-            capex_mw: [mul, 0.5316]
+            capex_mw: [mul, 0.63]
       # no:
       #   atb_modifiers: ~
       #     # Offwind:
@@ -413,26 +1419,55 @@ settings_management:
             wacc_real: 0.05
     econ_retirement:
       yes:
-        retirement_ages: ~
-      no:
+        retirement_ages:
+          Conventional Hydroelectric: 1500 # TD update
+          Small Hydroelectric: 1500 # TD update
+          Conventional Steam Coal: 500 # TD update
+          Natural Gas Fired Combined Cycle: 500 # TD update
+          Natural Gas Fired Combustion Turbine: 500 # TD update
+          Petroleum Liquids: 500
+          Natural Gas Internal Combustion Engine: 500 # TD update
+          Nuclear: 500 # TD update
+          Onshore Wind Turbine: 500 # TD checked/no change
+          Hydroelectric Pumped Storage: 1500 # TD update
+          Natural Gas Steam Turbine: 500 # oil-gas-steam, nat gas combustion turbine is also 50
+          Solar Photovoltaic: 500 # TD update
+          Solar Thermal without Energy Storage: 500 # CSP in SWITCH
+          Geothermal: 500 # TD update
+          Municipal Solid Waste: 500
+          Landfill Gas: 500
+          Batteries: 500 # TD update
+          Wood/Wood Waste Biomass: 500 # TD update
+          Petroleum Coke: 500
+          All Other: 500
+          Natural Gas with Compressed Air Storage: 500 # assuming nat gas cs&ccs
+          Coal Integrated Gasification Combined Cycle: 500 # TD update
+          Other Waste Biomass: 500 # assuming biopower
+          Other Gases: 500 # asuming oil-gas-steam
+          Other Natural Gas: 500 # assuming oil-gas-steam
+          Solar Thermal with Energy Storage: 500 # solar items in table are 30
+          Flywheels: 500
+          Offshore Wind Turbine: 500 # TD checked/no change
+          Biomass: 500
         model_tag_values:
-          New_Build:
-            Conventional Steam Coal: -1
-            Natural Gas Fired Combined Cycle: -1
-            Natural Gas Fired Combustion Turbine: -1
-            Natural Gas Internal Combustion Engine: -1
-            Natural Gas Steam Turbine: -1
-            Nuclear: -1
-            Petroleum Liquids: -1
-            Distributed_Generation: -1
-            Onshore Wind Turbine: -1
-            Offshore Wind Turbine: -1
-            Solar Photovoltaic: -1
-            Batteries: -1
-            Nuclear_Nuclear: 1
+          Can_Retire:
+            Conventional Steam Coal: 1
+            Natural Gas Fired Combined Cycle: 1
+            Natural Gas Fired Combustion Turbine: 1
+            Natural Gas Internal Combustion Engine: 1
+            Natural Gas Steam Turbine: 1
+            Nuclear: 0
+            Petroleum Liquids: 1
+            Distributed_Generation: 1
+            Onshore Wind Turbine: 1
+            Offshore Wind Turbine: 1
+            Solar Photovoltaic: 1
+            Batteries: 1
     policies:
       none:
         emission_policies_fn: ~
+      existing:  
+        emission_policies_fn: conus_net_zero_emission_limits.csv
     period_years:
       ten:
         model_year: [2030, 2040, 2050]
@@ -799,20 +1834,997 @@ settings_management:
           - [Battery, "*", Conservative, 1]
     ira:
       yes:
+        renewables_clusters:
+          - region: all
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            filter:
+              - feature: lcoe
+                max: 80
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: BASN
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 100000
+            filter:
+              - feature: lcoe
+                max: 75
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: CANO
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            filter:
+              - feature: lcoe
+                max: 90
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: CASO
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            filter:
+              - feature: lcoe
+                max: 90
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: FRCC
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            # filter:
+            #   - feature: lcoe
+            #     max: 150
+            bin:
+              - feature: lcoe
+                q: 4
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 3
+                # mw_per_cluster: 15000
+                method: agg
+          - region: MISE
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            # filter:
+            #   - feature: lcoe
+            #     max: 150
+            bin:
+              - feature: lcoe
+                q: 4
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 3
+                # mw_per_cluster: 15000
+                method: agg
+          - region: MISW
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 200000
+            filter:
+              - feature: lcoe
+                max: 45
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: NWPP
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 100000
+            # filter:
+            #   - feature: lcoe
+            #     max: 45
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: NYUP
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 40000
+            # filter:
+            #   - feature: lcoe
+            #     max: 45
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: PJMD
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 20000
+            # filter:
+            #   - feature: lcoe
+            #     max: 135
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: PJME
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            # filter:
+            #   - feature: lcoe
+            #     max: 150
+            bin:
+              - feature: lcoe
+                q: 3
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 2
+                # mw_per_cluster: 15000
+                method: agg
+          - region: PJMW
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            # filter:
+            #   - feature: lcoe
+            #     max: 150
+            bin:
+              - feature: lcoe
+                q: 5
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: RMRG
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 150000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: SPPN
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 50000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: SPPS
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 175000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: SRCA
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 20000
+            # filter:
+            #   - feature: lcoe
+            #     max: 125
+            bin:
+              - feature: lcoe
+                q: 5
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 3
+                # mw_per_cluster: 15000
+                method: agg
+          - region: SRSG
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 100000
+            # filter:
+            #   - feature: lcoe
+            #     max: 125
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: TRE
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 200000
+            # filter:
+            #   - feature: lcoe
+            #     max: 125
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: TRE_WEST
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 100000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+
+          - region: all
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 100000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: BASN
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 100000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: FRCC
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 200000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: MISS
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 50000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: MISC
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: MISW
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 125000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: NYUP
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 60000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: PJMC
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 50000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: PJMD
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 125000
+            # filter:
+            #   - feature: lcoe
+            #     max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: PJME
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 125000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: PJMW
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 250000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: RMRG
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 75000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SPPC
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 60000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SPPN
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 50000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SPPS
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 75000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: SRCA
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            # filter:
+            #   - feature: lcoe
+            #     max: 30
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SRCE
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            # filter:
+            #   - feature: lcoe
+            #     max: 30
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SRSE
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            # filter:
+            #   - feature: lcoe
+            #     max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: SRSG
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: TRE_WEST
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 50000
+            # filter:
+            #   - feature: lcoe
+            #     max: 30
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+
+          - region: all
+            technology: offshorewind
+            turbine_type: fixed
+            pref_site: 1
+            filter:
+              - feature: lcoe
+                max: 150
+            bin:
+              - feature: interconnect_capex_mw
+                q: 3
+                weights: "mw"
+          - region: all
+            technology: offshorewind
+            turbine_type: floating
+            pref_site: 1
+            filter:
+              - feature: lcoe
+                max: 150
+                weights: "mw"
+            bin:
+              - feature: interconnect_capex_mw
+                q: 3
+                weights: "mw"
+          - region: all
+            technology: offshorewind
+            turbine_type: fixed
+            pref_site: 0
+            filter:
+              - feature: lcoe
+                max: 150
+            bin:
+              - feature: interconnect_capex_mw
+                q: 3
+                weights: "mw"
+          - region: all
+            technology: offshorewind
+            turbine_type: floating
+            pref_site: 0
+            filter:
+              - feature: lcoe
+                max: 150
+            bin:
+              - feature: interconnect_capex_mw
+                q: 3
+                weights: "mw"
         atb_modifiers:
           Offwind:
-            capex_mw: [mul, 0.5316]
+            capex_mw: [mul, 0.63]
           Offwind_floating:
-            capex_mw: [mul, 0.5316]
+            capex_mw: [mul, 0.63]
           upv:
             Var_OM_Cost_per_MWh: [sub, 12.28]
           Landwind:
             Var_OM_Cost_per_MWh: [sub, 13.08]
           bat:
-            capex_mw: [mul, 0.5316]
-            capex_mwh: [mul, 0.5316]
+            capex_mw: [mul, 0.63]
+            capex_mwh: [mul, 0.63]
           nuclear:
-            capex_mw: [mul, 0.5316]
+            capex_mw: [mul, 0.63]
       # no:
       #   atb_modifiers: ~
       #     # Offwind:
@@ -867,26 +2879,55 @@ settings_management:
             wacc_real: 0.05
     econ_retirement:
       yes:
-        retirement_ages: ~
-      no:
+        retirement_ages:
+          Conventional Hydroelectric: 1500 # TD update
+          Small Hydroelectric: 1500 # TD update
+          Conventional Steam Coal: 500 # TD update
+          Natural Gas Fired Combined Cycle: 500 # TD update
+          Natural Gas Fired Combustion Turbine: 500 # TD update
+          Petroleum Liquids: 500
+          Natural Gas Internal Combustion Engine: 500 # TD update
+          Nuclear: 500 # TD update
+          Onshore Wind Turbine: 500 # TD checked/no change
+          Hydroelectric Pumped Storage: 1500 # TD update
+          Natural Gas Steam Turbine: 500 # oil-gas-steam, nat gas combustion turbine is also 50
+          Solar Photovoltaic: 500 # TD update
+          Solar Thermal without Energy Storage: 500 # CSP in SWITCH
+          Geothermal: 500 # TD update
+          Municipal Solid Waste: 500
+          Landfill Gas: 500
+          Batteries: 500 # TD update
+          Wood/Wood Waste Biomass: 500 # TD update
+          Petroleum Coke: 500
+          All Other: 500
+          Natural Gas with Compressed Air Storage: 500 # assuming nat gas cs&ccs
+          Coal Integrated Gasification Combined Cycle: 500 # TD update
+          Other Waste Biomass: 500 # assuming biopower
+          Other Gases: 500 # asuming oil-gas-steam
+          Other Natural Gas: 500 # assuming oil-gas-steam
+          Solar Thermal with Energy Storage: 500 # solar items in table are 30
+          Flywheels: 500
+          Offshore Wind Turbine: 500 # TD checked/no change
+          Biomass: 500
         model_tag_values:
-          New_Build:
-            Conventional Steam Coal: -1
-            Natural Gas Fired Combined Cycle: -1
-            Natural Gas Fired Combustion Turbine: -1
-            Natural Gas Internal Combustion Engine: -1
-            Natural Gas Steam Turbine: -1
-            Nuclear: -1
-            Petroleum Liquids: -1
-            Distributed_Generation: -1
-            Onshore Wind Turbine: -1
-            Offshore Wind Turbine: -1
-            Solar Photovoltaic: -1
-            Batteries: -1
-            Nuclear_Nuclear: 1
+          Can_Retire:
+            Conventional Steam Coal: 1
+            Natural Gas Fired Combined Cycle: 1
+            Natural Gas Fired Combustion Turbine: 1
+            Natural Gas Internal Combustion Engine: 1
+            Natural Gas Steam Turbine: 1
+            Nuclear: 1
+            Petroleum Liquids: 1
+            Distributed_Generation: 1
+            Onshore Wind Turbine: 1
+            Offshore Wind Turbine: 1
+            Solar Photovoltaic: 1
+            Batteries: 1
     policies:
       none:
         emission_policies_fn: ~
+      existing:  
+        emission_policies_fn: conus_net_zero_emission_limits.csv
     period_years:
       ten:
         model_year: [2030, 2040, 2050]
@@ -1249,20 +3290,997 @@ settings_management:
           - [Battery, "*", Conservative, 1]
     ira:
       yes:
+        renewables_clusters:
+          - region: all
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            filter:
+              - feature: lcoe
+                max: 80
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: BASN
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 100000
+            filter:
+              - feature: lcoe
+                max: 75
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: CANO
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            filter:
+              - feature: lcoe
+                max: 90
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: CASO
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            filter:
+              - feature: lcoe
+                max: 90
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: FRCC
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            # filter:
+            #   - feature: lcoe
+            #     max: 150
+            bin:
+              - feature: lcoe
+                q: 4
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 3
+                # mw_per_cluster: 15000
+                method: agg
+          - region: MISE
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            # filter:
+            #   - feature: lcoe
+            #     max: 150
+            bin:
+              - feature: lcoe
+                q: 4
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 3
+                # mw_per_cluster: 15000
+                method: agg
+          - region: MISW
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 200000
+            filter:
+              - feature: lcoe
+                max: 45
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: NWPP
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 100000
+            # filter:
+            #   - feature: lcoe
+            #     max: 45
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: NYUP
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 40000
+            # filter:
+            #   - feature: lcoe
+            #     max: 45
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: PJMD
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 20000
+            # filter:
+            #   - feature: lcoe
+            #     max: 135
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: PJME
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            # filter:
+            #   - feature: lcoe
+            #     max: 150
+            bin:
+              - feature: lcoe
+                q: 3
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 2
+                # mw_per_cluster: 15000
+                method: agg
+          - region: PJMW
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            # filter:
+            #   - feature: lcoe
+            #     max: 150
+            bin:
+              - feature: lcoe
+                q: 5
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: RMRG
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 150000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: SPPN
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 50000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: SPPS
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 175000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: SRCA
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 20000
+            # filter:
+            #   - feature: lcoe
+            #     max: 125
+            bin:
+              - feature: lcoe
+                q: 5
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 3
+                # mw_per_cluster: 15000
+                method: agg
+          - region: SRSG
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 100000
+            # filter:
+            #   - feature: lcoe
+            #     max: 125
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: TRE
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 200000
+            # filter:
+            #   - feature: lcoe
+            #     max: 125
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: TRE_WEST
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 100000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+
+          - region: all
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 100000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: BASN
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 100000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: FRCC
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 200000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: MISS
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 50000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: MISC
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: MISW
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 125000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: NYUP
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 60000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: PJMC
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 50000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: PJMD
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 125000
+            # filter:
+            #   - feature: lcoe
+            #     max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: PJME
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 125000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: PJMW
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 250000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: RMRG
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 75000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SPPC
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 60000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SPPN
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 50000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SPPS
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 75000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: SRCA
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            # filter:
+            #   - feature: lcoe
+            #     max: 30
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SRCE
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            # filter:
+            #   - feature: lcoe
+            #     max: 30
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SRSE
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            # filter:
+            #   - feature: lcoe
+            #     max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: SRSG
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: TRE_WEST
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 50000
+            # filter:
+            #   - feature: lcoe
+            #     max: 30
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+
+          - region: all
+            technology: offshorewind
+            turbine_type: fixed
+            pref_site: 1
+            filter:
+              - feature: lcoe
+                max: 150
+            bin:
+              - feature: interconnect_capex_mw
+                q: 3
+                weights: "mw"
+          - region: all
+            technology: offshorewind
+            turbine_type: floating
+            pref_site: 1
+            filter:
+              - feature: lcoe
+                max: 150
+                weights: "mw"
+            bin:
+              - feature: interconnect_capex_mw
+                q: 3
+                weights: "mw"
+          - region: all
+            technology: offshorewind
+            turbine_type: fixed
+            pref_site: 0
+            filter:
+              - feature: lcoe
+                max: 150
+            bin:
+              - feature: interconnect_capex_mw
+                q: 3
+                weights: "mw"
+          - region: all
+            technology: offshorewind
+            turbine_type: floating
+            pref_site: 0
+            filter:
+              - feature: lcoe
+                max: 150
+            bin:
+              - feature: interconnect_capex_mw
+                q: 3
+                weights: "mw"
         atb_modifiers:
           Offwind:
-            capex_mw: [mul, 0.5316]
+            capex_mw: [mul, 0.63]
           Offwind_floating:
-            capex_mw: [mul, 0.5316]
+            capex_mw: [mul, 0.63]
           upv:
             Var_OM_Cost_per_MWh: [sub, 12.28]
           Landwind:
             Var_OM_Cost_per_MWh: [sub, 13.08]
           bat:
-            capex_mw: [mul, 0.5316]
-            capex_mwh: [mul, 0.5316]
+            capex_mw: [mul, 0.63]
+            capex_mwh: [mul, 0.63]
           nuclear:
-            capex_mw: [mul, 0.5316]
+            capex_mw: [mul, 0.63]
       # no:
       #   atb_modifiers: ~
       #     # Offwind:
@@ -1317,26 +4335,55 @@ settings_management:
             wacc_real: 0.05
     econ_retirement:
       yes:
-        retirement_ages: ~
-      no:
+        retirement_ages:
+          Conventional Hydroelectric: 1500 # TD update
+          Small Hydroelectric: 1500 # TD update
+          Conventional Steam Coal: 500 # TD update
+          Natural Gas Fired Combined Cycle: 500 # TD update
+          Natural Gas Fired Combustion Turbine: 500 # TD update
+          Petroleum Liquids: 500
+          Natural Gas Internal Combustion Engine: 500 # TD update
+          Nuclear: 500 # TD update
+          Onshore Wind Turbine: 500 # TD checked/no change
+          Hydroelectric Pumped Storage: 1500 # TD update
+          Natural Gas Steam Turbine: 500 # oil-gas-steam, nat gas combustion turbine is also 50
+          Solar Photovoltaic: 500 # TD update
+          Solar Thermal without Energy Storage: 500 # CSP in SWITCH
+          Geothermal: 500 # TD update
+          Municipal Solid Waste: 500
+          Landfill Gas: 500
+          Batteries: 500 # TD update
+          Wood/Wood Waste Biomass: 500 # TD update
+          Petroleum Coke: 500
+          All Other: 500
+          Natural Gas with Compressed Air Storage: 500 # assuming nat gas cs&ccs
+          Coal Integrated Gasification Combined Cycle: 500 # TD update
+          Other Waste Biomass: 500 # assuming biopower
+          Other Gases: 500 # asuming oil-gas-steam
+          Other Natural Gas: 500 # assuming oil-gas-steam
+          Solar Thermal with Energy Storage: 500 # solar items in table are 30
+          Flywheels: 500
+          Offshore Wind Turbine: 500 # TD checked/no change
+          Biomass: 500
         model_tag_values:
-          New_Build:
-            Conventional Steam Coal: -1
-            Natural Gas Fired Combined Cycle: -1
-            Natural Gas Fired Combustion Turbine: -1
-            Natural Gas Internal Combustion Engine: -1
-            Natural Gas Steam Turbine: -1
-            Nuclear: -1
-            Petroleum Liquids: -1
-            Distributed_Generation: -1
-            Onshore Wind Turbine: -1
-            Offshore Wind Turbine: -1
-            Solar Photovoltaic: -1
-            Batteries: -1
-            Nuclear_Nuclear: 1
+          Can_Retire:
+            Conventional Steam Coal: 1
+            Natural Gas Fired Combined Cycle: 1
+            Natural Gas Fired Combustion Turbine: 1
+            Natural Gas Internal Combustion Engine: 1
+            Natural Gas Steam Turbine: 1
+            Nuclear: 1
+            Petroleum Liquids: 1
+            Distributed_Generation: 1
+            Onshore Wind Turbine: 1
+            Offshore Wind Turbine: 1
+            Solar Photovoltaic: 1
+            Batteries: 1
     policies:
       none:
         emission_policies_fn: ~
+      existing:  
+        emission_policies_fn: conus_net_zero_emission_limits.csv
     period_years:
       ten:
         model_year: [2030, 2040, 2050]
@@ -1701,20 +4748,997 @@ settings_management:
           - [Battery, "*", Conservative, 1]
     ira:
       yes:
+        renewables_clusters:
+          - region: all
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            filter:
+              - feature: lcoe
+                max: 80
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: BASN
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 100000
+            filter:
+              - feature: lcoe
+                max: 75
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: CANO
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            filter:
+              - feature: lcoe
+                max: 90
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: CASO
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            filter:
+              - feature: lcoe
+                max: 90
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: FRCC
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            # filter:
+            #   - feature: lcoe
+            #     max: 150
+            bin:
+              - feature: lcoe
+                q: 4
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 3
+                # mw_per_cluster: 15000
+                method: agg
+          - region: MISE
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            # filter:
+            #   - feature: lcoe
+            #     max: 150
+            bin:
+              - feature: lcoe
+                q: 4
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 3
+                # mw_per_cluster: 15000
+                method: agg
+          - region: MISW
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 200000
+            filter:
+              - feature: lcoe
+                max: 45
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: NWPP
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 100000
+            # filter:
+            #   - feature: lcoe
+            #     max: 45
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: NYUP
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 40000
+            # filter:
+            #   - feature: lcoe
+            #     max: 45
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: PJMD
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 20000
+            # filter:
+            #   - feature: lcoe
+            #     max: 135
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: PJME
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            # filter:
+            #   - feature: lcoe
+            #     max: 150
+            bin:
+              - feature: lcoe
+                q: 3
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 2
+                # mw_per_cluster: 15000
+                method: agg
+          - region: PJMW
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            # filter:
+            #   - feature: lcoe
+            #     max: 150
+            bin:
+              - feature: lcoe
+                q: 5
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: RMRG
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 150000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: SPPN
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 50000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: SPPS
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 175000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: SRCA
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 20000
+            # filter:
+            #   - feature: lcoe
+            #     max: 125
+            bin:
+              - feature: lcoe
+                q: 5
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 3
+                # mw_per_cluster: 15000
+                method: agg
+          - region: SRSG
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 100000
+            # filter:
+            #   - feature: lcoe
+            #     max: 125
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: TRE
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 200000
+            # filter:
+            #   - feature: lcoe
+            #     max: 125
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+          - region: TRE_WEST
+            technology: landbasedwind
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.68
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.71 
+            min_capacity: 100000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                q: 6
+                weights: "mw"
+            cluster:
+              - feature: cf #profile
+                n_clusters: 4
+                # mw_per_cluster: 15000
+                method: agg
+
+          - region: all
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 100000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: BASN
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 100000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: FRCC
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 200000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: MISS
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 50000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: MISC
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: MISW
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 125000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: NYUP
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 60000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: PJMC
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 50000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: PJMD
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 125000
+            # filter:
+            #   - feature: lcoe
+            #     max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: PJME
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 125000
+            filter:
+              - feature: lcoe
+                max: 40
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: PJMW
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 250000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: RMRG
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 75000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SPPC
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 60000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SPPN
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 50000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SPPS
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 75000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: SRCA
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            # filter:
+            #   - feature: lcoe
+            #     max: 30
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SRCE
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            # filter:
+            #   - feature: lcoe
+            #     max: 30
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+          - region: SRSE
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            # filter:
+            #   - feature: lcoe
+            #     max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: SRSG
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 150000
+            filter:
+              - feature: lcoe
+                max: 35
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: longitude
+                n_clusters: 2
+                method: agg
+          - region: TRE_WEST
+            technology: UtilityPV
+            group:
+              - anyQual
+            group_modifiers:
+              - group: anyQual
+                group_value: 1
+                Var_OM_Cost_per_MWh: -10.18
+              - group: anyQual
+                group_value: 0
+                Var_OM_Cost_per_MWh: -9.25
+            min_capacity: 50000
+            # filter:
+            #   - feature: lcoe
+            #     max: 30
+            bin:
+              - feature: lcoe
+                weights: mw
+                q: 5
+                # bins: [0, 27, 31, 41]
+            cluster:
+              - feature: cf
+                n_clusters: 2
+                method: agg
+
+          - region: all
+            technology: offshorewind
+            turbine_type: fixed
+            pref_site: 1
+            filter:
+              - feature: lcoe
+                max: 150
+            bin:
+              - feature: interconnect_capex_mw
+                q: 3
+                weights: "mw"
+          - region: all
+            technology: offshorewind
+            turbine_type: floating
+            pref_site: 1
+            filter:
+              - feature: lcoe
+                max: 150
+                weights: "mw"
+            bin:
+              - feature: interconnect_capex_mw
+                q: 3
+                weights: "mw"
+          - region: all
+            technology: offshorewind
+            turbine_type: fixed
+            pref_site: 0
+            filter:
+              - feature: lcoe
+                max: 150
+            bin:
+              - feature: interconnect_capex_mw
+                q: 3
+                weights: "mw"
+          - region: all
+            technology: offshorewind
+            turbine_type: floating
+            pref_site: 0
+            filter:
+              - feature: lcoe
+                max: 150
+            bin:
+              - feature: interconnect_capex_mw
+                q: 3
+                weights: "mw"
         atb_modifiers:
           Offwind:
-            capex_mw: [mul, 0.5316]
+            capex_mw: [mul, 0.63]
           Offwind_floating:
-            capex_mw: [mul, 0.5316]
+            capex_mw: [mul, 0.63]
           upv:
             Var_OM_Cost_per_MWh: [sub, 12.28]
           Landwind:
             Var_OM_Cost_per_MWh: [sub, 13.08]
           bat:
-            capex_mw: [mul, 0.5316]
-            capex_mwh: [mul, 0.5316]
+            capex_mw: [mul, 0.63]
+            capex_mwh: [mul, 0.63]
           nuclear:
-            capex_mw: [mul, 0.5316]
+            capex_mw: [mul, 0.63]
       # no:
       #   atb_modifiers: ~
       #     # Offwind:
@@ -1769,26 +5793,55 @@ settings_management:
             wacc_real: 0.05
     econ_retirement:
       yes:
-        retirement_ages: ~
-      no:
+        retirement_ages:
+          Conventional Hydroelectric: 1500 # TD update
+          Small Hydroelectric: 1500 # TD update
+          Conventional Steam Coal: 500 # TD update
+          Natural Gas Fired Combined Cycle: 500 # TD update
+          Natural Gas Fired Combustion Turbine: 500 # TD update
+          Petroleum Liquids: 500
+          Natural Gas Internal Combustion Engine: 500 # TD update
+          Nuclear: 500 # TD update
+          Onshore Wind Turbine: 500 # TD checked/no change
+          Hydroelectric Pumped Storage: 1500 # TD update
+          Natural Gas Steam Turbine: 500 # oil-gas-steam, nat gas combustion turbine is also 50
+          Solar Photovoltaic: 500 # TD update
+          Solar Thermal without Energy Storage: 500 # CSP in SWITCH
+          Geothermal: 500 # TD update
+          Municipal Solid Waste: 500
+          Landfill Gas: 500
+          Batteries: 500 # TD update
+          Wood/Wood Waste Biomass: 500 # TD update
+          Petroleum Coke: 500
+          All Other: 500
+          Natural Gas with Compressed Air Storage: 500 # assuming nat gas cs&ccs
+          Coal Integrated Gasification Combined Cycle: 500 # TD update
+          Other Waste Biomass: 500 # assuming biopower
+          Other Gases: 500 # asuming oil-gas-steam
+          Other Natural Gas: 500 # assuming oil-gas-steam
+          Solar Thermal with Energy Storage: 500 # solar items in table are 30
+          Flywheels: 500
+          Offshore Wind Turbine: 500 # TD checked/no change
+          Biomass: 500
         model_tag_values:
-          New_Build:
-            Conventional Steam Coal: -1
-            Natural Gas Fired Combined Cycle: -1
-            Natural Gas Fired Combustion Turbine: -1
-            Natural Gas Internal Combustion Engine: -1
-            Natural Gas Steam Turbine: -1
-            Nuclear: -1
-            Petroleum Liquids: -1
-            Distributed_Generation: -1
-            Onshore Wind Turbine: -1
-            Offshore Wind Turbine: -1
-            Solar Photovoltaic: -1
-            Batteries: -1
-            Nuclear_Nuclear: 1
+          Can_Retire:
+            Conventional Steam Coal: 1
+            Natural Gas Fired Combined Cycle: 1
+            Natural Gas Fired Combustion Turbine: 1
+            Natural Gas Internal Combustion Engine: 1
+            Natural Gas Steam Turbine: 1
+            Nuclear: 1
+            Petroleum Liquids: 1
+            Distributed_Generation: 1
+            Onshore Wind Turbine: 1
+            Offshore Wind Turbine: 1
+            Solar Photovoltaic: 1
+            Batteries: 1
     policies:
       none:
         emission_policies_fn: ~
+      existing:  
+        emission_policies_fn: conus_net_zero_emission_limits.csv
     period_years:
       ten:
         model_year: [2030, 2040, 2050]
@@ -2153,18 +6206,18 @@ settings_management:
       yes: ~
         # atb_modifiers:
         #   Offwind:
-        #     capex_mw: [mul, 0.5316]
+        #     capex_mw: [mul, 0.63]
         #   Offwind_floating:
-        #     capex_mw: [mul, 0.5316]
+        #     capex_mw: [mul, 0.63]
         #   upv:
         #     Var_OM_Cost_per_MWh: [sub, 12.28]
         #   Landwind:
         #     Var_OM_Cost_per_MWh: [sub, 13.08]
         #   bat:
-        #     capex_mw: [mul, 0.5316]
-        #     capex_mwh: [mul, 0.5316]
+        #     capex_mw: [mul, 0.63]
+        #     capex_mwh: [mul, 0.63]
         #   nuclear:
-        #     capex_mw: [mul, 0.5316]
+        #     capex_mw: [mul, 0.63]
       no: ~
         # atb_modifiers: ~
           # Offwind:
@@ -2219,26 +6272,55 @@ settings_management:
             wacc_real: 0.05
     econ_retirement:
       yes:
-        retirement_ages: ~
-      no:
+        retirement_ages:
+          Conventional Hydroelectric: 1500 # TD update
+          Small Hydroelectric: 1500 # TD update
+          Conventional Steam Coal: 500 # TD update
+          Natural Gas Fired Combined Cycle: 500 # TD update
+          Natural Gas Fired Combustion Turbine: 500 # TD update
+          Petroleum Liquids: 500
+          Natural Gas Internal Combustion Engine: 500 # TD update
+          Nuclear: 500 # TD update
+          Onshore Wind Turbine: 500 # TD checked/no change
+          Hydroelectric Pumped Storage: 1500 # TD update
+          Natural Gas Steam Turbine: 500 # oil-gas-steam, nat gas combustion turbine is also 50
+          Solar Photovoltaic: 500 # TD update
+          Solar Thermal without Energy Storage: 500 # CSP in SWITCH
+          Geothermal: 500 # TD update
+          Municipal Solid Waste: 500
+          Landfill Gas: 500
+          Batteries: 500 # TD update
+          Wood/Wood Waste Biomass: 500 # TD update
+          Petroleum Coke: 500
+          All Other: 500
+          Natural Gas with Compressed Air Storage: 500 # assuming nat gas cs&ccs
+          Coal Integrated Gasification Combined Cycle: 500 # TD update
+          Other Waste Biomass: 500 # assuming biopower
+          Other Gases: 500 # asuming oil-gas-steam
+          Other Natural Gas: 500 # assuming oil-gas-steam
+          Solar Thermal with Energy Storage: 500 # solar items in table are 30
+          Flywheels: 500
+          Offshore Wind Turbine: 500 # TD checked/no change
+          Biomass: 500
         model_tag_values:
-          New_Build:
-            Conventional Steam Coal: -1
-            Natural Gas Fired Combined Cycle: -1
-            Natural Gas Fired Combustion Turbine: -1
-            Natural Gas Internal Combustion Engine: -1
-            Natural Gas Steam Turbine: -1
-            Nuclear: -1
-            Petroleum Liquids: -1
-            Distributed_Generation: -1
-            Onshore Wind Turbine: -1
-            Offshore Wind Turbine: -1
-            Solar Photovoltaic: -1
-            Batteries: -1
-            Nuclear_Nuclear: 1
+          Can_Retire:
+            Conventional Steam Coal: 1
+            Natural Gas Fired Combined Cycle: 1
+            Natural Gas Fired Combustion Turbine: 1
+            Natural Gas Internal Combustion Engine: 1
+            Natural Gas Steam Turbine: 1
+            Nuclear: 1
+            Petroleum Liquids: 1
+            Distributed_Generation: 1
+            Onshore Wind Turbine: 1
+            Offshore Wind Turbine: 1
+            Solar Photovoltaic: 1
+            Batteries: 1
     policies:
       none:
         emission_policies_fn: ~
+      existing:  
+        emission_policies_fn: conus_net_zero_emission_limits.csv
     period_years:
       ten:
         model_year: [2030, 2040, 2050]
@@ -2605,18 +6687,18 @@ settings_management:
       yes: ~
         # atb_modifiers:
         #   Offwind:
-        #     capex_mw: [mul, 0.5316]
+        #     capex_mw: [mul, 0.63]
         #   Offwind_floating:
-        #     capex_mw: [mul, 0.5316]
+        #     capex_mw: [mul, 0.63]
         #   upv:
         #     Var_OM_Cost_per_MWh: [sub, 12.28]
         #   Landwind:
         #     Var_OM_Cost_per_MWh: [sub, 13.08]
         #   bat:
-        #     capex_mw: [mul, 0.5316]
-        #     capex_mwh: [mul, 0.5316]
+        #     capex_mw: [mul, 0.63]
+        #     capex_mwh: [mul, 0.63]
         #   nuclear:
-        #     capex_mw: [mul, 0.5316]
+        #     capex_mw: [mul, 0.63]
       no: ~
         # atb_modifiers: ~
           # Offwind:

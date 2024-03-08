@@ -7,6 +7,7 @@
 
 model_tag_names:
   - New_Build
+  - Can_Retire
   - THERM
   - VRE
   - Num_VRE_Bins
@@ -86,19 +87,6 @@ default_model_tag: 0
 
 model_tag_values:
   New_Build:
-    Nuclear: 0
-    Biomass: -1
-    Batteries: -1
-    Geothermal: -1
-    Conventional Hydroelectric: -1
-    Hydroelectric Pumped Storage: -1
-    Small Hydroelectric: -1
-    trans_light_duty: -1
-    comm_water_heat: -1
-    comm_space_heat_cool: -1
-    res_water_heat: -1
-    res_space_heat_cool: -1
-    Distributed_Generation: -1
     Battery: 1
     NaturalGas_: 1
     LandbasedWind_: 1
@@ -106,8 +94,9 @@ model_tag_values:
     UtilityPV_: 1
     AdvNuclear_: 1
     Hydrogen_: 1
-    CandGeothermal_: 1
     Nuclear_Nuclear: 1
+  Can_Retire:
+    Distributed_Generation: 0
   THERM: 
     Conventional Steam Coal: 1
     Natural Gas Fired Combined Cycle: 1
