@@ -1,6 +1,6 @@
 # The location and name of additional input files needed to create outputs
 input_folder: CONUS_extra_inputs # Subfolder directly below the location of this settings file
-case_id_description_fn: conus_case_id_description.csv # Match the case_id with longer case_name
+# case_id_description_fn: conus_case_id_description.csv # Match the case_id with longer case_name
 scenario_definitions_fn: conus_scenario_inputs.csv # Define policy/cost scenarios for each case
 emission_policies_fn: conus_net_zero_emission_limits.csv # Emission policies for each model_year/region/case_id
 capacity_limit_spur_fn: conus_resource_capacity_spur.csv # Max capacity and spur line distance for each renewable resource

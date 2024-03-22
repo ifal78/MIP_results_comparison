@@ -11,7 +11,7 @@
 # parameter from this settings file with a value that should be modified for a specific
 # case.
 settings_management:
-  2025:
+  2027:
     carbon_slack:
       base:
         carbon_cost_dollar_per_tco2: 200
@@ -95,11 +95,11 @@ settings_management:
       none:
         emission_policies_fn: ~
       existing:  
-        emission_policies_fn: conus_net_zero_emission_limits.csv
+        emission_policies_fn: conus_current_policy_rps_ces_emission_limits.csv
     time_reduction:
       all_hours:
           reduce_time_domain: false
-      none:
+      52_weeks:
         time_domain_periods: 52 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
       20_weeks:
@@ -266,6 +266,85 @@ settings_management:
         electrification_scenario: IRA_MID
       none:
         flexible_demand_resources: ~
+    hydrogen_gen:
+      greenfield:
+        modified_atb_new_gen:
+          zcf_ct:
+            new_technology: Hydrogen
+            new_tech_detail: F-Frame CT
+            new_cost_case: Moderate
+            atb_technology: NaturalGas
+            atb_tech_detail: F-Frame CT
+            atb_cost_case: Moderate # ATB CCCCS conservative case represents current technology.
+            size_mw: 100
+            capex_mw: [mul, 1.1]
+          zcf_cc:
+            new_technology: Hydrogen
+            new_tech_detail: H-Frame CC
+            new_cost_case: Moderate
+            atb_technology: NaturalGas
+            atb_tech_detail: H-Frame CC
+            atb_cost_case: Moderate # ATB CCCCS conservative case represents current technology.
+            size_mw: 500
+            capex_mw: [mul, 1.1]
+      retrofit:
+        modified_atb_new_gen:
+          zcf_ct:
+            new_technology: Hydrogen
+            new_tech_detail: F-Frame CT
+            new_cost_case: Moderate
+            atb_technology: NaturalGas
+            atb_tech_detail: F-Frame CT
+            atb_cost_case: Moderate # ATB CCCCS conservative case represents current technology.
+            size_mw: 100
+            capex_mw: [mul, 0.6]
+          zcf_cc:
+            new_technology: Hydrogen
+            new_tech_detail: H-Frame CC
+            new_cost_case: Moderate
+            atb_technology: NaturalGas
+            atb_tech_detail: H-Frame CC
+            atb_cost_case: Moderate # ATB CCCCS conservative case represents current technology.
+            size_mw: 500
+            capex_mw: [mul, 0.6]
+      both:
+        modified_atb_new_gen:
+          zcf_ct_greenfield:
+            new_technology: Hydrogen
+            new_tech_detail: F-Frame CT
+            new_cost_case: Moderate
+            atb_technology: NaturalGas
+            atb_tech_detail: F-Frame CT
+            atb_cost_case: Moderate # ATB CCCCS conservative case represents current technology.
+            size_mw: 100
+            capex_mw: [mul, 1.1]
+          zcf_cc_greenfield:
+            new_technology: Hydrogen
+            new_tech_detail: H-Frame CC
+            new_cost_case: Moderate
+            atb_technology: NaturalGas
+            atb_tech_detail: H-Frame CC
+            atb_cost_case: Moderate # ATB CCCCS conservative case represents current technology.
+            size_mw: 500
+            capex_mw: [mul, 1.1]
+          zcf_ct_retro:
+            new_technology: Hydrogen
+            new_tech_detail: F-Frame CT_RetrofitNGCT
+            new_cost_case: Moderate
+            atb_technology: NaturalGas
+            atb_tech_detail: F-Frame CT
+            atb_cost_case: Moderate # ATB CCCCS conservative case represents current technology.
+            size_mw: 100
+            capex_mw: [mul, 0.6]
+          zcf_cc_retro:
+            new_technology: Hydrogen
+            new_tech_detail: H-Frame CC_RetrofitNGCC
+            new_cost_case: Moderate
+            atb_technology: NaturalGas
+            atb_tech_detail: H-Frame CC
+            atb_cost_case: Moderate # ATB CCCCS conservative case represents current technology.
+            size_mw: 500
+            capex_mw: [mul, 0.6]
     dac:
       no:
         carbon_tax: 0
@@ -395,8 +474,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: BASN
             technology: landbasedwind
@@ -419,8 +498,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: CANO
             technology: landbasedwind
@@ -442,8 +521,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: CASO
             technology: landbasedwind
@@ -465,8 +544,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: FRCC
             technology: landbasedwind
@@ -535,8 +614,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: NWPP
             technology: landbasedwind
@@ -559,8 +638,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: NYUP
             technology: landbasedwind
@@ -583,8 +662,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: PJMD
             technology: landbasedwind
@@ -607,8 +686,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: PJME
             technology: landbasedwind
@@ -653,8 +732,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: RMRG
             technology: landbasedwind
@@ -677,8 +756,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: SPPN
             technology: landbasedwind
@@ -701,8 +780,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: SPPS
             technology: landbasedwind
@@ -725,8 +804,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: SRCA
             technology: landbasedwind
@@ -773,8 +852,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: TRE
             technology: landbasedwind
@@ -797,10 +876,10 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
-          - region: TRE_WEST
+          - region: TREW
             technology: landbasedwind
             group:
               - anyQual
@@ -821,12 +900,12 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
 
           - region: all
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -847,10 +926,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: BASN
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -871,10 +951,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: FRCC
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -895,10 +976,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: MISS
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -919,10 +1001,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: MISC
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -943,10 +1026,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: MISW
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -967,10 +1051,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: NYUP
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -991,10 +1076,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: PJMC
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -1015,10 +1101,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: PJMD
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -1039,10 +1126,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: PJME
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -1063,10 +1151,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: PJMW
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -1087,10 +1176,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: RMRG
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -1111,10 +1201,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SPPC
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -1135,10 +1226,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SPPN
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -1159,10 +1251,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SPPS
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -1183,10 +1276,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SRCA
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -1207,10 +1301,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SRCE
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -1231,10 +1326,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SRSE
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -1255,10 +1351,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SRSG
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -1279,10 +1376,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
-          - region: TRE_WEST
-            technology: UtilityPV
+          - region: TREW
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -1303,7 +1401,8 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
 
           - region: all
@@ -1313,6 +1412,8 @@ settings_management:
             filter:
               - feature: lcoe
                 max: 150
+              - feature: d_shore_m
+                min: 15
             bin:
               - feature: interconnect_capex_mw
                 q: 3
@@ -1324,6 +1425,8 @@ settings_management:
             filter:
               - feature: lcoe
                 max: 150
+              - feature: d_shore_m
+                min: 15
                 weights: "mw"
             bin:
               - feature: interconnect_capex_mw
@@ -1336,6 +1439,8 @@ settings_management:
             filter:
               - feature: lcoe
                 max: 150
+              - feature: d_shore_m
+                min: 15
             bin:
               - feature: interconnect_capex_mw
                 q: 3
@@ -1347,6 +1452,8 @@ settings_management:
             filter:
               - feature: lcoe
                 max: 150
+              - feature: d_shore_m
+                min: 15
             bin:
               - feature: interconnect_capex_mw
                 q: 3
@@ -1356,10 +1463,6 @@ settings_management:
             capex_mw: [mul, 0.63]
           Offwind_floating:
             capex_mw: [mul, 0.63]
-          upv:
-            Var_OM_Cost_per_MWh: [sub, 12.28]
-          Landwind:
-            Var_OM_Cost_per_MWh: [sub, 13.08]
           bat:
             capex_mw: [mul, 0.63]
             capex_mwh: [mul, 0.63]
@@ -1467,7 +1570,7 @@ settings_management:
       none:
         emission_policies_fn: ~
       existing:  
-        emission_policies_fn: conus_net_zero_emission_limits.csv
+        emission_policies_fn: conus_current_policy_rps_ces_emission_limits.csv
     period_years:
       ten:
         model_year: [2030, 2040, 2050]
@@ -1475,7 +1578,7 @@ settings_management:
     time_reduction:
       all_hours:
         reduce_time_domain: false
-      none:
+      52_weeks:
         time_domain_periods: 52 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
       20_weeks:
@@ -1855,8 +1958,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: BASN
             technology: landbasedwind
@@ -1879,8 +1982,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: CANO
             technology: landbasedwind
@@ -1902,8 +2005,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: CASO
             technology: landbasedwind
@@ -1925,8 +2028,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: FRCC
             technology: landbasedwind
@@ -1995,8 +2098,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: NWPP
             technology: landbasedwind
@@ -2019,8 +2122,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: NYUP
             technology: landbasedwind
@@ -2043,8 +2146,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: PJMD
             technology: landbasedwind
@@ -2067,8 +2170,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: PJME
             technology: landbasedwind
@@ -2113,8 +2216,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: RMRG
             technology: landbasedwind
@@ -2137,8 +2240,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: SPPN
             technology: landbasedwind
@@ -2161,8 +2264,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: SPPS
             technology: landbasedwind
@@ -2185,8 +2288,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: SRCA
             technology: landbasedwind
@@ -2233,8 +2336,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: TRE
             technology: landbasedwind
@@ -2257,10 +2360,10 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
-          - region: TRE_WEST
+          - region: TREW
             technology: landbasedwind
             group:
               - anyQual
@@ -2281,12 +2384,12 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
 
           - region: all
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2307,10 +2410,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: BASN
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2331,10 +2435,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: FRCC
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2355,10 +2460,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: MISS
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2379,10 +2485,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: MISC
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2403,10 +2510,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: MISW
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2427,10 +2535,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: NYUP
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2451,10 +2560,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: PJMC
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2475,10 +2585,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: PJMD
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2499,10 +2610,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: PJME
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2523,10 +2635,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: PJMW
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2547,10 +2660,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: RMRG
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2571,10 +2685,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SPPC
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2595,10 +2710,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SPPN
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2619,10 +2735,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SPPS
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2643,10 +2760,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SRCA
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2667,10 +2785,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SRCE
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2691,10 +2810,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SRSE
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2715,10 +2835,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SRSG
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2739,10 +2860,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
-          - region: TRE_WEST
-            technology: UtilityPV
+          - region: TREW
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -2763,7 +2885,8 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
 
           - region: all
@@ -2773,6 +2896,8 @@ settings_management:
             filter:
               - feature: lcoe
                 max: 150
+              - feature: d_shore_m
+                min: 15
             bin:
               - feature: interconnect_capex_mw
                 q: 3
@@ -2784,6 +2909,8 @@ settings_management:
             filter:
               - feature: lcoe
                 max: 150
+              - feature: d_shore_m
+                min: 15
                 weights: "mw"
             bin:
               - feature: interconnect_capex_mw
@@ -2796,6 +2923,8 @@ settings_management:
             filter:
               - feature: lcoe
                 max: 150
+              - feature: d_shore_m
+                min: 15
             bin:
               - feature: interconnect_capex_mw
                 q: 3
@@ -2807,6 +2936,8 @@ settings_management:
             filter:
               - feature: lcoe
                 max: 150
+              - feature: d_shore_m
+                min: 15
             bin:
               - feature: interconnect_capex_mw
                 q: 3
@@ -2816,10 +2947,10 @@ settings_management:
             capex_mw: [mul, 0.63]
           Offwind_floating:
             capex_mw: [mul, 0.63]
-          upv:
-            Var_OM_Cost_per_MWh: [sub, 12.28]
-          Landwind:
-            Var_OM_Cost_per_MWh: [sub, 13.08]
+          # upv:
+          #   Var_OM_Cost_per_MWh: [sub, 12.28]
+          # Landwind:
+          #   Var_OM_Cost_per_MWh: [sub, 13.08]
           bat:
             capex_mw: [mul, 0.63]
             capex_mwh: [mul, 0.63]
@@ -2927,7 +3058,7 @@ settings_management:
       none:
         emission_policies_fn: ~
       existing:  
-        emission_policies_fn: conus_net_zero_emission_limits.csv
+        emission_policies_fn: conus_current_policy_rps_ces_emission_limits.csv
     period_years:
       ten:
         model_year: [2030, 2040, 2050]
@@ -2935,7 +3066,7 @@ settings_management:
     time_reduction:
       all_hours:
           reduce_time_domain: false
-      none:
+      52_weeks:
         time_domain_periods: 52 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
       20_weeks:
@@ -3311,8 +3442,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: BASN
             technology: landbasedwind
@@ -3335,8 +3466,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: CANO
             technology: landbasedwind
@@ -3358,8 +3489,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: CASO
             technology: landbasedwind
@@ -3381,8 +3512,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: FRCC
             technology: landbasedwind
@@ -3451,8 +3582,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: NWPP
             technology: landbasedwind
@@ -3475,8 +3606,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: NYUP
             technology: landbasedwind
@@ -3499,8 +3630,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: PJMD
             technology: landbasedwind
@@ -3523,8 +3654,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: PJME
             technology: landbasedwind
@@ -3569,8 +3700,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: RMRG
             technology: landbasedwind
@@ -3593,8 +3724,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: SPPN
             technology: landbasedwind
@@ -3617,8 +3748,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: SPPS
             technology: landbasedwind
@@ -3641,8 +3772,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: SRCA
             technology: landbasedwind
@@ -3689,8 +3820,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: TRE
             technology: landbasedwind
@@ -3713,10 +3844,10 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
-          - region: TRE_WEST
+          - region: TREW
             technology: landbasedwind
             group:
               - anyQual
@@ -3737,12 +3868,12 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
 
           - region: all
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -3763,10 +3894,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: BASN
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -3787,10 +3919,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: FRCC
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -3811,10 +3944,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: MISS
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -3835,10 +3969,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: MISC
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -3859,10 +3994,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: MISW
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -3883,10 +4019,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: NYUP
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -3907,10 +4044,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: PJMC
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -3931,10 +4069,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: PJMD
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -3955,10 +4094,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: PJME
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -3979,10 +4119,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: PJMW
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -4003,10 +4144,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: RMRG
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -4027,10 +4169,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SPPC
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -4051,10 +4194,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SPPN
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -4075,10 +4219,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SPPS
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -4099,10 +4244,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SRCA
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -4123,10 +4269,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SRCE
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -4147,10 +4294,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SRSE
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -4171,10 +4319,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SRSG
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -4195,10 +4344,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
-          - region: TRE_WEST
-            technology: UtilityPV
+          - region: TREW
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -4219,7 +4369,8 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
 
           - region: all
@@ -4229,6 +4380,8 @@ settings_management:
             filter:
               - feature: lcoe
                 max: 150
+              - feature: d_shore_m
+                min: 15
             bin:
               - feature: interconnect_capex_mw
                 q: 3
@@ -4240,6 +4393,8 @@ settings_management:
             filter:
               - feature: lcoe
                 max: 150
+              - feature: d_shore_m
+                min: 15
                 weights: "mw"
             bin:
               - feature: interconnect_capex_mw
@@ -4252,6 +4407,8 @@ settings_management:
             filter:
               - feature: lcoe
                 max: 150
+              - feature: d_shore_m
+                min: 15
             bin:
               - feature: interconnect_capex_mw
                 q: 3
@@ -4263,6 +4420,8 @@ settings_management:
             filter:
               - feature: lcoe
                 max: 150
+              - feature: d_shore_m
+                min: 15
             bin:
               - feature: interconnect_capex_mw
                 q: 3
@@ -4272,10 +4431,7 @@ settings_management:
             capex_mw: [mul, 0.63]
           Offwind_floating:
             capex_mw: [mul, 0.63]
-          upv:
-            Var_OM_Cost_per_MWh: [sub, 12.28]
-          Landwind:
-            Var_OM_Cost_per_MWh: [sub, 13.08]
+
           bat:
             capex_mw: [mul, 0.63]
             capex_mwh: [mul, 0.63]
@@ -4383,7 +4539,7 @@ settings_management:
       none:
         emission_policies_fn: ~
       existing:  
-        emission_policies_fn: conus_net_zero_emission_limits.csv
+        emission_policies_fn: conus_current_policy_rps_ces_emission_limits.csv
     period_years:
       ten:
         model_year: [2030, 2040, 2050]
@@ -4391,7 +4547,7 @@ settings_management:
     time_reduction:
       all_hours:
           reduce_time_domain: false
-      none:
+      52_weeks:
         time_domain_periods: 52 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
       20_weeks:
@@ -4769,8 +4925,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: BASN
             technology: landbasedwind
@@ -4793,8 +4949,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: CANO
             technology: landbasedwind
@@ -4816,8 +4972,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: CASO
             technology: landbasedwind
@@ -4839,8 +4995,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: FRCC
             technology: landbasedwind
@@ -4909,8 +5065,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: NWPP
             technology: landbasedwind
@@ -4933,8 +5089,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: NYUP
             technology: landbasedwind
@@ -4957,8 +5113,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: PJMD
             technology: landbasedwind
@@ -4981,8 +5137,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: PJME
             technology: landbasedwind
@@ -5027,8 +5183,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: RMRG
             technology: landbasedwind
@@ -5051,8 +5207,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: SPPN
             technology: landbasedwind
@@ -5075,8 +5231,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: SPPS
             technology: landbasedwind
@@ -5099,8 +5255,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: SRCA
             technology: landbasedwind
@@ -5147,8 +5303,8 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
           - region: TRE
             technology: landbasedwind
@@ -5171,10 +5327,10 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
-          - region: TRE_WEST
+          - region: TREW
             technology: landbasedwind
             group:
               - anyQual
@@ -5195,12 +5351,12 @@ settings_management:
                 weights: "mw"
             cluster:
               - feature: cf #profile
-                n_clusters: 4
-                # mw_per_cluster: 15000
+                # n_clusters: 4
+                mw_per_cluster: 5000
                 method: agg
 
           - region: all
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5221,10 +5377,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: BASN
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5245,10 +5402,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: FRCC
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5269,10 +5427,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: MISS
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5293,10 +5452,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: MISC
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5317,10 +5477,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: MISW
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5341,10 +5502,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: NYUP
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5365,10 +5527,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: PJMC
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5389,10 +5552,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: PJMD
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5413,10 +5577,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: PJME
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5437,10 +5602,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: PJMW
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5461,10 +5627,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: RMRG
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5485,10 +5652,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SPPC
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5509,10 +5677,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SPPN
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5533,10 +5702,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SPPS
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5557,10 +5727,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SRCA
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5581,10 +5752,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SRCE
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5605,10 +5777,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SRSE
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5629,10 +5802,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
           - region: SRSG
-            technology: UtilityPV
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5653,10 +5827,11 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: longitude
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
-          - region: TRE_WEST
-            technology: UtilityPV
+          - region: TREW
+            technology: utilitypv
             group:
               - anyQual
             group_modifiers:
@@ -5677,7 +5852,8 @@ settings_management:
                 # bins: [0, 27, 31, 41]
             cluster:
               - feature: cf
-                n_clusters: 2
+                # n_clusters: 2
+                mw_per_cluster: 10000
                 method: agg
 
           - region: all
@@ -5687,6 +5863,8 @@ settings_management:
             filter:
               - feature: lcoe
                 max: 150
+              - feature: d_shore_m
+                min: 15
             bin:
               - feature: interconnect_capex_mw
                 q: 3
@@ -5698,6 +5876,8 @@ settings_management:
             filter:
               - feature: lcoe
                 max: 150
+              - feature: d_shore_m
+                min: 15
                 weights: "mw"
             bin:
               - feature: interconnect_capex_mw
@@ -5710,6 +5890,8 @@ settings_management:
             filter:
               - feature: lcoe
                 max: 150
+              - feature: d_shore_m
+                min: 15
             bin:
               - feature: interconnect_capex_mw
                 q: 3
@@ -5721,6 +5903,8 @@ settings_management:
             filter:
               - feature: lcoe
                 max: 150
+              - feature: d_shore_m
+                min: 15
             bin:
               - feature: interconnect_capex_mw
                 q: 3
@@ -5730,10 +5914,6 @@ settings_management:
             capex_mw: [mul, 0.63]
           Offwind_floating:
             capex_mw: [mul, 0.63]
-          upv:
-            Var_OM_Cost_per_MWh: [sub, 12.28]
-          Landwind:
-            Var_OM_Cost_per_MWh: [sub, 13.08]
           bat:
             capex_mw: [mul, 0.63]
             capex_mwh: [mul, 0.63]
@@ -5841,7 +6021,7 @@ settings_management:
       none:
         emission_policies_fn: ~
       existing:  
-        emission_policies_fn: conus_net_zero_emission_limits.csv
+        emission_policies_fn: conus_current_policy_rps_ces_emission_limits.csv
     period_years:
       ten:
         model_year: [2030, 2040, 2050]
@@ -5849,7 +6029,7 @@ settings_management:
     time_reduction:
       all_hours:
           reduce_time_domain: false
-      none:
+      52_weeks:
         time_domain_periods: 52 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
       20_weeks:
@@ -6320,7 +6500,7 @@ settings_management:
       none:
         emission_policies_fn: ~
       existing:  
-        emission_policies_fn: conus_net_zero_emission_limits.csv
+        emission_policies_fn: conus_current_policy_rps_ces_emission_limits.csv
     period_years:
       ten:
         model_year: [2030, 2040, 2050]
@@ -6328,7 +6508,7 @@ settings_management:
     time_reduction:
       all_hours:
           reduce_time_domain: false
-      none:
+      52_weeks:
         time_domain_periods: 52 # The number of periods/clusters
         time_domain_days_per_period: 7 # The number of 24 hour days in each period/cluster
       20_weeks:

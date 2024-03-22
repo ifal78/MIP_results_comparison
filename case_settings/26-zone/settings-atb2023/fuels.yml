@@ -39,7 +39,7 @@ aeo_fuel_scenarios:
 aeo_fuel_region_map:
   mountain: [WECC_AZ, WECC_NM, WECC_CO, WECC_SNV, WECC_ID, WECC_WY, WECC_UT, WECC_NNV, WECC_NW, BASN, RMRG, SRSG]
   pacific: [WECC_PNW, WEC_CALN, WEC_BANC, WECC_IID, WECC_SCE, WEC_LADW, WEC_SDGE, CA_N, CA_S, CANO, CASO, NWPP]
-  west_south_central: [ERC_PHDL, ERC_REST, ERC_WEST, SPP_WEST, SPP_SPS, MIS_AMSO, MIS_WOTA, MIS_LA, MIS_AR, TRE, TRE_WEST, SPPS, MISS]
+  west_south_central: [ERC_PHDL, ERC_REST, ERC_WEST, SPP_WEST, SPP_SPS, MIS_AMSO, MIS_WOTA, MIS_LA, MIS_AR, TRE, TREW, SPPS, MISS]
   east_south_central: [MIS_D_MS, S_C_TVA, S_C_KY, SRCE]
   south_atlantic: [FRCC, S_SOU, S_VACA, PJM_Dom, PJM_SMAC, PJM_AP, SRSE, PJMD, SRCA]
   west_north_central: [MIS_MAPP, SPP_WAUE, SPP_NEBR, MIS_MIDA, SPP_N, MIS_MNWI, MIS_IA, MIS_MO, S_D_AECI, SPPC, SPPN]
@@ -91,13 +91,13 @@ tech_fuel_map:
 ccs_fuel_map:
   #NETL_NGCC_CCS: naturalgas_ccs90
   # NaturalGas_CCS100: naturalgas_ccs100
-  NaturalGas_H-Frame CC 95% CCS: naturalgas_ccs90
+  NaturalGas_H-Frame CC 95% CCS: naturalgas_ccs95
   # Coal_CCS30: coal_ccs30
   # Coal_CCS90: coal_ccs90
 
 ccs_capture_rate:
   # naturalgas_ccs100: 1.0
-  naturalgas_ccs90: 0.9
+  naturalgas_ccs95: 0.95
   # coal_ccs30: 0.3
   # coal_ccs90: 0.9
 

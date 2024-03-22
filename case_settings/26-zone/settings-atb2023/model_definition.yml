@@ -29,7 +29,7 @@ model_regions:
   - SRSE
   - SRSG
   - TRE
-  - TRE_WEST
+  - TREW
 
 # Comment out this setting if no aggregated regions are included in the study.
 region_aggregations:
@@ -58,7 +58,7 @@ region_aggregations:
   SRCE: [S_C_TVA, S_C_KY] # Note that S_C_KY technically belongs to PJM
   SRSG: [WECC_IID, WECC_AZ, WECC_NM]
   TRE: [ERC_REST]
-  TRE_WEST: [ERC_PHDL, ERC_WEST]
+  TREW: [ERC_PHDL, ERC_WEST]
 
 # Dollar year that all outputs will be converted to
 target_usd_year: 2020
@@ -69,8 +69,8 @@ target_usd_year: 2020
 # profiles, etc
 # - "model_first_planning_year": The first year of each planning period. Capex for
 # new-build generators from ATB are an average of costs from first to last (inclusive).
-model_year: [2025, 2030, 2035, 2040, 2045, 2050]
-model_first_planning_year: [2023, 2026, 2031, 2036, 2041, 2046]
+model_year: [2027, 2030, 2035, 2040, 2045, 2050]
+model_first_planning_year: [2024, 2028, 2031, 2036, 2041, 2046]
 
 
 # HOURS OFFSET FROM UTC
@@ -96,7 +96,7 @@ regional_capacity_reserves:
     SPPS: 0.16
   CapRes_5: # ERCOT = 13.75%
     TRE: 0.1375
-    TRE_WEST: 0.1375
+    TREW: 0.1375
   CapRes_6: # MISO = 17.9%
     MISC: 0.179
     MISE: 0.179

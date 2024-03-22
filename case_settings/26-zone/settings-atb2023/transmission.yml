@@ -34,7 +34,7 @@ transmission_investment_cost:
       ERC_REST: 4333 # tx
       ERC_WEST: 4333 # tx
       ERC_PHDL: 4333 # tx
-      TRE_WEST: 4333 # tx
+      TREW: 4333 # tx
     wacc: 0.044
     investment_years: 60
   offshore_spur:
@@ -88,7 +88,7 @@ transmission_investment_cost:
       SRSE: 1500 # south
       SRSG: 1500 # wecc
       TRE: 1500 # tx
-      TRE_WEST: 1500 # tx
+      TREW: 1500 # tx
     wacc: 0.044
     investment_years: 60
 # Percent expansion in planning period above and beyond existing transmission

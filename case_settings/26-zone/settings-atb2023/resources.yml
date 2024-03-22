@@ -214,7 +214,7 @@ small_hydro_regions:
   - SRSE
   - SRSG
   - TRE
-  - TRE_WEST
+  - TREW
 
 
 # Factors for calculating hydro energy to power ratio in GenX. The default factors is
@@ -261,7 +261,7 @@ energy_storage_duration:
     SRSE: 2
     SRSG: 2
     TRE: 2
-    TRE_WEST: 2
+    TREW: 2
 
 # Generator cost data from NREL ATB
 
@@ -390,7 +390,7 @@ co2_pipeline_filters:
     tech_detail: H-Frame CC 95% CCS
     with_backbone: false
     percentile: 25
-    capture_rate: 90
+    capture_rate: 95
 
 # Additional technologies can be specified in a csv file under data/additional_technologies
 # Provide the filename (no path needed) in the parameter below or "~" for none.
@@ -416,7 +416,7 @@ new_gen_not_available: ~
   #   - OffShoreWind
 
 
-clustering_n_jobs: 4
+clustering_n_jobs: 1
 renewables_clusters:
   - region: all
     technology: landbasedwind
@@ -431,8 +431,8 @@ renewables_clusters:
         weights: "mw"
     cluster:
       - feature: cf #profile
-        n_clusters: 4
-        # mw_per_cluster: 15000
+        # n_clusters: 4
+        mw_per_cluster: 5000
         method: agg
   - region: BASN
     technology: landbasedwind
@@ -448,8 +448,8 @@ renewables_clusters:
         weights: "mw"
     cluster:
       - feature: cf #profile
-        n_clusters: 4
-        # mw_per_cluster: 15000
+        # n_clusters: 4
+        mw_per_cluster: 5000
         method: agg
   - region: CANO
     technology: landbasedwind
@@ -464,8 +464,8 @@ renewables_clusters:
         weights: "mw"
     cluster:
       - feature: cf #profile
-        n_clusters: 4
-        # mw_per_cluster: 15000
+        # n_clusters: 4
+        mw_per_cluster: 5000
         method: agg
   - region: CASO
     technology: landbasedwind
@@ -480,8 +480,8 @@ renewables_clusters:
         weights: "mw"
     cluster:
       - feature: cf #profile
-        n_clusters: 4
-        # mw_per_cluster: 15000
+        # n_clusters: 4
+        mw_per_cluster: 5000
         method: agg
   - region: FRCC
     technology: landbasedwind
@@ -529,8 +529,8 @@ renewables_clusters:
         weights: "mw"
     cluster:
       - feature: cf #profile
-        n_clusters: 4
-        # mw_per_cluster: 15000
+        # n_clusters: 4
+        mw_per_cluster: 5000
         method: agg
   - region: NWPP
     technology: landbasedwind
@@ -546,8 +546,8 @@ renewables_clusters:
         weights: "mw"
     cluster:
       - feature: cf #profile
-        n_clusters: 4
-        # mw_per_cluster: 15000
+        # n_clusters: 4
+        mw_per_cluster: 5000
         method: agg
   - region: NYUP
     technology: landbasedwind
@@ -563,8 +563,8 @@ renewables_clusters:
         weights: "mw"
     cluster:
       - feature: cf #profile
-        n_clusters: 4
-        # mw_per_cluster: 15000
+        # n_clusters: 4
+        mw_per_cluster: 5000
         method: agg
   - region: PJMD
     technology: landbasedwind
@@ -580,8 +580,8 @@ renewables_clusters:
         weights: "mw"
     cluster:
       - feature: cf #profile
-        n_clusters: 4
-        # mw_per_cluster: 15000
+        # n_clusters: 4
+        mw_per_cluster: 5000
         method: agg
   - region: PJME
     technology: landbasedwind
@@ -612,8 +612,8 @@ renewables_clusters:
         weights: "mw"
     cluster:
       - feature: cf #profile
-        n_clusters: 4
-        # mw_per_cluster: 15000
+        # n_clusters: 4
+        mw_per_cluster: 5000
         method: agg
   - region: RMRG
     technology: landbasedwind
@@ -629,8 +629,8 @@ renewables_clusters:
         weights: "mw"
     cluster:
       - feature: cf #profile
-        n_clusters: 4
-        # mw_per_cluster: 15000
+        # n_clusters: 4
+        mw_per_cluster: 5000
         method: agg
   - region: SPPN
     technology: landbasedwind
@@ -646,8 +646,8 @@ renewables_clusters:
         weights: "mw"
     cluster:
       - feature: cf #profile
-        n_clusters: 4
-        # mw_per_cluster: 15000
+        # n_clusters: 4
+        mw_per_cluster: 5000
         method: agg
   - region: SPPS
     technology: landbasedwind
@@ -663,8 +663,8 @@ renewables_clusters:
         weights: "mw"
     cluster:
       - feature: cf #profile
-        n_clusters: 4
-        # mw_per_cluster: 15000
+        # n_clusters: 4
+        mw_per_cluster: 5000
         method: agg
   - region: SRCA
     technology: landbasedwind
@@ -697,8 +697,8 @@ renewables_clusters:
         weights: "mw"
     cluster:
       - feature: cf #profile
-        n_clusters: 4
-        # mw_per_cluster: 15000
+        # n_clusters: 4
+        mw_per_cluster: 5000
         method: agg
   - region: TRE
     technology: landbasedwind
@@ -714,10 +714,10 @@ renewables_clusters:
         weights: "mw"
     cluster:
       - feature: cf #profile
-        n_clusters: 4
-        # mw_per_cluster: 15000
+        # n_clusters: 4
+        mw_per_cluster: 5000
         method: agg
-  - region: TRE_WEST
+  - region: TREW
     technology: landbasedwind
     group:
       - anyQual
@@ -731,12 +731,12 @@ renewables_clusters:
         weights: "mw"
     cluster:
       - feature: cf #profile
-        n_clusters: 4
-        # mw_per_cluster: 15000
+        # n_clusters: 4
+        mw_per_cluster: 5000
         method: agg
 
   - region: all
-    technology: UtilityPV
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 100000
@@ -750,10 +750,11 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: cf
-        n_clusters: 2
+        # n_clusters: 2
+        mw_per_cluster: 10000
         method: agg
   - region: BASN
-    technology: UtilityPV
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 100000
@@ -767,10 +768,11 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: longitude
-        n_clusters: 2
+        mw_per_cluster: 10000
+        # n_clusters: 2
         method: agg
   - region: FRCC
-    technology: UtilityPV
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 200000
@@ -784,10 +786,11 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: cf
-        n_clusters: 2
+        # n_clusters: 2
+        mw_per_cluster: 10000
         method: agg
   - region: MISS
-    technology: UtilityPV
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 50000
@@ -801,10 +804,11 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: cf
-        n_clusters: 2
+        # n_clusters: 2
+        mw_per_cluster: 10000
         method: agg
   - region: MISC
-    technology: UtilityPV
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 150000
@@ -818,10 +822,11 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: cf
-        n_clusters: 2
+        # n_clusters: 2
+        mw_per_cluster: 10000
         method: agg
   - region: MISW
-    technology: UtilityPV
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 125000
@@ -835,10 +840,11 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: longitude
-        n_clusters: 2
+        mw_per_cluster: 10000
+        # n_clusters: 2
         method: agg
   - region: NYUP
-    technology: UtilityPV
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 60000
@@ -852,10 +858,11 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: cf
-        n_clusters: 2
+        # n_clusters: 2
+        mw_per_cluster: 10000
         method: agg
   - region: PJMC
-    technology: UtilityPV
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 50000
@@ -869,10 +876,11 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: cf
-        n_clusters: 2
+        # n_clusters: 2
+        mw_per_cluster: 10000
         method: agg
   - region: PJMD
-    technology: UtilityPV
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 125000
@@ -886,10 +894,11 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: cf
-        n_clusters: 2
+        # n_clusters: 2
+        mw_per_cluster: 10000
         method: agg
   - region: PJME
-    technology: UtilityPV
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 125000
@@ -903,10 +912,11 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: cf
-        n_clusters: 2
+        # n_clusters: 2
+        mw_per_cluster: 10000
         method: agg
   - region: PJMW
-    technology: UtilityPV
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 250000
@@ -920,10 +930,11 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: cf
-        n_clusters: 2
+        # n_clusters: 2
+        mw_per_cluster: 10000
         method: agg
   - region: RMRG
-    technology: UtilityPV
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 75000
@@ -937,10 +948,11 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: cf
-        n_clusters: 2
+        # n_clusters: 2
+        mw_per_cluster: 10000
         method: agg
   - region: SPPC
-    technology: UtilityPV
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 60000
@@ -954,10 +966,11 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: cf
-        n_clusters: 2
+        # n_clusters: 2
+        mw_per_cluster: 10000
         method: agg
   - region: SPPN
-    technology: UtilityPV
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 50000
@@ -971,10 +984,11 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: cf
-        n_clusters: 2
+        # n_clusters: 2
+        mw_per_cluster: 10000
         method: agg
   - region: SPPS
-    technology: UtilityPV
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 75000
@@ -988,10 +1002,11 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: longitude
-        n_clusters: 2
+        mw_per_cluster: 10000
+        # n_clusters: 2
         method: agg
   - region: SRCA
-    technology: UtilityPV
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 150000
@@ -1005,10 +1020,11 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: cf
-        n_clusters: 2
+        # n_clusters: 2
+        mw_per_cluster: 10000
         method: agg
   - region: SRCE
-    technology: UtilityPV
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 150000
@@ -1022,10 +1038,11 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: cf
-        n_clusters: 2
+        # n_clusters: 2
+        mw_per_cluster: 10000
         method: agg
   - region: SRSE
-    technology: UtilityPV
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 150000
@@ -1039,10 +1056,11 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: longitude
-        n_clusters: 2
+        mw_per_cluster: 10000
+        # n_clusters: 2
         method: agg
   - region: SRSG
-    technology: UtilityPV
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 150000
@@ -1056,10 +1074,11 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: longitude
-        n_clusters: 2
+        mw_per_cluster: 10000
+        # n_clusters: 2
         method: agg
-  - region: TRE_WEST
-    technology: UtilityPV
+  - region: TREW
+    technology: utilitypv
     group:
       - anyQual
     min_capacity: 50000
@@ -1073,7 +1092,8 @@ renewables_clusters:
         # bins: [0, 27, 31, 41]
     cluster:
       - feature: cf
-        n_clusters: 2
+        # n_clusters: 2
+        mw_per_cluster: 10000
         method: agg
 
   - region: all
@@ -1095,6 +1115,8 @@ renewables_clusters:
       - feature: lcoe
         max: 150
         weights: "mw"
+      - feature: d_shore_m
+        min: 15
     bin:
       - feature: interconnect_capex_mw
         q: 3
@@ -1117,6 +1139,8 @@ renewables_clusters:
     filter:
       - feature: lcoe
         max: 150
+      - feature: d_shore_m
+        min: 15
     bin:
       - feature: interconnect_capex_mw
         q: 3
@@ -1128,7 +1152,7 @@ renewables_clusters:
 # cut across EMM regions.
 # See a map at https://www.eia.gov/outlooks/aeo/pdf/nerc_map.pdf
 cost_multiplier_region_map:
-  TRE: [ERC_PHDL, ERC_REST, ERC_WEST, TRE, TRE_WEST]
+  TRE: [ERC_PHDL, ERC_REST, ERC_WEST, TRE, TREW]
   FRCC: [FRCC]
   MISW: [MIS_WUMS, MIS_MNWI, MIS_IA, MISW]
   MISE: [MIS_LMI, MISE]

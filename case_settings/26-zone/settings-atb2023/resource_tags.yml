@@ -2212,7 +2212,7 @@ regional_tag_values:
     Retro3_Source:
       Hydrogen_CCAvgCF_RetrofitNGCC: TRE_naturalgas_ccavgcf_moderate_0
       Hydrogen_CTAvgCF_RetrofitNGCT: TRE_naturalgas_ctavgcf_moderate_0
-  TRE_WEST:
+  TREW:
     # Hydro_Energy_to_Power_Ratio:
     #   Conventional Hydroelectric: 4 # Place holder
     CapRes_5: # ERCOT Capres
@@ -2284,14 +2284,14 @@ regional_tag_values:
     Retro1_Source:
       # NaturalGas_CCCCSAvgCF_RepowerCoal: TRE_Central_conventional_steam_coal_1
       # NaturalGas_CCCCSAvgCF_RetrofitNGCC: TRE_Central_natural_gas_fired_combined_cycle_1
-      Hydrogen_CCAvgCF_RetrofitNGCC: TRE_WEST_natural_gas_fired_combined_cycle_1
-      Hydrogen_CTAvgCF_RetrofitNGCT: TRE_WEST_natural_gas_fired_combustion_turbine_1
+      Hydrogen_CCAvgCF_RetrofitNGCC: TREW_natural_gas_fired_combined_cycle_1
+      Hydrogen_CTAvgCF_RetrofitNGCT: TREW_natural_gas_fired_combustion_turbine_1
     Retro2_Source:
-      Hydrogen_CCAvgCF_RetrofitNGCC: TRE_WEST_natural_gas_fired_combined_cycle_2
-      Hydrogen_CTAvgCF_RetrofitNGCT: TRE_WEST_natural_gas_fired_combustion_turbine_2
+      Hydrogen_CCAvgCF_RetrofitNGCC: TREW_natural_gas_fired_combined_cycle_2
+      Hydrogen_CTAvgCF_RetrofitNGCT: TREW_natural_gas_fired_combustion_turbine_2
     Retro3_Source:
-      Hydrogen_CCAvgCF_RetrofitNGCC: TRE_WEST_naturalgas_ccavgcf_moderate_0
-      Hydrogen_CTAvgCF_RetrofitNGCT: TRE_WEST_naturalgas_ctavgcf_moderate_0
+      Hydrogen_CCAvgCF_RetrofitNGCC: TREW_naturalgas_ccavgcf_moderate_0
+      Hydrogen_CTAvgCF_RetrofitNGCT: TREW_naturalgas_ctavgcf_moderate_0
 
  
  
