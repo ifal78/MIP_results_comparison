@@ -77,20 +77,22 @@ settings_management:
           Flywheels: 500
           Offshore Wind Turbine: 500 # TD checked/no change
           Biomass: 500
+      no:
         model_tag_values:
-          Can_Retire:
-            Conventional Steam Coal: 1
-            Natural Gas Fired Combined Cycle: 1
-            Natural Gas Fired Combustion Turbine: 1
-            Natural Gas Internal Combustion Engine: 1
-            Natural Gas Steam Turbine: 1
-            Nuclear: 0
-            Petroleum Liquids: 1
-            Distributed_Generation: 1
-            Onshore Wind Turbine: 1
-            Offshore Wind Turbine: 1
-            Solar Photovoltaic: 1
-            Batteries: 1
+          New_Build:
+            Conventional Steam Coal: -1
+            Natural Gas Fired Combined Cycle: -1
+            Natural Gas Fired Combustion Turbine: -1
+            Natural Gas Internal Combustion Engine: -1
+            Natural Gas Steam Turbine: -1
+            Nuclear: -1
+            Petroleum Liquids: -1
+            Distributed_Generation: -1
+            Onshore Wind Turbine: -1
+            Offshore Wind Turbine: -1
+            Solar Photovoltaic: -1
+            Batteries: -1
+            Nuclear_Nuclear: 1
     policies:
       none:
         emission_policies_fn: ~
@@ -1552,20 +1554,22 @@ settings_management:
           Flywheels: 500
           Offshore Wind Turbine: 500 # TD checked/no change
           Biomass: 500
+      no:
         model_tag_values:
-          Can_Retire:
-            Conventional Steam Coal: 1
-            Natural Gas Fired Combined Cycle: 1
-            Natural Gas Fired Combustion Turbine: 1
-            Natural Gas Internal Combustion Engine: 1
-            Natural Gas Steam Turbine: 1
-            Nuclear: 0
-            Petroleum Liquids: 1
-            Distributed_Generation: 1
-            Onshore Wind Turbine: 1
-            Offshore Wind Turbine: 1
-            Solar Photovoltaic: 1
-            Batteries: 1
+          New_Build:
+            Conventional Steam Coal: -1
+            Natural Gas Fired Combined Cycle: -1
+            Natural Gas Fired Combustion Turbine: -1
+            Natural Gas Internal Combustion Engine: -1
+            Natural Gas Steam Turbine: -1
+            Nuclear: -1
+            Petroleum Liquids: -1
+            Distributed_Generation: -1
+            Onshore Wind Turbine: -1
+            Offshore Wind Turbine: -1
+            Solar Photovoltaic: -1
+            Batteries: -1
+            Nuclear_Nuclear: 1
     policies:
       none:
         emission_policies_fn: ~
@@ -3040,20 +3044,22 @@ settings_management:
           Flywheels: 500
           Offshore Wind Turbine: 500 # TD checked/no change
           Biomass: 500
+      no:
         model_tag_values:
-          Can_Retire:
-            Conventional Steam Coal: 1
-            Natural Gas Fired Combined Cycle: 1
-            Natural Gas Fired Combustion Turbine: 1
-            Natural Gas Internal Combustion Engine: 1
-            Natural Gas Steam Turbine: 1
-            Nuclear: 1
-            Petroleum Liquids: 1
-            Distributed_Generation: 1
-            Onshore Wind Turbine: 1
-            Offshore Wind Turbine: 1
-            Solar Photovoltaic: 1
-            Batteries: 1
+          New_Build:
+            Conventional Steam Coal: -1
+            Natural Gas Fired Combined Cycle: -1
+            Natural Gas Fired Combustion Turbine: -1
+            Natural Gas Internal Combustion Engine: -1
+            Natural Gas Steam Turbine: -1
+            Nuclear: -1
+            Petroleum Liquids: -1
+            Distributed_Generation: -1
+            Onshore Wind Turbine: -1
+            Offshore Wind Turbine: -1
+            Solar Photovoltaic: -1
+            Batteries: -1
+            Nuclear_Nuclear: 1
     policies:
       none:
         emission_policies_fn: ~
@@ -4521,20 +4527,22 @@ settings_management:
           Flywheels: 500
           Offshore Wind Turbine: 500 # TD checked/no change
           Biomass: 500
+      no:
         model_tag_values:
-          Can_Retire:
-            Conventional Steam Coal: 1
-            Natural Gas Fired Combined Cycle: 1
-            Natural Gas Fired Combustion Turbine: 1
-            Natural Gas Internal Combustion Engine: 1
-            Natural Gas Steam Turbine: 1
-            Nuclear: 1
-            Petroleum Liquids: 1
-            Distributed_Generation: 1
-            Onshore Wind Turbine: 1
-            Offshore Wind Turbine: 1
-            Solar Photovoltaic: 1
-            Batteries: 1
+          New_Build:
+            Conventional Steam Coal: -1
+            Natural Gas Fired Combined Cycle: -1
+            Natural Gas Fired Combustion Turbine: -1
+            Natural Gas Internal Combustion Engine: -1
+            Natural Gas Steam Turbine: -1
+            Nuclear: -1
+            Petroleum Liquids: -1
+            Distributed_Generation: -1
+            Onshore Wind Turbine: -1
+            Offshore Wind Turbine: -1
+            Solar Photovoltaic: -1
+            Batteries: -1
+            Nuclear_Nuclear: 1
     policies:
       none:
         emission_policies_fn: ~
@@ -6003,20 +6011,22 @@ settings_management:
           Flywheels: 500
           Offshore Wind Turbine: 500 # TD checked/no change
           Biomass: 500
+      no:
         model_tag_values:
-          Can_Retire:
-            Conventional Steam Coal: 1
-            Natural Gas Fired Combined Cycle: 1
-            Natural Gas Fired Combustion Turbine: 1
-            Natural Gas Internal Combustion Engine: 1
-            Natural Gas Steam Turbine: 1
-            Nuclear: 1
-            Petroleum Liquids: 1
-            Distributed_Generation: 1
-            Onshore Wind Turbine: 1
-            Offshore Wind Turbine: 1
-            Solar Photovoltaic: 1
-            Batteries: 1
+          New_Build:
+            Conventional Steam Coal: -1
+            Natural Gas Fired Combined Cycle: -1
+            Natural Gas Fired Combustion Turbine: -1
+            Natural Gas Internal Combustion Engine: -1
+            Natural Gas Steam Turbine: -1
+            Nuclear: -1
+            Petroleum Liquids: -1
+            Distributed_Generation: -1
+            Onshore Wind Turbine: -1
+            Offshore Wind Turbine: -1
+            Solar Photovoltaic: -1
+            Batteries: -1
+            Nuclear_Nuclear: 1
     policies:
       none:
         emission_policies_fn: ~
@@ -6482,20 +6492,22 @@ settings_management:
           Flywheels: 500
           Offshore Wind Turbine: 500 # TD checked/no change
           Biomass: 500
+      no:
         model_tag_values:
-          Can_Retire:
-            Conventional Steam Coal: 1
-            Natural Gas Fired Combined Cycle: 1
-            Natural Gas Fired Combustion Turbine: 1
-            Natural Gas Internal Combustion Engine: 1
-            Natural Gas Steam Turbine: 1
-            Nuclear: 1
-            Petroleum Liquids: 1
-            Distributed_Generation: 1
-            Onshore Wind Turbine: 1
-            Offshore Wind Turbine: 1
-            Solar Photovoltaic: 1
-            Batteries: 1
+          New_Build:
+            Conventional Steam Coal: -1
+            Natural Gas Fired Combined Cycle: -1
+            Natural Gas Fired Combustion Turbine: -1
+            Natural Gas Internal Combustion Engine: -1
+            Natural Gas Steam Turbine: -1
+            Nuclear: -1
+            Petroleum Liquids: -1
+            Distributed_Generation: -1
+            Onshore Wind Turbine: -1
+            Offshore Wind Turbine: -1
+            Solar Photovoltaic: -1
+            Batteries: -1
+            Nuclear_Nuclear: 1
     policies:
       none:
         emission_policies_fn: ~
