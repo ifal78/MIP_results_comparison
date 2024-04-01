@@ -8,7 +8,7 @@ capacity_limit_spur_fn: conus_resource_capacity_spur.csv # Max capacity and spur
 demand_segments_fn: demand_segments_voll.csv
 misc_gen_inputs_fn: conus_misc_gen_inputs.csv
 genx_settings_folder: genx_settings
-user_transmission_costs: network_costs_national_emm_split_ercot.csv
+user_transmission_costs: network_costs_conus_26_zone.csv
 user_transmission_constraints_fn: ipm_tx_corrections.csv
 co2_pipeline_cost_fn: co2_pipeline_cost_percentiles.csv
 hydro_variability_fn: regional_existing_hydro_profiles.csv # RR - download from Greg's google drive
