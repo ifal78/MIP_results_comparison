@@ -117,7 +117,7 @@ settings_management:
       none:
         emission_policies_fn: ~
       existing:  
-        emission_policies_fn: conus_current_policy_rps_ces_emission_limits.csv
+        emission_policies_fn: conus_existing_policies_rps_ces_20240403.csv
     time_reduction:
       all_hours:
           reduce_time_domain: false
@@ -1590,7 +1590,7 @@ settings_management:
       none:
         emission_policies_fn: ~
       existing:
-        emission_policies_fn: conus_current_policy_rps_ces_emission_limits.csv
+        emission_policies_fn: conus_existing_policies_rps_ces_20240403.csv
     time_reduction:
       all_hours:
         reduce_time_domain: false
@@ -3076,7 +3076,7 @@ settings_management:
       none:
         emission_policies_fn: ~
       existing:
-        emission_policies_fn: conus_current_policy_rps_ces_emission_limits.csv
+        emission_policies_fn: conus_existing_policies_rps_ces_20240403.csv
     time_reduction:
       all_hours:
           reduce_time_domain: false
@@ -4555,7 +4555,7 @@ settings_management:
       none:
         emission_policies_fn: ~
       existing:
-        emission_policies_fn: conus_current_policy_rps_ces_emission_limits.csv
+        emission_policies_fn: conus_existing_policies_rps_ces_20240403.csv
     time_reduction:
       all_hours:
           reduce_time_domain: false
@@ -6035,7 +6035,7 @@ settings_management:
       none:
         emission_policies_fn: ~
       existing:
-        emission_policies_fn: conus_current_policy_rps_ces_emission_limits.csv
+        emission_policies_fn: conus_existing_policies_rps_ces_20240403.csv
     time_reduction:
       all_hours:
           reduce_time_domain: false
@@ -6512,7 +6512,7 @@ settings_management:
       none:
         emission_policies_fn: ~
       existing:
-        emission_policies_fn: conus_current_policy_rps_ces_emission_limits.csv
+        emission_policies_fn: conus_existing_policies_rps_ces_20240403.csv
     time_reduction:
       all_hours:
           reduce_time_domain: false
