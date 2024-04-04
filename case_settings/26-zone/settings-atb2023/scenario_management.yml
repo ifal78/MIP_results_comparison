@@ -118,6 +118,7 @@ settings_management:
         emission_policies_fn: ~
       existing:  
         emission_policies_fn: conus_existing_policies_rps_ces_20240403.csv
+        ccs_disposal_cost: -39.11
     time_reduction:
       all_hours:
           reduce_time_domain: false
@@ -1591,6 +1592,7 @@ settings_management:
         emission_policies_fn: ~
       existing:
         emission_policies_fn: conus_existing_policies_rps_ces_20240403.csv
+        ccs_disposal_cost: -39.11
     time_reduction:
       all_hours:
         reduce_time_domain: false
@@ -3077,6 +3079,7 @@ settings_management:
         emission_policies_fn: ~
       existing:
         emission_policies_fn: conus_existing_policies_rps_ces_20240403.csv
+        ccs_disposal_cost: -39.11
     time_reduction:
       all_hours:
           reduce_time_domain: false
@@ -4505,6 +4508,9 @@ settings_management:
             wacc_real: 0.05
     econ_retirement:
       yes:
+        model_tag_values:
+          New_Build:
+            Nuclear: 0
         retirement_ages:
           Conventional Hydroelectric: 1500 # TD update
           Small Hydroelectric: 1500 # TD update
@@ -4556,6 +4562,7 @@ settings_management:
         emission_policies_fn: ~
       existing:
         emission_policies_fn: conus_existing_policies_rps_ces_20240403.csv
+        ccs_disposal_cost: -39.11
     time_reduction:
       all_hours:
           reduce_time_domain: false
@@ -5985,6 +5992,9 @@ settings_management:
             wacc_real: 0.05
     econ_retirement:
       yes:
+        model_tag_values:
+          New_Build:
+            Nuclear: 0
         retirement_ages:
           Conventional Hydroelectric: 1500 # TD update
           Small Hydroelectric: 1500 # TD update
@@ -6462,6 +6472,9 @@ settings_management:
             wacc_real: 0.05
     econ_retirement:
       yes:
+        model_tag_values:
+          New_Build:
+            Nuclear: 0
         retirement_ages:
           Conventional Hydroelectric: 1500 # TD update
           Small Hydroelectric: 1500 # TD update

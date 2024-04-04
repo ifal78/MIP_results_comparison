@@ -44,7 +44,9 @@ TECH_MAP = {
     "offshore_wind_turbine": "Wind",
     "distributed_generation": "Distributed Solar",
     "naturalgas_ccavgcf": "Natural Gas CC",
+    "NaturalGas_HFrame_CC": "Natural Gas CC",
     "naturalgas_ctavgcf": "Natural Gas CT",
+    "NaturalGas_FFrame_CT": "Natural Gas CT",
     "battery": "Battery",
     "landbasedwind": "Wind",
     "utilitypv": "Solar",
@@ -86,7 +88,10 @@ def tech_to_type(df: pd.DataFrame) -> pd.DataFrame:
     df.loc[:, "existing"] = False
     df.loc[:, "tech_type"] = "Not Specified"
     for tech, (t, ex) in _TECH_MAP.items():
-        df.loc[df["resource_name"].str.contains(tech), ["tech_type", "existing"]] = [
+        df.loc[
+            df["resource_name"].str.contains(tech, case=False),
+            ["tech_type", "existing"],
+        ] = [
             t,
             ex,
         ]
@@ -746,6 +751,72 @@ def chart_tx_expansion(
     return chart
 
 
+def chart_emissions_intensity(
+    emiss,
+    gen,
+    x_var="Region",
+    x_offset=None,
+    col_var="model",
+    row_var="planning_year",
+) -> alt.Chart:
+
+    by = [x_var]
+    if col_var:
+        by.append(col_var)
+    if row_var:
+        by.append(row_var)
+    if x_offset:
+        by.append(x_offset)
+    emiss["Region"] = emiss["zone"].map(rev_region_map)
+    gen["Region"] = gen["zone"].map(rev_region_map)
+    emiss_data = emiss.groupby(by, as_index=False)["value"].sum()
+    emiss_data = emiss_data.rename(columns={"value": "emissions"})
+    gen_data = gen.groupby(by, as_index=False)["value"].sum()
+    gen_data = gen_data.rename(columns={"value": "generation"})
+
+    data = pd.merge(emiss_data, gen_data, on=by)
+    data["emissions_intensity"] = data["emissions"] / data["generation"]
+    data["emissions_intensity"] *= 1000
+
+    chart = (
+        alt.Chart(data)
+        .mark_bar()
+        .encode(
+            x=alt.X(x_var).title(title_case(x_var)),
+            y=alt.Y("emissions_intensity").title("kg/MWh"),
+        )
+        .properties(height=150)
+    )
+    # if col_var is not None and row_var is not None:
+    #     text = (
+    #         alt.Chart()
+    #         .mark_text(dy=-5, fontSize=14)
+    #         .encode(
+    #             x=alt.X(x_var).sort(order).title(title_case(x_var)),
+    #             y="sum(value):Q",
+    #             text=alt.Text("sum(value):Q", format=".0f"),
+    #         )
+    #     )
+    #     chart = alt.layer(chart, text, data=data).properties(width=width)
+    if col_var is not None:
+        chart = chart.encode(
+            column=alt.Column(col_var)
+            .title(title_case(col_var))
+            .header(titleFontSize=20, labelFontSize=15)
+        )
+    if row_var is not None:
+        chart = chart.encode(
+            row=alt.Row(row_var)
+            .title(title_case(row_var))
+            .header(titleFontSize=20, labelFontSize=15)
+        )
+    chart = chart.configure_axis(labelFontSize=15, titleFontSize=15).configure_legend(
+        titleFontSize=20, labelFontSize=16
+    )
+
+    return chart
+
+
 def chart_emissions(
     emiss: pd.DataFrame, x_var="model", col_var=None, order=None, co2_limit=True
 ) -> alt.Chart:
@@ -765,8 +836,11 @@ def chart_emissions(
         order = sorted(data[x_var].unique())
     data["value"] /= 1e6
     data["limit"] = 0
+    data.loc[data["planning_year"] == 2027, "limit"] = 873
     data.loc[data["planning_year"] == 2030, "limit"] = 186
+    data.loc[data["planning_year"] == 2035, "limit"] = 130
     data.loc[data["planning_year"] == 2040, "limit"] = 86.7
+    data.loc[data["planning_year"] == 2045, "limit"] = 43.3
     base = (
         alt.Chart()
         .mark_bar()
