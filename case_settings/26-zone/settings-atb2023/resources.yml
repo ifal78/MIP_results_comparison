@@ -52,7 +52,7 @@ retirement_ages: # TAYLOR - https://www.nrel.gov/docs/fy22osti/80641.pdf (pdf pa
   UtilityPV_Class1_Moderate_100: 30
   UtilityPV_Class1_Moderate: 30
   LandbasedWind_Class1_Moderate: 30
-  LandbasedWind_Class1_Moderate_100: 30 
+  LandbasedWind_Class1_Moderate_100: 30
   UtilityPV_Class1_Moderate_50: 30
   OffShoreWind_Class1_Moderate: 30
   OffShoreWind_Class3_Moderate_fixed_1: 30
@@ -66,7 +66,7 @@ retirement_ages: # TAYLOR - https://www.nrel.gov/docs/fy22osti/80641.pdf (pdf pa
   OffShoreWind_Class3_Moderate: 30
   Hydrogen_CTAvgCF_Moderate: 30
   Hydrogen_CCAvgCF_Moderate: 30
-  NaturalGas_H-Frame CC_Moderate: 30 
+  NaturalGas_H-Frame CC_Moderate: 30
   Hydrogen_H-Frame CC_Moderate: 30
   NaturalGas_F-Frame CT: 30
   Hydrogen_F-Frame CT: 30
@@ -86,7 +86,7 @@ num_clusters:
   Natural Gas Steam Turbine: 1
   Nuclear: 1
   Conventional Hydroelectric: 1
-  Geothermal: 1 
+  Geothermal: 1
   Solar Photovoltaic: 1
   # Solar Thermal with Energy Storage: 1 # Ignored due to limited size
   # Solar Thermal without Energy Storage: 1 # Ignored due to limited size
@@ -103,8 +103,8 @@ num_clusters:
   Batteries: 1
   # Natural Gas with Compressed Air Storage: 1 # Ignored due to limited size
   # Flywheels: 1 # Ignored
-  # Other Gases: 1 # Ignored 
-  # Other Natural Gas: 1 # Ignored 
+  # Other Gases: 1 # Ignored
+  # Other Natural Gas: 1 # Ignored
   # All Other: 1 # Ignored
   ## All above is EIA Technologies, below are special teches defines in pjm study
   Biomass: 2 # bio group tech, not exist in EIA
@@ -153,8 +153,8 @@ alt_num_clusters:
   TRE:
     # Natural Gas Fired Combined Cycle: 2
     Natural Gas Fired Combustion Turbine: 2
-  
-  
+
+
 
 
 # CAPACITY FACTOR
@@ -285,7 +285,7 @@ atb_existing_year: 2021
 # ATB 2021 uses data from NETL for fossil fuel technologies, so it is no longer necessary
 # to modify NGCT and NGCC technologies.
 # ****************************
-# The atb_modifers parameter is now used to add a VOM cost to battery technologies. PNNL
+# The atb_modifiers parameter is now used to add a VOM cost to battery technologies. PNNL
 # reports a 0.03 cents per kWh VOM, which is split between Var_OM_Cost_per_MWh and
 # Var_OM_Cost_per_MWh_In (https://www.pnnl.gov/main/publications/external/technical_reports/PNNL-28866.pdf).
 # Because Var_OM_Cost_per_MWh_In is not part of the ATB database the value should be set
@@ -329,8 +329,8 @@ atb_modifiers:
     tech_detail: H-Frame CC
 
 
-# Copy and modify an existing ATB new generator. This takes place BEFORE any modifers to
-# the ATB data in atb_modifers. Set parameter to none (~) if not adding any modified generators.
+# Copy and modify an existing ATB new generator. This takes place BEFORE any modifiers to
+# the ATB data in atb_modifiers. Set parameter to none (~) if not adding any modified generators.
 modified_atb_new_gen: ~
 
 # ATB doesn't have a WACC for battery tech. Need to provide a value here.
@@ -1245,7 +1245,7 @@ proposed_min_load:
 # Use this section to hard-code retirements that are not included in the most recent
 # annual verion of EIA 860. The format is
 # [plant_id_eia, generator_id, planned_retirement_date]
-additional_retirements: 
+additional_retirements:
   - [10377,GEN1,2019]
   - [10377,GEN2,2019]
   - [1355,1,2019]

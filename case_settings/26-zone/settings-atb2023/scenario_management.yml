@@ -129,7 +129,7 @@ settings_management:
     policies:
       none:
         emission_policies_fn: ~
-      existing:  
+      existing:
         emission_policies_fn: conus_existing_policies_rps_ces_20240403.csv
         ccs_disposal_cost: -39.11
     time_reduction:
@@ -154,7 +154,7 @@ settings_management:
           Natural Gas Steam Turbine: 1
           Nuclear: 1
           Conventional Hydroelectric: 1
-          Geothermal: 1 
+          Geothermal: 1
           Solar Photovoltaic: 1
           Onshore Wind Turbine: 1
           Offshore Wind Turbine: 1
@@ -453,12 +453,12 @@ settings_management:
           - [OffShoreWind, Class3, Advanced, 1]
           - [OffShoreWind, Class12, Advanced, 1]
           - [UtilityPV, Class1, Advanced, 1]
-          - [Battery, "*", Advanced, 1]  
+          - [Battery, "*", Advanced, 1]
       renewable_low_yesccs:
         atb_new_gen:
           - [NaturalGas, CCAvgCF, Moderate, 500]
           - [NaturalGas, CTAvgCF, Moderate, 100]
-          - [NaturalGas, CCCCSAvgCF, Conservative, 500]  
+          - [NaturalGas, CCCCSAvgCF, Conservative, 500]
           - [LandbasedWind, Class1, Advanced, 1]
           - [OffShoreWind, Class3, Advanced, 1]
           - [OffShoreWind, Class12, Advanced, 1]
@@ -477,7 +477,7 @@ settings_management:
         atb_new_gen:
           - [NaturalGas, CCAvgCF, Moderate, 500]
           - [NaturalGas, CTAvgCF, Moderate, 100]
-          - [NaturalGas, CCCCSAvgCF, Conservative, 500]  
+          - [NaturalGas, CCCCSAvgCF, Conservative, 500]
           - [LandbasedWind, Class1, Conservative, 1]
           - [OffShoreWind, Class3, Conservative, 1]
           - [OffShoreWind, Class12, Conservative, 1]
@@ -496,7 +496,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             filter:
               - feature: lcoe
                 max: 80
@@ -519,7 +519,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 100000
             filter:
               - feature: lcoe
@@ -543,7 +543,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             filter:
               - feature: lcoe
                 max: 90
@@ -566,7 +566,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             filter:
               - feature: lcoe
                 max: 90
@@ -589,7 +589,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             # filter:
             #   - feature: lcoe
             #     max: 150
@@ -612,7 +612,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             # filter:
             #   - feature: lcoe
             #     max: 150
@@ -635,7 +635,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 200000
             filter:
               - feature: lcoe
@@ -659,7 +659,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 100000
             # filter:
             #   - feature: lcoe
@@ -683,7 +683,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 40000
             # filter:
             #   - feature: lcoe
@@ -707,7 +707,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 20000
             # filter:
             #   - feature: lcoe
@@ -731,7 +731,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             # filter:
             #   - feature: lcoe
             #     max: 150
@@ -754,7 +754,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             # filter:
             #   - feature: lcoe
             #     max: 150
@@ -777,7 +777,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 150000
             filter:
               - feature: lcoe
@@ -801,7 +801,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 50000
             filter:
               - feature: lcoe
@@ -825,7 +825,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 175000
             filter:
               - feature: lcoe
@@ -849,7 +849,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 20000
             # filter:
             #   - feature: lcoe
@@ -873,7 +873,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 100000
             # filter:
             #   - feature: lcoe
@@ -897,7 +897,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 200000
             # filter:
             #   - feature: lcoe
@@ -921,7 +921,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 100000
             filter:
               - feature: lcoe
@@ -1632,7 +1632,7 @@ settings_management:
           Natural Gas Steam Turbine: 1
           Nuclear: 1
           Conventional Hydroelectric: 1
-          Geothermal: 1 
+          Geothermal: 1
           Solar Photovoltaic: 1
           Onshore Wind Turbine: 1
           Offshore Wind Turbine: 1
@@ -1936,12 +1936,12 @@ settings_management:
           - [OffShoreWind, Class3, Advanced, 1]
           - [OffShoreWind, Class12, Advanced, 1]
           - [UtilityPV, Class1, Advanced, 1]
-          - [Battery, "*", Advanced, 1]  
+          - [Battery, "*", Advanced, 1]
       renewable_low_yesccs:
         atb_new_gen:
           - [NaturalGas, CCAvgCF, Moderate, 500]
           - [NaturalGas, CTAvgCF, Moderate, 100]
-          - [NaturalGas, CCCCSAvgCF, Conservative, 500]  
+          - [NaturalGas, CCCCSAvgCF, Conservative, 500]
           - [LandbasedWind, Class1, Advanced, 1]
           - [OffShoreWind, Class3, Advanced, 1]
           - [OffShoreWind, Class12, Advanced, 1]
@@ -1960,7 +1960,7 @@ settings_management:
         atb_new_gen:
           - [NaturalGas, CCAvgCF, Moderate, 500]
           - [NaturalGas, CTAvgCF, Moderate, 100]
-          - [NaturalGas, CCCCSAvgCF, Conservative, 500]  
+          - [NaturalGas, CCCCSAvgCF, Conservative, 500]
           - [LandbasedWind, Class1, Conservative, 1]
           - [OffShoreWind, Class3, Conservative, 1]
           - [OffShoreWind, Class12, Conservative, 1]
@@ -1979,7 +1979,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             filter:
               - feature: lcoe
                 max: 80
@@ -2002,7 +2002,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 100000
             filter:
               - feature: lcoe
@@ -2026,7 +2026,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             filter:
               - feature: lcoe
                 max: 90
@@ -2049,7 +2049,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             filter:
               - feature: lcoe
                 max: 90
@@ -2072,7 +2072,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             # filter:
             #   - feature: lcoe
             #     max: 150
@@ -2095,7 +2095,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             # filter:
             #   - feature: lcoe
             #     max: 150
@@ -2118,7 +2118,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 200000
             filter:
               - feature: lcoe
@@ -2142,7 +2142,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 100000
             # filter:
             #   - feature: lcoe
@@ -2166,7 +2166,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 40000
             # filter:
             #   - feature: lcoe
@@ -2190,7 +2190,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 20000
             # filter:
             #   - feature: lcoe
@@ -2214,7 +2214,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             # filter:
             #   - feature: lcoe
             #     max: 150
@@ -2237,7 +2237,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             # filter:
             #   - feature: lcoe
             #     max: 150
@@ -2260,7 +2260,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 150000
             filter:
               - feature: lcoe
@@ -2284,7 +2284,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 50000
             filter:
               - feature: lcoe
@@ -2308,7 +2308,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 175000
             filter:
               - feature: lcoe
@@ -2332,7 +2332,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 20000
             # filter:
             #   - feature: lcoe
@@ -2356,7 +2356,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 100000
             # filter:
             #   - feature: lcoe
@@ -2380,7 +2380,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 200000
             # filter:
             #   - feature: lcoe
@@ -2404,7 +2404,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 100000
             filter:
               - feature: lcoe
@@ -3115,7 +3115,7 @@ settings_management:
           Natural Gas Steam Turbine: 1
           Nuclear: 1
           Conventional Hydroelectric: 1
-          Geothermal: 1 
+          Geothermal: 1
           Solar Photovoltaic: 1
           Onshore Wind Turbine: 1
           Offshore Wind Turbine: 1
@@ -3419,12 +3419,12 @@ settings_management:
           - [OffShoreWind, Class3, Advanced, 1]
           - [OffShoreWind, Class12, Advanced, 1]
           - [UtilityPV, Class1, Advanced, 1]
-          - [Battery, "*", Advanced, 1]  
+          - [Battery, "*", Advanced, 1]
       renewable_low_yesccs:
         atb_new_gen:
           - [NaturalGas, CCAvgCF, Moderate, 500]
           - [NaturalGas, CTAvgCF, Moderate, 100]
-          - [NaturalGas, CCCCSAvgCF, Conservative, 500]  
+          - [NaturalGas, CCCCSAvgCF, Conservative, 500]
           - [LandbasedWind, Class1, Advanced, 1]
           - [OffShoreWind, Class3, Advanced, 1]
           - [OffShoreWind, Class12, Advanced, 1]
@@ -3443,7 +3443,7 @@ settings_management:
         atb_new_gen:
           - [NaturalGas, CCAvgCF, Moderate, 500]
           - [NaturalGas, CTAvgCF, Moderate, 100]
-          - [NaturalGas, CCCCSAvgCF, Conservative, 500]  
+          - [NaturalGas, CCCCSAvgCF, Conservative, 500]
           - [LandbasedWind, Class1, Conservative, 1]
           - [OffShoreWind, Class3, Conservative, 1]
           - [OffShoreWind, Class12, Conservative, 1]
@@ -3462,7 +3462,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             filter:
               - feature: lcoe
                 max: 80
@@ -3485,7 +3485,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 100000
             filter:
               - feature: lcoe
@@ -3509,7 +3509,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             filter:
               - feature: lcoe
                 max: 90
@@ -3532,7 +3532,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             filter:
               - feature: lcoe
                 max: 90
@@ -3555,7 +3555,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             # filter:
             #   - feature: lcoe
             #     max: 150
@@ -3578,7 +3578,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             # filter:
             #   - feature: lcoe
             #     max: 150
@@ -3601,7 +3601,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 200000
             filter:
               - feature: lcoe
@@ -3625,7 +3625,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 100000
             # filter:
             #   - feature: lcoe
@@ -3649,7 +3649,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 40000
             # filter:
             #   - feature: lcoe
@@ -3673,7 +3673,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 20000
             # filter:
             #   - feature: lcoe
@@ -3697,7 +3697,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             # filter:
             #   - feature: lcoe
             #     max: 150
@@ -3720,7 +3720,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             # filter:
             #   - feature: lcoe
             #     max: 150
@@ -3743,7 +3743,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 150000
             filter:
               - feature: lcoe
@@ -3767,7 +3767,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 50000
             filter:
               - feature: lcoe
@@ -3791,7 +3791,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 175000
             filter:
               - feature: lcoe
@@ -3815,7 +3815,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 20000
             # filter:
             #   - feature: lcoe
@@ -3839,7 +3839,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 100000
             # filter:
             #   - feature: lcoe
@@ -3863,7 +3863,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 200000
             # filter:
             #   - feature: lcoe
@@ -3887,7 +3887,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 100000
             filter:
               - feature: lcoe
@@ -4602,7 +4602,7 @@ settings_management:
           Natural Gas Steam Turbine: 1
           Nuclear: 1
           Conventional Hydroelectric: 1
-          Geothermal: 1 
+          Geothermal: 1
           Solar Photovoltaic: 1
           Onshore Wind Turbine: 1
           Offshore Wind Turbine: 1
@@ -4904,12 +4904,12 @@ settings_management:
           - [OffShoreWind, Class3, Advanced, 1]
           - [OffShoreWind, Class12, Advanced, 1]
           - [UtilityPV, Class1, Advanced, 1]
-          - [Battery, "*", Advanced, 1]  
+          - [Battery, "*", Advanced, 1]
       renewable_low_yesccs:
         atb_new_gen:
           - [NaturalGas, CCAvgCF, Moderate, 500]
           - [NaturalGas, CTAvgCF, Moderate, 100]
-          - [NaturalGas, CCCCSAvgCF, Conservative, 500]  
+          - [NaturalGas, CCCCSAvgCF, Conservative, 500]
           - [LandbasedWind, Class1, Advanced, 1]
           - [OffShoreWind, Class3, Advanced, 1]
           - [OffShoreWind, Class12, Advanced, 1]
@@ -4928,7 +4928,7 @@ settings_management:
         atb_new_gen:
           - [NaturalGas, CCAvgCF, Moderate, 500]
           - [NaturalGas, CTAvgCF, Moderate, 100]
-          - [NaturalGas, CCCCSAvgCF, Conservative, 500]  
+          - [NaturalGas, CCCCSAvgCF, Conservative, 500]
           - [LandbasedWind, Class1, Conservative, 1]
           - [OffShoreWind, Class3, Conservative, 1]
           - [OffShoreWind, Class12, Conservative, 1]
@@ -4947,7 +4947,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             filter:
               - feature: lcoe
                 max: 80
@@ -4970,7 +4970,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 100000
             filter:
               - feature: lcoe
@@ -4994,7 +4994,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             filter:
               - feature: lcoe
                 max: 90
@@ -5017,7 +5017,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             filter:
               - feature: lcoe
                 max: 90
@@ -5040,7 +5040,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             # filter:
             #   - feature: lcoe
             #     max: 150
@@ -5063,7 +5063,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             # filter:
             #   - feature: lcoe
             #     max: 150
@@ -5086,7 +5086,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 200000
             filter:
               - feature: lcoe
@@ -5110,7 +5110,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 100000
             # filter:
             #   - feature: lcoe
@@ -5134,7 +5134,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 40000
             # filter:
             #   - feature: lcoe
@@ -5158,7 +5158,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 20000
             # filter:
             #   - feature: lcoe
@@ -5182,7 +5182,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             # filter:
             #   - feature: lcoe
             #     max: 150
@@ -5205,7 +5205,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             # filter:
             #   - feature: lcoe
             #     max: 150
@@ -5228,7 +5228,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 150000
             filter:
               - feature: lcoe
@@ -5252,7 +5252,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 50000
             filter:
               - feature: lcoe
@@ -5276,7 +5276,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 175000
             filter:
               - feature: lcoe
@@ -5300,7 +5300,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 20000
             # filter:
             #   - feature: lcoe
@@ -5324,7 +5324,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 100000
             # filter:
             #   - feature: lcoe
@@ -5348,7 +5348,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 200000
             # filter:
             #   - feature: lcoe
@@ -5372,7 +5372,7 @@ settings_management:
                 Var_OM_Cost_per_MWh: -10.68
               - group: anyQual
                 group_value: 0
-                Var_OM_Cost_per_MWh: -9.71 
+                Var_OM_Cost_per_MWh: -9.71
             min_capacity: 100000
             filter:
               - feature: lcoe
@@ -6081,7 +6081,7 @@ settings_management:
           Natural Gas Steam Turbine: 1
           Nuclear: 1
           Conventional Hydroelectric: 1
-          Geothermal: 1 
+          Geothermal: 1
           Solar Photovoltaic: 1
           Onshore Wind Turbine: 1
           Offshore Wind Turbine: 1
@@ -6385,12 +6385,12 @@ settings_management:
           - [OffShoreWind, Class3, Advanced, 1]
           - [OffShoreWind, Class12, Advanced, 1]
           - [UtilityPV, Class1, Advanced, 1]
-          - [Battery, "*", Advanced, 1]  
+          - [Battery, "*", Advanced, 1]
       renewable_low_yesccs:
         atb_new_gen:
           - [NaturalGas, CCAvgCF, Moderate, 500]
           - [NaturalGas, CTAvgCF, Moderate, 100]
-          - [NaturalGas, CCCCSAvgCF, Conservative, 500]  
+          - [NaturalGas, CCCCSAvgCF, Conservative, 500]
           - [LandbasedWind, Class1, Advanced, 1]
           - [OffShoreWind, Class3, Advanced, 1]
           - [OffShoreWind, Class12, Advanced, 1]
@@ -6409,7 +6409,7 @@ settings_management:
         atb_new_gen:
           - [NaturalGas, CCAvgCF, Moderate, 500]
           - [NaturalGas, CTAvgCF, Moderate, 100]
-          - [NaturalGas, CCCCSAvgCF, Conservative, 500]  
+          - [NaturalGas, CCCCSAvgCF, Conservative, 500]
           - [LandbasedWind, Class1, Conservative, 1]
           - [OffShoreWind, Class3, Conservative, 1]
           - [OffShoreWind, Class12, Conservative, 1]
@@ -6438,7 +6438,7 @@ settings_management:
           # Offwind_floating:
           #   capex_mw: [mul, 0.70]
           # upv:
-          #   capex_mw: [mul, 0.90]   
+          #   capex_mw: [mul, 0.90]
     ng_price:
       reference:
         aeo_fuel_scenarios:
@@ -6565,7 +6565,7 @@ settings_management:
           Natural Gas Steam Turbine: 1
           Nuclear: 1
           Conventional Hydroelectric: 1
-          Geothermal: 1 
+          Geothermal: 1
           Solar Photovoltaic: 1
           Onshore Wind Turbine: 1
           Offshore Wind Turbine: 1
@@ -6867,12 +6867,12 @@ settings_management:
           - [OffShoreWind, Class3, Advanced, 1]
           - [OffShoreWind, Class12, Advanced, 1]
           - [UtilityPV, Class1, Advanced, 1]
-          - [Battery, "*", Advanced, 1]  
+          - [Battery, "*", Advanced, 1]
       renewable_low_yesccs:
         atb_new_gen:
           - [NaturalGas, CCAvgCF, Moderate, 500]
           - [NaturalGas, CTAvgCF, Moderate, 100]
-          - [NaturalGas, CCCCSAvgCF, Conservative, 500]  
+          - [NaturalGas, CCCCSAvgCF, Conservative, 500]
           - [LandbasedWind, Class1, Advanced, 1]
           - [OffShoreWind, Class3, Advanced, 1]
           - [OffShoreWind, Class12, Advanced, 1]
@@ -6891,7 +6891,7 @@ settings_management:
         atb_new_gen:
           - [NaturalGas, CCAvgCF, Moderate, 500]
           - [NaturalGas, CTAvgCF, Moderate, 100]
-          - [NaturalGas, CCCCSAvgCF, Conservative, 500]  
+          - [NaturalGas, CCCCSAvgCF, Conservative, 500]
           - [LandbasedWind, Class1, Conservative, 1]
           - [OffShoreWind, Class3, Conservative, 1]
           - [OffShoreWind, Class12, Conservative, 1]
