@@ -19,10 +19,14 @@ settings_management:
       ten:
         model_year: [2030, 2040, 2050]
         model_first_planning_year: [2023, 2031, 2041]
+    policies:
+      none:
+        emission_policies_fn: ~
+      existing:
+        emission_policies_fn: conus_current_policy_rps_ces_emission_limits.csv
+      yes: ~  # use default (conus_rps_ces_emission_limits.csv)
     # tags below shouldn't cause any change from the default settings, but we
     # add empty keys to avoid warnings when they are used
-    policies:
-      yes: ~
     ccs:
       yes: ~
     existing_clusters:
@@ -95,9 +99,6 @@ settings_management:
             Solar Photovoltaic: -1
             Batteries: -1
             Nuclear_Nuclear: 1
-    policies:
-      none:
-        emission_policies_fn: ~
     time_reduction:
       all_hours:
           reduce_time_domain: false
@@ -492,9 +493,6 @@ settings_management:
             Solar Photovoltaic: -1
             Batteries: -1
             Nuclear_Nuclear: 1
-    policies:
-      none:
-        emission_policies_fn: ~
     time_reduction:
       all_hours:
         reduce_time_domain: false
@@ -977,9 +975,6 @@ settings_management:
             Solar Photovoltaic: -1
             Batteries: -1
             Nuclear_Nuclear: 1
-    policies:
-      none:
-        emission_policies_fn: ~
     time_reduction:
       all_hours:
           reduce_time_domain: false
@@ -1458,9 +1453,6 @@ settings_management:
             Solar Photovoltaic: -1
             Batteries: -1
             Nuclear_Nuclear: 1
-    policies:
-      none:
-        emission_policies_fn: ~
     time_reduction:
       all_hours:
           reduce_time_domain: false
@@ -1941,9 +1933,6 @@ settings_management:
             Solar Photovoltaic: -1
             Batteries: -1
             Nuclear_Nuclear: 1
-    policies:
-      none:
-        emission_policies_fn: ~
     time_reduction:
       all_hours:
           reduce_time_domain: false
@@ -2422,9 +2411,6 @@ settings_management:
             Solar Photovoltaic: -1
             Batteries: -1
             Nuclear_Nuclear: 1
-    policies:
-      none:
-        emission_policies_fn: ~
     time_reduction:
       all_hours:
           reduce_time_domain: false
