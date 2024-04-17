@@ -11,7 +11,7 @@ from pathlib import Path
 alt.renderers.enable("png")
 
 data_path = Path.cwd()
-gdf = gpd.read_file("conus_26z_latlon.geojson")
+gdf = gpd.read_file("conus_26z_latlon_simple.geojson")
 gdf = gdf.rename(columns={"model_region": "zone"})
 gdf["lat"] = gdf.geometry.centroid.y
 gdf["lon"] = gdf.geometry.centroid.x
