@@ -41,6 +41,7 @@ TECH_MAP = {
     "solar_photovoltaic": "Solar",
     "hydroelectric_pumped_storage": "Hydro",
     "nuclear": "Nuclear",
+    "nuclear_1": "Nuclear",
     "offshore_wind_turbine": "Wind",
     "distributed_generation": "Distributed Solar",
     "naturalgas_ccavgcf": "Natural Gas CC",
