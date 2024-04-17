@@ -36,21 +36,24 @@ def git_changed_files():
     return files
 
 
-def figure_scripts():
+def figure_scripts(mod_folders):
     scripts = list(CWD.rglob("figures.py"))
+    scripts = [s for s in scripts if s.parts[-2] in mod_folders]
     return scripts
 
 
 def main():
     # Get modified or added files from the last git commit
     files = git_changed_files()
+    folders = [f.split("/")[0] for f in files]
+    scripts = figure_scripts(folders)
     run = False
     for f in files:
         if ".py" in f or ".csv" in f:
             run = True
-    if run:
+
+    if run and scripts:
         print("Running figure generation scripts")
-        scripts = figure_scripts()
 
         # Run scripts in the parent directory of the modified files
         Parallel(n_jobs=-1)(delayed(run_script)(Path(f)) for f in scripts)
