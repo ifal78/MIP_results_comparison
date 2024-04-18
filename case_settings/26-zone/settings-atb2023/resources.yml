@@ -1104,6 +1104,8 @@ renewables_clusters:
     filter:
       - feature: lcoe
         max: 150
+      - feature: d_shore_m
+        min: 15
     bin:
       - feature: interconnect_capex_mw
         q: 3
@@ -1129,6 +1131,8 @@ renewables_clusters:
     filter:
       - feature: lcoe
         max: 150
+      - feature: d_shore_m
+        min: 15
     bin:
       - feature: interconnect_capex_mw
         q: 3
