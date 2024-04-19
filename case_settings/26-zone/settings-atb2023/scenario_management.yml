@@ -131,7 +131,14 @@ settings_management:
         emission_policies_fn: ~
       existing:
         emission_policies_fn: conus_existing_policies_rps_ces_20240403.csv
+    ccs_credit:
+      none:
+        ccs_disposal_cost: 0
+      low:
         ccs_disposal_cost: -39.11
+      high:
+        ccs_disposal_cost: -50.44
+
     time_reduction:
       all_hours:
           reduce_time_domain: false
@@ -1605,7 +1612,13 @@ settings_management:
         emission_policies_fn: ~
       existing:
         emission_policies_fn: conus_existing_policies_rps_ces_20240403.csv
+    ccs_credit:
+      none:
+        ccs_disposal_cost: 0
+      low:
         ccs_disposal_cost: -39.11
+      high:
+        ccs_disposal_cost: -50.44
     time_reduction:
       all_hours:
         reduce_time_domain: false
@@ -3092,7 +3105,13 @@ settings_management:
         emission_policies_fn: ~
       existing:
         emission_policies_fn: conus_existing_policies_rps_ces_20240403.csv
+    ccs_credit:
+      none:
+        ccs_disposal_cost: 0
+      low:
         ccs_disposal_cost: -39.11
+      high:
+        ccs_disposal_cost: -50.44
     time_reduction:
       all_hours:
           reduce_time_domain: false
@@ -4575,7 +4594,13 @@ settings_management:
         emission_policies_fn: ~
       existing:
         emission_policies_fn: conus_existing_policies_rps_ces_20240403.csv
+    ccs_credit:
+      none:
+        ccs_disposal_cost: 0
+      low:
         ccs_disposal_cost: -39.11
+      high:
+        ccs_disposal_cost: -50.44
     time_reduction:
       all_hours:
           reduce_time_domain: false
