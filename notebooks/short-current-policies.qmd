@@ -1,5 +1,5 @@
 ---
-title: "Short current policies"
+title: "Short current policies high 45Q credit"
 format: dashboard
 #   dashboard:
 #     scrolling: false
@@ -13,7 +13,7 @@ categories:
 # | output: false
 %load_ext autoreload
 %autoreload 2
-folder = "short-current-policies"
+folder = "short-current-policies-high-ccs"
 import os
 from typing import Dict, List
 from IPython.display import Markdown, display
