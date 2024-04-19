@@ -440,7 +440,7 @@ def chart_total_gen(
     width=350,
     height=250,
 ) -> alt.Chart:
-    if gen.empty or cap.empty:
+    if gen.empty:
         return None
     merge_by = ["tech_type", "resource_name", x_var, "planning_year"]
     group_by = ["tech_type", x_var, "planning_year"]
