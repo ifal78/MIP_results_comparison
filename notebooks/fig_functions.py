@@ -440,6 +440,8 @@ def chart_total_gen(
     width=350,
     height=250,
 ) -> alt.Chart:
+    if gen.empty or cap.empty:
+        return None
     merge_by = ["tech_type", "resource_name", x_var, "planning_year"]
     group_by = ["tech_type", x_var, "planning_year"]
     _tooltips = [
@@ -655,6 +657,8 @@ def chart_tx_expansion(
     height=200,
     width=alt.Step(20),
 ) -> alt.Chart:
+    if data.empty:
+        return None
     _tooltip = [
         alt.Tooltip("sum(value)", format=",.0f", title="Period GW"),
         alt.Tooltip("planning_year", title=title_case("planning_year")),
@@ -680,7 +684,8 @@ def chart_tx_expansion(
                     _df["line_growth"] = 0
             df_list.append(_df)
         data = pd.concat(df_list).reset_index()
-        _tooltip.append(alt.Tooltip("line_growth", format=".1%"))
+        if not (col_var is None and row_var is None):
+            _tooltip.append(alt.Tooltip("line_growth", format=".1%"))
 
     if x_var == "case":
         _tooltip.append(
@@ -821,6 +826,8 @@ def chart_emissions_intensity(
 def chart_emissions(
     emiss: pd.DataFrame, x_var="model", col_var=None, order=None, co2_limit=True
 ) -> alt.Chart:
+    if emiss.empty:
+        return None
     _tooltips = [
         alt.Tooltip("sum(value)", format=",.0f", title="Million Tonnes"),
         alt.Tooltip("Region"),
@@ -1127,6 +1134,8 @@ def chart_op_emiss(
     row_var=None,
     order=None,
 ) -> alt.Chart:
+    if op_emiss.empty:
+        return None
     op_emiss["Region"] = op_emiss["zone"].map(rev_region_map)
     if (
         col_var is None
@@ -1149,8 +1158,7 @@ def chart_op_emiss(
     if row_var is not None:
         _tooltip.append(alt.Tooltip(row_var))
         by.append(row_var)
-    if op_emiss.empty:
-        return None
+
     by = list(set(by))
     data = op_emiss.groupby(by, as_index=False)["value"].sum().query("value>0")
     data["value"] /= 1e6
@@ -1511,6 +1519,8 @@ def chart_cap_factor_scatter(
 def chart_cost_mwh(
     op_costs: pd.DataFrame, x_var="model", col_var=None, row_var=None, order=None
 ) -> alt.Chart:
+    if op_costs.empty:
+        return None
 
     if (Path.cwd() / "annual_demand.csv").exists():
         demand = pd.read_csv(Path.cwd() / "annual_demand.csv")
