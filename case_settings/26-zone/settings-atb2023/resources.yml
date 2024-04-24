@@ -620,7 +620,7 @@ renewables_clusters:
     technology: landbasedwind
     group:
       - anyQual
-    min_capacity: 150000
+    # min_capacity: 150000
     filter:
       - feature: lcoe
         max: 40
@@ -772,6 +772,24 @@ renewables_clusters:
         mw_per_cluster: 10000
         # n_clusters: 2
         method: agg
+  - region: CANO
+    technology: utilitypv
+    group:
+      - anyQual
+    min_capacity: 200000
+    # filter:
+    #   - feature: lcoe
+    #     max: 35
+    bin:
+      - feature: lcoe
+        weights: mw
+        q: 5
+        # bins: [0, 27, 31, 41]
+    cluster:
+      - feature: longitude
+        mw_per_cluster: 10000
+        # n_clusters: 2
+        method: agg
   - region: FRCC
     technology: utilitypv
     group:
@@ -780,6 +798,24 @@ renewables_clusters:
     filter:
       - feature: lcoe
         max: 40
+    bin:
+      - feature: lcoe
+        weights: mw
+        q: 5
+        # bins: [0, 27, 31, 41]
+    cluster:
+      - feature: cf
+        # n_clusters: 2
+        mw_per_cluster: 10000
+        method: agg
+  - region: ISNE
+    technology: utilitypv
+    group:
+      - anyQual
+    min_capacity: 200000
+    # filter:
+    #   - feature: lcoe
+    #     max: 40
     bin:
       - feature: lcoe
         weights: mw
@@ -830,7 +866,7 @@ renewables_clusters:
     technology: utilitypv
     group:
       - anyQual
-    min_capacity: 125000
+    min_capacity: 200000
     filter:
       - feature: lcoe
         max: 35
@@ -844,14 +880,32 @@ renewables_clusters:
         mw_per_cluster: 10000
         # n_clusters: 2
         method: agg
+  - region: NWPP
+    technology: utilitypv
+    group:
+      - anyQual
+    min_capacity: 200000
+    # filter:
+    #   - feature: lcoe
+    #     max: 35
+    bin:
+      - feature: lcoe
+        weights: mw
+        q: 5
+        # bins: [0, 27, 31, 41]
+    cluster:
+      - feature: cf
+        # n_clusters: 2
+        mw_per_cluster: 10000
+        method: agg
   - region: NYUP
     technology: utilitypv
     group:
       - anyQual
-    min_capacity: 60000
-    filter:
-      - feature: lcoe
-        max: 35
+    min_capacity: 100000
+    # filter:
+    #   - feature: lcoe
+    #     max: 35
     bin:
       - feature: lcoe
         weights: mw
@@ -884,7 +938,7 @@ renewables_clusters:
     technology: utilitypv
     group:
       - anyQual
-    min_capacity: 125000
+    min_capacity: 200000
     # filter:
     #   - feature: lcoe
     #     max: 35
@@ -938,10 +992,10 @@ renewables_clusters:
     technology: utilitypv
     group:
       - anyQual
-    min_capacity: 75000
-    filter:
-      - feature: lcoe
-        max: 35
+    min_capacity: 400000
+    # filter:
+    #   - feature: lcoe
+    #     max: 35
     bin:
       - feature: lcoe
         weights: mw
@@ -974,7 +1028,7 @@ renewables_clusters:
     technology: utilitypv
     group:
       - anyQual
-    min_capacity: 50000
+    min_capacity: 300000
     filter:
       - feature: lcoe
         max: 35
