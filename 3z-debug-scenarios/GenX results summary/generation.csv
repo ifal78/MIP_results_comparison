@@ -1,0 +1,1179 @@
+model,zone,resource_name,tech_type,planning_year,case,timestep,unit,value
+GenX,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2040,greenfield,all,MWh,1923.9226721935652
+GenX,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,greenfield,all,MWh,92576312.69729222
+GenX,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,greenfield,all,MWh,1265034.698314567
+GenX,ERCOT,ERCOT_battery_moderate_0,Battery,2040,greenfield,all,MWh,1188743.3007448427
+GenX,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2040,greenfield,all,MWh,836.0982352537376
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2040,greenfield,all,MWh,156638166.39102224
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2040,greenfield,all,MWh,174181935.85903564
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2040,greenfield,all,MWh,39478.018386714895
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2040,greenfield,all,MWh,58104470.86456777
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2040,greenfield,all,MWh,1277.5768586318504
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2040,greenfield,all,MWh,1497.2483094823813
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2040,greenfield,all,MWh,70009926.41441047
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2040,greenfield,all,MWh,14732371.55822504
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2040,greenfield,all,MWh,2744.8752573842817
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2040,greenfield,all,MWh,2936.251911136624
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2040,greenfield,all,MWh,1178.6610746724264
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2040,greenfield,all,MWh,1587.6687777351374
+GenX,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2040,greenfield,all,MWh,2808.746104731122
+GenX,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,greenfield,all,MWh,1702463080.88275
+GenX,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,greenfield,all,MWh,45136002.34171768
+GenX,Eastern,Eastern_battery_moderate_0,Battery,2040,greenfield,all,MWh,22331502.46671971
+GenX,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2040,greenfield,all,MWh,811.9999725497817
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2040,greenfield,all,MWh,543800828.7281812
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2040,greenfield,all,MWh,591145794.2180543
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2040,greenfield,all,MWh,116092230.19018878
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2040,greenfield,all,MWh,535720966.6934072
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2040,greenfield,all,MWh,1386.753723613475
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2040,greenfield,all,MWh,1019.7424222607668
+GenX,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2040,greenfield,all,MWh,9131.070245465413
+GenX,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2040,greenfield,all,MWh,552627037.2024587
+GenX,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2040,greenfield,all,MWh,1689.4104449840277
+GenX,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2040,greenfield,all,MWh,1384.002720977158
+GenX,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2040,greenfield,all,MWh,815.4561053519582
+GenX,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2040,greenfield,all,MWh,920.7152536292256
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2040,greenfield,all,MWh,351.012326989982
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2040,greenfield,all,MWh,211.9376490070625
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2040,greenfield,all,MWh,194.7681315231849
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2040,greenfield,all,MWh,183.32633155108147
+GenX,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2040,greenfield,all,MWh,2222.826291900242
+GenX,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,greenfield,all,MWh,194474492.70659444
+GenX,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,greenfield,all,MWh,9082382.26253979
+GenX,Western,Western_battery_moderate_0,Battery,2040,greenfield,all,MWh,38849304.08039673
+GenX,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2040,greenfield,all,MWh,711.3879784260095
+GenX,Western,Western_landbasedwind_class3_moderate_1,Wind,2040,greenfield,all,MWh,2647.4366879940953
+GenX,Western,Western_landbasedwind_class3_moderate_2,Wind,2040,greenfield,all,MWh,365182672.8104471
+GenX,Western,Western_landbasedwind_class3_moderate_3,Wind,2040,greenfield,all,MWh,858.3650942042765
+GenX,Western,Western_landbasedwind_class3_moderate_4,Wind,2040,greenfield,all,MWh,1546.7840058190957
+GenX,Western,Western_landbasedwind_class3_moderate_5,Wind,2040,greenfield,all,MWh,430.0139197750552
+GenX,Western,Western_landbasedwind_class3_moderate_6,Wind,2040,greenfield,all,MWh,442.76186298650464
+GenX,Western,Western_utilitypv_class1_moderate_1,Solar,2040,greenfield,all,MWh,44374185.97557923
+GenX,Western,Western_utilitypv_class1_moderate_2,Solar,2040,greenfield,all,MWh,420189016.8315042
+GenX,Western,Western_utilitypv_class1_moderate_3,Solar,2040,greenfield,all,MWh,1864.3012222194527
+GenX,Western,Western_utilitypv_class1_moderate_4,Solar,2040,greenfield,all,MWh,1884.9032758134624
+GenX,Western,Western_utilitypv_class1_moderate_5,Solar,2040,greenfield,all,MWh,1038.2442098277218
+GenX,Western,Western_utilitypv_class1_moderate_6,Solar,2040,greenfield,all,MWh,1087.5545000909174
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2040,greenfield,all,MWh,105.3586662488764
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2040,greenfield,all,MWh,129.76931323504746
+GenX,ERCOT,ERCOT_batteries_1,Battery,2040,cap_only,all,MWh,2768380.8409121656
+GenX,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2040,cap_only,all,MWh,420145.790523253
+GenX,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2040,cap_only,all,MWh,6255153.890857903
+GenX,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2040,cap_only,all,MWh,90247804.19974846
+GenX,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,cap_only,all,MWh,887.938704837108
+GenX,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2040,cap_only,all,MWh,6.090838513227568
+GenX,ERCOT,ERCOT_nuclear_1,Nuclear,2040,cap_only,all,MWh,35040811.639718994
+GenX,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2040,cap_only,all,MWh,102781297.11379528
+GenX,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2040,cap_only,all,MWh,40441546.54051398
+GenX,Eastern,Eastern_batteries_1,Battery,2040,cap_only,all,MWh,1409272.3342634016
+GenX,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2040,cap_only,all,MWh,85652865.04115936
+GenX,Eastern,Eastern_conventional_steam_coal_1,Coal,2040,cap_only,all,MWh,91156486.34467629
+GenX,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2040,cap_only,all,MWh,30166040.78944993
+GenX,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2040,cap_only,all,MWh,1073835497.223011
+GenX,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,cap_only,all,MWh,1479073.5897471176
+GenX,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2040,cap_only,all,MWh,5207237.354897227
+GenX,Eastern,Eastern_nuclear_1,Nuclear,2040,cap_only,all,MWh,661612444.808751
+GenX,Eastern,Eastern_onshore_wind_turbine_1,Wind,2040,cap_only,all,MWh,193751342.3115238
+GenX,Eastern,Eastern_solar_photovoltaic_1,Solar,2040,cap_only,all,MWh,84124343.20695542
+GenX,Western,Western_batteries_1,Battery,2040,cap_only,all,MWh,10221650.411758916
+GenX,Western,Western_conventional_hydroelectric_1,Hydro,2040,cap_only,all,MWh,191058317.1238073
+GenX,Western,Western_conventional_steam_coal_1,Coal,2040,cap_only,all,MWh,74432214.39741172
+GenX,Western,Western_geothermal_1,Geothermal,2040,cap_only,all,MWh,26449583.201134723
+GenX,Western,Western_hydroelectric_pumped_storage_1,Hydro,2040,cap_only,all,MWh,6646384.778507461
+GenX,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2040,cap_only,all,MWh,121982737.1167645
+GenX,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,cap_only,all,MWh,1449744.526243162
+GenX,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2040,cap_only,all,MWh,1408837.6970294358
+GenX,Western,Western_nuclear_1,Nuclear,2040,cap_only,all,MWh,39406732.712560326
+GenX,Western,Western_onshore_wind_turbine_1,Wind,2040,cap_only,all,MWh,84940593.14173499
+GenX,Western,Western_solar_photovoltaic_1,Solar,2040,cap_only,all,MWh,83462582.69993015
+GenX,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2040,cap_only,all,MWh,11.767199150058495
+GenX,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,cap_only,all,MWh,66.49067598441046
+GenX,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,cap_only,all,MWh,10.02399162613333
+GenX,ERCOT,ERCOT_battery_moderate_0,Battery,2040,cap_only,all,MWh,23.254530393014168
+GenX,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2040,cap_only,all,MWh,6.890577561562517
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2040,cap_only,all,MWh,115821403.04249428
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2040,cap_only,all,MWh,174858873.62414968
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2040,cap_only,all,MWh,62.25292554424434
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2040,cap_only,all,MWh,48.59000811420862
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2040,cap_only,all,MWh,16.964308019892524
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2040,cap_only,all,MWh,16.556881249705512
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2040,cap_only,all,MWh,800.6202113629604
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2040,cap_only,all,MWh,32223030.386838157
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2040,cap_only,all,MWh,24.69930987375656
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2040,cap_only,all,MWh,24.96162711687787
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2040,cap_only,all,MWh,10.028838530646718
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2040,cap_only,all,MWh,13.461880561524524
+GenX,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2040,cap_only,all,MWh,14.909769050948224
+GenX,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,cap_only,all,MWh,110.4651623434533
+GenX,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,cap_only,all,MWh,15.414802502365664
+GenX,Eastern,Eastern_battery_moderate_0,Battery,2040,cap_only,all,MWh,20.888858794168147
+GenX,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2040,cap_only,all,MWh,6.376418707334108
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2040,cap_only,all,MWh,547526257.427052
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2040,cap_only,all,MWh,594523060.4063989
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2040,cap_only,all,MWh,90.20425382626988
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2040,cap_only,all,MWh,87313095.22013055
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2040,cap_only,all,MWh,13.8443024518512
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2040,cap_only,all,MWh,7.212739280030579
+GenX,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2040,cap_only,all,MWh,92.26032519603618
+GenX,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2040,cap_only,all,MWh,509907200.25831
+GenX,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2040,cap_only,all,MWh,17.555620289487347
+GenX,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2040,cap_only,all,MWh,18.432317080110852
+GenX,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2040,cap_only,all,MWh,8.62046321404054
+GenX,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2040,cap_only,all,MWh,10.899059663293498
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2040,cap_only,all,MWh,3.2686929105617453
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2040,cap_only,all,MWh,1.9606545620486369
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2040,cap_only,all,MWh,1.9382935029638189
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2040,cap_only,all,MWh,1.79626675737842
+GenX,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2040,cap_only,all,MWh,13.384876192499595
+GenX,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,cap_only,all,MWh,61.4105405534731
+GenX,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,cap_only,all,MWh,10.049265027509808
+GenX,Western,Western_battery_moderate_0,Battery,2040,cap_only,all,MWh,19.491073818373692
+GenX,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2040,cap_only,all,MWh,6.149781526182968
+GenX,Western,Western_landbasedwind_class3_moderate_1,Wind,2040,cap_only,all,MWh,16.938807369278624
+GenX,Western,Western_landbasedwind_class3_moderate_2,Wind,2040,cap_only,all,MWh,304100792.1684105
+GenX,Western,Western_landbasedwind_class3_moderate_3,Wind,2040,cap_only,all,MWh,6.454804753737871
+GenX,Western,Western_landbasedwind_class3_moderate_4,Wind,2040,cap_only,all,MWh,11.731599850774382
+GenX,Western,Western_landbasedwind_class3_moderate_5,Wind,2040,cap_only,all,MWh,3.938947202845646
+GenX,Western,Western_landbasedwind_class3_moderate_6,Wind,2040,cap_only,all,MWh,4.056367927915593
+GenX,Western,Western_utilitypv_class1_moderate_1,Solar,2040,cap_only,all,MWh,199617727.90829495
+GenX,Western,Western_utilitypv_class1_moderate_2,Solar,2040,cap_only,all,MWh,9608809.531549538
+GenX,Western,Western_utilitypv_class1_moderate_3,Solar,2040,cap_only,all,MWh,19.521688529627752
+GenX,Western,Western_utilitypv_class1_moderate_4,Solar,2040,cap_only,all,MWh,20.433690151503164
+GenX,Western,Western_utilitypv_class1_moderate_5,Solar,2040,cap_only,all,MWh,10.750834945559092
+GenX,Western,Western_utilitypv_class1_moderate_6,Solar,2040,cap_only,all,MWh,10.516497743756902
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2040,cap_only,all,MWh,1.1382123144592369
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2040,cap_only,all,MWh,1.4177177717223732
+GenX,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2040,no_tx_battery_hydro,all,MWh,6063254.545078065
+GenX,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_tx_battery_hydro,all,MWh,130351850.82150292
+GenX,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_tx_battery_hydro,all,MWh,1010371.798480365
+GenX,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2040,no_tx_battery_hydro,all,MWh,96192.1644170601
+GenX,ERCOT,ERCOT_nuclear_1,Nuclear,2040,no_tx_battery_hydro,all,MWh,31636360.115965124
+GenX,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2040,no_tx_battery_hydro,all,MWh,98292885.57114582
+GenX,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2040,no_tx_battery_hydro,all,MWh,37519336.309966914
+GenX,Eastern,Eastern_conventional_steam_coal_1,Coal,2040,no_tx_battery_hydro,all,MWh,108034544.99586104
+GenX,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_tx_battery_hydro,all,MWh,947826574.8722404
+GenX,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_tx_battery_hydro,all,MWh,4434641.045210006
+GenX,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2040,no_tx_battery_hydro,all,MWh,8634451.092157982
+GenX,Eastern,Eastern_nuclear_1,Nuclear,2040,no_tx_battery_hydro,all,MWh,620767371.1536531
+GenX,Eastern,Eastern_onshore_wind_turbine_1,Wind,2040,no_tx_battery_hydro,all,MWh,191158095.18957227
+GenX,Eastern,Eastern_solar_photovoltaic_1,Solar,2040,no_tx_battery_hydro,all,MWh,82227228.60683039
+GenX,Western,Western_conventional_steam_coal_1,Coal,2040,no_tx_battery_hydro,all,MWh,3931990.405458983
+GenX,Western,Western_geothermal_1,Geothermal,2040,no_tx_battery_hydro,all,MWh,25839213.92091698
+GenX,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_tx_battery_hydro,all,MWh,69139907.3551439
+GenX,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_tx_battery_hydro,all,MWh,1251228.6265909283
+GenX,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2040,no_tx_battery_hydro,all,MWh,816987.2716843693
+GenX,Western,Western_nuclear_1,Nuclear,2040,no_tx_battery_hydro,all,MWh,40598003.258267075
+GenX,Western,Western_onshore_wind_turbine_1,Wind,2040,no_tx_battery_hydro,all,MWh,84318871.13153906
+GenX,Western,Western_solar_photovoltaic_1,Solar,2040,no_tx_battery_hydro,all,MWh,83120717.05790554
+GenX,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_tx_battery_hydro,all,MWh,16.95554929429847
+GenX,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_tx_battery_hydro,all,MWh,8738668.422042351
+GenX,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_tx_battery_hydro,all,MWh,10.422413368585598
+GenX,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2040,no_tx_battery_hydro,all,MWh,9.89734816297284
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2040,no_tx_battery_hydro,all,MWh,13499065.958878892
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2040,no_tx_battery_hydro,all,MWh,165918701.37680778
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2040,no_tx_battery_hydro,all,MWh,185.48755535887764
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2040,no_tx_battery_hydro,all,MWh,84.76791791112375
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2040,no_tx_battery_hydro,all,MWh,29.129231267330013
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2040,no_tx_battery_hydro,all,MWh,27.652170834528736
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2040,no_tx_battery_hydro,all,MWh,1762.502930002826
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2040,no_tx_battery_hydro,all,MWh,66853997.25545958
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2040,no_tx_battery_hydro,all,MWh,30.90381621420622
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2040,no_tx_battery_hydro,all,MWh,30.320917733326596
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2040,no_tx_battery_hydro,all,MWh,11.236946664132184
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2040,no_tx_battery_hydro,all,MWh,15.40024722573872
+GenX,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_tx_battery_hydro,all,MWh,18.312778633581537
+GenX,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_tx_battery_hydro,all,MWh,547.491236924339
+GenX,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_tx_battery_hydro,all,MWh,15.95180691017255
+GenX,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2040,no_tx_battery_hydro,all,MWh,7.922114323397328
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2040,no_tx_battery_hydro,all,MWh,541269437.1785679
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2040,no_tx_battery_hydro,all,MWh,590236045.4639927
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2040,no_tx_battery_hydro,all,MWh,158.70684466832398
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2040,no_tx_battery_hydro,all,MWh,262479798.9993759
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2040,no_tx_battery_hydro,all,MWh,18.75757144122358
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2040,no_tx_battery_hydro,all,MWh,9.132095975188609
+GenX,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2040,no_tx_battery_hydro,all,MWh,105.94932239744202
+GenX,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2040,no_tx_battery_hydro,all,MWh,557491126.0384514
+GenX,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2040,no_tx_battery_hydro,all,MWh,18.666573288161516
+GenX,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2040,no_tx_battery_hydro,all,MWh,21.178594268449963
+GenX,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2040,no_tx_battery_hydro,all,MWh,8.61287217583345
+GenX,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2040,no_tx_battery_hydro,all,MWh,11.70414397860138
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2040,no_tx_battery_hydro,all,MWh,4.44993893231592
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2040,no_tx_battery_hydro,all,MWh,2.691119656555132
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2040,no_tx_battery_hydro,all,MWh,2.8509474231638894
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2040,no_tx_battery_hydro,all,MWh,2.710635473317474
+GenX,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_tx_battery_hydro,all,MWh,21.30030043768395
+GenX,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_tx_battery_hydro,all,MWh,305425761.48609084
+GenX,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_tx_battery_hydro,all,MWh,15.585901133384205
+GenX,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2040,no_tx_battery_hydro,all,MWh,9.731927627012713
+GenX,Western,Western_landbasedwind_class3_moderate_1,Wind,2040,no_tx_battery_hydro,all,MWh,32.23844447979385
+GenX,Western,Western_landbasedwind_class3_moderate_2,Wind,2040,no_tx_battery_hydro,all,MWh,366061050.6352028
+GenX,Western,Western_landbasedwind_class3_moderate_3,Wind,2040,no_tx_battery_hydro,all,MWh,9.93977878187715
+GenX,Western,Western_landbasedwind_class3_moderate_4,Wind,2040,no_tx_battery_hydro,all,MWh,15.85751765387814
+GenX,Western,Western_landbasedwind_class3_moderate_5,Wind,2040,no_tx_battery_hydro,all,MWh,5.978010380004706
+GenX,Western,Western_landbasedwind_class3_moderate_6,Wind,2040,no_tx_battery_hydro,all,MWh,5.568376122504125
+GenX,Western,Western_utilitypv_class1_moderate_1,Solar,2040,no_tx_battery_hydro,all,MWh,156849949.6002317
+GenX,Western,Western_utilitypv_class1_moderate_2,Solar,2040,no_tx_battery_hydro,all,MWh,31493872.71627085
+GenX,Western,Western_utilitypv_class1_moderate_3,Solar,2040,no_tx_battery_hydro,all,MWh,20.282242399992064
+GenX,Western,Western_utilitypv_class1_moderate_4,Solar,2040,no_tx_battery_hydro,all,MWh,20.80426506136339
+GenX,Western,Western_utilitypv_class1_moderate_5,Solar,2040,no_tx_battery_hydro,all,MWh,10.773846075395292
+GenX,Western,Western_utilitypv_class1_moderate_6,Solar,2040,no_tx_battery_hydro,all,MWh,11.298972760576524
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2040,no_tx_battery_hydro,all,MWh,1.813623347045038
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2040,no_tx_battery_hydro,all,MWh,2.3766284694739004
+GenX,ERCOT,ERCOT_batteries_1,Battery,2040,no_tx,all,MWh,2937817.1492124945
+GenX,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2040,no_tx,all,MWh,410119.4440552541
+GenX,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2040,no_tx,all,MWh,6929204.170534738
+GenX,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_tx,all,MWh,140902972.1327747
+GenX,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_tx,all,MWh,978266.7794258344
+GenX,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2040,no_tx,all,MWh,64902.40225360621
+GenX,ERCOT,ERCOT_nuclear_1,Nuclear,2040,no_tx,all,MWh,32556770.797778655
+GenX,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2040,no_tx,all,MWh,99690114.3841453
+GenX,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2040,no_tx,all,MWh,38483054.87383505
+GenX,Eastern,Eastern_batteries_1,Battery,2040,no_tx,all,MWh,1421600.7089336505
+GenX,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2040,no_tx,all,MWh,85634667.4980573
+GenX,Eastern,Eastern_conventional_steam_coal_1,Coal,2040,no_tx,all,MWh,90767533.2249086
+GenX,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2040,no_tx,all,MWh,31885231.553208787
+GenX,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_tx,all,MWh,999925857.0906558
+GenX,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_tx,all,MWh,1492441.842424005
+GenX,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2040,no_tx,all,MWh,5082921.824530388
+GenX,Eastern,Eastern_nuclear_1,Nuclear,2040,no_tx,all,MWh,656930993.7404007
+GenX,Eastern,Eastern_onshore_wind_turbine_1,Wind,2040,no_tx,all,MWh,193512230.50132775
+GenX,Eastern,Eastern_solar_photovoltaic_1,Solar,2040,no_tx,all,MWh,83887156.67204545
+GenX,Western,Western_batteries_1,Battery,2040,no_tx,all,MWh,9512205.549368054
+GenX,Western,Western_conventional_hydroelectric_1,Hydro,2040,no_tx,all,MWh,190161381.4011753
+GenX,Western,Western_conventional_steam_coal_1,Coal,2040,no_tx,all,MWh,74000244.52857588
+GenX,Western,Western_geothermal_1,Geothermal,2040,no_tx,all,MWh,25838102.090306643
+GenX,Western,Western_hydroelectric_pumped_storage_1,Hydro,2040,no_tx,all,MWh,6948950.702143931
+GenX,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_tx,all,MWh,117417693.34101167
+GenX,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_tx,all,MWh,2208131.3243808057
+GenX,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2040,no_tx,all,MWh,1961576.1544466263
+GenX,Western,Western_nuclear_1,Nuclear,2040,no_tx,all,MWh,37449463.24296581
+GenX,Western,Western_onshore_wind_turbine_1,Wind,2040,no_tx,all,MWh,84561878.56276737
+GenX,Western,Western_solar_photovoltaic_1,Solar,2040,no_tx,all,MWh,83250004.47602037
+GenX,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_tx,all,MWh,26.705488913912763
+GenX,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_tx,all,MWh,379.57928381919714
+GenX,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_tx,all,MWh,19.221788329849417
+GenX,ERCOT,ERCOT_battery_moderate_0,Battery,2040,no_tx,all,MWh,60.66346907338718
+GenX,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2040,no_tx,all,MWh,14.12004671351028
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2040,no_tx,all,MWh,8511698.049448028
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2040,no_tx,all,MWh,169992374.76903376
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2040,no_tx,all,MWh,122.7985379452774
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2040,no_tx,all,MWh,76.44196816556232
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2040,no_tx,all,MWh,28.729048155071688
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2040,no_tx,all,MWh,27.782408840903884
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2040,no_tx,all,MWh,1869.1325076384508
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2040,no_tx,all,MWh,61851687.38818414
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2040,no_tx,all,MWh,41.97462951322242
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2040,no_tx,all,MWh,42.117944492165925
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2040,no_tx,all,MWh,16.69559340933523
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2040,no_tx,all,MWh,23.249267950797368
+GenX,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_tx,all,MWh,31.06232111990762
+GenX,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_tx,all,MWh,194.42992125429816
+GenX,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_tx,all,MWh,26.192466599075622
+GenX,Eastern,Eastern_battery_moderate_0,Battery,2040,no_tx,all,MWh,35.156789100969114
+GenX,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2040,no_tx,all,MWh,13.421300324063669
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2040,no_tx,all,MWh,546685724.3465291
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2040,no_tx,all,MWh,594012370.8026505
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2040,no_tx,all,MWh,165.9508974404573
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2040,no_tx,all,MWh,155697785.67671853
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2040,no_tx,all,MWh,26.05713419964267
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2040,no_tx,all,MWh,16.588490984765027
+GenX,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2040,no_tx,all,MWh,150.19579881422217
+GenX,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2040,no_tx,all,MWh,513578792.59005266
+GenX,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2040,no_tx,all,MWh,30.7346443510781
+GenX,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2040,no_tx,all,MWh,27.766222539033336
+GenX,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2040,no_tx,all,MWh,15.71238198874082
+GenX,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2040,no_tx,all,MWh,18.33073515068904
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2040,no_tx,all,MWh,5.8260003340179525
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2040,no_tx,all,MWh,3.680309112727014
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2040,no_tx,all,MWh,3.5101932818943125
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2040,no_tx,all,MWh,3.3500450454561994
+GenX,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_tx,all,MWh,33.86835585661213
+GenX,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_tx,all,MWh,25472820.804450765
+GenX,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_tx,all,MWh,20.88670372988431
+GenX,Western,Western_battery_moderate_0,Battery,2040,no_tx,all,MWh,63.38117861073956
+GenX,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2040,no_tx,all,MWh,13.197884930764475
+GenX,Western,Western_landbasedwind_class3_moderate_1,Wind,2040,no_tx,all,MWh,29.25083227799542
+GenX,Western,Western_landbasedwind_class3_moderate_2,Wind,2040,no_tx,all,MWh,356451525.7483679
+GenX,Western,Western_landbasedwind_class3_moderate_3,Wind,2040,no_tx,all,MWh,12.01962553261117
+GenX,Western,Western_landbasedwind_class3_moderate_4,Wind,2040,no_tx,all,MWh,17.74292936134915
+GenX,Western,Western_landbasedwind_class3_moderate_5,Wind,2040,no_tx,all,MWh,7.978698960734779
+GenX,Western,Western_landbasedwind_class3_moderate_6,Wind,2040,no_tx,all,MWh,8.825189646503347
+GenX,Western,Western_utilitypv_class1_moderate_1,Solar,2040,no_tx,all,MWh,151631219.4176244
+GenX,Western,Western_utilitypv_class1_moderate_2,Solar,2040,no_tx,all,MWh,21226579.72064374
+GenX,Western,Western_utilitypv_class1_moderate_3,Solar,2040,no_tx,all,MWh,31.790508313764494
+GenX,Western,Western_utilitypv_class1_moderate_4,Solar,2040,no_tx,all,MWh,29.864904793015217
+GenX,Western,Western_utilitypv_class1_moderate_5,Solar,2040,no_tx,all,MWh,13.490776282692554
+GenX,Western,Western_utilitypv_class1_moderate_6,Solar,2040,no_tx,all,MWh,17.21639858718453
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2040,no_tx,all,MWh,2.1397392047841612
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2040,no_tx,all,MWh,2.7353335494047646
+GenX,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2040,no_tx_battery,all,MWh,416434.7760240472
+GenX,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2040,no_tx_battery,all,MWh,7080570.180385025
+GenX,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_tx_battery,all,MWh,137908136.59342617
+GenX,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_tx_battery,all,MWh,1221021.2941141345
+GenX,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2040,no_tx_battery,all,MWh,130801.59679670012
+GenX,ERCOT,ERCOT_nuclear_1,Nuclear,2040,no_tx_battery,all,MWh,32594192.106058247
+GenX,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2040,no_tx_battery,all,MWh,99041133.01086634
+GenX,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2040,no_tx_battery,all,MWh,38228247.54387365
+GenX,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2040,no_tx_battery,all,MWh,85438017.19322313
+GenX,Eastern,Eastern_conventional_steam_coal_1,Coal,2040,no_tx_battery,all,MWh,91885239.349752
+GenX,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2040,no_tx_battery,all,MWh,32075122.601046424
+GenX,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_tx_battery,all,MWh,1002775022.4161882
+GenX,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_tx_battery,all,MWh,1593804.626709134
+GenX,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2040,no_tx_battery,all,MWh,5213625.183212578
+GenX,Eastern,Eastern_nuclear_1,Nuclear,2040,no_tx_battery,all,MWh,657765098.8909934
+GenX,Eastern,Eastern_onshore_wind_turbine_1,Wind,2040,no_tx_battery,all,MWh,193554779.5223087
+GenX,Eastern,Eastern_solar_photovoltaic_1,Solar,2040,no_tx_battery,all,MWh,83947672.65722318
+GenX,Western,Western_conventional_hydroelectric_1,Hydro,2040,no_tx_battery,all,MWh,189372461.13398424
+GenX,Western,Western_conventional_steam_coal_1,Coal,2040,no_tx_battery,all,MWh,61627220.62328599
+GenX,Western,Western_geothermal_1,Geothermal,2040,no_tx_battery,all,MWh,25905901.127389267
+GenX,Western,Western_hydroelectric_pumped_storage_1,Hydro,2040,no_tx_battery,all,MWh,6406254.387125585
+GenX,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_tx_battery,all,MWh,85250483.48737144
+GenX,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_tx_battery,all,MWh,1608226.5150955075
+GenX,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2040,no_tx_battery,all,MWh,1369978.8971156536
+GenX,Western,Western_nuclear_1,Nuclear,2040,no_tx_battery,all,MWh,38341779.46516074
+GenX,Western,Western_onshore_wind_turbine_1,Wind,2040,no_tx_battery,all,MWh,84521847.55629693
+GenX,Western,Western_solar_photovoltaic_1,Solar,2040,no_tx_battery,all,MWh,83330226.95693892
+GenX,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_tx_battery,all,MWh,33.573739201462764
+GenX,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_tx_battery,all,MWh,6597598.289632353
+GenX,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_tx_battery,all,MWh,21.210933886341728
+GenX,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2040,no_tx_battery,all,MWh,21.395611027760463
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2040,no_tx_battery,all,MWh,7525367.268147702
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2040,no_tx_battery,all,MWh,167743072.89517495
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2040,no_tx_battery,all,MWh,332.14762434441167
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2040,no_tx_battery,all,MWh,166.25853608836593
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2040,no_tx_battery,all,MWh,60.34866573876212
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2040,no_tx_battery,all,MWh,56.31722051617062
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2040,no_tx_battery,all,MWh,3362.6928999957804
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2040,no_tx_battery,all,MWh,61408418.92689341
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2040,no_tx_battery,all,MWh,66.57490078469685
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2040,no_tx_battery,all,MWh,64.9579008023832
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2040,no_tx_battery,all,MWh,24.678466505415837
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2040,no_tx_battery,all,MWh,33.54799461153878
+GenX,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_tx_battery,all,MWh,32.63762165203404
+GenX,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_tx_battery,all,MWh,241.9640913228345
+GenX,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_tx_battery,all,MWh,27.439527497120583
+GenX,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2040,no_tx_battery,all,MWh,16.092797990720474
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2040,no_tx_battery,all,MWh,546523499.6672094
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2040,no_tx_battery,all,MWh,594205533.2129699
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2040,no_tx_battery,all,MWh,299.1262852271129
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2040,no_tx_battery,all,MWh,152357964.5989836
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2040,no_tx_battery,all,MWh,36.23872367451571
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2040,no_tx_battery,all,MWh,19.47571211341232
+GenX,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2040,no_tx_battery,all,MWh,300.4585549731174
+GenX,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2040,no_tx_battery,all,MWh,511045976.74796134
+GenX,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2040,no_tx_battery,all,MWh,44.48708636996676
+GenX,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2040,no_tx_battery,all,MWh,49.33811022077169
+GenX,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2040,no_tx_battery,all,MWh,20.12804962570739
+GenX,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2040,no_tx_battery,all,MWh,27.112028569759964
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2040,no_tx_battery,all,MWh,9.766831263770872
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2040,no_tx_battery,all,MWh,5.597409957665567
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2040,no_tx_battery,all,MWh,5.76893317622904
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2040,no_tx_battery,all,MWh,5.75178702523049
+GenX,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_tx_battery,all,MWh,41.834489991459115
+GenX,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_tx_battery,all,MWh,94314961.87103452
+GenX,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_tx_battery,all,MWh,21.649308236749203
+GenX,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2040,no_tx_battery,all,MWh,19.639046681110734
+GenX,Western,Western_landbasedwind_class3_moderate_1,Wind,2040,no_tx_battery,all,MWh,45.304271152003054
+GenX,Western,Western_landbasedwind_class3_moderate_2,Wind,2040,no_tx_battery,all,MWh,352239102.1192889
+GenX,Western,Western_landbasedwind_class3_moderate_3,Wind,2040,no_tx_battery,all,MWh,18.83013107046325
+GenX,Western,Western_landbasedwind_class3_moderate_4,Wind,2040,no_tx_battery,all,MWh,27.5096159904777
+GenX,Western,Western_landbasedwind_class3_moderate_5,Wind,2040,no_tx_battery,all,MWh,12.82682561041639
+GenX,Western,Western_landbasedwind_class3_moderate_6,Wind,2040,no_tx_battery,all,MWh,11.225515384383137
+GenX,Western,Western_utilitypv_class1_moderate_1,Solar,2040,no_tx_battery,all,MWh,103218541.83518118
+GenX,Western,Western_utilitypv_class1_moderate_2,Solar,2040,no_tx_battery,all,MWh,49194339.583230935
+GenX,Western,Western_utilitypv_class1_moderate_3,Solar,2040,no_tx_battery,all,MWh,43.31521499055121
+GenX,Western,Western_utilitypv_class1_moderate_4,Solar,2040,no_tx_battery,all,MWh,44.10495391939481
+GenX,Western,Western_utilitypv_class1_moderate_5,Solar,2040,no_tx_battery,all,MWh,21.602250756581412
+GenX,Western,Western_utilitypv_class1_moderate_6,Solar,2040,no_tx_battery,all,MWh,24.106075854146695
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2040,no_tx_battery,all,MWh,3.745305479824014
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2040,no_tx_battery,all,MWh,4.890853212225737
+GenX,ERCOT,ERCOT_batteries_1,Battery,2040,single_zone,all,MWh,2238266.302504145
+GenX,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2040,single_zone,all,MWh,439890.0818896528
+GenX,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2040,single_zone,all,MWh,1772480.8643397114
+GenX,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2040,single_zone,all,MWh,97241609.86146544
+GenX,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,single_zone,all,MWh,3.467557753431037
+GenX,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2040,single_zone,all,MWh,2.953343133885007
+GenX,ERCOT,ERCOT_nuclear_1,Nuclear,2040,single_zone,all,MWh,39151625.79940656
+GenX,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2040,single_zone,all,MWh,106085068.34092216
+GenX,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2040,single_zone,all,MWh,41570680.88632068
+GenX,Eastern,Eastern_batteries_1,Battery,2040,single_zone,all,MWh,1145297.0299933332
+GenX,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2040,single_zone,all,MWh,85622767.69295159
+GenX,Eastern,Eastern_conventional_steam_coal_1,Coal,2040,single_zone,all,MWh,116892967.11426218
+GenX,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2040,single_zone,all,MWh,23840581.11930153
+GenX,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2040,single_zone,all,MWh,1193626576.6498313
+GenX,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,single_zone,all,MWh,1662232.9394640094
+GenX,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2040,single_zone,all,MWh,4379277.1085652355
+GenX,Eastern,Eastern_nuclear_1,Nuclear,2040,single_zone,all,MWh,667889237.8041855
+GenX,Eastern,Eastern_onshore_wind_turbine_1,Wind,2040,single_zone,all,MWh,193863185.3412872
+GenX,Eastern,Eastern_solar_photovoltaic_1,Solar,2040,single_zone,all,MWh,84077236.05186726
+GenX,Western,Western_batteries_1,Battery,2040,single_zone,all,MWh,11204146.02320042
+GenX,Western,Western_conventional_hydroelectric_1,Hydro,2040,single_zone,all,MWh,192472776.81815583
+GenX,Western,Western_conventional_steam_coal_1,Coal,2040,single_zone,all,MWh,39634486.63697431
+GenX,Western,Western_geothermal_1,Geothermal,2040,single_zone,all,MWh,27062690.045879778
+GenX,Western,Western_hydroelectric_pumped_storage_1,Hydro,2040,single_zone,all,MWh,6899553.581236353
+GenX,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2040,single_zone,all,MWh,39475258.23682162
+GenX,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,single_zone,all,MWh,3.0712425458869044
+GenX,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2040,single_zone,all,MWh,3.6939579925588952
+GenX,Western,Western_nuclear_1,Nuclear,2040,single_zone,all,MWh,39571898.2622122
+GenX,Western,Western_onshore_wind_turbine_1,Wind,2040,single_zone,all,MWh,85453786.08579421
+GenX,Western,Western_solar_photovoltaic_1,Solar,2040,single_zone,all,MWh,84000420.03703226
+GenX,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2040,single_zone,all,MWh,3.9395437128584208
+GenX,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,single_zone,all,MWh,23.629491182635967
+GenX,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,single_zone,all,MWh,4.797448023694695
+GenX,ERCOT,ERCOT_battery_moderate_0,Battery,2040,single_zone,all,MWh,9.617274316480623
+GenX,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2040,single_zone,all,MWh,2.641797972692245
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2040,single_zone,all,MWh,162670453.65074444
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2040,single_zone,all,MWh,179102842.48514107
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2040,single_zone,all,MWh,141115596.29203647
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2040,single_zone,all,MWh,157040051.2289552
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2040,single_zone,all,MWh,18.985999896671856
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2040,single_zone,all,MWh,18.489200954104057
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2040,single_zone,all,MWh,53.24383082323824
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2040,single_zone,all,MWh,87.50298691667024
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2040,single_zone,all,MWh,8.418778706430906
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2040,single_zone,all,MWh,8.854856646011088
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2040,single_zone,all,MWh,3.958772425142266
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2040,single_zone,all,MWh,4.9521564482423965
+GenX,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2040,single_zone,all,MWh,4.88330736478283
+GenX,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,single_zone,all,MWh,45.42415369857102
+GenX,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,single_zone,all,MWh,7.356018053890954
+GenX,Eastern,Eastern_battery_moderate_0,Battery,2040,single_zone,all,MWh,9.71981946937042
+GenX,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2040,single_zone,all,MWh,2.1432905926965504
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2040,single_zone,all,MWh,547519390.9221541
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2040,single_zone,all,MWh,594345656.5518622
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2040,single_zone,all,MWh,20.16535755022002
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2040,single_zone,all,MWh,60.922760897706475
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2040,single_zone,all,MWh,4.885015686450815
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2040,single_zone,all,MWh,5.271822005011365
+GenX,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2040,single_zone,all,MWh,10.376557798148964
+GenX,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2040,single_zone,all,MWh,12.874486958577917
+GenX,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2040,single_zone,all,MWh,3.685806323002695
+GenX,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2040,single_zone,all,MWh,10.390469287456142
+GenX,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2040,single_zone,all,MWh,2.3675716233142117
+GenX,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2040,single_zone,all,MWh,6.236497120974752
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2040,single_zone,all,MWh,1.4822590507727442
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2040,single_zone,all,MWh,0.8549035942506655
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2040,single_zone,all,MWh,0.7638650372490522
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2040,single_zone,all,MWh,0.8094396209193925
+GenX,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2040,single_zone,all,MWh,3.153087946565042
+GenX,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,single_zone,all,MWh,10.829973373071862
+GenX,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,single_zone,all,MWh,3.5976879267343413
+GenX,Western,Western_battery_moderate_0,Battery,2040,single_zone,all,MWh,9.282216969588555
+GenX,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2040,single_zone,all,MWh,1.8390786414887257
+GenX,Western,Western_landbasedwind_class3_moderate_1,Wind,2040,single_zone,all,MWh,5.544180609978335
+GenX,Western,Western_landbasedwind_class3_moderate_2,Wind,2040,single_zone,all,MWh,9.279788324138318
+GenX,Western,Western_landbasedwind_class3_moderate_3,Wind,2040,single_zone,all,MWh,2.723026144645222
+GenX,Western,Western_landbasedwind_class3_moderate_4,Wind,2040,single_zone,all,MWh,3.405178732968795
+GenX,Western,Western_landbasedwind_class3_moderate_5,Wind,2040,single_zone,all,MWh,1.4774167926764123
+GenX,Western,Western_landbasedwind_class3_moderate_6,Wind,2040,single_zone,all,MWh,1.6291179493837729
+GenX,Western,Western_utilitypv_class1_moderate_1,Solar,2040,single_zone,all,MWh,731829056.2907548
+GenX,Western,Western_utilitypv_class1_moderate_2,Solar,2040,single_zone,all,MWh,440.1619327238797
+GenX,Western,Western_utilitypv_class1_moderate_3,Solar,2040,single_zone,all,MWh,5.988711933987795
+GenX,Western,Western_utilitypv_class1_moderate_4,Solar,2040,single_zone,all,MWh,6.414723463870177
+GenX,Western,Western_utilitypv_class1_moderate_5,Solar,2040,single_zone,all,MWh,5.363744974351011
+GenX,Western,Western_utilitypv_class1_moderate_6,Solar,2040,single_zone,all,MWh,3.3219018922561343
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2040,single_zone,all,MWh,0.5378359759237803
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2040,single_zone,all,MWh,0.673354822593408
+GenX,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2040,no_battery,all,MWh,421891.3229541184
+GenX,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2040,no_battery,all,MWh,7204620.548905295
+GenX,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_battery,all,MWh,93468422.46274136
+GenX,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_battery,all,MWh,16991.747347154775
+GenX,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2040,no_battery,all,MWh,5.737154272732937
+GenX,ERCOT,ERCOT_nuclear_1,Nuclear,2040,no_battery,all,MWh,34954962.79596349
+GenX,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2040,no_battery,all,MWh,102120680.88750914
+GenX,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2040,no_battery,all,MWh,40221181.808835946
+GenX,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2040,no_battery,all,MWh,85533161.31644233
+GenX,Eastern,Eastern_conventional_steam_coal_1,Coal,2040,no_battery,all,MWh,95892344.70408842
+GenX,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2040,no_battery,all,MWh,30083435.859872255
+GenX,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_battery,all,MWh,1091597884.2455697
+GenX,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_battery,all,MWh,1758874.2173948344
+GenX,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2040,no_battery,all,MWh,5439271.975592968
+GenX,Eastern,Eastern_nuclear_1,Nuclear,2040,no_battery,all,MWh,662016159.4979702
+GenX,Eastern,Eastern_onshore_wind_turbine_1,Wind,2040,no_battery,all,MWh,193777854.33822215
+GenX,Eastern,Eastern_solar_photovoltaic_1,Solar,2040,no_battery,all,MWh,84108018.09585746
+GenX,Western,Western_conventional_hydroelectric_1,Hydro,2040,no_battery,all,MWh,191027767.07686988
+GenX,Western,Western_conventional_steam_coal_1,Coal,2040,no_battery,all,MWh,66314322.48247542
+GenX,Western,Western_geothermal_1,Geothermal,2040,no_battery,all,MWh,26506844.247006357
+GenX,Western,Western_hydroelectric_pumped_storage_1,Hydro,2040,no_battery,all,MWh,6968085.135777566
+GenX,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2040,no_battery,all,MWh,107030944.43365052
+GenX,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,no_battery,all,MWh,1446582.5881090576
+GenX,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2040,no_battery,all,MWh,1275790.7267103328
+GenX,Western,Western_nuclear_1,Nuclear,2040,no_battery,all,MWh,39798538.64574817
+GenX,Western,Western_onshore_wind_turbine_1,Wind,2040,no_battery,all,MWh,84966036.54885896
+GenX,Western,Western_solar_photovoltaic_1,Solar,2040,no_battery,all,MWh,83638088.0454855
+GenX,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_battery,all,MWh,11.440942540116747
+GenX,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_battery,all,MWh,65.64220186901439
+GenX,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_battery,all,MWh,7.530875529719775
+GenX,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2040,no_battery,all,MWh,8.48918388357095
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2040,no_battery,all,MWh,119486540.76362196
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2040,no_battery,all,MWh,173672254.82830396
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2040,no_battery,all,MWh,94.8411831273928
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2040,no_battery,all,MWh,75.59138266412357
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2040,no_battery,all,MWh,25.588983014021473
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2040,no_battery,all,MWh,25.355310097144727
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2040,no_battery,all,MWh,686.6204665653268
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2040,no_battery,all,MWh,27667778.552336782
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2040,no_battery,all,MWh,24.947459645389035
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2040,no_battery,all,MWh,24.51353003584188
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2040,no_battery,all,MWh,9.743137447045582
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2040,no_battery,all,MWh,13.163917781543176
+GenX,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_battery,all,MWh,14.631279674684958
+GenX,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_battery,all,MWh,113.00904910944196
+GenX,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_battery,all,MWh,12.601344095038773
+GenX,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2040,no_battery,all,MWh,7.226036670949073
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2040,no_battery,all,MWh,547633425.8180993
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2040,no_battery,all,MWh,594745240.709258
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2040,no_battery,all,MWh,116.59429004572172
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2040,no_battery,all,MWh,108317297.70281124
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2040,no_battery,all,MWh,16.350981526138185
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2040,no_battery,all,MWh,7.994857534577227
+GenX,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2040,no_battery,all,MWh,123.70209056448314
+GenX,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2040,no_battery,all,MWh,488504097.1655679
+GenX,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2040,no_battery,all,MWh,19.412195592977103
+GenX,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2040,no_battery,all,MWh,21.069176638083356
+GenX,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2040,no_battery,all,MWh,8.948527559867168
+GenX,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2040,no_battery,all,MWh,11.971598968458528
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2040,no_battery,all,MWh,5.193616901025665
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2040,no_battery,all,MWh,2.335531310215111
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2040,no_battery,all,MWh,3.5218378019061545
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2040,no_battery,all,MWh,3.2943615279126552
+GenX,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2040,no_battery,all,MWh,13.632436165814054
+GenX,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,no_battery,all,MWh,89.94484261349625
+GenX,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,no_battery,all,MWh,7.747566651500563
+GenX,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2040,no_battery,all,MWh,7.529946890701463
+GenX,Western,Western_landbasedwind_class3_moderate_1,Wind,2040,no_battery,all,MWh,19.79402679690249
+GenX,Western,Western_landbasedwind_class3_moderate_2,Wind,2040,no_battery,all,MWh,312298627.12408113
+GenX,Western,Western_landbasedwind_class3_moderate_3,Wind,2040,no_battery,all,MWh,7.406620060101925
+GenX,Western,Western_landbasedwind_class3_moderate_4,Wind,2040,no_battery,all,MWh,13.737151660009362
+GenX,Western,Western_landbasedwind_class3_moderate_5,Wind,2040,no_battery,all,MWh,4.5845932355092165
+GenX,Western,Western_landbasedwind_class3_moderate_6,Wind,2040,no_battery,all,MWh,4.424402003895912
+GenX,Western,Western_utilitypv_class1_moderate_1,Solar,2040,no_battery,all,MWh,162112592.12770486
+GenX,Western,Western_utilitypv_class1_moderate_2,Solar,2040,no_battery,all,MWh,38520972.25642975
+GenX,Western,Western_utilitypv_class1_moderate_3,Solar,2040,no_battery,all,MWh,17.54883382408951
+GenX,Western,Western_utilitypv_class1_moderate_4,Solar,2040,no_battery,all,MWh,17.8230479391082
+GenX,Western,Western_utilitypv_class1_moderate_5,Solar,2040,no_battery,all,MWh,9.000738642190107
+GenX,Western,Western_utilitypv_class1_moderate_6,Solar,2040,no_battery,all,MWh,9.900594513210889
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2040,no_battery,all,MWh,1.7105217582776326
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2040,no_battery,all,MWh,2.346380266962269
+GenX,ERCOT,ERCOT_batteries_1,Battery,2040,existing_only,all,MWh,4.97929254654927e-05
+GenX,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2040,existing_only,all,MWh,446322.0896413141
+GenX,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2040,existing_only,all,MWh,2.647119568874504e-06
+GenX,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2040,existing_only,all,MWh,6.901384068818233e-05
+GenX,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,existing_only,all,MWh,8.205441227824742e-06
+GenX,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2040,existing_only,all,MWh,5.8465087674688946e-06
+GenX,ERCOT,ERCOT_nuclear_1,Nuclear,2040,existing_only,all,MWh,44851199.99998971
+GenX,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2040,existing_only,all,MWh,106573238.91788428
+GenX,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2040,existing_only,all,MWh,42019151.17071048
+GenX,Eastern,Eastern_batteries_1,Battery,2040,existing_only,all,MWh,4.9746089142312734e-05
+GenX,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2040,existing_only,all,MWh,86113391.81766617
+GenX,Eastern,Eastern_conventional_steam_coal_1,Coal,2040,existing_only,all,MWh,2.6844254357657535e-06
+GenX,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2040,existing_only,all,MWh,2.716925447781161e-05
+GenX,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2040,existing_only,all,MWh,1773200556.075553
+GenX,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,existing_only,all,MWh,7.256633166410971e-06
+GenX,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2040,existing_only,all,MWh,6.585463659673905e-06
+GenX,Eastern,Eastern_nuclear_1,Nuclear,2040,existing_only,all,MWh,721881815.9998981
+GenX,Eastern,Eastern_onshore_wind_turbine_1,Wind,2040,existing_only,all,MWh,194490026.42125177
+GenX,Eastern,Eastern_solar_photovoltaic_1,Solar,2040,existing_only,all,MWh,84593634.92274903
+GenX,Western,Western_batteries_1,Battery,2040,existing_only,all,MWh,4.984417268610062e-05
+GenX,Western,Western_conventional_hydroelectric_1,Hydro,2040,existing_only,all,MWh,193176389.80161363
+GenX,Western,Western_conventional_steam_coal_1,Coal,2040,existing_only,all,MWh,2.7950205548150885e-06
+GenX,Western,Western_geothermal_1,Geothermal,2040,existing_only,all,MWh,27463475.999995444
+GenX,Western,Western_hydroelectric_pumped_storage_1,Hydro,2040,existing_only,all,MWh,2.7140492786177615e-05
+GenX,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2040,existing_only,all,MWh,7.114876456905278e-05
+GenX,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,existing_only,all,MWh,8.481666491612238e-06
+GenX,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2040,existing_only,all,MWh,9.774814063450012e-06
+GenX,Western,Western_nuclear_1,Nuclear,2040,existing_only,all,MWh,45332999.99999789
+GenX,Western,Western_onshore_wind_turbine_1,Wind,2040,existing_only,all,MWh,85794939.02847342
+GenX,Western,Western_solar_photovoltaic_1,Solar,2040,existing_only,all,MWh,84195031.64557569
+GenX,ERCOT,ERCOT_coal_ccs90avgcf_moderate_1,CCS,2040,existing_only,all,MWh,0.0
+GenX,Eastern,Eastern_coal_ccs90avgcf_moderate_1,CCS,2040,existing_only,all,MWh,0.0
+GenX,Western,Western_coal_ccs90avgcf_moderate_1,CCS,2040,existing_only,all,MWh,0.0
+GenX,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2050,no_tx_battery_hydro,all,MWh,66607.37678294095
+GenX,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_tx_battery_hydro,all,MWh,51802697.93979043
+GenX,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_tx_battery_hydro,all,MWh,1456212.0707004997
+GenX,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2050,no_tx_battery_hydro,all,MWh,370073.2501523809
+GenX,ERCOT,ERCOT_nuclear_1,Nuclear,2050,no_tx_battery_hydro,all,MWh,22538193.34600185
+GenX,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2050,no_tx_battery_hydro,all,MWh,85336139.01986264
+GenX,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2050,no_tx_battery_hydro,all,MWh,31139305.219558652
+GenX,Eastern,Eastern_conventional_steam_coal_1,Coal,2050,no_tx_battery_hydro,all,MWh,3111828.9932760033
+GenX,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_tx_battery_hydro,all,MWh,402361602.63516754
+GenX,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_tx_battery_hydro,all,MWh,36812139.28856902
+GenX,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2050,no_tx_battery_hydro,all,MWh,4573407.857333711
+GenX,Eastern,Eastern_nuclear_1,Nuclear,2050,no_tx_battery_hydro,all,MWh,470661104.1172924
+GenX,Eastern,Eastern_onshore_wind_turbine_1,Wind,2050,no_tx_battery_hydro,all,MWh,173540351.34955603
+GenX,Eastern,Eastern_solar_photovoltaic_1,Solar,2050,no_tx_battery_hydro,all,MWh,69099891.79384133
+GenX,Western,Western_conventional_steam_coal_1,Coal,2050,no_tx_battery_hydro,all,MWh,344444.26745822944
+GenX,Western,Western_geothermal_1,Geothermal,2050,no_tx_battery_hydro,all,MWh,22379243.696635984
+GenX,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_tx_battery_hydro,all,MWh,29592998.30838288
+GenX,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_tx_battery_hydro,all,MWh,2147589.1042150264
+GenX,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2050,no_tx_battery_hydro,all,MWh,874705.363104044
+GenX,Western,Western_nuclear_1,Nuclear,2050,no_tx_battery_hydro,all,MWh,33199837.79351786
+GenX,Western,Western_onshore_wind_turbine_1,Wind,2050,no_tx_battery_hydro,all,MWh,78583758.06626263
+GenX,Western,Western_solar_photovoltaic_1,Solar,2050,no_tx_battery_hydro,all,MWh,81090952.48448214
+GenX,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_tx_battery_hydro,all,MWh,22446948.245855153
+GenX,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_tx_battery_hydro,all,MWh,30822882.37192682
+GenX,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_tx_battery_hydro,all,MWh,6.977117695731468
+GenX,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2050,no_tx_battery_hydro,all,MWh,23.2856598289853
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2050,no_tx_battery_hydro,all,MWh,57141326.694098145
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2050,no_tx_battery_hydro,all,MWh,141719535.3546375
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2050,no_tx_battery_hydro,all,MWh,74833206.87143956
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2050,no_tx_battery_hydro,all,MWh,204.37469866707727
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2050,no_tx_battery_hydro,all,MWh,63.57859385972814
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2050,no_tx_battery_hydro,all,MWh,58.639948885068726
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2050,no_tx_battery_hydro,all,MWh,735.8865125713298
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2050,no_tx_battery_hydro,all,MWh,134030473.63290052
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2050,no_tx_battery_hydro,all,MWh,46.87493025498118
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2050,no_tx_battery_hydro,all,MWh,49.09972752142843
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2050,no_tx_battery_hydro,all,MWh,18.66304311997685
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2050,no_tx_battery_hydro,all,MWh,25.98447086998815
+GenX,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_tx_battery_hydro,all,MWh,341526269.31308854
+GenX,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_tx_battery_hydro,all,MWh,4981854.328188291
+GenX,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_tx_battery_hydro,all,MWh,12.104036270039645
+GenX,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2050,no_tx_battery_hydro,all,MWh,20.68496287387582
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2050,no_tx_battery_hydro,all,MWh,488914505.7987122
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2050,no_tx_battery_hydro,all,MWh,555419835.7266229
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2050,no_tx_battery_hydro,all,MWh,443677800.9737567
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2050,no_tx_battery_hydro,all,MWh,496821769.4224826
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2050,no_tx_battery_hydro,all,MWh,69.58728956569972
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2050,no_tx_battery_hydro,all,MWh,19.43455680691464
+GenX,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2050,no_tx_battery_hydro,all,MWh,96.62685424386648
+GenX,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2050,no_tx_battery_hydro,all,MWh,1017740505.4414214
+GenX,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2050,no_tx_battery_hydro,all,MWh,30.620371319831136
+GenX,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2050,no_tx_battery_hydro,all,MWh,38.29618316576804
+GenX,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2050,no_tx_battery_hydro,all,MWh,15.201449681961927
+GenX,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2050,no_tx_battery_hydro,all,MWh,21.837441447241563
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2050,no_tx_battery_hydro,all,MWh,12.47265578866901
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2050,no_tx_battery_hydro,all,MWh,6.419774449606658
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2050,no_tx_battery_hydro,all,MWh,6.721291192716199
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2050,no_tx_battery_hydro,all,MWh,6.439963171360221
+GenX,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_tx_battery_hydro,all,MWh,215864815.6865184
+GenX,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_tx_battery_hydro,all,MWh,116176437.81119736
+GenX,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_tx_battery_hydro,all,MWh,636192.0440943851
+GenX,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2050,no_tx_battery_hydro,all,MWh,26.2257486122917
+GenX,Western,Western_landbasedwind_class3_moderate_1,Wind,2050,no_tx_battery_hydro,all,MWh,240827713.10808268
+GenX,Western,Western_landbasedwind_class3_moderate_2,Wind,2050,no_tx_battery_hydro,all,MWh,357020255.066883
+GenX,Western,Western_landbasedwind_class3_moderate_3,Wind,2050,no_tx_battery_hydro,all,MWh,38.829492469046734
+GenX,Western,Western_landbasedwind_class3_moderate_4,Wind,2050,no_tx_battery_hydro,all,MWh,163.01964457522914
+GenX,Western,Western_landbasedwind_class3_moderate_5,Wind,2050,no_tx_battery_hydro,all,MWh,15.098918056343413
+GenX,Western,Western_landbasedwind_class3_moderate_6,Wind,2050,no_tx_battery_hydro,all,MWh,13.164579596682982
+GenX,Western,Western_utilitypv_class1_moderate_1,Solar,2050,no_tx_battery_hydro,all,MWh,182663720.01801252
+GenX,Western,Western_utilitypv_class1_moderate_2,Solar,2050,no_tx_battery_hydro,all,MWh,114712918.98511896
+GenX,Western,Western_utilitypv_class1_moderate_3,Solar,2050,no_tx_battery_hydro,all,MWh,33.18557300824992
+GenX,Western,Western_utilitypv_class1_moderate_4,Solar,2050,no_tx_battery_hydro,all,MWh,34.02007150354073
+GenX,Western,Western_utilitypv_class1_moderate_5,Solar,2050,no_tx_battery_hydro,all,MWh,21.5457389740282
+GenX,Western,Western_utilitypv_class1_moderate_6,Solar,2050,no_tx_battery_hydro,all,MWh,20.30588124310536
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2050,no_tx_battery_hydro,all,MWh,4.103949633823411
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2050,no_tx_battery_hydro,all,MWh,5.610455826144692
+GenX,ERCOT,ERCOT_batteries_1,Battery,2050,no_tx,all,MWh,2967876.14065823
+GenX,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2050,no_tx,all,MWh,364337.34688512894
+GenX,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2050,no_tx,all,MWh,74200.21531064644
+GenX,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_tx,all,MWh,65128146.39222097
+GenX,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_tx,all,MWh,1804574.4982705528
+GenX,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2050,no_tx,all,MWh,388328.8664154599
+GenX,ERCOT,ERCOT_nuclear_1,Nuclear,2050,no_tx,all,MWh,21958252.44149966
+GenX,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2050,no_tx,all,MWh,87261354.28506236
+GenX,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2050,no_tx,all,MWh,31621350.7196969
+GenX,Eastern,Eastern_batteries_1,Battery,2050,no_tx,all,MWh,1790641.9121781522
+GenX,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2050,no_tx,all,MWh,78880487.1586772
+GenX,Eastern,Eastern_conventional_steam_coal_1,Coal,2050,no_tx,all,MWh,2587686.692708072
+GenX,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2050,no_tx,all,MWh,43588109.285708
+GenX,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_tx,all,MWh,459517167.12470293
+GenX,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_tx,all,MWh,37302302.43642675
+GenX,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2050,no_tx,all,MWh,4314235.489884789
+GenX,Eastern,Eastern_nuclear_1,Nuclear,2050,no_tx,all,MWh,457103476.02525514
+GenX,Eastern,Eastern_onshore_wind_turbine_1,Wind,2050,no_tx,all,MWh,175881433.96793398
+GenX,Eastern,Eastern_solar_photovoltaic_1,Solar,2050,no_tx,all,MWh,68086886.98267889
+GenX,Western,Western_batteries_1,Battery,2050,no_tx,all,MWh,12390184.130302915
+GenX,Western,Western_conventional_hydroelectric_1,Hydro,2050,no_tx,all,MWh,182513375.88709652
+GenX,Western,Western_conventional_steam_coal_1,Coal,2050,no_tx,all,MWh,421467.62572091765
+GenX,Western,Western_geothermal_1,Geothermal,2050,no_tx,all,MWh,23071144.43606448
+GenX,Western,Western_hydroelectric_pumped_storage_1,Hydro,2050,no_tx,all,MWh,13092609.63321326
+GenX,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_tx,all,MWh,84033426.28617007
+GenX,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_tx,all,MWh,4231574.346573583
+GenX,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2050,no_tx,all,MWh,1981533.1170247216
+GenX,Western,Western_nuclear_1,Nuclear,2050,no_tx,all,MWh,30975718.739003085
+GenX,Western,Western_onshore_wind_turbine_1,Wind,2050,no_tx,all,MWh,79849342.6435805
+GenX,Western,Western_solar_photovoltaic_1,Solar,2050,no_tx,all,MWh,81047609.1883825
+GenX,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_tx,all,MWh,6962130.177031795
+GenX,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_tx,all,MWh,22895277.864371303
+GenX,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_tx,all,MWh,7.014616631799278
+GenX,ERCOT,ERCOT_battery_moderate_0,Battery,2050,no_tx,all,MWh,4497978.175345838
+GenX,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2050,no_tx,all,MWh,15.41269189236576
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2050,no_tx,all,MWh,81679432.21079133
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2050,no_tx,all,MWh,142401223.81959578
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2050,no_tx,all,MWh,49293179.02421496
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2050,no_tx,all,MWh,101.1314355192014
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2050,no_tx,all,MWh,31.27708751105189
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2050,no_tx,all,MWh,28.11876935270188
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2050,no_tx,all,MWh,560.3699417206825
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2050,no_tx,all,MWh,143188217.56836063
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2050,no_tx,all,MWh,31.249485089469513
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2050,no_tx,all,MWh,32.51919833335093
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2050,no_tx,all,MWh,13.219151337628334
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2050,no_tx,all,MWh,17.896525627439477
+GenX,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_tx,all,MWh,167130918.0917581
+GenX,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_tx,all,MWh,188.9726123389656
+GenX,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_tx,all,MWh,9.57536801711529
+GenX,Eastern,Eastern_battery_moderate_0,Battery,2050,no_tx,all,MWh,21310768.245576613
+GenX,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2050,no_tx,all,MWh,14.167854776277442
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2050,no_tx,all,MWh,493812280.07205576
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2050,no_tx,all,MWh,556280711.1306062
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2050,no_tx,all,MWh,443083478.77483696
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2050,no_tx,all,MWh,496836823.5183832
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2050,no_tx,all,MWh,36.680698731693774
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2050,no_tx,all,MWh,13.15023656455962
+GenX,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2050,no_tx,all,MWh,93.43802859931348
+GenX,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2050,no_tx,all,MWh,1087371849.5375268
+GenX,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2050,no_tx,all,MWh,23.25620769249971
+GenX,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2050,no_tx,all,MWh,24.811544220411427
+GenX,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2050,no_tx,all,MWh,11.187241507426045
+GenX,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2050,no_tx,all,MWh,15.41407416621375
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2050,no_tx,all,MWh,5.775226528281432
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2050,no_tx,all,MWh,3.1289209711847814
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2050,no_tx,all,MWh,3.1363146172928262
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2050,no_tx,all,MWh,2.9876294908013556
+GenX,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_tx,all,MWh,115801272.29402474
+GenX,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_tx,all,MWh,6332048.197847971
+GenX,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_tx,all,MWh,8.183206338884249
+GenX,Western,Western_battery_moderate_0,Battery,2050,no_tx,all,MWh,38927710.1317827
+GenX,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2050,no_tx,all,MWh,15.703918662532034
+GenX,Western,Western_landbasedwind_class3_moderate_1,Wind,2050,no_tx,all,MWh,149851683.4794175
+GenX,Western,Western_landbasedwind_class3_moderate_2,Wind,2050,no_tx,all,MWh,360337937.322258
+GenX,Western,Western_landbasedwind_class3_moderate_3,Wind,2050,no_tx,all,MWh,19.316146160611307
+GenX,Western,Western_landbasedwind_class3_moderate_4,Wind,2050,no_tx,all,MWh,48.21084938883807
+GenX,Western,Western_landbasedwind_class3_moderate_5,Wind,2050,no_tx,all,MWh,8.971611388623886
+GenX,Western,Western_landbasedwind_class3_moderate_6,Wind,2050,no_tx,all,MWh,7.694914110638166
+GenX,Western,Western_utilitypv_class1_moderate_1,Solar,2050,no_tx,all,MWh,310315763.8265543
+GenX,Western,Western_utilitypv_class1_moderate_2,Solar,2050,no_tx,all,MWh,59160691.33972648
+GenX,Western,Western_utilitypv_class1_moderate_3,Solar,2050,no_tx,all,MWh,24.081046271412156
+GenX,Western,Western_utilitypv_class1_moderate_4,Solar,2050,no_tx,all,MWh,24.38735116668681
+GenX,Western,Western_utilitypv_class1_moderate_5,Solar,2050,no_tx,all,MWh,13.84016310910172
+GenX,Western,Western_utilitypv_class1_moderate_6,Solar,2050,no_tx,all,MWh,14.18862268156091
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2050,no_tx,all,MWh,1.8129815285475537
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2050,no_tx,all,MWh,2.4809619701153176
+GenX,ERCOT,ERCOT_batteries_1,Battery,2050,single_zone,all,MWh,3219574.4004005054
+GenX,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2050,single_zone,all,MWh,379043.7317803887
+GenX,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2050,single_zone,all,MWh,461620.9686255976
+GenX,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2050,single_zone,all,MWh,43791690.19189527
+GenX,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,single_zone,all,MWh,1190720.5235586646
+GenX,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2050,single_zone,all,MWh,601020.0187298997
+GenX,ERCOT,ERCOT_nuclear_1,Nuclear,2050,single_zone,all,MWh,24785854.457110967
+GenX,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2050,single_zone,all,MWh,94566487.28624415
+GenX,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2050,single_zone,all,MWh,33039158.97251611
+GenX,Eastern,Eastern_batteries_1,Battery,2050,single_zone,all,MWh,1643297.5074961444
+GenX,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2050,single_zone,all,MWh,77483028.30492933
+GenX,Eastern,Eastern_conventional_steam_coal_1,Coal,2050,single_zone,all,MWh,2421255.988866382
+GenX,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2050,single_zone,all,MWh,41545184.31493721
+GenX,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2050,single_zone,all,MWh,533482874.88983583
+GenX,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,single_zone,all,MWh,35737194.44642117
+GenX,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2050,single_zone,all,MWh,6507347.334776397
+GenX,Eastern,Eastern_nuclear_1,Nuclear,2050,single_zone,all,MWh,448131585.85097486
+GenX,Eastern,Eastern_onshore_wind_turbine_1,Wind,2050,single_zone,all,MWh,175698192.6142532
+GenX,Eastern,Eastern_solar_photovoltaic_1,Solar,2050,single_zone,all,MWh,69411710.9161012
+GenX,Western,Western_batteries_1,Battery,2050,single_zone,all,MWh,15946451.075224817
+GenX,Western,Western_conventional_hydroelectric_1,Hydro,2050,single_zone,all,MWh,174597974.31572473
+GenX,Western,Western_conventional_steam_coal_1,Coal,2050,single_zone,all,MWh,809498.1578783655
+GenX,Western,Western_geothermal_1,Geothermal,2050,single_zone,all,MWh,20854217.40909232
+GenX,Western,Western_hydroelectric_pumped_storage_1,Hydro,2050,single_zone,all,MWh,12237800.838676166
+GenX,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2050,single_zone,all,MWh,37791678.809361346
+GenX,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,single_zone,all,MWh,2154933.5990190306
+GenX,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2050,single_zone,all,MWh,2615239.3640856612
+GenX,Western,Western_nuclear_1,Nuclear,2050,single_zone,all,MWh,25048770.61637513
+GenX,Western,Western_onshore_wind_turbine_1,Wind,2050,single_zone,all,MWh,74692257.156717
+GenX,Western,Western_solar_photovoltaic_1,Solar,2050,single_zone,all,MWh,79156513.39565758
+GenX,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2050,single_zone,all,MWh,189.7307388806066
+GenX,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,single_zone,all,MWh,568.2251851531378
+GenX,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,single_zone,all,MWh,10.749008608044088
+GenX,ERCOT,ERCOT_battery_moderate_0,Battery,2050,single_zone,all,MWh,9685723.556069624
+GenX,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2050,single_zone,all,MWh,14.781499916071487
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2050,single_zone,all,MWh,147681542.82247248
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2050,single_zone,all,MWh,162192678.40876174
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2050,single_zone,all,MWh,127761777.10001752
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2050,single_zone,all,MWh,142515059.84236902
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2050,single_zone,all,MWh,110238901.06936134
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2050,single_zone,all,MWh,127248934.21569613
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2050,single_zone,all,MWh,218.4389040868379
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2050,single_zone,all,MWh,1382.81439116441
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2050,single_zone,all,MWh,36.77285975889131
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2050,single_zone,all,MWh,37.31953239602224
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2050,single_zone,all,MWh,15.248556565025396
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2050,single_zone,all,MWh,20.59338048628787
+GenX,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2050,single_zone,all,MWh,106249526.1995009
+GenX,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,single_zone,all,MWh,47454184.66070758
+GenX,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,single_zone,all,MWh,11.905891786082904
+GenX,Eastern,Eastern_battery_moderate_0,Battery,2050,single_zone,all,MWh,3005.047534996878
+GenX,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2050,single_zone,all,MWh,11.271705459664458
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2050,single_zone,all,MWh,507001409.2747203
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2050,single_zone,all,MWh,557778992.7713748
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2050,single_zone,all,MWh,214721210.5603902
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2050,single_zone,all,MWh,501139448.9770182
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2050,single_zone,all,MWh,43.00230338414345
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2050,single_zone,all,MWh,16.088308889760228
+GenX,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2050,single_zone,all,MWh,50.18694014398338
+GenX,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2050,single_zone,all,MWh,75.87062267314552
+GenX,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2050,single_zone,all,MWh,26.989599918401424
+GenX,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2050,single_zone,all,MWh,28.334186097924736
+GenX,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2050,single_zone,all,MWh,13.766495871623006
+GenX,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2050,single_zone,all,MWh,17.185127966965148
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2050,single_zone,all,MWh,8.1025964826828
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2050,single_zone,all,MWh,4.305410438143537
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2050,single_zone,all,MWh,4.325730295646093
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2050,single_zone,all,MWh,4.2237177091037355
+GenX,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2050,single_zone,all,MWh,48.4328638005626
+GenX,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,single_zone,all,MWh,38.8988579592525
+GenX,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,single_zone,all,MWh,7.862230937419333
+GenX,Western,Western_battery_moderate_0,Battery,2050,single_zone,all,MWh,564.8875744046059
+GenX,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2050,single_zone,all,MWh,9.078467461445593
+GenX,Western,Western_landbasedwind_class3_moderate_1,Wind,2050,single_zone,all,MWh,49.00595548591713
+GenX,Western,Western_landbasedwind_class3_moderate_2,Wind,2050,single_zone,all,MWh,346749102.2148477
+GenX,Western,Western_landbasedwind_class3_moderate_3,Wind,2050,single_zone,all,MWh,14.054430427268564
+GenX,Western,Western_landbasedwind_class3_moderate_4,Wind,2050,single_zone,all,MWh,23.31703532685458
+GenX,Western,Western_landbasedwind_class3_moderate_5,Wind,2050,single_zone,all,MWh,7.263777666948453
+GenX,Western,Western_landbasedwind_class3_moderate_6,Wind,2050,single_zone,all,MWh,8.73922492710754
+GenX,Western,Western_utilitypv_class1_moderate_1,Solar,2050,single_zone,all,MWh,1487388924.4495056
+GenX,Western,Western_utilitypv_class1_moderate_2,Solar,2050,single_zone,all,MWh,110306831.99238364
+GenX,Western,Western_utilitypv_class1_moderate_3,Solar,2050,single_zone,all,MWh,26.95905018585111
+GenX,Western,Western_utilitypv_class1_moderate_4,Solar,2050,single_zone,all,MWh,28.165221522839097
+GenX,Western,Western_utilitypv_class1_moderate_5,Solar,2050,single_zone,all,MWh,17.71340900406599
+GenX,Western,Western_utilitypv_class1_moderate_6,Solar,2050,single_zone,all,MWh,17.924369286294677
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2050,single_zone,all,MWh,2.3267202429248517
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2050,single_zone,all,MWh,3.080206748814389
+GenX,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2050,no_tx_battery,all,MWh,375673.5897713605
+GenX,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2050,no_tx_battery,all,MWh,67651.58616896138
+GenX,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_tx_battery,all,MWh,52845696.07180453
+GenX,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_tx_battery,all,MWh,1506183.02925378
+GenX,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2050,no_tx_battery,all,MWh,384099.619959616
+GenX,ERCOT,ERCOT_nuclear_1,Nuclear,2050,no_tx_battery,all,MWh,22467878.93511492
+GenX,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2050,no_tx_battery,all,MWh,84850165.82674141
+GenX,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2050,no_tx_battery,all,MWh,30831921.729486268
+GenX,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2050,no_tx_battery,all,MWh,76574357.09506378
+GenX,Eastern,Eastern_conventional_steam_coal_1,Coal,2050,no_tx_battery,all,MWh,2887666.407531757
+GenX,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2050,no_tx_battery,all,MWh,45058361.67545762
+GenX,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_tx_battery,all,MWh,439693001.2985366
+GenX,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_tx_battery,all,MWh,36898451.81550358
+GenX,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2050,no_tx_battery,all,MWh,4378369.433356465
+GenX,Eastern,Eastern_nuclear_1,Nuclear,2050,no_tx_battery,all,MWh,460105208.09598625
+GenX,Eastern,Eastern_onshore_wind_turbine_1,Wind,2050,no_tx_battery,all,MWh,175165449.24522355
+GenX,Eastern,Eastern_solar_photovoltaic_1,Solar,2050,no_tx_battery,all,MWh,68366840.71512552
+GenX,Western,Western_conventional_hydroelectric_1,Hydro,2050,no_tx_battery,all,MWh,181565560.8241349
+GenX,Western,Western_conventional_steam_coal_1,Coal,2050,no_tx_battery,all,MWh,315279.1749466334
+GenX,Western,Western_geothermal_1,Geothermal,2050,no_tx_battery,all,MWh,22966766.554758143
+GenX,Western,Western_hydroelectric_pumped_storage_1,Hydro,2050,no_tx_battery,all,MWh,13423096.352737192
+GenX,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_tx_battery,all,MWh,42650078.16481372
+GenX,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_tx_battery,all,MWh,2740939.6931315856
+GenX,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2050,no_tx_battery,all,MWh,1273543.4506467388
+GenX,Western,Western_nuclear_1,Nuclear,2050,no_tx_battery,all,MWh,32390878.738292795
+GenX,Western,Western_onshore_wind_turbine_1,Wind,2050,no_tx_battery,all,MWh,80190640.58863512
+GenX,Western,Western_solar_photovoltaic_1,Solar,2050,no_tx_battery,all,MWh,81530617.22225858
+GenX,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_tx_battery,all,MWh,16479372.87351204
+GenX,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_tx_battery,all,MWh,35417702.33440029
+GenX,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_tx_battery,all,MWh,9.766678962490474
+GenX,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2050,no_tx_battery,all,MWh,31.88839230214801
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2050,no_tx_battery,all,MWh,59257047.250287995
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2050,no_tx_battery,all,MWh,142474798.91787103
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2050,no_tx_battery,all,MWh,71009251.69316055
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2050,no_tx_battery,all,MWh,258.8519766782633
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2050,no_tx_battery,all,MWh,89.30353937699459
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2050,no_tx_battery,all,MWh,80.15217004907669
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2050,no_tx_battery,all,MWh,1090.9199886980618
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2050,no_tx_battery,all,MWh,135885712.88953888
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2050,no_tx_battery,all,MWh,58.97337582617153
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2050,no_tx_battery,all,MWh,60.098055975708945
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2050,no_tx_battery,all,MWh,24.97852422089498
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2050,no_tx_battery,all,MWh,33.431889604817265
+GenX,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_tx_battery,all,MWh,213944520.22916025
+GenX,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_tx_battery,all,MWh,463.89274257993674
+GenX,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_tx_battery,all,MWh,15.354640498941489
+GenX,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2050,no_tx_battery,all,MWh,29.423934161097847
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2050,no_tx_battery,all,MWh,492581356.51901793
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2050,no_tx_battery,all,MWh,555202291.1103549
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2050,no_tx_battery,all,MWh,443463904.3112687
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2050,no_tx_battery,all,MWh,497384294.07884616
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2050,no_tx_battery,all,MWh,88.63647303445649
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2050,no_tx_battery,all,MWh,29.74879602056486
+GenX,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2050,no_tx_battery,all,MWh,166.03586181145866
+GenX,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2050,no_tx_battery,all,MWh,1057274782.083808
+GenX,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2050,no_tx_battery,all,MWh,48.68417527871284
+GenX,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2050,no_tx_battery,all,MWh,59.24169501769963
+GenX,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2050,no_tx_battery,all,MWh,23.610516061633582
+GenX,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2050,no_tx_battery,all,MWh,33.781081806085616
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2050,no_tx_battery,all,MWh,19.14755255383638
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2050,no_tx_battery,all,MWh,9.895714551291846
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2050,no_tx_battery,all,MWh,10.545745311074588
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2050,no_tx_battery,all,MWh,10.17297705357876
+GenX,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_tx_battery,all,MWh,152185247.49927682
+GenX,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_tx_battery,all,MWh,77718875.98215881
+GenX,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_tx_battery,all,MWh,21.23994539165994
+GenX,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2050,no_tx_battery,all,MWh,34.700510144696686
+GenX,Western,Western_landbasedwind_class3_moderate_1,Wind,2050,no_tx_battery,all,MWh,156589179.8323398
+GenX,Western,Western_landbasedwind_class3_moderate_2,Wind,2050,no_tx_battery,all,MWh,359289501.3030183
+GenX,Western,Western_landbasedwind_class3_moderate_3,Wind,2050,no_tx_battery,all,MWh,52.792510973663845
+GenX,Western,Western_landbasedwind_class3_moderate_4,Wind,2050,no_tx_battery,all,MWh,149.18088669441835
+GenX,Western,Western_landbasedwind_class3_moderate_5,Wind,2050,no_tx_battery,all,MWh,23.741382855074516
+GenX,Western,Western_landbasedwind_class3_moderate_6,Wind,2050,no_tx_battery,all,MWh,19.574102833617356
+GenX,Western,Western_utilitypv_class1_moderate_1,Solar,2050,no_tx_battery,all,MWh,160525826.11036322
+GenX,Western,Western_utilitypv_class1_moderate_2,Solar,2050,no_tx_battery,all,MWh,129048969.49887022
+GenX,Western,Western_utilitypv_class1_moderate_3,Solar,2050,no_tx_battery,all,MWh,43.13021877504249
+GenX,Western,Western_utilitypv_class1_moderate_4,Solar,2050,no_tx_battery,all,MWh,44.55517567515497
+GenX,Western,Western_utilitypv_class1_moderate_5,Solar,2050,no_tx_battery,all,MWh,29.071422033448773
+GenX,Western,Western_utilitypv_class1_moderate_6,Solar,2050,no_tx_battery,all,MWh,28.029382739244227
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2050,no_tx_battery,all,MWh,6.5525674149440025
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2050,no_tx_battery,all,MWh,9.038484278774412
+GenX,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2050,no_battery,all,MWh,370572.8636671631
+GenX,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2050,no_battery,all,MWh,193504.9081576781
+GenX,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_battery,all,MWh,38900132.86811755
+GenX,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_battery,all,MWh,1909725.030696747
+GenX,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2050,no_battery,all,MWh,564870.223747595
+GenX,ERCOT,ERCOT_nuclear_1,Nuclear,2050,no_battery,all,MWh,24499958.34925291
+GenX,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2050,no_battery,all,MWh,87347275.94124301
+GenX,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2050,no_battery,all,MWh,32440719.67713571
+GenX,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2050,no_battery,all,MWh,77075794.56499843
+GenX,Eastern,Eastern_conventional_steam_coal_1,Coal,2050,no_battery,all,MWh,2969854.1994226743
+GenX,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2050,no_battery,all,MWh,44016927.491018474
+GenX,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_battery,all,MWh,519085990.48252904
+GenX,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_battery,all,MWh,33654337.78332313
+GenX,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2050,no_battery,all,MWh,4777045.393876459
+GenX,Eastern,Eastern_nuclear_1,Nuclear,2050,no_battery,all,MWh,478676404.030374
+GenX,Eastern,Eastern_onshore_wind_turbine_1,Wind,2050,no_battery,all,MWh,178950548.4831516
+GenX,Eastern,Eastern_solar_photovoltaic_1,Solar,2050,no_battery,all,MWh,71988112.55189776
+GenX,Western,Western_conventional_hydroelectric_1,Hydro,2050,no_battery,all,MWh,179195020.80493945
+GenX,Western,Western_conventional_steam_coal_1,Coal,2050,no_battery,all,MWh,636022.2721290494
+GenX,Western,Western_geothermal_1,Geothermal,2050,no_battery,all,MWh,22444433.197560437
+GenX,Western,Western_hydroelectric_pumped_storage_1,Hydro,2050,no_battery,all,MWh,13017211.355330689
+GenX,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2050,no_battery,all,MWh,62668624.636544
+GenX,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,no_battery,all,MWh,6795279.118899999
+GenX,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2050,no_battery,all,MWh,2135202.2868861193
+GenX,Western,Western_nuclear_1,Nuclear,2050,no_battery,all,MWh,30420701.22495637
+GenX,Western,Western_onshore_wind_turbine_1,Wind,2050,no_battery,all,MWh,77562086.06796566
+GenX,Western,Western_solar_photovoltaic_1,Solar,2050,no_battery,all,MWh,80678079.33248861
+GenX,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_battery,all,MWh,362.89612819741023
+GenX,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_battery,all,MWh,7578898.920451287
+GenX,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_battery,all,MWh,25.30508800452287
+GenX,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2050,no_battery,all,MWh,54.02688421705961
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2050,no_battery,all,MWh,139449077.22265148
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2050,no_battery,all,MWh,148276481.09930912
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2050,no_battery,all,MWh,121249500.61526734
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2050,no_battery,all,MWh,17326375.66658982
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2050,no_battery,all,MWh,168.78755021509417
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2050,no_battery,all,MWh,177.00312273598556
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2050,no_battery,all,MWh,1324.6271966331078
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2050,no_battery,all,MWh,107902548.37805972
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2050,no_battery,all,MWh,105.11386722738692
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2050,no_battery,all,MWh,122.62064142275622
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2050,no_battery,all,MWh,42.45314767194096
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2050,no_battery,all,MWh,62.713442753176
+GenX,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_battery,all,MWh,241263823.6404395
+GenX,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_battery,all,MWh,15538.880563732046
+GenX,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_battery,all,MWh,29.507956097152302
+GenX,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2050,no_battery,all,MWh,48.86844393192167
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2050,no_battery,all,MWh,516733297.9428924
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2050,no_battery,all,MWh,569566578.2093335
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2050,no_battery,all,MWh,451790074.3791005
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2050,no_battery,all,MWh,513008268.70210373
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2050,no_battery,all,MWh,172.93262183510456
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2050,no_battery,all,MWh,45.60915978013545
+GenX,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2050,no_battery,all,MWh,310.5435030620217
+GenX,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2050,no_battery,all,MWh,913007395.5068086
+GenX,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2050,no_battery,all,MWh,76.5235044978895
+GenX,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2050,no_battery,all,MWh,89.83249986398408
+GenX,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2050,no_battery,all,MWh,36.13963572448548
+GenX,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2050,no_battery,all,MWh,51.474408697134976
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2050,no_battery,all,MWh,30.205525744377923
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2050,no_battery,all,MWh,15.134438121451264
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2050,no_battery,all,MWh,17.43176056793428
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2050,no_battery,all,MWh,16.66242877762064
+GenX,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2050,no_battery,all,MWh,73924827.51862203
+GenX,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,no_battery,all,MWh,6665151.792678046
+GenX,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,no_battery,all,MWh,27.579667026018925
+GenX,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2050,no_battery,all,MWh,49.18340624713595
+GenX,Western,Western_landbasedwind_class3_moderate_1,Wind,2050,no_battery,all,MWh,58645371.707834765
+GenX,Western,Western_landbasedwind_class3_moderate_2,Wind,2050,no_battery,all,MWh,356328944.1335309
+GenX,Western,Western_landbasedwind_class3_moderate_3,Wind,2050,no_battery,all,MWh,62.553266485393664
+GenX,Western,Western_landbasedwind_class3_moderate_4,Wind,2050,no_battery,all,MWh,173.4445097440861
+GenX,Western,Western_landbasedwind_class3_moderate_5,Wind,2050,no_battery,all,MWh,29.706169019227755
+GenX,Western,Western_landbasedwind_class3_moderate_6,Wind,2050,no_battery,all,MWh,29.214173287965146
+GenX,Western,Western_utilitypv_class1_moderate_1,Solar,2050,no_battery,all,MWh,168439189.75646514
+GenX,Western,Western_utilitypv_class1_moderate_2,Solar,2050,no_battery,all,MWh,273125647.9181548
+GenX,Western,Western_utilitypv_class1_moderate_3,Solar,2050,no_battery,all,MWh,72.52517344953759
+GenX,Western,Western_utilitypv_class1_moderate_4,Solar,2050,no_battery,all,MWh,76.84902049226483
+GenX,Western,Western_utilitypv_class1_moderate_5,Solar,2050,no_battery,all,MWh,50.58016833579232
+GenX,Western,Western_utilitypv_class1_moderate_6,Solar,2050,no_battery,all,MWh,48.923834777301174
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2050,no_battery,all,MWh,9.938599753316003
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2050,no_battery,all,MWh,13.26730389425062
+GenX,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2050,greenfield,all,MWh,854.5654881602203
+GenX,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,greenfield,all,MWh,43823170.5427877
+GenX,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,greenfield,all,MWh,4044702.816769997
+GenX,ERCOT,ERCOT_battery_moderate_0,Battery,2050,greenfield,all,MWh,13285334.7417991
+GenX,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2050,greenfield,all,MWh,177.03445782667552
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2050,greenfield,all,MWh,142310227.9275184
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2050,greenfield,all,MWh,159273204.1448024
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2050,greenfield,all,MWh,122491277.45631392
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2050,greenfield,all,MWh,137509298.89006206
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2050,greenfield,all,MWh,259.2394764660257
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2050,greenfield,all,MWh,271.2445118811987
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2050,greenfield,all,MWh,20388.601764672843
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2050,greenfield,all,MWh,150907491.20461538
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2050,greenfield,all,MWh,372.7409390821627
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2050,greenfield,all,MWh,413.164243475287
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2050,greenfield,all,MWh,146.08109100486226
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2050,greenfield,all,MWh,209.66579819603356
+GenX,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2050,greenfield,all,MWh,662041052.6090816
+GenX,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,greenfield,all,MWh,619025423.2296802
+GenX,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,greenfield,all,MWh,35296887.40581196
+GenX,Eastern,Eastern_battery_moderate_0,Battery,2050,greenfield,all,MWh,121845951.45653698
+GenX,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2050,greenfield,all,MWh,160.5082150988429
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2050,greenfield,all,MWh,523400598.5154211
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2050,greenfield,all,MWh,574280479.5364861
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2050,greenfield,all,MWh,449995089.7902244
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2050,greenfield,all,MWh,518524551.2504752
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2050,greenfield,all,MWh,524.530541682052
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2050,greenfield,all,MWh,164.83028266786448
+GenX,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2050,greenfield,all,MWh,1359.0792823132049
+GenX,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2050,greenfield,all,MWh,1217041165.8499572
+GenX,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2050,greenfield,all,MWh,212.19946081513976
+GenX,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2050,greenfield,all,MWh,222.97917077540913
+GenX,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2050,greenfield,all,MWh,120.60765299746646
+GenX,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2050,greenfield,all,MWh,148.4627941858178
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2050,greenfield,all,MWh,75.94079764008792
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2050,greenfield,all,MWh,37.73032932405868
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2050,greenfield,all,MWh,35.776826364245174
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2050,greenfield,all,MWh,34.41342199615428
+GenX,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2050,greenfield,all,MWh,8290.896266235593
+GenX,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,greenfield,all,MWh,78496102.19942787
+GenX,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,greenfield,all,MWh,8460783.192956043
+GenX,Western,Western_battery_moderate_0,Battery,2050,greenfield,all,MWh,157697422.67291462
+GenX,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2050,greenfield,all,MWh,158.82039220166328
+GenX,Western,Western_landbasedwind_class3_moderate_1,Wind,2050,greenfield,all,MWh,198419053.3971208
+GenX,Western,Western_landbasedwind_class3_moderate_2,Wind,2050,greenfield,all,MWh,353014352.68908334
+GenX,Western,Western_landbasedwind_class3_moderate_3,Wind,2050,greenfield,all,MWh,150.0961930828762
+GenX,Western,Western_landbasedwind_class3_moderate_4,Wind,2050,greenfield,all,MWh,483.88772025872
+GenX,Western,Western_landbasedwind_class3_moderate_5,Wind,2050,greenfield,all,MWh,67.18406747749917
+GenX,Western,Western_landbasedwind_class3_moderate_6,Wind,2050,greenfield,all,MWh,58.74834865965574
+GenX,Western,Western_utilitypv_class1_moderate_1,Solar,2050,greenfield,all,MWh,550142869.2740436
+GenX,Western,Western_utilitypv_class1_moderate_2,Solar,2050,greenfield,all,MWh,185753552.1155432
+GenX,Western,Western_utilitypv_class1_moderate_3,Solar,2050,greenfield,all,MWh,250.69403534770728
+GenX,Western,Western_utilitypv_class1_moderate_4,Solar,2050,greenfield,all,MWh,254.7465094461548
+GenX,Western,Western_utilitypv_class1_moderate_5,Solar,2050,greenfield,all,MWh,149.0149865907036
+GenX,Western,Western_utilitypv_class1_moderate_6,Solar,2050,greenfield,all,MWh,150.50379625413646
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2050,greenfield,all,MWh,17.762116230148745
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2050,greenfield,all,MWh,24.33981072165815
+GenX,ERCOT,ERCOT_batteries_1,Battery,2050,cap_only,all,MWh,3138612.445085014
+GenX,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2050,cap_only,all,MWh,369688.72167558555
+GenX,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2050,cap_only,all,MWh,150769.08648746763
+GenX,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2050,cap_only,all,MWh,38915846.68959361
+GenX,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,cap_only,all,MWh,1918149.8481629516
+GenX,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2050,cap_only,all,MWh,530446.8896443719
+GenX,ERCOT,ERCOT_nuclear_1,Nuclear,2050,cap_only,all,MWh,23810348.573494423
+GenX,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2050,cap_only,all,MWh,89293672.83223052
+GenX,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2050,cap_only,all,MWh,32444224.840863068
+GenX,Eastern,Eastern_batteries_1,Battery,2050,cap_only,all,MWh,1752164.9275814334
+GenX,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2050,cap_only,all,MWh,79121425.59774368
+GenX,Eastern,Eastern_conventional_steam_coal_1,Coal,2050,cap_only,all,MWh,2705304.8435949343
+GenX,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2050,cap_only,all,MWh,43344112.04223824
+GenX,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2050,cap_only,all,MWh,531471995.4064984
+GenX,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,cap_only,all,MWh,33481704.516341247
+GenX,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2050,cap_only,all,MWh,4869581.389673963
+GenX,Eastern,Eastern_nuclear_1,Nuclear,2050,cap_only,all,MWh,464829367.242632
+GenX,Eastern,Eastern_onshore_wind_turbine_1,Wind,2050,cap_only,all,MWh,178330287.32820898
+GenX,Eastern,Eastern_solar_photovoltaic_1,Solar,2050,cap_only,all,MWh,70390923.97450095
+GenX,Western,Western_batteries_1,Battery,2050,cap_only,all,MWh,14442124.75227334
+GenX,Western,Western_conventional_hydroelectric_1,Hydro,2050,cap_only,all,MWh,181129076.5985648
+GenX,Western,Western_conventional_steam_coal_1,Coal,2050,cap_only,all,MWh,568095.0110549207
+GenX,Western,Western_geothermal_1,Geothermal,2050,cap_only,all,MWh,22447962.72217015
+GenX,Western,Western_hydroelectric_pumped_storage_1,Hydro,2050,cap_only,all,MWh,12284530.616235835
+GenX,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2050,cap_only,all,MWh,72633118.13072796
+GenX,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,cap_only,all,MWh,6578898.130229396
+GenX,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2050,cap_only,all,MWh,2207661.673764083
+GenX,Western,Western_nuclear_1,Nuclear,2050,cap_only,all,MWh,29208317.828967992
+GenX,Western,Western_onshore_wind_turbine_1,Wind,2050,cap_only,all,MWh,77575486.72014931
+GenX,Western,Western_solar_photovoltaic_1,Solar,2050,cap_only,all,MWh,80260737.21084733
+GenX,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2050,cap_only,all,MWh,48.214961363033645
+GenX,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,cap_only,all,MWh,115.60703350653444
+GenX,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,cap_only,all,MWh,4.333768411844468
+GenX,ERCOT,ERCOT_battery_moderate_0,Battery,2050,cap_only,all,MWh,1861129.484638993
+GenX,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2050,cap_only,all,MWh,8.465564477460074
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2050,cap_only,all,MWh,137110471.45243707
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2050,cap_only,all,MWh,151517235.1602747
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2050,cap_only,all,MWh,118880908.98858169
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2050,cap_only,all,MWh,26557259.501662996
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2050,cap_only,all,MWh,18.23796462833683
+GenX,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2050,cap_only,all,MWh,18.80174376557653
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2050,cap_only,all,MWh,123.3490079818108
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2050,cap_only,all,MWh,115528452.17013209
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2050,cap_only,all,MWh,13.8843167649157
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2050,cap_only,all,MWh,16.80659403820968
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2050,cap_only,all,MWh,6.099523287175531
+GenX,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2050,cap_only,all,MWh,8.781523068468017
+GenX,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2050,cap_only,all,MWh,217689831.73410872
+GenX,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,cap_only,all,MWh,167.0328290301431
+GenX,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,cap_only,all,MWh,5.17043483242055
+GenX,Eastern,Eastern_battery_moderate_0,Battery,2050,cap_only,all,MWh,645902.6796883612
+GenX,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2050,cap_only,all,MWh,7.984767537337051
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2050,cap_only,all,MWh,515115089.37100625
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2050,cap_only,all,MWh,563590160.1504484
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2050,cap_only,all,MWh,446899398.0645969
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2050,cap_only,all,MWh,507806730.31857586
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2050,cap_only,all,MWh,23.247001528649132
+GenX,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2050,cap_only,all,MWh,6.712457905870283
+GenX,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2050,cap_only,all,MWh,47.15413113357066
+GenX,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2050,cap_only,all,MWh,955836892.1003968
+GenX,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2050,cap_only,all,MWh,11.431150789246283
+GenX,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2050,cap_only,all,MWh,13.530083449402284
+GenX,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2050,cap_only,all,MWh,5.473100821006089
+GenX,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2050,cap_only,all,MWh,7.7867271918366034
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2050,cap_only,all,MWh,3.536050845210841
+GenX,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2050,cap_only,all,MWh,1.8621029883039224
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2050,cap_only,all,MWh,1.9956537179329117
+GenX,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2050,cap_only,all,MWh,1.901832310193347
+GenX,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2050,cap_only,all,MWh,387.6664889646112
+GenX,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,cap_only,all,MWh,49.91392042993368
+GenX,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,cap_only,all,MWh,3.922019840021924
+GenX,Western,Western_battery_moderate_0,Battery,2050,cap_only,all,MWh,27121080.420639645
+GenX,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2050,cap_only,all,MWh,7.845188589345891
+GenX,Western,Western_landbasedwind_class3_moderate_1,Wind,2050,cap_only,all,MWh,105819168.24396344
+GenX,Western,Western_landbasedwind_class3_moderate_2,Wind,2050,cap_only,all,MWh,354323843.2762599
+GenX,Western,Western_landbasedwind_class3_moderate_3,Wind,2050,cap_only,all,MWh,8.786470988635209
+GenX,Western,Western_landbasedwind_class3_moderate_4,Wind,2050,cap_only,all,MWh,21.09635344259449
+GenX,Western,Western_landbasedwind_class3_moderate_5,Wind,2050,cap_only,all,MWh,3.973253221781539
+GenX,Western,Western_landbasedwind_class3_moderate_6,Wind,2050,cap_only,all,MWh,4.132756420431368
+GenX,Western,Western_utilitypv_class1_moderate_1,Solar,2050,cap_only,all,MWh,413997752.57660306
+GenX,Western,Western_utilitypv_class1_moderate_2,Solar,2050,cap_only,all,MWh,51335786.49531551
+GenX,Western,Western_utilitypv_class1_moderate_3,Solar,2050,cap_only,all,MWh,11.319873346047814
+GenX,Western,Western_utilitypv_class1_moderate_4,Solar,2050,cap_only,all,MWh,11.554919729750663
+GenX,Western,Western_utilitypv_class1_moderate_5,Solar,2050,cap_only,all,MWh,7.509823844468951
+GenX,Western,Western_utilitypv_class1_moderate_6,Solar,2050,cap_only,all,MWh,7.292562448064111
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2050,cap_only,all,MWh,1.0533913736979663
+GenX,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2050,cap_only,all,MWh,1.3995452495919851
+GenX,ERCOT,ERCOT_batteries_1,Battery,2050,existing_only,all,MWh,0.043323907723392
+GenX,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2050,existing_only,all,MWh,446322.0862126856
+GenX,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2050,existing_only,all,MWh,0.0023635473451711
+GenX,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2050,existing_only,all,MWh,0.0650968107234049
+GenX,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,existing_only,all,MWh,0.0075574518621528
+GenX,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2050,existing_only,all,MWh,0.0051969643700691
+GenX,ERCOT,ERCOT_nuclear_1,Nuclear,2050,existing_only,all,MWh,44851199.99587589
+GenX,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2050,existing_only,all,MWh,106573238.91483048
+GenX,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2050,existing_only,all,MWh,42019151.169698715
+GenX,Eastern,Eastern_batteries_1,Battery,2050,existing_only,all,MWh,0.0424731383867149
+GenX,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2050,existing_only,all,MWh,86113391.81369509
+GenX,Eastern,Eastern_conventional_steam_coal_1,Coal,2050,existing_only,all,MWh,0.0023803022671132
+GenX,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2050,existing_only,all,MWh,0.0251438725603551
+GenX,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2050,existing_only,all,MWh,759943095.2339535
+GenX,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,existing_only,all,MWh,0.0069710405883581
+GenX,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2050,existing_only,all,MWh,0.0060110782410203
+GenX,Eastern,Eastern_nuclear_1,Nuclear,2050,existing_only,all,MWh,721881815.9957838
+GenX,Eastern,Eastern_onshore_wind_turbine_1,Wind,2050,existing_only,all,MWh,194490026.41831225
+GenX,Eastern,Eastern_solar_photovoltaic_1,Solar,2050,existing_only,all,MWh,84593634.92161323
+GenX,Western,Western_batteries_1,Battery,2050,existing_only,all,MWh,0.0445650865702763
+GenX,Western,Western_conventional_hydroelectric_1,Hydro,2050,existing_only,all,MWh,193176389.79765436
+GenX,Western,Western_conventional_steam_coal_1,Coal,2050,existing_only,all,MWh,0.0024503206110919
+GenX,Western,Western_geothermal_1,Geothermal,2050,existing_only,all,MWh,27463475.998484
+GenX,Western,Western_hydroelectric_pumped_storage_1,Hydro,2050,existing_only,all,MWh,0.0238142625408594
+GenX,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2050,existing_only,all,MWh,0.0678644659601596
+GenX,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,existing_only,all,MWh,0.0076821732717678
+GenX,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2050,existing_only,all,MWh,0.0087010761582791
+GenX,Western,Western_nuclear_1,Nuclear,2050,existing_only,all,MWh,45332999.99587737
+GenX,Western,Western_onshore_wind_turbine_1,Wind,2050,existing_only,all,MWh,85794939.02672525
+GenX,Western,Western_solar_photovoltaic_1,Solar,2050,existing_only,all,MWh,84187962.27983752
+GenX,ERCOT,ERCOT_coal_ccs90avgcf_moderate_1,CCS,2050,existing_only,all,MWh,0.0
+GenX,Eastern,Eastern_coal_ccs90avgcf_moderate_1,CCS,2050,existing_only,all,MWh,0.0
+GenX,Western,Western_coal_ccs90avgcf_moderate_1,CCS,2050,existing_only,all,MWh,0.0

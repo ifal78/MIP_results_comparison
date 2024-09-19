@@ -1,0 +1,1113 @@
+case,value,model,zone,resource_name,tech_type,planning_year,timestep,unit
+cap_only,3246367.4651,SWITCH,ERCOT,ERCOT_batteries_1,Battery,2040,all,MWh
+no_tx,2947127.234,SWITCH,ERCOT,ERCOT_batteries_1,Battery,2040,all,MWh
+single_zone,3246367.4651,SWITCH,ERCOT,ERCOT_batteries_1,Battery,2040,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_battery_moderate_0,Battery,2040,all,MWh
+greenfield,8810450.773,SWITCH,ERCOT,ERCOT_battery_moderate_0,Battery,2040,all,MWh
+no_tx,1077372.928,SWITCH,ERCOT,ERCOT_battery_moderate_0,Battery,2040,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_battery_moderate_0,Battery,2040,all,MWh
+cap_only,445305.744,SWITCH,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2040,all,MWh
+no_battery,445305.7435,SWITCH,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2040,all,MWh
+no_tx,445305.7375,SWITCH,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2040,all,MWh
+no_tx_battery,445305.7625,SWITCH,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2040,all,MWh
+single_zone,445305.744,SWITCH,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2040,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2040,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2040,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2040,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2040,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2040,all,MWh
+cap_only,83372953.819,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+greenfield,154146736.424,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+no_battery,87363878.982,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+single_zone,83372953.819,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+cap_only,158536963.82,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+greenfield,154109968.168,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+no_battery,158050321.81,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+no_tx,157386829.18,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+no_tx_battery,131344512.74,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+no_tx_battery_hydro,128416364.36,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+single_zone,158536963.82,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+greenfield,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+greenfield,7219880.391,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+no_tx,9305882.4117,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+no_tx_battery,33872866.419,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+no_tx_battery_hydro,37145582.845,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+greenfield,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+greenfield,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+cap_only,62854996.842,SWITCH,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2040,all,MWh
+no_battery,49422708.0834,SWITCH,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2040,all,MWh
+no_tx,78068543.5573,SWITCH,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2040,all,MWh
+no_tx_battery,59094753.624,SWITCH,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2040,all,MWh
+no_tx_battery_hydro,57237562.0913,SWITCH,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2040,all,MWh
+single_zone,62854996.842,SWITCH,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2040,all,MWh
+cap_only,332121.68,SWITCH,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,all,MWh
+no_battery,160211.008,SWITCH,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,all,MWh
+no_tx,1150723.568,SWITCH,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,all,MWh
+no_tx_battery,695519.83,SWITCH,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,all,MWh
+no_tx_battery_hydro,656167.1588,SWITCH,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,all,MWh
+single_zone,332121.68,SWITCH,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,all,MWh
+cap_only,54506.75,SWITCH,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2040,all,MWh
+no_battery,40078.1,SWITCH,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2040,all,MWh
+no_tx,177657.93,SWITCH,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2040,all,MWh
+no_tx_battery,111605.234,SWITCH,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2040,all,MWh
+no_tx_battery_hydro,107850.969,SWITCH,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2040,all,MWh
+single_zone,54506.75,SWITCH,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2040,all,MWh
+cap_only,23928215.693099998,SWITCH,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+greenfield,111765240.574,SWITCH,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_battery,36489684.428,SWITCH,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_tx,73422047.499,SWITCH,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_tx_battery,92323479.81,SWITCH,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_tx_battery_hydro,91842068.402,SWITCH,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+single_zone,23928215.693099998,SWITCH,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+greenfield,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+greenfield,1494103.936,SWITCH,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+cap_only,40473828.0,SWITCH,ERCOT,ERCOT_nuclear_1,Nuclear,2040,all,MWh
+no_battery,40473828.0,SWITCH,ERCOT,ERCOT_nuclear_1,Nuclear,2040,all,MWh
+no_tx,40473828.0,SWITCH,ERCOT,ERCOT_nuclear_1,Nuclear,2040,all,MWh
+no_tx_battery,40473828.0,SWITCH,ERCOT,ERCOT_nuclear_1,Nuclear,2040,all,MWh
+no_tx_battery_hydro,40473828.0,SWITCH,ERCOT,ERCOT_nuclear_1,Nuclear,2040,all,MWh
+single_zone,40473828.0,SWITCH,ERCOT,ERCOT_nuclear_1,Nuclear,2040,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+greenfield,0.0,SWITCH,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+cap_only,100722824.96,SWITCH,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2040,all,MWh
+no_battery,100722824.96,SWITCH,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2040,all,MWh
+no_tx,100722824.96,SWITCH,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2040,all,MWh
+no_tx_battery,100722824.96,SWITCH,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2040,all,MWh
+no_tx_battery_hydro,100722824.96,SWITCH,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2040,all,MWh
+single_zone,100722824.96,SWITCH,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2040,all,MWh
+cap_only,37100447.534,SWITCH,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2040,all,MWh
+no_battery,37100447.534,SWITCH,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2040,all,MWh
+no_tx,37100447.534,SWITCH,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2040,all,MWh
+no_tx_battery,37100447.534,SWITCH,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2040,all,MWh
+no_tx_battery_hydro,37100447.534,SWITCH,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2040,all,MWh
+single_zone,37100447.534,SWITCH,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2040,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+greenfield,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+greenfield,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+greenfield,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+greenfield,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+greenfield,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+cap_only,58342773.0582611,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+greenfield,123883306.868795,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+no_battery,51253837.9783857,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+no_tx,61998120.0984988,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+no_tx_battery,62702209.3767982,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+no_tx_battery_hydro,64836003.9046767,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+single_zone,58342773.0582611,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+cap_only,1613316.49,SWITCH,Eastern,Eastern_batteries_1,Battery,2040,all,MWh
+no_tx,1619334.72473,SWITCH,Eastern,Eastern_batteries_1,Battery,2040,all,MWh
+single_zone,1613316.49,SWITCH,Eastern,Eastern_batteries_1,Battery,2040,all,MWh
+cap_only,8238806.76,SWITCH,Eastern,Eastern_battery_moderate_0,Battery,2040,all,MWh
+greenfield,53434774.953,SWITCH,Eastern,Eastern_battery_moderate_0,Battery,2040,all,MWh
+no_tx,39115918.5764,SWITCH,Eastern,Eastern_battery_moderate_0,Battery,2040,all,MWh
+single_zone,8238806.76,SWITCH,Eastern,Eastern_battery_moderate_0,Battery,2040,all,MWh
+cap_only,86146343.0,SWITCH,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2040,all,MWh
+no_battery,86146337.3,SWITCH,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2040,all,MWh
+no_tx,86146336.4,SWITCH,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2040,all,MWh
+no_tx_battery,86146343.4,SWITCH,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2040,all,MWh
+single_zone,86146343.0,SWITCH,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2040,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_conventional_steam_coal_1,Coal,2040,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_conventional_steam_coal_1,Coal,2040,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_conventional_steam_coal_1,Coal,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_conventional_steam_coal_1,Coal,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_conventional_steam_coal_1,Coal,2040,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_conventional_steam_coal_1,Coal,2040,all,MWh
+cap_only,21993813.6,SWITCH,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2040,all,MWh
+no_battery,19046458.823,SWITCH,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2040,all,MWh
+no_tx,20965940.51,SWITCH,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2040,all,MWh
+no_tx_battery,14273803.179,SWITCH,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2040,all,MWh
+single_zone,21993813.6,SWITCH,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2040,all,MWh
+cap_only,18164614.308,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+greenfield,521265958.58,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+no_tx,55679202.767,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+no_tx_battery,60874744.25,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+no_tx_battery_hydro,101071009.45,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+single_zone,18164614.308,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+cap_only,565705477.3,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+greenfield,564552948.3,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+no_battery,565705477.3,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+no_tx,565705477.3,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+no_tx_battery,565705477.3,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+no_tx_battery_hydro,565705477.3,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+single_zone,565705477.3,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+cap_only,512588053.5589,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+greenfield,496592571.7889,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+no_battery,512696361.5589,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+no_tx,510057592.5589,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+no_tx_battery,508712775.5589,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+no_tx_battery_hydro,503975592.5589,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+single_zone,512588053.5589,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+cap_only,717476174.0,SWITCH,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2040,all,MWh
+no_battery,608174953.9,SWITCH,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2040,all,MWh
+no_tx,620424822.829,SWITCH,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2040,all,MWh
+no_tx_battery,359576232.547,SWITCH,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2040,all,MWh
+no_tx_battery_hydro,250903419.988,SWITCH,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2040,all,MWh
+single_zone,717476174.0,SWITCH,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2040,all,MWh
+cap_only,13673368.13,SWITCH,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,all,MWh
+no_battery,8590336.22,SWITCH,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,all,MWh
+no_tx,9242794.76,SWITCH,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,all,MWh
+no_tx_battery,2891961.3,SWITCH,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,all,MWh
+no_tx_battery_hydro,2132760.05,SWITCH,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,all,MWh
+single_zone,13673368.13,SWITCH,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,all,MWh
+cap_only,20001031.9,SWITCH,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2040,all,MWh
+no_battery,13807186.72,SWITCH,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2040,all,MWh
+no_tx,16762605.47,SWITCH,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2040,all,MWh
+no_tx_battery,6932817.3,SWITCH,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2040,all,MWh
+no_tx_battery_hydro,4810900.116,SWITCH,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2040,all,MWh
+single_zone,20001031.9,SWITCH,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2040,all,MWh
+cap_only,679154105.15,SWITCH,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+greenfield,1674873503.2,SWITCH,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_battery,813504476.554,SWITCH,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_tx,551009842.425,SWITCH,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_tx_battery,926976234.42,SWITCH,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_tx_battery_hydro,1091257278.32,SWITCH,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+single_zone,679154105.15,SWITCH,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+greenfield,57525479.1878,SWITCH,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+cap_only,651428640.0,SWITCH,Eastern,Eastern_nuclear_1,Nuclear,2040,all,MWh
+no_battery,651428640.0,SWITCH,Eastern,Eastern_nuclear_1,Nuclear,2040,all,MWh
+no_tx,651428640.0,SWITCH,Eastern,Eastern_nuclear_1,Nuclear,2040,all,MWh
+no_tx_battery,651428640.0,SWITCH,Eastern,Eastern_nuclear_1,Nuclear,2040,all,MWh
+no_tx_battery_hydro,651428640.0,SWITCH,Eastern,Eastern_nuclear_1,Nuclear,2040,all,MWh
+single_zone,651428640.0,SWITCH,Eastern,Eastern_nuclear_1,Nuclear,2040,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2040,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2040,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2040,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2040,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2040,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2040,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2040,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2040,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2040,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2040,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2040,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2040,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2040,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2040,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2040,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2040,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2040,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2040,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2040,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2040,all,MWh
+cap_only,173138448.17,SWITCH,Eastern,Eastern_onshore_wind_turbine_1,Wind,2040,all,MWh
+no_battery,173138448.17,SWITCH,Eastern,Eastern_onshore_wind_turbine_1,Wind,2040,all,MWh
+no_tx,173138448.17,SWITCH,Eastern,Eastern_onshore_wind_turbine_1,Wind,2040,all,MWh
+no_tx_battery,173138448.17,SWITCH,Eastern,Eastern_onshore_wind_turbine_1,Wind,2040,all,MWh
+no_tx_battery_hydro,173138448.17,SWITCH,Eastern,Eastern_onshore_wind_turbine_1,Wind,2040,all,MWh
+single_zone,173138448.17,SWITCH,Eastern,Eastern_onshore_wind_turbine_1,Wind,2040,all,MWh
+cap_only,75490820.4692196,SWITCH,Eastern,Eastern_solar_photovoltaic_1,Solar,2040,all,MWh
+no_battery,75490820.4692196,SWITCH,Eastern,Eastern_solar_photovoltaic_1,Solar,2040,all,MWh
+no_tx,75490820.4692196,SWITCH,Eastern,Eastern_solar_photovoltaic_1,Solar,2040,all,MWh
+no_tx_battery,75490820.4692196,SWITCH,Eastern,Eastern_solar_photovoltaic_1,Solar,2040,all,MWh
+no_tx_battery_hydro,75490820.4692196,SWITCH,Eastern,Eastern_solar_photovoltaic_1,Solar,2040,all,MWh
+single_zone,75490820.4692196,SWITCH,Eastern,Eastern_solar_photovoltaic_1,Solar,2040,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+cap_only,537635635.8810695,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+greenfield,772533050.1564958,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+no_battery,517836360.52469647,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+no_tx,619015343.8755654,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+no_tx_battery,507125253.1867644,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+no_tx_battery_hydro,500864509.22200036,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+single_zone,537635635.8810695,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+cap_only,15010612.8509,SWITCH,Western,Western_batteries_1,Battery,2040,all,MWh
+no_tx,14333453.28415,SWITCH,Western,Western_batteries_1,Battery,2040,all,MWh
+single_zone,15010612.8509,SWITCH,Western,Western_batteries_1,Battery,2040,all,MWh
+cap_only,3191529.587,SWITCH,Western,Western_battery_moderate_0,Battery,2040,all,MWh
+greenfield,87895065.681,SWITCH,Western,Western_battery_moderate_0,Battery,2040,all,MWh
+no_tx,4632340.7973,SWITCH,Western,Western_battery_moderate_0,Battery,2040,all,MWh
+single_zone,3191529.587,SWITCH,Western,Western_battery_moderate_0,Battery,2040,all,MWh
+cap_only,193090058.0,SWITCH,Western,Western_conventional_hydroelectric_1,Hydro,2040,all,MWh
+no_battery,193090040.0,SWITCH,Western,Western_conventional_hydroelectric_1,Hydro,2040,all,MWh
+no_tx,193090044.0,SWITCH,Western,Western_conventional_hydroelectric_1,Hydro,2040,all,MWh
+no_tx_battery,193090037.0,SWITCH,Western,Western_conventional_hydroelectric_1,Hydro,2040,all,MWh
+single_zone,193090058.0,SWITCH,Western,Western_conventional_hydroelectric_1,Hydro,2040,all,MWh
+cap_only,67028016.0,SWITCH,Western,Western_conventional_steam_coal_1,Coal,2040,all,MWh
+no_battery,63996180.0,SWITCH,Western,Western_conventional_steam_coal_1,Coal,2040,all,MWh
+no_tx,79887696.0,SWITCH,Western,Western_conventional_steam_coal_1,Coal,2040,all,MWh
+no_tx_battery,57926376.0,SWITCH,Western,Western_conventional_steam_coal_1,Coal,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_conventional_steam_coal_1,Coal,2040,all,MWh
+single_zone,67028016.0,SWITCH,Western,Western_conventional_steam_coal_1,Coal,2040,all,MWh
+cap_only,25963764.0,SWITCH,Western,Western_geothermal_1,Geothermal,2040,all,MWh
+no_battery,25963764.0,SWITCH,Western,Western_geothermal_1,Geothermal,2040,all,MWh
+no_tx,25963764.0,SWITCH,Western,Western_geothermal_1,Geothermal,2040,all,MWh
+no_tx_battery,25963764.0,SWITCH,Western,Western_geothermal_1,Geothermal,2040,all,MWh
+no_tx_battery_hydro,25963764.0,SWITCH,Western,Western_geothermal_1,Geothermal,2040,all,MWh
+single_zone,25963764.0,SWITCH,Western,Western_geothermal_1,Geothermal,2040,all,MWh
+cap_only,9917302.372,SWITCH,Western,Western_hydroelectric_pumped_storage_1,Hydro,2040,all,MWh
+no_battery,8766210.042399999,SWITCH,Western,Western_hydroelectric_pumped_storage_1,Hydro,2040,all,MWh
+no_tx,8476680.799999999,SWITCH,Western,Western_hydroelectric_pumped_storage_1,Hydro,2040,all,MWh
+no_tx_battery,5530623.9229999995,SWITCH,Western,Western_hydroelectric_pumped_storage_1,Hydro,2040,all,MWh
+single_zone,9917302.372,SWITCH,Western,Western_hydroelectric_pumped_storage_1,Hydro,2040,all,MWh
+cap_only,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+greenfield,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+no_battery,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+no_tx,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+single_zone,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_1,Wind,2040,all,MWh
+cap_only,164893508.9581,SWITCH,Western,Western_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+greenfield,334313436.6281,SWITCH,Western,Western_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+no_battery,173758395.8701,SWITCH,Western,Western_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+no_tx,181310759.347,SWITCH,Western,Western_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+no_tx_battery,161707968.1164,SWITCH,Western,Western_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+no_tx_battery_hydro,182687288.747,SWITCH,Western,Western_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+single_zone,164893508.9581,SWITCH,Western,Western_landbasedwind_class3_moderate_2,Wind,2040,all,MWh
+cap_only,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+greenfield,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+no_battery,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+no_tx,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+single_zone,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_3,Wind,2040,all,MWh
+cap_only,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+greenfield,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+no_battery,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+no_tx,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+single_zone,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_4,Wind,2040,all,MWh
+cap_only,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+greenfield,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+no_battery,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+no_tx,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+single_zone,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_5,Wind,2040,all,MWh
+cap_only,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+greenfield,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+no_battery,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+no_tx,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+single_zone,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_6,Wind,2040,all,MWh
+cap_only,138002218.344,SWITCH,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2040,all,MWh
+no_battery,86168295.108,SWITCH,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2040,all,MWh
+no_tx,150232718.22,SWITCH,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2040,all,MWh
+no_tx_battery,72543262.474,SWITCH,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2040,all,MWh
+no_tx_battery_hydro,49857825.015,SWITCH,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2040,all,MWh
+single_zone,138002218.344,SWITCH,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2040,all,MWh
+cap_only,2011462.982,SWITCH,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,all,MWh
+no_battery,667193.43,SWITCH,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,all,MWh
+no_tx,3374556.5,SWITCH,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,all,MWh
+no_tx_battery,468053.53,SWITCH,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,all,MWh
+no_tx_battery_hydro,340262.626,SWITCH,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,all,MWh
+single_zone,2011462.982,SWITCH,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2040,all,MWh
+cap_only,2770962.3754000003,SWITCH,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2040,all,MWh
+no_battery,1421876.807,SWITCH,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2040,all,MWh
+no_tx,3954581.0454,SWITCH,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2040,all,MWh
+no_tx_battery,871295.6900000001,SWITCH,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2040,all,MWh
+no_tx_battery_hydro,283119.60000000003,SWITCH,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2040,all,MWh
+single_zone,2770962.3754000003,SWITCH,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2040,all,MWh
+cap_only,0.0,SWITCH,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+greenfield,185068656.217,SWITCH,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_battery,98596372.626,SWITCH,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_tx,127360304.6424,SWITCH,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_tx_battery,268820138.207,SWITCH,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_tx_battery_hydro,442404309.0792,SWITCH,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+single_zone,0.0,SWITCH,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2040,all,MWh
+cap_only,0.0,SWITCH,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+greenfield,0.0,SWITCH,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+no_battery,0.0,SWITCH,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+no_tx,0.0,SWITCH,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+single_zone,0.0,SWITCH,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2040,all,MWh
+cap_only,0.0,SWITCH,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+greenfield,8116779.54,SWITCH,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_battery,0.0,SWITCH,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_tx,0.0,SWITCH,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+no_tx_battery_hydro,3583901.156,SWITCH,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+single_zone,0.0,SWITCH,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2040,all,MWh
+cap_only,40908324.0,SWITCH,Western,Western_nuclear_1,Nuclear,2040,all,MWh
+no_battery,40908324.0,SWITCH,Western,Western_nuclear_1,Nuclear,2040,all,MWh
+no_tx,40908324.0,SWITCH,Western,Western_nuclear_1,Nuclear,2040,all,MWh
+no_tx_battery,40908324.0,SWITCH,Western,Western_nuclear_1,Nuclear,2040,all,MWh
+no_tx_battery_hydro,40908324.0,SWITCH,Western,Western_nuclear_1,Nuclear,2040,all,MWh
+single_zone,40908324.0,SWITCH,Western,Western_nuclear_1,Nuclear,2040,all,MWh
+cap_only,0.0,SWITCH,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+greenfield,0.0,SWITCH,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+no_battery,0.0,SWITCH,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+no_tx,0.0,SWITCH,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+single_zone,0.0,SWITCH,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2040,all,MWh
+cap_only,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2040,all,MWh
+greenfield,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2040,all,MWh
+no_battery,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2040,all,MWh
+no_tx,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2040,all,MWh
+single_zone,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2040,all,MWh
+cap_only,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2040,all,MWh
+greenfield,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2040,all,MWh
+no_battery,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2040,all,MWh
+no_tx,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2040,all,MWh
+single_zone,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2040,all,MWh
+cap_only,77582978.64,SWITCH,Western,Western_onshore_wind_turbine_1,Wind,2040,all,MWh
+no_battery,77582978.64,SWITCH,Western,Western_onshore_wind_turbine_1,Wind,2040,all,MWh
+no_tx,77582978.64,SWITCH,Western,Western_onshore_wind_turbine_1,Wind,2040,all,MWh
+no_tx_battery,77582978.64,SWITCH,Western,Western_onshore_wind_turbine_1,Wind,2040,all,MWh
+no_tx_battery_hydro,77582978.64,SWITCH,Western,Western_onshore_wind_turbine_1,Wind,2040,all,MWh
+single_zone,77582978.64,SWITCH,Western,Western_onshore_wind_turbine_1,Wind,2040,all,MWh
+cap_only,78135610.323111,SWITCH,Western,Western_solar_photovoltaic_1,Solar,2040,all,MWh
+no_battery,78135610.323111,SWITCH,Western,Western_solar_photovoltaic_1,Solar,2040,all,MWh
+no_tx,78135610.323111,SWITCH,Western,Western_solar_photovoltaic_1,Solar,2040,all,MWh
+no_tx_battery,78135610.323111,SWITCH,Western,Western_solar_photovoltaic_1,Solar,2040,all,MWh
+no_tx_battery_hydro,78135610.323111,SWITCH,Western,Western_solar_photovoltaic_1,Solar,2040,all,MWh
+single_zone,78135610.323111,SWITCH,Western,Western_solar_photovoltaic_1,Solar,2040,all,MWh
+cap_only,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+greenfield,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+no_battery,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+no_tx,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+single_zone,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_1,Solar,2040,all,MWh
+cap_only,238809001.2305245,SWITCH,Western,Western_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+greenfield,487956726.5516884,SWITCH,Western,Western_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+no_battery,201079180.5995621,SWITCH,Western,Western_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+no_tx,158026666.2379114,SWITCH,Western,Western_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+no_tx_battery,120328778.4108608,SWITCH,Western,Western_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+no_tx_battery_hydro,223365913.7413151,SWITCH,Western,Western_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+single_zone,238809001.2305245,SWITCH,Western,Western_utilitypv_class1_moderate_2,Solar,2040,all,MWh
+cap_only,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+greenfield,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+no_battery,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+no_tx,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+single_zone,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_3,Solar,2040,all,MWh
+cap_only,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+greenfield,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+no_battery,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+no_tx,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+single_zone,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_4,Solar,2040,all,MWh
+cap_only,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+greenfield,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+no_battery,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+no_tx,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+single_zone,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_5,Solar,2040,all,MWh
+cap_only,41994054.336178966,SWITCH,Western,Western_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+greenfield,46019262.23260787,SWITCH,Western,Western_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+no_battery,49374457.56567029,SWITCH,Western,Western_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+no_tx,52929452.6459459,SWITCH,Western,Western_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+no_tx_battery,70061918.1816582,SWITCH,Western,Western_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+no_tx_battery_hydro,41304111.25013318,SWITCH,Western,Western_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+single_zone,41994054.336178966,SWITCH,Western,Western_utilitypv_class1_moderate_6,Solar,2040,all,MWh
+cap_only,2210791.5801,SWITCH,ERCOT,ERCOT_batteries_1,Battery,2050,all,MWh
+no_tx,2629062.619,SWITCH,ERCOT,ERCOT_batteries_1,Battery,2050,all,MWh
+single_zone,2210791.5801,SWITCH,ERCOT,ERCOT_batteries_1,Battery,2050,all,MWh
+cap_only,17829875.786,SWITCH,ERCOT,ERCOT_battery_moderate_0,Battery,2050,all,MWh
+greenfield,11792716.66316,SWITCH,ERCOT,ERCOT_battery_moderate_0,Battery,2050,all,MWh
+no_tx,21958803.7358,SWITCH,ERCOT,ERCOT_battery_moderate_0,Battery,2050,all,MWh
+single_zone,17829875.786,SWITCH,ERCOT,ERCOT_battery_moderate_0,Battery,2050,all,MWh
+cap_only,445305.715,SWITCH,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2050,all,MWh
+no_battery,445305.708,SWITCH,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2050,all,MWh
+no_tx,445305.715,SWITCH,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2050,all,MWh
+no_tx_battery,445305.6895,SWITCH,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2050,all,MWh
+single_zone,445305.715,SWITCH,ERCOT,ERCOT_conventional_hydroelectric_1,Hydro,2050,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2050,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2050,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2050,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2050,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_conventional_steam_coal_1,Coal,2050,all,MWh
+cap_only,146608115.874,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+greenfield,131356556.134,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+no_battery,143266337.06,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+single_zone,146608115.874,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+cap_only,143312993.88,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+greenfield,142384196.84,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+no_battery,128833387.08,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+no_tx,155205128.25,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+no_tx_battery,142851409.4,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+no_tx_battery_hydro,136842950.73,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+single_zone,143312993.88,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+greenfield,9654066.7246,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+no_battery,19117973.9454,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+cap_only,102903149.156,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+greenfield,101896256.198,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+no_battery,97597581.619,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+no_tx,92584227.933,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+no_tx_battery,87226859.065,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+no_tx_battery_hydro,88328701.675,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+single_zone,102903149.156,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+greenfield,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+cap_only,31254920.091000002,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+greenfield,98637271.077,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+no_battery,57116424.498,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+no_tx_battery,39175261.828,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+no_tx_battery_hydro,54025337.056,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+single_zone,31254920.091000002,SWITCH,ERCOT,ERCOT_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+cap_only,30580584.131,SWITCH,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2050,all,MWh
+no_battery,5387428.655,SWITCH,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2050,all,MWh
+no_tx,49765154.638,SWITCH,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2050,all,MWh
+no_tx_battery,10487915.2,SWITCH,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2050,all,MWh
+no_tx_battery_hydro,9180754.003,SWITCH,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2050,all,MWh
+single_zone,30580584.131,SWITCH,ERCOT,ERCOT_natural_gas_fired_combined_cycle_1,Natural Gas,2050,all,MWh
+cap_only,798220.73,SWITCH,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,all,MWh
+no_battery,33845.7,SWITCH,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,all,MWh
+no_tx,419227.35,SWITCH,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,all,MWh
+no_tx_battery,100215.56,SWITCH,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,all,MWh
+no_tx_battery_hydro,88734.97,SWITCH,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,all,MWh
+single_zone,798220.73,SWITCH,ERCOT,ERCOT_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,all,MWh
+cap_only,101076.3,SWITCH,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2050,all,MWh
+no_battery,16057.4,SWITCH,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2050,all,MWh
+no_tx,70529.4,SWITCH,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2050,all,MWh
+no_tx_battery,19788.95,SWITCH,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2050,all,MWh
+no_tx_battery_hydro,19408.961,SWITCH,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2050,all,MWh
+single_zone,101076.3,SWITCH,ERCOT,ERCOT_natural_gas_steam_turbine_1,Natural Gas,2050,all,MWh
+cap_only,13984376.970999999,SWITCH,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+greenfield,48164862.959,SWITCH,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_battery,67259621.539,SWITCH,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_tx,36476472.901,SWITCH,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_tx_battery,74354450.1387,SWITCH,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_tx_battery_hydro,67202151.3526,SWITCH,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+single_zone,13984376.970999999,SWITCH,ERCOT,ERCOT_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+greenfield,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+greenfield,1930998.692,SWITCH,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_battery,1699549.17,SWITCH,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+cap_only,40473828.0,SWITCH,ERCOT,ERCOT_nuclear_1,Nuclear,2050,all,MWh
+no_battery,40473828.0,SWITCH,ERCOT,ERCOT_nuclear_1,Nuclear,2050,all,MWh
+no_tx,40473828.0,SWITCH,ERCOT,ERCOT_nuclear_1,Nuclear,2050,all,MWh
+no_tx_battery,40473828.0,SWITCH,ERCOT,ERCOT_nuclear_1,Nuclear,2050,all,MWh
+no_tx_battery_hydro,40473828.0,SWITCH,ERCOT,ERCOT_nuclear_1,Nuclear,2050,all,MWh
+single_zone,40473828.0,SWITCH,ERCOT,ERCOT_nuclear_1,Nuclear,2050,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+greenfield,0.0,SWITCH,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+cap_only,100722824.96,SWITCH,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2050,all,MWh
+no_battery,100722823.96,SWITCH,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2050,all,MWh
+no_tx,100722824.96,SWITCH,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2050,all,MWh
+no_tx_battery,100722824.96,SWITCH,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2050,all,MWh
+no_tx_battery_hydro,100722824.96,SWITCH,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2050,all,MWh
+single_zone,100722824.96,SWITCH,ERCOT,ERCOT_onshore_wind_turbine_1,Wind,2050,all,MWh
+cap_only,37100447.534,SWITCH,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2050,all,MWh
+no_battery,37100447.534,SWITCH,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2050,all,MWh
+no_tx,37100447.534,SWITCH,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2050,all,MWh
+no_tx_battery,37100447.534,SWITCH,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2050,all,MWh
+no_tx_battery_hydro,37100447.534,SWITCH,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2050,all,MWh
+single_zone,37100447.534,SWITCH,ERCOT,ERCOT_solar_photovoltaic_1,Solar,2050,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+greenfield,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+greenfield,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+greenfield,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+greenfield,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+cap_only,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+greenfield,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+no_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+no_tx,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+no_tx_battery,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+single_zone,0.0,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+cap_only,76020198.267955,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+greenfield,181459151.541414,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+no_battery,11790812.1149354,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+no_tx,144653874.324344,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+no_tx_battery,121038409.756572,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+no_tx_battery_hydro,120078401.954502,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+single_zone,76020198.267955,SWITCH,ERCOT,ERCOT_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+cap_only,1426514.271,SWITCH,Eastern,Eastern_batteries_1,Battery,2050,all,MWh
+no_tx,1486767.8159999999,SWITCH,Eastern,Eastern_batteries_1,Battery,2050,all,MWh
+single_zone,1426514.271,SWITCH,Eastern,Eastern_batteries_1,Battery,2050,all,MWh
+cap_only,159194415.8978,SWITCH,Eastern,Eastern_battery_moderate_0,Battery,2050,all,MWh
+greenfield,241296383.289,SWITCH,Eastern,Eastern_battery_moderate_0,Battery,2050,all,MWh
+no_tx,188782512.599,SWITCH,Eastern,Eastern_battery_moderate_0,Battery,2050,all,MWh
+single_zone,159194415.8978,SWITCH,Eastern,Eastern_battery_moderate_0,Battery,2050,all,MWh
+cap_only,86146333.6,SWITCH,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2050,all,MWh
+no_battery,86146338.2,SWITCH,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2050,all,MWh
+no_tx,86146332.0,SWITCH,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2050,all,MWh
+no_tx_battery,86146343.3,SWITCH,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2050,all,MWh
+single_zone,86146333.6,SWITCH,Eastern,Eastern_conventional_hydroelectric_1,Hydro,2050,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_conventional_steam_coal_1,Coal,2050,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_conventional_steam_coal_1,Coal,2050,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_conventional_steam_coal_1,Coal,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_conventional_steam_coal_1,Coal,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_conventional_steam_coal_1,Coal,2050,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_conventional_steam_coal_1,Coal,2050,all,MWh
+cap_only,43479930.738,SWITCH,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2050,all,MWh
+no_battery,54559325.65,SWITCH,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2050,all,MWh
+no_tx,48431594.27,SWITCH,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2050,all,MWh
+no_tx_battery,60918362.8691,SWITCH,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2050,all,MWh
+single_zone,43479930.738,SWITCH,Eastern,Eastern_hydroelectric_pumped_storage_1,Hydro,2050,all,MWh
+cap_only,518402519.88,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+greenfield,439344458.88,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+no_battery,516333617.38,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+no_tx,518064242.78,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+no_tx_battery,517848672.78,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+no_tx_battery_hydro,507580074.58,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+single_zone,518402519.88,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+cap_only,511188306.3,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+greenfield,490715390.8,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+no_battery,495390137.2,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+no_tx,495789340.8,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+no_tx_battery,491076802.5,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+no_tx_battery_hydro,425094037.8,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+single_zone,511188306.3,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+greenfield,380299208.56,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+no_battery,217618820.062,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+no_tx_battery,309632971.32,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+no_tx_battery_hydro,351872143.86,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+cap_only,457160898.5589,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+greenfield,403385055.6489,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+no_battery,455199425.5589,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+no_tx,440243083.6589,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+no_tx_battery,390363962.5589,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+no_tx_battery_hydro,376566752.6589,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+single_zone,457160898.5589,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+no_tx_battery_hydro,58202066.642,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+cap_only,365785958.25,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+greenfield,373302793.38,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+no_battery,320720778.54,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+no_tx,354506931.25,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+no_tx_battery,319553338.87,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+no_tx_battery_hydro,310919930.18,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+single_zone,365785958.25,SWITCH,Eastern,Eastern_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+cap_only,440934716.793,SWITCH,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2050,all,MWh
+no_battery,128157349.084,SWITCH,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2050,all,MWh
+no_tx,390694272.2,SWITCH,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2050,all,MWh
+no_tx_battery,98195305.21,SWITCH,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2050,all,MWh
+no_tx_battery_hydro,82964457.573,SWITCH,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2050,all,MWh
+single_zone,440934716.793,SWITCH,Eastern,Eastern_natural_gas_fired_combined_cycle_1,Natural Gas,2050,all,MWh
+cap_only,11052586.7,SWITCH,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,all,MWh
+no_battery,4329675.4,SWITCH,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,all,MWh
+no_tx,10473497.5,SWITCH,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,all,MWh
+no_tx_battery,2340016.7,SWITCH,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,all,MWh
+no_tx_battery_hydro,1931824.33,SWITCH,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,all,MWh
+single_zone,11052586.7,SWITCH,Eastern,Eastern_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,all,MWh
+cap_only,10458172.2,SWITCH,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2050,all,MWh
+no_battery,298063.0,SWITCH,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2050,all,MWh
+no_tx,12355871.18,SWITCH,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2050,all,MWh
+no_tx_battery,136788.9,SWITCH,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2050,all,MWh
+no_tx_battery_hydro,132464.1,SWITCH,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2050,all,MWh
+single_zone,10458172.2,SWITCH,Eastern,Eastern_natural_gas_steam_turbine_1,Natural Gas,2050,all,MWh
+cap_only,178386129.06,SWITCH,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+greenfield,704753638.0,SWITCH,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_battery,524957784.876,SWITCH,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_tx,128145705.8,SWITCH,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_tx_battery,476212305.71,SWITCH,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_tx_battery_hydro,487462512.5607,SWITCH,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+single_zone,178386129.06,SWITCH,Eastern,Eastern_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+greenfield,40337733.65,SWITCH,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_tx_battery,3539635.62,SWITCH,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_tx_battery_hydro,4193492.14,SWITCH,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+cap_only,651428640.0,SWITCH,Eastern,Eastern_nuclear_1,Nuclear,2050,all,MWh
+no_battery,651428640.0,SWITCH,Eastern,Eastern_nuclear_1,Nuclear,2050,all,MWh
+no_tx,651428640.0,SWITCH,Eastern,Eastern_nuclear_1,Nuclear,2050,all,MWh
+no_tx_battery,651428640.0,SWITCH,Eastern,Eastern_nuclear_1,Nuclear,2050,all,MWh
+no_tx_battery_hydro,651428640.0,SWITCH,Eastern,Eastern_nuclear_1,Nuclear,2050,all,MWh
+single_zone,651428640.0,SWITCH,Eastern,Eastern_nuclear_1,Nuclear,2050,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2050,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2050,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2050,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2050,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_1,Wind,2050,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2050,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2050,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2050,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2050,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_offshorewind_class12_moderate_floating_1_2,Wind,2050,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2050,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2050,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2050,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2050,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_1,Wind,2050,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2050,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2050,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2050,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2050,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_offshorewind_class3_moderate_fixed_1_2,Wind,2050,all,MWh
+cap_only,173138448.17,SWITCH,Eastern,Eastern_onshore_wind_turbine_1,Wind,2050,all,MWh
+no_battery,173138448.17,SWITCH,Eastern,Eastern_onshore_wind_turbine_1,Wind,2050,all,MWh
+no_tx,173138448.17,SWITCH,Eastern,Eastern_onshore_wind_turbine_1,Wind,2050,all,MWh
+no_tx_battery,173138448.17,SWITCH,Eastern,Eastern_onshore_wind_turbine_1,Wind,2050,all,MWh
+no_tx_battery_hydro,173138448.17,SWITCH,Eastern,Eastern_onshore_wind_turbine_1,Wind,2050,all,MWh
+single_zone,173138448.17,SWITCH,Eastern,Eastern_onshore_wind_turbine_1,Wind,2050,all,MWh
+cap_only,75490820.4692196,SWITCH,Eastern,Eastern_solar_photovoltaic_1,Solar,2050,all,MWh
+no_battery,75490820.4692196,SWITCH,Eastern,Eastern_solar_photovoltaic_1,Solar,2050,all,MWh
+no_tx,75490820.4692196,SWITCH,Eastern,Eastern_solar_photovoltaic_1,Solar,2050,all,MWh
+no_tx_battery,75490820.4692196,SWITCH,Eastern,Eastern_solar_photovoltaic_1,Solar,2050,all,MWh
+no_tx_battery_hydro,75490820.4692196,SWITCH,Eastern,Eastern_solar_photovoltaic_1,Solar,2050,all,MWh
+single_zone,75490820.4692196,SWITCH,Eastern,Eastern_solar_photovoltaic_1,Solar,2050,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+cap_only,1157539780.2991161,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+greenfield,1813614174.083748,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+no_battery,920371163.0704142,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+no_tx,1226999081.479407,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+no_tx_battery,936057121.0402873,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+no_tx_battery_hydro,1003565827.8069549,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+single_zone,1157539780.2991161,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+cap_only,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+greenfield,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+no_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+no_tx,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+single_zone,0.0,SWITCH,Eastern,Eastern_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+cap_only,14108718.208,SWITCH,Western,Western_batteries_1,Battery,2050,all,MWh
+no_tx,12987061.955,SWITCH,Western,Western_batteries_1,Battery,2050,all,MWh
+single_zone,14108718.208,SWITCH,Western,Western_batteries_1,Battery,2050,all,MWh
+cap_only,99948232.368,SWITCH,Western,Western_battery_moderate_0,Battery,2050,all,MWh
+greenfield,318725968.81,SWITCH,Western,Western_battery_moderate_0,Battery,2050,all,MWh
+no_tx,154727011.314,SWITCH,Western,Western_battery_moderate_0,Battery,2050,all,MWh
+single_zone,99948232.368,SWITCH,Western,Western_battery_moderate_0,Battery,2050,all,MWh
+cap_only,193090083.0,SWITCH,Western,Western_conventional_hydroelectric_1,Hydro,2050,all,MWh
+no_battery,193090074.0,SWITCH,Western,Western_conventional_hydroelectric_1,Hydro,2050,all,MWh
+no_tx,193090069.0,SWITCH,Western,Western_conventional_hydroelectric_1,Hydro,2050,all,MWh
+no_tx_battery,193090047.0,SWITCH,Western,Western_conventional_hydroelectric_1,Hydro,2050,all,MWh
+single_zone,193090083.0,SWITCH,Western,Western_conventional_hydroelectric_1,Hydro,2050,all,MWh
+cap_only,0.0,SWITCH,Western,Western_conventional_steam_coal_1,Coal,2050,all,MWh
+no_battery,0.0,SWITCH,Western,Western_conventional_steam_coal_1,Coal,2050,all,MWh
+no_tx,0.0,SWITCH,Western,Western_conventional_steam_coal_1,Coal,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_conventional_steam_coal_1,Coal,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_conventional_steam_coal_1,Coal,2050,all,MWh
+single_zone,0.0,SWITCH,Western,Western_conventional_steam_coal_1,Coal,2050,all,MWh
+cap_only,25963764.0,SWITCH,Western,Western_geothermal_1,Geothermal,2050,all,MWh
+no_battery,25963764.0,SWITCH,Western,Western_geothermal_1,Geothermal,2050,all,MWh
+no_tx,25963764.0,SWITCH,Western,Western_geothermal_1,Geothermal,2050,all,MWh
+no_tx_battery,25963764.0,SWITCH,Western,Western_geothermal_1,Geothermal,2050,all,MWh
+no_tx_battery_hydro,25963764.0,SWITCH,Western,Western_geothermal_1,Geothermal,2050,all,MWh
+single_zone,25963764.0,SWITCH,Western,Western_geothermal_1,Geothermal,2050,all,MWh
+cap_only,12966357.074,SWITCH,Western,Western_hydroelectric_pumped_storage_1,Hydro,2050,all,MWh
+no_battery,15930210.143,SWITCH,Western,Western_hydroelectric_pumped_storage_1,Hydro,2050,all,MWh
+no_tx,10946343.386,SWITCH,Western,Western_hydroelectric_pumped_storage_1,Hydro,2050,all,MWh
+no_tx_battery,15649149.879999999,SWITCH,Western,Western_hydroelectric_pumped_storage_1,Hydro,2050,all,MWh
+single_zone,12966357.074,SWITCH,Western,Western_hydroelectric_pumped_storage_1,Hydro,2050,all,MWh
+cap_only,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+greenfield,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+no_battery,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+no_tx,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+no_tx_battery,64181864.50485,SWITCH,Western,Western_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+no_tx_battery_hydro,77945108.7979,SWITCH,Western,Western_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+single_zone,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_1,Wind,2050,all,MWh
+cap_only,347523080.1267,SWITCH,Western,Western_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+greenfield,288640640.3167,SWITCH,Western,Western_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+no_battery,346102808.1267,SWITCH,Western,Western_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+no_tx,347655895.6267,SWITCH,Western,Western_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+no_tx_battery,349036560.5267,SWITCH,Western,Western_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+no_tx_battery_hydro,350035138.5267,SWITCH,Western,Western_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+single_zone,347523080.1267,SWITCH,Western,Western_landbasedwind_class3_moderate_2,Wind,2050,all,MWh
+cap_only,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+greenfield,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+no_battery,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+no_tx,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+single_zone,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_3,Wind,2050,all,MWh
+cap_only,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+greenfield,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+no_battery,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+no_tx,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+no_tx_battery,40171562.73,SWITCH,Western,Western_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+no_tx_battery_hydro,210212841.0,SWITCH,Western,Western_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+single_zone,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_4,Wind,2050,all,MWh
+cap_only,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+greenfield,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+no_battery,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+no_tx,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+single_zone,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_5,Wind,2050,all,MWh
+cap_only,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+greenfield,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+no_battery,93833989.68,SWITCH,Western,Western_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+no_tx,69098959.174,SWITCH,Western,Western_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+no_tx_battery,147465405.875,SWITCH,Western,Western_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+no_tx_battery_hydro,124903893.24,SWITCH,Western,Western_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+single_zone,0.0,SWITCH,Western,Western_landbasedwind_class3_moderate_6,Wind,2050,all,MWh
+cap_only,71078966.745,SWITCH,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2050,all,MWh
+no_battery,19997223.44,SWITCH,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2050,all,MWh
+no_tx,101117509.76,SWITCH,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2050,all,MWh
+no_tx_battery,20211823.85,SWITCH,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2050,all,MWh
+no_tx_battery_hydro,18723163.244,SWITCH,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2050,all,MWh
+single_zone,71078966.745,SWITCH,Western,Western_natural_gas_fired_combined_cycle_1,Natural Gas,2050,all,MWh
+cap_only,4314007.99,SWITCH,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,all,MWh
+no_battery,810318.0,SWITCH,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,all,MWh
+no_tx,2569846.05,SWITCH,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,all,MWh
+no_tx_battery,93493.98,SWITCH,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,all,MWh
+no_tx_battery_hydro,51075.1,SWITCH,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,all,MWh
+single_zone,4314007.99,SWITCH,Western,Western_natural_gas_fired_combustion_turbine_1,Natural Gas,2050,all,MWh
+cap_only,1379692.9600000002,SWITCH,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2050,all,MWh
+no_battery,314697.689,SWITCH,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2050,all,MWh
+no_tx,1610613.79,SWITCH,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2050,all,MWh
+no_tx_battery,45735.887,SWITCH,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2050,all,MWh
+no_tx_battery_hydro,29139.300000000003,SWITCH,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2050,all,MWh
+single_zone,1379692.9600000002,SWITCH,Western,Western_natural_gas_steam_turbine_1,Natural Gas,2050,all,MWh
+cap_only,0.0,SWITCH,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+greenfield,68181219.0161,SWITCH,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_battery,101487441.0162,SWITCH,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_tx,26249584.04,SWITCH,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_tx_battery,172262319.463,SWITCH,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_tx_battery_hydro,186345030.316,SWITCH,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+single_zone,0.0,SWITCH,Western,Western_naturalgas_ccavgcf_moderate_0,Natural Gas,2050,all,MWh
+cap_only,0.0,SWITCH,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+greenfield,0.0,SWITCH,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+no_battery,0.0,SWITCH,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+no_tx,0.0,SWITCH,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+single_zone,0.0,SWITCH,Western,Western_naturalgas_ccccsavgcf_conservative_0,CCS,2050,all,MWh
+cap_only,0.0,SWITCH,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+greenfield,2149819.07,SWITCH,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_battery,0.0,SWITCH,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_tx,0.0,SWITCH,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_tx_battery,1501831.97,SWITCH,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+no_tx_battery_hydro,3500930.8361,SWITCH,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+single_zone,0.0,SWITCH,Western,Western_naturalgas_ctavgcf_moderate_0,Natural Gas,2050,all,MWh
+cap_only,40908324.0,SWITCH,Western,Western_nuclear_1,Nuclear,2050,all,MWh
+no_battery,40908324.0,SWITCH,Western,Western_nuclear_1,Nuclear,2050,all,MWh
+no_tx,40908324.0,SWITCH,Western,Western_nuclear_1,Nuclear,2050,all,MWh
+no_tx_battery,40908324.0,SWITCH,Western,Western_nuclear_1,Nuclear,2050,all,MWh
+no_tx_battery_hydro,40908324.0,SWITCH,Western,Western_nuclear_1,Nuclear,2050,all,MWh
+single_zone,40908324.0,SWITCH,Western,Western_nuclear_1,Nuclear,2050,all,MWh
+cap_only,0.0,SWITCH,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+greenfield,0.0,SWITCH,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+no_battery,0.0,SWITCH,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+no_tx,0.0,SWITCH,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+single_zone,0.0,SWITCH,Western,Western_nuclear_nuclear_moderate_0,Nuclear,2050,all,MWh
+cap_only,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2050,all,MWh
+greenfield,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2050,all,MWh
+no_battery,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2050,all,MWh
+no_tx,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2050,all,MWh
+single_zone,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_1,Wind,2050,all,MWh
+cap_only,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2050,all,MWh
+greenfield,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2050,all,MWh
+no_battery,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2050,all,MWh
+no_tx,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2050,all,MWh
+single_zone,0.0,SWITCH,Western,Western_offshorewind_class12_moderate_floating_1_2,Wind,2050,all,MWh
+cap_only,77582978.64,SWITCH,Western,Western_onshore_wind_turbine_1,Wind,2050,all,MWh
+no_battery,77582978.64,SWITCH,Western,Western_onshore_wind_turbine_1,Wind,2050,all,MWh
+no_tx,77582978.64,SWITCH,Western,Western_onshore_wind_turbine_1,Wind,2050,all,MWh
+no_tx_battery,77582978.64,SWITCH,Western,Western_onshore_wind_turbine_1,Wind,2050,all,MWh
+no_tx_battery_hydro,77582978.64,SWITCH,Western,Western_onshore_wind_turbine_1,Wind,2050,all,MWh
+single_zone,77582978.64,SWITCH,Western,Western_onshore_wind_turbine_1,Wind,2050,all,MWh
+cap_only,78128986.871444,SWITCH,Western,Western_solar_photovoltaic_1,Solar,2050,all,MWh
+no_battery,78128986.871444,SWITCH,Western,Western_solar_photovoltaic_1,Solar,2050,all,MWh
+no_tx,78128986.871444,SWITCH,Western,Western_solar_photovoltaic_1,Solar,2050,all,MWh
+no_tx_battery,78128986.871444,SWITCH,Western,Western_solar_photovoltaic_1,Solar,2050,all,MWh
+no_tx_battery_hydro,78128986.871444,SWITCH,Western,Western_solar_photovoltaic_1,Solar,2050,all,MWh
+single_zone,78128986.871444,SWITCH,Western,Western_solar_photovoltaic_1,Solar,2050,all,MWh
+cap_only,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+greenfield,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+no_battery,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+no_tx,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+single_zone,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_1,Solar,2050,all,MWh
+cap_only,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+greenfield,276371359.0650216,SWITCH,Western,Western_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+no_battery,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+no_tx,219653781.0615949,SWITCH,Western,Western_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+single_zone,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_2,Solar,2050,all,MWh
+cap_only,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+greenfield,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+no_battery,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+no_tx,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+single_zone,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_3,Solar,2050,all,MWh
+cap_only,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+greenfield,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+no_battery,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+no_tx,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+single_zone,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_4,Solar,2050,all,MWh
+cap_only,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+greenfield,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+no_battery,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+no_tx,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+no_tx_battery,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+no_tx_battery_hydro,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+single_zone,0.0,SWITCH,Western,Western_utilitypv_class1_moderate_5,Solar,2050,all,MWh
+cap_only,546302775.1173298,SWITCH,Western,Western_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+greenfield,784650142.5353317,SWITCH,Western,Western_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+no_battery,444643583.05985796,SWITCH,Western,Western_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+no_tx,325980371.9666043,SWITCH,Western,Western_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+no_tx_battery,271564490.10218906,SWITCH,Western,Western_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+no_tx_battery_hydro,282953563.5953493,SWITCH,Western,Western_utilitypv_class1_moderate_6,Solar,2050,all,MWh
+single_zone,546302775.1173298,SWITCH,Western,Western_utilitypv_class1_moderate_6,Solar,2050,all,MWh
